@@ -1,0 +1,110 @@
+@import 'lib';
+
+.threads-container {
+    .info {
+        color: $earl-gray;
+        font-style: italic;
+    }
+}
+
+.thread-item {
+    border-radius: 10px;
+    border: 1px solid $seavan-salt-white;
+    margin-bottom: 10px;
+    overflow: hidden;
+
+    section {
+        padding: 10px;
+    }
+}
+
+.thread-header {
+    background-color: #fff;
+    overflow: hidden;
+    padding: 10px 0 0;
+    position: relative;
+
+    .addon-icon {
+        float: left;
+        height: 64px;
+        margin: 0 10px 0 0;
+        width: 64px;
+    }
+    .addon-name {
+        font-size: 15px;
+        margin-top: 6px;
+    }
+    .button.reply {
+        float: right;
+        margin-top: 20px;
+    }
+    .note-count {
+        font-size: 38px;
+        line-height: 42px;
+    }
+    .thread-meta {
+        float: left;
+        width: 70%;
+    }
+    .reply-text {
+        border: 1px solid $seavan-salt-white;
+        margin-top: 5px;
+        width: 100%;
+    }
+    .reply-box {
+        button {
+            cursor: pointer;
+            margin-top: 5px;
+            &.disabled {
+                opacity: .5;
+            }
+        }
+        &.hidden {
+            display: none;
+        }
+    }
+}
+
+.notes-container {
+    .note-detail {
+        border-bottom: 1px solid $seavan-salt-white;
+        padding: 5px;
+
+        img.author-gravatar {
+            float: left;
+            margin-right: 8px;
+        }
+
+        .author-name {
+            font-weight: bold;
+        }
+        &:last-of-type {
+            border-bottom: none;
+        }
+        .note-body {
+            border-radius: 5px;
+            border: 1px solid $seavan-salt-white;
+            color: #000;
+            margin-top: 3px;
+            padding: 5px;
+        }
+        .note-action {
+            font-weight: bold;
+            &.post {
+                color: $medium-gray;
+            }
+
+            &.approve {
+                color: $green;
+            }
+            &.disable,
+            &.reject {
+                color: $red;
+            }
+            &.need-info,
+            &.escalate {
+                color: $orange;
+            }
+        }
+    }
+}

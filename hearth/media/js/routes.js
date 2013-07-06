@@ -33,7 +33,10 @@ var routes = [
     {'pattern': '^/terms-of-use$', 'view_name': 'terms'},
 
     {'pattern': '^/tests$', 'view_name': 'tests'},
-    {'pattern': '^/debug$', 'view_name': 'debug'}
+    {'pattern': '^/debug$', 'view_name': 'debug'},
+
+    {'pattern': '^/comm$', 'view_name': 'comm'},
+    {'pattern': '^/comm/thread/([^/<>"\']+)$', 'view_name': 'show_thread'}
 ];
 
 dependencies = routes.map(function(i) {return 'views/' + i.view_name;});
