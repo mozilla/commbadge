@@ -64,6 +64,26 @@ define('helpers',
         return obj.reduce(function(mem, num) {return mem + num;}, 0);
     };
 
+    var gettext = l10n.gettext;
+
+    function note_action(note_type) {
+        var note_types = [
+            {'name': 'NO_ACTION', 'class': 'post', 'msg': gettext('Message')},
+            {'name': 'APPROVAL', 'class': 'approve', 'msg': gettext('App approved')},
+            {'name': 'REJECTION', 'class': 'reject', 'msg': gettext('App rejected')},
+            {'name': 'DISABLED', 'class': 'disable', 'msg': gettext('App disabled')},
+            {'name': 'MORE_INFO_REQUIRED', 'class': 'need-info', 'msg': gettext('More info required')},
+            {'name': 'ESCALATION', 'class': 'escalate', 'msg': gettext('Review escalated to senior reviewer')},
+            {'name': 'REVIEWER_COMMENT', 'class': 'comment', 'msg': gettext('Reviewer comment')}
+        ];
+
+        return note_types[note_type];
+    }
+
+    function gravatar(gravatar_hash, size) {
+        return 'http://www.gravatar.com/avatar/' + gravatar_hash + '?s=' + (size || 36);
+    }
+
     // Functions provided in the default context.
     var helpers = {
         api: require('urls').api.url,
@@ -88,7 +108,10 @@ define('helpers',
         app_incompat: apps.incompat,
 
         navigator: window.navigator,
-        language: window.navigator.l10n ? window.navigator.l10n.language : 'en-US'
+        language: window.navigator.l10n ? window.navigator.l10n.language : 'en-US',
+
+        note_action: note_action,
+        gravatar: gravatar
     };
 
     // Put the helpers into the nunjucks global.

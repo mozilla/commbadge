@@ -1,0 +1,8 @@
+{% include '_macros/thread.html' %}
+<section class="main">
+  {% defer (url=endpoint) %}
+    <div class="threads-container thread-detail-view">
+    {{ thread(response) }}
+    </div>
+  {% end %}
+</section>

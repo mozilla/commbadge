@@ -1,0 +1,13 @@
+{% include '_macros/thread.html' %}
+
+<section class="main">
+  <div class="threads-container">
+  {% defer (url=apiParams('threads', ordering='-modified'), pluck='objects') %}
+    {% for t in this %}
+      {{ thread(t) }}
+    {% endfor %}
+  {% empty %}
+    <h2>{{ _('You have no threads.') }}</h2>
+  {% end %}
+  </div>
+</section>
