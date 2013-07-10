@@ -1,0 +1,10 @@
+<div class="note-detail">
+  <div class="c">
+    <img class="author-gravatar" src="{{ gravatar(note.author_meta.gravatar_hash) }}">
+    {% set action = note_action(note.note_type) %}
+    <div class="note-action {{ action.class }}">{{ action.msg }}</div>
+    <span class="author-name">{{ note.author_meta.name }}</span>
+    <span class="info">{{ note.created|datetime }}</span>
+  </div>
+  <div class="note-body">{{ note.body|nl2br }}</div>
+</div>
