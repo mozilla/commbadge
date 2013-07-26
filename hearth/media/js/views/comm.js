@@ -8,13 +8,13 @@ define('views/comm',
 
     var postNote = function($text_elem) {
         var $threadItem = $text_elem.closest('.thread-item');
-        var thread_id = $threadItem.data('thread-id');
+        var threadId = $threadItem.data('thread-id');
         var data = {
             note_type: 0,
             body: $text_elem.val()
         };
 
-        requests.post(urls.api.url('notes', [thread_id]), data).done(function(data) {
+        requests.post(urls.api.url('notes', [threadId]), data).done(function(data) {
             var $threadElem = $threadItem.find('.thread-header');
 
             // Add a new note element.
@@ -65,13 +65,14 @@ define('views/comm',
     }).on('click', '.notes-filter', function(e) {
         var $this = $(this);
         var $threadItem = $this.closest('.thread-item');
-        var thread_id = $threadItem.data('thread-id');
+        var threadId = $threadItem.data('thread-id');
         var filterMode = $this.data('filter-mode');
         var params = {ordering: '-created', limit: 5};
 
         $('.notes-filter').removeClass('selected');
         $this.addClass('selected');
         $threadItem.data('notes-filter', filterMode);
+        $threadItem.data('notes-page', 1);
 
         switch (filterMode) {
             case 'read':
@@ -82,17 +83,60 @@ define('views/comm',
                 break;
         }
 
-        requests.get(urls.api.url('notes', [thread_id], params)).done(function(data) {
+        requests.get(urls.api.url('notes', [threadId], params)).done(function(data) {
             var markup = '';
-            data.objects.forEach(function(object) {
-                markup += nunjucks.env.getTemplate('comm/note_detail.html').render({note: object});
-            });
+            if (!data.meta.next) {
+                $threadItem.data('notes-page', -1);
+            }
+            if (data.objects.length) {
+                data.objects.forEach(function(object) {
+                    markup += nunjucks.env.getTemplate('comm/note_detail.html').render({note: object});
+                });
+            } else {
+                markup = '<p>' + gettext('No notes to show.') + '</p>';
+            }
             $threadItem.find('.notes-container').html(markup);
         });
 
+    }).on('click', '.view-older-notes', function(e) {
+        var $threadItem = $(this).closest('.thread-item');
+        var threadId = $threadItem.data('thread-id');
+        var filterMode = $threadItem.data('notes-filter');
+        var params = {ordering: '-created', limit: 5};
+        var pageNumber = $threadItem.data('notes-page');
+
+        if (pageNumber < 0) {
+            notification.notification({message: gettext('There are no more older notes.')});
+            return;
+        }
+        params.page = ++pageNumber;
+
+        switch (filterMode) {
+            case 'read':
+                params.show_read = '1';
+                break;
+            case 'unread':
+                params.show_read = '0';
+                break;
+            case 'recent':
+                break;
+        }
+
+        requests.get(urls.api.url('notes', [threadId], params)).done(function(data) {
+            var markup = '';
+            // Set pageNumber = negative value so we can identify if we have more results to load.
+            if (data.meta.next === null) {
+                pageNumber = -1;
+            }
+            data.objects.forEach(function(object) {
+                markup += nunjucks.env.getTemplate('comm/note_detail.html').render({note: object});
+            });
+            $threadItem.find('.notes-container').append(markup);
+            $threadItem.data('notes-page', pageNumber);
+        });
     });
 
     return function(builder) {
-        builder.start('comm/main.html', {notes_filter: 'recent'});
+        builder.start('comm/main.html', {notes_page: 1, notes_filter: 'recent'});
     };
 });
