@@ -1,5 +1,5 @@
 {% macro thread(t) %}
-  <div class="thread-item">
+  <div class="thread-item" data-notes-filter="{{ notes_filter }}" data-thread-id="{{ t.id }}" data-addon-id="{{ t.addon }}" data-version-id="{{ t.version }}">
     <section class="thread-header">
       <div class="thread-meta">
         <a href="{{ t.addon_meta.url }}">
@@ -9,12 +9,25 @@
           </div>
         </a>
         <h3 class="note-count" data-count="{{ t.notes_count }}">{{ _plural('{n} note', '{n} notes', n=t.notes_count) }}</h3>
+        <div class="filter-options-container">
+          <ul>
+            <li>
+              <a href="#show-recent-{{ t.id }}" class="notes-filter filter-recent selected" data-filter-mode="recent">{{ _('Recent') }}</a>
+            </li>
+            <li>
+              <a href="#show-unread-{{ t.id }}" class="notes-filter filter-unread" data-filter-mode="unread">{{ _('Unread') }}</a>
+            </li>
+            <li>
+              <a href="#show-read-{{ t.id }}" class="notes-filter filter-read" data-filter-mode="read">{{ _('Read') }}</a>
+            </li>
+          </ul>
+        </div>
       </div>
       <div class="c thread-action">
         <button class="button alt reply open-reply">{{ _('Respond') }}</button>
       </div>
       <div class="reply-box hidden">
-        <textarea data-thread-id="{{ t.id }}" data-addon-id="{{ t.addon }}" data-version-id="{{ t.version }}" placeholder="{{ _('Enter text here') }}" class="reply-text" rows="4" cols="80" name="body"></textarea>
+        <textarea placeholder="{{ _('Enter note text here') }}" class="reply-text" rows="4" cols="80" name="body"></textarea>
         <button class="button alt post disabled">{{ _('Post') }}</button>
       </div>
     </section>
