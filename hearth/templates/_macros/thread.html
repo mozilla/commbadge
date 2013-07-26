@@ -1,5 +1,5 @@
 {% macro thread(t) %}
-  <div class="thread-item" data-notes-filter="{{ notes_filter }}" data-thread-id="{{ t.id }}" data-addon-id="{{ t.addon }}" data-version-id="{{ t.version }}">
+  <div class="thread-item" data-notes-page="{{ notes_page }}" data-notes-filter="{{ notes_filter }}" data-thread-id="{{ t.id }}" data-addon-id="{{ t.addon }}" data-version-id="{{ t.version }}">
     <section class="thread-header">
       <div class="thread-meta">
         <a href="{{ t.addon_meta.url }}">
@@ -35,6 +35,9 @@
       {% for note in t.recent_notes %}
         {% include 'comm/note_detail.html' %}
       {% endfor %}
+    </section>
+    <section class="fixed-end">
+      <button class="button alt view-older-notes">{{ _('View older') }}</button>
     </section>
   </div>
 {% endmacro %}
