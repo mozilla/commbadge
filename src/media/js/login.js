@@ -89,7 +89,7 @@ define('login',
 
         requests.post(urls.api.url('login'), data).done(function(data) {
             var should_reload = !user.logged_in();
-            
+
             user.set_token(data.token, data.settings);
             user.update_permissions(data.permissions);
             console.log('Login succeeded, preparing the app');

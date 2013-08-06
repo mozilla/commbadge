@@ -30,7 +30,8 @@ require.config({
             //'tracking',
             'user',
             'views',
-            'z'
+            'z',
+            'header'
         ],
     function(_) {
         var log = require('log');
