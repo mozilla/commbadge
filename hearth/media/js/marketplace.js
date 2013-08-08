@@ -1,24 +1,18 @@
 // Do this last- initialize the marketplace!
-console.log('Mozilla(R) FP-MKT (R) 1.0');
-console.log('   (C)Copyright Mozilla Corp 1998-2013');
-console.log('');
-console.log('64K High Memory Area is available.');
+console.log('Starting commbadge...');
 
 require.config({
     enforceDefine: true,
     paths: {
-        'flipsnap': 'lib/flipsnap',
         'jquery': 'lib/jquery-2.0.2',
         'underscore': 'lib/underscore',
         'nunjucks': 'lib/nunjucks',
         'nunjucks.compat': 'lib/nunjucks.compat',
         'templates': '../../templates',
         'settings': ['settings_local', 'settings'],
-        'stick': 'lib/stick',
         'format': 'lib/format'
     },
     shim: {
-        'flipsnap': {exports: 'Flipsnap'},
         'jquery': {exports: 'jQuery'},
         'underscore': {exports: '_'}
     }
@@ -31,28 +25,20 @@ require.config({
         [
             'underscore',
             'helpers',  // Must come before mostly everything else.
-            'buttons',
             'capabilities',
-            'cat-dropdown',
             'forms',
             'header',
-            'install',
             'l10n',
-            'lightbox',
             'log',
             'login',
-            'mobilenetwork',
             'navigation',
             'outgoing_links',
             'overlay',
-            'previews',
-            'ratings',
             'settings',
             'storage',
             'templates',
             'tracking',
             'user',
-            'webactivities',
             'z'
         ],
     function(_) {
@@ -84,28 +70,6 @@ require.config({
                 }
             });
         }
-
-        var get_installed = function() {
-            if (!capabilities.webApps) {
-                return;
-            }
-            z.apps = {};
-            z.state.mozApps = {};
-            // Get list of installed apps and mark as such.
-            var r = navigator.mozApps.getInstalled();
-            r.onsuccess = function() {
-                _.each(r.result, function(val) {
-                    var url = val.manifestURL.split('?')[0];
-                    z.apps[url] = z.state.mozApps[url] = val;
-                    z.win.trigger('app_install_success',
-                                  [val, {'manifest_url': url}, false]);
-                });
-            };
-        };
-        var get_installed_debounced = _.debounce(get_installed, 2000, true);  // Immediate so there's no delay.
-
-        z.page.on('loaded', get_installed);
-        z.page.on('fragment_loaded loaded_more', get_installed_debounced);
 
         // Do some last minute template compilation.
         z.page.on('reload_chrome', function() {

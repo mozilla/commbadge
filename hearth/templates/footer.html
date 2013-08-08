@@ -4,13 +4,9 @@
   </div>
   <div class="group links">
     <a href="/developers/">{{ _('Developer Hub') }}</a>
-    <a href="#" class="submit-feedback">{{ _('Feedback') }}</a>
     <a href="https://support.mozilla.org/products/firefox-os/marketplace" target="_blank">{{ _('Support') }}</a>
   </div>
   <div class="language group links">
-    <a href="{{ url('settings') }}" class="region region-{{ user.get_setting('region', 'worldwide') }}">
-      {{ REGIONS[user.get_setting('region', 'worldwide')] }}</a>
-    <a href="{{ url('purchases') }}">{{ _('My Apps') }}</a>
     {% if user.get_permission('developer') %}
       <a href="/developers/submissions">{{ _('My Submissions') }}</a>
     {% endif %}
@@ -31,9 +27,9 @@
            cc_url='http://creativecommons.org/licenses/by-sa/3.0/') }}
     </p>
     <ul>
-      <li><a href="{{ url('privacy') }}">{{ _('Privacy Policy') }}</a></li>
-      <li><a href="{{ url('terms') }}">{{ _('Terms of Use') }}</a></li>
-      <li><a href="http://mozilla.com/legal/fraud-report/index.html" target="_blank">
+      <li><a href="/privacy-policy">{{ _('Privacy Policy') }}</a></li>
+      <li><a href="/terms-of-use">{{ _('Terms of Use') }}</a></li>
+      <li><a href="https://www.mozilla.org/legal/fraud-report/index.html" target="_blank">
         {{ _('Report Trademark Abuse') }}</a></li>
     </ul>
   </div>
