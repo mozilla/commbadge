@@ -13,28 +13,10 @@ define('settings', ['l10n', 'settings_local', 'underscore'], function(l10n, sett
         fragment_error_template: 'errors/fragment.html',
         pagination_error_template: 'errors/pagination.html',
 
-        payments_enabled: true,
         tracking_enabled: false,
         action_tracking_enabled: true,
-        upsell_enabled: true,
-        newsletter_enabled: false,
 
         tracking_id: 'UA-36116321-6',
-
-        REGION_CHOICES_SLUG: {
-            'worldwide': gettext('Worldwide'),
-            'br': gettext('Brazil'),
-            'co': gettext('Colombia'),
-            'me': gettext('Montenegro'),
-            'pl': gettext('Poland'),
-            'rs': gettext('Serbia'),
-            'es': gettext('Spain'),
-            'uk': gettext('United Kingdom'),
-            'us': gettext('United States'),
-            've': gettext('Venezuela')
-        },
-
-        timing_url: '',  // TODO: figure this out
 
         persona_unverified_issuer: 'login.persona.org',
 
