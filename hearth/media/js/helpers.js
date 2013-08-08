@@ -1,6 +1,6 @@
 define('helpers',
-       ['apps', 'l10n', 'nunjucks', 'underscore', 'utils', 'format', 'settings', 'urls', 'user'],
-       function(apps, l10n, nunjucks, _, utils) {
+       ['l10n', 'nunjucks', 'underscore', 'utils', 'format', 'settings', 'urls', 'user'],
+       function(l10n, nunjucks, _, utils) {
 
     var SafeString = nunjucks.require('runtime').SafeString;
     var filters = nunjucks.require('filters');
@@ -104,8 +104,6 @@ define('helpers',
         range: _.range,
 
         REGIONS: require('settings').REGION_CHOICES_SLUG,
-
-        app_incompat: apps.incompat,
 
         navigator: window.navigator,
         language: window.navigator.l10n ? window.navigator.l10n.language : 'en-US',

@@ -1,6 +1,6 @@
 define('views/debug',
-    ['buckets', 'cache', 'capabilities', 'log', 'notification', 'requests', 'settings', 'storage', 'utils', 'z'],
-    function(buckets, cache, capabilities, log, notification, requests, settings, storage, utils, z) {
+    ['cache', 'capabilities', 'log', 'notification', 'requests', 'settings', 'storage', 'utils', 'z'],
+    function(cache, capabilities, log, notification, requests, settings, storage, utils, z) {
     'use strict';
 
     var label = $(document.getElementById('debug-status'));
@@ -18,7 +18,6 @@ define('views/debug',
             logs: log.all,
             persistent_logs: log.persistent.all,
             capabilities: capabilities,
-            profile: buckets.get_profile(),
             settings: settings,
             report_version: 1.0
         })};
@@ -36,7 +35,6 @@ define('views/debug',
         builder.start('debug.html', {
             cache: cache.raw,
             capabilities: capabilities,
-            profile: buckets.get_profile(),
             recent_logs: recent_logs,
             persistent_logs: log.persistent.all,
             filter: log.filter

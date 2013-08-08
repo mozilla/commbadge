@@ -6,10 +6,6 @@ define('login',
 
     function flush_caches() {
         // We need to flush the global cache
-        var cat_url = urls.api.url('categories');
-        cache.purge(function(key) {return key != cat_url;});
-
-        models('app').purge();
     }
 
     function signOutNotification() {
