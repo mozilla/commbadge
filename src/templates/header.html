@@ -1,0 +1,19 @@
+<nav role="navigation">
+  <a href="#" id="nav-back" class="header-button icon back" title="{{ _('Back') }}"><b>{{ _('Back') }}</b></a>
+  <h1 class="site"><a href="/"><span class="wordmark">Firefox Marketplace</span></a></h1>
+  <span class="flex-shift"></span>
+  <span class="flex-span"></span>
+  <div class="act-tray">
+    <a href="/settings/" class="header-button icon settings" title="{{ _('Settings') }}"></a>
+    <div class="account-links only-logged-in">
+      <ul>
+        <li>
+          <a href="/settings/">
+            <b>{{ user.get_setting('email') }}</b>
+            {{ _('Edit Account Settings') }}</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <a href="#" class="header-button persona">{{ _('Sign In') }}</a>
+</nav>
