@@ -1,3 +1,0 @@
-define('rewriters', [], function() {
-    return [];
-});
