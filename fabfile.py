@@ -9,13 +9,13 @@ import deploysettings as settings
 env.key_filename = settings.SSH_KEY
 fabdeploytools.envs.loadenv(os.path.join('/etc/deploytools/envs',
                                          settings.CLUSTER))
-FIREPLACE = os.path.dirname(__file__)
-ROOT = os.path.dirname(FIREPLACE)
+COMMBADGE = os.path.dirname(__file__)
+ROOT = os.path.dirname(COMMBADGE)
 
 
 @task
 def pre_update(ref):
-    with lcd(FIREPLACE):
+    with lcd(COMMBADGE):
         local('git fetch')
         local('git fetch -t')
         local('git reset --hard %s' % ref)
@@ -23,7 +23,7 @@ def pre_update(ref):
 
 @task
 def update():
-    with lcd(FIREPLACE):
+    with lcd(COMMBADGE):
         local('npm install')
         local('make includes')
 
@@ -37,15 +37,15 @@ def _install_package(rpmbuild):
 
 @task
 def deploy():
-    with lcd(FIREPLACE):
+    with lcd(COMMBADGE):
         ref = local('git rev-parse HEAD', capture=True)
 
-    rpmbuild = RPMBuild(name='fireplace',
+    rpmbuild = RPMBuild(name='commbadge',
                         env=settings.ENV,
                         ref=ref,
                         cluster=settings.CLUSTER,
                         domain=settings.DOMAIN)
-    rpmbuild.build_rpm(ROOT, ['fireplace'])
+    rpmbuild.build_rpm(ROOT, ['commbadge'])
 
     execute(_install_package, rpmbuild)
 
