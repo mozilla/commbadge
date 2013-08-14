@@ -1,6 +1,6 @@
 define('views/comm',
-    ['l10n', 'z', 'urls', 'requests', 'nunjucks', 'notification', 'storage'],
-    function(l10n, z, urls, requests, nunjucks, notification, storage) {
+    ['cache', 'l10n', 'notification', 'nunjucks', 'requests', 'storage', 'urls', 'z'],
+    function(cache, l10n, notification, nunjucks, requests, storage, urls, z) {
     'use strict';
 
     var gettext = l10n.gettext;
@@ -69,8 +69,6 @@ define('views/comm',
         var filterMode = $this.data('filter-mode');
         var params = {ordering: '-created', limit: 5};
 
-        $('.notes-filter').removeClass('selected');
-        $this.addClass('selected');
         $threadItem.data('notes-filter', filterMode);
         $threadItem.data('notes-page', 1);
 
@@ -83,23 +81,31 @@ define('views/comm',
                 break;
         }
 
-        requests.get(urls.api.url('notes', [threadId], params)).done(function(data) {
+        var url = urls.api.url('notes', [threadId], params);
+        requests.get(url, true).done(function(data) {
             var markup = '';
+            $threadItem.find('.notes-filter').removeClass('selected');
+            $this.addClass('selected');
+
             if (!data.meta.next) {
+                $threadItem.find('.view-older-notes').hide();
                 $threadItem.data('notes-page', -1);
+            } else {
+                $threadItem.find('.view-older-notes').show();
             }
             if (data.objects.length) {
                 data.objects.forEach(function(object) {
                     markup += nunjucks.env.getTemplate('comm/note_detail.html').render({note: object});
                 });
             } else {
-                markup = '<p>' + gettext('No notes to show.') + '</p>';
+                markup = '<div>' + gettext('No notes to show.') + '</div>';
             }
             $threadItem.find('.notes-container').html(markup);
         });
 
     }).on('click', '.view-older-notes', function(e) {
-        var $threadItem = $(this).closest('.thread-item');
+        var $this = $(this);
+        var $threadItem = $this.closest('.thread-item');
         var threadId = $threadItem.data('thread-id');
         var filterMode = $threadItem.data('notes-filter');
         var params = {ordering: '-created', limit: 5};
@@ -126,6 +132,7 @@ define('views/comm',
             var markup = '';
             // Set pageNumber = negative value so we can identify if we have more results to load.
             if (data.meta.next === null) {
+                $this.hide();
                 pageNumber = -1;
             }
             data.objects.forEach(function(object) {
@@ -133,6 +140,46 @@ define('views/comm',
             });
             $threadItem.find('.notes-container').append(markup);
             $threadItem.data('notes-page', pageNumber);
+        });
+
+    }).on('click', '.mark-note-read', function(e) {
+        var $this = $(this);
+        var $noteItem = $this.closest('.note-detail');
+        var noteId = $noteItem.data('note-id');
+        var $threadItem = $this.closest('.thread-item');
+        var threadId = $threadItem.data('thread-id');
+
+        requests.patch(urls.api.url('note', [threadId, noteId]), {is_read: true})
+        .done(function(data) {
+            $this.remove();
+            $noteItem.removeClass('unread');
+            $noteItem.addClass('read');
+
+            if ($threadItem.data('notes-filter') === 'unread') {
+                $noteItem.remove();
+            }
+
+        }).fail(function(err) {
+            notification.notification({message: gettext('There was some problem marking the note as read. Try again.')});
+        });
+
+    }).on('click', '.mark-thread-read', function(e) {
+        var $this = $(this);
+        var $threadItem = $this.closest('.thread-item');
+        var threadId = $threadItem.data('thread-id');
+
+        requests.patch(urls.api.url('thread', [threadId]), {is_read: true}).done(function(data) {
+            var filterMode = $threadItem.data('notes-filter');
+            if (filterMode === 'unread') {
+                $threadItem.find('.note-detail.unread').remove();
+                $threadItem.find('.notes-container').html('<div>' + gettext('No notes to show.') + '</div>');
+            } else {
+                $threadItem.find('.note-detail.unread').removeClass('unread');
+                $threadItem.find('.mark-note-read').remove();
+            }
+
+        }).fail(function(err) {
+            notification.notification({message: gettext('There was some problem marking the thread as read. Try again.')});
         });
     });
 

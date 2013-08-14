@@ -1,4 +1,21 @@
 @import 'lib';
+@import 'listing';
+
+tick() {
+    background: url(../img/tick-gray.svg?1376418414706) no-repeat;
+    background-size: 17px auto;
+    content: '';
+    cursor: pointer;
+    display: block;
+    height: 12px;
+    margin-right: 5px;
+    width: 17px;
+
+    &:hover {
+        background: url(../img/tick-blue.svg?1376418414706) no-repeat;
+        background-size: 17px auto;
+    }
+}
 
 .threads-container {
     .info {
@@ -12,16 +29,13 @@
     border: 1px solid $seavan-salt-white;
     margin-bottom: 10px;
     overflow: hidden;
-
-    section {
-        padding: 10px;
-    }
 }
 
 .thread-header {
     background-color: #fff;
+    border-bottom: 1px solid $seavan-salt-white;
     overflow: hidden;
-    padding: 10px 0 0;
+    padding: 10px;
     position: relative;
 
     .addon-icon {
@@ -35,7 +49,7 @@
         margin-top: 6px;
     }
     .button.reply {
-        float: right;
+        display: block;
         margin-top: 20px;
     }
     .note-count {
@@ -76,13 +90,28 @@
             list-style: none;
         }
     }
+    .thread-action {
+        float: right;
+    }
+    .mark-thread-read {
+        tick();
+        float: right;
+        margin-top: 15px;
+    }
+
 }
 
 .notes-container {
+    padding: 0 !important;
+    & > div {
+        padding: 10px;
+    }
     .note-detail {
         border-bottom: 1px solid $seavan-salt-white;
-        padding: 5px;
 
+        &.unread {
+            background-color: lighten(blue, 98%);
+        }
         img.author-gravatar {
             float: left;
             margin-right: 8px;
@@ -95,7 +124,6 @@
             border-bottom: none;
         }
         .note-body {
-            border-radius: 5px;
             border: 1px solid $seavan-salt-white;
             color: #000;
             margin-top: 3px;
@@ -118,10 +146,13 @@
                 color: $orange;
             }
         }
+        .mark-note-read {
+            tick();
+            float: right;
+        }
     }
-}
-
-.fixed-end .view-older-notes {
-    display: block;
-    margin: 0 auto;
+    .view-older-notes {
+        display: block;
+        margin: 0 auto;
+    }
 }
