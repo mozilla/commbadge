@@ -61,11 +61,11 @@ define('utils', ['jquery', 'underscore'], function($, _) {
         return url.split('?')[0];
     }
 
-    function encodeURIComponent() {
+    function encodeURIComponent(uri) {
         return window.encodeURIComponent(uri).replace(/%20/g, '+');
     }
 
-    function decodeURIComponent() {
+    function decodeURIComponent(uri) {
         return window.decodeURIComponent(uri.replace(/\+/g, ' '));
     }
 
