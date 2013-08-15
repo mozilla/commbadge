@@ -2,8 +2,8 @@
 @import 'listing';
 
 tick() {
-    background: url(../img/tick-gray.svg?1376418414706) no-repeat;
     background-size: 17px auto;
+    background: url(../img/tick-gray.svg?1376418414706) no-repeat;
     content: '';
     cursor: pointer;
     display: block;
@@ -12,8 +12,8 @@ tick() {
     width: 17px;
 
     &:hover {
-        background: url(../img/tick-blue.svg?1376418414706) no-repeat;
         background-size: 17px auto;
+        background: url(../img/tick-blue.svg?1376418414706) no-repeat;
     }
 }
 
@@ -50,7 +50,7 @@ tick() {
     }
     .button.reply {
         display: block;
-        margin-top: 20px;
+        margin: 20px 0 5px 0;
     }
     .note-count {
         font-size: 38px;
@@ -68,7 +68,7 @@ tick() {
     .reply-box {
         button {
             cursor: pointer;
-            margin-top: 5px;
+            margin: 5px 0 5px 0;
             &.disabled {
                 opacity: .5;
             }
@@ -78,13 +78,20 @@ tick() {
         }
     }
     .filter-options-container {
-        margin-top: 10px;
+        margin-top: 15px;
 
+        a {
+            color: lighten($medium-gray, 50%);
+        }
         a.selected {
-            color: $medium-gray;
+            border-radius: 3px;
+            box-shadow: 0px 4px 5px darken($faint-gray, 10%) inset;
+            color: #666;
+            padding: 12px;
         }
         li {
             display: inline;
+            position: relative;
         }
         ul {
             list-style: none;
@@ -94,15 +101,16 @@ tick() {
         float: right;
     }
     .mark-thread-read {
-        tick();
         float: right;
-        margin-top: 15px;
+        margin-top: 5px;
+        tick();
     }
 
 }
 
 .notes-container {
-    padding: 0 !important;
+    padding: 0;
+
     & > div {
         padding: 10px;
     }
@@ -147,8 +155,8 @@ tick() {
             }
         }
         .mark-note-read {
-            tick();
             float: right;
+            tick();
         }
     }
     .view-older-notes {

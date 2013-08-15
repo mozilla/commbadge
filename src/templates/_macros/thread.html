@@ -9,27 +9,30 @@
           </div>
         </a>
         <h3 class="note-count" data-count="{{ t.notes_count }}">{{ _plural('{n} note', '{n} notes', n=t.notes_count) }}</h3>
-        <div class="filter-options-container">
-          <ul>
-            <li>
-              <a href="#show-recent-{{ t.id }}" class="notes-filter filter-recent selected" data-filter-mode="recent">{{ _('Recent') }}</a>
-            </li>
-            <li>
-              <a href="#show-unread-{{ t.id }}" class="notes-filter filter-unread" data-filter-mode="unread">{{ _('Unread') }}</a>
-            </li>
-            <li>
-              <a href="#show-read-{{ t.id }}" class="notes-filter filter-read" data-filter-mode="read">{{ _('Read') }}</a>
-            </li>
-          </ul>
-        </div>
       </div>
       <div class="thread-action">
         <button class="button alt reply open-reply">{{ _('Respond') }}</button>
-        <b title="{{ _('Mark All Read') }}" class="mark-thread-read tick c"></b>
       </div>
       <div class="reply-box hidden">
         <textarea placeholder="{{ _('Enter note text here') }}" class="reply-text" rows="4" cols="80" name="body"></textarea>
         <button class="button alt post disabled">{{ _('Post') }}</button>
+      </div>
+      <div class="c"></div>
+      <div class="filter-options-container">
+        <ul>
+          <li>
+            <a href="#show-recent-{{ t.id }}" class="notes-filter filter-recent selected" data-filter-mode="recent">{{ _('Recent') }}</a>
+          </li>
+          <li>
+            <a href="#show-unread-{{ t.id }}" class="notes-filter filter-unread" data-filter-mode="unread">{{ _('Unread') }}</a>
+          </li>
+          <li>
+            <a href="#show-read-{{ t.id }}" class="notes-filter filter-read" data-filter-mode="read">{{ _('Read') }}</a>
+          </li>
+          <li>
+            <b title="{{ _('Mark All Read') }}" class="mark-thread-read tick"></b>
+          </li>
+        </ul>
       </div>
     </section>
     <section class="notes-container">
