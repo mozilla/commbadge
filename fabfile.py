@@ -25,7 +25,8 @@ def pre_update(ref):
 def update():
     with lcd(COMMBADGE):
         local('npm install')
-        local('make includes')
+        local('npm install -g commonplace')
+        local('commonplace includes')
 
 
 @task
