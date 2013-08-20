@@ -43,14 +43,14 @@ define('views/comm',
 
     z.page.on('click', '.reply.button.open-reply', function(e) {
         var $this = $(this);
-        $(this).parent().siblings('.reply-box').removeClass('hidden');
+        $this.closest('.thread-header').find('.reply-box').removeClass('hidden');
         $this.removeClass('open-reply')
              .addClass('close-reply')
              .html(gettext('Cancel reply'));
 
     }).on('click', '.reply.button.close-reply', function(e) {
         var $this = $(this);
-        $this.parent().siblings('.reply-box').addClass('hidden');
+        $this.closest('.thread-header').find('.reply-box').addClass('hidden');
         $this.removeClass('close-reply')
              .addClass('open-reply')
              .html(gettext('Respond'));

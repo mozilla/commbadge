@@ -1,23 +1,24 @@
 {% macro thread(t) %}
   <div class="thread-item" data-notes-page="{{ notes_page }}" data-notes-filter="{{ notes_filter }}" data-thread-id="{{ t.id }}" data-addon-id="{{ t.addon }}" data-version-id="{{ t.version }}">
     <section class="thread-header">
-      <div class="thread-meta">
-        <a href="{{ t.addon_meta.url }}">
-          <img class="addon-icon" src="{{ t.addon_meta.thumbnail_url }}">
-          <div class="addon-name">
-            {{ t.addon_meta.name }}
-          </div>
-        </a>
-        <h3 class="note-count" data-count="{{ t.notes_count }}">{{ _plural('{n} note', '{n} notes', n=t.notes_count) }}</h3>
-      </div>
-      <div class="thread-action">
-        <button class="button alt reply open-reply">{{ _('Respond') }}</button>
+      <div class="c">
+        <div class="thread-meta">
+          <a href="{{ t.addon_meta.url }}">
+            <img class="addon-icon" src="{{ t.addon_meta.thumbnail_url }}">
+            <div class="addon-name">
+              {{ t.addon_meta.name }}
+            </div>
+          </a>
+          <h3 class="note-count" data-count="{{ t.notes_count }}">{{ _plural('{n} note', '{n} notes', n=t.notes_count) }}</h3>
+        </div>
+        <div class="thread-action">
+          <button class="button alt reply open-reply">{{ _('Respond') }}</button>
+        </div>
       </div>
       <div class="reply-box hidden">
         <textarea placeholder="{{ _('Enter note text here') }}" class="reply-text" rows="4" cols="80" name="body"></textarea>
         <button class="button alt post disabled">{{ _('Post') }}</button>
       </div>
-      <div class="c"></div>
       <div class="filter-options-container">
         <ul>
           <li>
