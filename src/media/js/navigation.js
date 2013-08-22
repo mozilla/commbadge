@@ -62,6 +62,10 @@ define('navigation',
             return;
         }
 
+        if (!view[1] && initialized) {
+            window.location.href = href;
+        }
+
         views.build(view[0], view[1], state.params);
         if (initialized) {
             z.win.trigger('navigating', [popped]);
