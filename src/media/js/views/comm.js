@@ -50,7 +50,7 @@ define('views/comm',
 
     }).on('click', '.reply.button.close-reply', function(e) {
         var $this = $(this);
-        $this.closest('.thread-header').find('.reply-box').addClass('hidden');
+        $this.closest('.thread-header').find('.reply-box').addClass('hidden').find('textarea').val('');
         $this.removeClass('close-reply')
              .addClass('open-reply')
              .html(gettext('Respond'));
