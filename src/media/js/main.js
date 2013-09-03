@@ -64,10 +64,17 @@ require.config({
         z.page.on('reload_chrome', function() {
             console.log('Reloading chrome');
             var context = {z: z};
+
             $('#site-header').html(
                 nunjucks.env.getTemplate('header.html').render(context));
             $('#site-footer').html(
                 nunjucks.env.getTemplate('footer.html').render(context));
+
+            // Navigate to the hash if necessary.
+            var hash = window.location.hash;
+            if (hash.indexOf('show-read') !== -1 || hash.indexOf('show-unread') !== -1) {
+                $('.notes-filter[href="' + hash + '"]').trigger('click');
+            }
 
             z.body.toggleClass('logged-in', require('user').logged_in());
             z.page.trigger('reloaded_chrome');
@@ -82,7 +89,9 @@ require.config({
         // Perform initial navigation.
         console.log('Triggering initial navigation');
         if (!z.spaceheater) {
-            z.page.trigger('navigate', [window.location.pathname + window.location.search]);
+            z.page.trigger('navigate', [window.location.pathname +
+                                        window.location.search +
+                                        window.location.hash]);
         } else {
             z.page.trigger('loaded');
         }
