@@ -34,13 +34,15 @@ require.config({
             'header'
         ],
     function(_) {
+        var capabilities = require('capabilities');
         var log = require('log');
+        var nunjucks = require('templates');
+        var urls = require('urls');
+        var user = require('user');
+        var z = require('z');
+
         var console = log('main');
         console.log('Dependencies resolved, starting init');
-
-        var capabilities = require('capabilities');
-        var nunjucks = require('templates');
-        var z = require('z');
 
         nunjucks.env.dev = true;
 
@@ -76,9 +78,17 @@ require.config({
                 $('.notes-filter[href="' + hash + '"]').trigger('click');
             }
 
-            z.body.toggleClass('logged-in', require('user').logged_in());
+            z.body.toggleClass('logged-in', user.logged_in());
             z.page.trigger('reloaded_chrome');
         }).trigger('reload_chrome');
+
+        z.page.on('logged_in', function() {
+            z.page.trigger('navigate', [urls.reverse('comm')]);
+        });
+
+        z.page.on('logged_out', function() {
+            z.page.trigger('navigate', [urls.reverse('login')]);
+        });
 
         z.body.on('click', '.site-header .back', function(e) {
             e.preventDefault();
@@ -88,7 +98,9 @@ require.config({
 
         // Perform initial navigation.
         console.log('Triggering initial navigation');
-        if (!z.spaceheater) {
+        if (!user.logged_in()) {
+            z.page.trigger('navigate', [urls.reverse('login')]);
+        } else if (!z.spaceheater) {
             z.page.trigger('navigate', [window.location.pathname +
                                         window.location.search +
                                         window.location.hash]);
