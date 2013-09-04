@@ -37,6 +37,7 @@ define('login',
         // gets fixed.
         if (!z.context.dont_reload_on_login) {
             require('views').reload().done(function(){
+                z.page.trigger('logged_out');
                 signOutNotification();
             });
         } else {
