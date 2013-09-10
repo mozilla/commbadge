@@ -6,6 +6,7 @@ define('views/comm',
     var gettext = l10n.gettext;
     var ngettext = l10n.ngettext;
 
+    var postNoteEnabled = true;  // Wait till request finish before post again.
     var postNote = function($text_elem) {
         var $threadItem = $text_elem.closest('.thread-item');
         var threadId = $threadItem.data('thread-id');
@@ -14,6 +15,8 @@ define('views/comm',
             body: $text_elem.val()
         };
 
+        var def = $.Deferred();
+        postNoteEnabled = false;
         requests.post(urls.api.url('notes', [threadId]), data).done(function(data) {
             var $threadElem = $threadItem.find('.thread-header');
 
@@ -30,15 +33,23 @@ define('views/comm',
             $threadElem.find('.reply.button.close-reply')
                        .removeClass('close-reply')
                        .addClass('open-reply')
-                       .html(gettext('Respond'));
+                       .html(gettext('Reply'));
 
             $text_elem.siblings('button.post').addClass('disabled');
             $text_elem.val('');
 
+            postNoteEnabled = true;
+            notification.notification({message: gettext('Message sent.')});
+            def.resolve();
+
         }).fail(function() {
+            postNoteEnabled = true;
             notification.notification({message: gettext('Message sending failed.')});
             console.warn('Failed while trying to send the message');
+            def.reject();
         });
+
+        return def;
     };
 
     z.page.on('click', '.reply.button.open-reply', function(e) {
@@ -53,14 +64,19 @@ define('views/comm',
         $this.closest('.thread-header').find('.reply-box').addClass('hidden').find('textarea').val('');
         $this.removeClass('close-reply')
              .addClass('open-reply')
-             .html(gettext('Respond'));
+             .html(gettext('Reply'));
 
     }).on('keyup', '.reply-text', function(e) {
         var $this = $(this);
         $this.siblings('button.post').toggleClass('disabled', !$this.val().length);
 
     }).on('click', 'button.post', function(e) {
-        postNote($(this).siblings('.reply-text'));
+        var replyBox = $(this).closest('.thread-header').find('.reply-box').addClass('hidden');
+        if (postNoteEnabled) {
+            postNote($(this).siblings('.reply-text')).done(function() {
+                replyBox.val('');
+            });
+        }
 
     }).on('click', '.notes-filter', function(e) {
         var $this = $(this);
