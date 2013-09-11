@@ -52,6 +52,7 @@ define('login',
         pending_logins.push(def);
 
         var opt = {
+            siteLogo: settings.persona_site_logo,
             termsOfService: '/terms-of-use',
             privacyPolicy: '/privacy-policy',
             oncancel: function() {
