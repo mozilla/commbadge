@@ -37,3 +37,4 @@ src/media/include.css
 src/media/include.js
 src/media/js/include.js
 src/templates.js
+settings_local.js
