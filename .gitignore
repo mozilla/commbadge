@@ -31,6 +31,7 @@ yulelog_*
 settings_local.py
 
 src/locales/*
+src/media/locales/*
 src/media/css/include.css
 src/media/include.css
 src/media/include.js
