@@ -30,7 +30,6 @@ yulelog_*
 .node-version
 settings_local.py
 
-locale/
 src/locales/*
 src/media/css/include.css
 src/media/include.css
