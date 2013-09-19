@@ -15,19 +15,6 @@
     display: none;
 }
 
-.emaillink-wrapper {
-    /* Necessary when emaillink is in a paragraph. */
-    display: inline-block;
-}
-
-span.emaillink {
-    direction: rtl;
-    unicode-bidi: bidi-override;
-    .i {
-        display: none;
-    }
-}
-
 noscript {
     background: $salt-flat-white;
     display: table;
@@ -35,6 +22,7 @@ noscript {
     position: absolute;
     width: 100%;
     z-index: 10000;
+
     p {
         background: url(../img/pretty/marketplace_logo.png) 50% 48% no-repeat;
         background-size: auto 60px;
@@ -50,27 +38,27 @@ noscript {
 a {
     text-decoration: none;
     color: $sailor-blue;
+
     &:hover {
         text-decoration: underline;
     }
 }
 
 body {
-    background: $salt-flat-white;
+    background: $seavan-salt-white;
     color: $castle-skull-gray;
     // min-height needed so ff b2g/android can scroll to 0 (bug 872622).
     min-height: 300px;
     overflow-x: hidden;
-    transform-origin: 50% 400px;
-    transition: transform 1s;
-    -webkit-transition: -webkit-transform 1s;
 }
 
 #site-header, #page {
     min-width: 320px;
+
     section.main {
         margin-left: auto;
         margin-right: auto;
+
         &:after {
             content: '';
             display: block;
@@ -78,6 +66,7 @@ body {
         }
         &.full {
             width: 100%;
+
             > div {
                 margin-left: auto;
                 margin-right: auto;
@@ -88,26 +77,109 @@ body {
 
 #page {
     position: relative;
+
+    > .overlay {
+        max-width: 100%;
+    }
+}
+
+.alert {
+    background: $swiss-cheese-yellow;
+    border: 1px solid $pineapple-yellow;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+
+    h1 {
+        font-size: 1.1em;
+        font-weight: bold;
+        margin: 0;
+    }
 }
 
 .row {
     clear: both;
+    padding: 1em 0;
+    width: 100%;
+
+    > * {
+        display: block;
+        float: left;
+    }
+
+    > :last-child {
+        clear: right;
+    }
+
+    &.gutter {
+        padding: 1em;
+
+        > *:not(:last-child) {
+            padding-right: 1em;
+        }
+    }
+
+    .full {width: 100%;}
+    .half {width: 50%;}
+    .third {width: 33.333%;}
+    .two-thirds {width: 66.666%;}
+    .quarter {width: 25%;}
+}
+
+.well, section.group {
+    background: #fff;
+    box-shadow: 0 1px 1px $cement-gray;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+span.label {
+    border-radius: 0.25em;
+    color: #fff;
+    display: inline-block;
+    line-height: 1em;
+    margin-right: 0.5em;
+    padding: 0.25em 0.5em;
+    text-shadow: 0 0 3px #000;
+}
+
+section.group {
+    overflow: hidden;
+    padding: 0;
+
+    h1, h2, h3 {
+        background: $refreshing-white;
+        border-bottom: 1px solid $seavan-salt-white;
+        font-size: 1em;
+        margin-bottom: 10px;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+    }
+
+    > * {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    > p {
+        margin-bottom: 1em;
+    }
 }
 
 .detailed-error, .fragment-error {
     background: #fff;
-}
-
-.detailed-error {
-    padding: 15px;
-}
-
-.fragment-error {
     display: block;
     padding: 15px;
+
     b {
         display: block;
     }
+}
+
+main {
+    margin: 0 auto;
+    max-width: 1024px;
 }
 
 .main {
@@ -116,19 +188,11 @@ body {
         padding: 0;
     }
 }
-#page > .overlay {
-    max-width: 100%;
-}
-
-#offline-pixel {
-    display: none;
-    width: 1px;
-    height: 1px;
-}
 
 .two-up {
     width: 50%;
     float: left;
+
     &:nth-child(2n+1) {
         padding: 0 5px 0 0;
     }
@@ -140,24 +204,17 @@ body {
     }
 }
 
-#site-footer {
-    display: none;
+
+.only-logged-in,
+.logged-in .only-logged-out,
+.only-rocketfuel-disabled {
+    display: none !important;
 }
 
-.only-logged-in {
-    display: none;
-}
-
-.only-logged-out {
-    display: block;
-}
-
-.logged-in .only-logged-in {
-    display: block;
-}
-
-.logged-in .only-logged-out {
-    display: none;
+.only-logged-out,
+.logged-in .only-logged-in,
+.rocketfuel-disabled .only-rocketfuel-disabled {
+    display: block !important;
 }
 
 .spinner {
@@ -184,10 +241,6 @@ body {
 @keyframes spin {
     from { transform: rotate(0turn); }
     to { transform: rotate(1turn); }
-}
-
-.roll {
-    animation(unquote('0.9s spin 1 steps(30)'));
 }
 
 @media $at-least-desktop {
