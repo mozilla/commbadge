@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AMO Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-12T16:22:01.281Z\n"
+"POT-Creation-Date: 2013-09-27T23:44:03.167Z\n"
 "PO-Revision-Date: 2013-09-26 12:58+0100\n"
 "Last-Translator: Michael Köhler <michael.koehler1@gmx.de>\n"
 "Language-Team: German (de) <coce@nurfuerspam.de>\n"
@@ -14,6 +14,30 @@ msgstr ""
 "X-Generator: Fireplace L10n Tools 1.0\n"
 "X-Poedit-Language: German\n"
 "X-Poedit-Country: GERMANY\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Schließen"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Nein"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Ja"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr ""
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Abmelden"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Anmelden"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -40,8 +64,12 @@ msgid "Lookup Tool"
 msgstr "Nachschlagewerkzeug"
 
 #: /templates/footer.html:24
-msgid "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> or any later version."
-msgstr "Sofern nicht anders <a href=\"{legal_url}\" target=\"_blank\">vermerkt</a>, steht der Inhalt dieser Seite unter der <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> oder einer späteren Version."
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
+msgstr ""
+"Sofern nicht anders <a href=\"{legal_url}\" target=\"_blank\">vermerkt</a>, steht der Inhalt dieser Seite unter der <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike "
+"License v3.0</a> oder einer späteren Version."
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
@@ -55,40 +83,7 @@ msgstr "Nutzungsbedingungen"
 msgid "Report Trademark Abuse"
 msgstr "Markenrechtsverletzung melden"
 
-#: /templates/header.html:1
-msgid "Back"
-msgstr "Zurück"
-
-#: /templates/header.html:6
-msgid "Settings"
-msgstr "Einstellungen"
-
-#: /templates/header.html:12
-msgid "Edit Account Settings"
-msgstr "Kontoeinstellungen bearbeiten"
-
-#: /templates/header.html:14
-msgid "Sign Out"
-msgstr "Abmelden"
-
-#: /templates/header.html:18
-msgid "Sign In"
-msgstr "Anmelden"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Schließen"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Nein"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Ja"
-
-#: /templates/login.html:2
-#: /media/js/views/login.js:10
+#: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "Anmelden"
 
@@ -100,20 +95,13 @@ msgstr "Sie müssen sich anmelden, um fortzufahren."
 msgid "Sign in / Sign up"
 msgstr "Anmelden / Registrieren"
 
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "Diese Notiz als gelesen markieren"
-
-#: /templates/_macros/thread.html:12
-#: /media/js/views/comm.js:27
+#: /templates/_macros/thread.html:12 /media/js/views/comm.js:27
 msgid "{n} note"
 msgid_plural "{n} notes"
 msgstr[0] "{n} Notiz"
 msgstr[1] "{n} Notizen"
 
-#: /templates/_macros/thread.html:16
-#: /media/js/views/comm.js:36
-#: /media/js/views/comm.js:67
+#: /templates/_macros/thread.html:16 /media/js/views/comm.js:36 /media/js/views/comm.js:67
 msgid "Reply"
 msgstr "Antworten"
 
@@ -149,18 +137,17 @@ msgstr "Ältere ansehen"
 msgid "You have no threads."
 msgstr "Sie haben keine Themen."
 
-#: /templates/errors/404.html:2
-#: /templates/errors/fragment.html:1
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr "Diese Notiz als gelesen markieren"
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "Oh nein!"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
 msgstr "Die Seite, die Sie suchen, wurde nicht gefunden."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Ein Fehler ist aufgetreten."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -169,6 +156,10 @@ msgstr "Beim Laden weiterer Informationen ist ein Fehler aufgetreten"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Versuchen Sie es erneut"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Ein Fehler ist aufgetreten."
 
 #: /media/js/helpers.js:72
 msgid "Message"
@@ -237,8 +228,7 @@ msgstr "Senden der Nachricht fehlgeschlagen."
 msgid "Cancel reply"
 msgstr "Antwort abbrechen"
 
-#: /media/js/views/comm.js:117
-#: /media/js/views/comm.js:191
+#: /media/js/views/comm.js:117 /media/js/views/comm.js:191
 msgid "No notes to show."
 msgstr "Es gibt keine Notizen, die angezeigt werden könnten."
 
@@ -258,4 +248,3 @@ msgstr "Beim Markieren dieses Themas als gelesen ist ein Fehler aufgetreten. Ver
 #: /media/js/views/not_found.js:9
 msgid "Not Found"
 msgstr "Nicht gefunden"
-

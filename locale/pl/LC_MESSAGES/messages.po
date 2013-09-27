@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-12T16:22:01.281Z\n"
+"POT-Creation-Date: 2013-09-27T23:44:03.167Z\n"
 "PO-Revision-Date: 2013-06-11 13:32+0200\n"
 "Last-Translator: Wojciech Szczęsny\n"
 "Language-Team: Polish <team@aviary.pl>\n"
@@ -13,6 +13,30 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.4\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Zamknij"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Tak"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Nie"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr ""
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Wyloguj"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Zaloguj"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -58,38 +82,6 @@ msgstr "Warunki korzystania"
 msgid "Report Trademark Abuse"
 msgstr "Nadużycie znaku towarowego"
 
-#: /templates/header.html:1
-msgid "Back"
-msgstr "Powrót"
-
-#: /templates/header.html:6
-msgid "Settings"
-msgstr "Ustawienia"
-
-#: /templates/header.html:12
-msgid "Edit Account Settings"
-msgstr "Edytuj ustawienia konta"
-
-#: /templates/header.html:14
-msgid "Sign Out"
-msgstr "Wyloguj"
-
-#: /templates/header.html:18
-msgid "Sign In"
-msgstr "Zaloguj"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Zamknij"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Tak"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Nie"
-
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr ""
@@ -101,10 +93,6 @@ msgstr ""
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
 msgstr "Logowanie / Rejestracja"
-
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr ""
 
 #: /templates/_macros/thread.html:12 /media/js/views/comm.js:27
 msgid "{n} note"
@@ -149,6 +137,10 @@ msgstr ""
 msgid "You have no threads."
 msgstr ""
 
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr ""
+
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "O nie!"
@@ -157,10 +149,6 @@ msgstr "O nie!"
 msgid "The page you were looking for was not found."
 msgstr "Nie znaleziono poszukiwanej strony."
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Wystąpił błąd."
-
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Nie udało się pobrać więcej"
@@ -168,6 +156,10 @@ msgstr "Nie udało się pobrać więcej"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Spróbuj ponownie"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Wystąpił błąd."
 
 #: /media/js/helpers.js:72
 msgid "Message"

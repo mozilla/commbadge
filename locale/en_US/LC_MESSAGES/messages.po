@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-12T16:22:01.281Z\n"
+"POT-Creation-Date: 2013-09-27T23:44:03.167Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -12,6 +12,30 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Fireplace L10n Tools 1.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Close"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "No"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Yes"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Communication Dashboard"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Sign Out"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Sign In"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -57,38 +81,6 @@ msgstr "Terms of Use"
 msgid "Report Trademark Abuse"
 msgstr "Report Trademark Abuse"
 
-#: /templates/header.html:1
-msgid "Back"
-msgstr "Back"
-
-#: /templates/header.html:6
-msgid "Settings"
-msgstr "Settings"
-
-#: /templates/header.html:12
-msgid "Edit Account Settings"
-msgstr "Edit Account Settings"
-
-#: /templates/header.html:14
-msgid "Sign Out"
-msgstr "Sign Out"
-
-#: /templates/header.html:18
-msgid "Sign In"
-msgstr "Sign In"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Close"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "No"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Yes"
-
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "Sign in"
@@ -100,10 +92,6 @@ msgstr "You must sign in to proceed."
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
 msgstr "Sign in / Sign up"
-
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "Mark this note as read"
 
 #: /templates/_macros/thread.html:12 /media/js/views/comm.js:27
 msgid "{n} note"
@@ -147,6 +135,10 @@ msgstr "View older"
 msgid "You have no threads."
 msgstr "You have no threads."
 
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr "Mark this note as read"
+
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "Oh no!"
@@ -155,10 +147,6 @@ msgstr "Oh no!"
 msgid "The page you were looking for was not found."
 msgstr "The page you were looking for was not found."
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "An error occurred."
-
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Error loading more"
@@ -166,6 +154,10 @@ msgstr "Error loading more"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Try Again"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "An error occurred."
 
 #: /media/js/helpers.js:72
 msgid "Message"
