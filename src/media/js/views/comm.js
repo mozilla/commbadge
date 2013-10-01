@@ -21,6 +21,7 @@ define('views/comm',
             var $threadElem = $threadItem.find('.thread-header');
 
             // Add a new note element.
+            $threadElem.find('.filter-recent').trigger('click');
             var noteMarkup = nunjucks.env.getTemplate('comm/note_detail.html').render({note: data});
             var $noteCount = $threadElem.find('.note-count');
             var count = $noteCount.data('count') + 1;
