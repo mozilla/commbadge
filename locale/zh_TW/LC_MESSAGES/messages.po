@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-09-27T23:44:03.167Z\n"
-"PO-Revision-Date: 2013-05-04 20:35+0800\n"
+"PO-Revision-Date: 2013-09-28 16:48+0800\n"
 "Last-Translator: Peter Pin-Guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: MozTW <petercpg@mail.moztw.org>\n"
 "Language: zh_TW\n"
@@ -11,24 +11,24 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.5.5\n"
+"X-Generator: Poedit 1.5.7\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
-msgstr ""
+msgstr "關閉"
 
 #: /templates/confirmation.html:3
 msgid "No"
-msgstr ""
+msgstr "否"
 
 #: /templates/confirmation.html:4
 msgid "Yes"
-msgstr ""
+msgstr "是"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
-msgstr ""
+msgstr "Communication 主控台"
 
 #: /templates/header.html:7
 msgid "Sign Out"
@@ -40,7 +40,7 @@ msgstr "登入"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
-msgstr ""
+msgstr "開發應用程式"
 
 #: /templates/footer.html:5
 msgid "Developer Hub"
@@ -52,21 +52,26 @@ msgstr "支援"
 
 #: /templates/footer.html:10
 msgid "My Submissions"
-msgstr ""
+msgstr "我送出的內容"
 
 #: /templates/footer.html:13
 msgid "Reviewer Tools"
-msgstr ""
+msgstr "審核者工具"
 
 #: /templates/footer.html:16
 msgid "Lookup Tool"
-msgstr ""
+msgstr "尋找工具"
 
 #: /templates/footer.html:24
 msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, "
+"content on this site is licensed under the <a href=\"{cc_url}\" target="
+"\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> or any "
+"later version."
 msgstr ""
+"除非另有 <a href=\"{legal_url}\" target=\"_blank\">提及</a>，網站內容皆採用 "
+"<a href=\"{cc_url}\" target=\"_blank\">創用 CC 姓名標示-相同方式分享 3.0</a> "
+"或更新版本條款進行授權。"
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
@@ -82,11 +87,11 @@ msgstr "回報商標濫用"
 
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
-msgstr ""
+msgstr "登入"
 
 #: /templates/login.html:3
 msgid "You must sign in to proceed."
-msgstr ""
+msgstr "您必須登入才能繼續。"
 
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
@@ -95,47 +100,48 @@ msgstr "登入 / 註冊"
 #: /templates/_macros/thread.html:12 /media/js/views/comm.js:27
 msgid "{n} note"
 msgid_plural "{n} notes"
-msgstr[0] ""
+msgstr[0] "{n} 筆筆記"
 
-#: /templates/_macros/thread.html:16 /media/js/views/comm.js:36 /media/js/views/comm.js:67
+#: /templates/_macros/thread.html:16 /media/js/views/comm.js:36
+#: /media/js/views/comm.js:67
 msgid "Reply"
-msgstr ""
+msgstr "回覆"
 
 #: /templates/_macros/thread.html:20
 msgid "Enter note text here"
-msgstr ""
+msgstr "在此輸入筆記內容"
 
 #: /templates/_macros/thread.html:21
 msgid "Post"
-msgstr ""
+msgstr "張貼"
 
 #: /templates/_macros/thread.html:26
 msgid "Recent"
-msgstr ""
+msgstr "近期"
 
 #: /templates/_macros/thread.html:29
 msgid "Unread"
-msgstr ""
+msgstr "未讀"
 
 #: /templates/_macros/thread.html:32
 msgid "Read"
-msgstr ""
+msgstr "已讀"
 
 #: /templates/_macros/thread.html:35
 msgid "Mark All Read"
-msgstr ""
+msgstr "標示所有已讀"
 
 #: /templates/_macros/thread.html:47
 msgid "View older"
-msgstr ""
+msgstr "檢視更舊項目"
 
 #: /templates/comm/main.html:9
 msgid "You have no threads."
-msgstr ""
+msgstr "您沒有討論串。"
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
-msgstr ""
+msgstr "將此筆記標示為已讀"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -147,11 +153,11 @@ msgstr "找不到您想開啟的頁面。"
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
-msgstr ""
+msgstr "載入更多時發生錯誤"
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
-msgstr ""
+msgstr "重試"
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
@@ -159,31 +165,31 @@ msgstr "發生錯誤。"
 
 #: /media/js/helpers.js:72
 msgid "Message"
-msgstr ""
+msgstr "訊息"
 
 #: /media/js/helpers.js:73
 msgid "App approved"
-msgstr ""
+msgstr "應用程式已被審核通過"
 
 #: /media/js/helpers.js:74
 msgid "App rejected"
-msgstr ""
+msgstr "應用程式已被退回"
 
 #: /media/js/helpers.js:75
 msgid "App disabled"
-msgstr ""
+msgstr "應用程式已被停用"
 
 #: /media/js/helpers.js:76
 msgid "More info required"
-msgstr ""
+msgstr "需要更多資訊"
 
 #: /media/js/helpers.js:77
 msgid "Review escalated to senior reviewer"
-msgstr ""
+msgstr "審核層級已提高至資深審核者"
 
 #: /media/js/helpers.js:78
 msgid "Reviewer comment"
-msgstr ""
+msgstr "審核者留言"
 
 #: /media/js/login.js:8
 msgid "You have been signed out"
@@ -194,7 +200,9 @@ msgid "You have been signed in"
 msgstr "您已經登入。"
 
 #: /media/js/login.js:122
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgid ""
+"Persona login failed. Maybe you don't have an account under that email "
+"address?"
 msgstr "Persona 登入失敗，也許您沒有使用該電子郵件地址的帳號？"
 
 #: /media/js/login.js:127
@@ -207,38 +215,37 @@ msgstr "沒有網際網路連線"
 
 #. {n} is the number of characters left.
 #: /media/js/utils.js:25
-#, fuzzy
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "剩下 <b>{n}</b> 個字元。"
 
 #: /media/js/views/comm.js:42
 msgid "Message sent."
-msgstr ""
+msgstr "訊息已送出。"
 
 #: /media/js/views/comm.js:47
 msgid "Message sending failed."
-msgstr ""
+msgstr "訊息傳送失敗。"
 
 #: /media/js/views/comm.js:60
 msgid "Cancel reply"
-msgstr ""
+msgstr "取消回覆"
 
 #: /media/js/views/comm.js:117 /media/js/views/comm.js:191
 msgid "No notes to show."
-msgstr ""
+msgstr "沒有可以顯示的筆記。"
 
 #: /media/js/views/comm.js:131
 msgid "There are no more older notes."
-msgstr ""
+msgstr "沒有更舊的筆記了。"
 
 #: /media/js/views/comm.js:179
 msgid "There was some problem marking the note as read. Try again."
-msgstr ""
+msgstr "將筆記標示為已讀時發生錯誤，請再試一次。"
 
 #: /media/js/views/comm.js:198
 msgid "There was some problem marking the thread as read. Try again."
-msgstr ""
+msgstr "將討論串標示為已讀時發生錯誤，請再試一次。"
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9
