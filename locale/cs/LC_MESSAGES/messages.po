@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Marketplace\n"
+"Project-Id-Version: Marketplace Commbadge\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-27T23:44:03.167Z\n"
-"PO-Revision-Date: 2013-06-14 13:10+0100\n"
+"POT-Creation-Date: 2013-09-12T16:22:01.281Z\n"
+"PO-Revision-Date: 2013-09-28 23:06+0100\n"
 "Last-Translator: Pavel Cvrček <pcvrcek@mozilla.cz>\n"
 "Language-Team: Czech <info@mozilla.cz>\n"
 "Language: pl\n"
@@ -12,30 +12,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Poedit 1.5.5\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Zavřít"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Ne"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Ano"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr ""
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Odhlášení"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Přihlášení"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -59,15 +35,19 @@ msgstr "Nástroje pro redaktora"
 
 #: /templates/footer.html:16
 msgid "Lookup Tool"
-msgstr ""
+msgstr "Nástroje"
 
 #: /templates/footer.html:24
 msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, "
+"content on this site is licensed under the <a href=\"{cc_url}\" target="
+"\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> or any "
+"later version."
 msgstr ""
-"Pokud není <a href=\"{legal_url}\" target=\"_blank\">řečeno</a> jinak, je obsah této stránky dostupný pod licencí <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike "
-"License v. 3.0</a> či kterékoliv pozdější verze."
+"Pokud není <a href=\"{legal_url}\" target=\"_blank\">řečeno</a> jinak, je "
+"obsah této stránky dostupný pod licencí <a href=\"{cc_url}\" target=\"_blank"
+"\">Creative Commons Attribution Share-Alike License v. 3.0</a> či kterékoliv "
+"pozdější verze."
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
@@ -81,64 +61,97 @@ msgstr "Podmínky použití"
 msgid "Report Trademark Abuse"
 msgstr "Nahlášení zneužití ochranné známky"
 
+#: /templates/header.html:1
+msgid "Back"
+msgstr "Zpět"
+
+#: /templates/header.html:6
+msgid "Settings"
+msgstr "Nastavení"
+
+#: /templates/header.html:12
+msgid "Edit Account Settings"
+msgstr "Úprava nastavení účtu"
+
+#: /templates/header.html:14
+msgid "Sign Out"
+msgstr "Odhlášení"
+
+#: /templates/header.html:18
+msgid "Sign In"
+msgstr "Přihlášení"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Zavřít"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Ne"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Ano"
+
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
-msgstr ""
+msgstr "Přihlášení"
 
 #: /templates/login.html:3
 msgid "You must sign in to proceed."
-msgstr ""
+msgstr "Pro pokračování se musíte přihlásit."
 
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
 msgstr "Přihlášení / Registrace"
 
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr "Označit tuto poznámku jako přečtenou"
+
 #: /templates/_macros/thread.html:12 /media/js/views/comm.js:27
 msgid "{n} note"
 msgid_plural "{n} notes"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "{n} poznámka"
+msgstr[1] "{n} poznámky"
+msgstr[2] "{n} poznámek"
 
-#: /templates/_macros/thread.html:16 /media/js/views/comm.js:36 /media/js/views/comm.js:67
+#: /templates/_macros/thread.html:16 /media/js/views/comm.js:36
+#: /media/js/views/comm.js:67
 msgid "Reply"
-msgstr ""
+msgstr "Odpovědět"
 
 #: /templates/_macros/thread.html:20
 msgid "Enter note text here"
-msgstr ""
+msgstr "Zde vložte text poznámky"
 
 #: /templates/_macros/thread.html:21
 msgid "Post"
-msgstr ""
+msgstr "Přidat"
 
 #: /templates/_macros/thread.html:26
 msgid "Recent"
-msgstr ""
+msgstr "Nedávné"
 
 #: /templates/_macros/thread.html:29
 msgid "Unread"
-msgstr ""
+msgstr "Nepřečtené"
 
 #: /templates/_macros/thread.html:32
 msgid "Read"
-msgstr ""
+msgstr "Přečtené"
 
 #: /templates/_macros/thread.html:35
 msgid "Mark All Read"
-msgstr ""
+msgstr "Označit vše jako přečtené"
 
 #: /templates/_macros/thread.html:47
 msgid "View older"
-msgstr ""
+msgstr "Zobrazit starší"
 
 #: /templates/comm/main.html:9
 msgid "You have no threads."
-msgstr ""
-
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr ""
+msgstr "Nemáte žádná vlákna."
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -148,6 +161,10 @@ msgstr "Ale ne!"
 msgid "The page you were looking for was not found."
 msgstr "Stránka, kterou hledáte, nebyla nalezena."
 
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Nastala chyba"
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Chyba při načítání"
@@ -156,37 +173,33 @@ msgstr "Chyba při načítání"
 msgid "Try Again"
 msgstr "Zkusit znovu"
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Nastala chyba"
-
 #: /media/js/helpers.js:72
 msgid "Message"
-msgstr ""
+msgstr "Zpráva"
 
 #: /media/js/helpers.js:73
 msgid "App approved"
-msgstr ""
+msgstr "Aplikace schválena"
 
 #: /media/js/helpers.js:74
 msgid "App rejected"
-msgstr ""
+msgstr "Aplikace zamítnuta"
 
 #: /media/js/helpers.js:75
 msgid "App disabled"
-msgstr ""
+msgstr "Aplikace zakázána"
 
 #: /media/js/helpers.js:76
 msgid "More info required"
-msgstr ""
+msgstr "Vyžadováno více informací"
 
 #: /media/js/helpers.js:77
 msgid "Review escalated to senior reviewer"
-msgstr ""
+msgstr "Kontrola byla přesunuta k nadřízenému redaktoru"
 
 #: /media/js/helpers.js:78
 msgid "Reviewer comment"
-msgstr ""
+msgstr "Komentář redaktora"
 
 #: /media/js/login.js:8
 msgid "You have been signed out"
@@ -197,8 +210,12 @@ msgid "You have been signed in"
 msgstr "Byl(a) jste přihlášen(a)"
 
 #: /media/js/login.js:122
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Přihlášení pomocí Persona selhalo. Možná nemáte účet pod touto e-mailovou adresou?"
+msgid ""
+"Persona login failed. Maybe you don't have an account under that email "
+"address?"
+msgstr ""
+"Přihlášení pomocí Persona selhalo. Možná nemáte účet pod touto e-mailovou "
+"adresou?"
 
 #: /media/js/login.js:127
 msgid "Persona login failed. A server error was encountered."
@@ -218,31 +235,33 @@ msgstr[2] "Zbývá <b>{n}</b> znaků."
 
 #: /media/js/views/comm.js:42
 msgid "Message sent."
-msgstr ""
+msgstr "Zpráva odeslána."
 
 #: /media/js/views/comm.js:47
 msgid "Message sending failed."
-msgstr ""
+msgstr "Odeslání zprávy selhalo."
 
 #: /media/js/views/comm.js:60
 msgid "Cancel reply"
-msgstr ""
+msgstr "Zrušit odpověď."
 
 #: /media/js/views/comm.js:117 /media/js/views/comm.js:191
 msgid "No notes to show."
-msgstr ""
+msgstr "Nejsou k dispozici žádné poznámky."
 
 #: /media/js/views/comm.js:131
 msgid "There are no more older notes."
-msgstr ""
+msgstr "Neexistují žádné starší poznámky."
 
 #: /media/js/views/comm.js:179
 msgid "There was some problem marking the note as read. Try again."
 msgstr ""
+"Vyskytl se problém při označování poznámky jako přečtené. Zkuste to znovu."
 
 #: /media/js/views/comm.js:198
 msgid "There was some problem marking the thread as read. Try again."
 msgstr ""
+"Vyskytl se problém při označování vlákna jako přečtené. Zkuste to znovu."
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9
