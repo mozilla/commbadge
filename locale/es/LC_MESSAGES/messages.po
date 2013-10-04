@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-09-27T23:44:03.167Z\n"
-"PO-Revision-Date: 2013-10-03 07:25+0000\n"
-"Last-Translator: Matjaž <m@owca.info>\n"
+"PO-Revision-Date: 2013-10-04 17:42+0000\n"
+"Last-Translator: Inma <inma.barrios@mozilla-hispano.org>\n"
 "Language-Team: Español (España) <nave@elistas.net>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1380785156.0\n"
+"X-POOTLE-MTIME: 1380908524.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -28,7 +28,7 @@ msgstr "Sí"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
-msgstr ""
+msgstr "Tablero de comunicaciones"
 
 #: /templates/header.html:7
 msgid "Sign Out"
