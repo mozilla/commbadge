@@ -3,244 +3,251 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-09-27T23:44:03.167Z\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2013-10-08 13:09+0000\n"
+"Last-Translator: Gábor <kelemeng@gnome.hu>\n"
 "Language-Team: none\n"
-"Language: en-us\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Fireplace L10n Tools 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n !=1);\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1381237792.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
-msgstr ""
+msgstr "Bezárás"
 
 #: /templates/confirmation.html:3
 msgid "No"
-msgstr ""
+msgstr "Nem"
 
 #: /templates/confirmation.html:4
 msgid "Yes"
-msgstr ""
+msgstr "Igen"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
-msgstr ""
+msgstr "Kommunikációs vezérlőpult"
 
 #: /templates/header.html:7
 msgid "Sign Out"
-msgstr ""
+msgstr "Kijelentkezés"
 
 #: /templates/header.html:8
 msgid "Sign In"
-msgstr ""
+msgstr "Bejelentkezés"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
-msgstr ""
+msgstr "Appok fejlesztése"
 
 #: /templates/footer.html:5
 msgid "Developer Hub"
-msgstr ""
+msgstr "Fejlesztői központ"
 
 #: /templates/footer.html:6
 msgid "Support"
-msgstr ""
+msgstr "Támogatás"
 
 #: /templates/footer.html:10
 msgid "My Submissions"
-msgstr ""
+msgstr "Beküldéseim"
 
 #: /templates/footer.html:13
 msgid "Reviewer Tools"
-msgstr ""
+msgstr "Jóváhagyói eszközök"
 
 #: /templates/footer.html:16
 msgid "Lookup Tool"
-msgstr ""
+msgstr "Kikeresési eszköz"
 
 #: /templates/footer.html:24
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
 "Alike License v3.0</a> or any later version."
 msgstr ""
+"Ha másképp nem kerül <a href=\"{legal_url}\" target=\"_blank\">jelzésre</a>, "
+"akkor az oldal tartalma <a href=\"{cc_url}\" target=\"_blank\">Creative Commons "
+"Attribution Share-Alike License v3.0</a> vagy ennek újabb verziója alatt "
+"jelenik meg."
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Adatkezelési irányelvek"
 
 #: /templates/footer.html:30
 msgid "Terms of Use"
-msgstr ""
+msgstr "Felhasználási feltételek"
 
 #: /templates/footer.html:32
 msgid "Report Trademark Abuse"
-msgstr ""
+msgstr "Védjeggyel kapcsolatos visszaélés jelentése"
 
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
-msgstr ""
+msgstr "Bejelentkezés"
 
 #: /templates/login.html:3
 msgid "You must sign in to proceed."
-msgstr ""
+msgstr "Be kell jelentkeznie a folytatáshoz."
 
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
-msgstr ""
+msgstr "Bejelentkezés/regisztráció"
 
 #: /templates/_macros/thread.html:12 /media/js/views/comm.js:27
 msgid "{n} note"
 msgid_plural "{n} notes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{n} jegyzet"
+msgstr[1] "{n} jegyzet"
 
 #: /templates/_macros/thread.html:16 /media/js/views/comm.js:36 /media/js/views/comm.js:67
 msgid "Reply"
-msgstr ""
+msgstr "Válasz"
 
 #: /templates/_macros/thread.html:20
 msgid "Enter note text here"
-msgstr ""
+msgstr "Írja ide a jegyzet szövegét"
 
 #: /templates/_macros/thread.html:21
 msgid "Post"
-msgstr ""
+msgstr "Küldés"
 
 #: /templates/_macros/thread.html:26
 msgid "Recent"
-msgstr ""
+msgstr "Legutóbbi"
 
 #: /templates/_macros/thread.html:29
 msgid "Unread"
-msgstr ""
+msgstr "Olvasatlan"
 
 #: /templates/_macros/thread.html:32
 msgid "Read"
-msgstr ""
+msgstr "Olvasott"
 
 #: /templates/_macros/thread.html:35
 msgid "Mark All Read"
-msgstr ""
+msgstr "Összes jelölése olvasottként"
 
 #: /templates/_macros/thread.html:47
 msgid "View older"
-msgstr ""
+msgstr "Régebbi megjelenítése"
 
 #: /templates/comm/main.html:9
 msgid "You have no threads."
-msgstr ""
+msgstr "Nincsenek szálak."
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
-msgstr ""
+msgstr "Jegyzet megjelölése olvasottként"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
-msgstr ""
+msgstr "Na ne!"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
-msgstr ""
+msgstr "A keresett oldal nem található."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
-msgstr ""
+msgstr "Hiba továbbiak betöltésekor"
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
-msgstr ""
+msgstr "Próbálja újra"
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
-msgstr ""
+msgstr "Hiba történt."
 
 #: /media/js/helpers.js:72
 msgid "Message"
-msgstr ""
+msgstr "Üzenet"
 
 #: /media/js/helpers.js:73
 msgid "App approved"
-msgstr ""
+msgstr "App jóváhagyva"
 
 #: /media/js/helpers.js:74
 msgid "App rejected"
-msgstr ""
+msgstr "App elutasítva"
 
 #: /media/js/helpers.js:75
 msgid "App disabled"
-msgstr ""
+msgstr "App letiltva"
 
 #: /media/js/helpers.js:76
 msgid "More info required"
-msgstr ""
+msgstr "Több infó szükséges"
 
 #: /media/js/helpers.js:77
 msgid "Review escalated to senior reviewer"
-msgstr ""
+msgstr "Jóváhagyás továbbítva rangidős jóváhagyónak"
 
 #: /media/js/helpers.js:78
 msgid "Reviewer comment"
-msgstr ""
+msgstr "Jóváhagyó megjegyzése"
 
 #: /media/js/login.js:8
 msgid "You have been signed out"
-msgstr ""
+msgstr "Kijelentkezett"
 
 #: /media/js/login.js:12
 msgid "You have been signed in"
-msgstr ""
+msgstr "Bejelentkezett"
 
 #: /media/js/login.js:122
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr ""
+"A Persona bejelentkezés sikertelen. Talán nincs fiókja ehhez az e-mail "
+"címhez?"
 
 #: /media/js/login.js:127
 msgid "Persona login failed. A server error was encountered."
-msgstr ""
+msgstr "A Persona bejelentkezés sikertelen. Kiszolgálóhiba történt."
 
 #: /media/js/navigation.js:50
 msgid "No internet connection"
-msgstr ""
+msgstr "Nincs internetkapcsolat"
 
 #. {n} is the number of characters left.
 #: /media/js/utils.js:25
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "<b>{n}</b> karakter maradt."
+msgstr[1] "<b>{n}</b> karakter maradt."
 
 #: /media/js/views/comm.js:42
 msgid "Message sent."
-msgstr ""
+msgstr "Üzenet elküldve"
 
 #: /media/js/views/comm.js:47
 msgid "Message sending failed."
-msgstr ""
+msgstr "Üzenet küldése sikertelen."
 
 #: /media/js/views/comm.js:60
 msgid "Cancel reply"
-msgstr ""
+msgstr "Válasz megszakítása"
 
 #: /media/js/views/comm.js:117 /media/js/views/comm.js:191
 msgid "No notes to show."
-msgstr ""
+msgstr "Nincsenek megjeleníthető jegyzetek."
 
 #: /media/js/views/comm.js:131
 msgid "There are no more older notes."
-msgstr ""
+msgstr "Nincs több régi jegyzet."
 
 #: /media/js/views/comm.js:179
 msgid "There was some problem marking the note as read. Try again."
-msgstr ""
+msgstr "Hiba történt a jegyzet olvasottként jelölésekor. Próbálja újra."
 
 #: /media/js/views/comm.js:198
 msgid "There was some problem marking the thread as read. Try again."
-msgstr ""
+msgstr "Hiba történt a szál olvasottként jelölésekor. Próbálja újra."
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9
 msgid "Not Found"
-msgstr ""
+msgstr "Nem található"
