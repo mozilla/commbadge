@@ -27,7 +27,7 @@ msgstr "Да"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
-msgstr ""
+msgstr "Комуникационно табло"
 
 #: /templates/header.html:7
 msgid "Sign Out"
@@ -51,7 +51,7 @@ msgstr "Поддръжка"
 
 #: /templates/footer.html:10
 msgid "My Submissions"
-msgstr ""
+msgstr "Мои"
 
 #: /templates/footer.html:13
 msgid "Reviewer Tools"
@@ -83,11 +83,11 @@ msgstr "Докладвай злоупотреба със запазена мар
 
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
-msgstr ""
+msgstr "Вход"
 
 #: /templates/login.html:3
 msgid "You must sign in to proceed."
-msgstr ""
+msgstr "Трябва да влезете, за да продължите"
 
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
@@ -96,48 +96,48 @@ msgstr "Вход / Регистрация"
 #: /templates/_macros/thread.html:12 /media/js/views/comm.js:27
 msgid "{n} note"
 msgid_plural "{n} notes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{n} бележка"
+msgstr[1] "{n} бележки"
 
 #: /templates/_macros/thread.html:16 /media/js/views/comm.js:36 /media/js/views/comm.js:67
 msgid "Reply"
-msgstr ""
+msgstr "Отговор"
 
 #: /templates/_macros/thread.html:20
 msgid "Enter note text here"
-msgstr ""
+msgstr "Въведете текста на бележката тук"
 
 #: /templates/_macros/thread.html:21
 msgid "Post"
-msgstr ""
+msgstr "Публикувай"
 
 #: /templates/_macros/thread.html:26
 msgid "Recent"
-msgstr ""
+msgstr "Последни"
 
 #: /templates/_macros/thread.html:29
 msgid "Unread"
-msgstr ""
+msgstr "Непрочетена"
 
 #: /templates/_macros/thread.html:32
 msgid "Read"
-msgstr ""
+msgstr "Прочетена"
 
 #: /templates/_macros/thread.html:35
 msgid "Mark All Read"
-msgstr ""
+msgstr "Маркирай всички като прочетени"
 
 #: /templates/_macros/thread.html:47
 msgid "View older"
-msgstr ""
+msgstr "Виж по-стари"
 
 #: /templates/comm/main.html:9
 msgid "You have no threads."
-msgstr ""
+msgstr "Нямате теми."
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
-msgstr ""
+msgstr "Маркирай тази бележка като прочетена"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -161,31 +161,31 @@ msgstr "Възникна грешна"
 
 #: /media/js/helpers.js:72
 msgid "Message"
-msgstr ""
+msgstr "Съобщение"
 
 #: /media/js/helpers.js:73
 msgid "App approved"
-msgstr ""
+msgstr "Приложението одобрено"
 
 #: /media/js/helpers.js:74
 msgid "App rejected"
-msgstr ""
+msgstr "Приложението отказано"
 
 #: /media/js/helpers.js:75
 msgid "App disabled"
-msgstr ""
+msgstr "Приложението деактивирано"
 
 #: /media/js/helpers.js:76
 msgid "More info required"
-msgstr ""
+msgstr "Нужна е още информация"
 
 #: /media/js/helpers.js:77
 msgid "Review escalated to senior reviewer"
-msgstr ""
+msgstr "Прегледът повдигнат към старши рецензент"
 
 #: /media/js/helpers.js:78
 msgid "Reviewer comment"
-msgstr ""
+msgstr "Коментар на рецензент"
 
 #: /media/js/login.js:8
 msgid "You have been signed out"
@@ -216,31 +216,31 @@ msgstr[1] "остават <b>{n}</b> знака"
 
 #: /media/js/views/comm.js:42
 msgid "Message sent."
-msgstr ""
+msgstr "Съобщението изпратено."
 
 #: /media/js/views/comm.js:47
 msgid "Message sending failed."
-msgstr ""
+msgstr "Изпращането на съобщението се провали."
 
 #: /media/js/views/comm.js:60
 msgid "Cancel reply"
-msgstr ""
+msgstr "Откажи отговора"
 
 #: /media/js/views/comm.js:117 /media/js/views/comm.js:191
 msgid "No notes to show."
-msgstr ""
+msgstr "Няма бележки за показване."
 
 #: /media/js/views/comm.js:131
 msgid "There are no more older notes."
-msgstr ""
+msgstr "Няма повече по-стари бележки."
 
 #: /media/js/views/comm.js:179
 msgid "There was some problem marking the note as read. Try again."
-msgstr ""
+msgstr "Възникна проблем с отбелязването на бележката като прочетена. Опитайте отново."
 
 #: /media/js/views/comm.js:198
 msgid "There was some problem marking the thread as read. Try again."
-msgstr ""
+msgstr "Възникна проблем с отбелязването на темата като прочетена. Опитайте отново."
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9
