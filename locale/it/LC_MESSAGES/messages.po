@@ -4,15 +4,16 @@ msgstr ""
 "Project-Id-Version: Marketplace Commbadge\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-09-12T16:22:01.281Z\n"
-"PO-Revision-Date: 2013-09-28 11:06+0100\n"
-"Last-Translator: Sandro Della Giustina <gialloporpora@gmail.com>\n"
+"PO-Revision-Date: 2013-10-16 09:11+0000\n"
+"Last-Translator: Sandro <gialloporpora@mozillaitalia.org>\n"
 "Language-Team: gialloporpora <gialloporpora@yahoo.it>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.5.5\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1381914662.0\n"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -95,12 +96,10 @@ msgid "Yes"
 msgstr "Si"
 
 #: /templates/login.html:2 /media/js/views/login.js:10
-#, fuzzy
 msgid "Sign in"
 msgstr "Accedi"
 
 #: /templates/login.html:3
-#, fuzzy
 msgid "You must sign in to proceed."
 msgstr "Per proseguire è necessario eseguire l'accesso."
 
@@ -113,7 +112,6 @@ msgid "Mark this note as read"
 msgstr "Marca la nota come letta"
 
 #: /templates/_macros/thread.html:12 /media/js/views/comm.js:27
-#, fuzzy
 msgid "{n} note"
 msgid_plural "{n} notes"
 msgstr[0] "{n} nota"
@@ -121,32 +119,26 @@ msgstr[1] "{n} note"
 
 #: /templates/_macros/thread.html:16 /media/js/views/comm.js:36
 #: /media/js/views/comm.js:67
-#, fuzzy
 msgid "Reply"
 msgstr "Rispondi"
 
 #: /templates/_macros/thread.html:20
-#, fuzzy
 msgid "Enter note text here"
 msgstr "Inserisci qui il testo della nota"
 
 #: /templates/_macros/thread.html:21
-#, fuzzy
 msgid "Post"
 msgstr "Invia"
 
 #: /templates/_macros/thread.html:26
-#, fuzzy
 msgid "Recent"
 msgstr "Recenti"
 
 #: /templates/_macros/thread.html:29
-#, fuzzy
 msgid "Unread"
 msgstr "Non lette"
 
 #: /templates/_macros/thread.html:32
-#, fuzzy
 msgid "Read"
 msgstr "Lette"
 
@@ -155,12 +147,10 @@ msgid "Mark All Read"
 msgstr "Marca tutte come lette"
 
 #: /templates/_macros/thread.html:47
-#, fuzzy
 msgid "View older"
 msgstr "Visualizza meno recenti"
 
 #: /templates/comm/main.html:9
-#, fuzzy
 msgid "You have no threads."
 msgstr "Nessuna discussione trovata."
 
@@ -185,22 +175,18 @@ msgid "Try Again"
 msgstr "Riprova"
 
 #: /media/js/helpers.js:72
-#, fuzzy
 msgid "Message"
 msgstr "Messaggio"
 
 #: /media/js/helpers.js:73
-#, fuzzy
 msgid "App approved"
 msgstr "App approvata"
 
 #: /media/js/helpers.js:74
-#, fuzzy
 msgid "App rejected"
 msgstr "App rifiutata"
 
 #: /media/js/helpers.js:75
-#, fuzzy
 msgid "App disabled"
 msgstr "App disattivata"
 
@@ -209,12 +195,10 @@ msgid "More info required"
 msgstr "Sono necessarie ulteriori informazioni"
 
 #: /media/js/helpers.js:77
-#, fuzzy
 msgid "Review escalated to senior reviewer"
 msgstr "Revisione inoltrata in escalation a un revisore senior"
 
 #: /media/js/helpers.js:78
-#, fuzzy
 msgid "Reviewer comment"
 msgstr "Commento del revisore"
 
@@ -252,12 +236,10 @@ msgstr[0] "<b>{n}</b> carattere rimanente."
 msgstr[1] "<b>{n}</b> caratteri rimanenti."
 
 #: /media/js/views/comm.js:42
-#, fuzzy
 msgid "Message sent."
 msgstr "Messaggio inviato."
 
 #: /media/js/views/comm.js:47
-#, fuzzy
 msgid "Message sending failed."
 msgstr "Non è stato possibile inviare il messaggio."
 
@@ -266,12 +248,10 @@ msgid "Cancel reply"
 msgstr "Annulla risposta"
 
 #: /media/js/views/comm.js:117 /media/js/views/comm.js:191
-#, fuzzy
 msgid "No notes to show."
 msgstr "Nessuna nota da visualizzare."
 
 #: /media/js/views/comm.js:131
-#, fuzzy
 msgid "There are no more older notes."
 msgstr "Non sono state trovate note meno recenti."
 
