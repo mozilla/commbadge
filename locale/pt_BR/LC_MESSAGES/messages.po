@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-27T23:44:03.167Z\n"
+"POT-Creation-Date: 2013-10-17T15:27:08.910Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,18 +23,6 @@ msgstr ""
 
 #: /templates/confirmation.html:4
 msgid "Yes"
-msgstr ""
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr ""
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr ""
-
-#: /templates/header.html:8
-msgid "Sign In"
 msgstr ""
 
 #: /templates/footer.html:2
@@ -79,25 +67,25 @@ msgstr ""
 msgid "Report Trademark Abuse"
 msgstr ""
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
+#: /templates/header.html:2
+msgid "Communication Dashboard"
 msgstr ""
 
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
+#: /templates/header.html:7
+msgid "Sign Out"
 msgstr ""
 
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
+#: /templates/header.html:8
+msgid "Sign In"
 msgstr ""
 
-#: /templates/_macros/thread.html:12 /media/js/views/comm.js:27
+#: /templates/_macros/thread.html:12 /media/js/views/comm.js:28
 msgid "{n} note"
 msgid_plural "{n} notes"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /templates/_macros/thread.html:16 /media/js/views/comm.js:36 /media/js/views/comm.js:67
+#: /templates/_macros/thread.html:16 /media/js/views/comm.js:37 /media/js/views/comm.js:68
 msgid "Reply"
 msgstr ""
 
@@ -125,8 +113,20 @@ msgstr ""
 msgid "Mark All Read"
 msgstr ""
 
-#: /templates/_macros/thread.html:47
+#: /templates/_macros/thread.html:45
 msgid "View older"
+msgstr ""
+
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr ""
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr ""
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
 msgstr ""
 
 #: /templates/comm/main.html:9
@@ -145,16 +145,16 @@ msgstr ""
 msgid "The page you were looking for was not found."
 msgstr ""
 
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr ""
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr ""
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
-msgstr ""
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
 msgstr ""
 
 #: /media/js/helpers.js:72
@@ -212,31 +212,31 @@ msgid_plural "<b>{n}</b> characters left."
 msgstr[0] ""
 msgstr[1] ""
 
-#: /media/js/views/comm.js:42
+#: /media/js/views/comm.js:43
 msgid "Message sent."
 msgstr ""
 
-#: /media/js/views/comm.js:47
+#: /media/js/views/comm.js:48
 msgid "Message sending failed."
 msgstr ""
 
-#: /media/js/views/comm.js:60
+#: /media/js/views/comm.js:61
 msgid "Cancel reply"
 msgstr ""
 
-#: /media/js/views/comm.js:117 /media/js/views/comm.js:191
+#: /media/js/views/comm.js:118 /media/js/views/comm.js:192
 msgid "No notes to show."
 msgstr ""
 
-#: /media/js/views/comm.js:131
+#: /media/js/views/comm.js:132
 msgid "There are no more older notes."
 msgstr ""
 
-#: /media/js/views/comm.js:179
+#: /media/js/views/comm.js:180
 msgid "There was some problem marking the note as read. Try again."
 msgstr ""
 
-#: /media/js/views/comm.js:198
+#: /media/js/views/comm.js:199
 msgid "There was some problem marking the thread as read. Try again."
 msgstr ""
 

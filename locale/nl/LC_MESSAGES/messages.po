@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-27T23:44:03.167Z\n"
+"POT-Creation-Date: 2013-10-17T15:27:08.910Z\n"
 "PO-Revision-Date: 2013-10-06 15:25+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: none\n"
@@ -25,18 +25,6 @@ msgstr "Nee"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Ja"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Dashboard voor communicatie"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Afmelden"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Aanmelden"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -67,10 +55,8 @@ msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
 "Alike License v3.0</a> or any later version."
 msgstr ""
-"Tenzij anders <a href=\"{legal_url}\" target=\"_blank\">vermeld</a>, is op de "
-"inhoud van deze website de <a href=\"{cc_url}\" target=\"_blank\">Creative "
-"Commons Attribution Share-Alike License v3.0</a> of latere versie van "
-"toepassing."
+"Tenzij anders <a href=\"{legal_url}\" target=\"_blank\">vermeld</a>, is op de inhoud van deze website de <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License "
+"v3.0</a> of latere versie van toepassing."
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
@@ -84,25 +70,25 @@ msgstr "Gebruiksvoorwaarden"
 msgid "Report Trademark Abuse"
 msgstr "Misbruik van handelsmerk melden"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Dashboard voor communicatie"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Afmelden"
+
+#: /templates/header.html:8
+msgid "Sign In"
 msgstr "Aanmelden"
 
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "U moet zich aanmelden om verder te gaan."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Aanmelden / registreren"
-
-#: /templates/_macros/thread.html:12 /media/js/views/comm.js:27
+#: /templates/_macros/thread.html:12 /media/js/views/comm.js:28
 msgid "{n} note"
 msgid_plural "{n} notes"
 msgstr[0] "{n} opmerking"
 msgstr[1] "{n} opmerkingen"
 
-#: /templates/_macros/thread.html:16 /media/js/views/comm.js:36 /media/js/views/comm.js:67
+#: /templates/_macros/thread.html:16 /media/js/views/comm.js:37 /media/js/views/comm.js:68
 msgid "Reply"
 msgstr "Beantwoorden"
 
@@ -130,9 +116,21 @@ msgstr "Gelezen"
 msgid "Mark All Read"
 msgstr "Alle markeren als gelezen"
 
-#: /templates/_macros/thread.html:47
+#: /templates/_macros/thread.html:45
 msgid "View older"
 msgstr "Oudere bekijken"
+
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Aanmelden"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "U moet zich aanmelden om verder te gaan."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Aanmelden / registreren"
 
 #: /templates/comm/main.html:9
 msgid "You have no threads."
@@ -150,6 +148,10 @@ msgstr "Oh nee!"
 msgid "The page you were looking for was not found."
 msgstr "De door u gezochte pagina is niet gevonden."
 
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Er is een fout opgetreden."
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Fout bij laden van meer"
@@ -157,10 +159,6 @@ msgstr "Fout bij laden van meer"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Opnieuw proberen"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Er is een fout opgetreden."
 
 #: /media/js/helpers.js:72
 msgid "Message"
@@ -200,9 +198,7 @@ msgstr "U bent aangemeld"
 
 #: /media/js/login.js:122
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr ""
-"Persona-aanmelding mislukt. Misschien hebt u geen account onder dat "
-"e-mailadres?"
+msgstr "Persona-aanmelding mislukt. Misschien hebt u geen account onder dat e-mailadres?"
 
 #: /media/js/login.js:127
 msgid "Persona login failed. A server error was encountered."
@@ -219,37 +215,33 @@ msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{n}</b> teken resterend."
 msgstr[1] "<b>{n}</b> tekens resterend."
 
-#: /media/js/views/comm.js:42
+#: /media/js/views/comm.js:43
 msgid "Message sent."
 msgstr "Bericht verzonden."
 
-#: /media/js/views/comm.js:47
+#: /media/js/views/comm.js:48
 msgid "Message sending failed."
 msgstr "Bericht verzenden mislukt."
 
-#: /media/js/views/comm.js:60
+#: /media/js/views/comm.js:61
 msgid "Cancel reply"
 msgstr "Antwoord annuleren"
 
-#: /media/js/views/comm.js:117 /media/js/views/comm.js:191
+#: /media/js/views/comm.js:118 /media/js/views/comm.js:192
 msgid "No notes to show."
 msgstr "Geen opmerkingen te tonen."
 
-#: /media/js/views/comm.js:131
+#: /media/js/views/comm.js:132
 msgid "There are no more older notes."
 msgstr "Er zijn geen oudere opmerkingen."
 
-#: /media/js/views/comm.js:179
+#: /media/js/views/comm.js:180
 msgid "There was some problem marking the note as read. Try again."
-msgstr ""
-"Er was een probleem bij het markeren van de opmerking als gelezen. Probeer "
-"het opnieuw."
+msgstr "Er was een probleem bij het markeren van de opmerking als gelezen. Probeer het opnieuw."
 
-#: /media/js/views/comm.js:198
+#: /media/js/views/comm.js:199
 msgid "There was some problem marking the thread as read. Try again."
-msgstr ""
-"Er was een probleem bij het markeren van de conversatie als gelezen. Probeer "
-"het opnieuw."
+msgstr "Er was een probleem bij het markeren van de conversatie als gelezen. Probeer het opnieuw."
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9

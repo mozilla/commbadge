@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-27T23:44:03.167Z\n"
+"POT-Creation-Date: 2013-10-17T15:27:08.910Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -24,18 +24,6 @@ msgstr "No"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Yes"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Communication Dashboard"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Sign Out"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Sign In"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -81,25 +69,25 @@ msgstr "Terms of Use"
 msgid "Report Trademark Abuse"
 msgstr "Report Trademark Abuse"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Sign in"
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Communication Dashboard"
 
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "You must sign in to proceed."
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Sign Out"
 
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Sign in / Sign up"
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Sign In"
 
-#: /templates/_macros/thread.html:12 /media/js/views/comm.js:27
+#: /templates/_macros/thread.html:12 /media/js/views/comm.js:28
 msgid "{n} note"
 msgid_plural "{n} notes"
 msgstr[0] "{n} note"
 msgstr[1] "{n} notes"
 
-#: /templates/_macros/thread.html:16 /media/js/views/comm.js:36 /media/js/views/comm.js:67
+#: /templates/_macros/thread.html:16 /media/js/views/comm.js:37 /media/js/views/comm.js:68
 msgid "Reply"
 msgstr "Reply"
 
@@ -127,9 +115,21 @@ msgstr "Read"
 msgid "Mark All Read"
 msgstr "Mark All Read"
 
-#: /templates/_macros/thread.html:47
+#: /templates/_macros/thread.html:45
 msgid "View older"
 msgstr "View older"
+
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Sign in"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "You must sign in to proceed."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Sign in / Sign up"
 
 #: /templates/comm/main.html:9
 msgid "You have no threads."
@@ -147,6 +147,10 @@ msgstr "Oh no!"
 msgid "The page you were looking for was not found."
 msgstr "The page you were looking for was not found."
 
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "An error occurred."
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Error loading more"
@@ -154,10 +158,6 @@ msgstr "Error loading more"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Try Again"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "An error occurred."
 
 #: /media/js/helpers.js:72
 msgid "Message"
@@ -214,31 +214,31 @@ msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{n}</b> character left."
 msgstr[1] "<b>{n}</b> characters left."
 
-#: /media/js/views/comm.js:42
+#: /media/js/views/comm.js:43
 msgid "Message sent."
 msgstr "Message sent."
 
-#: /media/js/views/comm.js:47
+#: /media/js/views/comm.js:48
 msgid "Message sending failed."
 msgstr "Message sending failed."
 
-#: /media/js/views/comm.js:60
+#: /media/js/views/comm.js:61
 msgid "Cancel reply"
 msgstr "Cancel reply"
 
-#: /media/js/views/comm.js:117 /media/js/views/comm.js:191
+#: /media/js/views/comm.js:118 /media/js/views/comm.js:192
 msgid "No notes to show."
 msgstr "No notes to show."
 
-#: /media/js/views/comm.js:131
+#: /media/js/views/comm.js:132
 msgid "There are no more older notes."
 msgstr "There are no more older notes."
 
-#: /media/js/views/comm.js:179
+#: /media/js/views/comm.js:180
 msgid "There was some problem marking the note as read. Try again."
 msgstr "There was some problem marking the note as read. Try again."
 
-#: /media/js/views/comm.js:198
+#: /media/js/views/comm.js:199
 msgid "There was some problem marking the thread as read. Try again."
 msgstr "There was some problem marking the thread as read. Try again."
 

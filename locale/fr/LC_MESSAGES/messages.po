@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-27T23:44:03.167Z\n"
+"POT-Creation-Date: 2013-10-17T15:27:08.910Z\n"
 "PO-Revision-Date: 2013-10-08 17:13+0000\n"
 "Last-Translator: Benoit <benoit.leseul@gmail.com>\n"
 "Language-Team: français <>\n"
@@ -28,18 +28,6 @@ msgstr "Non"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Oui"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Tableau de bord de communication"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Déconnexion"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Connexion"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -85,25 +73,25 @@ msgstr "Conditions d'utilisation"
 msgid "Report Trademark Abuse"
 msgstr "Signaler un abus de marque déposée"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Tableau de bord de communication"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Déconnexion"
+
+#: /templates/header.html:8
+msgid "Sign In"
 msgstr "Connexion"
 
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Vous devez vous identifier pour continuer."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Connexion/Inscription"
-
-#: /templates/_macros/thread.html:12 /media/js/views/comm.js:27
+#: /templates/_macros/thread.html:12 /media/js/views/comm.js:28
 msgid "{n} note"
 msgid_plural "{n} notes"
 msgstr[0] "{n} note"
 msgstr[1] "{n} notes"
 
-#: /templates/_macros/thread.html:16 /media/js/views/comm.js:36 /media/js/views/comm.js:67
+#: /templates/_macros/thread.html:16 /media/js/views/comm.js:37 /media/js/views/comm.js:68
 msgid "Reply"
 msgstr "Répondre"
 
@@ -131,9 +119,21 @@ msgstr "Lu"
 msgid "Mark All Read"
 msgstr "Tout marquer comme lu"
 
-#: /templates/_macros/thread.html:47
+#: /templates/_macros/thread.html:45
 msgid "View older"
 msgstr "Afficher plus anciens"
+
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Connexion"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Vous devez vous identifier pour continuer."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Connexion/Inscription"
 
 #: /templates/comm/main.html:9
 msgid "You have no threads."
@@ -151,6 +151,10 @@ msgstr "Oh non !"
 msgid "The page you were looking for was not found."
 msgstr "La page que vous avez demandé n'a pas été trouvée."
 
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Une erreur est survenue."
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Erreur pendant le chargement"
@@ -158,10 +162,6 @@ msgstr "Erreur pendant le chargement"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Réessayez"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Une erreur est survenue."
 
 #: /media/js/helpers.js:72
 msgid "Message"
@@ -218,37 +218,33 @@ msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{n}</b> caractère restant."
 msgstr[1] "<b>{n}</b> caractères restants."
 
-#: /media/js/views/comm.js:42
+#: /media/js/views/comm.js:43
 msgid "Message sent."
 msgstr "Message envoyé."
 
-#: /media/js/views/comm.js:47
+#: /media/js/views/comm.js:48
 msgid "Message sending failed."
 msgstr "Échec d'envoi du message."
 
-#: /media/js/views/comm.js:60
+#: /media/js/views/comm.js:61
 msgid "Cancel reply"
 msgstr "Annuler la réponse"
 
-#: /media/js/views/comm.js:117 /media/js/views/comm.js:191
+#: /media/js/views/comm.js:118 /media/js/views/comm.js:192
 msgid "No notes to show."
 msgstr "Aucune note à afficher."
 
-#: /media/js/views/comm.js:131
+#: /media/js/views/comm.js:132
 msgid "There are no more older notes."
 msgstr "Il n'y a pas de notes plus anciennes."
 
-#: /media/js/views/comm.js:179
+#: /media/js/views/comm.js:180
 msgid "There was some problem marking the note as read. Try again."
-msgstr ""
-"Un problème s'est produit lors du marquage de la note comme lue. Veuillez "
-"réessayer."
+msgstr "Un problème s'est produit lors du marquage de la note comme lue. Veuillez réessayer."
 
-#: /media/js/views/comm.js:198
+#: /media/js/views/comm.js:199
 msgid "There was some problem marking the thread as read. Try again."
-msgstr ""
-"Un problème s'est produit lors du marquage de la discussion comme lue. "
-"Veuillez réessayer."
+msgstr "Un problème s'est produit lors du marquage de la discussion comme lue. Veuillez réessayer."
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9
