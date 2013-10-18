@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-17T15:27:08.910Z\n"
+"POT-Creation-Date: 2013-10-18T23:49:50.501Z\n"
 "PO-Revision-Date: 2013-09-28 16:48+0800\n"
 "Last-Translator: Peter Pin-Guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: MozTW <petercpg@mail.moztw.org>\n"
@@ -80,6 +80,18 @@ msgstr "登出"
 msgid "Sign In"
 msgstr "登入"
 
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "登入"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "您必須登入才能繼續。"
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "登入 / 註冊"
+
 #: /templates/_macros/thread.html:12 /media/js/views/comm.js:28
 msgid "{n} note"
 msgid_plural "{n} notes"
@@ -113,21 +125,9 @@ msgstr "已讀"
 msgid "Mark All Read"
 msgstr "標示所有已讀"
 
-#: /templates/_macros/thread.html:45
+#: /templates/_macros/thread.html:47
 msgid "View older"
 msgstr "檢視更舊項目"
-
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "登入"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "您必須登入才能繼續。"
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "登入 / 註冊"
 
 #: /templates/comm/main.html:9
 msgid "You have no threads."

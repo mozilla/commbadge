@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fireplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-17T15:27:08.910Z\n"
+"POT-Creation-Date: 2013-10-18T23:49:50.501Z\n"
 "PO-Revision-Date: 2013-05-04 08:35-0500\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -81,6 +81,18 @@ msgstr "Logáil Amach"
 msgid "Sign In"
 msgstr "Logáil Isteach"
 
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr ""
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr ""
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Logáil Isteach / Cláraigh"
+
 #: /templates/_macros/thread.html:12 /media/js/views/comm.js:28
 msgid "{n} note"
 msgid_plural "{n} notes"
@@ -118,21 +130,9 @@ msgstr ""
 msgid "Mark All Read"
 msgstr ""
 
-#: /templates/_macros/thread.html:45
+#: /templates/_macros/thread.html:47
 msgid "View older"
 msgstr ""
-
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr ""
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr ""
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Logáil Isteach / Cláraigh"
 
 #: /templates/comm/main.html:9
 msgid "You have no threads."

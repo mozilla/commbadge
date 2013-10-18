@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-17T15:27:08.910Z\n"
+"POT-Creation-Date: 2013-10-18T23:49:50.501Z\n"
 "PO-Revision-Date: 2013-10-04 17:42+0000\n"
 "Last-Translator: Inma <inma.barrios@mozilla-hispano.org>\n"
 "Language-Team: Español (España) <nave@elistas.net>\n"
@@ -82,6 +82,18 @@ msgstr "Salir"
 msgid "Sign In"
 msgstr "Identificarse"
 
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Identificarse"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Debes identificarte para continuar."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Identificarse / Registrarse"
+
 #: /templates/_macros/thread.html:12 /media/js/views/comm.js:28
 msgid "{n} note"
 msgid_plural "{n} notes"
@@ -116,21 +128,9 @@ msgstr "Leídas"
 msgid "Mark All Read"
 msgstr "Marcar todas como leídas"
 
-#: /templates/_macros/thread.html:45
+#: /templates/_macros/thread.html:47
 msgid "View older"
 msgstr "Ver anteriores"
-
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Identificarse"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Debes identificarte para continuar."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Identificarse / Registrarse"
 
 #: /templates/comm/main.html:9
 msgid "You have no threads."

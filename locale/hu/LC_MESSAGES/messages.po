@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-17T15:27:08.910Z\n"
+"POT-Creation-Date: 2013-10-18T23:49:50.501Z\n"
 "PO-Revision-Date: 2013-10-08 13:09+0000\n"
 "Last-Translator: Gábor <kelemeng@gnome.hu>\n"
 "Language-Team: none\n"
@@ -82,6 +82,18 @@ msgstr "Kijelentkezés"
 msgid "Sign In"
 msgstr "Bejelentkezés"
 
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Bejelentkezés"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Be kell jelentkeznie a folytatáshoz."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Bejelentkezés/regisztráció"
+
 #: /templates/_macros/thread.html:12 /media/js/views/comm.js:28
 msgid "{n} note"
 msgid_plural "{n} notes"
@@ -116,21 +128,9 @@ msgstr "Olvasott"
 msgid "Mark All Read"
 msgstr "Összes jelölése olvasottként"
 
-#: /templates/_macros/thread.html:45
+#: /templates/_macros/thread.html:47
 msgid "View older"
 msgstr "Régebbi megjelenítése"
-
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Bejelentkezés"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Be kell jelentkeznie a folytatáshoz."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Bejelentkezés/regisztráció"
 
 #: /templates/comm/main.html:9
 msgid "You have no threads."

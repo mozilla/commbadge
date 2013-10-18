@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-17T15:27:08.910Z\n"
+"POT-Creation-Date: 2013-10-18T23:49:50.501Z\n"
 "PO-Revision-Date: 2013-06-26 00:25+0200\n"
 "Last-Translator: Toni Hermoso Pulido <toniher@softcatala.org>\n"
 "Language-Team: Catalan <ca@dodds.net>\n"
@@ -82,6 +82,18 @@ msgstr "Finalitza la sessió"
 msgid "Sign In"
 msgstr "Inicia una sessió"
 
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr ""
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr ""
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Inicia una sessió / Registre"
+
 #: /templates/_macros/thread.html:12 /media/js/views/comm.js:28
 msgid "{n} note"
 msgid_plural "{n} notes"
@@ -116,21 +128,9 @@ msgstr ""
 msgid "Mark All Read"
 msgstr ""
 
-#: /templates/_macros/thread.html:45
+#: /templates/_macros/thread.html:47
 msgid "View older"
 msgstr ""
-
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr ""
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr ""
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Inicia una sessió / Registre"
 
 #: /templates/comm/main.html:9
 msgid "You have no threads."

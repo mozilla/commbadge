@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AMO Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-17T15:27:08.910Z\n"
+"POT-Creation-Date: 2013-10-18T23:49:50.501Z\n"
 "PO-Revision-Date: 2013-10-03 07:24+0000\n"
 "Last-Translator: Matjaž <m@owca.info>\n"
 "Language-Team: German (de) <coce@nurfuerspam.de>\n"
@@ -82,6 +82,18 @@ msgstr "Abmelden"
 msgid "Sign In"
 msgstr "Anmelden"
 
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Anmelden"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Sie müssen sich anmelden, um fortzufahren."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Anmelden / Registrieren"
+
 #: /templates/_macros/thread.html:12 /media/js/views/comm.js:28
 msgid "{n} note"
 msgid_plural "{n} notes"
@@ -116,21 +128,9 @@ msgstr "Gelesen"
 msgid "Mark All Read"
 msgstr "Alle als gelesen markieren"
 
-#: /templates/_macros/thread.html:45
+#: /templates/_macros/thread.html:47
 msgid "View older"
 msgstr "Ältere ansehen"
-
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Anmelden"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Sie müssen sich anmelden, um fortzufahren."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Anmelden / Registrieren"
 
 #: /templates/comm/main.html:9
 msgid "You have no threads."

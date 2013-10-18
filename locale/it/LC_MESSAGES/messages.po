@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Commbadge\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-17T15:27:08.910Z\n"
+"POT-Creation-Date: 2013-10-18T23:49:50.501Z\n"
 "PO-Revision-Date: 2013-10-16 09:11+0000\n"
 "Last-Translator: Sandro <gialloporpora@mozillaitalia.org>\n"
 "Language-Team: gialloporpora <gialloporpora@yahoo.it>\n"
@@ -83,6 +83,18 @@ msgstr "Esci"
 msgid "Sign In"
 msgstr "Accedi"
 
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Accedi"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Per proseguire è necessario eseguire l'accesso."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Accedi o registrati"
+
 #: /templates/_macros/thread.html:12 /media/js/views/comm.js:28
 msgid "{n} note"
 msgid_plural "{n} notes"
@@ -117,21 +129,9 @@ msgstr "Lette"
 msgid "Mark All Read"
 msgstr "Marca tutte come lette"
 
-#: /templates/_macros/thread.html:45
+#: /templates/_macros/thread.html:47
 msgid "View older"
 msgstr "Visualizza meno recenti"
-
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Accedi"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Per proseguire è necessario eseguire l'accesso."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Accedi o registrati"
 
 #: /templates/comm/main.html:9
 msgid "You have no threads."

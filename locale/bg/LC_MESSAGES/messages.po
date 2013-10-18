@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AMO Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-27T23:44:03.167Z\n"
+"POT-Creation-Date: 2013-10-18T23:49:50.501Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Mihail Chilyashev <chilyashev@gmail.com  \n"
 "Language-Team: Bulgarian (bg)\n"
@@ -24,18 +24,6 @@ msgstr "Не"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Да"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Комуникационно табло"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Изход"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Вход"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -81,6 +69,18 @@ msgstr "Условия за ползване"
 msgid "Report Trademark Abuse"
 msgstr "Докладвай злоупотреба със запазена марка"
 
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Комуникационно табло"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Изход"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Вход"
+
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "Вход"
@@ -93,13 +93,13 @@ msgstr "Трябва да влезете, за да продължите"
 msgid "Sign in / Sign up"
 msgstr "Вход / Регистрация"
 
-#: /templates/_macros/thread.html:12 /media/js/views/comm.js:27
+#: /templates/_macros/thread.html:12 /media/js/views/comm.js:28
 msgid "{n} note"
 msgid_plural "{n} notes"
 msgstr[0] "{n} бележка"
 msgstr[1] "{n} бележки"
 
-#: /templates/_macros/thread.html:16 /media/js/views/comm.js:36 /media/js/views/comm.js:67
+#: /templates/_macros/thread.html:16 /media/js/views/comm.js:37 /media/js/views/comm.js:68
 msgid "Reply"
 msgstr "Отговор"
 
@@ -147,6 +147,10 @@ msgstr "О, не!"
 msgid "The page you were looking for was not found."
 msgstr "Страницата, която търсите не бе намерена."
 
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Възникна грешна"
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Грешка при зареждането"
@@ -154,10 +158,6 @@ msgstr "Грешка при зареждането"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Опитай отново"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Възникна грешна"
 
 #: /media/js/helpers.js:72
 msgid "Message"
@@ -214,31 +214,31 @@ msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "остава <b>{n}</b> знак."
 msgstr[1] "остават <b>{n}</b> знака"
 
-#: /media/js/views/comm.js:42
+#: /media/js/views/comm.js:43
 msgid "Message sent."
 msgstr "Съобщението изпратено."
 
-#: /media/js/views/comm.js:47
+#: /media/js/views/comm.js:48
 msgid "Message sending failed."
 msgstr "Изпращането на съобщението се провали."
 
-#: /media/js/views/comm.js:60
+#: /media/js/views/comm.js:61
 msgid "Cancel reply"
 msgstr "Откажи отговора"
 
-#: /media/js/views/comm.js:117 /media/js/views/comm.js:191
+#: /media/js/views/comm.js:118 /media/js/views/comm.js:192
 msgid "No notes to show."
 msgstr "Няма бележки за показване."
 
-#: /media/js/views/comm.js:131
+#: /media/js/views/comm.js:132
 msgid "There are no more older notes."
 msgstr "Няма повече по-стари бележки."
 
-#: /media/js/views/comm.js:179
+#: /media/js/views/comm.js:180
 msgid "There was some problem marking the note as read. Try again."
 msgstr "Възникна проблем с отбелязването на бележката като прочетена. Опитайте отново."
 
-#: /media/js/views/comm.js:198
+#: /media/js/views/comm.js:199
 msgid "There was some problem marking the thread as read. Try again."
 msgstr "Възникна проблем с отбелязването на темата като прочетена. Опитайте отново."
 

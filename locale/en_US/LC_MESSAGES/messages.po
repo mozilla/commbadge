@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-17T15:27:08.910Z\n"
+"POT-Creation-Date: 2013-10-18T23:49:50.501Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -81,6 +81,18 @@ msgstr "Sign Out"
 msgid "Sign In"
 msgstr "Sign In"
 
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Sign in"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "You must sign in to proceed."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Sign in / Sign up"
+
 #: /templates/_macros/thread.html:12 /media/js/views/comm.js:28
 msgid "{n} note"
 msgid_plural "{n} notes"
@@ -115,21 +127,9 @@ msgstr "Read"
 msgid "Mark All Read"
 msgstr "Mark All Read"
 
-#: /templates/_macros/thread.html:45
+#: /templates/_macros/thread.html:47
 msgid "View older"
 msgstr "View older"
-
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Sign in"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "You must sign in to proceed."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Sign in / Sign up"
 
 #: /templates/comm/main.html:9
 msgid "You have no threads."
