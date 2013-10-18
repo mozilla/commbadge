@@ -1,8 +1,8 @@
 import os
 
 from fabric.api import env, execute, lcd, local, parallel, roles, task
-from fabdeploytools.rpm import RPMBuild
 import fabdeploytools.envs
+from fabdeploytools import helpers
 
 import deploysettings as settings
 
@@ -41,13 +41,10 @@ def deploy():
     with lcd(COMMBADGE):
         ref = local('git rev-parse HEAD', capture=True)
 
-    rpmbuild = RPMBuild(name='commbadge',
-                        env=settings.ENV,
-                        ref=ref,
-                        cluster=settings.CLUSTER,
-                        domain=settings.DOMAIN)
-    rpmbuild.build_rpm(ROOT, ['commbadge'])
-
-    execute(_install_package, rpmbuild)
-
-    rpmbuild.clean()
+    rpmbuild = helpers.deploy(name='commbadge',
+                              env=settings.ENV,
+                              cluster=settings.CLUSTER,
+                              domain=settings.DOMAIN,
+                              root=ROOT,
+                              deploy_roles=['web'],
+                              package_dirs=['commbadge'])
