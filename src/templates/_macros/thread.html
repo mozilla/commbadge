@@ -38,10 +38,12 @@
         </ul>
       </div>
     </section>
-    <section class="notes-container">
-      {% for note in t.recent_notes %}
-        {% include 'comm/note_detail.html' %}
-      {% endfor %}
+    <section class="notes-outer-container">
+      <div class="notes-container">
+        {% for note in t.recent_notes %}
+          {% include 'comm/note_detail.html' %}
+        {% endfor %}
+      </div>
       {% if t.notes_count > t.recent_notes.length %}
         <button class="button alt view-older-notes">{{ _('View older') }}</button>
       {% endif %}
