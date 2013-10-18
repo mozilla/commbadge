@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-10-17T15:27:08.910Z\n"
-"PO-Revision-Date: 2013-10-18 13:57+0000\n"
+"PO-Revision-Date: 2013-10-18 14:04+0000\n"
 "Last-Translator: Shaohua <shaohua.wen@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1382104627.0\n"
+"X-POOTLE-MTIME: 1382105073.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -181,67 +181,67 @@ msgstr "需要更多信息"
 
 #: /media/js/helpers.js:77
 msgid "Review escalated to senior reviewer"
-msgstr ""
+msgstr "审核提升至资深审核人员"
 
 #: /media/js/helpers.js:78
 msgid "Reviewer comment"
-msgstr ""
+msgstr "审核人员留言"
 
 #: /media/js/login.js:8
 msgid "You have been signed out"
-msgstr ""
+msgstr "您已经登出"
 
 #: /media/js/login.js:12
 msgid "You have been signed in"
-msgstr ""
+msgstr "您已经登录"
 
 #: /media/js/login.js:122
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr ""
+msgstr "Persona 登录失败，也许您没有使用该电子邮件地址的帐号？"
 
 #: /media/js/login.js:127
 msgid "Persona login failed. A server error was encountered."
-msgstr ""
+msgstr "Persona 登录失败。服务器发生错误。"
 
 #: /media/js/navigation.js:50
 msgid "No internet connection"
-msgstr ""
+msgstr "没有互联网连接"
 
 #. {n} is the number of characters left.
 #: /media/js/utils.js:25
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
-msgstr[0] ""
+msgstr[0] "剩下 <b>{n}</b> 個字符。"
 
 #: /media/js/views/comm.js:43
 msgid "Message sent."
-msgstr ""
+msgstr "消息已发出。"
 
 #: /media/js/views/comm.js:48
 msgid "Message sending failed."
-msgstr ""
+msgstr "消息发送失败。"
 
 #: /media/js/views/comm.js:61
 msgid "Cancel reply"
-msgstr ""
+msgstr "取消回复"
 
 #: /media/js/views/comm.js:118 /media/js/views/comm.js:192
 msgid "No notes to show."
-msgstr ""
+msgstr "无可显示的笔记。"
 
 #: /media/js/views/comm.js:132
 msgid "There are no more older notes."
-msgstr ""
+msgstr "没有更早的笔记了。"
 
 #: /media/js/views/comm.js:180
 msgid "There was some problem marking the note as read. Try again."
-msgstr ""
+msgstr "将笔记标示为已读时发生错误，请重试。"
 
 #: /media/js/views/comm.js:199
 msgid "There was some problem marking the thread as read. Try again."
-msgstr ""
+msgstr "将话题标示为已读时发生错误，请重试。"
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9
 msgid "Not Found"
-msgstr ""
+msgstr "找不到"
