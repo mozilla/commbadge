@@ -13,11 +13,11 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
 "n%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1382193190.0\n"
+"X-POOTLE-MTIME: 1382193217.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
-msgstr " "
+msgstr ""
 
 #: /templates/confirmation.html:3
 msgid "No"
