@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-10-18T23:49:50.501Z\n"
-"PO-Revision-Date: 2013-10-20 01:05+0400\n"
+"PO-Revision-Date: 2013-10-20 01:07+0400\n"
 "Last-Translator: Alexander L. Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: none\n"
 "Language: ru-ru\n"
@@ -112,7 +112,7 @@ msgstr "Ответить"
 
 #: /templates/_macros/thread.html:20
 msgid "Enter note text here"
-msgstr "Введите здесь текст заметки "
+msgstr "Введите здесь текст заметки"
 
 #: /templates/_macros/thread.html:21
 msgid "Post"
