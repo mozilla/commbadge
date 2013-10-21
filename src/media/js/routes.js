@@ -7,7 +7,8 @@ var routes = window.routes = [
 
     {'pattern': '^/comm/?$', 'view_name': 'comm'},
     {'pattern': '^/comm/login$', 'view_name': 'login'},
-    {'pattern': '^/comm/thread/([^/<>"\']+)$', 'view_name': 'show_thread'}
+    {'pattern': '^/comm/app/([^/<>"\']+)$', 'view_name': 'app_dashboard'},
+    {'pattern': '^/comm/thread/(\\d+)$', 'view_name': 'show_thread'}
 ];
 
 define(

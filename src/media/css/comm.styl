@@ -121,10 +121,13 @@ tick() {
 .notes-outer-container {
     background-color: #fff;
     padding: 0;
-    padding-bottom: 12px;
 
     .notes-container > div {
-        padding: 10px;
+        padding: 15px;
+
+        &.empty {
+            font-style: italic;
+        }
     }
     .note-detail {
         border-bottom: 1px solid $seavan-salt-white;
@@ -144,7 +147,6 @@ tick() {
             border-bottom: none;
         }
         .note-body {
-            border: 1px solid $seavan-salt-white;
             color: #000;
             margin-top: 3px;
             padding: 5px;
@@ -174,8 +176,10 @@ tick() {
 }
 
 .view-older-notes {
+    bottom: 10px;
     display: block;
-    margin: 10px auto;
+    margin: 0 auto;
+    position: relative;
     width: 45%;
 }
 
@@ -185,5 +189,11 @@ tick() {
     }
     p {
         margin-bottom: 20px;
+    }
+}
+
+.app-dashboard {
+    h1 {
+        margin-bottom: 40px;
     }
 }

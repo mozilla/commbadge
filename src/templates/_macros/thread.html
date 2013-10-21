@@ -3,10 +3,22 @@
     <section class="thread-header">
       <div class="c">
         <div class="thread-meta">
-          <a href="{{ t.addon_meta.url }}">
+          <a href="{{ url('app_dashboard', [t.addon_meta.app_slug]) }}">
             <img class="addon-icon" src="{{ t.addon_meta.thumbnail_url }}">
             <div class="addon-name">
-              {{ t.addon_meta.name }}
+              {% defer (url=api('version', t.version)) %}
+                {{ format(_('{0} (Version {1})'), [t.addon_meta.name, this.version]) }}
+              {% placeholder %}
+                  {{ t.addon_meta.name }}
+              {% empty %}
+                  {{ t.addon_meta.name }}
+              {% except %}
+                  {% if t.addon_meta.name %}
+                    {{ format(_('{0} (Obsolete)'), [t.addon_meta.name]) }}
+                  {% else %}
+                    {{ _('Deleted') }}
+                  {% endif %}
+              {% end %}
             </div>
           </a>
           <h3 class="note-count" data-count="{{ t.notes_count }}">

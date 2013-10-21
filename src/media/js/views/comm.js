@@ -115,7 +115,7 @@ define('views/comm',
                     markup += nunjucks.env.getTemplate('comm/note_detail.html').render({note: object});
                 });
             } else {
-                markup = '<div>' + gettext('No notes to show.') + '</div>';
+                markup = nunjucks.env.getTemplate('comm/no_notes.html').render();
             }
             $threadItem.find('.notes-container').html(markup);
         });

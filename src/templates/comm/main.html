@@ -6,6 +6,8 @@
     {% for t in this %}
       {{ thread(t) }}
     {% endfor %}
+  {% placeholder %}
+    <div class="spinner alt"></div>
   {% empty %}
     <h2>{{ _('You have no threads.') }}</h2>
   {% end %}

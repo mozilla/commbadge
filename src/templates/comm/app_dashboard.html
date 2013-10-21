@@ -1,0 +1,26 @@
+{% include '_macros/thread.html' %}
+
+<section class="main app-dashboard">
+  <h1>
+    {% defer (url=app_endpoint) %}
+      {{ format(_('Viewing All Threads for {0}'), [this.name]) }}
+    {% except %}
+      {{ format(_('App {0} could not be found.'), [app_slug]) }}
+    {% end %}
+  </h1>
+
+  <div class="threads-container">
+    {% defer (url=apiParams('threads', ordering='-created', app=app_slug),
+              pluck='objects') %}
+      {% for t in this %}
+        {{ thread(t) }}
+      {% endfor %}
+    {% placeholder %}
+      <div class="spinner alt"></div>
+    {% empty %}
+      <h2>{{ _('This app does not yet have any threads.') }}</h2>
+    {% except %}
+      <h2>{{ _('Error loading threads.') }}</h2>
+    {% end %}
+  </div>
+</section>

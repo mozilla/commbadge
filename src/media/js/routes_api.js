@@ -8,11 +8,13 @@ define('routes_api', [], function() {
     // }
 	return {
         'login': '/api/v1/account/login/',
-        'permissions': '/api/v1/account/permissions/mine/',
+
+        'app': '/api/v1/fireplace/app/{0}/',
+        'version': '/api/v1/apps/versions/{0}/',
+
         'threads': '/api/v1/comm/thread/',
         'thread': '/api/v1/comm/thread/{0}/',
         'notes': '/api/v1/comm/thread/{0}/note/',
         'note': '/api/v1/comm/thread/{0}/note/{1}/'
-
     };
 });
