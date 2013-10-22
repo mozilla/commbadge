@@ -1,24 +1,16 @@
 {% macro thread(t) %}
-  <div class="thread-item" data-notes-page="{{ notes_page }}" data-notes-filter="{{ notes_filter }}" data-thread-id="{{ t.id }}" data-addon-id="{{ t.addon }}" data-version-id="{{ t.version }}">
+  <div class="thread-item" data-notes-page="{{ notes_page }}" data-notes-filter="{{ notes_filter }}" data-thread-id="{{ t.id }}">
     <section class="thread-header">
       <div class="c">
         <div class="thread-meta">
           <a href="{{ url('app_dashboard', [t.addon_meta.app_slug]) }}">
             <img class="addon-icon" src="{{ t.addon_meta.thumbnail_url }}">
             <div class="addon-name">
-              {% defer (url=api('version', t.version)) %}
-                {{ format(_('{0} (Version {1})'), [t.addon_meta.name, this.version]) }}
-              {% placeholder %}
-                  {{ t.addon_meta.name }}
-              {% empty %}
-                  {{ t.addon_meta.name }}
-              {% except %}
-                  {% if t.addon_meta.name %}
-                    {{ format(_('{0} (Obsolete)'), [t.addon_meta.name]) }}
-                  {% else %}
-                    {{ _('Deleted') }}
-                  {% endif %}
-              {% end %}
+              {{ _('{app_name} (Version {version_number})',
+                   app_name=t.addon_meta.name, version_number=t.version_number) }}
+              {% if t.version_is_obsolete %}
+                {{ _('(Obsolete)') }}
+              {% endif %}
             </div>
           </a>
           <h3 class="note-count" data-count="{{ t.notes_count }}">

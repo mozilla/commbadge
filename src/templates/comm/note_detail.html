@@ -13,7 +13,7 @@
     {% if note.body %}
       {{ note.body|nl2br }}
     {% else %}
-      <i>{{ _('Empty note.') }}</i>
+      <span class="empty">{{ _('Empty note') }}</span>
     {% endif %}
   </div>
 </div>

@@ -10,7 +10,6 @@ define('routes_api', [], function() {
         'login': '/api/v1/account/login/',
 
         'app': '/api/v1/fireplace/app/{0}/',
-        'version': '/api/v1/apps/versions/{0}/',
 
         'threads': '/api/v1/comm/thread/',
         'thread': '/api/v1/comm/thread/{0}/',
