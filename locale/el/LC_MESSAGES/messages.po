@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-10-18T23:49:50.501Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
+"Last-Translator: Αλέξανδρος Μιόγλου <alexandros@mioglou.me>\n"
 "Language-Team: none\n"
 "Language: en-us\n"
 "MIME-Version: 1.0\n"
@@ -43,7 +43,7 @@ msgstr "Οι υποβολές μου"
 
 #: /templates/footer.html:13
 msgid "Reviewer Tools"
-msgstr "Εργαλεία επιθεωρητή"
+msgstr "Εργαλεία αξιολόγησης"
 
 #: /templates/footer.html:16
 msgid "Lookup Tool"
@@ -71,7 +71,7 @@ msgstr "Αναφορά κατάχρησης επωνυμίας"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
-msgstr ""
+msgstr "Ταμπλό επικοινωνίας"
 
 #: /templates/header.html:7
 msgid "Sign Out"
@@ -105,7 +105,7 @@ msgstr "Απάντηση"
 
 #: /templates/_macros/thread.html:20
 msgid "Enter note text here"
-msgstr "Εισαγωγή κειμένου δημείωσης εδώ"
+msgstr "Εισαγωγή κειμένου σημείωσης εδώ"
 
 #: /templates/_macros/thread.html:21
 msgid "Post"
