@@ -239,13 +239,11 @@ msgstr "Neexistujú žiadne staršie poznámky."
 
 #: /media/js/views/comm.js:180
 msgid "There was some problem marking the note as read. Try again."
-msgstr ""
-"Pri označovaní poznámky ako prečítanej sa vyskytla chyba. Skúste to znova."
+msgstr "Pri označovaní poznámky ako prečítanej sa vyskytla chyba. Skúste to znova."
 
 #: /media/js/views/comm.js:199
 msgid "There was some problem marking the thread as read. Try again."
-msgstr ""
-"Pri označovaní vlákna ako prečítaného sa vyskytla chyba. Skúste to znova."
+msgstr "Pri označovaní vlákna ako prečítaného sa vyskytla chyba. Skúste to znova."
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9
