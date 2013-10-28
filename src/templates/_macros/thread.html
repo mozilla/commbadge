@@ -12,6 +12,9 @@
           <h3 class="note-count" data-count="{{ t.notes_count }}">
             <a href="{{ url('show_thread', [t.id]) }}">{{ _plural('{n} note', '{n} notes', n=t.notes_count) }}</a>
           </h3>
+          {% if user.get_permission('reviewer') %}
+            <a class="review-link" href="{{ t.addon_meta.review_url}}">{{ _('Review page') }}</a>
+          {% endif %}
         </div>
         <div class="thread-action">
           <button class="button alt reply open-reply">{{ _('Reply') }}</button>
