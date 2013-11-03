@@ -1,246 +1,248 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-10-18T23:49:50.501Z\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2013-11-03 00:30+0000\n"
+"Last-Translator: Hyeonseok <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);Content-Type: text/plain; charset=UTF-8\n"
-"X-Generator: Fireplace L10n Tools 1.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1383438646.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
-msgstr ""
+msgstr "닫기"
 
 #: /templates/confirmation.html:3
 msgid "No"
-msgstr ""
+msgstr "아니오"
 
 #: /templates/confirmation.html:4
 msgid "Yes"
-msgstr ""
+msgstr "예"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
-msgstr ""
+msgstr "개발용 앱"
 
 #: /templates/footer.html:5
 msgid "Developer Hub"
-msgstr ""
+msgstr "개발자 허브"
 
 #: /templates/footer.html:6
 msgid "Support"
-msgstr ""
+msgstr "지원"
 
 #: /templates/footer.html:10
 msgid "My Submissions"
-msgstr ""
+msgstr "내 제출"
 
 #: /templates/footer.html:13
 msgid "Reviewer Tools"
-msgstr ""
+msgstr "리뷰어 도구"
 
 #: /templates/footer.html:16
 msgid "Lookup Tool"
-msgstr ""
+msgstr "검색 도구"
 
 #: /templates/footer.html:24
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
 "Alike License v3.0</a> or any later version."
 msgstr ""
+"따로 <a href=\"{legal_url}\" target=\"_blank\">명시</a>된 경우를 제외하고 이 사이트의 내용은 <a "
+"href=\"{cc_url}\" target=\"_blank\">크리에이티브 커먼즈 저작자표시-동일 조건 변경 허락 3.0</a>이나 그 이후 "
+"버전 라이센스를 따릅니다."
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
-msgstr ""
+msgstr "개인 정보 보호 정책"
 
 #: /templates/footer.html:30
 msgid "Terms of Use"
-msgstr ""
+msgstr "이용 약관"
 
 #: /templates/footer.html:32
 msgid "Report Trademark Abuse"
-msgstr ""
+msgstr "등록 상표 오용 신고"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
-msgstr ""
+msgstr "커뮤니케이션 대시보드"
 
 #: /templates/header.html:7
 msgid "Sign Out"
-msgstr ""
+msgstr "로그아웃"
 
 #: /templates/header.html:8
 msgid "Sign In"
-msgstr ""
+msgstr "로그인"
 
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
-msgstr ""
+msgstr "로그인"
 
 #: /templates/login.html:3
 msgid "You must sign in to proceed."
-msgstr ""
+msgstr "진행을 위해서 로그인을 해야 합니다."
 
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
-msgstr ""
+msgstr "로그인 / 회원 가입"
 
 #: /templates/_macros/thread.html:12 /media/js/views/comm.js:28
 msgid "{n} note"
 msgid_plural "{n} notes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{n} 주의"
 
 #: /templates/_macros/thread.html:16 /media/js/views/comm.js:37 /media/js/views/comm.js:68
 msgid "Reply"
-msgstr ""
+msgstr "댓글"
 
 #: /templates/_macros/thread.html:20
 msgid "Enter note text here"
-msgstr ""
+msgstr "여기에 메모를 입력"
 
 #: /templates/_macros/thread.html:21
 msgid "Post"
-msgstr ""
+msgstr "올리기"
 
 #: /templates/_macros/thread.html:26
 msgid "Recent"
-msgstr ""
+msgstr "최근"
 
 #: /templates/_macros/thread.html:29
 msgid "Unread"
-msgstr ""
+msgstr "읽지 않음"
 
 #: /templates/_macros/thread.html:32
 msgid "Read"
-msgstr ""
+msgstr "읽음"
 
 #: /templates/_macros/thread.html:35
 msgid "Mark All Read"
-msgstr ""
+msgstr "모두 읽은 것으로 표시"
 
 #: /templates/_macros/thread.html:47
 msgid "View older"
-msgstr ""
+msgstr "이전 보기"
 
 #: /templates/comm/main.html:9
 msgid "You have no threads."
-msgstr ""
+msgstr "글이 없습니다."
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
-msgstr ""
+msgstr "이 메모를 읽음으로 표시"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
-msgstr ""
+msgstr "오 이런!"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
-msgstr ""
+msgstr "찾는 페이지가 없습니다."
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
-msgstr ""
+msgstr "오류가 발생했습니다."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
-msgstr ""
+msgstr "더 불러오는 중 오류 발생"
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
-msgstr ""
+msgstr "다시 시도"
 
 #: /media/js/helpers.js:72
 msgid "Message"
-msgstr ""
+msgstr "메시지"
 
 #: /media/js/helpers.js:73
 msgid "App approved"
-msgstr ""
+msgstr "승인된 앱"
 
 #: /media/js/helpers.js:74
 msgid "App rejected"
-msgstr ""
+msgstr "거절된 앱"
 
 #: /media/js/helpers.js:75
 msgid "App disabled"
-msgstr ""
+msgstr "사용불가 앱"
 
 #: /media/js/helpers.js:76
 msgid "More info required"
-msgstr ""
+msgstr "더 많은 정보 필요"
 
 #: /media/js/helpers.js:77
 msgid "Review escalated to senior reviewer"
-msgstr ""
+msgstr "선임 리뷰어에게 리뷰가 올라감"
 
 #: /media/js/helpers.js:78
 msgid "Reviewer comment"
-msgstr ""
+msgstr "심사자 코멘트"
 
 #: /media/js/login.js:8
 msgid "You have been signed out"
-msgstr ""
+msgstr "로그아웃 되었습니다."
 
 #: /media/js/login.js:12
 msgid "You have been signed in"
-msgstr ""
+msgstr "로그인 되었습니다"
 
 #: /media/js/login.js:122
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr ""
+msgstr "Persona 로그인 실패. 입력하신 이메일과 연결된 계정이 없을 수 있습니다."
 
 #: /media/js/login.js:127
 msgid "Persona login failed. A server error was encountered."
-msgstr ""
+msgstr "Persona 로그인 실패. 서버 오류가 발생했습니다."
 
 #: /media/js/navigation.js:50
 msgid "No internet connection"
-msgstr ""
+msgstr "인터넷 연결 불가"
 
 #. {n} is the number of characters left.
 #: /media/js/utils.js:25
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "<b>{n}</b>자 남았습니다."
 
 #: /media/js/views/comm.js:43
 msgid "Message sent."
-msgstr ""
+msgstr "메시지가 전송되었습니다."
 
 #: /media/js/views/comm.js:48
 msgid "Message sending failed."
-msgstr ""
+msgstr "메시지 전송이 실패하였습니다."
 
 #: /media/js/views/comm.js:61
 msgid "Cancel reply"
-msgstr ""
+msgstr "댓글 취소"
 
 #: /media/js/views/comm.js:118 /media/js/views/comm.js:192
 msgid "No notes to show."
-msgstr ""
+msgstr "메모가 없습니다."
 
 #: /media/js/views/comm.js:132
 msgid "There are no more older notes."
-msgstr ""
+msgstr "이전 메모가 없습니다."
 
 #: /media/js/views/comm.js:180
 msgid "There was some problem marking the note as read. Try again."
-msgstr ""
+msgstr "메모 읽음 표시중에 문제가 발생했습니다. 다시 시도하세요."
 
 #: /media/js/views/comm.js:199
 msgid "There was some problem marking the thread as read. Try again."
-msgstr ""
+msgstr "글 읽음 표시중에 문제가 발생했습니다. 다시 시도하십시오."
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9
 msgid "Not Found"
-msgstr ""
+msgstr "찾을 수 없습니다."
