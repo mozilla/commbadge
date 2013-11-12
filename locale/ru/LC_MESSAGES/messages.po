@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-18T23:49:50.501Z\n"
+"POT-Creation-Date: 2013-11-12T23:28:43.395Z\n"
 "PO-Revision-Date: 2013-10-20 01:07+0400\n"
 "Last-Translator: Alexander L. Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: none\n"
@@ -24,6 +24,30 @@ msgstr "Нет"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Да"
+
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Войти"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Вы должны войти для продолжения."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Вход / Регистрация"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Панель коммуникации"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Выйти"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Войти"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -69,30 +93,6 @@ msgstr "Условия использования"
 msgid "Report Trademark Abuse"
 msgstr "Сообщить о злоупотреблении торговой маркой"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Панель коммуникации"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Выйти"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Войти"
-
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Войти"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Вы должны войти для продолжения."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Вход / Регистрация"
-
 #: /templates/_macros/thread.html:12 /media/js/views/comm.js:28
 msgid "{n} note"
 msgid_plural "{n} notes"
@@ -100,35 +100,39 @@ msgstr[0] "{n} заметка"
 msgstr[1] "{n} заметки"
 msgstr[2] "{n} заметок"
 
-#: /templates/_macros/thread.html:16 /media/js/views/comm.js:37 /media/js/views/comm.js:68
+#: /templates/_macros/thread.html:15
+msgid "Review page"
+msgstr ""
+
+#: /templates/_macros/thread.html:19 /media/js/views/comm.js:37 /media/js/views/comm.js:68
 msgid "Reply"
 msgstr "Ответить"
 
-#: /templates/_macros/thread.html:20
+#: /templates/_macros/thread.html:23
 msgid "Enter note text here"
 msgstr "Введите здесь текст заметки"
 
-#: /templates/_macros/thread.html:21
+#: /templates/_macros/thread.html:24
 msgid "Post"
 msgstr "Разместить"
 
-#: /templates/_macros/thread.html:26
+#: /templates/_macros/thread.html:29
 msgid "Recent"
 msgstr "Недавние"
 
-#: /templates/_macros/thread.html:29
+#: /templates/_macros/thread.html:32
 msgid "Unread"
 msgstr "Непрочитанные"
 
-#: /templates/_macros/thread.html:32
+#: /templates/_macros/thread.html:35
 msgid "Read"
 msgstr "Прочитанные"
 
-#: /templates/_macros/thread.html:35
+#: /templates/_macros/thread.html:38
 msgid "Mark All Read"
 msgstr "Пометить все как прочитанные"
 
-#: /templates/_macros/thread.html:47
+#: /templates/_macros/thread.html:50
 msgid "View older"
 msgstr "Показать старые"
 

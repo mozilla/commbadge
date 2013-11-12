@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-18T23:49:50.501Z\n"
+"POT-Creation-Date: 2013-11-12T23:28:43.395Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Αλέξανδρος Μιόγλου <alexandros@mioglou.me>\n"
 "Language-Team: none\n"
@@ -24,6 +24,30 @@ msgstr "Όχι"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Ναι"
+
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Σύνδεση"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Πρέπει να συνδεθείτε για να συνεχίσετε."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Σύνδεση / Εγγραφή"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Ταμπλό επικοινωνίας"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Αποσύνδεση"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Σύνδεση"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -69,65 +93,45 @@ msgstr "Όροι χρήσης"
 msgid "Report Trademark Abuse"
 msgstr "Αναφορά κατάχρησης επωνυμίας"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Ταμπλό επικοινωνίας"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Αποσύνδεση"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Σύνδεση"
-
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Σύνδεση"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Πρέπει να συνδεθείτε για να συνεχίσετε."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Σύνδεση / Εγγραφή"
-
 #: /templates/_macros/thread.html:12 /media/js/views/comm.js:28
 msgid "{n} note"
 msgid_plural "{n} notes"
 msgstr[0] "{n} σημείωση"
 msgstr[1] "{n} σημειώσεις"
 
-#: /templates/_macros/thread.html:16 /media/js/views/comm.js:37 /media/js/views/comm.js:68
+#: /templates/_macros/thread.html:15
+msgid "Review page"
+msgstr ""
+
+#: /templates/_macros/thread.html:19 /media/js/views/comm.js:37 /media/js/views/comm.js:68
 msgid "Reply"
 msgstr "Απάντηση"
 
-#: /templates/_macros/thread.html:20
+#: /templates/_macros/thread.html:23
 msgid "Enter note text here"
 msgstr "Εισαγωγή κειμένου σημείωσης εδώ"
 
-#: /templates/_macros/thread.html:21
+#: /templates/_macros/thread.html:24
 msgid "Post"
 msgstr "Δημοσίευση"
 
-#: /templates/_macros/thread.html:26
+#: /templates/_macros/thread.html:29
 msgid "Recent"
 msgstr "Πρόσφατα"
 
-#: /templates/_macros/thread.html:29
+#: /templates/_macros/thread.html:32
 msgid "Unread"
 msgstr "Μη αναγνωσμένα"
 
-#: /templates/_macros/thread.html:32
+#: /templates/_macros/thread.html:35
 msgid "Read"
 msgstr "Ανάγνωση"
 
-#: /templates/_macros/thread.html:35
+#: /templates/_macros/thread.html:38
 msgid "Mark All Read"
 msgstr "Σημείωση όλων ως αναγνωσμένων"
 
-#: /templates/_macros/thread.html:47
+#: /templates/_macros/thread.html:50
 msgid "View older"
 msgstr "Προβολή παλαιότερων"
 

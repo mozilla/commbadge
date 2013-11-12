@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AMO Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-18T23:49:50.501Z\n"
+"POT-Creation-Date: 2013-11-12T23:28:43.395Z\n"
 "PO-Revision-Date: 2013-10-03 07:24+0000\n"
 "Last-Translator: Matjaž <m@owca.info>\n"
 "Language-Team: German (de) <coce@nurfuerspam.de>\n"
@@ -25,6 +25,30 @@ msgstr "Nein"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Ja"
+
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Anmelden"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Sie müssen sich anmelden, um fortzufahren."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Anmelden / Registrieren"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Kommunikationsübersicht"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Abmelden"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Anmelden"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -70,65 +94,45 @@ msgstr "Nutzungsbedingungen"
 msgid "Report Trademark Abuse"
 msgstr "Markenrechtsverletzung melden"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Kommunikationsübersicht"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Abmelden"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Anmelden"
-
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Anmelden"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Sie müssen sich anmelden, um fortzufahren."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Anmelden / Registrieren"
-
 #: /templates/_macros/thread.html:12 /media/js/views/comm.js:28
 msgid "{n} note"
 msgid_plural "{n} notes"
 msgstr[0] "{n} Notiz"
 msgstr[1] "{n} Notizen"
 
-#: /templates/_macros/thread.html:16 /media/js/views/comm.js:37 /media/js/views/comm.js:68
+#: /templates/_macros/thread.html:15
+msgid "Review page"
+msgstr ""
+
+#: /templates/_macros/thread.html:19 /media/js/views/comm.js:37 /media/js/views/comm.js:68
 msgid "Reply"
 msgstr "Antworten"
 
-#: /templates/_macros/thread.html:20
+#: /templates/_macros/thread.html:23
 msgid "Enter note text here"
 msgstr "Text der Notiz hier eingeben"
 
-#: /templates/_macros/thread.html:21
+#: /templates/_macros/thread.html:24
 msgid "Post"
 msgstr "Absenden"
 
-#: /templates/_macros/thread.html:26
+#: /templates/_macros/thread.html:29
 msgid "Recent"
 msgstr "Neu"
 
-#: /templates/_macros/thread.html:29
+#: /templates/_macros/thread.html:32
 msgid "Unread"
 msgstr "Ungelesen"
 
-#: /templates/_macros/thread.html:32
+#: /templates/_macros/thread.html:35
 msgid "Read"
 msgstr "Gelesen"
 
-#: /templates/_macros/thread.html:35
+#: /templates/_macros/thread.html:38
 msgid "Mark All Read"
 msgstr "Alle als gelesen markieren"
 
-#: /templates/_macros/thread.html:47
+#: /templates/_macros/thread.html:50
 msgid "View older"
 msgstr "Ältere ansehen"
 

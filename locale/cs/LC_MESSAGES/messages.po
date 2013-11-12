@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Commbadge\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-18T23:49:50.501Z\n"
+"POT-Creation-Date: 2013-11-12T23:28:43.395Z\n"
 "PO-Revision-Date: 2013-10-18 12:36+0000\n"
 "Last-Translator: Pavel <jasnapaka@jasnapaka.com>\n"
 "Language-Team: Czech <info@mozilla.cz>\n"
@@ -25,6 +25,30 @@ msgstr "Ne"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Ano"
+
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Přihlášení"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Pro pokračování se musíte přihlásit."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Přihlášení / Registrace"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Nástěnka komunikace"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Odhlášení"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Přihlášení"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -70,30 +94,6 @@ msgstr "Podmínky použití"
 msgid "Report Trademark Abuse"
 msgstr "Nahlášení zneužití ochranné známky"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Nástěnka komunikace"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Odhlášení"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Přihlášení"
-
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Přihlášení"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Pro pokračování se musíte přihlásit."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Přihlášení / Registrace"
-
 #: /templates/_macros/thread.html:12 /media/js/views/comm.js:28
 msgid "{n} note"
 msgid_plural "{n} notes"
@@ -101,35 +101,39 @@ msgstr[0] "{n} poznámka"
 msgstr[1] "{n} poznámky"
 msgstr[2] "{n} poznámek"
 
-#: /templates/_macros/thread.html:16 /media/js/views/comm.js:37 /media/js/views/comm.js:68
+#: /templates/_macros/thread.html:15
+msgid "Review page"
+msgstr ""
+
+#: /templates/_macros/thread.html:19 /media/js/views/comm.js:37 /media/js/views/comm.js:68
 msgid "Reply"
 msgstr "Odpovědět"
 
-#: /templates/_macros/thread.html:20
+#: /templates/_macros/thread.html:23
 msgid "Enter note text here"
 msgstr "Zde vložte text poznámky"
 
-#: /templates/_macros/thread.html:21
+#: /templates/_macros/thread.html:24
 msgid "Post"
 msgstr "Přidat"
 
-#: /templates/_macros/thread.html:26
+#: /templates/_macros/thread.html:29
 msgid "Recent"
 msgstr "Nedávné"
 
-#: /templates/_macros/thread.html:29
+#: /templates/_macros/thread.html:32
 msgid "Unread"
 msgstr "Nepřečtené"
 
-#: /templates/_macros/thread.html:32
+#: /templates/_macros/thread.html:35
 msgid "Read"
 msgstr "Přečtené"
 
-#: /templates/_macros/thread.html:35
+#: /templates/_macros/thread.html:38
 msgid "Mark All Read"
 msgstr "Označit vše jako přečtené"
 
-#: /templates/_macros/thread.html:47
+#: /templates/_macros/thread.html:50
 msgid "View older"
 msgstr "Zobrazit starší"
 

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-18T23:49:50.501Z\n"
+"POT-Creation-Date: 2013-11-12T23:28:43.395Z\n"
 "PO-Revision-Date: 2013-10-10 11:45+0200\n"
 "Last-Translator: Wojciech Szczęsny\n"
 "Language-Team: Polish <team@aviary.pl>\n"
@@ -25,6 +25,30 @@ msgstr "Tak"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Nie"
+
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Zaloguj się"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Musisz zalogować się, aby kontynuować."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Logowanie / Rejestracja"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Panel komunikacyjny"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Wyloguj"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Zaloguj"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -70,30 +94,6 @@ msgstr "Warunki korzystania"
 msgid "Report Trademark Abuse"
 msgstr "Nadużycie znaku towarowego"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Panel komunikacyjny"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Wyloguj"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Zaloguj"
-
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Zaloguj się"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Musisz zalogować się, aby kontynuować."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Logowanie / Rejestracja"
-
 #: /templates/_macros/thread.html:12 /media/js/views/comm.js:28
 msgid "{n} note"
 msgid_plural "{n} notes"
@@ -101,35 +101,39 @@ msgstr[0] "{n} informacja"
 msgstr[1] "{n} informacje"
 msgstr[2] "{n} informacji"
 
-#: /templates/_macros/thread.html:16 /media/js/views/comm.js:37 /media/js/views/comm.js:68
+#: /templates/_macros/thread.html:15
+msgid "Review page"
+msgstr ""
+
+#: /templates/_macros/thread.html:19 /media/js/views/comm.js:37 /media/js/views/comm.js:68
 msgid "Reply"
 msgstr "Odpowiedz"
 
-#: /templates/_macros/thread.html:20
+#: /templates/_macros/thread.html:23
 msgid "Enter note text here"
 msgstr "Wprowadź tutaj tekst informacji"
 
-#: /templates/_macros/thread.html:21
+#: /templates/_macros/thread.html:24
 msgid "Post"
 msgstr "Wpis"
 
-#: /templates/_macros/thread.html:26
+#: /templates/_macros/thread.html:29
 msgid "Recent"
 msgstr "Ostatnie"
 
-#: /templates/_macros/thread.html:29
+#: /templates/_macros/thread.html:32
 msgid "Unread"
 msgstr "Nieprzeczytane"
 
-#: /templates/_macros/thread.html:32
+#: /templates/_macros/thread.html:35
 msgid "Read"
 msgstr "Przeczytane"
 
-#: /templates/_macros/thread.html:35
+#: /templates/_macros/thread.html:38
 msgid "Mark All Read"
 msgstr "Zaznacz wszystkie jako przeczytane"
 
-#: /templates/_macros/thread.html:47
+#: /templates/_macros/thread.html:50
 msgid "View older"
 msgstr "Zobacz starsze"
 

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-18T23:49:50.501Z\n"
+"POT-Creation-Date: 2013-11-12T23:28:43.395Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,6 +24,31 @@ msgstr "Ƞǿ"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Ẏḗş"
+
+#: /templates/login.html:2
+#: /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Şīɠƞ īƞ"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Ẏǿŭ ḿŭşŧ şīɠƞ īƞ ŧǿ ƥřǿƈḗḗḓ."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Şīɠƞ īƞ / Şīɠƞ ŭƥ"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Ƈǿḿḿŭƞīƈȧŧīǿƞ Ḓȧşħƀǿȧřḓ"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Şīɠƞ Ǿŭŧ"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Şīɠƞ Īƞ"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -69,31 +94,6 @@ msgstr "Ŧḗřḿş ǿƒ Ŭşḗ"
 msgid "Report Trademark Abuse"
 msgstr "Řḗƥǿřŧ Ŧřȧḓḗḿȧřķ Ȧƀŭşḗ"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Ƈǿḿḿŭƞīƈȧŧīǿƞ Ḓȧşħƀǿȧřḓ"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Şīɠƞ Ǿŭŧ"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Şīɠƞ Īƞ"
-
-#: /templates/login.html:2
-#: /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Şīɠƞ īƞ"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Ẏǿŭ ḿŭşŧ şīɠƞ īƞ ŧǿ ƥřǿƈḗḗḓ."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Şīɠƞ īƞ / Şīɠƞ ŭƥ"
-
 #: /templates/_macros/thread.html:12
 #: /media/js/views/comm.js:28
 msgid "{n} note"
@@ -101,37 +101,41 @@ msgid_plural "{n} notes"
 msgstr[0] "{ƞ} ƞǿŧḗ"
 msgstr[1] "{ƞ} ƞǿŧḗş"
 
-#: /templates/_macros/thread.html:16
+#: /templates/_macros/thread.html:15
+msgid "Review page"
+msgstr "Řḗṽīḗẇ ƥȧɠḗ"
+
+#: /templates/_macros/thread.html:19
 #: /media/js/views/comm.js:37
 #: /media/js/views/comm.js:68
 msgid "Reply"
 msgstr "Řḗƥŀẏ"
 
-#: /templates/_macros/thread.html:20
+#: /templates/_macros/thread.html:23
 msgid "Enter note text here"
 msgstr "Ḗƞŧḗř ƞǿŧḗ ŧḗẋŧ ħḗřḗ"
 
-#: /templates/_macros/thread.html:21
+#: /templates/_macros/thread.html:24
 msgid "Post"
 msgstr "Ƥǿşŧ"
 
-#: /templates/_macros/thread.html:26
+#: /templates/_macros/thread.html:29
 msgid "Recent"
 msgstr "Řḗƈḗƞŧ"
 
-#: /templates/_macros/thread.html:29
+#: /templates/_macros/thread.html:32
 msgid "Unread"
 msgstr "Ŭƞřḗȧḓ"
 
-#: /templates/_macros/thread.html:32
+#: /templates/_macros/thread.html:35
 msgid "Read"
 msgstr "Řḗȧḓ"
 
-#: /templates/_macros/thread.html:35
+#: /templates/_macros/thread.html:38
 msgid "Mark All Read"
 msgstr "Ḿȧřķ Ȧŀŀ Řḗȧḓ"
 
-#: /templates/_macros/thread.html:47
+#: /templates/_macros/thread.html:50
 msgid "View older"
 msgstr "Ṽīḗẇ ǿŀḓḗř"
 
