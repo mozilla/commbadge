@@ -102,7 +102,7 @@ msgstr[1] "{n} notas"
 
 #: /templates/_macros/thread.html:15
 msgid "Review page"
-msgstr ""
+msgstr "Revisar página"
 
 #: /templates/_macros/thread.html:19 /media/js/views/comm.js:37 /media/js/views/comm.js:68
 msgid "Reply"
