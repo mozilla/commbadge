@@ -3,16 +3,17 @@ msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-12T23:28:43.395Z\n"
-"PO-Revision-Date: 2013-09-28 16:48+0800\n"
-"Last-Translator: Peter Pin-Guang Chen <petercpg@mail.moztw.org>\n"
+"PO-Revision-Date: 2013-11-13 03:09+0000\n"
+"Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: MozTW <petercpg@mail.moztw.org>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Pootle 2.5.0\n"
 "X-Poedit-SourceCharset: UTF-8\n"
+"X-POOTLE-MTIME: 1384312170.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -99,7 +100,7 @@ msgstr[0] "{n} 筆筆記"
 
 #: /templates/_macros/thread.html:15
 msgid "Review page"
-msgstr ""
+msgstr "檢閱頁面"
 
 #: /templates/_macros/thread.html:19 /media/js/views/comm.js:37 /media/js/views/comm.js:68
 msgid "Reply"
