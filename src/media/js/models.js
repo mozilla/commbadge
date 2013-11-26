@@ -27,9 +27,9 @@ define('models', ['defer', 'log', 'requests', 'settings', 'underscore'], functio
             }
             if (_.isArray(data)) {
                 _.each(data, do_cast);
-                return;
+                return data;
             }
-            return do_cast(data);
+            return do_cast(data), data;
         };
 
         var uncast = function(object) {
@@ -80,6 +80,18 @@ define('models', ['defer', 'log', 'requests', 'settings', 'underscore'], functio
 
         var purge = function() {
             data_store[type] = [];
+        };
+
+        var del = function(keyed_value, by) {
+            if (by) {
+                var instance = lookup(keyed_value, by);
+                if (!instance) {
+                    console.error('Could not find model cache entry to delete.');
+                    return;
+                }
+                keyed_value = instance[key];
+            }
+            delete data_store[type][keyed_value];
         }
 
         return {
@@ -87,7 +99,8 @@ define('models', ['defer', 'log', 'requests', 'settings', 'underscore'], functio
             uncast: uncast,
             get: get,
             lookup: lookup,
-            purge: purge
+            purge: purge,
+            del: del
         };
     };
 

@@ -22,7 +22,7 @@ define('views/comm',
 
             // Add a new note element.
             $threadElem.find('.filter-recent').trigger('click');
-            var noteMarkup = nunjucks.env.getTemplate('comm/note_detail.html').render({note: data});
+            var noteMarkup = nunjucks.env.render('comm/note_detail.html', {note: data});
             var $noteCount = $threadElem.find('.note-count');
             var count = $noteCount.data('count') + 1;
             $noteCount.html(ngettext('{n} note', '{n} notes', {n: count}))
@@ -112,7 +112,7 @@ define('views/comm',
             }
             if (data.objects.length) {
                 data.objects.forEach(function(object) {
-                    markup += nunjucks.env.getTemplate('comm/note_detail.html').render({note: object});
+                    markup += nunjucks.env.render('comm/note_detail.html', {note: object});
                 });
             } else {
                 markup = '<div>' + gettext('No notes to show.') + '</div>';
@@ -153,7 +153,7 @@ define('views/comm',
                 pageNumber = -1;
             }
             data.objects.forEach(function(object) {
-                markup += nunjucks.env.getTemplate('comm/note_detail.html').render({note: object});
+                markup += nunjucks.env.render('comm/note_detail.html', {note: object});
             });
             $threadItem.find('.notes-container').append(markup);
             $threadItem.data('notes-page', pageNumber);
