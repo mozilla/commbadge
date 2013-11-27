@@ -15,209 +15,210 @@ msgstr ""
 
 #: /templates/confirmation.html:0
 msgid "Close"
-msgstr ""
+msgstr "Затвори"
 
 #: /templates/confirmation.html:3
 msgid "No"
-msgstr ""
+msgstr "Не"
 
 #: /templates/confirmation.html:4
 msgid "Yes"
-msgstr ""
+msgstr "Да"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
-msgstr ""
+msgstr "Развијај апликације"
 
 #: /templates/footer.html:5
 msgid "Developer Hub"
-msgstr ""
+msgstr "Центар за програмере"
 
 #: /templates/footer.html:6
 msgid "Support"
-msgstr ""
+msgstr "Подршка"
 
 #: /templates/footer.html:10
 msgid "My Submissions"
-msgstr ""
+msgstr "Моја слања"
 
 #: /templates/footer.html:13
 msgid "Reviewer Tools"
-msgstr ""
+msgstr "Алатке за рецензенте"
 
 #: /templates/footer.html:16
 msgid "Lookup Tool"
-msgstr ""
+msgstr "Алат за преглед"
 
 #: /templates/footer.html:24
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
 "Alike License v3.0</a> or any later version."
-msgstr ""
+msgstr "Осим где је другачије <a href=\"{legal_url}\" target=\"_blank\">наведено</a>," садржај на овом сајту је лиценциран под <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike лиценцом v3.0</a> или новије верзије.
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Полиса о приватности"
 
 #: /templates/footer.html:30
 msgid "Terms of Use"
-msgstr ""
+msgstr "Услови коришћења"
 
 #: /templates/footer.html:32
 msgid "Report Trademark Abuse"
-msgstr ""
+msgstr "Пријави злоупотребу робне марке"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
-msgstr ""
+msgstr "Контролна табла за комуникацију"
 
 #: /templates/header.html:7
 msgid "Sign Out"
-msgstr ""
+msgstr "Одјавите се"
 
 #: /templates/header.html:8
 msgid "Sign In"
-msgstr ""
+msgstr "Пријавите се"
 
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
-msgstr ""
+msgstr "Пријавите се"
 
 #: /templates/login.html:3
 msgid "You must sign in to proceed."
-msgstr ""
+msgstr "Морате се пријавити како би наставили"
 
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
-msgstr ""
+msgstr "Пријавите се / Региструјте се"
 
 #: /templates/_macros/thread.html:12 /media/js/views/comm.js:28
 msgid "{n} note"
 msgid_plural "{n} notes"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "{n} белешка"
+msgstr[1] "{n} белешке"
+msgstr[2] "{n} бележака"
 
 #: /templates/_macros/thread.html:15
 msgid "Review page"
-msgstr ""
+msgstr "Оцени страницу"
 
 #: /templates/_macros/thread.html:19 /media/js/views/comm.js:37 /media/js/views/comm.js:68
 msgid "Reply"
-msgstr ""
+msgstr "Одговори"
 
 #: /templates/_macros/thread.html:23
 msgid "Enter note text here"
-msgstr ""
+msgstr "Унеси овде текст белешке"
 
 #: /templates/_macros/thread.html:24
 msgid "Post"
-msgstr ""
+msgstr "Постави"
 
 #: /templates/_macros/thread.html:29
 msgid "Recent"
-msgstr ""
+msgstr "Скорије"
 
 #: /templates/_macros/thread.html:32
 msgid "Unread"
-msgstr ""
+msgstr "Непрочитано"
 
 #: /templates/_macros/thread.html:35
 msgid "Read"
-msgstr ""
+msgstr "Прочитано"
 
 #: /templates/_macros/thread.html:38
 msgid "Mark All Read"
-msgstr ""
+msgstr "Означи све прочитане"
 
 #: /templates/_macros/thread.html:50
 msgid "View older"
-msgstr ""
+msgstr "Погледај старије"
 
 #: /templates/comm/main.html:9
 msgid "You have no threads."
-msgstr ""
+msgstr "Немате теме."
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
-msgstr ""
+msgstr "Означи ову белешку као прочитану"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
-msgstr ""
+msgstr "О, не!"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
-msgstr ""
+msgstr "Страница коју сте тражили није нађена."
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
-msgstr ""
+msgstr "Дошло је до грешке."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
-msgstr ""
+msgstr "Грешка током учитавања"
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
-msgstr ""
+msgstr "Покушајте поново"
 
 #: /media/js/login.js:8
 msgid "You have been signed out"
-msgstr ""
+msgstr "Одјављени сте"
 
 #: /media/js/login.js:12
 msgid "You have been signed in"
-msgstr ""
+msgstr "Пријављени сте"
 
 #: /media/js/login.js:127
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr ""
+msgstr "Пријава преко Persona система је неуспешна. Можда немате налог под том адресом е-поште?"
 
 #: /media/js/login.js:132
 msgid "Persona login failed. A server error was encountered."
-msgstr ""
+msgstr "Пријава преко Persona система је неуспешна. Дошло је до грешке на серверу."
 
 #: /media/js/navigation.js:31
 msgid "No internet connection"
-msgstr ""
+msgstr "Нема интернет конекције"
 
 #. {n} is the number of characters left.
 #: /media/js/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "<b>{n}</b> карактер је преостао."
+msgstr[1] "<b>{n}</b> карактера су преостала."
+msgstr[3] "<b>{n}</b> карактера је преостало."
 
 #: /media/js/views/comm.js:43
 msgid "Message sent."
-msgstr ""
+msgstr "Порука послата."
 
 #: /media/js/views/comm.js:48
 msgid "Message sending failed."
-msgstr ""
+msgstr "Слање поруке неуспешно."
 
 #: /media/js/views/comm.js:61
 msgid "Cancel reply"
-msgstr ""
+msgstr "Откажи одговор"
 
 #: /media/js/views/comm.js:118 /media/js/views/comm.js:192
 msgid "No notes to show."
-msgstr ""
+msgstr "Нема бележака за приказ."
 
 #: /media/js/views/comm.js:132
 msgid "There are no more older notes."
-msgstr ""
+msgstr "Нема више старијих бележака."
 
 #: /media/js/views/comm.js:180
 msgid "There was some problem marking the note as read. Try again."
-msgstr ""
+msgstr "Дошло је до неког проблема током означавања белешке као прочитану. Покушајте поново."
 
 #: /media/js/views/comm.js:199
 msgid "There was some problem marking the thread as read. Try again."
-msgstr ""
+msgstr "Дошло је до неког проблема током означавања теме као прочитану. Покушајте поново."
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9
 msgid "Not Found"
-msgstr ""
+msgstr "Није нађено"
