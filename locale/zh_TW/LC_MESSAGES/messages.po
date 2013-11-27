@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-27T15:59:57.817Z\n"
-"PO-Revision-Date: 2013-11-13 03:09+0000\n"
+"PO-Revision-Date: 2013-11-27 16:14+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: MozTW <petercpg@mail.moztw.org>\n"
 "Language: zh_TW\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-POOTLE-MTIME: 1384312170.0\n"
+"X-POOTLE-MTIME: 1385568851.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -71,7 +71,7 @@ msgstr "回報商標濫用"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
-msgstr "Communication 主控台"
+msgstr "傳播主控台"
 
 #: /templates/header.html:7
 msgid "Sign Out"
