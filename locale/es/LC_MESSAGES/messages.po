@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-12T23:28:43.395Z\n"
+"POT-Creation-Date: 2013-11-27T15:59:57.817Z\n"
 "PO-Revision-Date: 2013-10-04 17:42+0000\n"
 "Last-Translator: Inma <inma.barrios@mozilla-hispano.org>\n"
 "Language-Team: Español (España) <nave@elistas.net>\n"
@@ -25,30 +25,6 @@ msgstr "No"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Sí"
-
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Identificarse"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Debes identificarte para continuar."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Identificarse / Registrarse"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Tablero de comunicaciones"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Salir"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Identificarse"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -93,6 +69,30 @@ msgstr "Condiciones de uso"
 #: /templates/footer.html:32
 msgid "Report Trademark Abuse"
 msgstr "Informar sobre uso indebido de marca"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Tablero de comunicaciones"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Salir"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Identificarse"
+
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Identificarse"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Debes identificarte para continuar."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Identificarse / Registrarse"
 
 #: /templates/_macros/thread.html:12 /media/js/views/comm.js:28
 msgid "{n} note"
@@ -164,34 +164,6 @@ msgstr "Error al cargar más"
 msgid "Try Again"
 msgstr "Intentar de nuevo"
 
-#: /media/js/helpers.js:72
-msgid "Message"
-msgstr "Mensaje"
-
-#: /media/js/helpers.js:73
-msgid "App approved"
-msgstr "Aplicación aprobada"
-
-#: /media/js/helpers.js:74
-msgid "App rejected"
-msgstr "Aplicación rechazada"
-
-#: /media/js/helpers.js:75
-msgid "App disabled"
-msgstr "Aplicación desactivada"
-
-#: /media/js/helpers.js:76
-msgid "More info required"
-msgstr "Se requiere más info"
-
-#: /media/js/helpers.js:77
-msgid "Review escalated to senior reviewer"
-msgstr "Revisión remitida a revisor superior"
-
-#: /media/js/helpers.js:78
-msgid "Reviewer comment"
-msgstr "Comentario del revisor"
-
 #: /media/js/login.js:8
 msgid "You have been signed out"
 msgstr "Has salido"
@@ -200,20 +172,20 @@ msgstr "Has salido"
 msgid "You have been signed in"
 msgstr "Te has identificado"
 
-#: /media/js/login.js:122
+#: /media/js/login.js:127
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr "Error en la identificación con Mozilla Persona. ¿Tal vez no dispones de una cuenta con esa dirección de correo?"
 
-#: /media/js/login.js:127
+#: /media/js/login.js:132
 msgid "Persona login failed. A server error was encountered."
 msgstr "Error en la identificación con Mozilla Persona. Se encontró un error del servidor."
 
-#: /media/js/navigation.js:50
+#: /media/js/navigation.js:31
 msgid "No internet connection"
 msgstr "No hay conexión a internet"
 
 #. {n} is the number of characters left.
-#: /media/js/utils.js:25
+#: /media/js/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "Queda <b>{n}</b> caracter"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Commbadge\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-12T23:28:43.395Z\n"
+"POT-Creation-Date: 2013-11-27T15:59:57.817Z\n"
 "PO-Revision-Date: 2013-11-13 15:50+0000\n"
 "Last-Translator: Sara <sara.todaro@mozillaitalia.org>\n"
 "Language-Team: gialloporpora <gialloporpora@yahoo.it>\n"
@@ -26,30 +26,6 @@ msgstr "No"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Si"
-
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Accedi"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Per proseguire è necessario eseguire l'accesso."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Accedi o registrati"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Pannello comunicazioni"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Esci"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Accedi"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -94,6 +70,30 @@ msgstr "Termini d'uso"
 #: /templates/footer.html:32
 msgid "Report Trademark Abuse"
 msgstr "Segnala abusi dei marchi registrati"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Pannello comunicazioni"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Esci"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Accedi"
+
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Accedi"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Per proseguire è necessario eseguire l'accesso."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Accedi o registrati"
 
 #: /templates/_macros/thread.html:12 /media/js/views/comm.js:28
 msgid "{n} note"
@@ -165,34 +165,6 @@ msgstr "Errore durante il caricamento di contenuti extra"
 msgid "Try Again"
 msgstr "Riprova"
 
-#: /media/js/helpers.js:72
-msgid "Message"
-msgstr "Messaggio"
-
-#: /media/js/helpers.js:73
-msgid "App approved"
-msgstr "App approvata"
-
-#: /media/js/helpers.js:74
-msgid "App rejected"
-msgstr "App rifiutata"
-
-#: /media/js/helpers.js:75
-msgid "App disabled"
-msgstr "App disattivata"
-
-#: /media/js/helpers.js:76
-msgid "More info required"
-msgstr "Sono necessarie ulteriori informazioni"
-
-#: /media/js/helpers.js:77
-msgid "Review escalated to senior reviewer"
-msgstr "Revisione inoltrata in escalation a un revisore senior"
-
-#: /media/js/helpers.js:78
-msgid "Reviewer comment"
-msgstr "Commento del revisore"
-
 #: /media/js/login.js:8
 msgid "You have been signed out"
 msgstr "Hai effettuato la disconnessione"
@@ -201,20 +173,20 @@ msgstr "Hai effettuato la disconnessione"
 msgid "You have been signed in"
 msgstr "Hai effettuato l'accesso"
 
-#: /media/js/login.js:122
+#: /media/js/login.js:127
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr "Non è riuscita l'identificazione tramite Persona. Sei sicuro di avere un account Persona associato a questo indirizzo email?"
 
-#: /media/js/login.js:127
+#: /media/js/login.js:132
 msgid "Persona login failed. A server error was encountered."
 msgstr "Identificazione tramite Persona non riuscita. Si è verificato un errore col server."
 
-#: /media/js/navigation.js:50
+#: /media/js/navigation.js:31
 msgid "No internet connection"
 msgstr "Connessione a Internet non disponibile"
 
 #. {n} is the number of characters left.
-#: /media/js/utils.js:25
+#: /media/js/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{n}</b> carattere rimanente."

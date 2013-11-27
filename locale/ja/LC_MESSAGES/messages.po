@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-12T23:28:43.395Z\n"
+"POT-Creation-Date: 2013-11-27T15:59:57.817Z\n"
 "PO-Revision-Date: 2013-11-22 20:15-0500\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
@@ -24,30 +24,6 @@ msgstr "いいえ"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "はい"
-
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "ログイン"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "続けるにはログインしてください。"
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "ログイン / ユーザ登録"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "コミュニケーションダッシュボード"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "ログアウト"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "ログイン"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -92,6 +68,30 @@ msgstr "利用規約"
 #: /templates/footer.html:32
 msgid "Report Trademark Abuse"
 msgstr "商標不正使用の報告"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "コミュニケーションダッシュボード"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "ログアウト"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "ログイン"
+
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "ログイン"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "続けるにはログインしてください。"
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "ログイン / ユーザ登録"
 
 #: /templates/_macros/thread.html:12 /media/js/views/comm.js:28
 msgid "{n} note"
@@ -162,34 +162,6 @@ msgstr "読み込み中に問題が発生しました"
 msgid "Try Again"
 msgstr "再読み込み"
 
-#: /media/js/helpers.js:72
-msgid "Message"
-msgstr "メッセージ"
-
-#: /media/js/helpers.js:73
-msgid "App approved"
-msgstr "アプリは承認されました"
-
-#: /media/js/helpers.js:74
-msgid "App rejected"
-msgstr "アプリは却下されました"
-
-#: /media/js/helpers.js:75
-msgid "App disabled"
-msgstr "アプリは無効化されました"
-
-#: /media/js/helpers.js:76
-msgid "More info required"
-msgstr "詳しい情報が必要です"
-
-#: /media/js/helpers.js:77
-msgid "Review escalated to senior reviewer"
-msgstr "レビューが上級レビュー担当者に回されました"
-
-#: /media/js/helpers.js:78
-msgid "Reviewer comment"
-msgstr "レビュー担当者のコメント"
-
 #: /media/js/login.js:8
 msgid "You have been signed out"
 msgstr "ログアウトしました"
@@ -198,20 +170,20 @@ msgstr "ログアウトしました"
 msgid "You have been signed in"
 msgstr "ログインしました"
 
-#: /media/js/login.js:122
+#: /media/js/login.js:127
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr "Persona のログインに失敗しました。入力されたメールアドレスのアカウントは存在しない可能性があります。"
 
-#: /media/js/login.js:127
+#: /media/js/login.js:132
 msgid "Persona login failed. A server error was encountered."
 msgstr "Persona のログインに失敗しました。サーバエラーが発生しました。"
 
-#: /media/js/navigation.js:50
+#: /media/js/navigation.js:31
 msgid "No internet connection"
 msgstr "インターネット未接続"
 
 #. {n} is the number of characters left.
-#: /media/js/utils.js:25
+#: /media/js/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "残り <b>{n}</b> 文字"

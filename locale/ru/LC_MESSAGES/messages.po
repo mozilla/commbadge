@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-12T23:28:43.395Z\n"
+"POT-Creation-Date: 2013-11-27T15:59:57.817Z\n"
 "PO-Revision-Date: 2013-11-13 23:32+0400\n"
 "Last-Translator: Alexander L. Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: none\n"
@@ -10,8 +10,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Poedit 1.5.7\n"
 
 #: /templates/confirmation.html:0
@@ -25,30 +24,6 @@ msgstr "Нет"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Да"
-
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Войти"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Вы должны войти для продолжения."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Вход / Регистрация"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Панель коммуникации"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Выйти"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Войти"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -76,15 +51,11 @@ msgstr "Инструмент поиска"
 
 #: /templates/footer.html:24
 msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, "
-"content on this site is licensed under the <a href=\"{cc_url}\" target="
-"\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> or any "
-"later version."
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
 msgstr ""
-"За исключением содержимого с <a href=\"{legal_url}\" target=\"_blank\">явно "
-"указанной</a> лицензией, содержимое этого сайта лицензировано на условиях <a "
-"href=\"{cc_url}\" target=\"_blank\">лицензии Creative Commons Атрибуция — С "
-"сохранением условий версии 3.0</a> или более поздней."
+"За исключением содержимого с <a href=\"{legal_url}\" target=\"_blank\">явно указанной</a> лицензией, содержимое этого сайта лицензировано на условиях <a href=\"{cc_url}\" target=\"_blank\">лицензии "
+"Creative Commons Атрибуция — С сохранением условий версии 3.0</a> или более поздней."
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
@@ -98,6 +69,30 @@ msgstr "Условия использования"
 msgid "Report Trademark Abuse"
 msgstr "Сообщить о злоупотреблении торговой маркой"
 
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Панель коммуникации"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Выйти"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Войти"
+
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Войти"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Вы должны войти для продолжения."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Вход / Регистрация"
+
 #: /templates/_macros/thread.html:12 /media/js/views/comm.js:28
 msgid "{n} note"
 msgid_plural "{n} notes"
@@ -109,8 +104,7 @@ msgstr[2] "{n} заметок"
 msgid "Review page"
 msgstr "Рецензировать страницу"
 
-#: /templates/_macros/thread.html:19 /media/js/views/comm.js:37
-#: /media/js/views/comm.js:68
+#: /templates/_macros/thread.html:19 /media/js/views/comm.js:37 /media/js/views/comm.js:68
 msgid "Reply"
 msgstr "Ответить"
 
@@ -170,34 +164,6 @@ msgstr "Ошибка загрузки большего"
 msgid "Try Again"
 msgstr "Попробовать снова"
 
-#: /media/js/helpers.js:72
-msgid "Message"
-msgstr "Сообщение"
-
-#: /media/js/helpers.js:73
-msgid "App approved"
-msgstr "Приложение одобрено"
-
-#: /media/js/helpers.js:74
-msgid "App rejected"
-msgstr "Приложение отклонено"
-
-#: /media/js/helpers.js:75
-msgid "App disabled"
-msgstr "Приложение отключено"
-
-#: /media/js/helpers.js:76
-msgid "More info required"
-msgstr "Требуется больше информации"
-
-#: /media/js/helpers.js:77
-msgid "Review escalated to senior reviewer"
-msgstr "Проверка передана старшему рецензенту"
-
-#: /media/js/helpers.js:78
-msgid "Reviewer comment"
-msgstr "Комментарий рецензента"
-
 #: /media/js/login.js:8
 msgid "You have been signed out"
 msgstr "Вы вышли из системы"
@@ -206,24 +172,20 @@ msgstr "Вы вышли из системы"
 msgid "You have been signed in"
 msgstr "Вы вошли в систему"
 
-#: /media/js/login.js:122
-msgid ""
-"Persona login failed. Maybe you don't have an account under that email "
-"address?"
-msgstr ""
-"Ошибка входа через Persona. Возможно у вас нет учетной записи для этого "
-"адреса эл. почты?"
-
 #: /media/js/login.js:127
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Ошибка входа через Persona. Возможно у вас нет учетной записи для этого адреса эл. почты?"
+
+#: /media/js/login.js:132
 msgid "Persona login failed. A server error was encountered."
 msgstr "Ошибка входа через Persona. Произошла ошибка сервера."
 
-#: /media/js/navigation.js:50
+#: /media/js/navigation.js:31
 msgid "No internet connection"
 msgstr "Нет подключения к Интернету"
 
 #. {n} is the number of characters left.
-#: /media/js/utils.js:25
+#: /media/js/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "остался <b>{n}</b> символ."
@@ -252,8 +214,7 @@ msgstr "Более старых заметок не имеется."
 
 #: /media/js/views/comm.js:180
 msgid "There was some problem marking the note as read. Try again."
-msgstr ""
-"При пометке заметки как прочтённой возникла проблема. Попробуйте снова."
+msgstr "При пометке заметки как прочтённой возникла проблема. Попробуйте снова."
 
 #: /media/js/views/comm.js:199
 msgid "There was some problem marking the thread as read. Try again."

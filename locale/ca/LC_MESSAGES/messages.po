@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-12T23:28:43.395Z\n"
+"POT-Creation-Date: 2013-11-27T15:59:57.817Z\n"
 "PO-Revision-Date: 2013-10-23 18:51+0000\n"
 "Last-Translator: Toni <toniher@softcatala.org>\n"
 "Language-Team: Catalan <ca@dodds.net>\n"
@@ -26,30 +26,6 @@ msgstr "No"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Sí"
-
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Inici de sessió"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Heu d'iniciar una sessió per procedir."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Inicia una sessió / Registre"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Tauler de comunicació"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Finalitza la sessió"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Inicia una sessió"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -94,6 +70,30 @@ msgstr "Termes d'ús"
 #: /templates/footer.html:32
 msgid "Report Trademark Abuse"
 msgstr "Informa d'un abús de marca"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Tauler de comunicació"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Finalitza la sessió"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Inicia una sessió"
+
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Inici de sessió"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Heu d'iniciar una sessió per procedir."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Inicia una sessió / Registre"
 
 #: /templates/_macros/thread.html:12 /media/js/views/comm.js:28
 msgid "{n} note"
@@ -165,34 +165,6 @@ msgstr "Error en carregar més"
 msgid "Try Again"
 msgstr "Torna-ho a provar"
 
-#: /media/js/helpers.js:72
-msgid "Message"
-msgstr "Missatge"
-
-#: /media/js/helpers.js:73
-msgid "App approved"
-msgstr ""
-
-#: /media/js/helpers.js:74
-msgid "App rejected"
-msgstr ""
-
-#: /media/js/helpers.js:75
-msgid "App disabled"
-msgstr ""
-
-#: /media/js/helpers.js:76
-msgid "More info required"
-msgstr ""
-
-#: /media/js/helpers.js:77
-msgid "Review escalated to senior reviewer"
-msgstr ""
-
-#: /media/js/helpers.js:78
-msgid "Reviewer comment"
-msgstr ""
-
 #: /media/js/login.js:8
 msgid "You have been signed out"
 msgstr "Heu finalitzat la sessió"
@@ -201,20 +173,20 @@ msgstr "Heu finalitzat la sessió"
 msgid "You have been signed in"
 msgstr "Heu iniciat una sessió"
 
-#: /media/js/login.js:122
+#: /media/js/login.js:127
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr "L'inici de sessió amb Persona ha fallat. Potser no teniu un compte amb aquesta adreça?"
 
-#: /media/js/login.js:127
+#: /media/js/login.js:132
 msgid "Persona login failed. A server error was encountered."
 msgstr "L'inici de sessió amb Persona ha fallat. S'ha produït un error amb el servidor."
 
-#: /media/js/navigation.js:50
+#: /media/js/navigation.js:31
 msgid "No internet connection"
 msgstr "No hi ha connexió a Internet"
 
 #. {n} is the number of characters left.
-#: /media/js/utils.js:25
+#: /media/js/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "Queda <b>{n}</b> caràcter."

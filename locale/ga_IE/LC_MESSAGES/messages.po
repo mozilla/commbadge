@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fireplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-12T23:28:43.395Z\n"
+"POT-Creation-Date: 2013-11-27T15:59:57.817Z\n"
 "PO-Revision-Date: 2013-05-04 08:35-0500\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -24,30 +24,6 @@ msgstr "Níl"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Tá"
-
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr ""
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr ""
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Logáil Isteach / Cláraigh"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr ""
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Logáil Amach"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Logáil Isteach"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -92,6 +68,30 @@ msgstr "Téarmaí Úsáide"
 #: /templates/footer.html:32
 msgid "Report Trademark Abuse"
 msgstr "Drochúsáid Trádmharcanna"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr ""
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Logáil Amach"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Logáil Isteach"
+
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr ""
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr ""
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Logáil Isteach / Cláraigh"
 
 #: /templates/_macros/thread.html:12 /media/js/views/comm.js:28
 msgid "{n} note"
@@ -166,34 +166,6 @@ msgstr "Earráid agus tuilleadh á luchtú"
 msgid "Try Again"
 msgstr "Déan Iarracht Eile"
 
-#: /media/js/helpers.js:72
-msgid "Message"
-msgstr ""
-
-#: /media/js/helpers.js:73
-msgid "App approved"
-msgstr ""
-
-#: /media/js/helpers.js:74
-msgid "App rejected"
-msgstr ""
-
-#: /media/js/helpers.js:75
-msgid "App disabled"
-msgstr ""
-
-#: /media/js/helpers.js:76
-msgid "More info required"
-msgstr ""
-
-#: /media/js/helpers.js:77
-msgid "Review escalated to senior reviewer"
-msgstr ""
-
-#: /media/js/helpers.js:78
-msgid "Reviewer comment"
-msgstr ""
-
 #: /media/js/login.js:8
 msgid "You have been signed out"
 msgstr "Tá tú logáilte amach anois"
@@ -202,20 +174,20 @@ msgstr "Tá tú logáilte amach anois"
 msgid "You have been signed in"
 msgstr "Tá tú logáilte isteach anois"
 
-#: /media/js/login.js:122
+#: /media/js/login.js:127
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr "Theip ar logáil isteach trí Persona. Ar chláraigh tú leis an seoladh ríomhphoist sin?"
 
-#: /media/js/login.js:127
+#: /media/js/login.js:132
 msgid "Persona login failed. A server error was encountered."
 msgstr "Theip ar logáil isteach trí Persona. Fadhb leis an bhfreastalaí."
 
-#: /media/js/navigation.js:50
+#: /media/js/navigation.js:31
 msgid "No internet connection"
 msgstr "Gan ceangal Idirlín"
 
 #. {n} is the number of characters left.
-#: /media/js/utils.js:25
+#: /media/js/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{n}</b> charachtar fágtha."

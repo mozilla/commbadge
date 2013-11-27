@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-12T23:28:43.395Z\n"
+"POT-Creation-Date: 2013-11-27T15:59:57.817Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -24,30 +24,6 @@ msgstr "No"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Yes"
-
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Sign in"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "You must sign in to proceed."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Sign in / Sign up"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Communication Dashboard"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Sign Out"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Sign In"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -92,6 +68,30 @@ msgstr "Terms of Use"
 #: /templates/footer.html:32
 msgid "Report Trademark Abuse"
 msgstr "Report Trademark Abuse"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Communication Dashboard"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Sign Out"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Sign In"
+
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Sign in"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "You must sign in to proceed."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Sign in / Sign up"
 
 #: /templates/_macros/thread.html:12 /media/js/views/comm.js:28
 msgid "{n} note"
@@ -163,34 +163,6 @@ msgstr "Error loading more"
 msgid "Try Again"
 msgstr "Try Again"
 
-#: /media/js/helpers.js:72
-msgid "Message"
-msgstr "Message"
-
-#: /media/js/helpers.js:73
-msgid "App approved"
-msgstr "App approved"
-
-#: /media/js/helpers.js:74
-msgid "App rejected"
-msgstr "App rejected"
-
-#: /media/js/helpers.js:75
-msgid "App disabled"
-msgstr "App disabled"
-
-#: /media/js/helpers.js:76
-msgid "More info required"
-msgstr "More info required"
-
-#: /media/js/helpers.js:77
-msgid "Review escalated to senior reviewer"
-msgstr "Review escalated to senior reviewer"
-
-#: /media/js/helpers.js:78
-msgid "Reviewer comment"
-msgstr "Reviewer comment"
-
 #: /media/js/login.js:8
 msgid "You have been signed out"
 msgstr "You have been signed out"
@@ -199,20 +171,20 @@ msgstr "You have been signed out"
 msgid "You have been signed in"
 msgstr "You have been signed in"
 
-#: /media/js/login.js:122
+#: /media/js/login.js:127
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr "Persona login failed. Maybe you don't have an account under that email address?"
 
-#: /media/js/login.js:127
+#: /media/js/login.js:132
 msgid "Persona login failed. A server error was encountered."
 msgstr "Persona login failed. A server error was encountered."
 
-#: /media/js/navigation.js:50
+#: /media/js/navigation.js:31
 msgid "No internet connection"
 msgstr "No internet connection"
 
 #. {n} is the number of characters left.
-#: /media/js/utils.js:25
+#: /media/js/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{n}</b> character left."

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AMO Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-12T23:28:43.395Z\n"
+"POT-Creation-Date: 2013-11-27T15:59:57.817Z\n"
 "PO-Revision-Date: 2013-11-13 07:51+0000\n"
 "Last-Translator: Michael <michael.koehler1@gmx.de>\n"
 "Language-Team: German (de) <coce@nurfuerspam.de>\n"
@@ -25,30 +25,6 @@ msgstr "Nein"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Ja"
-
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Anmelden"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Sie müssen sich anmelden, um fortzufahren."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Anmelden / Registrieren"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Kommunikationsübersicht"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Abmelden"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Anmelden"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -93,6 +69,30 @@ msgstr "Nutzungsbedingungen"
 #: /templates/footer.html:32
 msgid "Report Trademark Abuse"
 msgstr "Markenrechtsverletzung melden"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Kommunikationsübersicht"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Abmelden"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Anmelden"
+
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Anmelden"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Sie müssen sich anmelden, um fortzufahren."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Anmelden / Registrieren"
 
 #: /templates/_macros/thread.html:12 /media/js/views/comm.js:28
 msgid "{n} note"
@@ -164,34 +164,6 @@ msgstr "Beim Laden weiterer Informationen ist ein Fehler aufgetreten"
 msgid "Try Again"
 msgstr "Versuchen Sie es erneut"
 
-#: /media/js/helpers.js:72
-msgid "Message"
-msgstr "Nachricht"
-
-#: /media/js/helpers.js:73
-msgid "App approved"
-msgstr "App freigeschaltet"
-
-#: /media/js/helpers.js:74
-msgid "App rejected"
-msgstr "App abgelehnt"
-
-#: /media/js/helpers.js:75
-msgid "App disabled"
-msgstr "App deaktiviert"
-
-#: /media/js/helpers.js:76
-msgid "More info required"
-msgstr "Weitere Informationen erforderlich"
-
-#: /media/js/helpers.js:77
-msgid "Review escalated to senior reviewer"
-msgstr "An höheren Überprüfer weitergegeben"
-
-#: /media/js/helpers.js:78
-msgid "Reviewer comment"
-msgstr "Kommentar des Überprüfers"
-
 #: /media/js/login.js:8
 msgid "You have been signed out"
 msgstr "Sie wurden abgemeldet"
@@ -200,20 +172,20 @@ msgstr "Sie wurden abgemeldet"
 msgid "You have been signed in"
 msgstr "Sie müssen angemeldet sein"
 
-#: /media/js/login.js:122
+#: /media/js/login.js:127
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr "Persona-Anmeldung fehlgeschlagen. Vielleicht haben Sie kein Benutzerkonto unter dieser E-Mail-Adresse?"
 
-#: /media/js/login.js:127
+#: /media/js/login.js:132
 msgid "Persona login failed. A server error was encountered."
 msgstr "Persona-Anmeldung fehlgeschlagen. Es ist ein Server-Fehler aufgetreten."
 
-#: /media/js/navigation.js:50
+#: /media/js/navigation.js:31
 msgid "No internet connection"
 msgstr "Keine Internetverbindung"
 
 #. {n} is the number of characters left.
-#: /media/js/utils.js:25
+#: /media/js/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{n}</b> Zeichen verbleiben."
