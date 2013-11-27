@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-12T23:28:43.395Z\n"
-"PO-Revision-Date: 2013-06-26 17:00+0900\n"
+"PO-Revision-Date: 2013-11-22 20:15-0500\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -27,11 +27,11 @@ msgstr "はい"
 
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
-msgstr ""
+msgstr "ログイン"
 
 #: /templates/login.html:3
 msgid "You must sign in to proceed."
-msgstr ""
+msgstr "続けるにはログインしてください。"
 
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
@@ -39,7 +39,7 @@ msgstr "ログイン / ユーザ登録"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
-msgstr ""
+msgstr "コミュニケーションダッシュボード"
 
 #: /templates/header.html:7
 msgid "Sign Out"
@@ -96,51 +96,51 @@ msgstr "商標不正使用の報告"
 #: /templates/_macros/thread.html:12 /media/js/views/comm.js:28
 msgid "{n} note"
 msgid_plural "{n} notes"
-msgstr[0] ""
+msgstr[0] "{n} 件の記事"
 
 #: /templates/_macros/thread.html:15
 msgid "Review page"
-msgstr ""
+msgstr "レビューページ"
 
 #: /templates/_macros/thread.html:19 /media/js/views/comm.js:37 /media/js/views/comm.js:68
 msgid "Reply"
-msgstr ""
+msgstr "返信"
 
 #: /templates/_macros/thread.html:23
 msgid "Enter note text here"
-msgstr ""
+msgstr "投稿内容をここに入力してください"
 
 #: /templates/_macros/thread.html:24
 msgid "Post"
-msgstr ""
+msgstr "投稿"
 
 #: /templates/_macros/thread.html:29
 msgid "Recent"
-msgstr ""
+msgstr "最近"
 
 #: /templates/_macros/thread.html:32
 msgid "Unread"
-msgstr ""
+msgstr "未読"
 
 #: /templates/_macros/thread.html:35
 msgid "Read"
-msgstr ""
+msgstr "既読"
 
 #: /templates/_macros/thread.html:38
 msgid "Mark All Read"
-msgstr ""
+msgstr "すべて既読にする"
 
 #: /templates/_macros/thread.html:50
 msgid "View older"
-msgstr ""
+msgstr "以前の記事を表示"
 
 #: /templates/comm/main.html:9
 msgid "You have no threads."
-msgstr ""
+msgstr "スレッドがありません。"
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
-msgstr ""
+msgstr "この記事を既読にする"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -164,31 +164,31 @@ msgstr "再読み込み"
 
 #: /media/js/helpers.js:72
 msgid "Message"
-msgstr ""
+msgstr "メッセージ"
 
 #: /media/js/helpers.js:73
 msgid "App approved"
-msgstr ""
+msgstr "アプリは承認されました"
 
 #: /media/js/helpers.js:74
 msgid "App rejected"
-msgstr ""
+msgstr "アプリは却下されました"
 
 #: /media/js/helpers.js:75
 msgid "App disabled"
-msgstr ""
+msgstr "アプリは無効化されました"
 
 #: /media/js/helpers.js:76
 msgid "More info required"
-msgstr ""
+msgstr "詳しい情報が必要です"
 
 #: /media/js/helpers.js:77
 msgid "Review escalated to senior reviewer"
-msgstr ""
+msgstr "レビューが上級レビュー担当者に回されました"
 
 #: /media/js/helpers.js:78
 msgid "Reviewer comment"
-msgstr ""
+msgstr "レビュー担当者のコメント"
 
 #: /media/js/login.js:8
 msgid "You have been signed out"
@@ -219,31 +219,31 @@ msgstr[1] "残り <b>{n}</b> 文字"
 
 #: /media/js/views/comm.js:43
 msgid "Message sent."
-msgstr ""
+msgstr "メッセージが送信されました。"
 
 #: /media/js/views/comm.js:48
 msgid "Message sending failed."
-msgstr ""
+msgstr "メッセージを送信できませんでした。"
 
 #: /media/js/views/comm.js:61
 msgid "Cancel reply"
-msgstr ""
+msgstr "返信をキャンセル"
 
 #: /media/js/views/comm.js:118 /media/js/views/comm.js:192
 msgid "No notes to show."
-msgstr ""
+msgstr "表示する記事はありません。"
 
 #: /media/js/views/comm.js:132
 msgid "There are no more older notes."
-msgstr ""
+msgstr "これ以上古い記事はありません。"
 
 #: /media/js/views/comm.js:180
 msgid "There was some problem marking the note as read. Try again."
-msgstr ""
+msgstr "記事を既読にする際に問題が発生しました。また後で試してください。"
 
 #: /media/js/views/comm.js:199
 msgid "There was some problem marking the thread as read. Try again."
-msgstr ""
+msgstr "スレッドを既読にする際に問題が発生しました。また後で試してください。"
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9
