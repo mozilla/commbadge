@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-27T23:44:03.167Z\n"
+"POT-Creation-Date: 2013-11-27T15:59:57.817Z\n"
 "PO-Revision-Date: 2013-10-04 17:42+0000\n"
 "Last-Translator: Inma <inma.barrios@mozilla-hispano.org>\n"
 "Language-Team: Español (España) <nave@elistas.net>\n"
@@ -25,18 +25,6 @@ msgstr "No"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Sí"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Tablero de comunicaciones"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Salir"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Identificarse"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -82,6 +70,18 @@ msgstr "Condiciones de uso"
 msgid "Report Trademark Abuse"
 msgstr "Informar sobre uso indebido de marca"
 
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Tablero de comunicaciones"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Salir"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Identificarse"
+
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "Identificarse"
@@ -94,41 +94,45 @@ msgstr "Debes identificarte para continuar."
 msgid "Sign in / Sign up"
 msgstr "Identificarse / Registrarse"
 
-#: /templates/_macros/thread.html:12 /media/js/views/comm.js:27
+#: /templates/_macros/thread.html:12 /media/js/views/comm.js:28
 msgid "{n} note"
 msgid_plural "{n} notes"
 msgstr[0] "{n} nota"
 msgstr[1] "{n} notas"
 
-#: /templates/_macros/thread.html:16 /media/js/views/comm.js:36 /media/js/views/comm.js:67
+#: /templates/_macros/thread.html:15
+msgid "Review page"
+msgstr "Revisar página"
+
+#: /templates/_macros/thread.html:19 /media/js/views/comm.js:37 /media/js/views/comm.js:68
 msgid "Reply"
 msgstr "Responder"
 
-#: /templates/_macros/thread.html:20
+#: /templates/_macros/thread.html:23
 msgid "Enter note text here"
 msgstr "Escribe texto de nota aquí"
 
-#: /templates/_macros/thread.html:21
+#: /templates/_macros/thread.html:24
 msgid "Post"
 msgstr "Publicar"
 
-#: /templates/_macros/thread.html:26
+#: /templates/_macros/thread.html:29
 msgid "Recent"
 msgstr "Recientes"
 
-#: /templates/_macros/thread.html:29
+#: /templates/_macros/thread.html:32
 msgid "Unread"
 msgstr "No leídas"
 
-#: /templates/_macros/thread.html:32
+#: /templates/_macros/thread.html:35
 msgid "Read"
 msgstr "Leídas"
 
-#: /templates/_macros/thread.html:35
+#: /templates/_macros/thread.html:38
 msgid "Mark All Read"
 msgstr "Marcar todas como leídas"
 
-#: /templates/_macros/thread.html:47
+#: /templates/_macros/thread.html:50
 msgid "View older"
 msgstr "Ver anteriores"
 
@@ -148,6 +152,10 @@ msgstr "¡Oh, no!"
 msgid "The page you were looking for was not found."
 msgstr "No se encontró la página que buscabas."
 
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Se produjo un error."
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Error al cargar más"
@@ -155,38 +163,6 @@ msgstr "Error al cargar más"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Intentar de nuevo"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Se produjo un error."
-
-#: /media/js/helpers.js:72
-msgid "Message"
-msgstr "Mensaje"
-
-#: /media/js/helpers.js:73
-msgid "App approved"
-msgstr "Aplicación aprobada"
-
-#: /media/js/helpers.js:74
-msgid "App rejected"
-msgstr "Aplicación rechazada"
-
-#: /media/js/helpers.js:75
-msgid "App disabled"
-msgstr "Aplicación desactivada"
-
-#: /media/js/helpers.js:76
-msgid "More info required"
-msgstr "Se requiere más info"
-
-#: /media/js/helpers.js:77
-msgid "Review escalated to senior reviewer"
-msgstr "Revisión remitida a revisor superior"
-
-#: /media/js/helpers.js:78
-msgid "Reviewer comment"
-msgstr "Comentario del revisor"
 
 #: /media/js/login.js:8
 msgid "You have been signed out"
@@ -196,50 +172,50 @@ msgstr "Has salido"
 msgid "You have been signed in"
 msgstr "Te has identificado"
 
-#: /media/js/login.js:122
+#: /media/js/login.js:127
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr "Error en la identificación con Mozilla Persona. ¿Tal vez no dispones de una cuenta con esa dirección de correo?"
 
-#: /media/js/login.js:127
+#: /media/js/login.js:132
 msgid "Persona login failed. A server error was encountered."
 msgstr "Error en la identificación con Mozilla Persona. Se encontró un error del servidor."
 
-#: /media/js/navigation.js:50
+#: /media/js/navigation.js:31
 msgid "No internet connection"
 msgstr "No hay conexión a internet"
 
 #. {n} is the number of characters left.
-#: /media/js/utils.js:25
+#: /media/js/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "Queda <b>{n}</b> caracter"
 msgstr[1] "Quedan <b>{n}</b> caracteres"
 
-#: /media/js/views/comm.js:42
+#: /media/js/views/comm.js:43
 msgid "Message sent."
 msgstr "Mensaje enviado."
 
-#: /media/js/views/comm.js:47
+#: /media/js/views/comm.js:48
 msgid "Message sending failed."
 msgstr "Error al enviar mensaje."
 
-#: /media/js/views/comm.js:60
+#: /media/js/views/comm.js:61
 msgid "Cancel reply"
 msgstr "Cancelar respuesta"
 
-#: /media/js/views/comm.js:117 /media/js/views/comm.js:191
+#: /media/js/views/comm.js:118 /media/js/views/comm.js:192
 msgid "No notes to show."
 msgstr "No hay notas que mostrar."
 
-#: /media/js/views/comm.js:131
+#: /media/js/views/comm.js:132
 msgid "There are no more older notes."
 msgstr "No hay más notas anteriores."
 
-#: /media/js/views/comm.js:179
+#: /media/js/views/comm.js:180
 msgid "There was some problem marking the note as read. Try again."
 msgstr "Hubo un problema al marcar la nota como leída. Inténtalo de nuevo pasados unos minutos."
 
-#: /media/js/views/comm.js:198
+#: /media/js/views/comm.js:199
 msgid "There was some problem marking the thread as read. Try again."
 msgstr "Hubo un problema al marcar el hilo como leído. Inténtalo de nuevo pasados unos minutos."
 

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fireplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-27T23:44:03.167Z\n"
+"POT-Creation-Date: 2013-11-27T15:59:57.817Z\n"
 "PO-Revision-Date: 2013-05-04 08:35-0500\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -24,18 +24,6 @@ msgstr "Níl"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Tá"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr ""
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Logáil Amach"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Logáil Isteach"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -81,6 +69,18 @@ msgstr "Téarmaí Úsáide"
 msgid "Report Trademark Abuse"
 msgstr "Drochúsáid Trádmharcanna"
 
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr ""
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Logáil Amach"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Logáil Isteach"
+
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr ""
@@ -93,7 +93,7 @@ msgstr ""
 msgid "Sign in / Sign up"
 msgstr "Logáil Isteach / Cláraigh"
 
-#: /templates/_macros/thread.html:12 /media/js/views/comm.js:27
+#: /templates/_macros/thread.html:12 /media/js/views/comm.js:28
 msgid "{n} note"
 msgid_plural "{n} notes"
 msgstr[0] ""
@@ -102,35 +102,39 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 
-#: /templates/_macros/thread.html:16 /media/js/views/comm.js:36 /media/js/views/comm.js:67
+#: /templates/_macros/thread.html:15
+msgid "Review page"
+msgstr ""
+
+#: /templates/_macros/thread.html:19 /media/js/views/comm.js:37 /media/js/views/comm.js:68
 msgid "Reply"
 msgstr ""
 
-#: /templates/_macros/thread.html:20
+#: /templates/_macros/thread.html:23
 msgid "Enter note text here"
 msgstr ""
 
-#: /templates/_macros/thread.html:21
+#: /templates/_macros/thread.html:24
 msgid "Post"
 msgstr ""
 
-#: /templates/_macros/thread.html:26
+#: /templates/_macros/thread.html:29
 msgid "Recent"
 msgstr ""
 
-#: /templates/_macros/thread.html:29
+#: /templates/_macros/thread.html:32
 msgid "Unread"
 msgstr ""
 
-#: /templates/_macros/thread.html:32
+#: /templates/_macros/thread.html:35
 msgid "Read"
 msgstr ""
 
-#: /templates/_macros/thread.html:35
+#: /templates/_macros/thread.html:38
 msgid "Mark All Read"
 msgstr ""
 
-#: /templates/_macros/thread.html:47
+#: /templates/_macros/thread.html:50
 msgid "View older"
 msgstr ""
 
@@ -150,6 +154,10 @@ msgstr "Ochón!"
 msgid "The page you were looking for was not found."
 msgstr "Níorbh fhéidir an leathanach a bhí uait a aimsiú."
 
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Tharla earráid."
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Earráid agus tuilleadh á luchtú"
@@ -157,38 +165,6 @@ msgstr "Earráid agus tuilleadh á luchtú"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Déan Iarracht Eile"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Tharla earráid."
-
-#: /media/js/helpers.js:72
-msgid "Message"
-msgstr ""
-
-#: /media/js/helpers.js:73
-msgid "App approved"
-msgstr ""
-
-#: /media/js/helpers.js:74
-msgid "App rejected"
-msgstr ""
-
-#: /media/js/helpers.js:75
-msgid "App disabled"
-msgstr ""
-
-#: /media/js/helpers.js:76
-msgid "More info required"
-msgstr ""
-
-#: /media/js/helpers.js:77
-msgid "Review escalated to senior reviewer"
-msgstr ""
-
-#: /media/js/helpers.js:78
-msgid "Reviewer comment"
-msgstr ""
 
 #: /media/js/login.js:8
 msgid "You have been signed out"
@@ -198,20 +174,20 @@ msgstr "Tá tú logáilte amach anois"
 msgid "You have been signed in"
 msgstr "Tá tú logáilte isteach anois"
 
-#: /media/js/login.js:122
+#: /media/js/login.js:127
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr "Theip ar logáil isteach trí Persona. Ar chláraigh tú leis an seoladh ríomhphoist sin?"
 
-#: /media/js/login.js:127
+#: /media/js/login.js:132
 msgid "Persona login failed. A server error was encountered."
 msgstr "Theip ar logáil isteach trí Persona. Fadhb leis an bhfreastalaí."
 
-#: /media/js/navigation.js:50
+#: /media/js/navigation.js:31
 msgid "No internet connection"
 msgstr "Gan ceangal Idirlín"
 
 #. {n} is the number of characters left.
-#: /media/js/utils.js:25
+#: /media/js/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{n}</b> charachtar fágtha."
@@ -220,31 +196,31 @@ msgstr[2] "<b>{n}</b> charachtar fágtha."
 msgstr[3] "<b>{n}</b> gcarachtar fágtha."
 msgstr[4] "<b>{n}</b> carachtar fágtha."
 
-#: /media/js/views/comm.js:42
+#: /media/js/views/comm.js:43
 msgid "Message sent."
 msgstr ""
 
-#: /media/js/views/comm.js:47
+#: /media/js/views/comm.js:48
 msgid "Message sending failed."
 msgstr ""
 
-#: /media/js/views/comm.js:60
+#: /media/js/views/comm.js:61
 msgid "Cancel reply"
 msgstr ""
 
-#: /media/js/views/comm.js:117 /media/js/views/comm.js:191
+#: /media/js/views/comm.js:118 /media/js/views/comm.js:192
 msgid "No notes to show."
 msgstr ""
 
-#: /media/js/views/comm.js:131
+#: /media/js/views/comm.js:132
 msgid "There are no more older notes."
 msgstr ""
 
-#: /media/js/views/comm.js:179
+#: /media/js/views/comm.js:180
 msgid "There was some problem marking the note as read. Try again."
 msgstr ""
 
-#: /media/js/views/comm.js:198
+#: /media/js/views/comm.js:199
 msgid "There was some problem marking the thread as read. Try again."
 msgstr ""
 

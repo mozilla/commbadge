@@ -2,17 +2,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-27T23:44:03.167Z\n"
-"PO-Revision-Date: 2013-09-28 16:48+0800\n"
-"Last-Translator: Peter Pin-Guang Chen <petercpg@mail.moztw.org>\n"
+"POT-Creation-Date: 2013-11-27T15:59:57.817Z\n"
+"PO-Revision-Date: 2013-11-27 16:14+0000\n"
+"Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: MozTW <petercpg@mail.moztw.org>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Pootle 2.5.0\n"
 "X-Poedit-SourceCharset: UTF-8\n"
+"X-POOTLE-MTIME: 1385568851.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -25,18 +26,6 @@ msgstr "否"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "是"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Communication 主控台"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "登出"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "登入"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -64,14 +53,9 @@ msgstr "尋找工具"
 
 #: /templates/footer.html:24
 msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, "
-"content on this site is licensed under the <a href=\"{cc_url}\" target="
-"\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> or any "
-"later version."
-msgstr ""
-"除非另有 <a href=\"{legal_url}\" target=\"_blank\">提及</a>，網站內容皆採用 "
-"<a href=\"{cc_url}\" target=\"_blank\">創用 CC 姓名標示-相同方式分享 3.0</a> "
-"或更新版本條款進行授權。"
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
+msgstr "除非另有 <a href=\"{legal_url}\" target=\"_blank\">提及</a>，網站內容皆採用 <a href=\"{cc_url}\" target=\"_blank\">創用 CC 姓名標示-相同方式分享 3.0</a> 或更新版本條款進行授權。"
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
@@ -85,6 +69,18 @@ msgstr "使用條款"
 msgid "Report Trademark Abuse"
 msgstr "回報商標濫用"
 
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "傳播主控台"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "登出"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "登入"
+
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "登入"
@@ -97,41 +93,44 @@ msgstr "您必須登入才能繼續。"
 msgid "Sign in / Sign up"
 msgstr "登入 / 註冊"
 
-#: /templates/_macros/thread.html:12 /media/js/views/comm.js:27
+#: /templates/_macros/thread.html:12 /media/js/views/comm.js:28
 msgid "{n} note"
 msgid_plural "{n} notes"
 msgstr[0] "{n} 筆筆記"
 
-#: /templates/_macros/thread.html:16 /media/js/views/comm.js:36
-#: /media/js/views/comm.js:67
+#: /templates/_macros/thread.html:15
+msgid "Review page"
+msgstr "檢閱頁面"
+
+#: /templates/_macros/thread.html:19 /media/js/views/comm.js:37 /media/js/views/comm.js:68
 msgid "Reply"
 msgstr "回覆"
 
-#: /templates/_macros/thread.html:20
+#: /templates/_macros/thread.html:23
 msgid "Enter note text here"
 msgstr "在此輸入筆記內容"
 
-#: /templates/_macros/thread.html:21
+#: /templates/_macros/thread.html:24
 msgid "Post"
 msgstr "張貼"
 
-#: /templates/_macros/thread.html:26
+#: /templates/_macros/thread.html:29
 msgid "Recent"
 msgstr "近期"
 
-#: /templates/_macros/thread.html:29
+#: /templates/_macros/thread.html:32
 msgid "Unread"
 msgstr "未讀"
 
-#: /templates/_macros/thread.html:32
+#: /templates/_macros/thread.html:35
 msgid "Read"
 msgstr "已讀"
 
-#: /templates/_macros/thread.html:35
+#: /templates/_macros/thread.html:38
 msgid "Mark All Read"
 msgstr "標示所有已讀"
 
-#: /templates/_macros/thread.html:47
+#: /templates/_macros/thread.html:50
 msgid "View older"
 msgstr "檢視更舊項目"
 
@@ -151,6 +150,10 @@ msgstr "喔不！"
 msgid "The page you were looking for was not found."
 msgstr "找不到您想開啟的頁面。"
 
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "發生錯誤。"
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "載入更多時發生錯誤"
@@ -158,38 +161,6 @@ msgstr "載入更多時發生錯誤"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "重試"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "發生錯誤。"
-
-#: /media/js/helpers.js:72
-msgid "Message"
-msgstr "訊息"
-
-#: /media/js/helpers.js:73
-msgid "App approved"
-msgstr "應用程式已被審核通過"
-
-#: /media/js/helpers.js:74
-msgid "App rejected"
-msgstr "應用程式已被退回"
-
-#: /media/js/helpers.js:75
-msgid "App disabled"
-msgstr "應用程式已被停用"
-
-#: /media/js/helpers.js:76
-msgid "More info required"
-msgstr "需要更多資訊"
-
-#: /media/js/helpers.js:77
-msgid "Review escalated to senior reviewer"
-msgstr "審核層級已提高至資深審核者"
-
-#: /media/js/helpers.js:78
-msgid "Reviewer comment"
-msgstr "審核者留言"
 
 #: /media/js/login.js:8
 msgid "You have been signed out"
@@ -199,51 +170,49 @@ msgstr "您已經登出。"
 msgid "You have been signed in"
 msgstr "您已經登入。"
 
-#: /media/js/login.js:122
-msgid ""
-"Persona login failed. Maybe you don't have an account under that email "
-"address?"
+#: /media/js/login.js:127
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr "Persona 登入失敗，也許您沒有使用該電子郵件地址的帳號？"
 
-#: /media/js/login.js:127
+#: /media/js/login.js:132
 msgid "Persona login failed. A server error was encountered."
 msgstr "Persona 登入失敗，伺服器發生錯誤。"
 
-#: /media/js/navigation.js:50
+#: /media/js/navigation.js:31
 msgid "No internet connection"
 msgstr "沒有網際網路連線"
 
 #. {n} is the number of characters left.
-#: /media/js/utils.js:25
+#: /media/js/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "剩下 <b>{n}</b> 個字元。"
 
-#: /media/js/views/comm.js:42
+#: /media/js/views/comm.js:43
 msgid "Message sent."
 msgstr "訊息已送出。"
 
-#: /media/js/views/comm.js:47
+#: /media/js/views/comm.js:48
 msgid "Message sending failed."
 msgstr "訊息傳送失敗。"
 
-#: /media/js/views/comm.js:60
+#: /media/js/views/comm.js:61
 msgid "Cancel reply"
 msgstr "取消回覆"
 
-#: /media/js/views/comm.js:117 /media/js/views/comm.js:191
+#: /media/js/views/comm.js:118 /media/js/views/comm.js:192
 msgid "No notes to show."
 msgstr "沒有可以顯示的筆記。"
 
-#: /media/js/views/comm.js:131
+#: /media/js/views/comm.js:132
 msgid "There are no more older notes."
 msgstr "沒有更舊的筆記了。"
 
-#: /media/js/views/comm.js:179
+#: /media/js/views/comm.js:180
 msgid "There was some problem marking the note as read. Try again."
 msgstr "將筆記標示為已讀時發生錯誤，請再試一次。"
 
-#: /media/js/views/comm.js:198
+#: /media/js/views/comm.js:199
 msgid "There was some problem marking the thread as read. Try again."
 msgstr "將討論串標示為已讀時發生錯誤，請再試一次。"
 

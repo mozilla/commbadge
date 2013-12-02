@@ -63,6 +63,12 @@ tick() {
         float: left;
         width: 70%;
     }
+    .review-link {
+        display: inline-block;
+        left: 74px;
+        margin-bottom: 10px;
+        position: relative;
+    }
     .reply-text {
         border: 1px solid $seavan-salt-white;
         margin-top: 5px;
@@ -112,11 +118,12 @@ tick() {
 
 }
 
-.notes-container {
-    background-color: lighten(blue, 98%);
+.notes-outer-container {
+    background-color: #fff;
     padding: 0;
+    padding-bottom: 12px;
 
-    & > div {
+    .notes-container > div {
         padding: 10px;
     }
     .note-detail {

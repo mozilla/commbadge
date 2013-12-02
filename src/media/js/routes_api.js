@@ -8,6 +8,7 @@ define('routes_api', [], function() {
     // }
 	return {
         'login': '/api/v1/account/login/',
+        'permissions': '/api/v1/account/permissions/mine/',
         'threads': '/api/v1/comm/thread/',
         'thread': '/api/v1/comm/thread/{0}/',
         'notes': '/api/v1/comm/thread/{0}/note/',

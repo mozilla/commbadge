@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-12T16:22:01.281Z\n"
+"POT-Creation-Date: 2013-11-27T15:59:57.817Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
+"Last-Translator: Αλέξανδρος Μιόγλου <alexandros@mioglou.me>\n"
 "Language-Team: none\n"
 "Language: en-us\n"
 "MIME-Version: 1.0\n"
@@ -12,6 +12,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Fireplace L10n Tools 1.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Κλείσιμο"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Όχι"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Ναι"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -31,7 +43,7 @@ msgstr "Οι υποβολές μου"
 
 #: /templates/footer.html:13
 msgid "Reviewer Tools"
-msgstr "Εργαλεία επιθεωρητή"
+msgstr "Εργαλεία αξιολόγησης"
 
 #: /templates/footer.html:16
 msgid "Lookup Tool"
@@ -42,8 +54,8 @@ msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
 "Alike License v3.0</a> or any later version."
 msgstr ""
-"Εκτός από όπου <a href=\"{legal_url}\" target=\"_blank\">σημειώνεται</a> διαφορετικά, το περιεχόμενο του ιστότοπου υπόκειται στην άδεια <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> ή νεότερης έκδοσης."
+"Εκτός από όπου <a href=\"{legal_url}\" target=\"_blank\">σημειώνεται</a> διαφορετικά, το περιεχόμενο του ιστότοπου υπόκειται στην άδεια <a href=\"{cc_url}\" target=\"_blank\">Creative Commons "
+"Attribution Share-Alike License v3.0</a> ή νεότερης έκδοσης."
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
@@ -57,37 +69,17 @@ msgstr "Όροι χρήσης"
 msgid "Report Trademark Abuse"
 msgstr "Αναφορά κατάχρησης επωνυμίας"
 
-#: /templates/header.html:1
-msgid "Back"
-msgstr "Πίσω"
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Ταμπλό επικοινωνίας"
 
-#: /templates/header.html:6
-msgid "Settings"
-msgstr "Ρυθμίσεις"
-
-#: /templates/header.html:12
-msgid "Edit Account Settings"
-msgstr "Επεξεργασία ρυθμίσεων λογαριασμού"
-
-#: /templates/header.html:14
+#: /templates/header.html:7
 msgid "Sign Out"
 msgstr "Αποσύνδεση"
 
-#: /templates/header.html:18
+#: /templates/header.html:8
 msgid "Sign In"
 msgstr "Σύνδεση"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Κλείσιμο"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Όχι"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Ναι"
 
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
@@ -101,51 +93,55 @@ msgstr "Πρέπει να συνδεθείτε για να συνεχίσετε.
 msgid "Sign in / Sign up"
 msgstr "Σύνδεση / Εγγραφή"
 
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "Σημειώστε το ως διαβασμένο"
-
-#: /templates/_macros/thread.html:12 /media/js/views/comm.js:27
+#: /templates/_macros/thread.html:12 /media/js/views/comm.js:28
 msgid "{n} note"
 msgid_plural "{n} notes"
 msgstr[0] "{n} σημείωση"
 msgstr[1] "{n} σημειώσεις"
 
-#: /templates/_macros/thread.html:16 /media/js/views/comm.js:36 /media/js/views/comm.js:67
+#: /templates/_macros/thread.html:15
+msgid "Review page"
+msgstr ""
+
+#: /templates/_macros/thread.html:19 /media/js/views/comm.js:37 /media/js/views/comm.js:68
 msgid "Reply"
 msgstr "Απάντηση"
 
-#: /templates/_macros/thread.html:20
+#: /templates/_macros/thread.html:23
 msgid "Enter note text here"
-msgstr "Εισαγωγή κειμένου δημείωσης εδώ"
+msgstr "Εισαγωγή κειμένου σημείωσης εδώ"
 
-#: /templates/_macros/thread.html:21
+#: /templates/_macros/thread.html:24
 msgid "Post"
 msgstr "Δημοσίευση"
 
-#: /templates/_macros/thread.html:26
+#: /templates/_macros/thread.html:29
 msgid "Recent"
 msgstr "Πρόσφατα"
 
-#: /templates/_macros/thread.html:29
+#: /templates/_macros/thread.html:32
 msgid "Unread"
 msgstr "Μη αναγνωσμένα"
 
-#: /templates/_macros/thread.html:32
+#: /templates/_macros/thread.html:35
 msgid "Read"
 msgstr "Ανάγνωση"
 
-#: /templates/_macros/thread.html:35
+#: /templates/_macros/thread.html:38
 msgid "Mark All Read"
 msgstr "Σημείωση όλων ως αναγνωσμένων"
 
-#: /templates/_macros/thread.html:47
+#: /templates/_macros/thread.html:50
 msgid "View older"
 msgstr "Προβολή παλαιότερων"
 
 #: /templates/comm/main.html:9
 msgid "You have no threads."
 msgstr "Δεν έχετε θέματα"
+
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr "Σημειώστε το ως διαβασμένο"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -167,34 +163,6 @@ msgstr "Σφάλμα κατά τη φόρτωση περισσότερων"
 msgid "Try Again"
 msgstr "Προσπαθήστε ξανά"
 
-#: /media/js/helpers.js:72
-msgid "Message"
-msgstr "Μήνυμα"
-
-#: /media/js/helpers.js:73
-msgid "App approved"
-msgstr "Η εφαρμογή εγκρίθηκε"
-
-#: /media/js/helpers.js:74
-msgid "App rejected"
-msgstr "Η εφαρμογή απορρίφθηκε"
-
-#: /media/js/helpers.js:75
-msgid "App disabled"
-msgstr "Η εφαρμογή απενεργοποιήθηκε"
-
-#: /media/js/helpers.js:76
-msgid "More info required"
-msgstr "Απαιτούνται περισσότερες πληροφορίες"
-
-#: /media/js/helpers.js:77
-msgid "Review escalated to senior reviewer"
-msgstr "Η αξιολόγηση κλιμακώθηκε σε αρχαιότερο επιθεωρητή"
-
-#: /media/js/helpers.js:78
-msgid "Reviewer comment"
-msgstr "Σχόλιο επιθεωρητή"
-
 #: /media/js/login.js:8
 msgid "You have been signed out"
 msgstr "Έχετε αποσυνδεθεί"
@@ -203,50 +171,50 @@ msgstr "Έχετε αποσυνδεθεί"
 msgid "You have been signed in"
 msgstr "Έχετε συνδεθεί"
 
-#: /media/js/login.js:122
+#: /media/js/login.js:127
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr "Η σύνδεση persona απέτυχε. Μήπως δεν έχετε λογαριασμό με αυτή τη διεύθυνση email;"
 
-#: /media/js/login.js:127
+#: /media/js/login.js:132
 msgid "Persona login failed. A server error was encountered."
 msgstr "η σύνδεση persona απετυχε. Παρουσιάστηκε σφάλμα διακομιστή."
 
-#: /media/js/navigation.js:50
+#: /media/js/navigation.js:31
 msgid "No internet connection"
 msgstr "Χωρίς σύνδεση"
 
 #. {n} is the number of characters left.
-#: /media/js/utils.js:25
+#: /media/js/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{n}</b> χαρακτήρας έμεινε"
 msgstr[1] "<b>{n}</b> χαρακτήρες έμειναν"
 
-#: /media/js/views/comm.js:42
+#: /media/js/views/comm.js:43
 msgid "Message sent."
 msgstr "Μήνυμα εστάλη."
 
-#: /media/js/views/comm.js:47
+#: /media/js/views/comm.js:48
 msgid "Message sending failed."
 msgstr "Η αποστολή του μηνύματος απέτυχε."
 
-#: /media/js/views/comm.js:60
+#: /media/js/views/comm.js:61
 msgid "Cancel reply"
 msgstr "Ακύρωση απάντησης"
 
-#: /media/js/views/comm.js:117 /media/js/views/comm.js:191
+#: /media/js/views/comm.js:118 /media/js/views/comm.js:192
 msgid "No notes to show."
 msgstr "Καμία σημείωση για προβολή."
 
-#: /media/js/views/comm.js:131
+#: /media/js/views/comm.js:132
 msgid "There are no more older notes."
 msgstr "Δεν υπάρχουν παλαιότερες σημειώσεις."
 
-#: /media/js/views/comm.js:179
+#: /media/js/views/comm.js:180
 msgid "There was some problem marking the note as read. Try again."
 msgstr "Υπήρξε κάποιο πρόβλημα με το χαρακτηρισμό της σημείωσης ως αναγνωσμένης. Προσπαθήστε ξανά."
 
-#: /media/js/views/comm.js:198
+#: /media/js/views/comm.js:199
 msgid "There was some problem marking the thread as read. Try again."
 msgstr "Υπήρξε κάποιο πρόβλημα με το χαρακτηρισμό του θέματος ως αναγνωσμένου. Προσπαθήστε ξανά."
 

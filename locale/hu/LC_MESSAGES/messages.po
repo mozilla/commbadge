@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-27T23:44:03.167Z\n"
+"POT-Creation-Date: 2013-11-27T15:59:57.817Z\n"
 "PO-Revision-Date: 2013-10-08 13:09+0000\n"
 "Last-Translator: Gábor <kelemeng@gnome.hu>\n"
 "Language-Team: none\n"
@@ -25,18 +25,6 @@ msgstr "Nem"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Igen"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Kommunikációs vezérlőpult"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Kijelentkezés"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Bejelentkezés"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -67,10 +55,8 @@ msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
 "Alike License v3.0</a> or any later version."
 msgstr ""
-"Ha másképp nem kerül <a href=\"{legal_url}\" target=\"_blank\">jelzésre</a>, "
-"akkor az oldal tartalma <a href=\"{cc_url}\" target=\"_blank\">Creative Commons "
-"Attribution Share-Alike License v3.0</a> vagy ennek újabb verziója alatt "
-"jelenik meg."
+"Ha másképp nem kerül <a href=\"{legal_url}\" target=\"_blank\">jelzésre</a>, akkor az oldal tartalma <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> "
+"vagy ennek újabb verziója alatt jelenik meg."
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
@@ -84,6 +70,18 @@ msgstr "Felhasználási feltételek"
 msgid "Report Trademark Abuse"
 msgstr "Védjeggyel kapcsolatos visszaélés jelentése"
 
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Kommunikációs vezérlőpult"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Kijelentkezés"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Bejelentkezés"
+
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "Bejelentkezés"
@@ -96,41 +94,45 @@ msgstr "Be kell jelentkeznie a folytatáshoz."
 msgid "Sign in / Sign up"
 msgstr "Bejelentkezés/regisztráció"
 
-#: /templates/_macros/thread.html:12 /media/js/views/comm.js:27
+#: /templates/_macros/thread.html:12 /media/js/views/comm.js:28
 msgid "{n} note"
 msgid_plural "{n} notes"
 msgstr[0] "{n} jegyzet"
 msgstr[1] "{n} jegyzet"
 
-#: /templates/_macros/thread.html:16 /media/js/views/comm.js:36 /media/js/views/comm.js:67
+#: /templates/_macros/thread.html:15
+msgid "Review page"
+msgstr ""
+
+#: /templates/_macros/thread.html:19 /media/js/views/comm.js:37 /media/js/views/comm.js:68
 msgid "Reply"
 msgstr "Válasz"
 
-#: /templates/_macros/thread.html:20
+#: /templates/_macros/thread.html:23
 msgid "Enter note text here"
 msgstr "Írja ide a jegyzet szövegét"
 
-#: /templates/_macros/thread.html:21
+#: /templates/_macros/thread.html:24
 msgid "Post"
 msgstr "Küldés"
 
-#: /templates/_macros/thread.html:26
+#: /templates/_macros/thread.html:29
 msgid "Recent"
 msgstr "Legutóbbi"
 
-#: /templates/_macros/thread.html:29
+#: /templates/_macros/thread.html:32
 msgid "Unread"
 msgstr "Olvasatlan"
 
-#: /templates/_macros/thread.html:32
+#: /templates/_macros/thread.html:35
 msgid "Read"
 msgstr "Olvasott"
 
-#: /templates/_macros/thread.html:35
+#: /templates/_macros/thread.html:38
 msgid "Mark All Read"
 msgstr "Összes jelölése olvasottként"
 
-#: /templates/_macros/thread.html:47
+#: /templates/_macros/thread.html:50
 msgid "View older"
 msgstr "Régebbi megjelenítése"
 
@@ -150,6 +152,10 @@ msgstr "Na ne!"
 msgid "The page you were looking for was not found."
 msgstr "A keresett oldal nem található."
 
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Hiba történt."
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Hiba továbbiak betöltésekor"
@@ -157,38 +163,6 @@ msgstr "Hiba továbbiak betöltésekor"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Próbálja újra"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Hiba történt."
-
-#: /media/js/helpers.js:72
-msgid "Message"
-msgstr "Üzenet"
-
-#: /media/js/helpers.js:73
-msgid "App approved"
-msgstr "App jóváhagyva"
-
-#: /media/js/helpers.js:74
-msgid "App rejected"
-msgstr "App elutasítva"
-
-#: /media/js/helpers.js:75
-msgid "App disabled"
-msgstr "App letiltva"
-
-#: /media/js/helpers.js:76
-msgid "More info required"
-msgstr "Több infó szükséges"
-
-#: /media/js/helpers.js:77
-msgid "Review escalated to senior reviewer"
-msgstr "Jóváhagyás továbbítva rangidős jóváhagyónak"
-
-#: /media/js/helpers.js:78
-msgid "Reviewer comment"
-msgstr "Jóváhagyó megjegyzése"
 
 #: /media/js/login.js:8
 msgid "You have been signed out"
@@ -198,52 +172,50 @@ msgstr "Kijelentkezett"
 msgid "You have been signed in"
 msgstr "Bejelentkezett"
 
-#: /media/js/login.js:122
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr ""
-"A Persona bejelentkezés sikertelen. Talán nincs fiókja ehhez az e-mail "
-"címhez?"
-
 #: /media/js/login.js:127
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "A Persona bejelentkezés sikertelen. Talán nincs fiókja ehhez az e-mail címhez?"
+
+#: /media/js/login.js:132
 msgid "Persona login failed. A server error was encountered."
 msgstr "A Persona bejelentkezés sikertelen. Kiszolgálóhiba történt."
 
-#: /media/js/navigation.js:50
+#: /media/js/navigation.js:31
 msgid "No internet connection"
 msgstr "Nincs internetkapcsolat"
 
 #. {n} is the number of characters left.
-#: /media/js/utils.js:25
+#: /media/js/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{n}</b> karakter maradt."
 msgstr[1] "<b>{n}</b> karakter maradt."
 
-#: /media/js/views/comm.js:42
+#: /media/js/views/comm.js:43
 msgid "Message sent."
 msgstr "Üzenet elküldve"
 
-#: /media/js/views/comm.js:47
+#: /media/js/views/comm.js:48
 msgid "Message sending failed."
 msgstr "Üzenet küldése sikertelen."
 
-#: /media/js/views/comm.js:60
+#: /media/js/views/comm.js:61
 msgid "Cancel reply"
 msgstr "Válasz megszakítása"
 
-#: /media/js/views/comm.js:117 /media/js/views/comm.js:191
+#: /media/js/views/comm.js:118 /media/js/views/comm.js:192
 msgid "No notes to show."
 msgstr "Nincsenek megjeleníthető jegyzetek."
 
-#: /media/js/views/comm.js:131
+#: /media/js/views/comm.js:132
 msgid "There are no more older notes."
 msgstr "Nincs több régi jegyzet."
 
-#: /media/js/views/comm.js:179
+#: /media/js/views/comm.js:180
 msgid "There was some problem marking the note as read. Try again."
 msgstr "Hiba történt a jegyzet olvasottként jelölésekor. Próbálja újra."
 
-#: /media/js/views/comm.js:198
+#: /media/js/views/comm.js:199
 msgid "There was some problem marking the thread as read. Try again."
 msgstr "Hiba történt a szál olvasottként jelölésekor. Próbálja újra."
 

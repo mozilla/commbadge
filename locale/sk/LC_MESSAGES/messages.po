@@ -2,16 +2,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-27T23:44:03.167Z\n"
-"PO-Revision-Date: 2013-06-26 17:19+0100\n"
-"Last-Translator: wladow <info@wladow.sk>\n"
+"POT-Creation-Date: 2013-11-27T15:59:57.817Z\n"
+"PO-Revision-Date: 2013-11-24 22:30+0000\n"
+"Last-Translator: Vlado <valastiak@mozilla.sk>\n"
 "Language-Team: Mozilla.sk <l10n@mozilla.sk>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1385332234.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -24,18 +25,6 @@ msgstr "Nie"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Áno"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr ""
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Odhlásiť sa"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Prihlásiť sa"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -81,64 +70,80 @@ msgstr "Podmienky použitia"
 msgid "Report Trademark Abuse"
 msgstr "Nahlásiť zneužitie ochrannej známky"
 
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Komunikačná nástenka"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Odhlásiť sa"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Prihlásiť sa"
+
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
-msgstr ""
+msgstr "Prihlásiť"
 
 #: /templates/login.html:3
 msgid "You must sign in to proceed."
-msgstr ""
+msgstr "Ak chcete pokračovať, musíte sa prihlásiť."
 
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
 msgstr "Prihlásiť sa / zaregistrovať"
 
-#: /templates/_macros/thread.html:12 /media/js/views/comm.js:27
+#: /templates/_macros/thread.html:12 /media/js/views/comm.js:28
 msgid "{n} note"
 msgid_plural "{n} notes"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "{n} poznámka"
+msgstr[1] "{n} poznámky"
+msgstr[2] "{n} poznámok"
 
-#: /templates/_macros/thread.html:16 /media/js/views/comm.js:36 /media/js/views/comm.js:67
+#: /templates/_macros/thread.html:15
+msgid "Review page"
+msgstr "Stránka kontroly"
+
+#: /templates/_macros/thread.html:19 /media/js/views/comm.js:37 /media/js/views/comm.js:68
 msgid "Reply"
-msgstr ""
+msgstr "Odpovedať"
 
-#: /templates/_macros/thread.html:20
+#: /templates/_macros/thread.html:23
 msgid "Enter note text here"
-msgstr ""
+msgstr "Zadajte text poznámky"
 
-#: /templates/_macros/thread.html:21
+#: /templates/_macros/thread.html:24
 msgid "Post"
-msgstr ""
-
-#: /templates/_macros/thread.html:26
-msgid "Recent"
-msgstr ""
+msgstr "Pridať"
 
 #: /templates/_macros/thread.html:29
-msgid "Unread"
-msgstr ""
+msgid "Recent"
+msgstr "Nedávne"
 
 #: /templates/_macros/thread.html:32
-msgid "Read"
-msgstr ""
+msgid "Unread"
+msgstr "Neprečítané"
 
 #: /templates/_macros/thread.html:35
-msgid "Mark All Read"
-msgstr ""
+msgid "Read"
+msgstr "Prečítané"
 
-#: /templates/_macros/thread.html:47
+#: /templates/_macros/thread.html:38
+msgid "Mark All Read"
+msgstr "Označiť všetky ako prečítané"
+
+#: /templates/_macros/thread.html:50
 msgid "View older"
-msgstr ""
+msgstr "Zobraziť staršie"
 
 #: /templates/comm/main.html:9
 msgid "You have no threads."
-msgstr ""
+msgstr "Žiadne dostupné vlákna."
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
-msgstr ""
+msgstr "Označiť túto poznámku ako prečítanú"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -148,6 +153,10 @@ msgstr "Ale nie!"
 msgid "The page you were looking for was not found."
 msgstr "Hľadaná stránka nebola nájdená."
 
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Vyskytla sa chyba."
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Chyba pri načítavaní ďalších položiek"
@@ -155,38 +164,6 @@ msgstr "Chyba pri načítavaní ďalších položiek"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Skúsiť znova"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Vyskytla sa chyba"
-
-#: /media/js/helpers.js:72
-msgid "Message"
-msgstr ""
-
-#: /media/js/helpers.js:73
-msgid "App approved"
-msgstr ""
-
-#: /media/js/helpers.js:74
-msgid "App rejected"
-msgstr ""
-
-#: /media/js/helpers.js:75
-msgid "App disabled"
-msgstr ""
-
-#: /media/js/helpers.js:76
-msgid "More info required"
-msgstr ""
-
-#: /media/js/helpers.js:77
-msgid "Review escalated to senior reviewer"
-msgstr ""
-
-#: /media/js/helpers.js:78
-msgid "Reviewer comment"
-msgstr ""
 
 #: /media/js/login.js:8
 msgid "You have been signed out"
@@ -196,53 +173,53 @@ msgstr "Odhlásenie prebehlo úspešne"
 msgid "You have been signed in"
 msgstr "Prihlásenie prebehlo úspešne"
 
-#: /media/js/login.js:122
+#: /media/js/login.js:127
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr "Prihlásenie pomocou služby Persona zlyhalo. Možno pod touto e-mailovou adresou nemáte účet?"
 
-#: /media/js/login.js:127
+#: /media/js/login.js:132
 msgid "Persona login failed. A server error was encountered."
 msgstr "Prihlásenie pomocou služby Persona zlyhalo. Nastala chyba servera."
 
-#: /media/js/navigation.js:50
+#: /media/js/navigation.js:31
 msgid "No internet connection"
 msgstr "Žiadne pripojenie k internetu"
 
 #. {n} is the number of characters left.
-#: /media/js/utils.js:25
+#: /media/js/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "Zostáva <b>{n}</b> znak."
 msgstr[1] "Zostávajú <b>{n}</b> znaky."
 msgstr[2] "Zostáva <b>{n}</b> znakov."
 
-#: /media/js/views/comm.js:42
+#: /media/js/views/comm.js:43
 msgid "Message sent."
-msgstr ""
+msgstr "Správa odoslaná."
 
-#: /media/js/views/comm.js:47
+#: /media/js/views/comm.js:48
 msgid "Message sending failed."
-msgstr ""
+msgstr "Odoslanie správy zlyhalo."
 
-#: /media/js/views/comm.js:60
+#: /media/js/views/comm.js:61
 msgid "Cancel reply"
-msgstr ""
+msgstr "Zrušiť odpoveď"
 
-#: /media/js/views/comm.js:117 /media/js/views/comm.js:191
+#: /media/js/views/comm.js:118 /media/js/views/comm.js:192
 msgid "No notes to show."
-msgstr ""
+msgstr "Žiadne dostupné poznámky."
 
-#: /media/js/views/comm.js:131
+#: /media/js/views/comm.js:132
 msgid "There are no more older notes."
-msgstr ""
+msgstr "Neexistujú žiadne staršie poznámky."
 
-#: /media/js/views/comm.js:179
+#: /media/js/views/comm.js:180
 msgid "There was some problem marking the note as read. Try again."
-msgstr ""
+msgstr "Pri označovaní poznámky ako prečítanej sa vyskytla chyba. Skúste to znova."
 
-#: /media/js/views/comm.js:198
+#: /media/js/views/comm.js:199
 msgid "There was some problem marking the thread as read. Try again."
-msgstr ""
+msgstr "Pri označovaní vlákna ako prečítaného sa vyskytla chyba. Skúste to znova."
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9

@@ -3,6 +3,7 @@ define('urls',
     function(caps, format, api_endpoints, settings, _, user) {
 
     var group_pattern = /\(.+\)/;
+    var optional_pattern = /(\(.*\)|\[.*\]|.)\?/g;
     var reverse = function(view_name, args) {
         args = args || [];
         for (var i in routes) {
@@ -13,8 +14,9 @@ define('urls',
             // Strip the ^ and $ from the route pattern.
             var url = route.pattern.substring(1, route.pattern.length - 1);
 
-            // TODO: if we get significantly complex routes, it might make
-            // sense to _.memoize() or somehow cache the pre-formatted URLs.
+            if (url.indexOf('?') !== -1) {
+                url = url.replace(optional_pattern, '');
+            }
 
             // Replace each matched group with a positional formatting placeholder.
             var i = 0;
@@ -23,7 +25,7 @@ define('urls',
             }
 
             // Check that we got the right number of arguments.
-            if (args.length != i) {
+            if (args.length !== i) {
                 console.error('Expected ' + i + ' args, got ' + args.length);
                 throw new Error('Wrong number of arguments passed to reverse(). View: "' + view_name + '", Argument "' + args + '"');
             }
@@ -59,7 +61,9 @@ define('urls',
                 args._user = user.get_token();
             }
             Object.keys(args).forEach(function(k) {
-                if (!args[k]) {
+                if (!args[k] ||
+                    settings.api_param_blacklist &&
+                    settings.api_param_blacklist.indexOf(k) !== -1) {
                     delete args[k];
                 }
             });
@@ -84,7 +88,7 @@ define('urls',
     };
 
     var media = function(path) {
-        var media_url = document.body.getAttribute('data-media') || settings.media_url;
+        var media_url = settings.media_url;
         if (media_url[media_url.length - 1] !== '/') {
             media_url += '/';
         }

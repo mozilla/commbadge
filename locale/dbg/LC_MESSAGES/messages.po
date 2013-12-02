@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-27T23:44:03.167Z\n"
+"POT-Creation-Date: 2013-11-27T15:59:57.817Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);Content-Type: text/plain; charset=UTF-8\n"
 "X-Generator: Fireplace L10n Tools 1.0\n"
 
 #: /templates/confirmation.html:0
@@ -24,18 +24,6 @@ msgstr "Ƞǿ"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Ẏḗş"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr ""
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Şīɠƞ Ǿŭŧ"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Şīɠƞ Īƞ"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -62,12 +50,12 @@ msgid "Lookup Tool"
 msgstr "Ŀǿǿķŭƥ Ŧǿǿŀ"
 
 #: /templates/footer.html:24
-msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
+msgid "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> or any later version."
 msgstr ""
-"Ḗẋƈḗƥŧ ẇħḗřḗ ǿŧħḗřẇīşḗ <a href=\"{legal_url}\" target=\"_blank\">ƞǿŧḗḓ</a>, ƈǿƞŧḗƞŧ ǿƞ ŧħīş şīŧḗ īş ŀīƈḗƞşḗḓ ŭƞḓḗř ŧħḗ <a href=\"{cc_url}\" target=\"_blank\">Ƈřḗȧŧīṽḗ Ƈǿḿḿǿƞş Ȧŧŧřīƀŭŧīǿƞ Şħȧřḗ-"
-"Ȧŀīķḗ Ŀīƈḗƞşḗ ṽ3.0</a> ǿř ȧƞẏ ŀȧŧḗř ṽḗřşīǿƞ."
+"Ḗẋƈḗƥŧ ẇħḗřḗ ǿŧħḗřẇīşḗ <a href=\"{legal_url}\" target=\"_blank\">ƞǿŧḗḓ</a>, "
+"ƈǿƞŧḗƞŧ ǿƞ ŧħīş şīŧḗ īş ŀīƈḗƞşḗḓ ŭƞḓḗř ŧħḗ <a href=\"{cc_url}\" "
+"target=\"_blank\">Ƈřḗȧŧīṽḗ Ƈǿḿḿǿƞş Ȧŧŧřīƀŭŧīǿƞ Şħȧřḗ-Ȧŀīķḗ Ŀīƈḗƞşḗ ṽ3.0</a> ǿř "
+"ȧƞẏ ŀȧŧḗř ṽḗřşīǿƞ."
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
@@ -81,71 +69,96 @@ msgstr "Ŧḗřḿş ǿƒ Ŭşḗ"
 msgid "Report Trademark Abuse"
 msgstr "Řḗƥǿřŧ Ŧřȧḓḗḿȧřķ Ȧƀŭşḗ"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Ƈǿḿḿŭƞīƈȧŧīǿƞ Ḓȧşħƀǿȧřḓ"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Şīɠƞ Ǿŭŧ"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Şīɠƞ Īƞ"
+
+#: /templates/login.html:2
+#: /media/js/views/login.js:10
 msgid "Sign in"
-msgstr ""
+msgstr "Şīɠƞ īƞ"
 
 #: /templates/login.html:3
 msgid "You must sign in to proceed."
-msgstr ""
+msgstr "Ẏǿŭ ḿŭşŧ şīɠƞ īƞ ŧǿ ƥřǿƈḗḗḓ."
 
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
 msgstr "Şīɠƞ īƞ / Şīɠƞ ŭƥ"
 
-#: /templates/_macros/thread.html:12 /media/js/views/comm.js:27
+#: /templates/_macros/thread.html:12
+#: /media/js/views/comm.js:28
 msgid "{n} note"
 msgid_plural "{n} notes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{ƞ} ƞǿŧḗ"
+msgstr[1] "{ƞ} ƞǿŧḗş"
 
-#: /templates/_macros/thread.html:16 /media/js/views/comm.js:36 /media/js/views/comm.js:67
+#: /templates/_macros/thread.html:15
+msgid "Review page"
+msgstr "Řḗṽīḗẇ ƥȧɠḗ"
+
+#: /templates/_macros/thread.html:19
+#: /media/js/views/comm.js:37
+#: /media/js/views/comm.js:68
 msgid "Reply"
-msgstr ""
+msgstr "Řḗƥŀẏ"
 
-#: /templates/_macros/thread.html:20
+#: /templates/_macros/thread.html:23
 msgid "Enter note text here"
-msgstr ""
+msgstr "Ḗƞŧḗř ƞǿŧḗ ŧḗẋŧ ħḗřḗ"
 
-#: /templates/_macros/thread.html:21
+#: /templates/_macros/thread.html:24
 msgid "Post"
-msgstr ""
-
-#: /templates/_macros/thread.html:26
-msgid "Recent"
-msgstr ""
+msgstr "Ƥǿşŧ"
 
 #: /templates/_macros/thread.html:29
-msgid "Unread"
-msgstr ""
+msgid "Recent"
+msgstr "Řḗƈḗƞŧ"
 
 #: /templates/_macros/thread.html:32
-msgid "Read"
-msgstr ""
+msgid "Unread"
+msgstr "Ŭƞřḗȧḓ"
 
 #: /templates/_macros/thread.html:35
-msgid "Mark All Read"
-msgstr ""
+msgid "Read"
+msgstr "Řḗȧḓ"
 
-#: /templates/_macros/thread.html:47
+#: /templates/_macros/thread.html:38
+msgid "Mark All Read"
+msgstr "Ḿȧřķ Ȧŀŀ Řḗȧḓ"
+
+#: /templates/_macros/thread.html:50
 msgid "View older"
-msgstr ""
+msgstr "Ṽīḗẇ ǿŀḓḗř"
 
 #: /templates/comm/main.html:9
 msgid "You have no threads."
-msgstr ""
+msgstr "Ẏǿŭ ħȧṽḗ ƞǿ ŧħřḗȧḓş."
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
-msgstr ""
+msgstr "Ḿȧřķ ŧħīş ƞǿŧḗ ȧş řḗȧḓ"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+#: /templates/errors/404.html:2
+#: /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "Ǿħ ƞǿ!"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
 msgstr "Ŧħḗ ƥȧɠḗ ẏǿŭ ẇḗřḗ ŀǿǿķīƞɠ ƒǿř ẇȧş ƞǿŧ ƒǿŭƞḓ."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Ȧƞ ḗřřǿř ǿƈƈŭřřḗḓ."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -155,38 +168,6 @@ msgstr "Ḗřřǿř ŀǿȧḓīƞɠ ḿǿřḗ"
 msgid "Try Again"
 msgstr "Ŧřẏ Ȧɠȧīƞ"
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Ȧƞ ḗřřǿř ǿƈƈŭřřḗḓ."
-
-#: /media/js/helpers.js:72
-msgid "Message"
-msgstr ""
-
-#: /media/js/helpers.js:73
-msgid "App approved"
-msgstr ""
-
-#: /media/js/helpers.js:74
-msgid "App rejected"
-msgstr ""
-
-#: /media/js/helpers.js:75
-msgid "App disabled"
-msgstr ""
-
-#: /media/js/helpers.js:76
-msgid "More info required"
-msgstr ""
-
-#: /media/js/helpers.js:77
-msgid "Review escalated to senior reviewer"
-msgstr ""
-
-#: /media/js/helpers.js:78
-msgid "Reviewer comment"
-msgstr ""
-
 #: /media/js/login.js:8
 msgid "You have been signed out"
 msgstr "Ẏǿŭ ħȧṽḗ ƀḗḗƞ şīɠƞḗḓ ǿŭŧ"
@@ -195,52 +176,55 @@ msgstr "Ẏǿŭ ħȧṽḗ ƀḗḗƞ şīɠƞḗḓ ǿŭŧ"
 msgid "You have been signed in"
 msgstr "Ẏǿŭ ħȧṽḗ ƀḗḗƞ şīɠƞḗḓ īƞ"
 
-#: /media/js/login.js:122
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Ƥḗřşǿƞȧ ŀǿɠīƞ ƒȧīŀḗḓ. Ḿȧẏƀḗ ẏǿŭ ḓǿƞ'ŧ ħȧṽḗ ȧƞ ȧƈƈǿŭƞŧ ŭƞḓḗř ŧħȧŧ ḗḿȧīŀ ȧḓḓřḗşş?"
-
 #: /media/js/login.js:127
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr ""
+"Ƥḗřşǿƞȧ ŀǿɠīƞ ƒȧīŀḗḓ. Ḿȧẏƀḗ ẏǿŭ ḓǿƞ'ŧ ħȧṽḗ ȧƞ ȧƈƈǿŭƞŧ ŭƞḓḗř ŧħȧŧ ḗḿȧīŀ "
+"ȧḓḓřḗşş?"
+
+#: /media/js/login.js:132
 msgid "Persona login failed. A server error was encountered."
 msgstr "Ƥḗřşǿƞȧ ŀǿɠīƞ ƒȧīŀḗḓ. Ȧ şḗřṽḗř ḗřřǿř ẇȧş ḗƞƈǿŭƞŧḗřḗḓ."
 
-#: /media/js/navigation.js:50
+#: /media/js/navigation.js:31
 msgid "No internet connection"
 msgstr "Ƞǿ īƞŧḗřƞḗŧ ƈǿƞƞḗƈŧīǿƞ"
 
 #. {n} is the number of characters left.
-#: /media/js/utils.js:25
+#: /media/js/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{ƞ}</b> ƈħȧřȧƈŧḗř ŀḗƒŧ."
 msgstr[1] "<b>{ƞ}</b> ƈħȧřȧƈŧḗřş ŀḗƒŧ."
 
-#: /media/js/views/comm.js:42
+#: /media/js/views/comm.js:43
 msgid "Message sent."
-msgstr ""
+msgstr "Ḿḗşşȧɠḗ şḗƞŧ."
 
-#: /media/js/views/comm.js:47
+#: /media/js/views/comm.js:48
 msgid "Message sending failed."
-msgstr ""
+msgstr "Ḿḗşşȧɠḗ şḗƞḓīƞɠ ƒȧīŀḗḓ."
 
-#: /media/js/views/comm.js:60
+#: /media/js/views/comm.js:61
 msgid "Cancel reply"
-msgstr ""
+msgstr "Ƈȧƞƈḗŀ řḗƥŀẏ"
 
-#: /media/js/views/comm.js:117 /media/js/views/comm.js:191
+#: /media/js/views/comm.js:118
+#: /media/js/views/comm.js:192
 msgid "No notes to show."
-msgstr ""
+msgstr "Ƞǿ ƞǿŧḗş ŧǿ şħǿẇ."
 
-#: /media/js/views/comm.js:131
+#: /media/js/views/comm.js:132
 msgid "There are no more older notes."
-msgstr ""
+msgstr "Ŧħḗřḗ ȧřḗ ƞǿ ḿǿřḗ ǿŀḓḗř ƞǿŧḗş."
 
-#: /media/js/views/comm.js:179
+#: /media/js/views/comm.js:180
 msgid "There was some problem marking the note as read. Try again."
-msgstr ""
+msgstr "Ŧħḗřḗ ẇȧş şǿḿḗ ƥřǿƀŀḗḿ ḿȧřķīƞɠ ŧħḗ ƞǿŧḗ ȧş řḗȧḓ. Ŧřẏ ȧɠȧīƞ."
 
-#: /media/js/views/comm.js:198
+#: /media/js/views/comm.js:199
 msgid "There was some problem marking the thread as read. Try again."
-msgstr ""
+msgstr "Ŧħḗřḗ ẇȧş şǿḿḗ ƥřǿƀŀḗḿ ḿȧřķīƞɠ ŧħḗ ŧħřḗȧḓ ȧş řḗȧḓ. Ŧřẏ ȧɠȧīƞ."
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9

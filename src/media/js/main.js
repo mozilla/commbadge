@@ -68,9 +68,9 @@ require.config({
             var context = {z: z};
 
             $('#site-header').html(
-                nunjucks.env.getTemplate('header.html').render(context));
+                nunjucks.env.render('header.html', context));
             $('#site-footer').html(
-                nunjucks.env.getTemplate('footer.html').render(context));
+                nunjucks.env.render('footer.html', context));
 
             // Navigate to the hash if necessary.
             var hash = window.location.hash;

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-27T23:44:03.167Z\n"
-"PO-Revision-Date: 2013-06-26 17:00+0900\n"
+"POT-Creation-Date: 2013-11-27T15:59:57.817Z\n"
+"PO-Revision-Date: 2013-11-22 20:15-0500\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -24,18 +24,6 @@ msgstr "いいえ"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "はい"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr ""
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "ログアウト"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "ログイン"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -81,62 +69,78 @@ msgstr "利用規約"
 msgid "Report Trademark Abuse"
 msgstr "商標不正使用の報告"
 
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "コミュニケーションダッシュボード"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "ログアウト"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "ログイン"
+
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
-msgstr ""
+msgstr "ログイン"
 
 #: /templates/login.html:3
 msgid "You must sign in to proceed."
-msgstr ""
+msgstr "続けるにはログインしてください。"
 
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
 msgstr "ログイン / ユーザ登録"
 
-#: /templates/_macros/thread.html:12 /media/js/views/comm.js:27
+#: /templates/_macros/thread.html:12 /media/js/views/comm.js:28
 msgid "{n} note"
 msgid_plural "{n} notes"
-msgstr[0] ""
+msgstr[0] "{n} 件の記事"
 
-#: /templates/_macros/thread.html:16 /media/js/views/comm.js:36 /media/js/views/comm.js:67
+#: /templates/_macros/thread.html:15
+msgid "Review page"
+msgstr "レビューページ"
+
+#: /templates/_macros/thread.html:19 /media/js/views/comm.js:37 /media/js/views/comm.js:68
 msgid "Reply"
-msgstr ""
+msgstr "返信"
 
-#: /templates/_macros/thread.html:20
+#: /templates/_macros/thread.html:23
 msgid "Enter note text here"
-msgstr ""
+msgstr "投稿内容をここに入力してください"
 
-#: /templates/_macros/thread.html:21
+#: /templates/_macros/thread.html:24
 msgid "Post"
-msgstr ""
-
-#: /templates/_macros/thread.html:26
-msgid "Recent"
-msgstr ""
+msgstr "投稿"
 
 #: /templates/_macros/thread.html:29
-msgid "Unread"
-msgstr ""
+msgid "Recent"
+msgstr "最近"
 
 #: /templates/_macros/thread.html:32
-msgid "Read"
-msgstr ""
+msgid "Unread"
+msgstr "未読"
 
 #: /templates/_macros/thread.html:35
-msgid "Mark All Read"
-msgstr ""
+msgid "Read"
+msgstr "既読"
 
-#: /templates/_macros/thread.html:47
+#: /templates/_macros/thread.html:38
+msgid "Mark All Read"
+msgstr "すべて既読にする"
+
+#: /templates/_macros/thread.html:50
 msgid "View older"
-msgstr ""
+msgstr "以前の記事を表示"
 
 #: /templates/comm/main.html:9
 msgid "You have no threads."
-msgstr ""
+msgstr "スレッドがありません。"
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
-msgstr ""
+msgstr "この記事を既読にする"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -146,6 +150,10 @@ msgstr "Not Found"
 msgid "The page you were looking for was not found."
 msgstr "お探しのページは見つかりませんでした。"
 
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "問題が発生しました。"
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "読み込み中に問題が発生しました"
@@ -153,38 +161,6 @@ msgstr "読み込み中に問題が発生しました"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "再読み込み"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "問題が発生しました。"
-
-#: /media/js/helpers.js:72
-msgid "Message"
-msgstr ""
-
-#: /media/js/helpers.js:73
-msgid "App approved"
-msgstr ""
-
-#: /media/js/helpers.js:74
-msgid "App rejected"
-msgstr ""
-
-#: /media/js/helpers.js:75
-msgid "App disabled"
-msgstr ""
-
-#: /media/js/helpers.js:76
-msgid "More info required"
-msgstr ""
-
-#: /media/js/helpers.js:77
-msgid "Review escalated to senior reviewer"
-msgstr ""
-
-#: /media/js/helpers.js:78
-msgid "Reviewer comment"
-msgstr ""
 
 #: /media/js/login.js:8
 msgid "You have been signed out"
@@ -194,52 +170,52 @@ msgstr "ログアウトしました"
 msgid "You have been signed in"
 msgstr "ログインしました"
 
-#: /media/js/login.js:122
+#: /media/js/login.js:127
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr "Persona のログインに失敗しました。入力されたメールアドレスのアカウントは存在しない可能性があります。"
 
-#: /media/js/login.js:127
+#: /media/js/login.js:132
 msgid "Persona login failed. A server error was encountered."
 msgstr "Persona のログインに失敗しました。サーバエラーが発生しました。"
 
-#: /media/js/navigation.js:50
+#: /media/js/navigation.js:31
 msgid "No internet connection"
 msgstr "インターネット未接続"
 
 #. {n} is the number of characters left.
-#: /media/js/utils.js:25
+#: /media/js/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "残り <b>{n}</b> 文字"
 msgstr[1] "残り <b>{n}</b> 文字"
 
-#: /media/js/views/comm.js:42
+#: /media/js/views/comm.js:43
 msgid "Message sent."
-msgstr ""
+msgstr "メッセージが送信されました。"
 
-#: /media/js/views/comm.js:47
+#: /media/js/views/comm.js:48
 msgid "Message sending failed."
-msgstr ""
+msgstr "メッセージを送信できませんでした。"
 
-#: /media/js/views/comm.js:60
+#: /media/js/views/comm.js:61
 msgid "Cancel reply"
-msgstr ""
+msgstr "返信をキャンセル"
 
-#: /media/js/views/comm.js:117 /media/js/views/comm.js:191
+#: /media/js/views/comm.js:118 /media/js/views/comm.js:192
 msgid "No notes to show."
-msgstr ""
+msgstr "表示する記事はありません。"
 
-#: /media/js/views/comm.js:131
+#: /media/js/views/comm.js:132
 msgid "There are no more older notes."
-msgstr ""
+msgstr "これ以上古い記事はありません。"
 
-#: /media/js/views/comm.js:179
+#: /media/js/views/comm.js:180
 msgid "There was some problem marking the note as read. Try again."
-msgstr ""
+msgstr "記事を既読にする際に問題が発生しました。また後で試してください。"
 
-#: /media/js/views/comm.js:198
+#: /media/js/views/comm.js:199
 msgid "There was some problem marking the thread as read. Try again."
-msgstr ""
+msgstr "スレッドを既読にする際に問題が発生しました。また後で試してください。"
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9
