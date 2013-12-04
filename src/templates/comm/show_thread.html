@@ -1,8 +1,19 @@
 {% include '_macros/thread.html' %}
 <section class="main">
   {% defer (url=endpoint) %}
+    <div class="view-thread-header">
+      <img class="addon-icon" src="{{ this.addon_meta.thumbnail_url }}">
+      <h1 class="show-thread">
+        {{ _('Viewing Thread for {app_name}', app_name=this.addon_meta.name) }}
+      </h1>
+      <a class="back" href="{{ url('app_dashboard', [this.addon_meta.app_slug]) }}">
+        {{ _('Back to all threads for {app_name}', app_name=this.addon_meta.name) }}</a>
+    </div>
+
+    {% include 'comm/threads_nav.html' %}
+
     <div class="threads-container thread-detail-view">
-    {{ thread(response) }}
+      {{ thread(response) }}
     </div>
   {% end %}
 </section>

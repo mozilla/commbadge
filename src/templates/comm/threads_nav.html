@@ -1,0 +1,13 @@
+{% if this.app_threads.length %}
+  <nav class="threads">
+    <h3>{{ _("This App's Threads") }}</h3>
+    {% for app_thread in this.app_threads %}
+      <li>
+        <a href="{{ url('show_thread', [app_thread.id]) }}">
+          {# L10n: the `v` commonly denotes 'version.' #}
+          {{ _('v.{version_number}', version_number=app_thread['version__version']) }}
+        </a>
+      </li>
+    {% endfor %}
+  </nav>
+{% endif %}

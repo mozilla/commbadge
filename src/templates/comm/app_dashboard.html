@@ -1,0 +1,33 @@
+{% include '_macros/thread.html' %}
+
+<section class="main app-dashboard">
+  <div class="view-thread-header">
+    {% defer (url=app_endpoint) %}
+      <img class="addon-icon" src="{{ this.icons['64'] }}" alt="{{ _('App icon') }}">
+      <h1>{{ _('Viewing All Threads for {app_name}', app_name=this.name) }}</h1>
+      <a class="back" href="{{ url('comm') }}">{{ _('Back to my threads') }}</a>
+    {% except %}
+      <h1>{{ _('App Not Found') }}</h1>
+      <a class="back" href="{{ url('comm') }}">{{ _('Back to my threads') }}</a>
+    {% end %}
+  </div>
+
+  {% defer (url=apiParams('threads', ordering='-created', app=app_slug)) %}
+    {% include 'comm/threads_nav.html' %}
+
+    {% if this.objects.length %}
+      <div class="threads-container">
+        {% for t in this.objects %}
+          {{ thread(t) }}
+        {% endfor %}
+      </div>
+    {% else %}
+      <p>{{ _('This app does not have any threads yet.') }}</p>
+    {% endif %}
+
+  {% placeholder %}
+    <div class="spinner alt"></div>
+  {% except %}
+    <p>{{ _('Error loading threads') }}</p>
+  {% end %}
+</section>

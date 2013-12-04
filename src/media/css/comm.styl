@@ -121,10 +121,13 @@ tick() {
 .notes-outer-container {
     background-color: #fff;
     padding: 0;
-    padding-bottom: 12px;
 
     .notes-container > div {
-        padding: 10px;
+        padding: 15px;
+
+        &.empty {
+            font-style: italic;
+        }
     }
     .note-detail {
         border-bottom: 1px solid $seavan-salt-white;
@@ -144,10 +147,13 @@ tick() {
             border-bottom: none;
         }
         .note-body {
-            border: 1px solid $seavan-salt-white;
             color: #000;
             margin-top: 3px;
             padding: 5px;
+
+            .empty {
+                font-style: italic;
+            }
         }
         .note-action {
             font-weight: bold;
@@ -174,8 +180,10 @@ tick() {
 }
 
 .view-older-notes {
+    bottom: 10px;
     display: block;
-    margin: 10px auto;
+    margin: 0 auto;
+    position: relative;
     width: 45%;
 }
 
@@ -185,5 +193,62 @@ tick() {
     }
     p {
         margin-bottom: 20px;
+    }
+}
+
+.main h1 {
+    margin-bottom: 40px;
+}
+.main h2 {
+    margin-top: 40px;
+}
+.main > p, .main > .placeholder > p {
+    margin-top: 30px;
+}
+
+.view-thread-header {
+    margin-bottom: 20px;
+
+    img {
+        background-color: $faint-gray;
+        float: left;
+        margin-right: 15px;
+        height: 64px;
+        vertical-align: top;
+        width: 64px;
+    }
+    h1, a {
+        margin-bottom: 10px;
+    }
+}
+
+a.back {
+    display: block;
+
+    &:before {
+        // &laquo;
+        content: "\ab";
+        margin-right: 5px;
+    }
+}
+
+nav.threads {
+    margin: 20px 0 40px;
+
+    h3 {
+        margin-bottom: 10px;
+    }
+    li {
+        display: inline;
+        list-style: none;
+    }
+    li:not(:last-child):after {
+        background-color: #000;
+        border-radius: 50px;
+        content: "";
+        display: inline-block;
+        height: 2px;
+        margin: 4px 3px 4px 6px;
+        width: 2px;
     }
 }

@@ -9,5 +9,11 @@
       <b title="{{ _('Mark this note as read') }}" class="hidden mark-note-read"></b>
     {% endif %}
   </div>
-  <div class="note-body">{{ note.body|nl2br }}</div>
+  <div class="note-body">
+    {% if note.body %}
+      {{ note.body|nl2br }}
+    {% else %}
+      <span class="empty">{{ _('Empty note') }}</span>
+    {% endif %}
+  </div>
 </div>
