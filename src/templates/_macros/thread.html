@@ -1,63 +1,17 @@
-{% macro thread(t) %}
+{% include '_macros/thread_header.html' %}
+
+{% macro thread(_thread) %}
   <div class="thread-item"
-       data-notes-page="1" data-notes-filter="recent" data-thread-id="{{ t.id }}">
-    <section class="thread-header">
-      <div class="c">
-        <div class="thread-meta">
-          <a href="{{ url('app_dashboard', [t.addon_meta.app_slug]) }}">
-            <img class="addon-icon" src="{{ t.addon_meta.thumbnail_url }}">
-            <div class="addon-name">
-              {{ _('{app_name} (Version {version_number})',
-                   app_name=t.addon_meta.name, version_number=t.version_number) }}
-              {% if t.version_is_obsolete %}
-                {{ _('(Obsolete)') }}
-              {% endif %}
-            </div>
-          </a>
-          <h3 class="note-count" data-count="{{ t.notes_count }}">
-            <a href="{{ url('show_thread', [t.id]) }}">{{ _plural('{n} note', '{n} notes', n=t.notes_count) }}</a>
-          </h3>
-        </div>
-        <div class="thread-action">
-          <button class="button alt reply open-reply">
-            <span class="reply">{{ _('Reply') }}</span>
-            <div class="loading hidden"><div class="spinner alt"></div></div>
-          </button>
-        </div>
-      </div>
-      <div class="reply-box c hidden">
-        <textarea placeholder="{{ _('Enter note text here') }}" class="reply-text" rows="4" cols="80" name="body"></textarea>
-        <button class="button alt post disabled">{{ _('Post') }}</button>
-      </div>
-      <div class="filter-options-container">
-        <ul>
-          <li>
-            <a href="#show-recent-{{ t.id }}" class="notes-filter filter-recent selected" data-filter-mode="recent">{{ _('Recent') }}</a>
-          </li>
-          <li>
-            <a href="#show-unread-{{ t.id }}" class="notes-filter filter-unread" data-filter-mode="unread">{{ _('Unread') }}</a>
-          </li>
-          <li>
-            <a href="#show-read-{{ t.id }}" class="notes-filter filter-read" data-filter-mode="read">{{ _('Read') }}</a>
-          </li>
-          {% if user.get_permission('reviewer') %}
-            <li>
-              <a class="review-link" href="{{ t.addon_meta.review_url }}">{{ _('Review') }}</a>
-            </li>
-          {% endif %}
-          <li>
-            <b title="{{ _('Mark All Read') }}" class="mark-thread-read tick"></b>
-          </li>
-        </ul>
-      </div>
-    </section>
+       data-notes-page="1" data-notes-filter="recent" data-thread-id="{{ _thread.id }}">
+    {{ thread_header(_thread.addon_meta, _thread.addon_meta.thumbnail_url,
+                     _thread.version_number, _thread, user) }}
     <section class="notes-outer-container">
       <div class="notes-container">
-        {% for note in t.recent_notes %}
+        {% for note in _thread.recent_notes %}
           {% include 'comm/note_detail.html' %}
         {% endfor %}
       </div>
-      {% if t.notes_count > t.recent_notes.length %}
+      {% if _thread.notes_count > _thread.recent_notes.length %}
         <button class="button alt view-older-notes">{{ _('View older') }}</button>
       {% endif %}
     </section>

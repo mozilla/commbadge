@@ -7,21 +7,31 @@ define('views/comm',
     var ngettext = l10n.ngettext;
 
     var postNoteEnabled = true;  // Wait till request finish before post again.
-    var postNote = function($text_elem) {
+    var postNote = function($text_elem, isCreateThread) {
+        /*
+          isCreateThread -- if creating a thread. Changes API endpioint, adds
+                            some additional POST parameters.
+        */
         var $threadItem = $text_elem.closest('.thread-item');
         var threadId = $threadItem.data('thread-id');
+
         var data = {
             note_type: 0,
             body: $text_elem.val()
         };
+        if (isCreateThread) {
+            data.app = $threadItem.data('app-slug');
+            data.version = $threadItem.data('version-number');
+        }
 
-        var $threadAction = $('.thread-action .button', $threadItem)
+        var $threadAction = $('.thread-action .button', $threadItem);
         var $btnText = $('.reply, .loading', $threadAction);
         $btnText.toggle();
 
         var def = $.Deferred();
         postNoteEnabled = false;
-        requests.post(urls.api.url('notes', [threadId]), data).done(function(data) {
+        var postUrl = isCreateThread ? urls.api.url('threads') : urls.api.url('notes', [threadId]);
+        requests.post(postUrl, data).done(function(data) {
             var $threadElem = $threadItem.find('.thread-header');
 
             // Add a new note element.
@@ -31,7 +41,7 @@ define('views/comm',
             var count = $noteCount.data('count') + 1;
             $noteCount.html(ngettext('{n} note', '{n} notes', {n: count}))
                       .data('count', count);
-            $threadElem.siblings('.notes-container').prepend(noteMarkup);
+            $threadItem.find('.notes-container').prepend(noteMarkup).find('.empty').remove();
 
             // Close the reply box.
             $threadElem.find('.reply-box').addClass('hidden');
@@ -60,6 +70,7 @@ define('views/comm',
     };
 
     z.page.on('click', '.reply.button.open-reply', function(e) {
+        // Open reply box.
         var $this = $(this);
         $this.closest('.thread-header').find('.reply-box').removeClass('hidden');
         $this.removeClass('open-reply')
@@ -68,6 +79,7 @@ define('views/comm',
              .html(gettext('Cancel reply'));
 
     }).on('click', '.reply.button.close-reply', function(e) {
+        // Close/hide reply box.
         var $this = $(this);
         $this.closest('.thread-header').find('.reply-box').addClass('hidden').find('textarea').val('');
         $this.removeClass('close-reply')
@@ -76,13 +88,25 @@ define('views/comm',
              .html(gettext('Reply'));
 
     }).on('keyup', '.reply-text', function(e) {
+        // Disable post button if empty note body.
         var $this = $(this);
         $this.siblings('button.post').toggleClass('disabled', !$this.val().length);
 
-    }).on('click', 'button.post', function(e) {
+    }).on('click', 'button.post:not(.create-thread)', function(e) {
+        // Post the note.
+        var $this = $(this);
+        var replyBox = $this.closest('.thread-header').find('.reply-box').addClass('hidden');
+        if (postNoteEnabled) {
+            postNote($this.siblings('.reply-text')).done(function() {
+                replyBox.val('');
+            });
+        }
+
+    }).on('click', 'button.post.create-thread', function(e) {
+        // Create thread (i.e. posting to a thread with 0 notes.).
         var replyBox = $(this).closest('.thread-header').find('.reply-box').addClass('hidden');
         if (postNoteEnabled) {
-            postNote($(this).siblings('.reply-text')).done(function() {
+            postNote($(this).siblings('.reply-text'), true).done(function() {
                 replyBox.val('');
             });
         }
@@ -129,6 +153,7 @@ define('views/comm',
         });
 
     }).on('click', '.view-older-notes', function(e) {
+        // Fetch next page of notes.
         var $this = $(this);
         var $threadItem = $this.closest('.thread-item');
         var threadId = $threadItem.data('thread-id');
@@ -189,6 +214,7 @@ define('views/comm',
         });
 
     }).on('click', '.mark-thread-read', function(e) {
+        // Mark all notes read.
         var $this = $(this);
         var $threadItem = $this.closest('.thread-item');
         var threadId = $threadItem.data('thread-id');
