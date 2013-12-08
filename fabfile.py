@@ -25,7 +25,7 @@ def pre_update(ref):
 def update():
     with lcd(COMMBADGE):
         local('npm install')
-        local('npm install -g commonplace')
+        local('npm install --force commonplace@0.2.2')
         local('commonplace includes')
 
 
