@@ -1,5 +1,6 @@
 {% macro thread(t) %}
-  <div class="thread-item" data-notes-page="{{ notes_page }}" data-notes-filter="{{ notes_filter }}" data-thread-id="{{ t.id }}">
+  <div class="thread-item"
+       data-notes-page="1" data-notes-filter="recent" data-thread-id="{{ t.id }}">
     <section class="thread-header">
       <div class="c">
         <div class="thread-meta">
