@@ -21,7 +21,10 @@
           {% endif %}
         </div>
         <div class="thread-action">
-          <button class="button alt reply open-reply">{{ _('Reply') }}</button>
+          <button class="button alt reply open-reply">
+            <span class="reply">{{ _('Reply') }}</span>
+            <div class="loading hidden"><div class="spinner alt"></div></div>
+          </button>
         </div>
       </div>
       <div class="reply-box c hidden">
