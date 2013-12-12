@@ -201,6 +201,6 @@ define('views/comm',
     });
 
     return function(builder) {
-        builder.start('comm/main.html', {notes_page: 1, notes_filter: 'recent'});
+        builder.start('comm/main.html');
     };
 });
