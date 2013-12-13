@@ -15,6 +15,10 @@ define('views/comm',
             body: $text_elem.val()
         };
 
+        var $threadAction = $('.thread-action .button', $threadItem)
+        var $btnText = $('.reply, .loading', $threadAction);
+        $btnText.toggle();
+
         var def = $.Deferred();
         postNoteEnabled = false;
         requests.post(urls.api.url('notes', [threadId]), data).done(function(data) {
@@ -34,7 +38,9 @@ define('views/comm',
             $threadElem.find('.reply.button.close-reply')
                        .removeClass('close-reply')
                        .addClass('open-reply')
+                       .find('.reply')
                        .html(gettext('Reply'));
+            $btnText.toggle();
 
             $text_elem.siblings('button.post').addClass('disabled');
             $text_elem.val('');
@@ -58,6 +64,7 @@ define('views/comm',
         $this.closest('.thread-header').find('.reply-box').removeClass('hidden');
         $this.removeClass('open-reply')
              .addClass('close-reply')
+             .find('.reply')
              .html(gettext('Cancel reply'));
 
     }).on('click', '.reply.button.close-reply', function(e) {
@@ -65,6 +72,7 @@ define('views/comm',
         $this.closest('.thread-header').find('.reply-box').addClass('hidden').find('textarea').val('');
         $this.removeClass('close-reply')
              .addClass('open-reply')
+             .find('.reply')
              .html(gettext('Reply'));
 
     }).on('keyup', '.reply-text', function(e) {
