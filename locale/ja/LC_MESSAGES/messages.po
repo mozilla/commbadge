@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-12-18T17:32:30.109Z\n"
-"PO-Revision-Date: 2013-11-22 20:15-0500\n"
+"PO-Revision-Date: 2013-12-18 15:29-0500\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -27,7 +27,7 @@ msgstr "サポート"
 
 #: /templates/footer.html:10
 msgid "My Submissions"
-msgstr "自分の掲載依頼"
+msgstr "自分の登録アプリ"
 
 #: /templates/footer.html:13
 msgid "Reviewer Tools"
@@ -42,8 +42,8 @@ msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
 "Alike License v3.0</a> or any later version."
 msgstr ""
-"<a href=\"{legal_url}\" target=\"_blank\">特段の記載</a> がない限り、当サイト上のコンテンツは <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> または"
-"それ以降のバージョンで公開されています。"
+"特に <a href=\"{legal_url}\" target=\"_blank\">記載</a> のない限り、当サイト上のコンテンツは <a href=\"{cc_url}\" target=\"_blank\">Creative Commons 表示 - 継承 ライセンス v3.0</a> もしくはそれ以降の"
+"バージョンで公開されています。"
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
@@ -55,7 +55,7 @@ msgstr "利用規約"
 
 #: /templates/footer.html:32
 msgid "Report Trademark Abuse"
-msgstr "商標不正使用の報告"
+msgstr "商標不正使用報告"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
@@ -95,31 +95,31 @@ msgstr "ログイン / ユーザ登録"
 
 #: /templates/comm/app_dashboard.html:5
 msgid "App icon"
-msgstr ""
+msgstr "アプリのアイコン"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "Viewing All Threads for {app_name}"
-msgstr ""
+msgstr "{app_name} のすべてのスレッドを表示しています"
 
 #: /templates/comm/app_dashboard.html:7 /templates/comm/app_dashboard.html:10
 msgid "Back to my threads"
-msgstr ""
+msgstr "自分のスレッドへ戻る"
 
 #: /templates/comm/app_dashboard.html:9
 msgid "App Not Found"
-msgstr ""
+msgstr "アプリが見つかりませんでした"
 
 #: /templates/comm/app_dashboard.html:24
 msgid "This app does not have any threads yet."
-msgstr ""
+msgstr "このアプリにはまだスレッドが付いていません。"
 
 #: /templates/comm/app_dashboard.html:30
 msgid "Error loading threads"
-msgstr ""
+msgstr "スレッドの読み込み中に問題が発生しました"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
-msgstr ""
+msgstr "自分のスレッド"
 
 #: /templates/comm/main.html:13
 msgid "You have no threads."
@@ -127,7 +127,7 @@ msgstr "スレッドがありません。"
 
 #: /templates/comm/no_notes.html:1
 msgid "No notes found"
-msgstr ""
+msgstr "ノートがが見つかりませんでした"
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
@@ -135,24 +135,24 @@ msgstr "この記事を既読にする"
 
 #: /templates/comm/note_detail.html:15
 msgid "Empty note"
-msgstr ""
+msgstr "空白のノート"
 
 #: /templates/comm/show_thread.html:6
 msgid "Viewing Thread for {app_name}"
-msgstr ""
+msgstr "{app_name} のスレッドを表示しています"
 
 #: /templates/comm/show_thread.html:9
 msgid "Back to all threads for {app_name}"
-msgstr ""
+msgstr "{app_name} のすべてのスレッドへ戻る"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Threads"
-msgstr ""
+msgstr "このアプリのスレッド"
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
-msgstr ""
+msgstr "v.{version_number}"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -176,11 +176,11 @@ msgstr "再読み込み"
 
 #: /templates/_macros/thread.html:9
 msgid "{app_name} (Version {version_number})"
-msgstr ""
+msgstr "{app_name} (バージョン {version_number})"
 
 #: /templates/_macros/thread.html:12
 msgid "(Obsolete)"
-msgstr ""
+msgstr "(旧バージョン)"
 
 #: /templates/_macros/thread.html:17 /media/js/views/comm.js:32
 msgid "{n} note"
@@ -241,42 +241,42 @@ msgstr "Persona のログインに失敗しました。サーバエラーが発�
 
 #: /media/js/main.js:55
 msgid "Message"
-msgstr ""
+msgstr "メッセージ"
 
 #: /media/js/main.js:56
 msgid "App approved"
-msgstr ""
+msgstr "アプリは承認されました"
 
 #: /media/js/main.js:57
 msgid "App rejected"
-msgstr ""
+msgstr "アプリは却下されました"
 
 #: /media/js/main.js:58
 msgid "App disabled"
-msgstr ""
+msgstr "アプリは無効化されました"
 
 #: /media/js/main.js:59
 msgid "More info required"
-msgstr ""
+msgstr "詳しい情報が必要です"
 
 #: /media/js/main.js:60
 msgid "Review escalated to senior reviewer"
-msgstr ""
+msgstr "レビューが上級担当者へ回されました"
 
 #: /media/js/main.js:61
 msgid "Reviewer comment"
-msgstr ""
+msgstr "レビュー担当者のコメント"
 
 #: /media/js/navigation.js:31
 msgid "No internet connection"
-msgstr "インターネット未接続"
+msgstr "インターネットに接続されていません"
 
 #. {n} is the number of characters left.
 #: /media/js/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
-msgstr[0] "残り <b>{n}</b> 文字"
-msgstr[1] "残り <b>{n}</b> 文字"
+msgstr[0] "残り <b>{n}</b> 文字です。"
+msgstr[1] "残り <b>{n}</b> 文字です。"
 
 #: /media/js/views/comm.js:49
 msgid "Message sent."
