@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-27T15:59:57.817Z\n"
+"POT-Creation-Date: 2013-12-18T17:32:30.109Z\n"
 "PO-Revision-Date: 2013-11-13 23:32+0400\n"
 "Last-Translator: Alexander L. Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: none\n"
@@ -12,18 +12,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Poedit 1.5.7\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Закрыть"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Нет"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Да"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -81,6 +69,18 @@ msgstr "Выйти"
 msgid "Sign In"
 msgstr "Войти"
 
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Закрыть"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Нет"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Да"
+
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "Войти"
@@ -93,56 +93,66 @@ msgstr "Вы должны войти для продолжения."
 msgid "Sign in / Sign up"
 msgstr "Вход / Регистрация"
 
-#: /templates/_macros/thread.html:12 /media/js/views/comm.js:28
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} заметка"
-msgstr[1] "{n} заметки"
-msgstr[2] "{n} заметок"
+#: /templates/comm/app_dashboard.html:5
+msgid "App icon"
+msgstr ""
 
-#: /templates/_macros/thread.html:15
-msgid "Review page"
-msgstr "Рецензировать страницу"
+#: /templates/comm/app_dashboard.html:6
+msgid "Viewing All Threads for {app_name}"
+msgstr ""
 
-#: /templates/_macros/thread.html:19 /media/js/views/comm.js:37 /media/js/views/comm.js:68
-msgid "Reply"
-msgstr "Ответить"
+#: /templates/comm/app_dashboard.html:7 /templates/comm/app_dashboard.html:10
+msgid "Back to my threads"
+msgstr ""
 
-#: /templates/_macros/thread.html:23
-msgid "Enter note text here"
-msgstr "Введите здесь текст заметки"
+#: /templates/comm/app_dashboard.html:9
+msgid "App Not Found"
+msgstr ""
 
-#: /templates/_macros/thread.html:24
-msgid "Post"
-msgstr "Разместить"
+#: /templates/comm/app_dashboard.html:24
+msgid "This app does not have any threads yet."
+msgstr ""
 
-#: /templates/_macros/thread.html:29
-msgid "Recent"
-msgstr "Недавние"
+#: /templates/comm/app_dashboard.html:30
+msgid "Error loading threads"
+msgstr ""
 
-#: /templates/_macros/thread.html:32
-msgid "Unread"
-msgstr "Непрочитанные"
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr ""
 
-#: /templates/_macros/thread.html:35
-msgid "Read"
-msgstr "Прочитанные"
-
-#: /templates/_macros/thread.html:38
-msgid "Mark All Read"
-msgstr "Пометить все как прочитанные"
-
-#: /templates/_macros/thread.html:50
-msgid "View older"
-msgstr "Показать старые"
-
-#: /templates/comm/main.html:9
+#: /templates/comm/main.html:13
 msgid "You have no threads."
 msgstr "У вас нет веток."
+
+#: /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr ""
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
 msgstr "Пометить эту заметку как прочитанную"
+
+#: /templates/comm/note_detail.html:15
+msgid "Empty note"
+msgstr ""
+
+#: /templates/comm/show_thread.html:6
+msgid "Viewing Thread for {app_name}"
+msgstr ""
+
+#: /templates/comm/show_thread.html:9
+msgid "Back to all threads for {app_name}"
+msgstr ""
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Threads"
+msgstr ""
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr ""
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -164,6 +174,57 @@ msgstr "Ошибка загрузки большего"
 msgid "Try Again"
 msgstr "Попробовать снова"
 
+#: /templates/_macros/thread.html:9
+msgid "{app_name} (Version {version_number})"
+msgstr ""
+
+#: /templates/_macros/thread.html:12
+msgid "(Obsolete)"
+msgstr ""
+
+#: /templates/_macros/thread.html:17 /media/js/views/comm.js:32
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} заметка"
+msgstr[1] "{n} заметки"
+msgstr[2] "{n} заметок"
+
+#: /templates/_macros/thread.html:20
+msgid "Review page"
+msgstr "Рецензировать страницу"
+
+#: /templates/_macros/thread.html:25 /media/js/views/comm.js:42 /media/js/views/comm.js:76
+msgid "Reply"
+msgstr "Ответить"
+
+#: /templates/_macros/thread.html:31
+msgid "Enter note text here"
+msgstr "Введите здесь текст заметки"
+
+#: /templates/_macros/thread.html:32
+msgid "Post"
+msgstr "Разместить"
+
+#: /templates/_macros/thread.html:37
+msgid "Recent"
+msgstr "Недавние"
+
+#: /templates/_macros/thread.html:40
+msgid "Unread"
+msgstr "Непрочитанные"
+
+#: /templates/_macros/thread.html:43
+msgid "Read"
+msgstr "Прочитанные"
+
+#: /templates/_macros/thread.html:46
+msgid "Mark All Read"
+msgstr "Пометить все как прочитанные"
+
+#: /templates/_macros/thread.html:58
+msgid "View older"
+msgstr "Показать старые"
+
 #: /media/js/login.js:8
 msgid "You have been signed out"
 msgstr "Вы вышли из системы"
@@ -180,6 +241,34 @@ msgstr "Ошибка входа через Persona. Возможно у вас �
 msgid "Persona login failed. A server error was encountered."
 msgstr "Ошибка входа через Persona. Произошла ошибка сервера."
 
+#: /media/js/main.js:55
+msgid "Message"
+msgstr ""
+
+#: /media/js/main.js:56
+msgid "App approved"
+msgstr ""
+
+#: /media/js/main.js:57
+msgid "App rejected"
+msgstr ""
+
+#: /media/js/main.js:58
+msgid "App disabled"
+msgstr ""
+
+#: /media/js/main.js:59
+msgid "More info required"
+msgstr ""
+
+#: /media/js/main.js:60
+msgid "Review escalated to senior reviewer"
+msgstr ""
+
+#: /media/js/main.js:61
+msgid "Reviewer comment"
+msgstr ""
+
 #: /media/js/navigation.js:31
 msgid "No internet connection"
 msgstr "Нет подключения к Интернету"
@@ -192,31 +281,31 @@ msgstr[0] "остался <b>{n}</b> символ."
 msgstr[1] "осталось <b>{n}</b> символа."
 msgstr[2] "осталось <b>{n}</b> символов."
 
-#: /media/js/views/comm.js:43
+#: /media/js/views/comm.js:49
 msgid "Message sent."
 msgstr "Сообщение отправлено."
 
-#: /media/js/views/comm.js:48
+#: /media/js/views/comm.js:54
 msgid "Message sending failed."
 msgstr "Не удалось отправить сообщение."
 
-#: /media/js/views/comm.js:61
+#: /media/js/views/comm.js:68
 msgid "Cancel reply"
 msgstr "Отменить ответ"
 
-#: /media/js/views/comm.js:118 /media/js/views/comm.js:192
-msgid "No notes to show."
-msgstr "Не заметок для показа."
-
-#: /media/js/views/comm.js:132
+#: /media/js/views/comm.js:140
 msgid "There are no more older notes."
 msgstr "Более старых заметок не имеется."
 
-#: /media/js/views/comm.js:180
+#: /media/js/views/comm.js:188
 msgid "There was some problem marking the note as read. Try again."
 msgstr "При пометке заметки как прочтённой возникла проблема. Попробуйте снова."
 
-#: /media/js/views/comm.js:199
+#: /media/js/views/comm.js:200
+msgid "No notes to show."
+msgstr "Не заметок для показа."
+
+#: /media/js/views/comm.js:207
 msgid "There was some problem marking the thread as read. Try again."
 msgstr "При пометке ветки как прочтённой возникла проблема. Попробуйте снова."
 

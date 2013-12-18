@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-27T15:59:57.817Z\n"
+"POT-Creation-Date: 2013-12-18T17:32:30.109Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,18 +12,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Fireplace L10n Tools 1.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr ""
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr ""
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr ""
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -79,6 +67,18 @@ msgstr ""
 msgid "Sign In"
 msgstr ""
 
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr ""
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr ""
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr ""
+
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr ""
@@ -91,54 +91,65 @@ msgstr ""
 msgid "Sign in / Sign up"
 msgstr ""
 
-#: /templates/_macros/thread.html:12 /media/js/views/comm.js:28
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] ""
-msgstr[1] ""
-
-#: /templates/_macros/thread.html:15
-msgid "Review page"
+#: /templates/comm/app_dashboard.html:5
+msgid "App icon"
 msgstr ""
 
-#: /templates/_macros/thread.html:19 /media/js/views/comm.js:37 /media/js/views/comm.js:68
-msgid "Reply"
+#: /templates/comm/app_dashboard.html:6
+msgid "Viewing All Threads for {app_name}"
 msgstr ""
 
-#: /templates/_macros/thread.html:23
-msgid "Enter note text here"
+#: /templates/comm/app_dashboard.html:7 /templates/comm/app_dashboard.html:10
+msgid "Back to my threads"
 msgstr ""
 
-#: /templates/_macros/thread.html:24
-msgid "Post"
+#: /templates/comm/app_dashboard.html:9
+msgid "App Not Found"
 msgstr ""
 
-#: /templates/_macros/thread.html:29
-msgid "Recent"
+#: /templates/comm/app_dashboard.html:24
+msgid "This app does not have any threads yet."
 msgstr ""
 
-#: /templates/_macros/thread.html:32
-msgid "Unread"
+#: /templates/comm/app_dashboard.html:30
+msgid "Error loading threads"
 msgstr ""
 
-#: /templates/_macros/thread.html:35
-msgid "Read"
+#: /templates/comm/main.html:3
+msgid "My Threads"
 msgstr ""
 
-#: /templates/_macros/thread.html:38
-msgid "Mark All Read"
-msgstr ""
-
-#: /templates/_macros/thread.html:50
-msgid "View older"
-msgstr ""
-
-#: /templates/comm/main.html:9
+#: /templates/comm/main.html:13
 msgid "You have no threads."
+msgstr ""
+
+#: /templates/comm/no_notes.html:1
+msgid "No notes found"
 msgstr ""
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
+msgstr ""
+
+#: /templates/comm/note_detail.html:15
+msgid "Empty note"
+msgstr ""
+
+#: /templates/comm/show_thread.html:6
+msgid "Viewing Thread for {app_name}"
+msgstr ""
+
+#: /templates/comm/show_thread.html:9
+msgid "Back to all threads for {app_name}"
+msgstr ""
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Threads"
+msgstr ""
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
 msgstr ""
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
@@ -161,6 +172,56 @@ msgstr ""
 msgid "Try Again"
 msgstr ""
 
+#: /templates/_macros/thread.html:9
+msgid "{app_name} (Version {version_number})"
+msgstr ""
+
+#: /templates/_macros/thread.html:12
+msgid "(Obsolete)"
+msgstr ""
+
+#: /templates/_macros/thread.html:17 /media/js/views/comm.js:32
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /templates/_macros/thread.html:20
+msgid "Review page"
+msgstr ""
+
+#: /templates/_macros/thread.html:25 /media/js/views/comm.js:42 /media/js/views/comm.js:76
+msgid "Reply"
+msgstr ""
+
+#: /templates/_macros/thread.html:31
+msgid "Enter note text here"
+msgstr ""
+
+#: /templates/_macros/thread.html:32
+msgid "Post"
+msgstr ""
+
+#: /templates/_macros/thread.html:37
+msgid "Recent"
+msgstr ""
+
+#: /templates/_macros/thread.html:40
+msgid "Unread"
+msgstr ""
+
+#: /templates/_macros/thread.html:43
+msgid "Read"
+msgstr ""
+
+#: /templates/_macros/thread.html:46
+msgid "Mark All Read"
+msgstr ""
+
+#: /templates/_macros/thread.html:58
+msgid "View older"
+msgstr ""
+
 #: /media/js/login.js:8
 msgid "You have been signed out"
 msgstr ""
@@ -177,6 +238,34 @@ msgstr ""
 msgid "Persona login failed. A server error was encountered."
 msgstr ""
 
+#: /media/js/main.js:55
+msgid "Message"
+msgstr ""
+
+#: /media/js/main.js:56
+msgid "App approved"
+msgstr ""
+
+#: /media/js/main.js:57
+msgid "App rejected"
+msgstr ""
+
+#: /media/js/main.js:58
+msgid "App disabled"
+msgstr ""
+
+#: /media/js/main.js:59
+msgid "More info required"
+msgstr ""
+
+#: /media/js/main.js:60
+msgid "Review escalated to senior reviewer"
+msgstr ""
+
+#: /media/js/main.js:61
+msgid "Reviewer comment"
+msgstr ""
+
 #: /media/js/navigation.js:31
 msgid "No internet connection"
 msgstr ""
@@ -188,31 +277,31 @@ msgid_plural "<b>{n}</b> characters left."
 msgstr[0] ""
 msgstr[1] ""
 
-#: /media/js/views/comm.js:43
+#: /media/js/views/comm.js:49
 msgid "Message sent."
 msgstr ""
 
-#: /media/js/views/comm.js:48
+#: /media/js/views/comm.js:54
 msgid "Message sending failed."
 msgstr ""
 
-#: /media/js/views/comm.js:61
+#: /media/js/views/comm.js:68
 msgid "Cancel reply"
 msgstr ""
 
-#: /media/js/views/comm.js:118 /media/js/views/comm.js:192
-msgid "No notes to show."
-msgstr ""
-
-#: /media/js/views/comm.js:132
+#: /media/js/views/comm.js:140
 msgid "There are no more older notes."
 msgstr ""
 
-#: /media/js/views/comm.js:180
+#: /media/js/views/comm.js:188
 msgid "There was some problem marking the note as read. Try again."
 msgstr ""
 
-#: /media/js/views/comm.js:199
+#: /media/js/views/comm.js:200
+msgid "No notes to show."
+msgstr ""
+
+#: /media/js/views/comm.js:207
 msgid "There was some problem marking the thread as read. Try again."
 msgstr ""
 
