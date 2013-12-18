@@ -1,101 +1,109 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-27T15:59:57.817Z\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2013-10-19 23:50+0000\n"
+"Last-Translator: Michael <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: gd\n"
 "MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);Content-Type: text/plain; charset=UTF-8\n"
-"X-Generator: Fireplace L10n Tools 1.0\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n < 20) ? 0 : (n%10==2 && n < "
+"20) ? 1 : (n==10 || (n%10 > 2 && n < 20)) ? 2 : 3;\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1382226614.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
-msgstr ""
+msgstr "Dùin"
 
 #: /templates/confirmation.html:3
 msgid "No"
-msgstr ""
+msgstr "Chan eil"
 
 #: /templates/confirmation.html:4
 msgid "Yes"
-msgstr ""
+msgstr "Tha"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
-msgstr ""
+msgstr "Leasaich aplacaidean"
 
 #: /templates/footer.html:5
 msgid "Developer Hub"
-msgstr ""
+msgstr "Làr-ionad an luchd-leasachaidh"
 
 #: /templates/footer.html:6
 msgid "Support"
-msgstr ""
+msgstr "Taic"
 
 #: /templates/footer.html:10
 msgid "My Submissions"
-msgstr ""
+msgstr "Na thagair mi"
 
 #: /templates/footer.html:13
 msgid "Reviewer Tools"
-msgstr ""
+msgstr "Innealan luchd-lèirmheasaidh"
 
 #: /templates/footer.html:16
 msgid "Lookup Tool"
-msgstr ""
+msgstr "An t-inneal luirg"
 
 #: /templates/footer.html:24
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
 "Alike License v3.0</a> or any later version."
 msgstr ""
+"Mur eil an caochladh 'ga innse <a href=\"{legal_url}\" "
+"target=\"_blank\">noted</a>, tha an t-susbaint air an làrach seo fo <a "
+"href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike "
+"License v3.0</a> no tionndadh sam bith nas ùire."
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Am poileasaidh prìobhaideachd"
 
 #: /templates/footer.html:30
 msgid "Terms of Use"
-msgstr ""
+msgstr "Teirmichean a' chleachdaidh"
 
 #: /templates/footer.html:32
 msgid "Report Trademark Abuse"
-msgstr ""
+msgstr "Dèan aithris air mì-chleachdadh comarra-malairt"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
-msgstr ""
+msgstr "Deas-bhòrd a' chonaltraidh"
 
 #: /templates/header.html:7
 msgid "Sign Out"
-msgstr ""
+msgstr "Clàraich a-mach"
 
 #: /templates/header.html:8
 msgid "Sign In"
-msgstr ""
+msgstr "Clàraich a-steach"
 
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
-msgstr ""
+msgstr "Clàraich a-steach"
 
 #: /templates/login.html:3
 msgid "You must sign in to proceed."
-msgstr ""
+msgstr "Feumaidh tu clàradh a-steach mus urrainn dhut leantainn air adhart."
 
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
-msgstr ""
+msgstr "Clàraich a-steach/Clàraich leinn"
 
 #: /templates/_macros/thread.html:12 /media/js/views/comm.js:28
 msgid "{n} note"
 msgid_plural "{n} notes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{0} nòta"
+msgstr[1] "{0} nòta"
+msgstr[2] "{0} nòtaichean"
+msgstr[3] "{0} nòta"
 
 #: /templates/_macros/thread.html:15
 msgid "Review page"
@@ -103,120 +111,132 @@ msgstr ""
 
 #: /templates/_macros/thread.html:19 /media/js/views/comm.js:37 /media/js/views/comm.js:68
 msgid "Reply"
-msgstr ""
+msgstr "Freagair"
 
 #: /templates/_macros/thread.html:23
 msgid "Enter note text here"
-msgstr ""
+msgstr "Cuir a-steach teacsa an nòta an-seo"
 
 #: /templates/_macros/thread.html:24
 msgid "Post"
-msgstr ""
+msgstr "Cuir"
 
 #: /templates/_macros/thread.html:29
 msgid "Recent"
-msgstr ""
+msgstr "O chionn goirid"
 
 #: /templates/_macros/thread.html:32
 msgid "Unread"
-msgstr ""
+msgstr "Gun leughadh"
 
 #: /templates/_macros/thread.html:35
 msgid "Read"
-msgstr ""
+msgstr "Air a leughadh"
 
 #: /templates/_macros/thread.html:38
 msgid "Mark All Read"
-msgstr ""
+msgstr "Cuir comharra gun deach iad uile a leughadh"
 
 #: /templates/_macros/thread.html:50
 msgid "View older"
-msgstr ""
+msgstr "Seall an fheadhainn nas sine"
 
 #: /templates/comm/main.html:9
 msgid "You have no threads."
-msgstr ""
+msgstr "Chan eil snàithlean sam bith agad."
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
-msgstr ""
+msgstr "Cuir comharra gun deach an nòta seo a leughadh"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
-msgstr ""
+msgstr "Mo chreach!"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
-msgstr ""
+msgstr "Cha b' urrainn dhuinn an duilleag a bha a dhìth ort a lorg."
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
-msgstr ""
+msgstr "Thachair mearachd."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr ""
+"Thachair mearachd fhad 's a dh'fheuch sinn ri barrachd fiosrachaidh a "
+"luchdadh"
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
-msgstr ""
+msgstr "Feuch ris a-rithist"
 
 #: /media/js/login.js:8
 msgid "You have been signed out"
-msgstr ""
+msgstr "Chaidh do chlàradh a-mach"
 
 #: /media/js/login.js:12
 msgid "You have been signed in"
-msgstr ""
+msgstr "Chaidh do chlàradh a-steach"
 
 #: /media/js/login.js:127
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr ""
+"Dh'fhàillig clàradh a-steach Persona. Saoil a bheil cunntas agad ann leis an "
+"t-seòladh phuist-d seo?"
 
 #: /media/js/login.js:132
 msgid "Persona login failed. A server error was encountered."
 msgstr ""
+"Dh'fhàillig clàradh a-steach Persona. Thachair mearachd leis an "
+"fhrithealaiche."
 
 #: /media/js/navigation.js:31
 msgid "No internet connection"
-msgstr ""
+msgstr "Chan eil ceangal ris an eadar-lìon"
 
 #. {n} is the number of characters left.
 #: /media/js/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "<b>{n}</b> charactar air fhàgail."
+msgstr[1] "<b>{n}</b> charactar air fhàgail."
+msgstr[2] "<b>{n}</b> caractaran air fhàgail."
+msgstr[3] "<b>{n}</b> caractar air fhàgail."
 
 #: /media/js/views/comm.js:43
 msgid "Message sent."
-msgstr ""
+msgstr "Chaidh an teachdaireachd a chur."
 
 #: /media/js/views/comm.js:48
 msgid "Message sending failed."
-msgstr ""
+msgstr "Dh'fhàillig cur na teachdaireachd."
 
 #: /media/js/views/comm.js:61
 msgid "Cancel reply"
-msgstr ""
+msgstr "Sguir dhen fhreagairt"
 
 #: /media/js/views/comm.js:118 /media/js/views/comm.js:192
 msgid "No notes to show."
-msgstr ""
+msgstr "Chan eil nòta ann a ghabhas a shealltainn."
 
 #: /media/js/views/comm.js:132
 msgid "There are no more older notes."
-msgstr ""
+msgstr "Chan eil barrachd nòtaichean nas sine ann."
 
 #: /media/js/views/comm.js:180
 msgid "There was some problem marking the note as read. Try again."
 msgstr ""
+"Cha b' urrainn dhuinn comharradh gun deach an nòta a leughadh. Nach fheuch "
+"thu ris a-rithist?"
 
 #: /media/js/views/comm.js:199
 msgid "There was some problem marking the thread as read. Try again."
 msgstr ""
+"Cha b' urrainn dhuinn comharradh gun deach an snàithlean a leughadh. Nach "
+"fheuch thu ris a-rithist?"
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9
 msgid "Not Found"
-msgstr ""
+msgstr "Cha deach a lorg"
