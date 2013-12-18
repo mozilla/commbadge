@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: AMO Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-12-18T17:32:30.109Z\n"
-"PO-Revision-Date: 2013-11-13 07:51+0000\n"
+"PO-Revision-Date: 2013-12-18 17:43+0000\n"
 "Last-Translator: Michael <michael.koehler1@gmx.de>\n"
 "Language-Team: German (de) <coce@nurfuerspam.de>\n"
 "Language: de\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1384329062.0\n"
+"X-POOTLE-MTIME: 1387388624.0\n"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -96,31 +96,31 @@ msgstr "Anmelden / Registrieren"
 
 #: /templates/comm/app_dashboard.html:5
 msgid "App icon"
-msgstr ""
+msgstr "App-Symbol"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "Viewing All Threads for {app_name}"
-msgstr ""
+msgstr "Alle Themen für {app_name} werden angezeigt"
 
 #: /templates/comm/app_dashboard.html:7 /templates/comm/app_dashboard.html:10
 msgid "Back to my threads"
-msgstr ""
+msgstr "Zurück zu meinen Themen"
 
 #: /templates/comm/app_dashboard.html:9
 msgid "App Not Found"
-msgstr ""
+msgstr "App nicht gefunden"
 
 #: /templates/comm/app_dashboard.html:24
 msgid "This app does not have any threads yet."
-msgstr ""
+msgstr "Diese App hat noch keine Themen."
 
 #: /templates/comm/app_dashboard.html:30
 msgid "Error loading threads"
-msgstr ""
+msgstr "Fehler beim Laden der Themen"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
-msgstr ""
+msgstr "Meine Themen"
 
 #: /templates/comm/main.html:13
 msgid "You have no threads."
@@ -128,7 +128,7 @@ msgstr "Sie haben keine Themen."
 
 #: /templates/comm/no_notes.html:1
 msgid "No notes found"
-msgstr ""
+msgstr "Keine Notizen gefunden"
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
@@ -136,24 +136,24 @@ msgstr "Diese Notiz als gelesen markieren"
 
 #: /templates/comm/note_detail.html:15
 msgid "Empty note"
-msgstr ""
+msgstr "Leere Notiz"
 
 #: /templates/comm/show_thread.html:6
 msgid "Viewing Thread for {app_name}"
-msgstr ""
+msgstr "Thema für {app_name} wird angezeigt"
 
 #: /templates/comm/show_thread.html:9
 msgid "Back to all threads for {app_name}"
-msgstr ""
+msgstr "Zurück zu allen Themen für {app_name}"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Threads"
-msgstr ""
+msgstr "Themen für diese App"
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
-msgstr ""
+msgstr "v {version_number}"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -177,11 +177,11 @@ msgstr "Versuchen Sie es erneut"
 
 #: /templates/_macros/thread.html:9
 msgid "{app_name} (Version {version_number})"
-msgstr ""
+msgstr "{app_name} (Version {version_number})"
 
 #: /templates/_macros/thread.html:12
 msgid "(Obsolete)"
-msgstr ""
+msgstr "(Veraltet)"
 
 #: /templates/_macros/thread.html:17 /media/js/views/comm.js:32
 msgid "{n} note"
@@ -243,31 +243,31 @@ msgstr "Persona-Anmeldung fehlgeschlagen. Es ist ein Server-Fehler aufgetreten."
 
 #: /media/js/main.js:55
 msgid "Message"
-msgstr ""
+msgstr "Nachricht"
 
 #: /media/js/main.js:56
 msgid "App approved"
-msgstr ""
+msgstr "App freigeschaltet"
 
 #: /media/js/main.js:57
 msgid "App rejected"
-msgstr ""
+msgstr "App abgelehnt"
 
 #: /media/js/main.js:58
 msgid "App disabled"
-msgstr ""
+msgstr "App deaktiviert"
 
 #: /media/js/main.js:59
 msgid "More info required"
-msgstr ""
+msgstr "Weitere Informationen erforderlich"
 
 #: /media/js/main.js:60
 msgid "Review escalated to senior reviewer"
-msgstr ""
+msgstr "An höherrangigen Überprüfer weitergegeben"
 
 #: /media/js/main.js:61
 msgid "Reviewer comment"
-msgstr ""
+msgstr "Kommentar des Überprüfers"
 
 #: /media/js/navigation.js:31
 msgid "No internet connection"
