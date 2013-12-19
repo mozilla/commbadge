@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-12-18T17:32:30.109Z\n"
-"PO-Revision-Date: 2013-11-13 07:44+0000\n"
+"PO-Revision-Date: 2013-12-19 07:33+0000\n"
 "Last-Translator: Mark <markh@babelzilla.org>\n"
 "Language-Team: none\n"
 "Language: nl\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1384328691.0\n"
+"X-POOTLE-MTIME: 1387438381.0\n"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -96,31 +96,31 @@ msgstr "Aanmelden / registreren"
 
 #: /templates/comm/app_dashboard.html:5
 msgid "App icon"
-msgstr ""
+msgstr "App-pictogram"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "Viewing All Threads for {app_name}"
-msgstr ""
+msgstr "Alle discussies voor {app_name}"
 
 #: /templates/comm/app_dashboard.html:7 /templates/comm/app_dashboard.html:10
 msgid "Back to my threads"
-msgstr ""
+msgstr "Terug naar mijn discussies"
 
 #: /templates/comm/app_dashboard.html:9
 msgid "App Not Found"
-msgstr ""
+msgstr "App niet gevonden"
 
 #: /templates/comm/app_dashboard.html:24
 msgid "This app does not have any threads yet."
-msgstr ""
+msgstr "Deze app heeft nog geen discussies."
 
 #: /templates/comm/app_dashboard.html:30
 msgid "Error loading threads"
-msgstr ""
+msgstr "Fout bij laden discussies"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
-msgstr ""
+msgstr "Mijn discussies"
 
 #: /templates/comm/main.html:13
 msgid "You have no threads."
@@ -128,32 +128,33 @@ msgstr "U hebt geen conversaties."
 
 #: /templates/comm/no_notes.html:1
 msgid "No notes found"
-msgstr ""
+msgstr "Geen opmerkingen gevonden"
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
 msgstr "Deze opmerking markeren als gelezen"
 
+# Empty als werkwoord of als bijvoeglijk naamwoord? Vooralsnog gekozen voor het laatste.
 #: /templates/comm/note_detail.html:15
 msgid "Empty note"
-msgstr ""
+msgstr "Lege opmerking"
 
 #: /templates/comm/show_thread.html:6
 msgid "Viewing Thread for {app_name}"
-msgstr ""
+msgstr "Discussie voor {app_name}"
 
 #: /templates/comm/show_thread.html:9
 msgid "Back to all threads for {app_name}"
-msgstr ""
+msgstr "Terug naar alle discussies voor {app_name}"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Threads"
-msgstr ""
+msgstr "Discussies voor deze app"
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
-msgstr ""
+msgstr "v.{version_number}"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -177,11 +178,11 @@ msgstr "Opnieuw proberen"
 
 #: /templates/_macros/thread.html:9
 msgid "{app_name} (Version {version_number})"
-msgstr ""
+msgstr "{app_name} (versie {version_number})"
 
 #: /templates/_macros/thread.html:12
 msgid "(Obsolete)"
-msgstr ""
+msgstr "(Vervallen)"
 
 #: /templates/_macros/thread.html:17 /media/js/views/comm.js:32
 msgid "{n} note"
@@ -243,31 +244,31 @@ msgstr "Persona-aanmelding mislukt. Er is een serverfout opgetreden."
 
 #: /media/js/main.js:55
 msgid "Message"
-msgstr ""
+msgstr "Bericht"
 
 #: /media/js/main.js:56
 msgid "App approved"
-msgstr ""
+msgstr "App goedgekeurd"
 
 #: /media/js/main.js:57
 msgid "App rejected"
-msgstr ""
+msgstr "App afgewezen"
 
 #: /media/js/main.js:58
 msgid "App disabled"
-msgstr ""
+msgstr "App uitgeschakeld"
 
 #: /media/js/main.js:59
 msgid "More info required"
-msgstr ""
+msgstr "Meer informatie gevraagd"
 
 #: /media/js/main.js:60
 msgid "Review escalated to senior reviewer"
-msgstr ""
+msgstr "Beoordeling geëscaleerd naar seniorbeoordelaar"
 
 #: /media/js/main.js:61
 msgid "Reviewer comment"
-msgstr ""
+msgstr "Opmerking beoordelaar"
 
 #: /media/js/navigation.js:31
 msgid "No internet connection"
