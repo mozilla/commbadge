@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-12-18T17:32:30.109Z\n"
-"PO-Revision-Date: 2013-11-27 16:14+0000\n"
+"PO-Revision-Date: 2013-12-19 02:28+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: MozTW <petercpg@mail.moztw.org>\n"
 "Language: zh_TW\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-POOTLE-MTIME: 1385568851.0\n"
+"X-POOTLE-MTIME: 1387420086.0\n"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -95,31 +95,31 @@ msgstr "登入 / 註冊"
 
 #: /templates/comm/app_dashboard.html:5
 msgid "App icon"
-msgstr ""
+msgstr "應用程式圖示"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "Viewing All Threads for {app_name}"
-msgstr ""
+msgstr "檢視所有 {app_name} 的討論串"
 
 #: /templates/comm/app_dashboard.html:7 /templates/comm/app_dashboard.html:10
 msgid "Back to my threads"
-msgstr ""
+msgstr "回到我的討論串"
 
 #: /templates/comm/app_dashboard.html:9
 msgid "App Not Found"
-msgstr ""
+msgstr "找不到應用程式"
 
 #: /templates/comm/app_dashboard.html:24
 msgid "This app does not have any threads yet."
-msgstr ""
+msgstr "此應用程式還沒有任何討論。"
 
 #: /templates/comm/app_dashboard.html:30
 msgid "Error loading threads"
-msgstr ""
+msgstr "載入討論串時發生錯誤"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
-msgstr ""
+msgstr "我的討論串"
 
 #: /templates/comm/main.html:13
 msgid "You have no threads."
@@ -127,7 +127,7 @@ msgstr "您沒有討論串。"
 
 #: /templates/comm/no_notes.html:1
 msgid "No notes found"
-msgstr ""
+msgstr "找不到筆記"
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
@@ -135,24 +135,24 @@ msgstr "將此筆記標示為已讀"
 
 #: /templates/comm/note_detail.html:15
 msgid "Empty note"
-msgstr ""
+msgstr "空白筆記"
 
 #: /templates/comm/show_thread.html:6
 msgid "Viewing Thread for {app_name}"
-msgstr ""
+msgstr "正在檢視 {app_name} 的討論串"
 
 #: /templates/comm/show_thread.html:9
 msgid "Back to all threads for {app_name}"
-msgstr ""
+msgstr "回到 {app_name} 的所有討論串"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Threads"
-msgstr ""
+msgstr "此應用程式的討論"
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
-msgstr ""
+msgstr "v.{version_number}"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -176,11 +176,11 @@ msgstr "重試"
 
 #: /templates/_macros/thread.html:9
 msgid "{app_name} (Version {version_number})"
-msgstr ""
+msgstr "{app_name} ({version_number} 版)"
 
 #: /templates/_macros/thread.html:12
 msgid "(Obsolete)"
-msgstr ""
+msgstr "（已過時）"
 
 #: /templates/_macros/thread.html:17 /media/js/views/comm.js:32
 msgid "{n} note"
@@ -241,31 +241,31 @@ msgstr "Persona 登入失敗，伺服器發生錯誤。"
 
 #: /media/js/main.js:55
 msgid "Message"
-msgstr ""
+msgstr "訊息"
 
 #: /media/js/main.js:56
 msgid "App approved"
-msgstr ""
+msgstr "應用程式審核通過"
 
 #: /media/js/main.js:57
 msgid "App rejected"
-msgstr ""
+msgstr "應用程式被拒絕"
 
 #: /media/js/main.js:58
 msgid "App disabled"
-msgstr ""
+msgstr "應用程式被停用"
 
 #: /media/js/main.js:59
 msgid "More info required"
-msgstr ""
+msgstr "需要更多資訊"
 
 #: /media/js/main.js:60
 msgid "Review escalated to senior reviewer"
-msgstr ""
+msgstr "已交由資深審核者進行審核"
 
 #: /media/js/main.js:61
 msgid "Reviewer comment"
-msgstr ""
+msgstr "審核者評論"
 
 #: /media/js/navigation.js:31
 msgid "No internet connection"
