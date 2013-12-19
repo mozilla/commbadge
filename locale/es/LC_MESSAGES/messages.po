@@ -96,39 +96,39 @@ msgstr "Identificarse / Registrarse"
 
 #: /templates/comm/app_dashboard.html:5
 msgid "App icon"
-msgstr ""
+msgstr "Icono de aplicación"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "Viewing All Threads for {app_name}"
-msgstr ""
+msgstr "Viendo todas las conversaciones sobre {app_name}"
 
 #: /templates/comm/app_dashboard.html:7 /templates/comm/app_dashboard.html:10
 msgid "Back to my threads"
-msgstr ""
+msgstr "Volver a mis conversaciones"
 
 #: /templates/comm/app_dashboard.html:9
 msgid "App Not Found"
-msgstr ""
+msgstr "No se encontró la aplicación"
 
 #: /templates/comm/app_dashboard.html:24
 msgid "This app does not have any threads yet."
-msgstr ""
+msgstr "Esta aplicación no tiene ninguna conversación aún."
 
 #: /templates/comm/app_dashboard.html:30
 msgid "Error loading threads"
-msgstr ""
+msgstr "Error al cargar conversaciones"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
-msgstr ""
+msgstr "Mis conversaciones"
 
 #: /templates/comm/main.html:13
 msgid "You have no threads."
-msgstr "No tienes ningún hilo."
+msgstr "No tienes ninguna conversación."
 
 #: /templates/comm/no_notes.html:1
 msgid "No notes found"
-msgstr ""
+msgstr "No se encontró ninguna nota"
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
@@ -136,24 +136,24 @@ msgstr "Marcar esta nota como leída"
 
 #: /templates/comm/note_detail.html:15
 msgid "Empty note"
-msgstr ""
+msgstr "Nota vacía"
 
 #: /templates/comm/show_thread.html:6
 msgid "Viewing Thread for {app_name}"
-msgstr ""
+msgstr "Viendo conversación sobre {app_name}"
 
 #: /templates/comm/show_thread.html:9
 msgid "Back to all threads for {app_name}"
-msgstr ""
+msgstr "Volver a todas las conversaciones sobre {app_name}"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Threads"
-msgstr ""
+msgstr "Conversaciones sobre esta aplicación"
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
-msgstr ""
+msgstr "v.{version_number}"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -177,11 +177,11 @@ msgstr "Intentar de nuevo"
 
 #: /templates/_macros/thread.html:9
 msgid "{app_name} (Version {version_number})"
-msgstr ""
+msgstr "{app_name} (Version {version_number})"
 
 #: /templates/_macros/thread.html:12
 msgid "(Obsolete)"
-msgstr ""
+msgstr "(Obsoleta)"
 
 #: /templates/_macros/thread.html:17 /media/js/views/comm.js:32
 msgid "{n} note"
@@ -243,31 +243,31 @@ msgstr "Error en la identificación con Mozilla Persona. Se encontró un error d
 
 #: /media/js/main.js:55
 msgid "Message"
-msgstr ""
+msgstr "Mensaje"
 
 #: /media/js/main.js:56
 msgid "App approved"
-msgstr ""
+msgstr "Aplicación aprobada"
 
 #: /media/js/main.js:57
 msgid "App rejected"
-msgstr ""
+msgstr "Aplicación rechazada"
 
 #: /media/js/main.js:58
 msgid "App disabled"
-msgstr ""
+msgstr "Aplicación deshabilitada"
 
 #: /media/js/main.js:59
 msgid "More info required"
-msgstr ""
+msgstr "Se requiere más info"
 
 #: /media/js/main.js:60
 msgid "Review escalated to senior reviewer"
-msgstr ""
+msgstr "Revisión remitida a un revisor superior"
 
 #: /media/js/main.js:61
 msgid "Reviewer comment"
-msgstr ""
+msgstr "Comentario del revisor"
 
 #: /media/js/navigation.js:31
 msgid "No internet connection"
