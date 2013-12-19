@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-12-18T17:32:30.109Z\n"
-"PO-Revision-Date: 2013-11-13 02:09+0000\n"
-"Last-Translator: Shaohua <shaohua.wen@gmail.com>\n"
+"PO-Revision-Date: 2013-12-19 15:44+0000\n"
+"Last-Translator: Shen <steekid@icloud.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1384308546.0\n"
+"X-POOTLE-MTIME: 1387467850.0\n"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -94,31 +94,31 @@ msgstr "登录/注册"
 
 #: /templates/comm/app_dashboard.html:5
 msgid "App icon"
-msgstr ""
+msgstr "应用图标"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "Viewing All Threads for {app_name}"
-msgstr ""
+msgstr "查看所有 {app_name} 的话题"
 
 #: /templates/comm/app_dashboard.html:7 /templates/comm/app_dashboard.html:10
 msgid "Back to my threads"
-msgstr ""
+msgstr "返回我的话题"
 
 #: /templates/comm/app_dashboard.html:9
 msgid "App Not Found"
-msgstr ""
+msgstr "未找到应用"
 
 #: /templates/comm/app_dashboard.html:24
 msgid "This app does not have any threads yet."
-msgstr ""
+msgstr "这个应用还没有任何讨论话题。"
 
 #: /templates/comm/app_dashboard.html:30
 msgid "Error loading threads"
-msgstr ""
+msgstr "加载话题时发生错误"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
-msgstr ""
+msgstr "我的话题"
 
 #: /templates/comm/main.html:13
 msgid "You have no threads."
@@ -126,7 +126,7 @@ msgstr "您没有话题。"
 
 #: /templates/comm/no_notes.html:1
 msgid "No notes found"
-msgstr ""
+msgstr "找不到笔记"
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
@@ -134,24 +134,24 @@ msgstr "将此笔记标记为已读"
 
 #: /templates/comm/note_detail.html:15
 msgid "Empty note"
-msgstr ""
+msgstr "空笔记"
 
 #: /templates/comm/show_thread.html:6
 msgid "Viewing Thread for {app_name}"
-msgstr ""
+msgstr "查看 {app_name} 的话题"
 
 #: /templates/comm/show_thread.html:9
 msgid "Back to all threads for {app_name}"
-msgstr ""
+msgstr "返回 {app_name} 的话题"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Threads"
-msgstr ""
+msgstr "这个应用的话题"
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
-msgstr ""
+msgstr "v.{version_number}"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -175,11 +175,11 @@ msgstr "重试"
 
 #: /templates/_macros/thread.html:9
 msgid "{app_name} (Version {version_number})"
-msgstr ""
+msgstr "{app_name} (版本号  {version_number})"
 
 #: /templates/_macros/thread.html:12
 msgid "(Obsolete)"
-msgstr ""
+msgstr "（废弃的）"
 
 #: /templates/_macros/thread.html:17 /media/js/views/comm.js:32
 msgid "{n} note"
@@ -240,31 +240,31 @@ msgstr "Persona 登录失败。服务器发生错误。"
 
 #: /media/js/main.js:55
 msgid "Message"
-msgstr ""
+msgstr "消息"
 
 #: /media/js/main.js:56
 msgid "App approved"
-msgstr ""
+msgstr "应用已核准"
 
 #: /media/js/main.js:57
 msgid "App rejected"
-msgstr ""
+msgstr "应用被拒绝"
 
 #: /media/js/main.js:58
 msgid "App disabled"
-msgstr ""
+msgstr "应用被禁用"
 
 #: /media/js/main.js:59
 msgid "More info required"
-msgstr ""
+msgstr "需要更多信息"
 
 #: /media/js/main.js:60
 msgid "Review escalated to senior reviewer"
-msgstr ""
+msgstr "已上交给资深审核者审核"
 
 #: /media/js/main.js:61
 msgid "Reviewer comment"
-msgstr ""
+msgstr "审核者评论"
 
 #: /media/js/navigation.js:31
 msgid "No internet connection"
