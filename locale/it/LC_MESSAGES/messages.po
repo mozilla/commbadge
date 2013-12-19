@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Commbadge\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-12-18T17:32:30.109Z\n"
-"PO-Revision-Date: 2013-11-13 15:50+0000\n"
+"PO-Revision-Date: 2013-12-19 10:12+0000\n"
 "Last-Translator: Sara <sara.todaro@mozillaitalia.org>\n"
 "Language-Team: gialloporpora <gialloporpora@yahoo.it>\n"
 "Language: it\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1384357825.0\n"
+"X-POOTLE-MTIME: 1387447966.0\n"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -97,39 +97,39 @@ msgstr "Accedi o registrati"
 
 #: /templates/comm/app_dashboard.html:5
 msgid "App icon"
-msgstr ""
+msgstr "Icona dell'app"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "Viewing All Threads for {app_name}"
-msgstr ""
+msgstr "Mostra tutte le discussioni riguardanti {app_name}"
 
 #: /templates/comm/app_dashboard.html:7 /templates/comm/app_dashboard.html:10
 msgid "Back to my threads"
-msgstr ""
+msgstr "Ritorna alle mie discussioni"
 
 #: /templates/comm/app_dashboard.html:9
 msgid "App Not Found"
-msgstr ""
+msgstr "App non trovata"
 
 #: /templates/comm/app_dashboard.html:24
 msgid "This app does not have any threads yet."
-msgstr ""
+msgstr "Non esiste ancora alcuna discussione riguardante quest'app."
 
 #: /templates/comm/app_dashboard.html:30
 msgid "Error loading threads"
-msgstr ""
+msgstr "Errore durante il caricamento delle discussioni"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
-msgstr ""
+msgstr "Le mie discussioni"
 
 #: /templates/comm/main.html:13
 msgid "You have no threads."
-msgstr "Nessuna discussione trovata."
+msgstr "Non è stata trovata alcuna nota"
 
 #: /templates/comm/no_notes.html:1
 msgid "No notes found"
-msgstr ""
+msgstr "Non è stata trovata alcuna nota"
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
@@ -137,24 +137,24 @@ msgstr "Marca la nota come letta"
 
 #: /templates/comm/note_detail.html:15
 msgid "Empty note"
-msgstr ""
+msgstr "Nota vuota"
 
 #: /templates/comm/show_thread.html:6
 msgid "Viewing Thread for {app_name}"
-msgstr ""
+msgstr "Visualizzazione delle discussioni riguardanti {app_name}"
 
 #: /templates/comm/show_thread.html:9
 msgid "Back to all threads for {app_name}"
-msgstr ""
+msgstr "Ritorna a tutte le discussioni riguardanti {app_name}"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Threads"
-msgstr ""
+msgstr "Discussioni riguardanti quest'app"
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
-msgstr ""
+msgstr "v.{version_number}"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -178,11 +178,11 @@ msgstr "Riprova"
 
 #: /templates/_macros/thread.html:9
 msgid "{app_name} (Version {version_number})"
-msgstr ""
+msgstr "{app_name} (Versione {version_number})"
 
 #: /templates/_macros/thread.html:12
 msgid "(Obsolete)"
-msgstr ""
+msgstr "(obsoleta)"
 
 #: /templates/_macros/thread.html:17 /media/js/views/comm.js:32
 msgid "{n} note"
@@ -244,31 +244,33 @@ msgstr "Identificazione tramite Persona non riuscita. Si è verificato un errore
 
 #: /media/js/main.js:55
 msgid "Message"
-msgstr ""
+msgstr "Messaggio"
 
 #: /media/js/main.js:56
 msgid "App approved"
-msgstr ""
+msgstr "L'app è stata approvata"
 
 #: /media/js/main.js:57
 msgid "App rejected"
-msgstr ""
+msgstr "L'app è stata rifiutata"
 
 #: /media/js/main.js:58
 msgid "App disabled"
-msgstr ""
+msgstr "L'app è stata disattivata"
 
 #: /media/js/main.js:59
 msgid "More info required"
-msgstr ""
+msgstr "Sono richieste ulteriori informazioni"
 
 #: /media/js/main.js:60
 msgid "Review escalated to senior reviewer"
 msgstr ""
+"La revisione di quest'app è stata messa in escalation e sottoposta alla "
+"supervisione di un revisore senior"
 
 #: /media/js/main.js:61
 msgid "Reviewer comment"
-msgstr ""
+msgstr "Commento del revisore"
 
 #: /media/js/navigation.js:31
 msgid "No internet connection"
