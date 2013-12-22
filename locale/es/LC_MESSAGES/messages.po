@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-12-18T17:32:30.109Z\n"
-"PO-Revision-Date: 2013-10-04 17:42+0000\n"
-"Last-Translator: Inma <inma.barrios@mozilla-hispano.org>\n"
+"PO-Revision-Date: 2013-12-22 20:12+0000\n"
+"Last-Translator: Ricardo <rpmdisguise-otros@yahoo.es>\n"
 "Language-Team: Español (España) <nave@elistas.net>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1380908524.0\n"
+"X-POOTLE-MTIME: 1387743178.0\n"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -96,31 +96,31 @@ msgstr "Identificarse / Registrarse"
 
 #: /templates/comm/app_dashboard.html:5
 msgid "App icon"
-msgstr ""
+msgstr "Icono de aplicación"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "Viewing All Threads for {app_name}"
-msgstr ""
+msgstr "Visualizando todas las conversaciones de {app_name}"
 
 #: /templates/comm/app_dashboard.html:7 /templates/comm/app_dashboard.html:10
 msgid "Back to my threads"
-msgstr ""
+msgstr "Volver a mis temas"
 
 #: /templates/comm/app_dashboard.html:9
 msgid "App Not Found"
-msgstr ""
+msgstr "Aplicación no encontrada"
 
 #: /templates/comm/app_dashboard.html:24
 msgid "This app does not have any threads yet."
-msgstr ""
+msgstr "Esta aplicación no tiene aún ningún tema."
 
 #: /templates/comm/app_dashboard.html:30
 msgid "Error loading threads"
-msgstr ""
+msgstr "Error al cargar los temas"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
-msgstr ""
+msgstr "Mis temas"
 
 #: /templates/comm/main.html:13
 msgid "You have no threads."
@@ -128,7 +128,7 @@ msgstr "No tienes ningún hilo."
 
 #: /templates/comm/no_notes.html:1
 msgid "No notes found"
-msgstr ""
+msgstr "No se encontraron notas"
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
@@ -136,24 +136,24 @@ msgstr "Marcar esta nota como leída"
 
 #: /templates/comm/note_detail.html:15
 msgid "Empty note"
-msgstr ""
+msgstr "Nota vacía"
 
 #: /templates/comm/show_thread.html:6
 msgid "Viewing Thread for {app_name}"
-msgstr ""
+msgstr "Ver temas de {app_name}"
 
 #: /templates/comm/show_thread.html:9
 msgid "Back to all threads for {app_name}"
-msgstr ""
+msgstr "Volver a todos los temas de {app_name}"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Threads"
-msgstr ""
+msgstr "Temas de esta aplicación"
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
-msgstr ""
+msgstr "v.{version_number}"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -177,11 +177,11 @@ msgstr "Intentar de nuevo"
 
 #: /templates/_macros/thread.html:9
 msgid "{app_name} (Version {version_number})"
-msgstr ""
+msgstr "{app_name} (versión {version_number})"
 
 #: /templates/_macros/thread.html:12
 msgid "(Obsolete)"
-msgstr ""
+msgstr "(obsoleto)"
 
 #: /templates/_macros/thread.html:17 /media/js/views/comm.js:32
 msgid "{n} note"
@@ -243,31 +243,31 @@ msgstr "Error en la identificación con Mozilla Persona. Se encontró un error d
 
 #: /media/js/main.js:55
 msgid "Message"
-msgstr ""
+msgstr "Mensaje"
 
 #: /media/js/main.js:56
 msgid "App approved"
-msgstr ""
+msgstr "Aplicación aprobada"
 
 #: /media/js/main.js:57
 msgid "App rejected"
-msgstr ""
+msgstr "Aplicación rechazada"
 
 #: /media/js/main.js:58
 msgid "App disabled"
-msgstr ""
+msgstr "Aplicación desactivada"
 
 #: /media/js/main.js:59
 msgid "More info required"
-msgstr ""
+msgstr "Más información requerida"
 
 #: /media/js/main.js:60
 msgid "Review escalated to senior reviewer"
-msgstr ""
+msgstr "Revisión escalada a revisor senior"
 
 #: /media/js/main.js:61
 msgid "Reviewer comment"
-msgstr ""
+msgstr "Comentario del revisor"
 
 #: /media/js/navigation.js:31
 msgid "No internet connection"
@@ -277,8 +277,8 @@ msgstr "No hay conexión a internet"
 #: /media/js/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
-msgstr[0] "Queda <b>{n}</b> caracter"
-msgstr[1] "Quedan <b>{n}</b> caracteres"
+msgstr[0] "Queda <b>{n}</b> carácter."
+msgstr[1] "Quedan <b>{n}</b> caracteres."
 
 #: /media/js/views/comm.js:49
 msgid "Message sent."
