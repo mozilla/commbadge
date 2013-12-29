@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-12-18T17:32:30.109Z\n"
-"PO-Revision-Date: 2013-11-24 22:30+0000\n"
+"PO-Revision-Date: 2013-12-29 18:09+0000\n"
 "Last-Translator: Vlado <valastiak@mozilla.sk>\n"
 "Language-Team: Mozilla.sk <l10n@mozilla.sk>\n"
 "Language: sk\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1385332234.0\n"
+"X-POOTLE-MTIME: 1388340587.0\n"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -96,31 +96,31 @@ msgstr "Prihlásiť sa / zaregistrovať"
 
 #: /templates/comm/app_dashboard.html:5
 msgid "App icon"
-msgstr ""
+msgstr "Ikona aplikácie"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "Viewing All Threads for {app_name}"
-msgstr ""
+msgstr "Zobrazujú sa všetky vlákna pre {app_name}"
 
 #: /templates/comm/app_dashboard.html:7 /templates/comm/app_dashboard.html:10
 msgid "Back to my threads"
-msgstr ""
+msgstr "Naspäť na moje vlákna"
 
 #: /templates/comm/app_dashboard.html:9
 msgid "App Not Found"
-msgstr ""
+msgstr "Aplikácia nebola nájdená"
 
 #: /templates/comm/app_dashboard.html:24
 msgid "This app does not have any threads yet."
-msgstr ""
+msgstr "Táto aplikácia zatiaľ nemá žiadne vlákna."
 
 #: /templates/comm/app_dashboard.html:30
 msgid "Error loading threads"
-msgstr ""
+msgstr "Chyba pri načítaní vlákien"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
-msgstr ""
+msgstr "Moje vlákna"
 
 #: /templates/comm/main.html:13
 msgid "You have no threads."
@@ -128,7 +128,7 @@ msgstr "Žiadne dostupné vlákna."
 
 #: /templates/comm/no_notes.html:1
 msgid "No notes found"
-msgstr ""
+msgstr "Neboli nájdené žiadne poznámky"
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
@@ -136,24 +136,24 @@ msgstr "Označiť túto poznámku ako prečítanú"
 
 #: /templates/comm/note_detail.html:15
 msgid "Empty note"
-msgstr ""
+msgstr "Prázdna poznámka"
 
 #: /templates/comm/show_thread.html:6
 msgid "Viewing Thread for {app_name}"
-msgstr ""
+msgstr "Zobrazuje sa vlákno pre {app_name}"
 
 #: /templates/comm/show_thread.html:9
 msgid "Back to all threads for {app_name}"
-msgstr ""
+msgstr "Naspäť na všetky vlákna pre {app_name}"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Threads"
-msgstr ""
+msgstr "Vlákna tejto aplikácie"
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
-msgstr ""
+msgstr "v.{version_number}"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -177,11 +177,11 @@ msgstr "Skúsiť znova"
 
 #: /templates/_macros/thread.html:9
 msgid "{app_name} (Version {version_number})"
-msgstr ""
+msgstr "{app_name} (verzia {version_number})"
 
 #: /templates/_macros/thread.html:12
 msgid "(Obsolete)"
-msgstr ""
+msgstr "(neaktuálne)"
 
 #: /templates/_macros/thread.html:17 /media/js/views/comm.js:32
 msgid "{n} note"
@@ -244,31 +244,31 @@ msgstr "Prihlásenie pomocou služby Persona zlyhalo. Nastala chyba servera."
 
 #: /media/js/main.js:55
 msgid "Message"
-msgstr ""
+msgstr "Správa"
 
 #: /media/js/main.js:56
 msgid "App approved"
-msgstr ""
+msgstr "Aplikácia bola schválená"
 
 #: /media/js/main.js:57
 msgid "App rejected"
-msgstr ""
+msgstr "Aplikácia bola zamietnutá"
 
 #: /media/js/main.js:58
 msgid "App disabled"
-msgstr ""
+msgstr "Aplikácia bola zakázaná"
 
 #: /media/js/main.js:59
 msgid "More info required"
-msgstr ""
+msgstr "Vyžadujú sa dodatočné informácie"
 
 #: /media/js/main.js:60
 msgid "Review escalated to senior reviewer"
-msgstr ""
+msgstr "Kontrola bola presunutá k skúsenejšiemu editorovi"
 
 #: /media/js/main.js:61
 msgid "Reviewer comment"
-msgstr ""
+msgstr "Komentár editora"
 
 #: /media/js/navigation.js:31
 msgid "No internet connection"
