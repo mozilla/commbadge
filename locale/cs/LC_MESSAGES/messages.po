@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Commbadge\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-18T17:32:30.109Z\n"
+"POT-Creation-Date: 2014-01-08T17:43:33.085Z\n"
 "PO-Revision-Date: 2013-12-18 19:57+0000\n"
 "Last-Translator: Pavel <jasnapaka@jasnapaka.com>\n"
 "Language-Team: Czech <info@mozilla.cz>\n"
@@ -13,6 +13,18 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1387396639.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Zavřít"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Ne"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Ano"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -70,18 +82,6 @@ msgstr "Odhlášení"
 msgid "Sign In"
 msgstr "Přihlášení"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Zavřít"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Ne"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Ano"
-
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "Přihlášení"
@@ -93,6 +93,57 @@ msgstr "Pro pokračování se musíte přihlásit."
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
 msgstr "Přihlášení / Registrace"
+
+#: /templates/_macros/thread.html:9
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} (Verze {version_number})"
+
+#: /templates/_macros/thread.html:12
+msgid "(Obsolete)"
+msgstr "(Zavržené)"
+
+#: /templates/_macros/thread.html:17 /media/js/views/comm.js:32
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} poznámka"
+msgstr[1] "{n} poznámky"
+msgstr[2] "{n} poznámek"
+
+#: /templates/_macros/thread.html:22 /media/js/views/comm.js:42 /media/js/views/comm.js:76
+msgid "Reply"
+msgstr "Odpovědět"
+
+#: /templates/_macros/thread.html:28
+msgid "Enter note text here"
+msgstr "Zde vložte text poznámky"
+
+#: /templates/_macros/thread.html:29
+msgid "Post"
+msgstr "Přidat"
+
+#: /templates/_macros/thread.html:34
+msgid "Recent"
+msgstr "Nedávné"
+
+#: /templates/_macros/thread.html:37
+msgid "Unread"
+msgstr "Nepřečtené"
+
+#: /templates/_macros/thread.html:40
+msgid "Read"
+msgstr "Přečtené"
+
+#: /templates/_macros/thread.html:44
+msgid "Review"
+msgstr ""
+
+#: /templates/_macros/thread.html:48
+msgid "Mark All Read"
+msgstr "Označit vše jako přečtené"
+
+#: /templates/_macros/thread.html:60
+msgid "View older"
+msgstr "Zobrazit starší"
 
 #: /templates/comm/app_dashboard.html:5
 msgid "App icon"
@@ -130,14 +181,6 @@ msgstr "Nemáte žádná vlákna."
 msgid "No notes found"
 msgstr "Nebyly nalezeny žádné poznámky"
 
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "Označit tuto poznámku jako přečtenou"
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr "Prázdná poznámka"
-
 #: /templates/comm/show_thread.html:6
 msgid "Viewing Thread for {app_name}"
 msgstr "Zobrazení vlákna pro {app_name}"
@@ -154,6 +197,14 @@ msgstr "Vlákna této aplikace"
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr "v. {version_number}"
+
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr "Označit tuto poznámku jako přečtenou"
+
+#: /templates/comm/note_detail.html:15
+msgid "Empty note"
+msgstr "Prázdná poznámka"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -174,57 +225,6 @@ msgstr "Chyba při načítání"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Zkusit znovu"
-
-#: /templates/_macros/thread.html:9
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} (Verze {version_number})"
-
-#: /templates/_macros/thread.html:12
-msgid "(Obsolete)"
-msgstr "(Zavržené)"
-
-#: /templates/_macros/thread.html:17 /media/js/views/comm.js:32
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} poznámka"
-msgstr[1] "{n} poznámky"
-msgstr[2] "{n} poznámek"
-
-#: /templates/_macros/thread.html:20
-msgid "Review page"
-msgstr "Stránka kontroly"
-
-#: /templates/_macros/thread.html:25 /media/js/views/comm.js:42 /media/js/views/comm.js:76
-msgid "Reply"
-msgstr "Odpovědět"
-
-#: /templates/_macros/thread.html:31
-msgid "Enter note text here"
-msgstr "Zde vložte text poznámky"
-
-#: /templates/_macros/thread.html:32
-msgid "Post"
-msgstr "Přidat"
-
-#: /templates/_macros/thread.html:37
-msgid "Recent"
-msgstr "Nedávné"
-
-#: /templates/_macros/thread.html:40
-msgid "Unread"
-msgstr "Nepřečtené"
-
-#: /templates/_macros/thread.html:43
-msgid "Read"
-msgstr "Přečtené"
-
-#: /templates/_macros/thread.html:46
-msgid "Mark All Read"
-msgstr "Označit vše jako přečtené"
-
-#: /templates/_macros/thread.html:58
-msgid "View older"
-msgstr "Zobrazit starší"
 
 #: /media/js/login.js:8
 msgid "You have been signed out"

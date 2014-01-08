@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-18T17:32:30.109Z\n"
+"POT-Creation-Date: 2014-01-08T17:43:33.085Z\n"
 "PO-Revision-Date: 2013-12-19 07:33+0000\n"
 "Last-Translator: Mark <markh@babelzilla.org>\n"
 "Language-Team: none\n"
@@ -13,6 +13,18 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1387438381.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Sluiten"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Nee"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Ja"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -70,18 +82,6 @@ msgstr "Afmelden"
 msgid "Sign In"
 msgstr "Aanmelden"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Sluiten"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Nee"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Ja"
-
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "Aanmelden"
@@ -93,6 +93,56 @@ msgstr "U moet zich aanmelden om verder te gaan."
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
 msgstr "Aanmelden / registreren"
+
+#: /templates/_macros/thread.html:9
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} (versie {version_number})"
+
+#: /templates/_macros/thread.html:12
+msgid "(Obsolete)"
+msgstr "(Vervallen)"
+
+#: /templates/_macros/thread.html:17 /media/js/views/comm.js:32
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} opmerking"
+msgstr[1] "{n} opmerkingen"
+
+#: /templates/_macros/thread.html:22 /media/js/views/comm.js:42 /media/js/views/comm.js:76
+msgid "Reply"
+msgstr "Beantwoorden"
+
+#: /templates/_macros/thread.html:28
+msgid "Enter note text here"
+msgstr "Voer hier de tekst in"
+
+#: /templates/_macros/thread.html:29
+msgid "Post"
+msgstr "Plaatsen"
+
+#: /templates/_macros/thread.html:34
+msgid "Recent"
+msgstr "Recent"
+
+#: /templates/_macros/thread.html:37
+msgid "Unread"
+msgstr "Ongelezen"
+
+#: /templates/_macros/thread.html:40
+msgid "Read"
+msgstr "Gelezen"
+
+#: /templates/_macros/thread.html:44
+msgid "Review"
+msgstr ""
+
+#: /templates/_macros/thread.html:48
+msgid "Mark All Read"
+msgstr "Alle markeren als gelezen"
+
+#: /templates/_macros/thread.html:60
+msgid "View older"
+msgstr "Oudere bekijken"
 
 #: /templates/comm/app_dashboard.html:5
 msgid "App icon"
@@ -130,15 +180,6 @@ msgstr "U hebt geen conversaties."
 msgid "No notes found"
 msgstr "Geen opmerkingen gevonden"
 
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "Deze opmerking markeren als gelezen"
-
-# Empty als werkwoord of als bijvoeglijk naamwoord? Vooralsnog gekozen voor het laatste.
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr "Lege opmerking"
-
 #: /templates/comm/show_thread.html:6
 msgid "Viewing Thread for {app_name}"
 msgstr "Discussie voor {app_name}"
@@ -155,6 +196,15 @@ msgstr "Discussies voor deze app"
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
+
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr "Deze opmerking markeren als gelezen"
+
+# Empty als werkwoord of als bijvoeglijk naamwoord? Vooralsnog gekozen voor het laatste.
+#: /templates/comm/note_detail.html:15
+msgid "Empty note"
+msgstr "Lege opmerking"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -175,56 +225,6 @@ msgstr "Fout bij laden van meer"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Opnieuw proberen"
-
-#: /templates/_macros/thread.html:9
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} (versie {version_number})"
-
-#: /templates/_macros/thread.html:12
-msgid "(Obsolete)"
-msgstr "(Vervallen)"
-
-#: /templates/_macros/thread.html:17 /media/js/views/comm.js:32
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} opmerking"
-msgstr[1] "{n} opmerkingen"
-
-#: /templates/_macros/thread.html:20
-msgid "Review page"
-msgstr "Beoordelingspagina"
-
-#: /templates/_macros/thread.html:25 /media/js/views/comm.js:42 /media/js/views/comm.js:76
-msgid "Reply"
-msgstr "Beantwoorden"
-
-#: /templates/_macros/thread.html:31
-msgid "Enter note text here"
-msgstr "Voer hier de tekst in"
-
-#: /templates/_macros/thread.html:32
-msgid "Post"
-msgstr "Plaatsen"
-
-#: /templates/_macros/thread.html:37
-msgid "Recent"
-msgstr "Recent"
-
-#: /templates/_macros/thread.html:40
-msgid "Unread"
-msgstr "Ongelezen"
-
-#: /templates/_macros/thread.html:43
-msgid "Read"
-msgstr "Gelezen"
-
-#: /templates/_macros/thread.html:46
-msgid "Mark All Read"
-msgstr "Alle markeren als gelezen"
-
-#: /templates/_macros/thread.html:58
-msgid "View older"
-msgstr "Oudere bekijken"
 
 #: /media/js/login.js:8
 msgid "You have been signed out"

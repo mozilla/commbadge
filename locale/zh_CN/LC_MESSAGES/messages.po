@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-18T17:32:30.109Z\n"
+"POT-Creation-Date: 2014-01-08T17:43:33.085Z\n"
 "PO-Revision-Date: 2013-12-19 15:44+0000\n"
 "Last-Translator: Shen <steekid@icloud.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,6 +13,18 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1387467850.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "关闭"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "否"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "是"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -68,18 +80,6 @@ msgstr "登出"
 msgid "Sign In"
 msgstr "登录"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "关闭"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "否"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "是"
-
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "登录"
@@ -91,6 +91,55 @@ msgstr "您必须登录才能继续。"
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
 msgstr "登录/注册"
+
+#: /templates/_macros/thread.html:9
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} (版本号  {version_number})"
+
+#: /templates/_macros/thread.html:12
+msgid "(Obsolete)"
+msgstr "（废弃的）"
+
+#: /templates/_macros/thread.html:17 /media/js/views/comm.js:32
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} 笔笔记"
+
+#: /templates/_macros/thread.html:22 /media/js/views/comm.js:42 /media/js/views/comm.js:76
+msgid "Reply"
+msgstr "回复"
+
+#: /templates/_macros/thread.html:28
+msgid "Enter note text here"
+msgstr "在此输入笔记内容"
+
+#: /templates/_macros/thread.html:29
+msgid "Post"
+msgstr "发表"
+
+#: /templates/_macros/thread.html:34
+msgid "Recent"
+msgstr "近期"
+
+#: /templates/_macros/thread.html:37
+msgid "Unread"
+msgstr "未读"
+
+#: /templates/_macros/thread.html:40
+msgid "Read"
+msgstr "已读"
+
+#: /templates/_macros/thread.html:44
+msgid "Review"
+msgstr ""
+
+#: /templates/_macros/thread.html:48
+msgid "Mark All Read"
+msgstr "全部标记为已读"
+
+#: /templates/_macros/thread.html:60
+msgid "View older"
+msgstr "查看更旧条目"
 
 #: /templates/comm/app_dashboard.html:5
 msgid "App icon"
@@ -128,14 +177,6 @@ msgstr "您没有话题。"
 msgid "No notes found"
 msgstr "找不到笔记"
 
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "将此笔记标记为已读"
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr "空笔记"
-
 #: /templates/comm/show_thread.html:6
 msgid "Viewing Thread for {app_name}"
 msgstr "查看 {app_name} 的话题"
@@ -152,6 +193,14 @@ msgstr "这个应用的话题"
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
+
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr "将此笔记标记为已读"
+
+#: /templates/comm/note_detail.html:15
+msgid "Empty note"
+msgstr "空笔记"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -172,55 +221,6 @@ msgstr "载入更多内容是发生错误"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "重试"
-
-#: /templates/_macros/thread.html:9
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} (版本号  {version_number})"
-
-#: /templates/_macros/thread.html:12
-msgid "(Obsolete)"
-msgstr "（废弃的）"
-
-#: /templates/_macros/thread.html:17 /media/js/views/comm.js:32
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} 笔笔记"
-
-#: /templates/_macros/thread.html:20
-msgid "Review page"
-msgstr "复审页面"
-
-#: /templates/_macros/thread.html:25 /media/js/views/comm.js:42 /media/js/views/comm.js:76
-msgid "Reply"
-msgstr "回复"
-
-#: /templates/_macros/thread.html:31
-msgid "Enter note text here"
-msgstr "在此输入笔记内容"
-
-#: /templates/_macros/thread.html:32
-msgid "Post"
-msgstr "发表"
-
-#: /templates/_macros/thread.html:37
-msgid "Recent"
-msgstr "近期"
-
-#: /templates/_macros/thread.html:40
-msgid "Unread"
-msgstr "未读"
-
-#: /templates/_macros/thread.html:43
-msgid "Read"
-msgstr "已读"
-
-#: /templates/_macros/thread.html:46
-msgid "Mark All Read"
-msgstr "全部标记为已读"
-
-#: /templates/_macros/thread.html:58
-msgid "View older"
-msgstr "查看更旧条目"
 
 #: /media/js/login.js:8
 msgid "You have been signed out"

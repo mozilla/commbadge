@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-18T17:32:30.109Z\n"
+"POT-Creation-Date: 2014-01-08T17:43:33.085Z\n"
 "PO-Revision-Date: 2013-12-26 04:26+0000\n"
 "Last-Translator: Gábor <kelemeng@gnome.hu>\n"
 "Language-Team: none\n"
@@ -13,6 +13,18 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n !=1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1388031980.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Bezárás"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Nem"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Igen"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -70,18 +82,6 @@ msgstr "Kijelentkezés"
 msgid "Sign In"
 msgstr "Bejelentkezés"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Bezárás"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Nem"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Igen"
-
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "Bejelentkezés"
@@ -93,6 +93,56 @@ msgstr "Be kell jelentkeznie a folytatáshoz."
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
 msgstr "Bejelentkezés/regisztráció"
+
+#: /templates/_macros/thread.html:9
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} ({version_number} verzió)"
+
+#: /templates/_macros/thread.html:12
+msgid "(Obsolete)"
+msgstr "(elavult)"
+
+#: /templates/_macros/thread.html:17 /media/js/views/comm.js:32
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} jegyzet"
+msgstr[1] "{n} jegyzet"
+
+#: /templates/_macros/thread.html:22 /media/js/views/comm.js:42 /media/js/views/comm.js:76
+msgid "Reply"
+msgstr "Válasz"
+
+#: /templates/_macros/thread.html:28
+msgid "Enter note text here"
+msgstr "Írja ide a jegyzet szövegét"
+
+#: /templates/_macros/thread.html:29
+msgid "Post"
+msgstr "Küldés"
+
+#: /templates/_macros/thread.html:34
+msgid "Recent"
+msgstr "Legutóbbi"
+
+#: /templates/_macros/thread.html:37
+msgid "Unread"
+msgstr "Olvasatlan"
+
+#: /templates/_macros/thread.html:40
+msgid "Read"
+msgstr "Olvasott"
+
+#: /templates/_macros/thread.html:44
+msgid "Review"
+msgstr ""
+
+#: /templates/_macros/thread.html:48
+msgid "Mark All Read"
+msgstr "Összes jelölése olvasottként"
+
+#: /templates/_macros/thread.html:60
+msgid "View older"
+msgstr "Régebbi megjelenítése"
 
 #: /templates/comm/app_dashboard.html:5
 msgid "App icon"
@@ -130,14 +180,6 @@ msgstr "Nincsenek szálak."
 msgid "No notes found"
 msgstr "Nincsenek jegyzetek"
 
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "Jegyzet megjelölése olvasottként"
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr "Üres jegyzet"
-
 #: /templates/comm/show_thread.html:6
 msgid "Viewing Thread for {app_name}"
 msgstr "{app_name} szálának megjelenítése"
@@ -154,6 +196,14 @@ msgstr "Ezen app szálai"
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
+
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr "Jegyzet megjelölése olvasottként"
+
+#: /templates/comm/note_detail.html:15
+msgid "Empty note"
+msgstr "Üres jegyzet"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -174,56 +224,6 @@ msgstr "Hiba továbbiak betöltésekor"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Próbálja újra"
-
-#: /templates/_macros/thread.html:9
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} ({version_number} verzió)"
-
-#: /templates/_macros/thread.html:12
-msgid "(Obsolete)"
-msgstr "(elavult)"
-
-#: /templates/_macros/thread.html:17 /media/js/views/comm.js:32
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} jegyzet"
-msgstr[1] "{n} jegyzet"
-
-#: /templates/_macros/thread.html:20
-msgid "Review page"
-msgstr "Áttekintés oldal"
-
-#: /templates/_macros/thread.html:25 /media/js/views/comm.js:42 /media/js/views/comm.js:76
-msgid "Reply"
-msgstr "Válasz"
-
-#: /templates/_macros/thread.html:31
-msgid "Enter note text here"
-msgstr "Írja ide a jegyzet szövegét"
-
-#: /templates/_macros/thread.html:32
-msgid "Post"
-msgstr "Küldés"
-
-#: /templates/_macros/thread.html:37
-msgid "Recent"
-msgstr "Legutóbbi"
-
-#: /templates/_macros/thread.html:40
-msgid "Unread"
-msgstr "Olvasatlan"
-
-#: /templates/_macros/thread.html:43
-msgid "Read"
-msgstr "Olvasott"
-
-#: /templates/_macros/thread.html:46
-msgid "Mark All Read"
-msgstr "Összes jelölése olvasottként"
-
-#: /templates/_macros/thread.html:58
-msgid "View older"
-msgstr "Régebbi megjelenítése"
 
 #: /media/js/login.js:8
 msgid "You have been signed out"

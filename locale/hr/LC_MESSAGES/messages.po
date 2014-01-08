@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-18T17:32:30.109Z\n"
+"POT-Creation-Date: 2014-01-08T17:43:33.085Z\n"
 "PO-Revision-Date: 2013-06-19 22:09+0100\n"
 "Last-Translator: Saša Teković <sasa@tekovic.com>\n"
 "Language-Team: none\n"
@@ -12,6 +12,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Fireplace L10n Tools 1.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Zatvori"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Ne"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Da"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -69,18 +81,6 @@ msgstr "Odjava"
 msgid "Sign In"
 msgstr "Prijava"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Zatvori"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Ne"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Da"
-
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr ""
@@ -92,6 +92,57 @@ msgstr ""
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
 msgstr "Prijava / Registracija"
+
+#: /templates/_macros/thread.html:9
+msgid "{app_name} (Version {version_number})"
+msgstr ""
+
+#: /templates/_macros/thread.html:12
+msgid "(Obsolete)"
+msgstr ""
+
+#: /templates/_macros/thread.html:17 /media/js/views/comm.js:32
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: /templates/_macros/thread.html:22 /media/js/views/comm.js:42 /media/js/views/comm.js:76
+msgid "Reply"
+msgstr ""
+
+#: /templates/_macros/thread.html:28
+msgid "Enter note text here"
+msgstr ""
+
+#: /templates/_macros/thread.html:29
+msgid "Post"
+msgstr ""
+
+#: /templates/_macros/thread.html:34
+msgid "Recent"
+msgstr ""
+
+#: /templates/_macros/thread.html:37
+msgid "Unread"
+msgstr ""
+
+#: /templates/_macros/thread.html:40
+msgid "Read"
+msgstr ""
+
+#: /templates/_macros/thread.html:44
+msgid "Review"
+msgstr ""
+
+#: /templates/_macros/thread.html:48
+msgid "Mark All Read"
+msgstr ""
+
+#: /templates/_macros/thread.html:60
+msgid "View older"
+msgstr ""
 
 #: /templates/comm/app_dashboard.html:5
 msgid "App icon"
@@ -129,14 +180,6 @@ msgstr ""
 msgid "No notes found"
 msgstr ""
 
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr ""
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr ""
-
 #: /templates/comm/show_thread.html:6
 msgid "Viewing Thread for {app_name}"
 msgstr ""
@@ -152,6 +195,14 @@ msgstr ""
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
+msgstr ""
+
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr ""
+
+#: /templates/comm/note_detail.html:15
+msgid "Empty note"
 msgstr ""
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
@@ -173,57 +224,6 @@ msgstr "Greška pri učitavanju dodanog sadržaja"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Pokušajte ponovno"
-
-#: /templates/_macros/thread.html:9
-msgid "{app_name} (Version {version_number})"
-msgstr ""
-
-#: /templates/_macros/thread.html:12
-msgid "(Obsolete)"
-msgstr ""
-
-#: /templates/_macros/thread.html:17 /media/js/views/comm.js:32
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-
-#: /templates/_macros/thread.html:20
-msgid "Review page"
-msgstr ""
-
-#: /templates/_macros/thread.html:25 /media/js/views/comm.js:42 /media/js/views/comm.js:76
-msgid "Reply"
-msgstr ""
-
-#: /templates/_macros/thread.html:31
-msgid "Enter note text here"
-msgstr ""
-
-#: /templates/_macros/thread.html:32
-msgid "Post"
-msgstr ""
-
-#: /templates/_macros/thread.html:37
-msgid "Recent"
-msgstr ""
-
-#: /templates/_macros/thread.html:40
-msgid "Unread"
-msgstr ""
-
-#: /templates/_macros/thread.html:43
-msgid "Read"
-msgstr ""
-
-#: /templates/_macros/thread.html:46
-msgid "Mark All Read"
-msgstr ""
-
-#: /templates/_macros/thread.html:58
-msgid "View older"
-msgstr ""
 
 #: /media/js/login.js:8
 msgid "You have been signed out"

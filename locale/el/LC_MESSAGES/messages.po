@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-18T17:32:30.109Z\n"
+"POT-Creation-Date: 2014-01-08T17:43:33.085Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Αλέξανδρος Μιόγλου <alexandros@mioglou.me>\n"
 "Language-Team: none\n"
@@ -12,6 +12,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Fireplace L10n Tools 1.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Κλείσιμο"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Όχι"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Ναι"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -69,18 +81,6 @@ msgstr "Αποσύνδεση"
 msgid "Sign In"
 msgstr "Σύνδεση"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Κλείσιμο"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Όχι"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Ναι"
-
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "Σύνδεση"
@@ -92,6 +92,56 @@ msgstr "Πρέπει να συνδεθείτε για να συνεχίσετε.
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
 msgstr "Σύνδεση / Εγγραφή"
+
+#: /templates/_macros/thread.html:9
+msgid "{app_name} (Version {version_number})"
+msgstr ""
+
+#: /templates/_macros/thread.html:12
+msgid "(Obsolete)"
+msgstr ""
+
+#: /templates/_macros/thread.html:17 /media/js/views/comm.js:32
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} σημείωση"
+msgstr[1] "{n} σημειώσεις"
+
+#: /templates/_macros/thread.html:22 /media/js/views/comm.js:42 /media/js/views/comm.js:76
+msgid "Reply"
+msgstr "Απάντηση"
+
+#: /templates/_macros/thread.html:28
+msgid "Enter note text here"
+msgstr "Εισαγωγή κειμένου σημείωσης εδώ"
+
+#: /templates/_macros/thread.html:29
+msgid "Post"
+msgstr "Δημοσίευση"
+
+#: /templates/_macros/thread.html:34
+msgid "Recent"
+msgstr "Πρόσφατα"
+
+#: /templates/_macros/thread.html:37
+msgid "Unread"
+msgstr "Μη αναγνωσμένα"
+
+#: /templates/_macros/thread.html:40
+msgid "Read"
+msgstr "Ανάγνωση"
+
+#: /templates/_macros/thread.html:44
+msgid "Review"
+msgstr ""
+
+#: /templates/_macros/thread.html:48
+msgid "Mark All Read"
+msgstr "Σημείωση όλων ως αναγνωσμένων"
+
+#: /templates/_macros/thread.html:60
+msgid "View older"
+msgstr "Προβολή παλαιότερων"
 
 #: /templates/comm/app_dashboard.html:5
 msgid "App icon"
@@ -129,14 +179,6 @@ msgstr "Δεν έχετε θέματα"
 msgid "No notes found"
 msgstr ""
 
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "Σημειώστε το ως διαβασμένο"
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr ""
-
 #: /templates/comm/show_thread.html:6
 msgid "Viewing Thread for {app_name}"
 msgstr ""
@@ -152,6 +194,14 @@ msgstr ""
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
+msgstr ""
+
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr "Σημειώστε το ως διαβασμένο"
+
+#: /templates/comm/note_detail.html:15
+msgid "Empty note"
 msgstr ""
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
@@ -173,56 +223,6 @@ msgstr "Σφάλμα κατά τη φόρτωση περισσότερων"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Προσπαθήστε ξανά"
-
-#: /templates/_macros/thread.html:9
-msgid "{app_name} (Version {version_number})"
-msgstr ""
-
-#: /templates/_macros/thread.html:12
-msgid "(Obsolete)"
-msgstr ""
-
-#: /templates/_macros/thread.html:17 /media/js/views/comm.js:32
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} σημείωση"
-msgstr[1] "{n} σημειώσεις"
-
-#: /templates/_macros/thread.html:20
-msgid "Review page"
-msgstr ""
-
-#: /templates/_macros/thread.html:25 /media/js/views/comm.js:42 /media/js/views/comm.js:76
-msgid "Reply"
-msgstr "Απάντηση"
-
-#: /templates/_macros/thread.html:31
-msgid "Enter note text here"
-msgstr "Εισαγωγή κειμένου σημείωσης εδώ"
-
-#: /templates/_macros/thread.html:32
-msgid "Post"
-msgstr "Δημοσίευση"
-
-#: /templates/_macros/thread.html:37
-msgid "Recent"
-msgstr "Πρόσφατα"
-
-#: /templates/_macros/thread.html:40
-msgid "Unread"
-msgstr "Μη αναγνωσμένα"
-
-#: /templates/_macros/thread.html:43
-msgid "Read"
-msgstr "Ανάγνωση"
-
-#: /templates/_macros/thread.html:46
-msgid "Mark All Read"
-msgstr "Σημείωση όλων ως αναγνωσμένων"
-
-#: /templates/_macros/thread.html:58
-msgid "View older"
-msgstr "Προβολή παλαιότερων"
 
 #: /media/js/login.js:8
 msgid "You have been signed out"

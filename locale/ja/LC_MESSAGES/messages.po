@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-18T17:32:30.109Z\n"
+"POT-Creation-Date: 2014-01-08T17:43:33.085Z\n"
 "PO-Revision-Date: 2013-12-18 15:29-0500\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
@@ -12,6 +12,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Fireplace L10n Tools 1.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "閉じる"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "いいえ"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "はい"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -42,8 +54,8 @@ msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
 "Alike License v3.0</a> or any later version."
 msgstr ""
-"特に <a href=\"{legal_url}\" target=\"_blank\">記載</a> のない限り、当サイト上のコンテンツは <a href=\"{cc_url}\" target=\"_blank\">Creative Commons 表示 - 継承 ライセンス v3.0</a> もしくはそれ以降の"
-"バージョンで公開されています。"
+"特に <a href=\"{legal_url}\" target=\"_blank\">記載</a> のない限り、当サイト上のコンテンツは <a href=\"{cc_url}\" target=\"_blank\">Creative Commons 表示 - 継承 ライセンス v3.0</a> もしくはそれ以降"
+"のバージョンで公開されています。"
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
@@ -69,18 +81,6 @@ msgstr "ログアウト"
 msgid "Sign In"
 msgstr "ログイン"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "閉じる"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "いいえ"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "はい"
-
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "ログイン"
@@ -92,6 +92,55 @@ msgstr "続けるにはログインしてください。"
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
 msgstr "ログイン / ユーザ登録"
+
+#: /templates/_macros/thread.html:9
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} (バージョン {version_number})"
+
+#: /templates/_macros/thread.html:12
+msgid "(Obsolete)"
+msgstr "(旧バージョン)"
+
+#: /templates/_macros/thread.html:17 /media/js/views/comm.js:32
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} 件の記事"
+
+#: /templates/_macros/thread.html:22 /media/js/views/comm.js:42 /media/js/views/comm.js:76
+msgid "Reply"
+msgstr "返信"
+
+#: /templates/_macros/thread.html:28
+msgid "Enter note text here"
+msgstr "投稿内容をここに入力してください"
+
+#: /templates/_macros/thread.html:29
+msgid "Post"
+msgstr "投稿"
+
+#: /templates/_macros/thread.html:34
+msgid "Recent"
+msgstr "最近"
+
+#: /templates/_macros/thread.html:37
+msgid "Unread"
+msgstr "未読"
+
+#: /templates/_macros/thread.html:40
+msgid "Read"
+msgstr "既読"
+
+#: /templates/_macros/thread.html:44
+msgid "Review"
+msgstr ""
+
+#: /templates/_macros/thread.html:48
+msgid "Mark All Read"
+msgstr "すべて既読にする"
+
+#: /templates/_macros/thread.html:60
+msgid "View older"
+msgstr "以前の記事を表示"
 
 #: /templates/comm/app_dashboard.html:5
 msgid "App icon"
@@ -129,14 +178,6 @@ msgstr "スレッドがありません。"
 msgid "No notes found"
 msgstr "ノートがが見つかりませんでした"
 
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "この記事を既読にする"
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr "空白のノート"
-
 #: /templates/comm/show_thread.html:6
 msgid "Viewing Thread for {app_name}"
 msgstr "{app_name} のスレッドを表示しています"
@@ -153,6 +194,14 @@ msgstr "このアプリのスレッド"
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
+
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr "この記事を既読にする"
+
+#: /templates/comm/note_detail.html:15
+msgid "Empty note"
+msgstr "空白のノート"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -173,55 +222,6 @@ msgstr "読み込み中に問題が発生しました"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "再読み込み"
-
-#: /templates/_macros/thread.html:9
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} (バージョン {version_number})"
-
-#: /templates/_macros/thread.html:12
-msgid "(Obsolete)"
-msgstr "(旧バージョン)"
-
-#: /templates/_macros/thread.html:17 /media/js/views/comm.js:32
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} 件の記事"
-
-#: /templates/_macros/thread.html:20
-msgid "Review page"
-msgstr "レビューページ"
-
-#: /templates/_macros/thread.html:25 /media/js/views/comm.js:42 /media/js/views/comm.js:76
-msgid "Reply"
-msgstr "返信"
-
-#: /templates/_macros/thread.html:31
-msgid "Enter note text here"
-msgstr "投稿内容をここに入力してください"
-
-#: /templates/_macros/thread.html:32
-msgid "Post"
-msgstr "投稿"
-
-#: /templates/_macros/thread.html:37
-msgid "Recent"
-msgstr "最近"
-
-#: /templates/_macros/thread.html:40
-msgid "Unread"
-msgstr "未読"
-
-#: /templates/_macros/thread.html:43
-msgid "Read"
-msgstr "既読"
-
-#: /templates/_macros/thread.html:46
-msgid "Mark All Read"
-msgstr "すべて既読にする"
-
-#: /templates/_macros/thread.html:58
-msgid "View older"
-msgstr "以前の記事を表示"
 
 #: /media/js/login.js:8
 msgid "You have been signed out"
