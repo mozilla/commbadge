@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-01-08T17:43:33.085Z\n"
-"PO-Revision-Date: 2013-12-26 04:26+0000\n"
+"PO-Revision-Date: 2014-01-08 22:50+0000\n"
 "Last-Translator: Gábor <kelemeng@gnome.hu>\n"
 "Language-Team: none\n"
 "Language: hu\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n !=1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1388031980.0\n"
+"X-POOTLE-MTIME: 1389221418.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -134,7 +134,7 @@ msgstr "Olvasott"
 
 #: /templates/_macros/thread.html:44
 msgid "Review"
-msgstr ""
+msgstr "Értékelés"
 
 #: /templates/_macros/thread.html:48
 msgid "Mark All Read"
