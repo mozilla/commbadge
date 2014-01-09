@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-01-08T17:43:33.085Z\n"
-"PO-Revision-Date: 2013-12-19 02:28+0000\n"
+"PO-Revision-Date: 2014-01-09 12:12+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: MozTW <petercpg@mail.moztw.org>\n"
 "Language: zh_TW\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-POOTLE-MTIME: 1387420086.0\n"
+"X-POOTLE-MTIME: 1389269540.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -132,7 +132,7 @@ msgstr "已讀"
 
 #: /templates/_macros/thread.html:44
 msgid "Review"
-msgstr ""
+msgstr "評論"
 
 #: /templates/_macros/thread.html:48
 msgid "Mark All Read"
