@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-01-08T17:43:33.085Z\n"
-"PO-Revision-Date: 2013-10-21 08:50+0000\n"
+"PO-Revision-Date: 2014-01-10 09:06+0000\n"
 "Last-Translator: Selim <selim@sum.lu>\n"
 "Language-Team: none\n"
 "Language: tr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1382345437.0\n"
+"X-POOTLE-MTIME: 1389344799.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -44,11 +44,11 @@ msgstr "Gönderilerim"
 
 #: /templates/footer.html:13
 msgid "Reviewer Tools"
-msgstr ""
+msgstr "İnceleyici Araçları"
 
 #: /templates/footer.html:16
 msgid "Lookup Tool"
-msgstr ""
+msgstr "Arama Aracı"
 
 #: /templates/footer.html:24
 msgid ""
@@ -58,124 +58,124 @@ msgstr ""
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Gizlilik İlkeleri"
 
 #: /templates/footer.html:30
 msgid "Terms of Use"
-msgstr ""
+msgstr "Kullanım Koşulları"
 
 #: /templates/footer.html:32
 msgid "Report Trademark Abuse"
-msgstr ""
+msgstr "Marka ihlali bildir"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
-msgstr ""
+msgstr "İletişim Panosu"
 
 #: /templates/header.html:7
 msgid "Sign Out"
-msgstr ""
+msgstr "Oturumu kapat"
 
 #: /templates/header.html:8
 msgid "Sign In"
-msgstr ""
+msgstr "Oturum aç"
 
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
-msgstr ""
+msgstr "Oturum aç"
 
 #: /templates/login.html:3
 msgid "You must sign in to proceed."
-msgstr ""
+msgstr "Devam etmek için oturum açmalısınız."
 
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
-msgstr ""
+msgstr "Oturum aç / kaydol"
 
 #: /templates/_macros/thread.html:9
 msgid "{app_name} (Version {version_number})"
-msgstr ""
+msgstr "{app_name} (Sürüm {version_number})"
 
 #: /templates/_macros/thread.html:12
 msgid "(Obsolete)"
-msgstr ""
+msgstr "(Eski)"
 
 #: /templates/_macros/thread.html:17 /media/js/views/comm.js:32
 msgid "{n} note"
 msgid_plural "{n} notes"
-msgstr[0] ""
+msgstr[0] "{n} not"
 
 #: /templates/_macros/thread.html:22 /media/js/views/comm.js:42 /media/js/views/comm.js:76
 msgid "Reply"
-msgstr ""
+msgstr "Yanıtla"
 
 #: /templates/_macros/thread.html:28
 msgid "Enter note text here"
-msgstr ""
+msgstr "Notunuzu buraya yazın"
 
 #: /templates/_macros/thread.html:29
 msgid "Post"
-msgstr ""
+msgstr "Gönder"
 
 #: /templates/_macros/thread.html:34
 msgid "Recent"
-msgstr ""
+msgstr "Yeni"
 
 #: /templates/_macros/thread.html:37
 msgid "Unread"
-msgstr ""
+msgstr "Okunmamış"
 
 #: /templates/_macros/thread.html:40
 msgid "Read"
-msgstr ""
+msgstr "Okunmuş"
 
 #: /templates/_macros/thread.html:44
 msgid "Review"
-msgstr ""
+msgstr "İnceleme"
 
 #: /templates/_macros/thread.html:48
 msgid "Mark All Read"
-msgstr ""
+msgstr "Tümünü okundu işaretle"
 
 #: /templates/_macros/thread.html:60
 msgid "View older"
-msgstr ""
+msgstr "Daha eskileri göster"
 
 #: /templates/comm/app_dashboard.html:5
 msgid "App icon"
-msgstr ""
+msgstr "Uygulama simgesi"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "Viewing All Threads for {app_name}"
-msgstr ""
+msgstr "{app_name} için tüm başlıklar gösteriliyor"
 
 #: /templates/comm/app_dashboard.html:7 /templates/comm/app_dashboard.html:10
 msgid "Back to my threads"
-msgstr ""
+msgstr "Başlıklarıma dön"
 
 #: /templates/comm/app_dashboard.html:9
 msgid "App Not Found"
-msgstr ""
+msgstr "Uygulama bulunamadı"
 
 #: /templates/comm/app_dashboard.html:24
 msgid "This app does not have any threads yet."
-msgstr ""
+msgstr "Bu uygulama için henüz hiç başlık açılmamış."
 
 #: /templates/comm/app_dashboard.html:30
 msgid "Error loading threads"
-msgstr ""
+msgstr "Başlıklar yüklenirken hata oluştu"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
-msgstr ""
+msgstr "Başlıklarım"
 
 #: /templates/comm/main.html:13
 msgid "You have no threads."
-msgstr ""
+msgstr "Hiç başlığınız yok."
 
 #: /templates/comm/no_notes.html:1
 msgid "No notes found"
-msgstr ""
+msgstr "Hiç not bulunamadı"
 
 #: /templates/comm/show_thread.html:6
 msgid "Viewing Thread for {app_name}"
