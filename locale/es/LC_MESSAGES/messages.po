@@ -134,7 +134,7 @@ msgstr "Leídas"
 
 #: /templates/_macros/thread.html:44
 msgid "Review"
-msgstr ""
+msgstr "Revisar"
 
 #: /templates/_macros/thread.html:48
 msgid "Mark All Read"
@@ -259,11 +259,11 @@ msgstr "Aplicación desactivada"
 
 #: /media/js/main.js:59
 msgid "More info required"
-msgstr "Más información requerida"
+msgstr "Se requiere más información"
 
 #: /media/js/main.js:60
 msgid "Review escalated to senior reviewer"
-msgstr "Revisión escalada a revisor senior"
+msgstr "Revisión remitida a revisor senior"
 
 #: /media/js/main.js:61
 msgid "Reviewer comment"
