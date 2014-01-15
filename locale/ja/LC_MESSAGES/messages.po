@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-01-08T17:43:33.085Z\n"
-"PO-Revision-Date: 2013-12-18 15:29-0500\n"
+"PO-Revision-Date: 2014-01-10 23:46-0500\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -43,7 +43,7 @@ msgstr "自分の登録アプリ"
 
 #: /templates/footer.html:13
 msgid "Reviewer Tools"
-msgstr "レビュー担当者用ツール"
+msgstr "審査担当者用ツール"
 
 #: /templates/footer.html:16
 msgid "Lookup Tool"
@@ -132,7 +132,7 @@ msgstr "既読"
 
 #: /templates/_macros/thread.html:44
 msgid "Review"
-msgstr ""
+msgstr "レビュー"
 
 #: /templates/_macros/thread.html:48
 msgid "Mark All Read"
@@ -261,11 +261,11 @@ msgstr "詳しい情報が必要です"
 
 #: /media/js/main.js:60
 msgid "Review escalated to senior reviewer"
-msgstr "レビューが上級担当者へ回されました"
+msgstr "審査が上級担当者へ回されました"
 
 #: /media/js/main.js:61
 msgid "Reviewer comment"
-msgstr "レビュー担当者のコメント"
+msgstr "審査担当者のコメント"
 
 #: /media/js/navigation.js:31
 msgid "No internet connection"
