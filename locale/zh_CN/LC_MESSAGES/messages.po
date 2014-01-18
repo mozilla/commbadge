@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-01-08T17:43:33.085Z\n"
-"PO-Revision-Date: 2013-12-19 15:44+0000\n"
+"PO-Revision-Date: 2014-01-18 08:13+0000\n"
 "Last-Translator: Shen <steekid@icloud.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1387467850.0\n"
+"X-POOTLE-MTIME: 1390032804.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -131,7 +131,7 @@ msgstr "已读"
 
 #: /templates/_macros/thread.html:44
 msgid "Review"
-msgstr ""
+msgstr "评论"
 
 #: /templates/_macros/thread.html:48
 msgid "Mark All Read"
