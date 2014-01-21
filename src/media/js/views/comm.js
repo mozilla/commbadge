@@ -123,7 +123,7 @@ define('views/comm',
                     markup += nunjucks.env.render('comm/note_detail.html', {note: object});
                 });
             } else {
-                markup = nunjucks.env.getTemplate('comm/no_notes.html').render();
+                markup = nunjucks.env.render('comm/no_notes.html');
             }
             $threadItem.find('.notes-container').html(markup);
         });
