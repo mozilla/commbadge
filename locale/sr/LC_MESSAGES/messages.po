@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-01-08T17:43:33.085Z\n"
-"PO-Revision-Date: 2014-01-16 18:12+0000\n"
+"PO-Revision-Date: 2014-01-24 14:18+0000\n"
 "Last-Translator: Aleksandra <auzelac91@gmail.com>\n"
 "Language-Team: none\n"
 "Language: sr\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1389895977.0\n"
+"X-POOTLE-MTIME: 1390573089.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -178,7 +178,7 @@ msgstr "Моје теме"
 
 #: /templates/comm/main.html:13
 msgid "You have no threads."
-msgstr "Немате теме"
+msgstr "Немате теме."
 
 #: /templates/comm/no_notes.html:1
 msgid "No notes found"
@@ -288,7 +288,7 @@ msgstr[2] "Преостало карактера: <b>{n}</b>."
 
 #: /media/js/views/comm.js:49
 msgid "Message sent."
-msgstr "Порука је послата"
+msgstr "Порука је послата."
 
 #: /media/js/views/comm.js:54
 msgid "Message sending failed."
