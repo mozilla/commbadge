@@ -1,4 +1,5 @@
 {% include '_macros/thread.html' %}
+{% include '_macros/create_thread.html' %}
 
 <section class="main app-dashboard">
   <div class="view-thread-header">
@@ -22,7 +23,10 @@
         {% endfor %}
       </div>
     {% else %}
-      <p>{{ _('This app does not have any threads yet.') }}</p>
+      {% defer (url=app_endpoint) %}
+        {# Show create thread widget for most recent version. #}
+        {{ create_thread(this, max.apply(Math, this.versions.keys())) }}
+      {% end %}
     {% endif %}
 
   {% placeholder %}

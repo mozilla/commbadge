@@ -9,7 +9,7 @@ define('routes_api', [], function() {
 	return {
         'login': '/api/v1/account/login/',
 
-        'app': '/api/v1/fireplace/app/{0}/',
+        'app': '/api/v1/apps/app/{0}/',
 
         'threads': '/api/v1/comm/thread/',
         'thread': '/api/v1/comm/thread/{0}/',

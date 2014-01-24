@@ -1,0 +1,55 @@
+{% macro thread_header(app, icon_url, version_number, thread, user) %}
+  {#
+    Thread header moved into a macro to be used for both viewing thread + creating thread.
+
+    app - Commbadge thread's addon_meta object or Fireplace app object.
+    icon_url - src of icon (64px).
+    version_number - plain version number, not id (e.g. 1.5).
+    thread - Commbadge thread object if we're viewing a thread.
+    user - Commonplace user object if we're viewing a thread for reviewer perms.
+  #}
+  <section class="thread-header">
+    <div class="c">
+      <div class="thread-meta">
+        <a href="{{ url('app_dashboard', [app.app_slug]) }}">
+          <img class="addon-icon" src="{{ icon_url }}">
+          <div class="addon-name">
+            {{ _('{app_name} (Version {version_number})',
+                 app_name=app.name, version_number=version_number) }}
+            {% if thread and thread.version_is_obsolete %}
+              {{ _('(Obsolete)') }}
+            {% endif %}
+          </div>
+        </a>
+        <h3 class="note-count" data-count="{{ thread.notes_count }}">
+          <a href="{{ url('show_thread', [thread.id]) }}">
+            {{ _plural('{n} note', '{n} notes', n=thread.notes_count if thread else 0) }}
+          </a>
+        </h3>
+      </div>
+      <div class="thread-action">
+        <button class="button alt reply open-reply">
+          <span class="reply">{{ _('Reply') }}</span>
+          <div class="loading hidden"><div class="spinner alt"></div></div>
+        </button>
+      </div>
+    </div>
+    <div class="reply-box c hidden">
+      <textarea placeholder="{{ _('Enter note text here') }}" class="reply-text" rows="4" cols="80" name="body"></textarea>
+      <button class="button alt post disabled create-thread">{{ _('Post') }}</button>
+    </div>
+    <div class="filter-options-container">
+      <ul>
+        <li><a href="#show-recent-{{ thread.id }}" class="notes-filter filter-recent selected" data-filter-mode="recent">{{ _('Recent') }}</a></li>
+        {% if thread %}
+          <li><a href="#show-unread-{{ thread.id }}" class="notes-filter filter-unread" data-filter-mode="unread">{{ _('Unread') }}</a></li>
+          <li><a href="#show-read-{{ thread.id }}" class="notes-filter filter-read" data-filter-mode="read">{{ _('Read') }}</a></li>
+          {% if user and user.get_permission('reviewer') %}
+            <li><a class="review-link" href="{{ thread.addon_meta.review_url }}">{{ _('Review') }}</a></li>
+          {% endif %}
+          <li><b title="{{ _('Mark All Read') }}" class="mark-thread-read tick"></b></li>
+        {% endif %}
+      </ul>
+    </div>
+  </section>
+{% endmacro %}

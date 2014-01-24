@@ -1,0 +1,16 @@
+{% include '_macros/thread_header.html' %}
+
+{% macro create_thread(app, version_number) %}
+  {# Similar to comm/thread.html, with a bunch of stuff ripped out. #}
+  <div class="thread-item create-thread"
+       data-app-slug="{{ app.slug }}" data-version-number="{{ version_number }}">
+    {{ thread_header(app, app.icons['64'], version_number) }}
+    <section class="notes-outer-container">
+      <div class="notes-container">
+        <div class="empty">
+          {{ _('No notes found') }}
+        </div>
+      </div>
+    </section>
+  </div>
+{% endmacro %}
