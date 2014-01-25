@@ -69,10 +69,47 @@ tick() {
         width: 100%;
     }
     .reply-box {
+        border-bottom: 2px dashed $seavan-salt-white;
+        margin-bottom: 50px;
+        padding-bottom: 10px;
+
+        .attachments {
+            float: left;
+            margin-top: 2px;
+            padding-bottom: 15px;
+            position: relative;
+
+            .attachment-field {
+                display: block;
+            }
+            strong {
+                display: block;
+                margin: 2px 0;
+            }
+            .fileinput {
+                margin: 0 10px 5px 0;
+            }
+            .fileinput, .attach-description {
+                float: left;
+            }
+            .attach-description {
+                label, input {
+                    display: inline;
+                }
+            }
+            .add-attach-field {
+                bottom: -2px;
+                position: absolute;
+                right: 0;
+            }
+        }
         button {
             cursor: pointer;
-            float: right;
             margin: 5px 0 5px 0;
+
+            &.post {
+                float: right;
+            }
             &.disabled {
                 opacity: .5;
             }
@@ -169,6 +206,25 @@ tick() {
         .mark-note-read {
             float: right;
             tick();
+        }
+        .note-attachments {
+            margin-top: 5px;
+
+            li {
+                list-style: none;
+            }
+            a:before {
+                background: url("../img/icons/news-feed-sprite.png") no-repeat 0 -1150px;
+                content: "";
+                display: inline-block;
+                min-height: 15px;
+                padding: 2px 0 0 20px;
+                position: relative;
+                top: 3px;
+            }
+            a.image:before {
+                background: url("../img/icons/news-feed-sprite.png") no-repeat 0 -1370px;
+            }
         }
     }
 }

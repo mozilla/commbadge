@@ -14,6 +14,8 @@ define('routes_api', [], function() {
         'threads': '/api/v1/comm/thread/',
         'thread': '/api/v1/comm/thread/{0}/',
         'notes': '/api/v1/comm/thread/{0}/note/',
-        'note': '/api/v1/comm/thread/{0}/note/{1}/'
+        'note': '/api/v1/comm/thread/{0}/note/{1}/',
+        'attachments': '/api/v1/comm/note/{0}/attachment/',
+        'attachment': '/api/v1/comm/note/{0}/attachment/{1}',
     };
 });

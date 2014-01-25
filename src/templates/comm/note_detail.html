@@ -16,4 +16,14 @@
       <span class="empty">{{ _('Empty note') }}</span>
     {% endif %}
   </div>
+  <ul class="note-attachments">
+    {% for attachment in note.attachments %}
+      <li>
+        <a {% if attachment.is_image %}class="image" {% endif %}
+           href="{{ api('attachment', [note.id, attachment.id]) }}" download>
+          {{ attachment.display_name }}
+        </a>
+      </li>
+    {% endfor  %}
+  </ul>
 </div>
