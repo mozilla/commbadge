@@ -36,7 +36,7 @@
     </div>
     <div class="reply-box c hidden">
       <textarea placeholder="{{ _('Enter note text here') }}" class="reply-text" rows="4" cols="80" name="body"></textarea>
-      <button class="button alt post disabled create-thread">{{ _('Post') }}</button>
+      <button class="button alt post disabled{% if not thread %} create-thread{% endif %}">{{ _('Post') }}</button>
     </div>
     <div class="filter-options-container">
       <ul>
