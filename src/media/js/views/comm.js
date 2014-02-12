@@ -1,6 +1,6 @@
 define('views/comm',
-    ['cache', 'l10n', 'notification', 'nunjucks', 'requests', 'storage', 'urls', 'z'],
-    function(cache, l10n, notification, nunjucks, requests, storage, urls, z) {
+    ['cache', 'jquery', 'jquery.fakefilefield', 'l10n', 'notification', 'nunjucks', 'requests', 'storage', 'underscore', 'urls', 'utils', 'z'],
+    function(cache, $, fakefilefield, l10n, notification, nunjucks, requests, storage, _, urls, utils, z) {
     'use strict';
 
     var gettext = l10n.gettext;
@@ -57,7 +57,7 @@ define('views/comm',
 
             postNoteEnabled = true;
             notification.notification({message: gettext('Message sent.')});
-            def.resolve();
+            def.resolve(data);
 
         }).fail(function() {
             postNoteEnabled = true;
@@ -69,14 +69,33 @@ define('views/comm',
         return def;
     };
 
+    var postAttachments = function($thread, note_id) {
+        var $attachments = $thread.find('.attachment-field');
+        var attachUrl = urls.api.url('attachments', [note_id]);
+
+        // Send attachment with XHR2.
+        var formData = new FormData();
+        $attachments.each(function(i, attachment) {
+            var $attachment = $(attachment);
+            formData.append('form-' + i + '-attachment', $attachment.find('.realfileinput').get(0).files[0]);
+            formData.append('form-' + i + '-description', $attachment.find('.attach-description input').val());
+        });
+
+        var xhr = new XMLHttpRequest();
+        xhr.open('POST', attachUrl);
+        xhr.send(formData);
+    };
+
     z.page.on('click', '.reply.button.open-reply', function(e) {
         // Open reply box.
         var $this = $(this);
-        $this.closest('.thread-header').find('.reply-box').removeClass('hidden');
+        var $thread = $this.closest('.thread-header');
+        $thread.find('.reply-box').removeClass('hidden');
         $this.removeClass('open-reply')
              .addClass('close-reply')
              .find('.reply')
              .html(gettext('Cancel reply'));
+        showAttachmentForm($thread);
 
     }).on('click', '.reply.button.close-reply', function(e) {
         // Close/hide reply box.
@@ -97,8 +116,9 @@ define('views/comm',
         var $this = $(this);
         var replyBox = $this.closest('.thread-header').find('.reply-box').addClass('hidden');
         if (postNoteEnabled) {
-            postNote($this.siblings('.reply-text')).done(function() {
+            postNote($this.siblings('.reply-text')).done(function(note) {
                 replyBox.val('');
+                postAttachments($this.closest('.thread-item'), note.id);
             });
         }
 
@@ -233,6 +253,27 @@ define('views/comm',
             notification.notification({message: gettext('There was some problem marking the thread as read. Try again.')});
         });
     });
+
+    var attachTemplate;
+    function showAttachmentForm($thread) {
+        if (!attachTemplate) {
+            attachTemplate = _.template($('#attachment-field').html());
+        }
+
+        var $attachments = $('.attachments', $thread);
+
+        // Add a new attachment field when the button is clicked.
+        var $addField = $('.add-attach-field', $attachments);
+        $addField.on('click', utils._pd(function(e) {
+            $('.fields', $attachments).append(attachTemplate({'n' : 0}));
+            $('.fileinput', $attachments).fakeFileField();
+        }));
+
+        // Initialize the first attachment field.
+        if (!$('.fileinput', $attachments).length) {
+            $addField.trigger('click');
+        }
+    }
 
     return function(builder) {
         builder.start('comm/main.html');

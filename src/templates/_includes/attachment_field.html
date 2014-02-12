@@ -1,0 +1,14 @@
+<script type="text/template" id="attachment-field">
+  <div class="attachment-field">
+    <div class="fileinput" data-fileinput>
+      <div class="hidden" data-fileinput-fake>
+        <input type="text" placeholder="{{ _('Attachment') }}">
+      </div>
+      <input type="file" name="form-<%= n %>-attachment" class="realfileinput">
+    </div>
+
+    <div class="attach-description">
+      <input type="text" name="form-<%= n %>-description" placeholder="{{ _('File Description') }}">
+    </div>
+  </div>
+</script>

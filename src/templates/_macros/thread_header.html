@@ -1,3 +1,5 @@
+{% include '_macros/reply_box.html' %}
+
 {% macro thread_header(app, icon_url, version_number, thread, user) %}
   {#
     Thread header moved into a macro to be used for both viewing thread + creating thread.
@@ -34,10 +36,7 @@
         </button>
       </div>
     </div>
-    <div class="reply-box c hidden">
-      <textarea placeholder="{{ _('Enter note text here') }}" class="reply-text" rows="4" cols="80" name="body"></textarea>
-      <button class="button alt post disabled{% if not thread %} create-thread{% endif %}">{{ _('Post') }}</button>
-    </div>
+    {{ reply_box(not thread) }}
     <div class="filter-options-container">
       <ul>
         <li><a href="#show-recent-{{ thread.id }}" class="notes-filter filter-recent selected" data-filter-mode="recent">{{ _('Recent') }}</a></li>

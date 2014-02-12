@@ -1,0 +1,17 @@
+{% macro reply_box(create_thread) %}
+  <div class="reply-box c hidden">
+    <textarea placeholder="{{ _('Enter note text here') }}" class="reply-text" rows="4" cols="80" name="body"></textarea>
+
+    <div class="attachments">
+      <form enctype="multipart/form-data" method="post">
+        <strong>{{ _('Attach screenshots and log files:') }}</strong>
+        <div class="fields"></div>
+        <a href="#" class="add-attach-field">{{ _('Attach another file') }}</a>
+      </form>
+    </div>
+
+    <button class="button alt post disabled{% if create_thread %} create-thread{% endif %}">
+      {{ _('Post') }}
+    </button>
+  </div>
+{% endmacro %}
