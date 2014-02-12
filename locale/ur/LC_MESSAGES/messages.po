@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-08T17:43:33.085Z\n"
+"POT-Creation-Date: 2014-02-12T18:30:34.632Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -91,77 +91,77 @@ msgstr ""
 msgid "Sign in / Sign up"
 msgstr ""
 
-#: /templates/_macros/thread.html:9
+#: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr ""
+
+#: /templates/_macros/thread.html:14
+msgid "View older"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:16
 msgid "{app_name} (Version {version_number})"
 msgstr ""
 
-#: /templates/_macros/thread.html:12
+#: /templates/_macros/thread_header.html:19
 msgid "(Obsolete)"
 msgstr ""
 
-#: /templates/_macros/thread.html:17 /media/js/views/comm.js:32
+#: /templates/_macros/thread_header.html:25 /media/js/views/comm.js:42
 msgid "{n} note"
 msgid_plural "{n} notes"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /templates/_macros/thread.html:22 /media/js/views/comm.js:42 /media/js/views/comm.js:76
+#: /templates/_macros/thread_header.html:31 /media/js/views/comm.js:52 /media/js/views/comm.js:88
 msgid "Reply"
 msgstr ""
 
-#: /templates/_macros/thread.html:28
+#: /templates/_macros/thread_header.html:37
 msgid "Enter note text here"
 msgstr ""
 
-#: /templates/_macros/thread.html:29
+#: /templates/_macros/thread_header.html:38
 msgid "Post"
 msgstr ""
 
-#: /templates/_macros/thread.html:34
+#: /templates/_macros/thread_header.html:42
 msgid "Recent"
 msgstr ""
 
-#: /templates/_macros/thread.html:37
+#: /templates/_macros/thread_header.html:44
 msgid "Unread"
 msgstr ""
 
-#: /templates/_macros/thread.html:40
+#: /templates/_macros/thread_header.html:45
 msgid "Read"
 msgstr ""
 
-#: /templates/_macros/thread.html:44
+#: /templates/_macros/thread_header.html:47
 msgid "Review"
 msgstr ""
 
-#: /templates/_macros/thread.html:48
+#: /templates/_macros/thread_header.html:49
 msgid "Mark All Read"
 msgstr ""
 
-#: /templates/_macros/thread.html:60
-msgid "View older"
-msgstr ""
-
-#: /templates/comm/app_dashboard.html:5
+#: /templates/comm/app_dashboard.html:6
 msgid "App icon"
 msgstr ""
 
-#: /templates/comm/app_dashboard.html:6
+#: /templates/comm/app_dashboard.html:7
 msgid "Viewing All Threads for {app_name}"
 msgstr ""
 
-#: /templates/comm/app_dashboard.html:7 /templates/comm/app_dashboard.html:10
+#: /templates/comm/app_dashboard.html:8 /templates/comm/app_dashboard.html:11
 msgid "Back to my threads"
 msgstr ""
 
-#: /templates/comm/app_dashboard.html:9
+#: /templates/comm/app_dashboard.html:10
 msgid "App Not Found"
 msgstr ""
 
-#: /templates/comm/app_dashboard.html:24
-msgid "This app does not have any threads yet."
-msgstr ""
-
-#: /templates/comm/app_dashboard.html:30
+#: /templates/comm/app_dashboard.html:34
 msgid "Error loading threads"
 msgstr ""
 
@@ -173,15 +173,19 @@ msgstr ""
 msgid "You have no threads."
 msgstr ""
 
-#: /templates/comm/no_notes.html:1
-msgid "No notes found"
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
 msgstr ""
 
-#: /templates/comm/show_thread.html:6
+#: /templates/comm/note_detail.html:15
+msgid "Empty note"
+msgstr ""
+
+#: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
 msgstr ""
 
-#: /templates/comm/show_thread.html:9
+#: /templates/comm/show_thread.html:10
 msgid "Back to all threads for {app_name}"
 msgstr ""
 
@@ -192,14 +196,6 @@ msgstr ""
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
-msgstr ""
-
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr ""
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
 msgstr ""
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
@@ -277,31 +273,31 @@ msgid_plural "<b>{n}</b> characters left."
 msgstr[0] ""
 msgstr[1] ""
 
-#: /media/js/views/comm.js:49
+#: /media/js/views/comm.js:59
 msgid "Message sent."
 msgstr ""
 
-#: /media/js/views/comm.js:54
+#: /media/js/views/comm.js:64
 msgid "Message sending failed."
 msgstr ""
 
-#: /media/js/views/comm.js:68
+#: /media/js/views/comm.js:79
 msgid "Cancel reply"
 msgstr ""
 
-#: /media/js/views/comm.js:140
+#: /media/js/views/comm.js:165
 msgid "There are no more older notes."
 msgstr ""
 
-#: /media/js/views/comm.js:188
+#: /media/js/views/comm.js:213
 msgid "There was some problem marking the note as read. Try again."
 msgstr ""
 
-#: /media/js/views/comm.js:200
+#: /media/js/views/comm.js:226
 msgid "No notes to show."
 msgstr ""
 
-#: /media/js/views/comm.js:207
+#: /media/js/views/comm.js:233
 msgid "There was some problem marking the thread as read. Try again."
 msgstr ""
 

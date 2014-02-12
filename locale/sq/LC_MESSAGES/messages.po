@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-08T17:43:33.085Z\n"
+"POT-Creation-Date: 2014-02-12T18:30:34.632Z\n"
 "PO-Revision-Date: 2014-01-09 14:54+0200\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -93,77 +93,77 @@ msgstr "Që të vazhdohet, duhet të bëni hyrjen."
 msgid "Sign in / Sign up"
 msgstr "Hyni / Regjistrohuni"
 
-#: /templates/_macros/thread.html:9
+#: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Nuk u gjetën shënime"
+
+#: /templates/_macros/thread.html:14
+msgid "View older"
+msgstr "Shihni më të vjetrat"
+
+#: /templates/_macros/thread_header.html:16
 msgid "{app_name} (Version {version_number})"
 msgstr "{app_name} (Version {version_number})"
 
-#: /templates/_macros/thread.html:12
+#: /templates/_macros/thread_header.html:19
 msgid "(Obsolete)"
 msgstr "(Të vjetruar)"
 
-#: /templates/_macros/thread.html:17 /media/js/views/comm.js:32
+#: /templates/_macros/thread_header.html:25 /media/js/views/comm.js:42
 msgid "{n} note"
 msgid_plural "{n} notes"
 msgstr[0] "{n} shënim"
 msgstr[1] "{n} shënime"
 
-#: /templates/_macros/thread.html:22 /media/js/views/comm.js:42 /media/js/views/comm.js:76
+#: /templates/_macros/thread_header.html:31 /media/js/views/comm.js:52 /media/js/views/comm.js:88
 msgid "Reply"
 msgstr "Përgjigjuni"
 
-#: /templates/_macros/thread.html:28
+#: /templates/_macros/thread_header.html:37
 msgid "Enter note text here"
 msgstr "Jepni këtu tekstin e shënimit"
 
-#: /templates/_macros/thread.html:29
+#: /templates/_macros/thread_header.html:38
 msgid "Post"
 msgstr "Postoje"
 
-#: /templates/_macros/thread.html:34
+#: /templates/_macros/thread_header.html:42
 msgid "Recent"
 msgstr "Së fundmi"
 
-#: /templates/_macros/thread.html:37
+#: /templates/_macros/thread_header.html:44
 msgid "Unread"
 msgstr "E palexuar"
 
-#: /templates/_macros/thread.html:40
+#: /templates/_macros/thread_header.html:45
 msgid "Read"
 msgstr "E lexuar"
 
-#: /templates/_macros/thread.html:44
+#: /templates/_macros/thread_header.html:47
 msgid "Review"
 msgstr "Shqyrtim"
 
-#: /templates/_macros/thread.html:48
+#: /templates/_macros/thread_header.html:49
 msgid "Mark All Read"
 msgstr "Vëru Shenjë të Tërave Si të Lexuara"
 
-#: /templates/_macros/thread.html:60
-msgid "View older"
-msgstr "Shihni më të vjetrat"
-
-#: /templates/comm/app_dashboard.html:5
+#: /templates/comm/app_dashboard.html:6
 msgid "App icon"
 msgstr "Ikonë zbatimi"
 
-#: /templates/comm/app_dashboard.html:6
+#: /templates/comm/app_dashboard.html:7
 msgid "Viewing All Threads for {app_name}"
 msgstr "Po shihni Krejt Rrjedhat mbi {app_name}"
 
-#: /templates/comm/app_dashboard.html:7 /templates/comm/app_dashboard.html:10
+#: /templates/comm/app_dashboard.html:8 /templates/comm/app_dashboard.html:11
 msgid "Back to my threads"
 msgstr "Mbrapsht te rrjedhat e mia"
 
-#: /templates/comm/app_dashboard.html:9
+#: /templates/comm/app_dashboard.html:10
 msgid "App Not Found"
 msgstr "Nuk U Gjet Zbatim"
 
-#: /templates/comm/app_dashboard.html:24
-msgid "This app does not have any threads yet."
-msgstr "Ende nuk ka ndonjë rrjedhë për këtë zbatim."
-
-#: /templates/comm/app_dashboard.html:30
+#: /templates/comm/app_dashboard.html:34
 msgid "Error loading threads"
 msgstr "Gabim në ngarkimin e rrjedhave"
 
@@ -175,15 +175,19 @@ msgstr "Rrjedhat e Mia"
 msgid "You have no threads."
 msgstr "Nuk keni rrjedhë."
 
-#: /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Nuk u gjetën shënime"
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr "Shënoje këtë shënim si të lexuar"
 
-#: /templates/comm/show_thread.html:6
+#: /templates/comm/note_detail.html:15
+msgid "Empty note"
+msgstr "Shënim i zbrazët"
+
+#: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
 msgstr "Po shihni Rrjedhë për {app_name}"
 
-#: /templates/comm/show_thread.html:9
+#: /templates/comm/show_thread.html:10
 msgid "Back to all threads for {app_name}"
 msgstr "Mbrapsht te krejt rrjedhat për {app_name}"
 
@@ -195,14 +199,6 @@ msgstr "Rrjedha të Këtij Zbatimi"
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
-
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "Shënoje këtë shënim si të lexuar"
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr "Shënim i zbrazët"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -279,31 +275,31 @@ msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "Edhe <b>{n}</b> shenjë."
 msgstr[1] "Edhe <b>{n}</b> shenja."
 
-#: /media/js/views/comm.js:49
+#: /media/js/views/comm.js:59
 msgid "Message sent."
 msgstr "Mesazhi u dërgua."
 
-#: /media/js/views/comm.js:54
+#: /media/js/views/comm.js:64
 msgid "Message sending failed."
 msgstr "Dërgimi i mesazhit dështoi."
 
-#: /media/js/views/comm.js:68
+#: /media/js/views/comm.js:79
 msgid "Cancel reply"
 msgstr "Anuloje përgjigjen"
 
-#: /media/js/views/comm.js:140
+#: /media/js/views/comm.js:165
 msgid "There are no more older notes."
 msgstr "Nuk ka më shënime më të vjetra."
 
-#: /media/js/views/comm.js:188
+#: /media/js/views/comm.js:213
 msgid "There was some problem marking the note as read. Try again."
 msgstr "Pati probleme për t'i vënë shënimit shenjë si i lexuar. Riprovoni."
 
-#: /media/js/views/comm.js:200
+#: /media/js/views/comm.js:226
 msgid "No notes to show."
 msgstr "Pa shënime për shfaqje."
 
-#: /media/js/views/comm.js:207
+#: /media/js/views/comm.js:233
 msgid "There was some problem marking the thread as read. Try again."
 msgstr "Pati probleme për t'i vënë rrjedhës shenjë si e lexuar. Riprovoni."
 

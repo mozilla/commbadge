@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-08T17:43:33.085Z\n"
+"POT-Creation-Date: 2014-02-12T18:30:34.632Z\n"
 "PO-Revision-Date: 2014-01-04 14:45+0000\n"
 "Last-Translator: Inma <inma.barrios@mozilla-hispano.org>\n"
 "Language-Team: Español (España) <nave@elistas.net>\n"
@@ -94,77 +94,77 @@ msgstr "Debes identificarte para continuar."
 msgid "Sign in / Sign up"
 msgstr "Identificarse / Registrarse"
 
-#: /templates/_macros/thread.html:9
+#: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "No se encontraron notas"
+
+#: /templates/_macros/thread.html:14
+msgid "View older"
+msgstr "Ver anteriores"
+
+#: /templates/_macros/thread_header.html:16
 msgid "{app_name} (Version {version_number})"
 msgstr "{app_name} (versión {version_number})"
 
-#: /templates/_macros/thread.html:12
+#: /templates/_macros/thread_header.html:19
 msgid "(Obsolete)"
 msgstr "(obsoleto)"
 
-#: /templates/_macros/thread.html:17 /media/js/views/comm.js:32
+#: /templates/_macros/thread_header.html:25 /media/js/views/comm.js:42
 msgid "{n} note"
 msgid_plural "{n} notes"
 msgstr[0] "{n} nota"
 msgstr[1] "{n} notas"
 
-#: /templates/_macros/thread.html:22 /media/js/views/comm.js:42 /media/js/views/comm.js:76
+#: /templates/_macros/thread_header.html:31 /media/js/views/comm.js:52 /media/js/views/comm.js:88
 msgid "Reply"
 msgstr "Responder"
 
-#: /templates/_macros/thread.html:28
+#: /templates/_macros/thread_header.html:37
 msgid "Enter note text here"
 msgstr "Escribe texto de nota aquí"
 
-#: /templates/_macros/thread.html:29
+#: /templates/_macros/thread_header.html:38
 msgid "Post"
 msgstr "Publicar"
 
-#: /templates/_macros/thread.html:34
+#: /templates/_macros/thread_header.html:42
 msgid "Recent"
 msgstr "Recientes"
 
-#: /templates/_macros/thread.html:37
+#: /templates/_macros/thread_header.html:44
 msgid "Unread"
 msgstr "No leídas"
 
-#: /templates/_macros/thread.html:40
+#: /templates/_macros/thread_header.html:45
 msgid "Read"
 msgstr "Leídas"
 
-#: /templates/_macros/thread.html:44
+#: /templates/_macros/thread_header.html:47
 msgid "Review"
 msgstr "Revisar"
 
-#: /templates/_macros/thread.html:48
+#: /templates/_macros/thread_header.html:49
 msgid "Mark All Read"
 msgstr "Marcar todas como leídas"
 
-#: /templates/_macros/thread.html:60
-msgid "View older"
-msgstr "Ver anteriores"
-
-#: /templates/comm/app_dashboard.html:5
+#: /templates/comm/app_dashboard.html:6
 msgid "App icon"
 msgstr "Icono de aplicación"
 
-#: /templates/comm/app_dashboard.html:6
+#: /templates/comm/app_dashboard.html:7
 msgid "Viewing All Threads for {app_name}"
 msgstr "Visualizando todas las conversaciones de {app_name}"
 
-#: /templates/comm/app_dashboard.html:7 /templates/comm/app_dashboard.html:10
+#: /templates/comm/app_dashboard.html:8 /templates/comm/app_dashboard.html:11
 msgid "Back to my threads"
 msgstr "Volver a mis temas"
 
-#: /templates/comm/app_dashboard.html:9
+#: /templates/comm/app_dashboard.html:10
 msgid "App Not Found"
 msgstr "Aplicación no encontrada"
 
-#: /templates/comm/app_dashboard.html:24
-msgid "This app does not have any threads yet."
-msgstr "Esta aplicación no tiene aún ningún tema."
-
-#: /templates/comm/app_dashboard.html:30
+#: /templates/comm/app_dashboard.html:34
 msgid "Error loading threads"
 msgstr "Error al cargar los temas"
 
@@ -176,15 +176,19 @@ msgstr "Mis temas"
 msgid "You have no threads."
 msgstr "No tienes ningún hilo."
 
-#: /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "No se encontraron notas"
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr "Marcar esta nota como leída"
 
-#: /templates/comm/show_thread.html:6
+#: /templates/comm/note_detail.html:15
+msgid "Empty note"
+msgstr "Nota vacía"
+
+#: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
 msgstr "Ver temas de {app_name}"
 
-#: /templates/comm/show_thread.html:9
+#: /templates/comm/show_thread.html:10
 msgid "Back to all threads for {app_name}"
 msgstr "Volver a todos los temas de {app_name}"
 
@@ -196,14 +200,6 @@ msgstr "Temas de esta aplicación"
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
-
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "Marcar esta nota como leída"
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr "Nota vacía"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -280,31 +276,31 @@ msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "Queda <b>{n}</b> carácter."
 msgstr[1] "Quedan <b>{n}</b> caracteres."
 
-#: /media/js/views/comm.js:49
+#: /media/js/views/comm.js:59
 msgid "Message sent."
 msgstr "Mensaje enviado."
 
-#: /media/js/views/comm.js:54
+#: /media/js/views/comm.js:64
 msgid "Message sending failed."
 msgstr "Error al enviar mensaje."
 
-#: /media/js/views/comm.js:68
+#: /media/js/views/comm.js:79
 msgid "Cancel reply"
 msgstr "Cancelar respuesta"
 
-#: /media/js/views/comm.js:140
+#: /media/js/views/comm.js:165
 msgid "There are no more older notes."
 msgstr "No hay más notas anteriores."
 
-#: /media/js/views/comm.js:188
+#: /media/js/views/comm.js:213
 msgid "There was some problem marking the note as read. Try again."
 msgstr "Hubo un problema al marcar la nota como leída. Inténtalo de nuevo pasados unos minutos."
 
-#: /media/js/views/comm.js:200
+#: /media/js/views/comm.js:226
 msgid "No notes to show."
 msgstr "No hay notas que mostrar."
 
-#: /media/js/views/comm.js:207
+#: /media/js/views/comm.js:233
 msgid "There was some problem marking the thread as read. Try again."
 msgstr "Hubo un problema al marcar el hilo como leído. Inténtalo de nuevo pasados unos minutos."
 
