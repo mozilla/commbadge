@@ -3,310 +3,320 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-01-08T17:43:33.085Z\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2014-02-09 20:45+0000\n"
+"Last-Translator: Vanja <vtumbas@mozilla.rs>\n"
 "Language-Team: none\n"
-"Language: en-us\n"
+"Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Fireplace L10n Tools 1.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1391978726.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
-msgstr ""
+msgstr "Zatvori"
 
 #: /templates/confirmation.html:3
 msgid "No"
-msgstr ""
+msgstr "Ne"
 
 #: /templates/confirmation.html:4
 msgid "Yes"
-msgstr ""
+msgstr "Da"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
-msgstr ""
+msgstr "Razvijaj aplikacije"
 
 #: /templates/footer.html:5
 msgid "Developer Hub"
-msgstr ""
+msgstr "Centar za programera"
 
 #: /templates/footer.html:6
 msgid "Support"
-msgstr ""
+msgstr "Podrška"
 
 #: /templates/footer.html:10
 msgid "My Submissions"
-msgstr ""
+msgstr "Moje prijave"
 
 #: /templates/footer.html:13
 msgid "Reviewer Tools"
-msgstr ""
+msgstr "Alati recezenta"
 
 #: /templates/footer.html:16
 msgid "Lookup Tool"
-msgstr ""
+msgstr "Alatka za pronalaženje"
 
 #: /templates/footer.html:24
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
 "Alike License v3.0</a> or any later version."
 msgstr ""
+"Osim gde je drugačije <a href=\"{legal_url}\" target=\"_blank\">navedeno</a>, "
+"sadržaj na ovom sajtu je licenciran pod <a href=\"{cc_url}\" "
+"target=\"_blank\">Creative Commons Attribution Share-Alike licencom v3.0</a> "
+"ili novijom verzijom."
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Polisa privatnosti"
 
 #: /templates/footer.html:30
 msgid "Terms of Use"
-msgstr ""
+msgstr "Uslovi korišćenja"
 
 #: /templates/footer.html:32
 msgid "Report Trademark Abuse"
-msgstr ""
+msgstr "Prijavite zloupotrebu robne marke"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
-msgstr ""
+msgstr "Komunikaciona kontrolna tabla"
 
 #: /templates/header.html:7
 msgid "Sign Out"
-msgstr ""
+msgstr "Odjavi se"
 
 #: /templates/header.html:8
 msgid "Sign In"
-msgstr ""
+msgstr "Prijavi se"
 
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
-msgstr ""
+msgstr "Prijavi se"
 
 #: /templates/login.html:3
 msgid "You must sign in to proceed."
-msgstr ""
+msgstr "Morate se prijaviti kako biste nastavili dalje."
 
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
-msgstr ""
+msgstr "Prijavi se / Registruj se"
 
 #: /templates/_macros/thread.html:9
 msgid "{app_name} (Version {version_number})"
-msgstr ""
+msgstr "{app_name} (Verzija {version_number})"
 
 #: /templates/_macros/thread.html:12
 msgid "(Obsolete)"
-msgstr ""
+msgstr "(Zastareo)"
 
 #: /templates/_macros/thread.html:17 /media/js/views/comm.js:32
 msgid "{n} note"
 msgid_plural "{n} notes"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "{n} beleška"
+msgstr[1] "{n} beleške"
+msgstr[2] "{n} beleški"
 
 #: /templates/_macros/thread.html:22 /media/js/views/comm.js:42 /media/js/views/comm.js:76
 msgid "Reply"
-msgstr ""
+msgstr "Odgovori"
 
 #: /templates/_macros/thread.html:28
 msgid "Enter note text here"
-msgstr ""
+msgstr "Ovde unesite tekst"
 
 #: /templates/_macros/thread.html:29
 msgid "Post"
-msgstr ""
+msgstr "Poruka"
 
 #: /templates/_macros/thread.html:34
 msgid "Recent"
-msgstr ""
+msgstr "Skorašnje"
 
 #: /templates/_macros/thread.html:37
 msgid "Unread"
-msgstr ""
+msgstr "Nepročitane"
 
 #: /templates/_macros/thread.html:40
 msgid "Read"
-msgstr ""
+msgstr "Pročitaj"
 
 #: /templates/_macros/thread.html:44
 msgid "Review"
-msgstr ""
+msgstr "Oceni"
 
 #: /templates/_macros/thread.html:48
 msgid "Mark All Read"
-msgstr ""
+msgstr "Označi sve pročitane"
 
 #: /templates/_macros/thread.html:60
 msgid "View older"
-msgstr ""
+msgstr "Pogledajte starije"
 
 #: /templates/comm/app_dashboard.html:5
 msgid "App icon"
-msgstr ""
+msgstr "Ikonica aplikacije"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "Viewing All Threads for {app_name}"
-msgstr ""
+msgstr "Pregled svih tema za {app_name}"
 
 #: /templates/comm/app_dashboard.html:7 /templates/comm/app_dashboard.html:10
 msgid "Back to my threads"
-msgstr ""
+msgstr "Povratak na moje teme"
 
 #: /templates/comm/app_dashboard.html:9
 msgid "App Not Found"
-msgstr ""
+msgstr "Aplikacija nije pronađena"
 
 #: /templates/comm/app_dashboard.html:24
 msgid "This app does not have any threads yet."
-msgstr ""
+msgstr "Ova aplikacija još uvek nema tema."
 
 #: /templates/comm/app_dashboard.html:30
 msgid "Error loading threads"
-msgstr ""
+msgstr "Greška pri učitavanju tema"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
-msgstr ""
+msgstr "Moje teme"
 
 #: /templates/comm/main.html:13
 msgid "You have no threads."
-msgstr ""
+msgstr "Nemate teme."
 
 #: /templates/comm/no_notes.html:1
 msgid "No notes found"
-msgstr ""
+msgstr "Nema pronađenih beleški"
 
 #: /templates/comm/show_thread.html:6
 msgid "Viewing Thread for {app_name}"
-msgstr ""
+msgstr "Gledate temu za {app_name}"
 
 #: /templates/comm/show_thread.html:9
 msgid "Back to all threads for {app_name}"
-msgstr ""
+msgstr "Povratak na sve teme za {app_name}"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Threads"
-msgstr ""
+msgstr "Teme ove aplikacije"
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
-msgstr ""
+msgstr "v.{version_number}"
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
-msgstr ""
+msgstr "Označite ovu belešku kao pročitanu"
 
 #: /templates/comm/note_detail.html:15
 msgid "Empty note"
-msgstr ""
+msgstr "Prazna beleška"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
-msgstr ""
+msgstr "Oh ne!"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
-msgstr ""
+msgstr "Stranica koju ste tražili nije pronađena."
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
-msgstr ""
+msgstr "Došlo je do greške."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
-msgstr ""
+msgstr "Greška pri učitavanju"
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
-msgstr ""
+msgstr "Pokušaj ponovo"
 
 #: /media/js/login.js:8
 msgid "You have been signed out"
-msgstr ""
+msgstr "Odjavljeni ste"
 
 #: /media/js/login.js:12
 msgid "You have been signed in"
-msgstr ""
+msgstr "Prijavljeni ste"
 
 #: /media/js/login.js:127
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr ""
+"Prijava na Persona je neuspela. Možda nemate nalog pod tom adresom e-pošte?"
 
 #: /media/js/login.js:132
 msgid "Persona login failed. A server error was encountered."
-msgstr ""
+msgstr "Prijava na Persona nije uspela. Došlo je do greške na serveru."
 
 #: /media/js/main.js:55
 msgid "Message"
-msgstr ""
+msgstr "Poruka"
 
 #: /media/js/main.js:56
 msgid "App approved"
-msgstr ""
+msgstr "Aplikacija je odobrena"
 
 #: /media/js/main.js:57
 msgid "App rejected"
-msgstr ""
+msgstr "Aplikacija je odbijena"
 
 #: /media/js/main.js:58
 msgid "App disabled"
-msgstr ""
+msgstr "Aplikacija je onemogućena"
 
 #: /media/js/main.js:59
 msgid "More info required"
-msgstr ""
+msgstr "Potrebno je više informacija"
 
 #: /media/js/main.js:60
 msgid "Review escalated to senior reviewer"
-msgstr ""
+msgstr "Recenzija je eskalirala do višeg recezenta"
 
 #: /media/js/main.js:61
 msgid "Reviewer comment"
-msgstr ""
+msgstr "Rezecent komentara"
 
 #: /media/js/navigation.js:31
 msgid "No internet connection"
-msgstr ""
+msgstr "Nema internet konekcije"
 
 #. {n} is the number of characters left.
 #: /media/js/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Preostalo karaktera: <b>{n}</b>."
+msgstr[1] "Preostalo karaktera: <b>{n}</b>."
+msgstr[2] "Preostalo karaktera: <b>{n}</b>."
 
 #: /media/js/views/comm.js:49
 msgid "Message sent."
-msgstr ""
+msgstr "Poruka je poslata."
 
 #: /media/js/views/comm.js:54
 msgid "Message sending failed."
-msgstr ""
+msgstr "Neuspešno slanje poruke."
 
 #: /media/js/views/comm.js:68
 msgid "Cancel reply"
-msgstr ""
+msgstr "Otkaži odgovor"
 
 #: /media/js/views/comm.js:140
 msgid "There are no more older notes."
-msgstr ""
+msgstr "Nema više starih beleški."
 
 #: /media/js/views/comm.js:188
 msgid "There was some problem marking the note as read. Try again."
 msgstr ""
+"Došlo je do problema pri označavanju beleške kao pročitane. Pokušajte ponovo."
 
 #: /media/js/views/comm.js:200
 msgid "No notes to show."
-msgstr ""
+msgstr "Nema beleški za prikazivanje."
 
 #: /media/js/views/comm.js:207
 msgid "There was some problem marking the thread as read. Try again."
 msgstr ""
+"Bilo je nekih problema oko označavanja teme kao pročitane. Pokušajte ponovo."
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9
 msgid "Not Found"
-msgstr ""
+msgstr "Nije pronađeno"
