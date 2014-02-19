@@ -82,6 +82,21 @@ define('views/comm',
         });
 
         var xhr = new XMLHttpRequest();
+        xhr.onload = function() {
+            var data = JSON.parse(this.responseText);
+            var $attachmentList = $('.note-detail[data-note-id="' + note_id + '"] .note-attachments');
+
+            var markup = '';
+            if (!$('li', $attachmentList).length) {
+              data.attachments.forEach(function(attachment) {
+                markup += nunjucks.env.render('_includes/attachment.html', {
+                    note: data,
+                    attachment: attachment
+                });
+              });
+            }
+            $attachmentList.html(markup);
+        };
         xhr.open('POST', attachUrl);
         xhr.send(formData);
     };

@@ -18,12 +18,7 @@
   </div>
   <ul class="note-attachments">
     {% for attachment in note.attachments %}
-      <li>
-        <a {% if attachment.is_image %}class="image" {% endif %}
-           href="{{ api('attachment', [note.id, attachment.id]) }}" download>
-          {{ attachment.display_name }}
-        </a>
-      </li>
+      {% include '_includes/attachment.html' %}
     {% endfor  %}
   </ul>
 </div>
