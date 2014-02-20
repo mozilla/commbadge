@@ -51,17 +51,10 @@ require.config({
             return ('http://www.gravatar.com/avatar/' + gravatar_hash + '?s=' +
                     (size || 36));
         };
-        var note_types = [
-            {'name': 'NO_ACTION', 'class': 'post', 'msg': gettext('Message')},
-            {'name': 'APPROVAL', 'class': 'approve','msg': gettext('App approved')},
-            {'name': 'REJECTION', 'class': 'reject', 'msg': gettext('App rejected')},
-            {'name': 'DISABLED', 'class': 'disable', 'msg': gettext('App disabled')},
-            {'name': 'MORE_INFO_REQUIRED', 'class': 'need-info', 'msg': gettext('More info required')},
-            {'name': 'ESCALATION', 'class': 'escalate', 'msg': gettext('Review escalated to senior reviewer')},
-            {'name': 'REVIEWER_COMMENT', 'class': 'comment', 'msg': gettext('Reviewer comment')}
-        ];
+
+        var settings = require('settings');
         nunjucks_globals.note_action = function(note_type) {
-            return note_types[note_type];
+            return settings.note_types[note_type];
         };
 
         z.body.addClass('html-' + require('l10n').getDirection());

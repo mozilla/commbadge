@@ -191,7 +191,10 @@ tick() {
             &.post {
                 color: $medium-gray;
             }
-            &.approve {
+            &.approve,
+            &.approve-waiting,
+            &.escalate-clear,
+            &.rereview-clear {
                 color: $green;
             }
             &.disable,
@@ -199,7 +202,10 @@ tick() {
                 color: $red;
             }
             &.need-info,
-            &.escalate {
+            &.escalate,
+            &.resubmit,
+            &.escalate-abuse,
+            &.escalate-high-refunds {
                 color: $orange;
             }
         }
