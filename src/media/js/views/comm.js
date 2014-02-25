@@ -75,14 +75,22 @@ define('views/comm',
 
         // Send attachment with XHR2.
         var formData = new FormData();
+        var hasInput;
         $attachments.each(function(i, attachment) {
             var $attachment = $(attachment);
+            if ($('[type="file"]', $attachment).val() != '') {
+                hasInput = true;
+            }
             formData.append('form-' + i + '-attachment', $attachment.find('.realfileinput').get(0).files[0]);
             formData.append('form-' + i + '-description', $attachment.find('.attach-description input').val());
         });
+        if (!hasInput) {
+            return;
+        }
 
         var xhr = new XMLHttpRequest();
         xhr.onload = function() {
+            // Add attachment response to note.
             var data = JSON.parse(this.responseText);
             var $attachmentList = $('.note-detail[data-note-id="' + note_id + '"] .note-attachments');
 
@@ -99,6 +107,10 @@ define('views/comm',
         };
         xhr.open('POST', attachUrl);
         xhr.send(formData);
+
+        // Clear input.
+        $thread.find('.attachment-field:first-child input').val('');
+        $thread.find('.attachment-field:not(:first-child)').remove();
     };
 
     z.page.on('click', '.reply.button.open-reply', function(e) {
@@ -126,23 +138,14 @@ define('views/comm',
         var $this = $(this);
         $this.siblings('button.post').toggleClass('disabled', !$this.val().length);
 
-    }).on('click', 'button.post:not(.create-thread)', function(e) {
+    }).on('click', 'button.post', function(e) {
         // Post the note.
         var $this = $(this);
         var replyBox = $this.closest('.thread-header').find('.reply-box').addClass('hidden');
         if (postNoteEnabled) {
-            postNote($this.siblings('.reply-text')).done(function(note) {
+            postNote($this.siblings('.reply-text'), $this.hasClass('create-thread')).done(function(note) {
                 replyBox.val('');
                 postAttachments($this.closest('.thread-item'), note.id);
-            });
-        }
-
-    }).on('click', 'button.post.create-thread', function(e) {
-        // Create thread (i.e. posting to a thread with 0 notes.).
-        var replyBox = $(this).closest('.thread-header').find('.reply-box').addClass('hidden');
-        if (postNoteEnabled) {
-            postNote($(this).siblings('.reply-text'), true).done(function() {
-                replyBox.val('');
             });
         }
 
@@ -152,6 +155,10 @@ define('views/comm',
         var threadId = $threadItem.data('thread-id');
         var filterMode = $this.data('filter-mode');
         var params = {ordering: '-created', limit: 5};
+
+        if (!threadId) {
+            return;
+        }
 
         $threadItem.data('notes-filter', filterMode);
         $threadItem.data('notes-page', 1);

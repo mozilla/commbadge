@@ -25,13 +25,21 @@
     {% else %}
       {% defer (url=app_endpoint) %}
         {# Show create thread widget for most recent version. #}
-        {{ create_thread(this, max.apply(Math, this.versions.keys())) }}
+        {% for version in this.versions.keys() %}
+          {{ create_thread(this, version) }}
+        {% endfor %}
       {% end %}
     {% endif %}
 
   {% placeholder %}
     <div class="spinner alt"></div>
   {% except %}
-    <p>{{ _('Error loading threads') }}</p>
+    {% if error == 403 %}
+      <p>{{ _("You are not allowed to access this app's threads.") }}</p>
+    {% else %}
+      <p>{{ _('Error loading threads') }}</p>
+    {% endif %}
   {% end %}
+
+  {% include '_includes/attachment_field.html' %}
 </section>

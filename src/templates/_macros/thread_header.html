@@ -43,9 +43,11 @@
         {% if thread %}
           <li><a href="#show-unread-{{ thread.id }}" class="notes-filter filter-unread" data-filter-mode="unread">{{ _('Unread') }}</a></li>
           <li><a href="#show-read-{{ thread.id }}" class="notes-filter filter-read" data-filter-mode="read">{{ _('Read') }}</a></li>
-          {% if user and user.get_permission('reviewer') %}
-            <li><a class="review-link" href="{{ thread.addon_meta.review_url }}">{{ _('Review') }}</a></li>
-          {% endif %}
+        {% endif %}
+        {% if user and user.get_permission('reviewer') %}
+          <li><a class="review-link" href="{{ thread.addon_meta.review_url }}">{{ _('Review') }}</a></li>
+        {% endif %}
+        {% if thread %}
           <li><b title="{{ _('Mark All Read') }}" class="mark-thread-read tick"></b></li>
         {% endif %}
       </ul>
