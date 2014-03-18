@@ -1,307 +1,313 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-02-12T18:30:34.632Z\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2014-03-18 06:44+0000\n"
+"Last-Translator: Inder <inddi123in@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: pa\n"
 "MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);Content-Type: text/plain; charset=UTF-8\n"
-"X-Generator: Fireplace L10n Tools 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1) ;\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1395125090.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
-msgstr ""
+msgstr "ਬੰਦ"
 
 #: /templates/confirmation.html:3
 msgid "No"
-msgstr ""
+msgstr "ਨਹੀਂ"
 
 #: /templates/confirmation.html:4
 msgid "Yes"
-msgstr ""
+msgstr "ਹਾਂ"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
-msgstr ""
+msgstr "ਵਿਕਾਸ ਐਪਸ"
 
 #: /templates/footer.html:5
 msgid "Developer Hub"
-msgstr ""
+msgstr "ਡਿਵੈਲਪਰ ਹਬ"
 
 #: /templates/footer.html:6
 msgid "Support"
-msgstr ""
+msgstr "ਸਹਾਇਕ"
 
 #: /templates/footer.html:10
 msgid "My Submissions"
-msgstr ""
+msgstr "ਮੇਰੀਆਂ ਬੇਨਤੀਆਂ"
 
 #: /templates/footer.html:13
 msgid "Reviewer Tools"
-msgstr ""
+msgstr "ਸਮੀਖਿਅਕ ਸੰਦ"
 
 #: /templates/footer.html:16
 msgid "Lookup Tool"
-msgstr ""
+msgstr "ਖੋਜ ਸੰਦ"
 
 #: /templates/footer.html:24
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
 "Alike License v3.0</a> or any later version."
 msgstr ""
+"ਹੋਰ ਆਖਿਰੀ href=\"{legal_url}\" target=\"_blank\"> </ a> ਨੋਟ, ਜਿੱਥੇ ਛੱਡ ਕੇ, ਇਹ "
+"ਸਾਈਟ ਦੀ ਸਮੱਗਰੀ ।  ਤੇ ਆਖਿਰੀ href=\"{cc_url}\" target=\"_blank\"> ਕਰੀਏਟਿਵ ਕਾਮਨਜ਼ "
+"ਐਟ੍ਰਬ੍ਯੂਸ਼ਨ ਅਧੀਨ ਜਾਰੀ ਕੀਤਾ ਗਿਆ ਹੈ ਸ਼ੇਅਰ-ਅਲਾਇਕ ਲਾਈਸਿੰਸ v3.0 </ a> ਜੇ ਕੋਈ ਬਾਅਦ "
+"ਵਾਲਾ ਵਰਜਨ ਹੈ।"
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
-msgstr ""
+msgstr "ਨਿੱਜੀ ਨੀਤੀ"
 
 #: /templates/footer.html:30
 msgid "Terms of Use"
-msgstr ""
+msgstr "ਵਰਤੋ ਦੇ ਅਧਾਰ"
 
 #: /templates/footer.html:32
 msgid "Report Trademark Abuse"
-msgstr ""
+msgstr "ਰੀਪੋਰਟ ਟਰੇਡਮਾਰਕ ਦੀ ਦੁਰਵਰਤੋ"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
-msgstr ""
+msgstr "ਸੰਚਾਰ ਡੈਸ਼ਬੋਰਡ"
 
 #: /templates/header.html:7
 msgid "Sign Out"
-msgstr ""
+msgstr "ਸਾਈਨ ਆਉਟ"
 
 #: /templates/header.html:8
 msgid "Sign In"
-msgstr ""
+msgstr "ਸਾਈਨ ਇਨ"
 
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
-msgstr ""
+msgstr "ਸਾਈਨ ਇਨ"
 
 #: /templates/login.html:3
 msgid "You must sign in to proceed."
-msgstr ""
+msgstr "ਤੁਹਾਨੂੰ ਅੱਗੇ ਵਧਣ ਲਈ ਸਾਈਨ ਇਨ ਕਰਨਾ ਲਾਜਮੀ ਹੈ."
 
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
-msgstr ""
+msgstr "ਸਾਈਨ ਇਨ / ਸਾਈਨ ਅੱਪ"
 
 #: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
 msgid "No notes found"
-msgstr ""
+msgstr "ਨੋਟਿਸ ਨਹੀ ਲੱਭੇ"
 
 #: /templates/_macros/thread.html:14
 msgid "View older"
-msgstr ""
+msgstr "ਪੁਰਾਣਾ ਵੇਖੋ"
 
 #: /templates/_macros/thread_header.html:16
 msgid "{app_name} (Version {version_number})"
-msgstr ""
+msgstr "{app_name} (ਵਰਜਨ {version_number}"
 
 #: /templates/_macros/thread_header.html:19
 msgid "(Obsolete)"
-msgstr ""
+msgstr "(ਬਰਤਰਫ਼)"
 
 #: /templates/_macros/thread_header.html:25 /media/js/views/comm.js:42
 msgid "{n} note"
 msgid_plural "{n} notes"
-msgstr[0] ""
+msgstr[0] "{n} ਨੋਟਿਸ{n} ਨੋਟਿਸ"
 msgstr[1] ""
 
 #: /templates/_macros/thread_header.html:31 /media/js/views/comm.js:52 /media/js/views/comm.js:88
 msgid "Reply"
-msgstr ""
+msgstr "ਉੱਤਰ"
 
 #: /templates/_macros/thread_header.html:37
 msgid "Enter note text here"
-msgstr ""
+msgstr "ਇੱਥੇ ਨੋਟ ਟੈਕਸਟ ਦਾਖਲ ਕਰੋ"
 
 #: /templates/_macros/thread_header.html:38
 msgid "Post"
-msgstr ""
+msgstr "ਪੋਸਟ"
 
 #: /templates/_macros/thread_header.html:42
 msgid "Recent"
-msgstr ""
+msgstr "ਤਾਜਾ"
 
 #: /templates/_macros/thread_header.html:44
 msgid "Unread"
-msgstr ""
+msgstr "ਨਾ ਪੜ੍ਹਿਆ"
 
 #: /templates/_macros/thread_header.html:45
 msgid "Read"
-msgstr ""
+msgstr "ਪੜ੍ਹਿਆ"
 
 #: /templates/_macros/thread_header.html:47
 msgid "Review"
-msgstr ""
+msgstr "ਮੁਆਇਨਾ"
 
 #: /templates/_macros/thread_header.html:49
 msgid "Mark All Read"
-msgstr ""
+msgstr "ਸਭ ਮਾਰਕ ਪੜ੍ਹੋ"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
-msgstr ""
+msgstr "ਐਪ ਆਈਕਾਨ"
 
 #: /templates/comm/app_dashboard.html:7
 msgid "Viewing All Threads for {app_name}"
-msgstr ""
+msgstr "{app_name} ਲਈ ਸਭ ਥਰੈੱਡ ਵੈਖੋ"
 
 #: /templates/comm/app_dashboard.html:8 /templates/comm/app_dashboard.html:11
 msgid "Back to my threads"
-msgstr ""
+msgstr "ਮੇਰੇ ਥਰਿੱਡ ਤੇ ਵਾਪਿਸ ਜਾਓ"
 
 #: /templates/comm/app_dashboard.html:10
 msgid "App Not Found"
-msgstr ""
+msgstr "ਐਪ ਨਹੀਂ ਲੱਭਿਆ"
 
 #: /templates/comm/app_dashboard.html:34
 msgid "Error loading threads"
-msgstr ""
+msgstr "ਥਰਿੱਡ ਲੋਡ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
-msgstr ""
+msgstr "ਮੇਰੇ ਥਰਿੱਡ"
 
 #: /templates/comm/main.html:13
 msgid "You have no threads."
-msgstr ""
+msgstr "ਤੁਹਾਡੇ ਕੋਲ ਥਰਿੱਡ ਨਹੀਂ ਹੈ"
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
-msgstr ""
+msgstr "ਪੜ੍ਹਨ ਦੌਰਾਨ ਇਹ ਨੋਟ ਮਾਰਕ "
 
 #: /templates/comm/note_detail.html:15
 msgid "Empty note"
-msgstr ""
+msgstr "ਖਾਲੀ ਨੋਟ"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
-msgstr ""
+msgstr " {app_name} ਲਈ ਥਰਿੱਡ ਦੇਖੋ"
 
 #: /templates/comm/show_thread.html:10
 msgid "Back to all threads for {app_name}"
-msgstr ""
+msgstr " {app_name} ਲਈ ਪਿਛਲੇ ਸਾਰੇ ਥਰਿੱਡਾ ਤੇ ਜਾਓ"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Threads"
-msgstr ""
+msgstr "ਇਹ ਐਪ ਦੇ ਥਰਿੱਡ ਹਨ"
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
-msgstr ""
+msgstr "v.{version_number}"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
-msgstr ""
+msgstr "ਓਹ ਨਹੀਂ!"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
-msgstr ""
+msgstr "ਜੋ ਸਫ਼ਾ ਤਸੀ ਲੱਭ ਰਹੇ ਹੋ ਉਹ ਨਹੀ ਮਿਲਿਆ ਹੈ।"
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
-msgstr ""
+msgstr "ਇੱਕ ਗਲਤੀ ਆਈ ਹੈ"
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
-msgstr ""
+msgstr "ਲੋਡ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ ਹਈ ਹੈ"
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
-msgstr ""
+msgstr "ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ"
 
 #: /media/js/login.js:8
 msgid "You have been signed out"
-msgstr ""
+msgstr "ਤੁਸੀ ਸਾਇਨ ਆਉਟ ਕਰ ਲਿਆ ਹੈ।"
 
 #: /media/js/login.js:12
 msgid "You have been signed in"
-msgstr ""
+msgstr "ਤੁਸੀ ਸਾਇਨ ਇਨ ਕਰ ਲਿਆ ਹੈ।"
 
 #: /media/js/login.js:127
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr ""
+"ਵਅਕਤੀ ਲਾਗਇਨ ਫੇਲ੍ਹ ਹੈ। ਹੋ ਸਕਦਾ ਹੈ ਕਿ ਤੁਹਾਡਾ ਖਾਤਾ ਉਸ ਮੇਲ ਪਤੇ ਹੇਠਾ ਨਾ ਹੋਵੇ?"
 
 #: /media/js/login.js:132
 msgid "Persona login failed. A server error was encountered."
-msgstr ""
+msgstr "ਿਵਅਕਤੀ ਲਾਗਇਨ ਫੇਲ੍ਹ ਹੈ। ਇੱਕ ਸਰਵਰ ਨੂੰ ਗਲਤੀ ਆਈ ਹੈ।"
 
 #: /media/js/main.js:55
 msgid "Message"
-msgstr ""
+msgstr "ਮੈਸਿਜ"
 
 #: /media/js/main.js:56
 msgid "App approved"
-msgstr ""
+msgstr "ਐਪ ਨੂੰ ਪ੍ਰਵਾਨਗੀ"
 
 #: /media/js/main.js:57
 msgid "App rejected"
-msgstr ""
+msgstr "ਐਪ ਰੱਦ"
 
 #: /media/js/main.js:58
 msgid "App disabled"
-msgstr ""
+msgstr "ਐਪ ਆਯੋਗ"
 
 #: /media/js/main.js:59
 msgid "More info required"
-msgstr ""
+msgstr "ਹੋਰ ਜਾਣਕਾਰੀ ਦੀ ਲੋੜ ਹੈ"
 
 #: /media/js/main.js:60
 msgid "Review escalated to senior reviewer"
-msgstr ""
+msgstr "ਸੀਨੀਅਰ ਸਮੀਖਿਅਕ ਨੂੰ ਵਧਾਉਣ ਲਈ ਆਲੋਚਨਾ"
 
 #: /media/js/main.js:61
 msgid "Reviewer comment"
-msgstr ""
+msgstr "ਸਮੀਖਿਅਕ ਕਾਮੈਂਟ"
 
 #: /media/js/navigation.js:31
 msgid "No internet connection"
-msgstr ""
+msgstr "ਇੰਟਰਨੈੱਟ ਕੁਨੈਕਸ਼ਨ ਨਹੀਂ ਹੈ"
 
 #. {n} is the number of characters left.
 #: /media/js/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "<b>{n}</b> ਅੱਖਰ ਬਾਕੀ।"
+msgstr[1] "<b>{n}</b> ਅੱਖਰ ਬਾਕੀ।"
 
 #: /media/js/views/comm.js:59
 msgid "Message sent."
-msgstr ""
+msgstr "<b>{n}</b> ਅੱਖਰ ਬਾਕੀ।"
 
 #: /media/js/views/comm.js:64
 msgid "Message sending failed."
-msgstr ""
+msgstr "ਸੁਨੇਹਾ ਭੇਜਣ ਲਈ ਅਸਫਲ"
 
 #: /media/js/views/comm.js:79
 msgid "Cancel reply"
-msgstr ""
+msgstr "ਜੁਵਾਬ ਰੱਦ"
 
 #: /media/js/views/comm.js:165
 msgid "There are no more older notes."
-msgstr ""
+msgstr "ਹੋਰ ਪੁਰਾਣੇ ਨੋਟਿਸ ਨਹੀਂ"
 
 #: /media/js/views/comm.js:213
 msgid "There was some problem marking the note as read. Try again."
-msgstr ""
+msgstr "ਨੋਟ ਨੂੰ ਪੜ੍ਹਨ ਦੌਰਾਨ ਕੁੱਝ ਸਮੱਸਿਆਵਾਂ ਆਈਆਂ ਹਨ. ਦੁਬਾਰਾ ਕੋਸਿਸ਼ ਕਰੋ."
 
 #: /media/js/views/comm.js:226
 msgid "No notes to show."
-msgstr ""
+msgstr "ਦਿਖਾਉਣ ਲਈ ਕੋਈ ਨੋਟ ਨਹੀਂ"
 
 #: /media/js/views/comm.js:233
 msgid "There was some problem marking the thread as read. Try again."
-msgstr ""
+msgstr "ਥਰੈੱਡ ਨੂੰ ਪੜ੍ਹਨ ਦੌਰਾਨ ਕੁੱਝ ਸਮੱਸਿਆਵਾਂ ਆਈਆਂ ਹਨ. ਦੁਬਾਰਾ ਕੋਸਿ਼ਸ ਕਰੋ."
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9
 msgid "Not Found"
-msgstr ""
+msgstr "ਨਹੀ ਲੱਭਿਆ"
