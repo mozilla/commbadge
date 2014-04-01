@@ -274,6 +274,16 @@ define('views/comm',
         }).fail(function(err) {
             notification.notification({message: gettext('There was some problem marking the thread as read. Try again.')});
         });
+    })
+
+    .on('click', '.unsubscribe', function() {
+        var $threadItem = $(this).closest('.thread-item');
+        var threadId = $threadItem.data('thread-id');
+        requests.del(urls.api.url('subscribe', [threadId])).done(function(data) {
+            $threadItem.remove();
+            notification.notification({
+                message: gettext('Successfully unsubsribed. You will no longer receive email notifications for that thread.')});
+        });
     });
 
     var attachTemplate;

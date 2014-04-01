@@ -44,6 +44,10 @@
           <li><a href="#show-unread-{{ thread.id }}" class="notes-filter filter-unread" data-filter-mode="unread">{{ _('Unread') }}</a></li>
           <li><a href="#show-read-{{ thread.id }}" class="notes-filter filter-read" data-filter-mode="read">{{ _('Read') }}</a></li>
         {% endif %}
+        {% if user and not user.has_developed(app.id) %}
+          {# Allow unsubscribe if user not developer. #}
+          <li><a class="unsubscribe">{{ _('Unsubscribe') }}</a></li>
+        {% endif %}
         {% if user and user.get_permission('reviewer') %}
           <li><a class="review-link" href="{{ thread.addon_meta.review_url }}">{{ _('Review') }}</a></li>
         {% endif %}
