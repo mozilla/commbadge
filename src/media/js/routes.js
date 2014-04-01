@@ -5,6 +5,7 @@ var routes = window.routes = [
     {'pattern': '^/tests$', 'view_name': 'tests'},
     {'pattern': '^/debug$', 'view_name': 'debug'},
 
+    {'pattern': '^/$', 'view_name': 'comm'},
     {'pattern': '^/comm/?$', 'view_name': 'comm'},
     {'pattern': '^/comm/login$', 'view_name': 'login'},
     {'pattern': '^/comm/app/([^/<>"\']+)$', 'view_name': 'app_dashboard'},
