@@ -61,17 +61,28 @@ test('reverse too many args', function(done, fail) {
     }, fail);
 });
 
+test('reverse multiple args', function(done, fail) {
+    mock_routes([
+        {pattern: '^/apps/([0-9]+)/reviews/([0-9]+)$', view_name: 'two_args'},
+    ], function() {
+        var reversed = urls.reverse('two_args', [10, 20]);
+        eq_('/apps/10/reviews/20', reversed);
+        done();
+    }, fail);
+});
+
 test('api url', function(done, fail) {
     mock(
         'urls',
         {
             capabilities: {firefoxOS: true, widescreen: function() { return false; }, touch: 'foo'},
             routes_api: {'homepage': '/foo/homepage'},
+            routes_api_args: function() {return function() {return function() {return {foo: 'bar'};};};},  // Functions get pre-evaluated.
             settings: {api_url: 'api:'}
         }, function(urls) {
             var homepage_url = urls.api.url('homepage');
             eq_(homepage_url.substr(0, 17), 'api:/foo/homepage');
-            contains(homepage_url, 'dev=firefoxos');
+            contains(homepage_url, 'foo=bar');
             done();
         },
         fail
@@ -84,11 +95,26 @@ test('api url signage', function(done, fail) {
         {
             capabilities: {firefoxOS: true, widescreen: function() { return false; }, touch: 'foo'},
             routes_api: {'homepage': '/foo/homepage'},
-            settings: {api_url: 'api:'}
+            routes_api_args: function() {return function() {return function() {return {foo: 'bar'};};};},  // Functions get pre-evaluated.
+            settings: {api_url: 'api:'},
+            user: {
+                logged_in: function() { return true; },
+                get_setting: function(x) {},
+                get_token: function() { return 'mytoken';}
+            }
         }, function(urls) {
-            var homepage_url = urls.api.unsigned.url('homepage');
+            var homepage_url, homepage_base_url = urls.api.base.url('homepage');
+
+            homepage_url = homepage_base_url;
             eq_(homepage_url, 'api:/foo/homepage');
-            eq_(urls.api.sign(homepage_url), urls.api.url('homepage'));
+
+            homepage_url = urls.api.url('homepage');
+            eq_(homepage_url, urls.api.sign(homepage_base_url));
+            contains(homepage_url, '_user=mytoken');
+
+            homepage_url = urls.api.unsigned.url('homepage');
+            eq_(homepage_url, urls.api.unsign(homepage_base_url));
+            disincludes(homepage_url, '_user=mytoken');
             done();
         },
         fail

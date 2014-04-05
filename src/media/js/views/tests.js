@@ -18,7 +18,7 @@ define('views/tests', ['assert', 'requests'], function(assert, requests) {
             started++;
             is_done();
             setTimeout(function() {
-                var infobox = $('<li><b>' + name + '</b> <span>Running...</span></li>');
+                var infobox = $('<li><span style="background-color: gray">Running</span> <b>' + name + '</b></li>');
                 $('ol.tests').append(infobox);
                 var completion = function() {
                     passed++;
@@ -44,13 +44,18 @@ define('views/tests', ['assert', 'requests'], function(assert, requests) {
             }, 0);
             $('#c_started').text(started);
         };
+
         builder.start('tests.html');
         var scripts = document.querySelectorAll('#page script');
+        function processor(data) {
+            /* jshint ignore:start */
+            eval(data);
+            /* jshint ignore:end */
+        }
+
         for (var i = 0; i < scripts.length; i++) {
             var script = scripts[i];
-            requests.get(script.getAttribute('src'), true).done(function(data) {
-                eval(data);
-            });
+            requests.get(script.getAttribute('src'), true).done(processor);
         }
 
         builder.z('type', 'debug');
