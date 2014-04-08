@@ -8,6 +8,7 @@ define('routes_api', [], function() {
     // }
 	return {
         'login': '/api/v1/account/login/',
+        'logout': '/api/v1/account/logout/',
 
         'app': '/api/v1/apps/app/{0}/',
 
