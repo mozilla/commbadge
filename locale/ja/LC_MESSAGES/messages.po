@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-09T16:17:44.740Z\n"
-"PO-Revision-Date: 2014-01-10 23:46-0500\n"
+"PO-Revision-Date: 2014-04-09 12:27-0500\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -95,11 +95,11 @@ msgstr "ログイン / ユーザ登録"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
-msgstr ""
+msgstr "添付ファイル"
 
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
-msgstr ""
+msgstr "ファイル説明"
 
 #: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
 msgid "No notes found"
@@ -111,11 +111,11 @@ msgstr "投稿内容をここに入力してください"
 
 #: /templates/_macros/reply_box.html:6
 msgid "Attach screenshots and log files:"
-msgstr ""
+msgstr "スクリーンショットとログファイルを添付:"
 
 #: /templates/_macros/reply_box.html:8
 msgid "Attach another file"
-msgstr ""
+msgstr "他のファイルを添付"
 
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
@@ -137,6 +137,7 @@ msgstr "(旧バージョン)"
 msgid "{n} note"
 msgid_plural "{n} notes"
 msgstr[0] "{n} 件の記事"
+msgstr[1] "{n} 件の記事"
 
 #: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:52 /media/js/views/comm.js:134
 msgid "Reply"
@@ -237,7 +238,7 @@ msgstr "ログインしました"
 
 #: /media/js/login.js:49
 msgid "Error signing out"
-msgstr ""
+msgstr "ログアウトに失敗しました"
 
 #: /media/js/login.js:133
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
@@ -281,27 +282,27 @@ msgstr "審査担当者のコメント"
 
 #: /media/js/settings.js:40
 msgid "App resubmission"
-msgstr ""
+msgstr "アプリの再申請"
 
 #: /media/js/settings.js:42
 msgid "Approved but waiting to be made public"
-msgstr ""
+msgstr "承認済み、公開待ち"
 
 #: /media/js/settings.js:43
 msgid "Escalation cleared"
-msgstr ""
+msgstr "上級審査クリア"
 
 #: /media/js/settings.js:44
 msgid "Escalated due to High Abuse Reports"
-msgstr ""
+msgstr "不正報告が多数寄せられたため管理者審査中"
 
 #: /media/js/settings.js:45
 msgid "Escalated due to High Refund Requests"
-msgstr ""
+msgstr "返品要求が多数寄せられたため管理者審査中"
 
 #: /media/js/settings.js:46
 msgid "Re-review cleared"
-msgstr ""
+msgstr "再審査クリア"
 
 #. {n} is the number of characters left.
 #: /media/js/utils.js:28
