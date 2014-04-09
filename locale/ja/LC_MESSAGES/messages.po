@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-12T18:30:34.632Z\n"
+"POT-Creation-Date: 2014-04-09T16:17:44.740Z\n"
 "PO-Revision-Date: 2014-01-10 23:46-0500\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
@@ -93,48 +93,64 @@ msgstr "続けるにはログインしてください。"
 msgid "Sign in / Sign up"
 msgstr "ログイン / ユーザ登録"
 
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr ""
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr ""
+
 #: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "ノートがが見つかりませんでした"
+
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "投稿内容をここに入力してください"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr ""
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr ""
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "投稿"
 
 #: /templates/_macros/thread.html:14
 msgid "View older"
 msgstr "以前の記事を表示"
 
-#: /templates/_macros/thread_header.html:16
+#: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
 msgstr "{app_name} (バージョン {version_number})"
 
-#: /templates/_macros/thread_header.html:19
+#: /templates/_macros/thread_header.html:21
 msgid "(Obsolete)"
 msgstr "(旧バージョン)"
 
-#: /templates/_macros/thread_header.html:25 /media/js/views/comm.js:42
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:42
 msgid "{n} note"
 msgid_plural "{n} notes"
 msgstr[0] "{n} 件の記事"
 
-#: /templates/_macros/thread_header.html:31 /media/js/views/comm.js:52 /media/js/views/comm.js:88
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:52 /media/js/views/comm.js:134
 msgid "Reply"
 msgstr "返信"
 
-#: /templates/_macros/thread_header.html:37
-msgid "Enter note text here"
-msgstr "投稿内容をここに入力してください"
-
-#: /templates/_macros/thread_header.html:38
-msgid "Post"
-msgstr "投稿"
-
-#: /templates/_macros/thread_header.html:42
+#: /templates/_macros/thread_header.html:41
 msgid "Recent"
 msgstr "最近"
 
-#: /templates/_macros/thread_header.html:44
+#: /templates/_macros/thread_header.html:43
 msgid "Unread"
 msgstr "未読"
 
-#: /templates/_macros/thread_header.html:45
+#: /templates/_macros/thread_header.html:44
 msgid "Read"
 msgstr "既読"
 
@@ -142,7 +158,7 @@ msgstr "既読"
 msgid "Review"
 msgstr "レビュー"
 
-#: /templates/_macros/thread_header.html:49
+#: /templates/_macros/thread_header.html:50
 msgid "Mark All Read"
 msgstr "すべて既読にする"
 
@@ -154,17 +170,9 @@ msgstr "アプリのアイコン"
 msgid "Viewing All Threads for {app_name}"
 msgstr "{app_name} のすべてのスレッドを表示しています"
 
-#: /templates/comm/app_dashboard.html:8 /templates/comm/app_dashboard.html:11
+#: /templates/comm/app_dashboard.html:8
 msgid "Back to my threads"
 msgstr "自分のスレッドへ戻る"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "App Not Found"
-msgstr "アプリが見つかりませんでした"
-
-#: /templates/comm/app_dashboard.html:34
-msgid "Error loading threads"
-msgstr "スレッドの読み込み中に問題が発生しました"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -227,45 +235,73 @@ msgstr "ログアウトしました"
 msgid "You have been signed in"
 msgstr "ログインしました"
 
-#: /media/js/login.js:127
+#: /media/js/login.js:49
+msgid "Error signing out"
+msgstr ""
+
+#: /media/js/login.js:133
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr "Persona のログインに失敗しました。入力されたメールアドレスのアカウントは存在しない可能性があります。"
 
-#: /media/js/login.js:132
+#: /media/js/login.js:138
 msgid "Persona login failed. A server error was encountered."
 msgstr "Persona のログインに失敗しました。サーバエラーが発生しました。"
-
-#: /media/js/main.js:55
-msgid "Message"
-msgstr "メッセージ"
-
-#: /media/js/main.js:56
-msgid "App approved"
-msgstr "アプリは承認されました"
-
-#: /media/js/main.js:57
-msgid "App rejected"
-msgstr "アプリは却下されました"
-
-#: /media/js/main.js:58
-msgid "App disabled"
-msgstr "アプリは無効化されました"
-
-#: /media/js/main.js:59
-msgid "More info required"
-msgstr "詳しい情報が必要です"
-
-#: /media/js/main.js:60
-msgid "Review escalated to senior reviewer"
-msgstr "審査が上級担当者へ回されました"
-
-#: /media/js/main.js:61
-msgid "Reviewer comment"
-msgstr "審査担当者のコメント"
 
 #: /media/js/navigation.js:31
 msgid "No internet connection"
 msgstr "インターネットに接続されていません"
+
+#: /media/js/settings.js:33
+msgid "Message"
+msgstr "メッセージ"
+
+#: /media/js/settings.js:34
+msgid "App approved"
+msgstr "アプリは承認されました"
+
+#: /media/js/settings.js:35
+msgid "App rejected"
+msgstr "アプリは却下されました"
+
+#: /media/js/settings.js:36
+msgid "App disabled"
+msgstr "アプリは無効化されました"
+
+#: /media/js/settings.js:37
+msgid "More info required"
+msgstr "詳しい情報が必要です"
+
+#: /media/js/settings.js:38
+msgid "Review escalated to senior reviewer"
+msgstr "審査が上級担当者へ回されました"
+
+#: /media/js/settings.js:39
+msgid "Reviewer comment"
+msgstr "審査担当者のコメント"
+
+#: /media/js/settings.js:40
+msgid "App resubmission"
+msgstr ""
+
+#: /media/js/settings.js:42
+msgid "Approved but waiting to be made public"
+msgstr ""
+
+#: /media/js/settings.js:43
+msgid "Escalation cleared"
+msgstr ""
+
+#: /media/js/settings.js:44
+msgid "Escalated due to High Abuse Reports"
+msgstr ""
+
+#: /media/js/settings.js:45
+msgid "Escalated due to High Refund Requests"
+msgstr ""
+
+#: /media/js/settings.js:46
+msgid "Re-review cleared"
+msgstr ""
 
 #. {n} is the number of characters left.
 #: /media/js/utils.js:28
@@ -282,23 +318,23 @@ msgstr "メッセージが送信されました。"
 msgid "Message sending failed."
 msgstr "メッセージを送信できませんでした。"
 
-#: /media/js/views/comm.js:79
+#: /media/js/views/comm.js:124
 msgid "Cancel reply"
 msgstr "返信をキャンセル"
 
-#: /media/js/views/comm.js:165
+#: /media/js/views/comm.js:207
 msgid "There are no more older notes."
 msgstr "これ以上古い記事はありません。"
 
-#: /media/js/views/comm.js:213
+#: /media/js/views/comm.js:255
 msgid "There was some problem marking the note as read. Try again."
 msgstr "記事を既読にする際に問題が発生しました。また後で試してください。"
 
-#: /media/js/views/comm.js:226
+#: /media/js/views/comm.js:268
 msgid "No notes to show."
 msgstr "表示する記事はありません。"
 
-#: /media/js/views/comm.js:233
+#: /media/js/views/comm.js:275
 msgid "There was some problem marking the thread as read. Try again."
 msgstr "スレッドを既読にする際に問題が発生しました。また後で試してください。"
 

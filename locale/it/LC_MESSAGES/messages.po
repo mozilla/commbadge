@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Commbadge\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-12T18:30:34.632Z\n"
+"POT-Creation-Date: 2014-04-09T16:17:44.740Z\n"
 "PO-Revision-Date: 2014-01-15 22:34+0000\n"
 "Last-Translator: Sandro <gialloporpora@mozillaitalia.org>\n"
 "Language-Team: gialloporpora <gialloporpora@yahoo.it>\n"
@@ -95,49 +95,65 @@ msgstr "Per proseguire è necessario eseguire l'accesso."
 msgid "Sign in / Sign up"
 msgstr "Accedi o registrati"
 
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr ""
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr ""
+
 #: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "Non è stata trovata alcuna nota"
+
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Inserisci qui il testo della nota"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr ""
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr ""
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Invia"
 
 #: /templates/_macros/thread.html:14
 msgid "View older"
 msgstr "Visualizza meno recenti"
 
-#: /templates/_macros/thread_header.html:16
+#: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
 msgstr "{app_name} (Versione {version_number})"
 
-#: /templates/_macros/thread_header.html:19
+#: /templates/_macros/thread_header.html:21
 msgid "(Obsolete)"
 msgstr "(obsoleta)"
 
-#: /templates/_macros/thread_header.html:25 /media/js/views/comm.js:42
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:42
 msgid "{n} note"
 msgid_plural "{n} notes"
 msgstr[0] "{n} nota"
 msgstr[1] "{n} note"
 
-#: /templates/_macros/thread_header.html:31 /media/js/views/comm.js:52 /media/js/views/comm.js:88
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:52 /media/js/views/comm.js:134
 msgid "Reply"
 msgstr "Rispondi"
 
-#: /templates/_macros/thread_header.html:37
-msgid "Enter note text here"
-msgstr "Inserisci qui il testo della nota"
-
-#: /templates/_macros/thread_header.html:38
-msgid "Post"
-msgstr "Invia"
-
-#: /templates/_macros/thread_header.html:42
+#: /templates/_macros/thread_header.html:41
 msgid "Recent"
 msgstr "Recenti"
 
-#: /templates/_macros/thread_header.html:44
+#: /templates/_macros/thread_header.html:43
 msgid "Unread"
 msgstr "Non lette"
 
-#: /templates/_macros/thread_header.html:45
+#: /templates/_macros/thread_header.html:44
 msgid "Read"
 msgstr "Lette"
 
@@ -145,7 +161,7 @@ msgstr "Lette"
 msgid "Review"
 msgstr "Recensione"
 
-#: /templates/_macros/thread_header.html:49
+#: /templates/_macros/thread_header.html:50
 msgid "Mark All Read"
 msgstr "Marca tutte come lette"
 
@@ -157,17 +173,9 @@ msgstr "Icona dell'app"
 msgid "Viewing All Threads for {app_name}"
 msgstr "Mostra tutte le discussioni riguardanti {app_name}"
 
-#: /templates/comm/app_dashboard.html:8 /templates/comm/app_dashboard.html:11
+#: /templates/comm/app_dashboard.html:8
 msgid "Back to my threads"
 msgstr "Ritorna alle mie discussioni"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "App Not Found"
-msgstr "App non trovata"
-
-#: /templates/comm/app_dashboard.html:34
-msgid "Error loading threads"
-msgstr "Errore durante il caricamento delle discussioni"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -230,45 +238,73 @@ msgstr "Hai effettuato la disconnessione"
 msgid "You have been signed in"
 msgstr "Hai effettuato l'accesso"
 
-#: /media/js/login.js:127
+#: /media/js/login.js:49
+msgid "Error signing out"
+msgstr ""
+
+#: /media/js/login.js:133
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr "Non è riuscita l'identificazione tramite Persona. Sei sicuro di avere un account Persona associato a questo indirizzo email?"
 
-#: /media/js/login.js:132
+#: /media/js/login.js:138
 msgid "Persona login failed. A server error was encountered."
 msgstr "Identificazione tramite Persona non riuscita. Si è verificato un errore col server."
-
-#: /media/js/main.js:55
-msgid "Message"
-msgstr "Messaggio"
-
-#: /media/js/main.js:56
-msgid "App approved"
-msgstr "L'app è stata approvata"
-
-#: /media/js/main.js:57
-msgid "App rejected"
-msgstr "L'app è stata rifiutata"
-
-#: /media/js/main.js:58
-msgid "App disabled"
-msgstr "L'app è stata disattivata"
-
-#: /media/js/main.js:59
-msgid "More info required"
-msgstr "Sono richieste ulteriori informazioni"
-
-#: /media/js/main.js:60
-msgid "Review escalated to senior reviewer"
-msgstr "La revisione di quest'app è stata messa in escalation e sottoposta alla supervisione di un revisore senior"
-
-#: /media/js/main.js:61
-msgid "Reviewer comment"
-msgstr "Commento del revisore"
 
 #: /media/js/navigation.js:31
 msgid "No internet connection"
 msgstr "Connessione a Internet non disponibile"
+
+#: /media/js/settings.js:33
+msgid "Message"
+msgstr "Messaggio"
+
+#: /media/js/settings.js:34
+msgid "App approved"
+msgstr "L'app è stata approvata"
+
+#: /media/js/settings.js:35
+msgid "App rejected"
+msgstr "L'app è stata rifiutata"
+
+#: /media/js/settings.js:36
+msgid "App disabled"
+msgstr "L'app è stata disattivata"
+
+#: /media/js/settings.js:37
+msgid "More info required"
+msgstr "Sono richieste ulteriori informazioni"
+
+#: /media/js/settings.js:38
+msgid "Review escalated to senior reviewer"
+msgstr "La revisione di quest'app è stata messa in escalation e sottoposta alla supervisione di un revisore senior"
+
+#: /media/js/settings.js:39
+msgid "Reviewer comment"
+msgstr "Commento del revisore"
+
+#: /media/js/settings.js:40
+msgid "App resubmission"
+msgstr ""
+
+#: /media/js/settings.js:42
+msgid "Approved but waiting to be made public"
+msgstr ""
+
+#: /media/js/settings.js:43
+msgid "Escalation cleared"
+msgstr ""
+
+#: /media/js/settings.js:44
+msgid "Escalated due to High Abuse Reports"
+msgstr ""
+
+#: /media/js/settings.js:45
+msgid "Escalated due to High Refund Requests"
+msgstr ""
+
+#: /media/js/settings.js:46
+msgid "Re-review cleared"
+msgstr ""
 
 #. {n} is the number of characters left.
 #: /media/js/utils.js:28
@@ -285,23 +321,23 @@ msgstr "Messaggio inviato."
 msgid "Message sending failed."
 msgstr "Non è stato possibile inviare il messaggio."
 
-#: /media/js/views/comm.js:79
+#: /media/js/views/comm.js:124
 msgid "Cancel reply"
 msgstr "Annulla risposta"
 
-#: /media/js/views/comm.js:165
+#: /media/js/views/comm.js:207
 msgid "There are no more older notes."
 msgstr "Non sono state trovate note meno recenti."
 
-#: /media/js/views/comm.js:213
+#: /media/js/views/comm.js:255
 msgid "There was some problem marking the note as read. Try again."
 msgstr "Si è verificato un problema nel marcare la  nota come letta. Riprova."
 
-#: /media/js/views/comm.js:226
+#: /media/js/views/comm.js:268
 msgid "No notes to show."
 msgstr "Nessuna nota da visualizzare."
 
-#: /media/js/views/comm.js:233
+#: /media/js/views/comm.js:275
 msgid "There was some problem marking the thread as read. Try again."
 msgstr "Si è verificato un problema nel marcare la discussione come letta. Riprova."
 

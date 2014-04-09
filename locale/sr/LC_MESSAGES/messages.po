@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-12T18:30:34.632Z\n"
+"POT-Creation-Date: 2014-04-09T16:17:44.740Z\n"
 "PO-Revision-Date: 2014-02-09 20:45+0000\n"
 "Last-Translator: Vanja <vtumbas@mozilla.rs>\n"
 "Language-Team: none\n"
@@ -94,50 +94,66 @@ msgstr "Морате се пријавити како бисте настави�
 msgid "Sign in / Sign up"
 msgstr "Пријави се / Региструј се"
 
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr ""
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr ""
+
 #: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "Нема пронађених белешки"
+
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Овде унесите текст"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr ""
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr ""
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Порука"
 
 #: /templates/_macros/thread.html:14
 msgid "View older"
 msgstr "Погледајте старије"
 
-#: /templates/_macros/thread_header.html:16
+#: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
 msgstr "{app_name} (Верзија {version_number})"
 
-#: /templates/_macros/thread_header.html:19
+#: /templates/_macros/thread_header.html:21
 msgid "(Obsolete)"
 msgstr "(Застарео)"
 
-#: /templates/_macros/thread_header.html:25 /media/js/views/comm.js:42
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:42
 msgid "{n} note"
 msgid_plural "{n} notes"
 msgstr[0] "{n} белешка"
 msgstr[1] "{n} белешке"
 msgstr[2] "{n} белешки"
 
-#: /templates/_macros/thread_header.html:31 /media/js/views/comm.js:52 /media/js/views/comm.js:88
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:52 /media/js/views/comm.js:134
 msgid "Reply"
 msgstr "Одговори"
 
-#: /templates/_macros/thread_header.html:37
-msgid "Enter note text here"
-msgstr "Овде унесите текст"
-
-#: /templates/_macros/thread_header.html:38
-msgid "Post"
-msgstr "Порука"
-
-#: /templates/_macros/thread_header.html:42
+#: /templates/_macros/thread_header.html:41
 msgid "Recent"
 msgstr "Скорашњe"
 
-#: /templates/_macros/thread_header.html:44
+#: /templates/_macros/thread_header.html:43
 msgid "Unread"
 msgstr "Непрочитанe"
 
-#: /templates/_macros/thread_header.html:45
+#: /templates/_macros/thread_header.html:44
 msgid "Read"
 msgstr "Прочитај"
 
@@ -145,7 +161,7 @@ msgstr "Прочитај"
 msgid "Review"
 msgstr "Оцени"
 
-#: /templates/_macros/thread_header.html:49
+#: /templates/_macros/thread_header.html:50
 msgid "Mark All Read"
 msgstr "Означи све прочитане"
 
@@ -157,17 +173,9 @@ msgstr "Иконица апликације"
 msgid "Viewing All Threads for {app_name}"
 msgstr "Преглед свих тема за {app_name}"
 
-#: /templates/comm/app_dashboard.html:8 /templates/comm/app_dashboard.html:11
+#: /templates/comm/app_dashboard.html:8
 msgid "Back to my threads"
 msgstr "Повратак на моје теме"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "App Not Found"
-msgstr "Апликација није пронађена"
-
-#: /templates/comm/app_dashboard.html:34
-msgid "Error loading threads"
-msgstr "Грешка при учитавању тема"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -230,45 +238,73 @@ msgstr "Одјављени сте"
 msgid "You have been signed in"
 msgstr "Пријављени сте"
 
-#: /media/js/login.js:127
+#: /media/js/login.js:49
+msgid "Error signing out"
+msgstr ""
+
+#: /media/js/login.js:133
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr "Пријава на Persona је неуспела. Можда немате налог под том адресом е-поште?"
 
-#: /media/js/login.js:132
+#: /media/js/login.js:138
 msgid "Persona login failed. A server error was encountered."
 msgstr "Пријава на Persona није успела. Дошло је до грешке на серверу."
-
-#: /media/js/main.js:55
-msgid "Message"
-msgstr "Порука"
-
-#: /media/js/main.js:56
-msgid "App approved"
-msgstr "Апликација је одобрена"
-
-#: /media/js/main.js:57
-msgid "App rejected"
-msgstr "Апликација је одбијена"
-
-#: /media/js/main.js:58
-msgid "App disabled"
-msgstr "Апликација је онемогућена"
-
-#: /media/js/main.js:59
-msgid "More info required"
-msgstr "Потребно је више информација"
-
-#: /media/js/main.js:60
-msgid "Review escalated to senior reviewer"
-msgstr "Рецензија је ескалирала до вишег рецезента"
-
-#: /media/js/main.js:61
-msgid "Reviewer comment"
-msgstr "Резецент коментара"
 
 #: /media/js/navigation.js:31
 msgid "No internet connection"
 msgstr "Нема интернет конекције"
+
+#: /media/js/settings.js:33
+msgid "Message"
+msgstr "Порука"
+
+#: /media/js/settings.js:34
+msgid "App approved"
+msgstr "Апликација је одобрена"
+
+#: /media/js/settings.js:35
+msgid "App rejected"
+msgstr "Апликација је одбијена"
+
+#: /media/js/settings.js:36
+msgid "App disabled"
+msgstr "Апликација је онемогућена"
+
+#: /media/js/settings.js:37
+msgid "More info required"
+msgstr "Потребно је више информација"
+
+#: /media/js/settings.js:38
+msgid "Review escalated to senior reviewer"
+msgstr "Рецензија је ескалирала до вишег рецезента"
+
+#: /media/js/settings.js:39
+msgid "Reviewer comment"
+msgstr "Резецент коментара"
+
+#: /media/js/settings.js:40
+msgid "App resubmission"
+msgstr ""
+
+#: /media/js/settings.js:42
+msgid "Approved but waiting to be made public"
+msgstr ""
+
+#: /media/js/settings.js:43
+msgid "Escalation cleared"
+msgstr ""
+
+#: /media/js/settings.js:44
+msgid "Escalated due to High Abuse Reports"
+msgstr ""
+
+#: /media/js/settings.js:45
+msgid "Escalated due to High Refund Requests"
+msgstr ""
+
+#: /media/js/settings.js:46
+msgid "Re-review cleared"
+msgstr ""
 
 #. {n} is the number of characters left.
 #: /media/js/utils.js:28
@@ -286,23 +322,23 @@ msgstr "Порука је послата."
 msgid "Message sending failed."
 msgstr "Неуспешно слање поруке."
 
-#: /media/js/views/comm.js:79
+#: /media/js/views/comm.js:124
 msgid "Cancel reply"
 msgstr "Откажи одговор"
 
-#: /media/js/views/comm.js:165
+#: /media/js/views/comm.js:207
 msgid "There are no more older notes."
 msgstr "Нема више старих белешки."
 
-#: /media/js/views/comm.js:213
+#: /media/js/views/comm.js:255
 msgid "There was some problem marking the note as read. Try again."
 msgstr "Дошло је до проблема при означавању белешке као прочитане. Покушајте поново."
 
-#: /media/js/views/comm.js:226
+#: /media/js/views/comm.js:268
 msgid "No notes to show."
 msgstr "Нема белешки за приказивање."
 
-#: /media/js/views/comm.js:233
+#: /media/js/views/comm.js:275
 msgid "There was some problem marking the thread as read. Try again."
 msgstr "Било је неких проблема око означавања теме као прочитане. Покушајте поново."
 

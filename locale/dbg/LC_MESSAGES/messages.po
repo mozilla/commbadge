@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-12T18:30:34.632Z\n"
+"POT-Creation-Date: 2014-04-09T16:17:44.740Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -94,53 +94,69 @@ msgstr "Ẏǿŭ ḿŭşŧ şīɠƞ īƞ ŧǿ ƥřǿƈḗḗḓ."
 msgid "Sign in / Sign up"
 msgstr "Şīɠƞ īƞ / Şīɠƞ ŭƥ"
 
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Ȧŧŧȧƈħḿḗƞŧ"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Ƒīŀḗ Ḓḗşƈřīƥŧīǿƞ"
+
 #: /templates/_macros/create_thread.html:10
 #: /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "Ƞǿ ƞǿŧḗş ƒǿŭƞḓ"
 
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Ḗƞŧḗř ƞǿŧḗ ŧḗẋŧ ħḗřḗ"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Ȧŧŧȧƈħ şƈřḗḗƞşħǿŧş ȧƞḓ ŀǿɠ ƒīŀḗş:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Ȧŧŧȧƈħ ȧƞǿŧħḗř ƒīŀḗ"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Ƥǿşŧ"
+
 #: /templates/_macros/thread.html:14
 msgid "View older"
 msgstr "Ṽīḗẇ ǿŀḓḗř"
 
-#: /templates/_macros/thread_header.html:16
+#: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
 msgstr "{ȧƥƥ_ƞȧḿḗ} (Ṽḗřşīǿƞ {ṽḗřşīǿƞ_ƞŭḿƀḗř})"
 
-#: /templates/_macros/thread_header.html:19
+#: /templates/_macros/thread_header.html:21
 msgid "(Obsolete)"
 msgstr "(Ǿƀşǿŀḗŧḗ)"
 
-#: /templates/_macros/thread_header.html:25
+#: /templates/_macros/thread_header.html:27
 #: /media/js/views/comm.js:42
 msgid "{n} note"
 msgid_plural "{n} notes"
 msgstr[0] "{ƞ} ƞǿŧḗ"
 msgstr[1] "{ƞ} ƞǿŧḗş"
 
-#: /templates/_macros/thread_header.html:31
+#: /templates/_macros/thread_header.html:33
 #: /media/js/views/comm.js:52
-#: /media/js/views/comm.js:88
+#: /media/js/views/comm.js:134
 msgid "Reply"
 msgstr "Řḗƥŀẏ"
 
-#: /templates/_macros/thread_header.html:37
-msgid "Enter note text here"
-msgstr "Ḗƞŧḗř ƞǿŧḗ ŧḗẋŧ ħḗřḗ"
-
-#: /templates/_macros/thread_header.html:38
-msgid "Post"
-msgstr "Ƥǿşŧ"
-
-#: /templates/_macros/thread_header.html:42
+#: /templates/_macros/thread_header.html:41
 msgid "Recent"
 msgstr "Řḗƈḗƞŧ"
 
-#: /templates/_macros/thread_header.html:44
+#: /templates/_macros/thread_header.html:43
 msgid "Unread"
 msgstr "Ŭƞřḗȧḓ"
 
-#: /templates/_macros/thread_header.html:45
+#: /templates/_macros/thread_header.html:44
 msgid "Read"
 msgstr "Řḗȧḓ"
 
@@ -148,7 +164,7 @@ msgstr "Řḗȧḓ"
 msgid "Review"
 msgstr "Řḗṽīḗẇ"
 
-#: /templates/_macros/thread_header.html:49
+#: /templates/_macros/thread_header.html:50
 msgid "Mark All Read"
 msgstr "Ḿȧřķ Ȧŀŀ Řḗȧḓ"
 
@@ -161,17 +177,8 @@ msgid "Viewing All Threads for {app_name}"
 msgstr "Ṽīḗẇīƞɠ Ȧŀŀ Ŧħřḗȧḓş ƒǿř {ȧƥƥ_ƞȧḿḗ}"
 
 #: /templates/comm/app_dashboard.html:8
-#: /templates/comm/app_dashboard.html:11
 msgid "Back to my threads"
 msgstr "Ɓȧƈķ ŧǿ ḿẏ ŧħřḗȧḓş"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "App Not Found"
-msgstr "Ȧƥƥ Ƞǿŧ Ƒǿŭƞḓ"
-
-#: /templates/comm/app_dashboard.html:34
-msgid "Error loading threads"
-msgstr "Ḗřřǿř ŀǿȧḓīƞɠ ŧħřḗȧḓş"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -235,47 +242,75 @@ msgstr "Ẏǿŭ ħȧṽḗ ƀḗḗƞ şīɠƞḗḓ ǿŭŧ"
 msgid "You have been signed in"
 msgstr "Ẏǿŭ ħȧṽḗ ƀḗḗƞ şīɠƞḗḓ īƞ"
 
-#: /media/js/login.js:127
+#: /media/js/login.js:49
+msgid "Error signing out"
+msgstr "Ḗřřǿř şīɠƞīƞɠ ǿŭŧ"
+
+#: /media/js/login.js:133
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr ""
 "Ƥḗřşǿƞȧ ŀǿɠīƞ ƒȧīŀḗḓ. Ḿȧẏƀḗ ẏǿŭ ḓǿƞ'ŧ ħȧṽḗ ȧƞ ȧƈƈǿŭƞŧ ŭƞḓḗř ŧħȧŧ ḗḿȧīŀ "
 "ȧḓḓřḗşş?"
 
-#: /media/js/login.js:132
+#: /media/js/login.js:138
 msgid "Persona login failed. A server error was encountered."
 msgstr "Ƥḗřşǿƞȧ ŀǿɠīƞ ƒȧīŀḗḓ. Ȧ şḗřṽḗř ḗřřǿř ẇȧş ḗƞƈǿŭƞŧḗřḗḓ."
-
-#: /media/js/main.js:55
-msgid "Message"
-msgstr "Ḿḗşşȧɠḗ"
-
-#: /media/js/main.js:56
-msgid "App approved"
-msgstr "Ȧƥƥ ȧƥƥřǿṽḗḓ"
-
-#: /media/js/main.js:57
-msgid "App rejected"
-msgstr "Ȧƥƥ řḗĵḗƈŧḗḓ"
-
-#: /media/js/main.js:58
-msgid "App disabled"
-msgstr "Ȧƥƥ ḓīşȧƀŀḗḓ"
-
-#: /media/js/main.js:59
-msgid "More info required"
-msgstr "Ḿǿřḗ īƞƒǿ řḗɋŭīřḗḓ"
-
-#: /media/js/main.js:60
-msgid "Review escalated to senior reviewer"
-msgstr "Řḗṽīḗẇ ḗşƈȧŀȧŧḗḓ ŧǿ şḗƞīǿř řḗṽīḗẇḗř"
-
-#: /media/js/main.js:61
-msgid "Reviewer comment"
-msgstr "Řḗṽīḗẇḗř ƈǿḿḿḗƞŧ"
 
 #: /media/js/navigation.js:31
 msgid "No internet connection"
 msgstr "Ƞǿ īƞŧḗřƞḗŧ ƈǿƞƞḗƈŧīǿƞ"
+
+#: /media/js/settings.js:33
+msgid "Message"
+msgstr "Ḿḗşşȧɠḗ"
+
+#: /media/js/settings.js:34
+msgid "App approved"
+msgstr "Ȧƥƥ ȧƥƥřǿṽḗḓ"
+
+#: /media/js/settings.js:35
+msgid "App rejected"
+msgstr "Ȧƥƥ řḗĵḗƈŧḗḓ"
+
+#: /media/js/settings.js:36
+msgid "App disabled"
+msgstr "Ȧƥƥ ḓīşȧƀŀḗḓ"
+
+#: /media/js/settings.js:37
+msgid "More info required"
+msgstr "Ḿǿřḗ īƞƒǿ řḗɋŭīřḗḓ"
+
+#: /media/js/settings.js:38
+msgid "Review escalated to senior reviewer"
+msgstr "Řḗṽīḗẇ ḗşƈȧŀȧŧḗḓ ŧǿ şḗƞīǿř řḗṽīḗẇḗř"
+
+#: /media/js/settings.js:39
+msgid "Reviewer comment"
+msgstr "Řḗṽīḗẇḗř ƈǿḿḿḗƞŧ"
+
+#: /media/js/settings.js:40
+msgid "App resubmission"
+msgstr "Ȧƥƥ řḗşŭƀḿīşşīǿƞ"
+
+#: /media/js/settings.js:42
+msgid "Approved but waiting to be made public"
+msgstr "Ȧƥƥřǿṽḗḓ ƀŭŧ ẇȧīŧīƞɠ ŧǿ ƀḗ ḿȧḓḗ ƥŭƀŀīƈ"
+
+#: /media/js/settings.js:43
+msgid "Escalation cleared"
+msgstr "Ḗşƈȧŀȧŧīǿƞ ƈŀḗȧřḗḓ"
+
+#: /media/js/settings.js:44
+msgid "Escalated due to High Abuse Reports"
+msgstr "Ḗşƈȧŀȧŧḗḓ ḓŭḗ ŧǿ Ħīɠħ Ȧƀŭşḗ Řḗƥǿřŧş"
+
+#: /media/js/settings.js:45
+msgid "Escalated due to High Refund Requests"
+msgstr "Ḗşƈȧŀȧŧḗḓ ḓŭḗ ŧǿ Ħīɠħ Řḗƒŭƞḓ Řḗɋŭḗşŧş"
+
+#: /media/js/settings.js:46
+msgid "Re-review cleared"
+msgstr "Řḗ-řḗṽīḗẇ ƈŀḗȧřḗḓ"
 
 #. {n} is the number of characters left.
 #: /media/js/utils.js:28
@@ -292,23 +327,23 @@ msgstr "Ḿḗşşȧɠḗ şḗƞŧ."
 msgid "Message sending failed."
 msgstr "Ḿḗşşȧɠḗ şḗƞḓīƞɠ ƒȧīŀḗḓ."
 
-#: /media/js/views/comm.js:79
+#: /media/js/views/comm.js:124
 msgid "Cancel reply"
 msgstr "Ƈȧƞƈḗŀ řḗƥŀẏ"
 
-#: /media/js/views/comm.js:165
+#: /media/js/views/comm.js:207
 msgid "There are no more older notes."
 msgstr "Ŧħḗřḗ ȧřḗ ƞǿ ḿǿřḗ ǿŀḓḗř ƞǿŧḗş."
 
-#: /media/js/views/comm.js:213
+#: /media/js/views/comm.js:255
 msgid "There was some problem marking the note as read. Try again."
 msgstr "Ŧħḗřḗ ẇȧş şǿḿḗ ƥřǿƀŀḗḿ ḿȧřķīƞɠ ŧħḗ ƞǿŧḗ ȧş řḗȧḓ. Ŧřẏ ȧɠȧīƞ."
 
-#: /media/js/views/comm.js:226
+#: /media/js/views/comm.js:268
 msgid "No notes to show."
 msgstr "Ƞǿ ƞǿŧḗş ŧǿ şħǿẇ."
 
-#: /media/js/views/comm.js:233
+#: /media/js/views/comm.js:275
 msgid "There was some problem marking the thread as read. Try again."
 msgstr "Ŧħḗřḗ ẇȧş şǿḿḗ ƥřǿƀŀḗḿ ḿȧřķīƞɠ ŧħḗ ŧħřḗȧḓ ȧş řḗȧḓ. Ŧřẏ ȧɠȧīƞ."
 

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-12T18:30:34.632Z\n"
+"POT-Creation-Date: 2014-04-09T16:17:44.740Z\n"
 "PO-Revision-Date: 2014-03-18 06:44+0000\n"
 "Last-Translator: Inder <inddi123in@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -94,49 +94,65 @@ msgstr "ਤੁਹਾਨੂੰ ਅੱਗੇ ਵਧਣ ਲਈ ਸਾਈਨ ਇਨ 
 msgid "Sign in / Sign up"
 msgstr "ਸਾਈਨ ਇਨ / ਸਾਈਨ ਅੱਪ"
 
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr ""
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr ""
+
 #: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "ਨੋਟਿਸ ਨਹੀ ਲੱਭੇ"
+
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "ਇੱਥੇ ਨੋਟ ਟੈਕਸਟ ਦਾਖਲ ਕਰੋ"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr ""
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr ""
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "ਪੋਸਟ"
 
 #: /templates/_macros/thread.html:14
 msgid "View older"
 msgstr "ਪੁਰਾਣਾ ਵੇਖੋ"
 
-#: /templates/_macros/thread_header.html:16
+#: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
 msgstr "{app_name} (ਵਰਜਨ {version_number}"
 
-#: /templates/_macros/thread_header.html:19
+#: /templates/_macros/thread_header.html:21
 msgid "(Obsolete)"
 msgstr "(ਬਰਤਰਫ਼)"
 
-#: /templates/_macros/thread_header.html:25 /media/js/views/comm.js:42
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:42
 msgid "{n} note"
 msgid_plural "{n} notes"
 msgstr[0] "{n} ਨੋਟਿਸ{n} ਨੋਟਿਸ"
 msgstr[1] ""
 
-#: /templates/_macros/thread_header.html:31 /media/js/views/comm.js:52 /media/js/views/comm.js:88
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:52 /media/js/views/comm.js:134
 msgid "Reply"
 msgstr "ਉੱਤਰ"
 
-#: /templates/_macros/thread_header.html:37
-msgid "Enter note text here"
-msgstr "ਇੱਥੇ ਨੋਟ ਟੈਕਸਟ ਦਾਖਲ ਕਰੋ"
-
-#: /templates/_macros/thread_header.html:38
-msgid "Post"
-msgstr "ਪੋਸਟ"
-
-#: /templates/_macros/thread_header.html:42
+#: /templates/_macros/thread_header.html:41
 msgid "Recent"
 msgstr "ਤਾਜਾ"
 
-#: /templates/_macros/thread_header.html:44
+#: /templates/_macros/thread_header.html:43
 msgid "Unread"
 msgstr "ਨਾ ਪੜ੍ਹਿਆ"
 
-#: /templates/_macros/thread_header.html:45
+#: /templates/_macros/thread_header.html:44
 msgid "Read"
 msgstr "ਪੜ੍ਹਿਆ"
 
@@ -144,7 +160,7 @@ msgstr "ਪੜ੍ਹਿਆ"
 msgid "Review"
 msgstr "ਮੁਆਇਨਾ"
 
-#: /templates/_macros/thread_header.html:49
+#: /templates/_macros/thread_header.html:50
 msgid "Mark All Read"
 msgstr "ਸਭ ਮਾਰਕ ਪੜ੍ਹੋ"
 
@@ -156,17 +172,9 @@ msgstr "ਐਪ ਆਈਕਾਨ"
 msgid "Viewing All Threads for {app_name}"
 msgstr "{app_name} ਲਈ ਸਭ ਥਰੈੱਡ ਵੈਖੋ"
 
-#: /templates/comm/app_dashboard.html:8 /templates/comm/app_dashboard.html:11
+#: /templates/comm/app_dashboard.html:8
 msgid "Back to my threads"
 msgstr "ਮੇਰੇ ਥਰਿੱਡ ਤੇ ਵਾਪਿਸ ਜਾਓ"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "App Not Found"
-msgstr "ਐਪ ਨਹੀਂ ਲੱਭਿਆ"
-
-#: /templates/comm/app_dashboard.html:34
-msgid "Error loading threads"
-msgstr "ਥਰਿੱਡ ਲੋਡ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -229,45 +237,73 @@ msgstr "ਤੁਸੀ ਸਾਇਨ ਆਉਟ ਕਰ ਲਿਆ ਹੈ।"
 msgid "You have been signed in"
 msgstr "ਤੁਸੀ ਸਾਇਨ ਇਨ ਕਰ ਲਿਆ ਹੈ।"
 
-#: /media/js/login.js:127
+#: /media/js/login.js:49
+msgid "Error signing out"
+msgstr ""
+
+#: /media/js/login.js:133
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr "ਵਅਕਤੀ ਲਾਗਇਨ ਫੇਲ੍ਹ ਹੈ। ਹੋ ਸਕਦਾ ਹੈ ਕਿ ਤੁਹਾਡਾ ਖਾਤਾ ਉਸ ਮੇਲ ਪਤੇ ਹੇਠਾ ਨਾ ਹੋਵੇ?"
 
-#: /media/js/login.js:132
+#: /media/js/login.js:138
 msgid "Persona login failed. A server error was encountered."
 msgstr "ਿਵਅਕਤੀ ਲਾਗਇਨ ਫੇਲ੍ਹ ਹੈ। ਇੱਕ ਸਰਵਰ ਨੂੰ ਗਲਤੀ ਆਈ ਹੈ।"
-
-#: /media/js/main.js:55
-msgid "Message"
-msgstr "ਮੈਸਿਜ"
-
-#: /media/js/main.js:56
-msgid "App approved"
-msgstr "ਐਪ ਨੂੰ ਪ੍ਰਵਾਨਗੀ"
-
-#: /media/js/main.js:57
-msgid "App rejected"
-msgstr "ਐਪ ਰੱਦ"
-
-#: /media/js/main.js:58
-msgid "App disabled"
-msgstr "ਐਪ ਆਯੋਗ"
-
-#: /media/js/main.js:59
-msgid "More info required"
-msgstr "ਹੋਰ ਜਾਣਕਾਰੀ ਦੀ ਲੋੜ ਹੈ"
-
-#: /media/js/main.js:60
-msgid "Review escalated to senior reviewer"
-msgstr "ਸੀਨੀਅਰ ਸਮੀਖਿਅਕ ਨੂੰ ਵਧਾਉਣ ਲਈ ਆਲੋਚਨਾ"
-
-#: /media/js/main.js:61
-msgid "Reviewer comment"
-msgstr "ਸਮੀਖਿਅਕ ਕਾਮੈਂਟ"
 
 #: /media/js/navigation.js:31
 msgid "No internet connection"
 msgstr "ਇੰਟਰਨੈੱਟ ਕੁਨੈਕਸ਼ਨ ਨਹੀਂ ਹੈ"
+
+#: /media/js/settings.js:33
+msgid "Message"
+msgstr "ਮੈਸਿਜ"
+
+#: /media/js/settings.js:34
+msgid "App approved"
+msgstr "ਐਪ ਨੂੰ ਪ੍ਰਵਾਨਗੀ"
+
+#: /media/js/settings.js:35
+msgid "App rejected"
+msgstr "ਐਪ ਰੱਦ"
+
+#: /media/js/settings.js:36
+msgid "App disabled"
+msgstr "ਐਪ ਆਯੋਗ"
+
+#: /media/js/settings.js:37
+msgid "More info required"
+msgstr "ਹੋਰ ਜਾਣਕਾਰੀ ਦੀ ਲੋੜ ਹੈ"
+
+#: /media/js/settings.js:38
+msgid "Review escalated to senior reviewer"
+msgstr "ਸੀਨੀਅਰ ਸਮੀਖਿਅਕ ਨੂੰ ਵਧਾਉਣ ਲਈ ਆਲੋਚਨਾ"
+
+#: /media/js/settings.js:39
+msgid "Reviewer comment"
+msgstr "ਸਮੀਖਿਅਕ ਕਾਮੈਂਟ"
+
+#: /media/js/settings.js:40
+msgid "App resubmission"
+msgstr ""
+
+#: /media/js/settings.js:42
+msgid "Approved but waiting to be made public"
+msgstr ""
+
+#: /media/js/settings.js:43
+msgid "Escalation cleared"
+msgstr ""
+
+#: /media/js/settings.js:44
+msgid "Escalated due to High Abuse Reports"
+msgstr ""
+
+#: /media/js/settings.js:45
+msgid "Escalated due to High Refund Requests"
+msgstr ""
+
+#: /media/js/settings.js:46
+msgid "Re-review cleared"
+msgstr ""
 
 #. {n} is the number of characters left.
 #: /media/js/utils.js:28
@@ -284,23 +320,23 @@ msgstr "<b>{n}</b> ਅੱਖਰ ਬਾਕੀ।"
 msgid "Message sending failed."
 msgstr "ਸੁਨੇਹਾ ਭੇਜਣ ਲਈ ਅਸਫਲ"
 
-#: /media/js/views/comm.js:79
+#: /media/js/views/comm.js:124
 msgid "Cancel reply"
 msgstr "ਜੁਵਾਬ ਰੱਦ"
 
-#: /media/js/views/comm.js:165
+#: /media/js/views/comm.js:207
 msgid "There are no more older notes."
 msgstr "ਹੋਰ ਪੁਰਾਣੇ ਨੋਟਿਸ ਨਹੀਂ"
 
-#: /media/js/views/comm.js:213
+#: /media/js/views/comm.js:255
 msgid "There was some problem marking the note as read. Try again."
 msgstr "ਨੋਟ ਨੂੰ ਪੜ੍ਹਨ ਦੌਰਾਨ ਕੁੱਝ ਸਮੱਸਿਆਵਾਂ ਆਈਆਂ ਹਨ. ਦੁਬਾਰਾ ਕੋਸਿਸ਼ ਕਰੋ."
 
-#: /media/js/views/comm.js:226
+#: /media/js/views/comm.js:268
 msgid "No notes to show."
 msgstr "ਦਿਖਾਉਣ ਲਈ ਕੋਈ ਨੋਟ ਨਹੀਂ"
 
-#: /media/js/views/comm.js:233
+#: /media/js/views/comm.js:275
 msgid "There was some problem marking the thread as read. Try again."
 msgstr "ਥਰੈੱਡ ਨੂੰ ਪੜ੍ਹਨ ਦੌਰਾਨ ਕੁੱਝ ਸਮੱਸਿਆਵਾਂ ਆਈਆਂ ਹਨ. ਦੁਬਾਰਾ ਕੋਸਿ਼ਸ ਕਰੋ."
 

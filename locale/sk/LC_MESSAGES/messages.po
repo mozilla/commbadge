@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-12T18:30:34.632Z\n"
+"POT-Creation-Date: 2014-04-09T16:17:44.740Z\n"
 "PO-Revision-Date: 2014-01-09 13:08+0000\n"
 "Last-Translator: Vlado <valastiak@mozilla.sk>\n"
 "Language-Team: Mozilla.sk <l10n@mozilla.sk>\n"
@@ -94,50 +94,66 @@ msgstr "Ak chcete pokračovať, musíte sa prihlásiť."
 msgid "Sign in / Sign up"
 msgstr "Prihlásiť sa / zaregistrovať"
 
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr ""
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr ""
+
 #: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "Neboli nájdené žiadne poznámky"
+
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Zadajte text poznámky"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr ""
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr ""
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Pridať"
 
 #: /templates/_macros/thread.html:14
 msgid "View older"
 msgstr "Zobraziť staršie"
 
-#: /templates/_macros/thread_header.html:16
+#: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
 msgstr "{app_name} (verzia {version_number})"
 
-#: /templates/_macros/thread_header.html:19
+#: /templates/_macros/thread_header.html:21
 msgid "(Obsolete)"
 msgstr "(neaktuálne)"
 
-#: /templates/_macros/thread_header.html:25 /media/js/views/comm.js:42
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:42
 msgid "{n} note"
 msgid_plural "{n} notes"
 msgstr[0] "{n} poznámka"
 msgstr[1] "{n} poznámky"
 msgstr[2] "{n} poznámok"
 
-#: /templates/_macros/thread_header.html:31 /media/js/views/comm.js:52 /media/js/views/comm.js:88
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:52 /media/js/views/comm.js:134
 msgid "Reply"
 msgstr "Odpovedať"
 
-#: /templates/_macros/thread_header.html:37
-msgid "Enter note text here"
-msgstr "Zadajte text poznámky"
-
-#: /templates/_macros/thread_header.html:38
-msgid "Post"
-msgstr "Pridať"
-
-#: /templates/_macros/thread_header.html:42
+#: /templates/_macros/thread_header.html:41
 msgid "Recent"
 msgstr "Nedávne"
 
-#: /templates/_macros/thread_header.html:44
+#: /templates/_macros/thread_header.html:43
 msgid "Unread"
 msgstr "Neprečítané"
 
-#: /templates/_macros/thread_header.html:45
+#: /templates/_macros/thread_header.html:44
 msgid "Read"
 msgstr "Prečítané"
 
@@ -145,7 +161,7 @@ msgstr "Prečítané"
 msgid "Review"
 msgstr "Kontrola"
 
-#: /templates/_macros/thread_header.html:49
+#: /templates/_macros/thread_header.html:50
 msgid "Mark All Read"
 msgstr "Označiť všetky ako prečítané"
 
@@ -157,17 +173,9 @@ msgstr "Ikona aplikácie"
 msgid "Viewing All Threads for {app_name}"
 msgstr "Zobrazujú sa všetky vlákna pre {app_name}"
 
-#: /templates/comm/app_dashboard.html:8 /templates/comm/app_dashboard.html:11
+#: /templates/comm/app_dashboard.html:8
 msgid "Back to my threads"
 msgstr "Naspäť na moje vlákna"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "App Not Found"
-msgstr "Aplikácia nebola nájdená"
-
-#: /templates/comm/app_dashboard.html:34
-msgid "Error loading threads"
-msgstr "Chyba pri načítaní vlákien"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -230,45 +238,73 @@ msgstr "Odhlásenie prebehlo úspešne"
 msgid "You have been signed in"
 msgstr "Prihlásenie prebehlo úspešne"
 
-#: /media/js/login.js:127
+#: /media/js/login.js:49
+msgid "Error signing out"
+msgstr ""
+
+#: /media/js/login.js:133
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr "Prihlásenie pomocou služby Persona zlyhalo. Možno pod touto e-mailovou adresou nemáte účet?"
 
-#: /media/js/login.js:132
+#: /media/js/login.js:138
 msgid "Persona login failed. A server error was encountered."
 msgstr "Prihlásenie pomocou služby Persona zlyhalo. Nastala chyba servera."
-
-#: /media/js/main.js:55
-msgid "Message"
-msgstr "Správa"
-
-#: /media/js/main.js:56
-msgid "App approved"
-msgstr "Aplikácia bola schválená"
-
-#: /media/js/main.js:57
-msgid "App rejected"
-msgstr "Aplikácia bola zamietnutá"
-
-#: /media/js/main.js:58
-msgid "App disabled"
-msgstr "Aplikácia bola zakázaná"
-
-#: /media/js/main.js:59
-msgid "More info required"
-msgstr "Vyžadujú sa dodatočné informácie"
-
-#: /media/js/main.js:60
-msgid "Review escalated to senior reviewer"
-msgstr "Kontrola bola presunutá k skúsenejšiemu editorovi"
-
-#: /media/js/main.js:61
-msgid "Reviewer comment"
-msgstr "Komentár editora"
 
 #: /media/js/navigation.js:31
 msgid "No internet connection"
 msgstr "Žiadne pripojenie k internetu"
+
+#: /media/js/settings.js:33
+msgid "Message"
+msgstr "Správa"
+
+#: /media/js/settings.js:34
+msgid "App approved"
+msgstr "Aplikácia bola schválená"
+
+#: /media/js/settings.js:35
+msgid "App rejected"
+msgstr "Aplikácia bola zamietnutá"
+
+#: /media/js/settings.js:36
+msgid "App disabled"
+msgstr "Aplikácia bola zakázaná"
+
+#: /media/js/settings.js:37
+msgid "More info required"
+msgstr "Vyžadujú sa dodatočné informácie"
+
+#: /media/js/settings.js:38
+msgid "Review escalated to senior reviewer"
+msgstr "Kontrola bola presunutá k skúsenejšiemu editorovi"
+
+#: /media/js/settings.js:39
+msgid "Reviewer comment"
+msgstr "Komentár editora"
+
+#: /media/js/settings.js:40
+msgid "App resubmission"
+msgstr ""
+
+#: /media/js/settings.js:42
+msgid "Approved but waiting to be made public"
+msgstr ""
+
+#: /media/js/settings.js:43
+msgid "Escalation cleared"
+msgstr ""
+
+#: /media/js/settings.js:44
+msgid "Escalated due to High Abuse Reports"
+msgstr ""
+
+#: /media/js/settings.js:45
+msgid "Escalated due to High Refund Requests"
+msgstr ""
+
+#: /media/js/settings.js:46
+msgid "Re-review cleared"
+msgstr ""
 
 #. {n} is the number of characters left.
 #: /media/js/utils.js:28
@@ -286,23 +322,23 @@ msgstr "Správa odoslaná."
 msgid "Message sending failed."
 msgstr "Odoslanie správy zlyhalo."
 
-#: /media/js/views/comm.js:79
+#: /media/js/views/comm.js:124
 msgid "Cancel reply"
 msgstr "Zrušiť odpoveď"
 
-#: /media/js/views/comm.js:165
+#: /media/js/views/comm.js:207
 msgid "There are no more older notes."
 msgstr "Neexistujú žiadne staršie poznámky."
 
-#: /media/js/views/comm.js:213
+#: /media/js/views/comm.js:255
 msgid "There was some problem marking the note as read. Try again."
 msgstr "Pri označovaní poznámky ako prečítanej sa vyskytla chyba. Skúste to znova."
 
-#: /media/js/views/comm.js:226
+#: /media/js/views/comm.js:268
 msgid "No notes to show."
 msgstr "Žiadne dostupné poznámky."
 
-#: /media/js/views/comm.js:233
+#: /media/js/views/comm.js:275
 msgid "There was some problem marking the thread as read. Try again."
 msgstr "Pri označovaní vlákna ako prečítaného sa vyskytla chyba. Skúste to znova."
 
