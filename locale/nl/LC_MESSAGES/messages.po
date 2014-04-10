@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-09T16:17:44.740Z\n"
-"PO-Revision-Date: 2014-04-09 18:33+0000\n"
-"Last-Translator: Mark <markh@babelzilla.org>\n"
+"PO-Revision-Date: 2014-04-10 17:51+0000\n"
+"Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: none\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1397068423.0\n"
+"X-POOTLE-MTIME: 1397152287.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -273,7 +273,7 @@ msgstr "App uitgeschakeld"
 
 #: /media/js/settings.js:37
 msgid "More info required"
-msgstr "Meer informatie gevraagd"
+msgstr "Meer info vereist"
 
 #: /media/js/settings.js:38
 msgid "Review escalated to senior reviewer"
@@ -281,23 +281,23 @@ msgstr "Beoordeling geëscaleerd naar seniorbeoordelaar"
 
 #: /media/js/settings.js:39
 msgid "Reviewer comment"
-msgstr "Opmerking beoordelaar"
+msgstr "Opmerking van beoordelaar"
 
 #: /media/js/settings.js:40
 msgid "App resubmission"
-msgstr "Herindiening app"
+msgstr "App-herindiening"
 
 #: /media/js/settings.js:42
 msgid "Approved but waiting to be made public"
-msgstr "Goedgekeurd maar wacht op publicatie"
+msgstr "Goedgekeurd, maar wacht op publicatie"
 
 #: /media/js/settings.js:43
 msgid "Escalation cleared"
-msgstr "Escalatie opgelost"
+msgstr "Escalatie opgeheven"
 
 #: /media/js/settings.js:44
 msgid "Escalated due to High Abuse Reports"
-msgstr "Geëscaleerd vanwege groot aantal misbruikrapporten"
+msgstr "Geëscaleerd vanwege groot aantal misbruikmeldingen"
 
 #: /media/js/settings.js:45
 msgid "Escalated due to High Refund Requests"
@@ -305,7 +305,7 @@ msgstr "Geëscaleerd vanwege groot aantal restitutieverzoeken"
 
 #: /media/js/settings.js:46
 msgid "Re-review cleared"
-msgstr "Herbeoordeling opgelost"
+msgstr "Herbeoordeling opgeheven"
 
 #. {n} is the number of characters left.
 #: /media/js/utils.js:28
