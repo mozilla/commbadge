@@ -3,15 +3,16 @@ msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-09T16:17:44.740Z\n"
-"PO-Revision-Date: 2014-02-28 18:56+0000\n"
-"Last-Translator: Alexander <unghost@mozilla-russia.org>\n"
+"PO-Revision-Date: 2014-04-12 17:59+0400\n"
+"Last-Translator: Alexander L. Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: none\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Pootle 2.5.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.6.4\n"
 "X-POOTLE-MTIME: 1393613768.0\n"
 
 #: /templates/confirmation.html:0
@@ -52,11 +53,15 @@ msgstr "Инструмент поиска"
 
 #: /templates/footer.html:24
 msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, "
+"content on this site is licensed under the <a href=\"{cc_url}\" target="
+"\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> or any "
+"later version."
 msgstr ""
-"За исключением содержимого с <a href=\"{legal_url}\" target=\"_blank\">явно указанной</a> лицензией, содержимое этого сайта лицензировано на условиях <a href=\"{cc_url}\" target=\"_blank\">лицензии "
-"Creative Commons Атрибуция — С сохранением условий версии 3.0</a> или более поздней."
+"За исключением содержимого с <a href=\"{legal_url}\" target=\"_blank\">явно "
+"указанной</a> лицензией, содержимое этого сайта лицензировано на условиях <a "
+"href=\"{cc_url}\" target=\"_blank\">лицензии Creative Commons Атрибуция — С "
+"сохранением условий версии 3.0</a> или более поздней."
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
@@ -96,11 +101,11 @@ msgstr "Вход / Регистрация"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
-msgstr ""
+msgstr "Приложение"
 
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
-msgstr ""
+msgstr "Описание файла"
 
 #: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
 msgid "No notes found"
@@ -112,11 +117,11 @@ msgstr "Введите здесь текст заметки"
 
 #: /templates/_macros/reply_box.html:6
 msgid "Attach screenshots and log files:"
-msgstr ""
+msgstr "Приложите скриншоты и файлы логов:"
 
 #: /templates/_macros/reply_box.html:8
 msgid "Attach another file"
-msgstr ""
+msgstr "Приложите другой файл"
 
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
@@ -141,7 +146,8 @@ msgstr[0] "{n} заметка"
 msgstr[1] "{n} заметки"
 msgstr[2] "{n} заметок"
 
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:52 /media/js/views/comm.js:134
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:52
+#: /media/js/views/comm.js:134
 msgid "Reply"
 msgstr "Ответить"
 
@@ -240,11 +246,15 @@ msgstr "Вы успешно вошли в свой аккаунт"
 
 #: /media/js/login.js:49
 msgid "Error signing out"
-msgstr ""
+msgstr "Ошибка при выходе"
 
 #: /media/js/login.js:133
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Ошибка входа через Persona. Возможно у вас нет учетной записи для этого адреса эл. почты?"
+msgid ""
+"Persona login failed. Maybe you don't have an account under that email "
+"address?"
+msgstr ""
+"Ошибка входа через Persona. Возможно у вас нет учетной записи для этого "
+"адреса эл. почты?"
 
 #: /media/js/login.js:138
 msgid "Persona login failed. A server error was encountered."
@@ -284,27 +294,27 @@ msgstr "Комментарий рецензента"
 
 #: /media/js/settings.js:40
 msgid "App resubmission"
-msgstr ""
+msgstr "Повторное представление приложения"
 
 #: /media/js/settings.js:42
 msgid "Approved but waiting to be made public"
-msgstr ""
+msgstr "Одобрено, но ожидает представления публике"
 
 #: /media/js/settings.js:43
 msgid "Escalation cleared"
-msgstr ""
+msgstr "Эскалация очищена"
 
 #: /media/js/settings.js:44
 msgid "Escalated due to High Abuse Reports"
-msgstr ""
+msgstr "Эскалация из-за большого числа жалоб"
 
 #: /media/js/settings.js:45
 msgid "Escalated due to High Refund Requests"
-msgstr ""
+msgstr "Эскалация из-за множества запросов на возврат денег"
 
 #: /media/js/settings.js:46
 msgid "Re-review cleared"
-msgstr ""
+msgstr "Повторная проверка очищена"
 
 #. {n} is the number of characters left.
 #: /media/js/utils.js:28
@@ -332,7 +342,8 @@ msgstr "Более старых заметок не имеется."
 
 #: /media/js/views/comm.js:255
 msgid "There was some problem marking the note as read. Try again."
-msgstr "При пометке заметки как прочтённой возникла проблема. Попробуйте снова."
+msgstr ""
+"При пометке заметки как прочтённой возникла проблема. Попробуйте снова."
 
 #: /media/js/views/comm.js:268
 msgid "No notes to show."
