@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-09T16:17:44.740Z\n"
-"PO-Revision-Date: 2014-01-04 14:45+0000\n"
+"PO-Revision-Date: 2014-04-13 11:13+0000\n"
 "Last-Translator: Inma <inma.barrios@mozilla-hispano.org>\n"
 "Language-Team: Español (España) <nave@elistas.net>\n"
 "Language: es\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1388846715.0\n"
+"X-POOTLE-MTIME: 1397387638.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -96,11 +96,11 @@ msgstr "Identificarse / Registrarse"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
-msgstr ""
+msgstr "Adjunto"
 
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
-msgstr ""
+msgstr "Descripción del archivo"
 
 #: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
 msgid "No notes found"
@@ -112,11 +112,11 @@ msgstr "Escribe texto de nota aquí"
 
 #: /templates/_macros/reply_box.html:6
 msgid "Attach screenshots and log files:"
-msgstr ""
+msgstr "Adjunta capturas de pantalla y archivos de registro:"
 
 #: /templates/_macros/reply_box.html:8
 msgid "Attach another file"
-msgstr ""
+msgstr "Adjuntar otro archivo"
 
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
@@ -239,7 +239,7 @@ msgstr "Te has identificado"
 
 #: /media/js/login.js:49
 msgid "Error signing out"
-msgstr ""
+msgstr "Error al salir"
 
 #: /media/js/login.js:133
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
@@ -283,27 +283,27 @@ msgstr "Comentario del revisor"
 
 #: /media/js/settings.js:40
 msgid "App resubmission"
-msgstr ""
+msgstr "Reenviar aplicación"
 
 #: /media/js/settings.js:42
 msgid "Approved but waiting to be made public"
-msgstr ""
+msgstr "Aprobada pero en espera de que se haga pública"
 
 #: /media/js/settings.js:43
 msgid "Escalation cleared"
-msgstr ""
+msgstr "Remisión eliminada"
 
 #: /media/js/settings.js:44
 msgid "Escalated due to High Abuse Reports"
-msgstr ""
+msgstr "Remitida debido al alto número de informes de infracción"
 
 #: /media/js/settings.js:45
 msgid "Escalated due to High Refund Requests"
-msgstr ""
+msgstr "Remitida debido al alto número de solicitudes de reembolso"
 
 #: /media/js/settings.js:46
 msgid "Re-review cleared"
-msgstr ""
+msgstr "Segunda revisión eliminada"
 
 #. {n} is the number of characters left.
 #: /media/js/utils.js:28
