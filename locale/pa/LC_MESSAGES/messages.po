@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-09T16:17:44.740Z\n"
+"POT-Creation-Date: 2014-04-23T16:16:44.681Z\n"
 "PO-Revision-Date: 2014-03-18 06:44+0000\n"
 "Last-Translator: Inder <inddi123in@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,18 +13,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1) ;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1395125090.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "ਬੰਦ"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "ਨਹੀਂ"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "ਹਾਂ"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -94,6 +82,18 @@ msgstr "ਤੁਹਾਨੂੰ ਅੱਗੇ ਵਧਣ ਲਈ ਸਾਈਨ ਇਨ 
 msgid "Sign in / Sign up"
 msgstr "ਸਾਈਨ ਇਨ / ਸਾਈਨ ਅੱਪ"
 
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "ਬੰਦ"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "ਨਹੀਂ"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "ਹਾਂ"
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr ""
@@ -156,11 +156,15 @@ msgstr "ਨਾ ਪੜ੍ਹਿਆ"
 msgid "Read"
 msgstr "ਪੜ੍ਹਿਆ"
 
-#: /templates/_macros/thread_header.html:47
+#: /templates/_macros/thread_header.html:48
+msgid "Unsubscribe"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:51
 msgid "Review"
 msgstr "ਮੁਆਇਨਾ"
 
-#: /templates/_macros/thread_header.html:50
+#: /templates/_macros/thread_header.html:54
 msgid "Mark All Read"
 msgstr "ਸਭ ਮਾਰਕ ਪੜ੍ਹੋ"
 
@@ -339,6 +343,10 @@ msgstr "ਦਿਖਾਉਣ ਲਈ ਕੋਈ ਨੋਟ ਨਹੀਂ"
 #: /media/js/views/comm.js:275
 msgid "There was some problem marking the thread as read. Try again."
 msgstr "ਥਰੈੱਡ ਨੂੰ ਪੜ੍ਹਨ ਦੌਰਾਨ ਕੁੱਝ ਸਮੱਸਿਆਵਾਂ ਆਈਆਂ ਹਨ. ਦੁਬਾਰਾ ਕੋਸਿ਼ਸ ਕਰੋ."
+
+#: /media/js/views/comm.js:285
+msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
+msgstr ""
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9

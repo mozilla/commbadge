@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-09T16:17:44.740Z\n"
+"POT-Creation-Date: 2014-04-23T16:16:44.681Z\n"
 "PO-Revision-Date: 2014-04-05 13:39+0000\n"
 "Last-Translator: Goce <goce.mitevski@gmail.com>\n"
 "Language-Team: none\n"
@@ -13,18 +13,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1396705161.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Затвори"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Не"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Да"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -94,6 +82,18 @@ msgstr "Морате да се најавите за да продолжите."
 msgid "Sign in / Sign up"
 msgstr "Најава / Регистрација"
 
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Затвори"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Не"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Да"
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr ""
@@ -156,11 +156,15 @@ msgstr "Непрочитани"
 msgid "Read"
 msgstr "Прочитани"
 
-#: /templates/_macros/thread_header.html:47
+#: /templates/_macros/thread_header.html:48
+msgid "Unsubscribe"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:51
 msgid "Review"
 msgstr "Рецензија"
 
-#: /templates/_macros/thread_header.html:50
+#: /templates/_macros/thread_header.html:54
 msgid "Mark All Read"
 msgstr "Означи ги сите како прочитани"
 
@@ -339,6 +343,10 @@ msgstr "Нема белешки за прикажување."
 #: /media/js/views/comm.js:275
 msgid "There was some problem marking the thread as read. Try again."
 msgstr "Настана проблем при означувањето на нишката како прочитана. Обидете се повторно."
+
+#: /media/js/views/comm.js:285
+msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
+msgstr ""
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9

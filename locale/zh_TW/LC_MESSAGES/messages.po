@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-09T16:17:44.740Z\n"
+"POT-Creation-Date: 2014-04-23T16:16:44.681Z\n"
 "PO-Revision-Date: 2014-04-10 16:56+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: MozTW <petercpg@mail.moztw.org>\n"
@@ -14,18 +14,6 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-POOTLE-MTIME: 1397148978.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "關閉"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "否"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "是"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -93,6 +81,18 @@ msgstr "您必須登入才能繼續。"
 msgid "Sign in / Sign up"
 msgstr "登入 / 註冊"
 
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "關閉"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "否"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "是"
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr "附件"
@@ -154,11 +154,15 @@ msgstr "未讀"
 msgid "Read"
 msgstr "已讀"
 
-#: /templates/_macros/thread_header.html:47
+#: /templates/_macros/thread_header.html:48
+msgid "Unsubscribe"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:51
 msgid "Review"
 msgstr "評論"
 
-#: /templates/_macros/thread_header.html:50
+#: /templates/_macros/thread_header.html:54
 msgid "Mark All Read"
 msgstr "標示所有已讀"
 
@@ -336,6 +340,10 @@ msgstr "沒有可以顯示的筆記。"
 #: /media/js/views/comm.js:275
 msgid "There was some problem marking the thread as read. Try again."
 msgstr "將討論串標示為已讀時發生錯誤，請再試一次。"
+
+#: /media/js/views/comm.js:285
+msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
+msgstr ""
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9

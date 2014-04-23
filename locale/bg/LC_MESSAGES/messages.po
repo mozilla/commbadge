@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AMO Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-09T16:17:44.740Z\n"
+"POT-Creation-Date: 2014-04-23T16:16:44.681Z\n"
 "PO-Revision-Date: 2013-10-28 21:27+0200\n"
 "Last-Translator: Mihail Chilyashev <m@chilyashev.com>\n"
 "Language-Team: Bulgarian (bg)\n"
@@ -12,18 +12,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.5.4\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Затвори"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Не"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Да"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -93,6 +81,18 @@ msgstr "Трябва да влезете, за да продължите"
 msgid "Sign in / Sign up"
 msgstr "Вход / Регистрация"
 
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Затвори"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Не"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Да"
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr ""
@@ -155,11 +155,15 @@ msgstr "Непрочетено"
 msgid "Read"
 msgstr "Прочетено"
 
-#: /templates/_macros/thread_header.html:47
+#: /templates/_macros/thread_header.html:48
+msgid "Unsubscribe"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:51
 msgid "Review"
 msgstr ""
 
-#: /templates/_macros/thread_header.html:50
+#: /templates/_macros/thread_header.html:54
 msgid "Mark All Read"
 msgstr "Маркирай всички като прочетени"
 
@@ -338,6 +342,10 @@ msgstr "Няма бележки за показване."
 #: /media/js/views/comm.js:275
 msgid "There was some problem marking the thread as read. Try again."
 msgstr "Възникна проблем при маркирането на темата като прочетена. Опитайте отново."
+
+#: /media/js/views/comm.js:285
+msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
+msgstr ""
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9

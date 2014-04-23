@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-09T16:17:44.740Z\n"
+"POT-Creation-Date: 2014-04-23T16:16:44.681Z\n"
 "PO-Revision-Date: 2014-04-12 17:59+0400\n"
 "Last-Translator: Alexander L. Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: none\n"
@@ -10,22 +10,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Poedit 1.6.4\n"
 "X-POOTLE-MTIME: 1393613768.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Закрыть"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Нет"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Да"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -53,15 +40,11 @@ msgstr "Инструмент поиска"
 
 #: /templates/footer.html:24
 msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, "
-"content on this site is licensed under the <a href=\"{cc_url}\" target="
-"\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> or any "
-"later version."
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
 msgstr ""
-"За исключением содержимого с <a href=\"{legal_url}\" target=\"_blank\">явно "
-"указанной</a> лицензией, содержимое этого сайта лицензировано на условиях <a "
-"href=\"{cc_url}\" target=\"_blank\">лицензии Creative Commons Атрибуция — С "
-"сохранением условий версии 3.0</a> или более поздней."
+"За исключением содержимого с <a href=\"{legal_url}\" target=\"_blank\">явно указанной</a> лицензией, содержимое этого сайта лицензировано на условиях <a href=\"{cc_url}\" target=\"_blank\">лицензии "
+"Creative Commons Атрибуция — С сохранением условий версии 3.0</a> или более поздней."
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
@@ -98,6 +81,18 @@ msgstr "Вы должны войти для продолжения"
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
 msgstr "Вход / Регистрация"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Закрыть"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Нет"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Да"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
@@ -146,8 +141,7 @@ msgstr[0] "{n} заметка"
 msgstr[1] "{n} заметки"
 msgstr[2] "{n} заметок"
 
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:52
-#: /media/js/views/comm.js:134
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:52 /media/js/views/comm.js:134
 msgid "Reply"
 msgstr "Ответить"
 
@@ -163,11 +157,15 @@ msgstr "Непрочитанные"
 msgid "Read"
 msgstr "Прочитанные"
 
-#: /templates/_macros/thread_header.html:47
+#: /templates/_macros/thread_header.html:48
+msgid "Unsubscribe"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:51
 msgid "Review"
 msgstr "Рецензировать"
 
-#: /templates/_macros/thread_header.html:50
+#: /templates/_macros/thread_header.html:54
 msgid "Mark All Read"
 msgstr "Пометить все как \"прочитанные\""
 
@@ -249,12 +247,8 @@ msgid "Error signing out"
 msgstr "Ошибка при выходе"
 
 #: /media/js/login.js:133
-msgid ""
-"Persona login failed. Maybe you don't have an account under that email "
-"address?"
-msgstr ""
-"Ошибка входа через Persona. Возможно у вас нет учетной записи для этого "
-"адреса эл. почты?"
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Ошибка входа через Persona. Возможно у вас нет учетной записи для этого адреса эл. почты?"
 
 #: /media/js/login.js:138
 msgid "Persona login failed. A server error was encountered."
@@ -342,8 +336,7 @@ msgstr "Более старых заметок не имеется."
 
 #: /media/js/views/comm.js:255
 msgid "There was some problem marking the note as read. Try again."
-msgstr ""
-"При пометке заметки как прочтённой возникла проблема. Попробуйте снова."
+msgstr "При пометке заметки как прочтённой возникла проблема. Попробуйте снова."
 
 #: /media/js/views/comm.js:268
 msgid "No notes to show."
@@ -352,6 +345,10 @@ msgstr "Не заметок для показа."
 #: /media/js/views/comm.js:275
 msgid "There was some problem marking the thread as read. Try again."
 msgstr "При пометке ветки как прочтённой возникла проблема. Попробуйте снова."
+
+#: /media/js/views/comm.js:285
+msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
+msgstr ""
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-09T16:17:44.740Z\n"
+"POT-Creation-Date: 2014-04-23T16:16:44.681Z\n"
 "PO-Revision-Date: 2013-10-23 18:51+0000\n"
 "Last-Translator: Toni <toniher@softcatala.org>\n"
 "Language-Team: Catalan <ca@dodds.net>\n"
@@ -14,18 +14,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1382554264.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Tanca"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "No"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Sí"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -95,6 +83,18 @@ msgstr "Heu d'iniciar una sessió per procedir."
 msgid "Sign in / Sign up"
 msgstr "Inicia una sessió / Registre"
 
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Tanca"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "No"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Sí"
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr ""
@@ -157,11 +157,15 @@ msgstr "Per llegir"
 msgid "Read"
 msgstr "Llegit"
 
-#: /templates/_macros/thread_header.html:47
+#: /templates/_macros/thread_header.html:48
+msgid "Unsubscribe"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:51
 msgid "Review"
 msgstr ""
 
-#: /templates/_macros/thread_header.html:50
+#: /templates/_macros/thread_header.html:54
 msgid "Mark All Read"
 msgstr "Marca-ho tot com a llegit"
 
@@ -339,6 +343,10 @@ msgstr ""
 
 #: /media/js/views/comm.js:275
 msgid "There was some problem marking the thread as read. Try again."
+msgstr ""
+
+#: /media/js/views/comm.js:285
+msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
 msgstr ""
 
 #. Page not found (404)

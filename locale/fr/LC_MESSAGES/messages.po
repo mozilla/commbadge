@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-09T16:17:44.740Z\n"
+"POT-Creation-Date: 2014-04-23T16:16:44.681Z\n"
 "PO-Revision-Date: 2014-02-27 19:59+0000\n"
 "Last-Translator: Frédéric <fredchat@frenchmozilla.org>\n"
 "Language-Team: français <>\n"
@@ -16,18 +16,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1393531167.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Fermer"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Non"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Oui"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -97,6 +85,18 @@ msgstr "Vous devez vous identifier pour continuer."
 msgid "Sign in / Sign up"
 msgstr "Connexion / Inscription"
 
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Fermer"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Non"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Oui"
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr ""
@@ -159,11 +159,15 @@ msgstr "Non lu"
 msgid "Read"
 msgstr "Lu"
 
-#: /templates/_macros/thread_header.html:47
+#: /templates/_macros/thread_header.html:48
+msgid "Unsubscribe"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:51
 msgid "Review"
 msgstr "Révision"
 
-#: /templates/_macros/thread_header.html:50
+#: /templates/_macros/thread_header.html:54
 msgid "Mark All Read"
 msgstr "Tout marquer comme lu"
 
@@ -342,6 +346,10 @@ msgstr "Aucune note à afficher."
 #: /media/js/views/comm.js:275
 msgid "There was some problem marking the thread as read. Try again."
 msgstr "Un problème s'est produit lors du marquage de la discussion comme lue. Veuillez réessayer."
+
+#: /media/js/views/comm.js:285
+msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
+msgstr ""
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9

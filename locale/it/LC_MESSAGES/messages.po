@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Commbadge\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-09T16:17:44.740Z\n"
+"POT-Creation-Date: 2014-04-23T16:16:44.681Z\n"
 "PO-Revision-Date: 2014-04-10 07:35+0000\n"
 "Last-Translator: Sara <sara.todaro@mozillaitalia.org>\n"
 "Language-Team: gialloporpora <gialloporpora@yahoo.it>\n"
@@ -14,18 +14,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1397115342.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Chiudi"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "No"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Si"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -95,6 +83,18 @@ msgstr "Per proseguire è necessario eseguire l'accesso."
 msgid "Sign in / Sign up"
 msgstr "Accedi o registrati"
 
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Chiudi"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "No"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Si"
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr "Allegato"
@@ -157,11 +157,15 @@ msgstr "Non lette"
 msgid "Read"
 msgstr "Lette"
 
-#: /templates/_macros/thread_header.html:47
+#: /templates/_macros/thread_header.html:48
+msgid "Unsubscribe"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:51
 msgid "Review"
 msgstr "Recensione"
 
-#: /templates/_macros/thread_header.html:50
+#: /templates/_macros/thread_header.html:54
 msgid "Mark All Read"
 msgstr "Marca tutte come lette"
 
@@ -288,8 +292,7 @@ msgstr "Invia nuovamente l’app"
 
 #: /media/js/settings.js:42
 msgid "Approved but waiting to be made public"
-msgstr ""
-"È stata approvata, ma è in attesa di essere resa disponibile al pubblico."
+msgstr "È stata approvata, ma è in attesa di essere resa disponibile al pubblico."
 
 #: /media/js/settings.js:43
 msgid "Escalation cleared"
@@ -297,15 +300,11 @@ msgstr "Tolta dalla escalation"
 
 #: /media/js/settings.js:44
 msgid "Escalated due to High Abuse Reports"
-msgstr ""
-"Messa in escalation a causa dell’alto numero di segnalazioni di abuso "
-"ricevute."
+msgstr "Messa in escalation a causa dell’alto numero di segnalazioni di abuso ricevute."
 
 #: /media/js/settings.js:45
 msgid "Escalated due to High Refund Requests"
-msgstr ""
-"Messa in escalation a causa dell’alto numero di richieste di rimborso "
-"pervenute."
+msgstr "Messa in escalation a causa dell’alto numero di richieste di rimborso pervenute."
 
 #: /media/js/settings.js:46
 msgid "Re-review cleared"
@@ -345,6 +344,10 @@ msgstr "Nessuna nota da visualizzare."
 #: /media/js/views/comm.js:275
 msgid "There was some problem marking the thread as read. Try again."
 msgstr "Si è verificato un problema nel marcare la discussione come letta. Riprova."
+
+#: /media/js/views/comm.js:285
+msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
+msgstr ""
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9

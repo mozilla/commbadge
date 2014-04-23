@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-09T16:17:44.740Z\n"
+"POT-Creation-Date: 2014-04-23T16:16:44.681Z\n"
 "PO-Revision-Date: 2014-04-13 16:54+0000\n"
 "Last-Translator: Vlado <valastiak@mozilla.sk>\n"
 "Language-Team: Mozilla.sk <l10n@mozilla.sk>\n"
@@ -13,18 +13,6 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1397408061.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Zavrieť"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Nie"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Áno"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -94,6 +82,18 @@ msgstr "Ak chcete pokračovať, musíte sa prihlásiť."
 msgid "Sign in / Sign up"
 msgstr "Prihlásiť sa / zaregistrovať"
 
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Zavrieť"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Nie"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Áno"
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr "Príloha"
@@ -157,11 +157,15 @@ msgstr "Neprečítané"
 msgid "Read"
 msgstr "Prečítané"
 
-#: /templates/_macros/thread_header.html:47
+#: /templates/_macros/thread_header.html:48
+msgid "Unsubscribe"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:51
 msgid "Review"
 msgstr "Kontrola"
 
-#: /templates/_macros/thread_header.html:50
+#: /templates/_macros/thread_header.html:54
 msgid "Mark All Read"
 msgstr "Označiť všetky ako prečítané"
 
@@ -341,6 +345,10 @@ msgstr "Žiadne dostupné poznámky."
 #: /media/js/views/comm.js:275
 msgid "There was some problem marking the thread as read. Try again."
 msgstr "Pri označovaní vlákna ako prečítaného sa vyskytla chyba. Skúste to znova."
+
+#: /media/js/views/comm.js:285
+msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
+msgstr ""
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9

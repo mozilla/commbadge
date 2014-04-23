@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-09T16:17:44.740Z\n"
+"POT-Creation-Date: 2014-04-23T16:16:44.681Z\n"
 "PO-Revision-Date: 2013-10-10 11:45+0200\n"
 "Last-Translator: Wojciech Szczęsny\n"
 "Language-Team: Polish <team@aviary.pl>\n"
@@ -13,18 +13,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.4\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Zamknij"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Tak"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Nie"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -94,6 +82,18 @@ msgstr "Musisz zalogować się, aby kontynuować."
 msgid "Sign in / Sign up"
 msgstr "Logowanie / Rejestracja"
 
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Zamknij"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Tak"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Nie"
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr ""
@@ -157,11 +157,15 @@ msgstr "Nieprzeczytane"
 msgid "Read"
 msgstr "Przeczytane"
 
-#: /templates/_macros/thread_header.html:47
+#: /templates/_macros/thread_header.html:48
+msgid "Unsubscribe"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:51
 msgid "Review"
 msgstr ""
 
-#: /templates/_macros/thread_header.html:50
+#: /templates/_macros/thread_header.html:54
 msgid "Mark All Read"
 msgstr "Zaznacz wszystkie jako przeczytane"
 
@@ -341,6 +345,10 @@ msgstr "Brak informacji do wyświetlenia"
 #: /media/js/views/comm.js:275
 msgid "There was some problem marking the thread as read. Try again."
 msgstr "Wystąpił problem podczas oznaczania wątku jako przeczytanego. Spróbuj ponownie."
+
+#: /media/js/views/comm.js:285
+msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
+msgstr ""
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9
