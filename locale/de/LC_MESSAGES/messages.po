@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: AMO Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-23T16:16:44.681Z\n"
-"PO-Revision-Date: 2014-04-09 16:42+0000\n"
+"PO-Revision-Date: 2014-04-23 16:45+0000\n"
 "Last-Translator: Michael <michael.koehler1@gmx.de>\n"
 "Language-Team: German (de) <coce@nurfuerspam.de>\n"
 "Language: de\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1397061739.0\n"
+"X-POOTLE-MTIME: 1398271514.0\n"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -158,7 +158,7 @@ msgstr "Gelesen"
 
 #: /templates/_macros/thread_header.html:48
 msgid "Unsubscribe"
-msgstr ""
+msgstr "Abonnement entfernen"
 
 #: /templates/_macros/thread_header.html:51
 msgid "Review"
@@ -347,6 +347,8 @@ msgstr "Beim Markieren dieses Themas als gelesen ist ein Fehler aufgetreten. Ver
 #: /media/js/views/comm.js:285
 msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
 msgstr ""
+"Abonnement erfolgreich entfernt. Sie erhalten für dieses Thema keine E-Mail-"
+"Benachrichtigungen mehr."
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9
