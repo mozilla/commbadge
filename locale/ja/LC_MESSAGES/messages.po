@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-23T16:16:44.681Z\n"
-"PO-Revision-Date: 2014-04-09 12:27-0500\n"
+"PO-Revision-Date: 2014-04-23 12:29-0400\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -157,7 +157,7 @@ msgstr "既読"
 
 #: /templates/_macros/thread_header.html:48
 msgid "Unsubscribe"
-msgstr ""
+msgstr "購読解除"
 
 #: /templates/_macros/thread_header.html:51
 msgid "Review"
@@ -345,9 +345,9 @@ msgstr "スレッドを既読にする際に問題が発生しました。また
 
 #: /media/js/views/comm.js:285
 msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
-msgstr ""
+msgstr "購読を解除しました。今後このスレッドが更新されてもメールによる通知は送られません。"
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9
 msgid "Not Found"
-msgstr "Not Found"
+msgstr "ページが見つかりません"
