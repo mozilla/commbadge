@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-23T16:16:44.681Z\n"
-"PO-Revision-Date: 2014-04-24 05:59+0000\n"
-"Last-Translator: Mark <markh@babelzilla.org>\n"
+"PO-Revision-Date: 2014-04-24 18:36+0000\n"
+"Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: none\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1398319155.0\n"
+"X-POOTLE-MTIME: 1398364582.0\n"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -171,19 +171,19 @@ msgstr "Alle markeren als gelezen"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
-msgstr "App-pictogram"
+msgstr "Alle conversaties voor {app_name}"
 
 #: /templates/comm/app_dashboard.html:7
 msgid "Viewing All Threads for {app_name}"
-msgstr "Alle discussies voor {app_name}"
+msgstr "Alle conversaties voor {app_name}"
 
 #: /templates/comm/app_dashboard.html:8
 msgid "Back to my threads"
-msgstr "Terug naar mijn discussies"
+msgstr "Terug naar mijn conversaties"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
-msgstr "Mijn discussies"
+msgstr "Mijn conversaties"
 
 #: /templates/comm/main.html:13
 msgid "You have no threads."
@@ -200,15 +200,15 @@ msgstr "Lege opmerking"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
-msgstr "Discussie voor {app_name}"
+msgstr "Conversatie voor {app_name}"
 
 #: /templates/comm/show_thread.html:10
 msgid "Back to all threads for {app_name}"
-msgstr "Terug naar alle discussies voor {app_name}"
+msgstr "Terug naar alle conversaties voor {app_name}"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Threads"
-msgstr "Discussies voor deze app"
+msgstr "Conversaties voor deze app"
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
@@ -349,8 +349,8 @@ msgstr "Er was een probleem bij het markeren van de conversatie als gelezen. Pro
 #: /media/js/views/comm.js:285
 msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
 msgstr ""
-"Uitschrijven gelukt. U ontvangt geen e-mailberichten meer voor deze "
-"discussie."
+"Uitschrijven gelukt. U ontvangt geen e-mailmeldingen meer voor die "
+"conversatie."
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9
