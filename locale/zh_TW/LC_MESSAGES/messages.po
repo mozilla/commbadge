@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-23T16:16:44.681Z\n"
-"PO-Revision-Date: 2014-04-10 16:56+0000\n"
+"PO-Revision-Date: 2014-04-25 03:57+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: MozTW <petercpg@mail.moztw.org>\n"
 "Language: zh_TW\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-POOTLE-MTIME: 1397148978.0\n"
+"X-POOTLE-MTIME: 1398398275.0\n"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -156,7 +156,7 @@ msgstr "已讀"
 
 #: /templates/_macros/thread_header.html:48
 msgid "Unsubscribe"
-msgstr ""
+msgstr "取消訂閱"
 
 #: /templates/_macros/thread_header.html:51
 msgid "Review"
@@ -343,7 +343,7 @@ msgstr "將討論串標示為已讀時發生錯誤，請再試一次。"
 
 #: /media/js/views/comm.js:285
 msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
-msgstr ""
+msgstr "已成功退訂，您將不會再收到該討論串的郵件通知。"
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9
