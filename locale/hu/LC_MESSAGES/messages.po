@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-23T16:16:44.681Z\n"
-"PO-Revision-Date: 2014-04-12 01:15+0000\n"
+"PO-Revision-Date: 2014-04-27 00:13+0000\n"
 "Last-Translator: Gábor <kelemeng@ubuntu.com>\n"
 "Language-Team: none\n"
 "Language: hu\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n !=1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1397265333.0\n"
+"X-POOTLE-MTIME: 1398557614.0\n"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -158,7 +158,7 @@ msgstr "Olvasott"
 
 #: /templates/_macros/thread_header.html:48
 msgid "Unsubscribe"
-msgstr ""
+msgstr "Leiratkozás"
 
 #: /templates/_macros/thread_header.html:51
 msgid "Review"
@@ -347,6 +347,8 @@ msgstr "Hiba történt a szál olvasottként jelölésekor. Próbálja újra."
 #: /media/js/views/comm.js:285
 msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
 msgstr ""
+"Sikeresen leiratkozott. Nem fog további e-mail értesítéseket kapni erről a "
+"szálról."
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9
