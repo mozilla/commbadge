@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Commbadge\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-23T16:16:44.681Z\n"
-"PO-Revision-Date: 2014-04-10 07:35+0000\n"
+"PO-Revision-Date: 2014-04-28 12:09+0000\n"
 "Last-Translator: Sara <sara.todaro@mozillaitalia.org>\n"
 "Language-Team: gialloporpora <gialloporpora@yahoo.it>\n"
 "Language: it\n"
@@ -13,11 +13,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1397115342.0\n"
+"X-POOTLE-MTIME: 1398686964.0\n"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
-msgstr "Sviluppare app"
+msgstr "Sviluppo app"
 
 #: /templates/footer.html:5
 msgid "Developer Hub"
@@ -159,7 +159,7 @@ msgstr "Lette"
 
 #: /templates/_macros/thread_header.html:48
 msgid "Unsubscribe"
-msgstr ""
+msgstr "Annulla sottoscrizione"
 
 #: /templates/_macros/thread_header.html:51
 msgid "Review"
@@ -335,7 +335,7 @@ msgstr "Non sono state trovate note meno recenti."
 
 #: /media/js/views/comm.js:255
 msgid "There was some problem marking the note as read. Try again."
-msgstr "Si è verificato un problema nel marcare la  nota come letta. Riprova."
+msgstr "Si è verificato un problema nel marcare la nota come letta. Riprova."
 
 #: /media/js/views/comm.js:268
 msgid "No notes to show."
@@ -348,6 +348,8 @@ msgstr "Si è verificato un problema nel marcare la discussione come letta. Ripr
 #: /media/js/views/comm.js:285
 msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
 msgstr ""
+"La sottoscrizione è stata annullata. Non riceverai più notifiche email per "
+"questa discussione."
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9
