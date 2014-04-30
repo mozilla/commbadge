@@ -348,9 +348,7 @@ msgstr "Pri označovaní vlákna ako prečítaného sa vyskytla chyba. Skúste t
 
 #: /media/js/views/comm.js:285
 msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
-msgstr ""
-"Boli ste úspešne odhlásený. Pre dané vlákno už viac nebudete dostávať žiadne "
-"notifikácie."
+msgstr "Boli ste úspešne odhlásený. Pre dané vlákno už viac nebudete dostávať žiadne notifikácie."
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9

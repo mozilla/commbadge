@@ -346,9 +346,7 @@ msgstr "Houve algum problema marcando o tópico como lido. Tente novamente."
 
 #: /media/js/views/comm.js:285
 msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
-msgstr ""
-"desinscrição com sucesso. Você não vai mais receber notificações de e-mail "
-"para esse segmento"
+msgstr "desinscrição com sucesso. Você não vai mais receber notificações de e-mail para esse segmento"
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9

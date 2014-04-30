@@ -349,9 +349,7 @@ msgstr "Un problème s'est produit lors du marquage de la discussion comme lue. 
 
 #: /media/js/views/comm.js:285
 msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
-msgstr ""
-"Désinscription effectuée. Vous ne recevrez plus de notifications par "
-"courriel pour ce sujet."
+msgstr "Désinscription effectuée. Vous ne recevrez plus de notifications par courriel pour ce sujet."
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9

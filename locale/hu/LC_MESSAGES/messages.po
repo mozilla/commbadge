@@ -346,9 +346,7 @@ msgstr "Hiba történt a szál olvasottként jelölésekor. Próbálja újra."
 
 #: /media/js/views/comm.js:285
 msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
-msgstr ""
-"Sikeresen leiratkozott. Nem fog további e-mail értesítéseket kapni erről a "
-"szálról."
+msgstr "Sikeresen leiratkozott. Nem fog további e-mail értesítéseket kapni erről a szálról."
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9

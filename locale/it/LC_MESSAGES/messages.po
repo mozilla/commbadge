@@ -347,9 +347,7 @@ msgstr "Si è verificato un problema nel marcare la discussione come letta. Ripr
 
 #: /media/js/views/comm.js:285
 msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
-msgstr ""
-"La sottoscrizione è stata annullata. Non riceverai più notifiche email per "
-"questa discussione."
+msgstr "La sottoscrizione è stata annullata. Non riceverai più notifiche email per questa discussione."
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9

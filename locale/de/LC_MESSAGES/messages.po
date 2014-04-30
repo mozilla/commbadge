@@ -346,9 +346,7 @@ msgstr "Beim Markieren dieses Themas als gelesen ist ein Fehler aufgetreten. Ver
 
 #: /media/js/views/comm.js:285
 msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
-msgstr ""
-"Abonnement erfolgreich entfernt. Sie erhalten für dieses Thema keine E-Mail-"
-"Benachrichtigungen mehr."
+msgstr "Abonnement erfolgreich entfernt. Sie erhalten für dieses Thema keine E-Mail-Benachrichtigungen mehr."
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9
