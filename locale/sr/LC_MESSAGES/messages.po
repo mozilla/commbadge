@@ -3,16 +3,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-23T16:16:44.681Z\n"
-"PO-Revision-Date: 2014-02-09 20:45+0000\n"
-"Last-Translator: Vanja <vtumbas@mozilla.rs>\n"
+"PO-Revision-Date: 2014-04-30 11:55+0000\n"
+"Last-Translator: Aleksandra <auzelac91@gmail.com>\n"
 "Language-Team: none\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1391978726.0\n"
+"X-POOTLE-MTIME: 1398858913.0\n"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -96,11 +97,11 @@ msgstr "Да"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
-msgstr ""
+msgstr "Прилог"
 
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
-msgstr ""
+msgstr "Опис датотеке"
 
 #: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
 msgid "No notes found"
@@ -112,11 +113,11 @@ msgstr "Овде унесите текст"
 
 #: /templates/_macros/reply_box.html:6
 msgid "Attach screenshots and log files:"
-msgstr ""
+msgstr "Закачите снимак екрана и дневнике:"
 
 #: /templates/_macros/reply_box.html:8
 msgid "Attach another file"
-msgstr ""
+msgstr "Закачите још једну датотеку"
 
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
@@ -159,7 +160,7 @@ msgstr "Прочитај"
 
 #: /templates/_macros/thread_header.html:48
 msgid "Unsubscribe"
-msgstr ""
+msgstr "Укини претплату"
 
 #: /templates/_macros/thread_header.html:51
 msgid "Review"
@@ -244,7 +245,7 @@ msgstr "Пријављени сте"
 
 #: /media/js/login.js:49
 msgid "Error signing out"
-msgstr ""
+msgstr "Грешка приликом одјављивања"
 
 #: /media/js/login.js:133
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
@@ -288,27 +289,27 @@ msgstr "Резецент коментара"
 
 #: /media/js/settings.js:40
 msgid "App resubmission"
-msgstr ""
+msgstr "Поновно подношење апликације"
 
 #: /media/js/settings.js:42
 msgid "Approved but waiting to be made public"
-msgstr ""
+msgstr "Одобрено али чека да буде јавно"
 
 #: /media/js/settings.js:43
 msgid "Escalation cleared"
-msgstr ""
+msgstr "Ескалација обрисана"
 
 #: /media/js/settings.js:44
 msgid "Escalated due to High Abuse Reports"
-msgstr ""
+msgstr "Ескалирало усред извештаја о високој злоупотреби"
 
 #: /media/js/settings.js:45
 msgid "Escalated due to High Refund Requests"
-msgstr ""
+msgstr "Ескалирало због великог броја захтева за рефундацију"
 
 #: /media/js/settings.js:46
 msgid "Re-review cleared"
-msgstr ""
+msgstr "Поновни преглед обрисан"
 
 #. {n} is the number of characters left.
 #: /media/js/utils.js:28
@@ -349,6 +350,7 @@ msgstr "Било је неких проблема око означавања т
 #: /media/js/views/comm.js:285
 msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
 msgstr ""
+"Успешно сте укинули претплату. Више нећете примати обавештења за ову тему."
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9
