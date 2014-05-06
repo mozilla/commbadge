@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-23T16:16:44.681Z\n"
-"PO-Revision-Date: 2014-04-18 09:55+0000\n"
+"PO-Revision-Date: 2014-05-06 14:19+0000\n"
 "Last-Translator: Channy <channy@mozilla.or.kr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1397814902.0\n"
+"X-POOTLE-MTIME: 1399385983.0\n"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -157,7 +157,7 @@ msgstr "읽음"
 
 #: /templates/_macros/thread_header.html:48
 msgid "Unsubscribe"
-msgstr ""
+msgstr "구독 해지"
 
 #: /templates/_macros/thread_header.html:51
 msgid "Review"
@@ -344,7 +344,7 @@ msgstr "글 읽음 표시중에 문제가 발생했습니다. 다시 시도하�
 
 #: /media/js/views/comm.js:285
 msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
-msgstr ""
+msgstr "구독이 해지되었습니다. 더 이상 메일을 받지 않습니다."
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9
