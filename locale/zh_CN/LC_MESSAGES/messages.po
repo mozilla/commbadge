@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-09T16:17:44.740Z\n"
+"POT-Creation-Date: 2014-04-23T16:16:44.681Z\n"
 "PO-Revision-Date: 2014-01-18 08:13+0000\n"
 "Last-Translator: Shen <steekid@icloud.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,18 +13,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1390032804.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "关闭"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "否"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "是"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -92,6 +80,18 @@ msgstr "您必须登录才能继续。"
 msgid "Sign in / Sign up"
 msgstr "登录/注册"
 
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "关闭"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "否"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "是"
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr ""
@@ -153,11 +153,15 @@ msgstr "未读"
 msgid "Read"
 msgstr "已读"
 
-#: /templates/_macros/thread_header.html:47
+#: /templates/_macros/thread_header.html:48
+msgid "Unsubscribe"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:51
 msgid "Review"
 msgstr "评论"
 
-#: /templates/_macros/thread_header.html:50
+#: /templates/_macros/thread_header.html:54
 msgid "Mark All Read"
 msgstr "全部标记为已读"
 
@@ -335,6 +339,10 @@ msgstr "无可显示的笔记。"
 #: /media/js/views/comm.js:275
 msgid "There was some problem marking the thread as read. Try again."
 msgstr "将话题标示为已读时发生错误，请重试。"
+
+#: /media/js/views/comm.js:285
+msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
+msgstr ""
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9
