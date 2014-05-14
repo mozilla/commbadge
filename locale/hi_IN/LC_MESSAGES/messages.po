@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-23T16:16:44.681Z\n"
-"PO-Revision-Date: 2014-05-01 20:59+0000\n"
-"Last-Translator: Umesh <umesh.agarwal1@gmail.com>\n"
+"PO-Revision-Date: 2014-05-14 08:08+0000\n"
+"Last-Translator: KUMARESAN <cskumaresan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1398977984.0\n"
+"X-POOTLE-MTIME: 1400054884.0\n"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -43,6 +43,10 @@ msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
 "Alike License v3.0</a> or any later version."
 msgstr ""
+"अन्यथा जहां छोड़कर <a href=\"{legal_url}\" target=\"_blank\">विख्यात</a>, इस "
+"साइट की सामग्री अंतर्गत लाइसेंस है <a href=\"{cc_url}\" "
+"target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> या "
+"कोई पश्चातवर्ती संस्करण."
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
@@ -90,39 +94,39 @@ msgstr "नहीं"
 
 #: /templates/confirmation.html:4
 msgid "Yes"
-msgstr ""
+msgstr "हाँ"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
-msgstr ""
+msgstr "अनुलग्नक"
 
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
-msgstr ""
+msgstr "फाइल विवरण"
 
 #: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
 msgid "No notes found"
-msgstr ""
+msgstr "कोई नोट्स नहीं पाया गया"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
-msgstr ""
+msgstr "यहाँ नोट पाठ दर्ज करें"
 
 #: /templates/_macros/reply_box.html:6
 msgid "Attach screenshots and log files:"
-msgstr ""
+msgstr "स्क्रीनशॉट और लॉग इन फ़ाइलों संलग्न करें:"
 
 #: /templates/_macros/reply_box.html:8
 msgid "Attach another file"
-msgstr ""
+msgstr "एक और फाइल संलग्न करें"
 
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
-msgstr ""
+msgstr "पोस्ट करें"
 
 #: /templates/_macros/thread.html:14
 msgid "View older"
-msgstr ""
+msgstr "पुराने देखें"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -135,8 +139,8 @@ msgstr "(अप्रचलित)"
 #: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:42
 msgid "{n} note"
 msgid_plural "{n} notes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{n} नोट"
+msgstr[1] "{n} नोट्स"
 
 #: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:52 /media/js/views/comm.js:134
 msgid "Reply"
@@ -164,52 +168,52 @@ msgstr "समीक्षा"
 
 #: /templates/_macros/thread_header.html:54
 msgid "Mark All Read"
-msgstr ""
+msgstr "सभी पढ़े गए रूप में चिह्नित करें"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
-msgstr ""
+msgstr "एप्प्स आइकन"
 
 #: /templates/comm/app_dashboard.html:7
 msgid "Viewing All Threads for {app_name}"
-msgstr ""
+msgstr "{app_name} {app_name} के लिए सभी थ्रेड देख रहा है"
 
 #: /templates/comm/app_dashboard.html:8
 msgid "Back to my threads"
-msgstr ""
+msgstr "मेरे थ्रेड्स में वापस"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
-msgstr ""
+msgstr "मेरे थ्रेड्स"
 
 #: /templates/comm/main.html:13
 msgid "You have no threads."
-msgstr ""
+msgstr "आपके पास कोई थ्रेड्स नहीं है."
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
-msgstr ""
+msgstr "स नोट को पढ़ें हुआ मार्क करें"
 
 #: /templates/comm/note_detail.html:15
 msgid "Empty note"
-msgstr ""
+msgstr "खाली नोट"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
-msgstr ""
+msgstr "{app_name} के लिए थ्रेड देख रहा है"
 
 #: /templates/comm/show_thread.html:10
 msgid "Back to all threads for {app_name}"
-msgstr ""
+msgstr "{app_name} के लिए सभी थ्रेड वापस"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Threads"
-msgstr ""
+msgstr "इस एप्लिकेशन के थ्रेड्स"
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
-msgstr ""
+msgstr "v.{version_number}"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -233,31 +237,32 @@ msgstr "पुन: प्रयास करें"
 
 #: /media/js/login.js:8
 msgid "You have been signed out"
-msgstr ""
+msgstr "आपको साइन आउट कर दिया गया है"
 
 #: /media/js/login.js:12
 msgid "You have been signed in"
-msgstr ""
+msgstr "आपको साइन इन कर दिया गया है"
 
 #: /media/js/login.js:49
 msgid "Error signing out"
-msgstr ""
+msgstr "साइन आउट करने में त्रुटि"
 
 #: /media/js/login.js:133
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr ""
+"परसोना लॉगिन विफल. हो सकता है कि आपका उस ईमेल पते के अंतर्गत खाता नहीं है?"
 
 #: /media/js/login.js:138
 msgid "Persona login failed. A server error was encountered."
-msgstr ""
+msgstr "परसोना लॉगिन विफल रहा. एक सर्वर त्रुटि से सामना हुआ था."
 
 #: /media/js/navigation.js:31
 msgid "No internet connection"
-msgstr ""
+msgstr "कोई इंटरनेट कनेक्शन नहीं"
 
 #: /media/js/settings.js:33
 msgid "Message"
-msgstr ""
+msgstr "संदेश"
 
 #: /media/js/settings.js:34
 msgid "App approved"
@@ -277,7 +282,7 @@ msgstr "अधिक जानकारी की आवश्यकता"
 
 #: /media/js/settings.js:38
 msgid "Review escalated to senior reviewer"
-msgstr ""
+msgstr "समीक्षा वरिष्ठ समीक्षक को परिवर्धित"
 
 #: /media/js/settings.js:39
 msgid "Reviewer comment"
@@ -285,7 +290,7 @@ msgstr "समीक्षक की टिप्पणी"
 
 #: /media/js/settings.js:40
 msgid "App resubmission"
-msgstr ""
+msgstr "एप्लिकेशन फिर से प्रस्तुत करने"
 
 #: /media/js/settings.js:42
 msgid "Approved but waiting to be made public"
@@ -311,16 +316,16 @@ msgstr ""
 #: /media/js/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "<b>{n}</b> अक्षर बाकी."
+msgstr[1] "<b>{n}</b> अक्षर बाकी."
 
 #: /media/js/views/comm.js:59
 msgid "Message sent."
-msgstr ""
+msgstr "सन्देश भेजा गया"
 
 #: /media/js/views/comm.js:64
 msgid "Message sending failed."
-msgstr ""
+msgstr "संदेश भेजने में विफल"
 
 #: /media/js/views/comm.js:124
 msgid "Cancel reply"
@@ -328,7 +333,7 @@ msgstr "उत्तर रद्द करें"
 
 #: /media/js/views/comm.js:207
 msgid "There are no more older notes."
-msgstr ""
+msgstr "कोई अधिक पुराने नोट नहीं हैं"
 
 #: /media/js/views/comm.js:255
 msgid "There was some problem marking the note as read. Try again."
@@ -336,7 +341,7 @@ msgstr ""
 
 #: /media/js/views/comm.js:268
 msgid "No notes to show."
-msgstr ""
+msgstr "दिखाने के लिए कोई नोट नहीं"
 
 #: /media/js/views/comm.js:275
 msgid "There was some problem marking the thread as read. Try again."
@@ -345,6 +350,8 @@ msgstr ""
 #: /media/js/views/comm.js:285
 msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
 msgstr ""
+"सफलतापूर्वक सदस्यता वापस. अब आप उस थ्रेड के लिए ईमेल सूचनाएँ प्राप्त नहीं "
+"करेंगे."
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9
