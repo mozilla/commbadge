@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-23T16:16:44.681Z\n"
-"PO-Revision-Date: 2014-05-14 08:08+0000\n"
-"Last-Translator: KUMARESAN <cskumaresan@gmail.com>\n"
+"PO-Revision-Date: 2014-05-14 08:16+0000\n"
+"Last-Translator: Umesh <umesh.agarwal1@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1400054884.0\n"
+"X-POOTLE-MTIME: 1400055383.0\n"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -298,19 +298,19 @@ msgstr "मंजूरी दी लेकिन सार्वजनिक �
 
 #: /media/js/settings.js:43
 msgid "Escalation cleared"
-msgstr ""
+msgstr "वृद्धि साफ किया गया"
 
 #: /media/js/settings.js:44
 msgid "Escalated due to High Abuse Reports"
-msgstr ""
+msgstr "उच्च दुर्व्यवहार रिपोर्टों के कारण वृद्धि"
 
 #: /media/js/settings.js:45
 msgid "Escalated due to High Refund Requests"
-msgstr ""
+msgstr "उच्च वापसी अनुरोधों के कारण वृद्धि"
 
 #: /media/js/settings.js:46
 msgid "Re-review cleared"
-msgstr ""
+msgstr "पुनः समीक्षा को मंजूरी दे दी"
 
 #. {n} is the number of characters left.
 #: /media/js/utils.js:28
@@ -338,6 +338,7 @@ msgstr "कोई अधिक पुराने नोट नहीं है�
 #: /media/js/views/comm.js:255
 msgid "There was some problem marking the note as read. Try again."
 msgstr ""
+"पढ़ने हुअें के रूप में नोट अंकन करनें में कुछ समस्या थी. फिर से कोशिश करें."
 
 #: /media/js/views/comm.js:268
 msgid "No notes to show."
@@ -346,6 +347,8 @@ msgstr "दिखाने के लिए कोई नोट नहीं"
 #: /media/js/views/comm.js:275
 msgid "There was some problem marking the thread as read. Try again."
 msgstr ""
+"पढ़ने हुअें के रूप में थ्रेड अंकन करनें में कुछ समस्या थी. फिर से कोशिश "
+"करें."
 
 #: /media/js/views/comm.js:285
 msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
