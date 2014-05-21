@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-21T16:42:39.181Z\n"
-"PO-Revision-Date: 2014-04-24 18:36+0000\n"
-"Last-Translator: Ton <tonnes.mb@gmail.com>\n"
+"PO-Revision-Date: 2014-05-21 21:09+0000\n"
+"Last-Translator: Mark <markh@babelzilla.org>\n"
 "Language-Team: none\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1398364582.0\n"
+"X-POOTLE-MTIME: 1400706570.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -104,7 +104,7 @@ msgstr "Bestandsbeschrijving"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
-msgstr "Alle conversaties voor {app_name}"
+msgstr "App-pictogram"
 
 #: /templates/comm/app_dashboard.html:7
 msgid "Viewing All Threads for {app_name}"
@@ -309,7 +309,7 @@ msgstr "Persona-aanmelding mislukt. Er is een serverfout opgetreden."
 
 #: /media/js/commonplace/login.js:210
 msgid "Persona cannot be reached. Try again later."
-msgstr ""
+msgstr "Persona is onbereikbaar. Probeer het later nog eens."
 
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
@@ -356,7 +356,7 @@ msgstr "Uitschrijven gelukt. U ontvangt geen e-mailmeldingen meer voor die conve
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"
-msgstr ""
+msgstr "Hallo wereld!"
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9
