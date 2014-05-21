@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AMO Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-23T16:16:44.681Z\n"
+"POT-Creation-Date: 2014-05-21T16:42:39.181Z\n"
 "PO-Revision-Date: 2013-10-28 21:27+0200\n"
 "Last-Translator: Mihail Chilyashev <m@chilyashev.com>\n"
 "Language-Team: Bulgarian (bg)\n"
@@ -12,6 +12,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.5.4\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Затвори"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Не"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Да"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -81,18 +93,6 @@ msgstr "Трябва да влезете, за да продължите"
 msgid "Sign in / Sign up"
 msgstr "Вход / Регистрация"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Затвори"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Не"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Да"
-
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr ""
@@ -101,9 +101,54 @@ msgstr ""
 msgid "File Description"
 msgstr ""
 
-#: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Икона на приложението"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Разглеждане на всички теми за {app_name}"
+
+#: /templates/comm/app_dashboard.html:8
+msgid "Back to my threads"
+msgstr "Назад към моите теми"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Мои теми"
+
+#: /templates/comm/main.html:13
+msgid "You have no threads."
+msgstr "Нямате теми."
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10
 msgid "No notes found"
 msgstr "Няма намерени бележки"
+
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr "Маркирай тази бележка като прочетена"
+
+#: /templates/comm/note_detail.html:15
+msgid "Empty note"
+msgstr "Празна бележка"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Показване на темите за {app_name}"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Назад към всички теми за {app_name}"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Threads"
+msgstr "Темите за това приложение"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -167,51 +212,6 @@ msgstr ""
 msgid "Mark All Read"
 msgstr "Маркирай всички като прочетени"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Икона на приложението"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Разглеждане на всички теми за {app_name}"
-
-#: /templates/comm/app_dashboard.html:8
-msgid "Back to my threads"
-msgstr "Назад към моите теми"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Мои теми"
-
-#: /templates/comm/main.html:13
-msgid "You have no threads."
-msgstr "Нямате теми."
-
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "Маркирай тази бележка като прочетена"
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr "Празна бележка"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Показване на темите за {app_name}"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Назад към всички теми за {app_name}"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Threads"
-msgstr "Темите за това приложение"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
-
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "О, не!"
@@ -219,10 +219,6 @@ msgstr "О, не!"
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
 msgstr "Страницата, която търсите не бе намерена."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Възникна грешка."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -232,29 +228,9 @@ msgstr "Грешка при зареждането"
 msgid "Try Again"
 msgstr "Опитай отново"
 
-#: /media/js/login.js:8
-msgid "You have been signed out"
-msgstr "Вие излязохте"
-
-#: /media/js/login.js:12
-msgid "You have been signed in"
-msgstr "Вие влязохте"
-
-#: /media/js/login.js:49
-msgid "Error signing out"
-msgstr ""
-
-#: /media/js/login.js:133
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Влизането в Persona се провали. Може би нямате акант с този имейл адрес?"
-
-#: /media/js/login.js:138
-msgid "Persona login failed. A server error was encountered."
-msgstr "Влизането в Persona се провали. Възникна сървърна грешка"
-
-#: /media/js/navigation.js:31
-msgid "No internet connection"
-msgstr "Няма връзка с интернет"
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Възникна грешка."
 
 #: /media/js/settings.js:33
 msgid "Message"
@@ -308,8 +284,36 @@ msgstr ""
 msgid "Re-review cleared"
 msgstr ""
 
+#: /media/js/commonplace/login.js:8
+msgid "You have been signed out"
+msgstr "Вие излязохте"
+
+#: /media/js/commonplace/login.js:12
+msgid "You have been signed in"
+msgstr "Вие влязохте"
+
+#: /media/js/commonplace/login.js:50
+msgid "Error signing out"
+msgstr ""
+
+#: /media/js/commonplace/login.js:137
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Влизането в Persona се провали. Може би нямате акант с този имейл адрес?"
+
+#: /media/js/commonplace/login.js:142
+msgid "Persona login failed. A server error was encountered."
+msgstr "Влизането в Persona се провали. Възникна сървърна грешка"
+
+#: /media/js/commonplace/login.js:210
+msgid "Persona cannot be reached. Try again later."
+msgstr ""
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "Няма връзка с интернет"
+
 #. {n} is the number of characters left.
-#: /media/js/utils.js:28
+#: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "остава <b>{n}</b> знак."
@@ -347,7 +351,11 @@ msgstr "Възникна проблем при маркирането на те�
 msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
 msgstr ""
 
+#: /media/js/views/commonplace/hello_world.js:9
+msgid "Hello World!"
+msgstr ""
+
 #. Page not found (404)
-#: /media/js/views/not_found.js:9
+#: /media/js/views/commonplace/not_found.js:9
 msgid "Not Found"
 msgstr "Не е намерено"

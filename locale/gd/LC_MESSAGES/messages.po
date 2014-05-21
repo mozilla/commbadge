@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-23T16:16:44.681Z\n"
+"POT-Creation-Date: 2014-05-21T16:42:39.181Z\n"
 "PO-Revision-Date: 2013-10-19 23:50+0000\n"
 "Last-Translator: Michael <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,6 +13,18 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n < 20) ? 0 : (n%10==2 && n < 20) ? 1 : (n==10 || (n%10 > 2 && n < 20)) ? 2 : 3;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1382226614.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Dùin"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Chan eil"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Tha"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -82,18 +94,6 @@ msgstr "Feumaidh tu clàradh a-steach mus urrainn dhut leantainn air adhart."
 msgid "Sign in / Sign up"
 msgstr "Clàraich a-steach/Clàraich leinn"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Dùin"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Chan eil"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Tha"
-
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr ""
@@ -102,8 +102,53 @@ msgstr ""
 msgid "File Description"
 msgstr ""
 
-#: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr ""
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr ""
+
+#: /templates/comm/app_dashboard.html:8
+msgid "Back to my threads"
+msgstr ""
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr ""
+
+#: /templates/comm/main.html:13
+msgid "You have no threads."
+msgstr "Chan eil snàithlean sam bith agad."
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10
 msgid "No notes found"
+msgstr ""
+
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr "Cuir comharra gun deach an nòta seo a leughadh"
+
+#: /templates/comm/note_detail.html:15
+msgid "Empty note"
+msgstr ""
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr ""
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr ""
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Threads"
+msgstr ""
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
 msgstr ""
 
 #: /templates/_macros/reply_box.html:2
@@ -170,51 +215,6 @@ msgstr ""
 msgid "Mark All Read"
 msgstr "Cuir comharra gun deach iad uile a leughadh"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr ""
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr ""
-
-#: /templates/comm/app_dashboard.html:8
-msgid "Back to my threads"
-msgstr ""
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr ""
-
-#: /templates/comm/main.html:13
-msgid "You have no threads."
-msgstr "Chan eil snàithlean sam bith agad."
-
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "Cuir comharra gun deach an nòta seo a leughadh"
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr ""
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr ""
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr ""
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Threads"
-msgstr ""
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr ""
-
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "Mo chreach!"
@@ -222,10 +222,6 @@ msgstr "Mo chreach!"
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
 msgstr "Cha b' urrainn dhuinn an duilleag a bha a dhìth ort a lorg."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Thachair mearachd."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -235,29 +231,9 @@ msgstr "Thachair mearachd fhad 's a dh'fheuch sinn ri barrachd fiosrachaidh a lu
 msgid "Try Again"
 msgstr "Feuch ris a-rithist"
 
-#: /media/js/login.js:8
-msgid "You have been signed out"
-msgstr "Chaidh do chlàradh a-mach"
-
-#: /media/js/login.js:12
-msgid "You have been signed in"
-msgstr "Chaidh do chlàradh a-steach"
-
-#: /media/js/login.js:49
-msgid "Error signing out"
-msgstr ""
-
-#: /media/js/login.js:133
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Dh'fhàillig clàradh a-steach Persona. Saoil a bheil cunntas agad ann leis an t-seòladh phuist-d seo?"
-
-#: /media/js/login.js:138
-msgid "Persona login failed. A server error was encountered."
-msgstr "Dh'fhàillig clàradh a-steach Persona. Thachair mearachd leis an fhrithealaiche."
-
-#: /media/js/navigation.js:31
-msgid "No internet connection"
-msgstr "Chan eil ceangal ris an eadar-lìon"
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Thachair mearachd."
 
 #: /media/js/settings.js:33
 msgid "Message"
@@ -311,8 +287,36 @@ msgstr ""
 msgid "Re-review cleared"
 msgstr ""
 
+#: /media/js/commonplace/login.js:8
+msgid "You have been signed out"
+msgstr "Chaidh do chlàradh a-mach"
+
+#: /media/js/commonplace/login.js:12
+msgid "You have been signed in"
+msgstr "Chaidh do chlàradh a-steach"
+
+#: /media/js/commonplace/login.js:50
+msgid "Error signing out"
+msgstr ""
+
+#: /media/js/commonplace/login.js:137
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Dh'fhàillig clàradh a-steach Persona. Saoil a bheil cunntas agad ann leis an t-seòladh phuist-d seo?"
+
+#: /media/js/commonplace/login.js:142
+msgid "Persona login failed. A server error was encountered."
+msgstr "Dh'fhàillig clàradh a-steach Persona. Thachair mearachd leis an fhrithealaiche."
+
+#: /media/js/commonplace/login.js:210
+msgid "Persona cannot be reached. Try again later."
+msgstr ""
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "Chan eil ceangal ris an eadar-lìon"
+
 #. {n} is the number of characters left.
-#: /media/js/utils.js:28
+#: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{n}</b> charactar air fhàgail."
@@ -352,7 +356,11 @@ msgstr "Cha b' urrainn dhuinn comharradh gun deach an snàithlean a leughadh. Na
 msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
 msgstr ""
 
+#: /media/js/views/commonplace/hello_world.js:9
+msgid "Hello World!"
+msgstr ""
+
 #. Page not found (404)
-#: /media/js/views/not_found.js:9
+#: /media/js/views/commonplace/not_found.js:9
 msgid "Not Found"
 msgstr "Cha deach a lorg"

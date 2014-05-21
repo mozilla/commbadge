@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Commbadge\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-23T16:16:44.681Z\n"
+"POT-Creation-Date: 2014-05-21T16:42:39.181Z\n"
 "PO-Revision-Date: 2014-04-25 05:21+0000\n"
 "Last-Translator: Pavel <jasnapaka@jasnapaka.com>\n"
 "Language-Team: Czech <info@mozilla.cz>\n"
@@ -13,6 +13,18 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1398403282.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Zavřít"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Ne"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Ano"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -82,18 +94,6 @@ msgstr "Pro pokračování se musíte přihlásit."
 msgid "Sign in / Sign up"
 msgstr "Přihlášení / Registrace"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Zavřít"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Ne"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Ano"
-
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr "Příloha"
@@ -102,9 +102,54 @@ msgstr "Příloha"
 msgid "File Description"
 msgstr "Popis souboru"
 
-#: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Ikona aplikace"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Zobrazení všech vláken pro {app_name}"
+
+#: /templates/comm/app_dashboard.html:8
+msgid "Back to my threads"
+msgstr "Zpět na má vlákna"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Má vlákna"
+
+#: /templates/comm/main.html:13
+msgid "You have no threads."
+msgstr "Nemáte žádná vlákna."
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10
 msgid "No notes found"
 msgstr "Nebyly nalezeny žádné poznámky"
+
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr "Označit tuto poznámku jako přečtenou"
+
+#: /templates/comm/note_detail.html:15
+msgid "Empty note"
+msgstr "Prázdná poznámka"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Zobrazení vlákna pro {app_name}"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Zpět na všechna vlákna pro {app_name}"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Threads"
+msgstr "Vlákna této aplikace"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v. {version_number}"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -169,51 +214,6 @@ msgstr "Kontrola"
 msgid "Mark All Read"
 msgstr "Označit vše jako přečtené"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Ikona aplikace"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Zobrazení všech vláken pro {app_name}"
-
-#: /templates/comm/app_dashboard.html:8
-msgid "Back to my threads"
-msgstr "Zpět na má vlákna"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Má vlákna"
-
-#: /templates/comm/main.html:13
-msgid "You have no threads."
-msgstr "Nemáte žádná vlákna."
-
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "Označit tuto poznámku jako přečtenou"
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr "Prázdná poznámka"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Zobrazení vlákna pro {app_name}"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Zpět na všechna vlákna pro {app_name}"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Threads"
-msgstr "Vlákna této aplikace"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v. {version_number}"
-
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "Ale ne!"
@@ -221,10 +221,6 @@ msgstr "Ale ne!"
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
 msgstr "Stránka, kterou hledáte, nebyla nalezena."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Nastala chyba"
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -234,29 +230,9 @@ msgstr "Chyba při načítání"
 msgid "Try Again"
 msgstr "Zkusit znovu"
 
-#: /media/js/login.js:8
-msgid "You have been signed out"
-msgstr "Byl(a) jste odhlášen(a)"
-
-#: /media/js/login.js:12
-msgid "You have been signed in"
-msgstr "Byl(a) jste přihlášen(a)"
-
-#: /media/js/login.js:49
-msgid "Error signing out"
-msgstr "Během odhlašování došlo k chybě"
-
-#: /media/js/login.js:133
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Přihlášení pomocí Persona selhalo. Možná nemáte účet pod touto e-mailovou adresou?"
-
-#: /media/js/login.js:138
-msgid "Persona login failed. A server error was encountered."
-msgstr "Přihlášení pomocí Persona selhalo. Vyskytla se chyba na serveru."
-
-#: /media/js/navigation.js:31
-msgid "No internet connection"
-msgstr "Žádné připojení k Internetu"
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Nastala chyba"
 
 #: /media/js/settings.js:33
 msgid "Message"
@@ -310,8 +286,36 @@ msgstr "Nutnost kontroly z důvodu velkého množství žádostí o vracení pen
 msgid "Re-review cleared"
 msgstr "Zrušena opakovaná kontrola"
 
+#: /media/js/commonplace/login.js:8
+msgid "You have been signed out"
+msgstr "Byl(a) jste odhlášen(a)"
+
+#: /media/js/commonplace/login.js:12
+msgid "You have been signed in"
+msgstr "Byl(a) jste přihlášen(a)"
+
+#: /media/js/commonplace/login.js:50
+msgid "Error signing out"
+msgstr "Během odhlašování došlo k chybě"
+
+#: /media/js/commonplace/login.js:137
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Přihlášení pomocí Persona selhalo. Možná nemáte účet pod touto e-mailovou adresou?"
+
+#: /media/js/commonplace/login.js:142
+msgid "Persona login failed. A server error was encountered."
+msgstr "Přihlášení pomocí Persona selhalo. Vyskytla se chyba na serveru."
+
+#: /media/js/commonplace/login.js:210
+msgid "Persona cannot be reached. Try again later."
+msgstr ""
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "Žádné připojení k Internetu"
+
 #. {n} is the number of characters left.
-#: /media/js/utils.js:28
+#: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "Zbývá <b>{n}</b> znak."
@@ -350,7 +354,11 @@ msgstr "Vyskytl se problém při označování vlákna jako přečtené. Zkuste 
 msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
 msgstr "Odběr byl úspěšně zrušen. Pro toto vlákno již nebudete dostávat e-maily s upozorněním."
 
+#: /media/js/views/commonplace/hello_world.js:9
+msgid "Hello World!"
+msgstr ""
+
 #. Page not found (404)
-#: /media/js/views/not_found.js:9
+#: /media/js/views/commonplace/not_found.js:9
 msgid "Not Found"
 msgstr "Nebylo nalezeno"

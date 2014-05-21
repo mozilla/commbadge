@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-23T16:16:44.681Z\n"
+"POT-Creation-Date: 2014-05-21T16:42:39.181Z\n"
 "PO-Revision-Date: 2014-04-27 17:13+0400\n"
 "Last-Translator: Alexander L. Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: none\n"
@@ -13,6 +13,18 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Poedit 1.6.4\n"
 "X-POOTLE-MTIME: 1393613768.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Закрыть"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Нет"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Да"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -82,18 +94,6 @@ msgstr "Вы должны войти для продолжения"
 msgid "Sign in / Sign up"
 msgstr "Вход / Регистрация"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Закрыть"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Нет"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Да"
-
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr "Приложение"
@@ -102,9 +102,54 @@ msgstr "Приложение"
 msgid "File Description"
 msgstr "Описание файла"
 
-#: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Значок приложения"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Просмотр всех обсуждений для {app_name}"
+
+#: /templates/comm/app_dashboard.html:8
+msgid "Back to my threads"
+msgstr "Вернуться к моим обсуждениям"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Мои обсуждения"
+
+#: /templates/comm/main.html:13
+msgid "You have no threads."
+msgstr "У вас нет обсуждений."
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10
 msgid "No notes found"
 msgstr "Заметок не найдено"
+
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr "Пометить эту заметку как \"прочитанную\""
+
+#: /templates/comm/note_detail.html:15
+msgid "Empty note"
+msgstr "Пустая заметка"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Просмотр обсуждения для {app_name}"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Вернуться ко всем обсуждениям для {app_name}"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Threads"
+msgstr "Обсуждения этого приложения"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -169,51 +214,6 @@ msgstr "Рецензировать"
 msgid "Mark All Read"
 msgstr "Пометить все как \"прочитанные\""
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Значок приложения"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Просмотр всех обсуждений для {app_name}"
-
-#: /templates/comm/app_dashboard.html:8
-msgid "Back to my threads"
-msgstr "Вернуться к моим обсуждениям"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Мои обсуждения"
-
-#: /templates/comm/main.html:13
-msgid "You have no threads."
-msgstr "У вас нет обсуждений."
-
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "Пометить эту заметку как \"прочитанную\""
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr "Пустая заметка"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Просмотр обсуждения для {app_name}"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Вернуться ко всем обсуждениям для {app_name}"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Threads"
-msgstr "Обсуждения этого приложения"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
-
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "О нет!"
@@ -221,10 +221,6 @@ msgstr "О нет!"
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
 msgstr "Страница, которую вы искали, не была найдена."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Произошла ошибка."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -234,29 +230,9 @@ msgstr "Ошибка загрузки большего"
 msgid "Try Again"
 msgstr "Попробовать снова"
 
-#: /media/js/login.js:8
-msgid "You have been signed out"
-msgstr "Вы успешно вышли из своего аккаунта"
-
-#: /media/js/login.js:12
-msgid "You have been signed in"
-msgstr "Вы успешно вошли в свой аккаунт"
-
-#: /media/js/login.js:49
-msgid "Error signing out"
-msgstr "Ошибка при выходе"
-
-#: /media/js/login.js:133
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Ошибка входа через Persona. Возможно у вас нет учетной записи для этого адреса эл. почты?"
-
-#: /media/js/login.js:138
-msgid "Persona login failed. A server error was encountered."
-msgstr "Ошибка входа через Persona. Произошла ошибка сервера."
-
-#: /media/js/navigation.js:31
-msgid "No internet connection"
-msgstr "Нет подключения к Интернету"
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Произошла ошибка."
 
 #: /media/js/settings.js:33
 msgid "Message"
@@ -310,8 +286,36 @@ msgstr "Эскалация из-за множества запросов на в
 msgid "Re-review cleared"
 msgstr "Повторная проверка очищена"
 
+#: /media/js/commonplace/login.js:8
+msgid "You have been signed out"
+msgstr "Вы успешно вышли из своего аккаунта"
+
+#: /media/js/commonplace/login.js:12
+msgid "You have been signed in"
+msgstr "Вы успешно вошли в свой аккаунт"
+
+#: /media/js/commonplace/login.js:50
+msgid "Error signing out"
+msgstr "Ошибка при выходе"
+
+#: /media/js/commonplace/login.js:137
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Ошибка входа через Persona. Возможно у вас нет учетной записи для этого адреса эл. почты?"
+
+#: /media/js/commonplace/login.js:142
+msgid "Persona login failed. A server error was encountered."
+msgstr "Ошибка входа через Persona. Произошла ошибка сервера."
+
+#: /media/js/commonplace/login.js:210
+msgid "Persona cannot be reached. Try again later."
+msgstr ""
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "Нет подключения к Интернету"
+
 #. {n} is the number of characters left.
-#: /media/js/utils.js:28
+#: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "остался <b>{n}</b> символ."
@@ -350,7 +354,11 @@ msgstr "При пометке обсуждения как прочтённого
 msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
 msgstr "Отписание прошло успешно. Вы больше не будете получать уведомления по эл. почте для этого обсуждения."
 
+#: /media/js/views/commonplace/hello_world.js:9
+msgid "Hello World!"
+msgstr ""
+
 #. Page not found (404)
-#: /media/js/views/not_found.js:9
+#: /media/js/views/commonplace/not_found.js:9
 msgid "Not Found"
 msgstr "Не найдена"

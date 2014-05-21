@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-23T16:16:44.681Z\n"
+"POT-Creation-Date: 2014-05-21T16:42:39.181Z\n"
 "PO-Revision-Date: 2014-04-30 11:55+0000\n"
 "Last-Translator: Aleksandra <auzelac91@gmail.com>\n"
 "Language-Team: none\n"
@@ -13,6 +13,18 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1398858913.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Затвори"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Не"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Да"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -82,18 +94,6 @@ msgstr "Морате се пријавити како бисте настави�
 msgid "Sign in / Sign up"
 msgstr "Пријави се / Региструј се"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Затвори"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Не"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Да"
-
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr "Прилог"
@@ -102,9 +102,54 @@ msgstr "Прилог"
 msgid "File Description"
 msgstr "Опис датотеке"
 
-#: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Иконица апликације"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Преглед свих тема за {app_name}"
+
+#: /templates/comm/app_dashboard.html:8
+msgid "Back to my threads"
+msgstr "Повратак на моје теме"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Моје теме"
+
+#: /templates/comm/main.html:13
+msgid "You have no threads."
+msgstr "Немате теме."
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10
 msgid "No notes found"
 msgstr "Нема пронађених белешки"
+
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr "Означите ову белешку као прочитану"
+
+#: /templates/comm/note_detail.html:15
+msgid "Empty note"
+msgstr "Празна белешка"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Гледате тему за {app_name}"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Повратак на све теме за {app_name}"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Threads"
+msgstr "Теме ове апликације"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -169,51 +214,6 @@ msgstr "Оцени"
 msgid "Mark All Read"
 msgstr "Означи све прочитане"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Иконица апликације"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Преглед свих тема за {app_name}"
-
-#: /templates/comm/app_dashboard.html:8
-msgid "Back to my threads"
-msgstr "Повратак на моје теме"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Моје теме"
-
-#: /templates/comm/main.html:13
-msgid "You have no threads."
-msgstr "Немате теме."
-
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "Означите ову белешку као прочитану"
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr "Празна белешка"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Гледате тему за {app_name}"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Повратак на све теме за {app_name}"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Threads"
-msgstr "Теме ове апликације"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
-
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "Ох не!"
@@ -221,10 +221,6 @@ msgstr "Ох не!"
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
 msgstr "Страница коју сте тражили није пронађена."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Дошло је до грешке."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -234,29 +230,9 @@ msgstr "Грешка при учитавању"
 msgid "Try Again"
 msgstr "Покушај поново"
 
-#: /media/js/login.js:8
-msgid "You have been signed out"
-msgstr "Одјављени сте"
-
-#: /media/js/login.js:12
-msgid "You have been signed in"
-msgstr "Пријављени сте"
-
-#: /media/js/login.js:49
-msgid "Error signing out"
-msgstr "Грешка приликом одјављивања"
-
-#: /media/js/login.js:133
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Пријава на Persona је неуспела. Можда немате налог под том адресом е-поште?"
-
-#: /media/js/login.js:138
-msgid "Persona login failed. A server error was encountered."
-msgstr "Пријава на Persona није успела. Дошло је до грешке на серверу."
-
-#: /media/js/navigation.js:31
-msgid "No internet connection"
-msgstr "Нема интернет конекције"
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Дошло је до грешке."
 
 #: /media/js/settings.js:33
 msgid "Message"
@@ -310,8 +286,36 @@ msgstr "Ескалирало због великог броја захтева �
 msgid "Re-review cleared"
 msgstr "Поновни преглед обрисан"
 
+#: /media/js/commonplace/login.js:8
+msgid "You have been signed out"
+msgstr "Одјављени сте"
+
+#: /media/js/commonplace/login.js:12
+msgid "You have been signed in"
+msgstr "Пријављени сте"
+
+#: /media/js/commonplace/login.js:50
+msgid "Error signing out"
+msgstr "Грешка приликом одјављивања"
+
+#: /media/js/commonplace/login.js:137
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Пријава на Persona је неуспела. Можда немате налог под том адресом е-поште?"
+
+#: /media/js/commonplace/login.js:142
+msgid "Persona login failed. A server error was encountered."
+msgstr "Пријава на Persona није успела. Дошло је до грешке на серверу."
+
+#: /media/js/commonplace/login.js:210
+msgid "Persona cannot be reached. Try again later."
+msgstr ""
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "Нема интернет конекције"
+
 #. {n} is the number of characters left.
-#: /media/js/utils.js:28
+#: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "Преостало карактера: <b>{n}</b>."
@@ -350,7 +354,11 @@ msgstr "Било је неких проблема око означавања т
 msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
 msgstr "Успешно сте укинули претплату. Више нећете примати обавештења за ову тему."
 
+#: /media/js/views/commonplace/hello_world.js:9
+msgid "Hello World!"
+msgstr ""
+
 #. Page not found (404)
-#: /media/js/views/not_found.js:9
+#: /media/js/views/commonplace/not_found.js:9
 msgid "Not Found"
 msgstr "Није пронађено"

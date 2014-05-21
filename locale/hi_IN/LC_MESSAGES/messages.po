@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-23T16:16:44.681Z\n"
+"POT-Creation-Date: 2014-05-21T16:42:39.181Z\n"
 "PO-Revision-Date: 2014-05-14 08:17+0000\n"
 "Last-Translator: Umesh <umesh.agarwal1@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,6 +13,18 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1400055461.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "बंद करे"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "नहीं"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "हाँ"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -43,10 +55,8 @@ msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
 "Alike License v3.0</a> or any later version."
 msgstr ""
-"अन्यथा जहां छोड़कर <a href=\"{legal_url}\" target=\"_blank\">विख्यात</a>, इस "
-"साइट की सामग्री अंतर्गत लाइसेंस है <a href=\"{cc_url}\" "
-"target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> या "
-"कोई पश्चातवर्ती संस्करण."
+"अन्यथा जहां छोड़कर <a href=\"{legal_url}\" target=\"_blank\">विख्यात</a>, इस साइट की सामग्री अंतर्गत लाइसेंस है <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</"
+"a> या कोई पश्चातवर्ती संस्करण."
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
@@ -84,18 +94,6 @@ msgstr "आगे बढ़ना के लियें साइन इन क
 msgid "Sign in / Sign up"
 msgstr "साइन इन / साइन अप"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "बंद करे"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "नहीं"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "हाँ"
-
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr "अनुलग्नक"
@@ -104,9 +102,54 @@ msgstr "अनुलग्नक"
 msgid "File Description"
 msgstr "फाइल विवरण"
 
-#: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "एप्प्स आइकन"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "{app_name} के लिए सभी थ्रेड देख रहा है"
+
+#: /templates/comm/app_dashboard.html:8
+msgid "Back to my threads"
+msgstr "मेरे थ्रेड्स में वापस"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "मेरे थ्रेड्स"
+
+#: /templates/comm/main.html:13
+msgid "You have no threads."
+msgstr "आपके पास कोई थ्रेड्स नहीं है."
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10
 msgid "No notes found"
 msgstr "कोई नोट्स नहीं पाया गया"
+
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr "स नोट को पढ़ें हुआ मार्क करें"
+
+#: /templates/comm/note_detail.html:15
+msgid "Empty note"
+msgstr "खाली नोट"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "{app_name} के लिए थ्रेड देख रहा है"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "{app_name} के लिए सभी थ्रेड वापस"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Threads"
+msgstr "इस एप्लिकेशन के थ्रेड्स"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -170,51 +213,6 @@ msgstr "समीक्षा"
 msgid "Mark All Read"
 msgstr "सभी पढ़े गए रूप में चिह्नित करें"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "एप्प्स आइकन"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "{app_name} के लिए सभी थ्रेड देख रहा है"
-
-#: /templates/comm/app_dashboard.html:8
-msgid "Back to my threads"
-msgstr "मेरे थ्रेड्स में वापस"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "मेरे थ्रेड्स"
-
-#: /templates/comm/main.html:13
-msgid "You have no threads."
-msgstr "आपके पास कोई थ्रेड्स नहीं है."
-
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "स नोट को पढ़ें हुआ मार्क करें"
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr "खाली नोट"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "{app_name} के लिए थ्रेड देख रहा है"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "{app_name} के लिए सभी थ्रेड वापस"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Threads"
-msgstr "इस एप्लिकेशन के थ्रेड्स"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
-
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "अरे नहीं!"
@@ -222,10 +220,6 @@ msgstr "अरे नहीं!"
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
 msgstr "आप जो पृष्ठ देख रहे थे वह नहीं मिला था."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "एक त्रुटि उत्पन्न हुई."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -235,30 +229,9 @@ msgstr "अधिक लोड करने में त्रुटि"
 msgid "Try Again"
 msgstr "पुन: प्रयास करें"
 
-#: /media/js/login.js:8
-msgid "You have been signed out"
-msgstr "आपको साइन आउट कर दिया गया है"
-
-#: /media/js/login.js:12
-msgid "You have been signed in"
-msgstr "आपको साइन इन कर दिया गया है"
-
-#: /media/js/login.js:49
-msgid "Error signing out"
-msgstr "साइन आउट करने में त्रुटि"
-
-#: /media/js/login.js:133
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr ""
-"परसोना लॉगिन विफल. हो सकता है कि आपका उस ईमेल पते के अंतर्गत खाता नहीं है?"
-
-#: /media/js/login.js:138
-msgid "Persona login failed. A server error was encountered."
-msgstr "परसोना लॉगिन विफल रहा. एक सर्वर त्रुटि से सामना हुआ था."
-
-#: /media/js/navigation.js:31
-msgid "No internet connection"
-msgstr "कोई इंटरनेट कनेक्शन नहीं"
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "एक त्रुटि उत्पन्न हुई."
 
 #: /media/js/settings.js:33
 msgid "Message"
@@ -312,8 +285,36 @@ msgstr "उच्च वापसी अनुरोधों के कार�
 msgid "Re-review cleared"
 msgstr "पुनः समीक्षा को मंजूरी दे दी"
 
+#: /media/js/commonplace/login.js:8
+msgid "You have been signed out"
+msgstr "आपको साइन आउट कर दिया गया है"
+
+#: /media/js/commonplace/login.js:12
+msgid "You have been signed in"
+msgstr "आपको साइन इन कर दिया गया है"
+
+#: /media/js/commonplace/login.js:50
+msgid "Error signing out"
+msgstr "साइन आउट करने में त्रुटि"
+
+#: /media/js/commonplace/login.js:137
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "परसोना लॉगिन विफल. हो सकता है कि आपका उस ईमेल पते के अंतर्गत खाता नहीं है?"
+
+#: /media/js/commonplace/login.js:142
+msgid "Persona login failed. A server error was encountered."
+msgstr "परसोना लॉगिन विफल रहा. एक सर्वर त्रुटि से सामना हुआ था."
+
+#: /media/js/commonplace/login.js:210
+msgid "Persona cannot be reached. Try again later."
+msgstr ""
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "कोई इंटरनेट कनेक्शन नहीं"
+
 #. {n} is the number of characters left.
-#: /media/js/utils.js:28
+#: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{n}</b> अक्षर बाकी."
@@ -337,8 +338,7 @@ msgstr "कोई अधिक पुराने नोट नहीं है�
 
 #: /media/js/views/comm.js:255
 msgid "There was some problem marking the note as read. Try again."
-msgstr ""
-"पढ़ने हुअें के रूप में नोट अंकन करनें में कुछ समस्या थी. फिर से कोशिश करें."
+msgstr "पढ़ने हुअें के रूप में नोट अंकन करनें में कुछ समस्या थी. फिर से कोशिश करें."
 
 #: /media/js/views/comm.js:268
 msgid "No notes to show."
@@ -346,17 +346,17 @@ msgstr "दिखाने के लिए कोई नोट नहीं."
 
 #: /media/js/views/comm.js:275
 msgid "There was some problem marking the thread as read. Try again."
-msgstr ""
-"पढ़ने हुअें के रूप में थ्रेड अंकन करनें में कुछ समस्या थी. फिर से कोशिश "
-"करें."
+msgstr "पढ़ने हुअें के रूप में थ्रेड अंकन करनें में कुछ समस्या थी. फिर से कोशिश करें."
 
 #: /media/js/views/comm.js:285
 msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
+msgstr "सफलतापूर्वक सदस्यता वापस. अब आप उस थ्रेड के लिए ईमेल सूचनाएँ प्राप्त नहीं करेंगे."
+
+#: /media/js/views/commonplace/hello_world.js:9
+msgid "Hello World!"
 msgstr ""
-"सफलतापूर्वक सदस्यता वापस. अब आप उस थ्रेड के लिए ईमेल सूचनाएँ प्राप्त नहीं "
-"करेंगे."
 
 #. Page not found (404)
-#: /media/js/views/not_found.js:9
+#: /media/js/views/commonplace/not_found.js:9
 msgid "Not Found"
 msgstr "नहीं मिला"

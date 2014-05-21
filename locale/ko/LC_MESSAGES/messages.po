@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-23T16:16:44.681Z\n"
+"POT-Creation-Date: 2014-05-21T16:42:39.181Z\n"
 "PO-Revision-Date: 2014-05-06 14:19+0000\n"
 "Last-Translator: Channy <channy@mozilla.or.kr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,6 +13,18 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1399385983.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "닫기"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "아니오"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "예"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -82,18 +94,6 @@ msgstr "진행을 위해서 로그인을 해야 합니다."
 msgid "Sign in / Sign up"
 msgstr "로그인 / 회원 가입"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "닫기"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "아니오"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "예"
-
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr "첨부 파일"
@@ -102,9 +102,54 @@ msgstr "첨부 파일"
 msgid "File Description"
 msgstr "파일 설명"
 
-#: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "앱 아이콘"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "{app_name}에 대한 글타래 모두 보기"
+
+#: /templates/comm/app_dashboard.html:8
+msgid "Back to my threads"
+msgstr "내 글타래로 돌아가기"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "내 글타래"
+
+#: /templates/comm/main.html:13
+msgid "You have no threads."
+msgstr "글이 없습니다."
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10
 msgid "No notes found"
 msgstr "소개 내용 없음"
+
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr "이 메모를 읽음으로 표시"
+
+#: /templates/comm/note_detail.html:15
+msgid "Empty note"
+msgstr "소개 내용 없음"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "{app_name}에 대한 글타래 보기"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "{app_name}에 대한 글타래로 돌아가기"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Threads"
+msgstr "현재 앱의 글타래"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -167,51 +212,6 @@ msgstr "리뷰"
 msgid "Mark All Read"
 msgstr "모두 읽은 것으로 표시"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "앱 아이콘"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "{app_name}에 대한 글타래 모두 보기"
-
-#: /templates/comm/app_dashboard.html:8
-msgid "Back to my threads"
-msgstr "내 글타래로 돌아가기"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "내 글타래"
-
-#: /templates/comm/main.html:13
-msgid "You have no threads."
-msgstr "글이 없습니다."
-
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "이 메모를 읽음으로 표시"
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr "소개 내용 없음"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "{app_name}에 대한 글타래 보기"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "{app_name}에 대한 글타래로 돌아가기"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Threads"
-msgstr "현재 앱의 글타래"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
-
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "오 이런!"
@@ -219,10 +219,6 @@ msgstr "오 이런!"
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
 msgstr "찾는 페이지가 없습니다."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "오류가 발생했습니다."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -232,29 +228,9 @@ msgstr "더 불러오는 중 오류 발생"
 msgid "Try Again"
 msgstr "다시 시도"
 
-#: /media/js/login.js:8
-msgid "You have been signed out"
-msgstr "로그아웃 되었습니다."
-
-#: /media/js/login.js:12
-msgid "You have been signed in"
-msgstr "로그인 되었습니다"
-
-#: /media/js/login.js:49
-msgid "Error signing out"
-msgstr "로그아웃 오류"
-
-#: /media/js/login.js:133
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Persona 로그인에 실패했습니다. 입력하신 이메일과 연결된 계정이 없을 수 있습니다."
-
-#: /media/js/login.js:138
-msgid "Persona login failed. A server error was encountered."
-msgstr "Persona 로그인에 실패했습니다. 서버 오류가 발생했습니다."
-
-#: /media/js/navigation.js:31
-msgid "No internet connection"
-msgstr "인터넷 연결 불가"
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "오류가 발생했습니다."
 
 #: /media/js/settings.js:33
 msgid "Message"
@@ -308,8 +284,36 @@ msgstr "환불 요청으로 인한 검증"
 msgid "Re-review cleared"
 msgstr "재 검토 완료"
 
+#: /media/js/commonplace/login.js:8
+msgid "You have been signed out"
+msgstr "로그아웃 되었습니다."
+
+#: /media/js/commonplace/login.js:12
+msgid "You have been signed in"
+msgstr "로그인 되었습니다"
+
+#: /media/js/commonplace/login.js:50
+msgid "Error signing out"
+msgstr "로그아웃 오류"
+
+#: /media/js/commonplace/login.js:137
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Persona 로그인에 실패했습니다. 입력하신 이메일과 연결된 계정이 없을 수 있습니다."
+
+#: /media/js/commonplace/login.js:142
+msgid "Persona login failed. A server error was encountered."
+msgstr "Persona 로그인에 실패했습니다. 서버 오류가 발생했습니다."
+
+#: /media/js/commonplace/login.js:210
+msgid "Persona cannot be reached. Try again later."
+msgstr ""
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "인터넷 연결 불가"
+
 #. {n} is the number of characters left.
-#: /media/js/utils.js:28
+#: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{n}</b>자 남았습니다."
@@ -346,7 +350,11 @@ msgstr "글 읽음 표시중에 문제가 발생했습니다. 다시 시도하�
 msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
 msgstr "구독이 해지되었습니다. 더 이상 메일을 받지 않습니다."
 
+#: /media/js/views/commonplace/hello_world.js:9
+msgid "Hello World!"
+msgstr ""
+
 #. Page not found (404)
-#: /media/js/views/not_found.js:9
+#: /media/js/views/commonplace/not_found.js:9
 msgid "Not Found"
 msgstr "찾을 수 없습니다."

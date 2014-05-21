@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-23T16:16:44.681Z\n"
+"POT-Creation-Date: 2014-05-21T16:42:39.181Z\n"
 "PO-Revision-Date: 2014-05-07 22:50+0000\n"
 "Last-Translator: yfdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,6 +13,18 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1399503020.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "关闭"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "否"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "是"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -80,18 +92,6 @@ msgstr "您必须登录才能继续。"
 msgid "Sign in / Sign up"
 msgstr "登录/注册"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "关闭"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "否"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "是"
-
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr "附件"
@@ -100,9 +100,54 @@ msgstr "附件"
 msgid "File Description"
 msgstr "文件描述"
 
-#: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "应用图标"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "查看所有 {app_name} 的话题"
+
+#: /templates/comm/app_dashboard.html:8
+msgid "Back to my threads"
+msgstr "返回我的话题"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "我的话题"
+
+#: /templates/comm/main.html:13
+msgid "You have no threads."
+msgstr "您没有话题。"
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10
 msgid "No notes found"
 msgstr "未找到笔记"
+
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr "将此笔记标记为已读"
+
+#: /templates/comm/note_detail.html:15
+msgid "Empty note"
+msgstr "空笔记"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "查看 {app_name} 的话题"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "返回 {app_name} 的话题"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Threads"
+msgstr "这个应用的话题"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -165,51 +210,6 @@ msgstr "评论"
 msgid "Mark All Read"
 msgstr "全部标记为已读"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "应用图标"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "查看所有 {app_name} 的话题"
-
-#: /templates/comm/app_dashboard.html:8
-msgid "Back to my threads"
-msgstr "返回我的话题"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "我的话题"
-
-#: /templates/comm/main.html:13
-msgid "You have no threads."
-msgstr "您没有话题。"
-
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "将此笔记标记为已读"
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr "空笔记"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "查看 {app_name} 的话题"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "返回 {app_name} 的话题"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Threads"
-msgstr "这个应用的话题"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
-
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "噢不！"
@@ -217,10 +217,6 @@ msgstr "噢不！"
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
 msgstr "找不到您想打开的页面。"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "发生了错误。"
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -230,29 +226,9 @@ msgstr "载入更多内容时发生错误"
 msgid "Try Again"
 msgstr "重试"
 
-#: /media/js/login.js:8
-msgid "You have been signed out"
-msgstr "您已经登出"
-
-#: /media/js/login.js:12
-msgid "You have been signed in"
-msgstr "您已经登录"
-
-#: /media/js/login.js:49
-msgid "Error signing out"
-msgstr "登出时出错"
-
-#: /media/js/login.js:133
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Persona 登录失败，也许您没有使用该电子邮件地址的帐号？"
-
-#: /media/js/login.js:138
-msgid "Persona login failed. A server error was encountered."
-msgstr "Persona 登录失败。服务器发生错误。"
-
-#: /media/js/navigation.js:31
-msgid "No internet connection"
-msgstr "没有互联网连接"
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "发生了错误。"
 
 #: /media/js/settings.js:33
 msgid "Message"
@@ -306,8 +282,36 @@ msgstr "由于存在大量退款请求，已向上呈报"
 msgid "Re-review cleared"
 msgstr "重新审核已清除"
 
+#: /media/js/commonplace/login.js:8
+msgid "You have been signed out"
+msgstr "您已经登出"
+
+#: /media/js/commonplace/login.js:12
+msgid "You have been signed in"
+msgstr "您已经登录"
+
+#: /media/js/commonplace/login.js:50
+msgid "Error signing out"
+msgstr "登出时出错"
+
+#: /media/js/commonplace/login.js:137
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Persona 登录失败，也许您没有使用该电子邮件地址的帐号？"
+
+#: /media/js/commonplace/login.js:142
+msgid "Persona login failed. A server error was encountered."
+msgstr "Persona 登录失败。服务器发生错误。"
+
+#: /media/js/commonplace/login.js:210
+msgid "Persona cannot be reached. Try again later."
+msgstr ""
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "没有互联网连接"
+
 #. {n} is the number of characters left.
-#: /media/js/utils.js:28
+#: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "剩下 <b>{n}</b> 個字符。"
@@ -344,7 +348,11 @@ msgstr "将话题标示为已读时发生错误，请重试。"
 msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
 msgstr "已成功退订。您将不会再收到此话题的邮件通知。"
 
+#: /media/js/views/commonplace/hello_world.js:9
+msgid "Hello World!"
+msgstr ""
+
 #. Page not found (404)
-#: /media/js/views/not_found.js:9
+#: /media/js/views/commonplace/not_found.js:9
 msgid "Not Found"
 msgstr "找不到"

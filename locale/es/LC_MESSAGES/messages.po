@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-23T16:16:44.681Z\n"
+"POT-Creation-Date: 2014-05-21T16:42:39.181Z\n"
 "PO-Revision-Date: 2014-04-13 11:13+0000\n"
 "Last-Translator: Inma <inma.barrios@mozilla-hispano.org>\n"
 "Language-Team: Español (España) <nave@elistas.net>\n"
@@ -13,6 +13,18 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1397387638.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Cerrar"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "No"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Sí"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -82,18 +94,6 @@ msgstr "Debes identificarte para continuar."
 msgid "Sign in / Sign up"
 msgstr "Identificarse / Registrarse"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Cerrar"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "No"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Sí"
-
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr "Adjunto"
@@ -102,9 +102,54 @@ msgstr "Adjunto"
 msgid "File Description"
 msgstr "Descripción del archivo"
 
-#: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Icono de aplicación"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Visualizando todas las conversaciones de {app_name}"
+
+#: /templates/comm/app_dashboard.html:8
+msgid "Back to my threads"
+msgstr "Volver a mis temas"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Mis temas"
+
+#: /templates/comm/main.html:13
+msgid "You have no threads."
+msgstr "No tienes ningún hilo."
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10
 msgid "No notes found"
 msgstr "No se encontraron notas"
+
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr "Marcar esta nota como leída"
+
+#: /templates/comm/note_detail.html:15
+msgid "Empty note"
+msgstr "Nota vacía"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Ver temas de {app_name}"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Volver a todos los temas de {app_name}"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Threads"
+msgstr "Temas de esta aplicación"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -168,51 +213,6 @@ msgstr "Revisar"
 msgid "Mark All Read"
 msgstr "Marcar todas como leídas"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Icono de aplicación"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Visualizando todas las conversaciones de {app_name}"
-
-#: /templates/comm/app_dashboard.html:8
-msgid "Back to my threads"
-msgstr "Volver a mis temas"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Mis temas"
-
-#: /templates/comm/main.html:13
-msgid "You have no threads."
-msgstr "No tienes ningún hilo."
-
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "Marcar esta nota como leída"
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr "Nota vacía"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Ver temas de {app_name}"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Volver a todos los temas de {app_name}"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Threads"
-msgstr "Temas de esta aplicación"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
-
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "¡Oh, no!"
@@ -220,10 +220,6 @@ msgstr "¡Oh, no!"
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
 msgstr "No se encontró la página que buscabas."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Se produjo un error."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -233,29 +229,9 @@ msgstr "Error al cargar más"
 msgid "Try Again"
 msgstr "Intentar de nuevo"
 
-#: /media/js/login.js:8
-msgid "You have been signed out"
-msgstr "Has salido"
-
-#: /media/js/login.js:12
-msgid "You have been signed in"
-msgstr "Te has identificado"
-
-#: /media/js/login.js:49
-msgid "Error signing out"
-msgstr "Error al salir"
-
-#: /media/js/login.js:133
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Error en la identificación con Mozilla Persona. ¿Tal vez no dispones de una cuenta con esa dirección de correo?"
-
-#: /media/js/login.js:138
-msgid "Persona login failed. A server error was encountered."
-msgstr "Error en la identificación con Mozilla Persona. Se encontró un error del servidor."
-
-#: /media/js/navigation.js:31
-msgid "No internet connection"
-msgstr "No hay conexión a internet"
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Se produjo un error."
 
 #: /media/js/settings.js:33
 msgid "Message"
@@ -309,8 +285,36 @@ msgstr "Remitida debido al alto número de solicitudes de reembolso"
 msgid "Re-review cleared"
 msgstr "Segunda revisión eliminada"
 
+#: /media/js/commonplace/login.js:8
+msgid "You have been signed out"
+msgstr "Has salido"
+
+#: /media/js/commonplace/login.js:12
+msgid "You have been signed in"
+msgstr "Te has identificado"
+
+#: /media/js/commonplace/login.js:50
+msgid "Error signing out"
+msgstr "Error al salir"
+
+#: /media/js/commonplace/login.js:137
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Error en la identificación con Mozilla Persona. ¿Tal vez no dispones de una cuenta con esa dirección de correo?"
+
+#: /media/js/commonplace/login.js:142
+msgid "Persona login failed. A server error was encountered."
+msgstr "Error en la identificación con Mozilla Persona. Se encontró un error del servidor."
+
+#: /media/js/commonplace/login.js:210
+msgid "Persona cannot be reached. Try again later."
+msgstr ""
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "No hay conexión a internet"
+
 #. {n} is the number of characters left.
-#: /media/js/utils.js:28
+#: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "Queda <b>{n}</b> carácter."
@@ -348,7 +352,11 @@ msgstr "Hubo un problema al marcar el hilo como leído. Inténtalo de nuevo pasa
 msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
 msgstr "Suscripción cancelada correctamente. No recibirás más notificaciones de esta conversación."
 
+#: /media/js/views/commonplace/hello_world.js:9
+msgid "Hello World!"
+msgstr ""
+
 #. Page not found (404)
-#: /media/js/views/not_found.js:9
+#: /media/js/views/commonplace/not_found.js:9
 msgid "Not Found"
 msgstr "No pudo encontrarse"
