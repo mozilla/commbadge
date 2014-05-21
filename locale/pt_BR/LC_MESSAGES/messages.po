@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-21T16:42:39.181Z\n"
-"PO-Revision-Date: 2014-04-23 21:18+0000\n"
-"Last-Translator: Marco Aurélio <ouesten@me.com>\n"
+"PO-Revision-Date: 2014-05-21 17:26+0000\n"
+"Last-Translator: Marcelo <mlcaraldi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1398287925.0\n"
+"X-POOTLE-MTIME: 1400693208.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -307,7 +307,7 @@ msgstr "Login Persona falhou. Um erro de servidor foi encontrado."
 
 #: /media/js/commonplace/login.js:210
 msgid "Persona cannot be reached. Try again later."
-msgstr ""
+msgstr "Não foi possível comunicar com o Persona. Tente novamente em breve."
 
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
@@ -354,7 +354,7 @@ msgstr "desinscrição com sucesso. Você não vai mais receber notificações d
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"
-msgstr ""
+msgstr "Olá mundo!"
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9
