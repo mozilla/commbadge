@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-21T16:42:39.181Z\n"
-"PO-Revision-Date: 2014-04-23 12:29-0400\n"
+"PO-Revision-Date: 2014-05-21 13:10-0400\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -306,7 +306,7 @@ msgstr "Persona のログインに失敗しました。サーバエラーが発�
 
 #: /media/js/commonplace/login.js:210
 msgid "Persona cannot be reached. Try again later."
-msgstr ""
+msgstr "Persona サーバへ接続できませんでした。また後で試してください。"
 
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
@@ -353,7 +353,7 @@ msgstr "購読を解除しました。今後このスレッドが更新されて
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"
-msgstr ""
+msgstr "こんにちは世界！"
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9
