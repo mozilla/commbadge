@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-21T16:42:39.181Z\n"
-"PO-Revision-Date: 2014-04-27 00:13+0000\n"
+"PO-Revision-Date: 2014-05-22 13:08+0000\n"
 "Last-Translator: Gábor <kelemeng@ubuntu.com>\n"
 "Language-Team: none\n"
 "Language: hu\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n !=1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1398557614.0\n"
+"X-POOTLE-MTIME: 1400764089.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -307,7 +307,7 @@ msgstr "A Persona bejelentkezés sikertelen. Kiszolgálóhiba történt."
 
 #: /media/js/commonplace/login.js:210
 msgid "Persona cannot be reached. Try again later."
-msgstr ""
+msgstr "A Persona nem érhető el. Próbálja újra később."
 
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
@@ -354,7 +354,7 @@ msgstr "Sikeresen leiratkozott. Nem fog további e-mail értesítéseket kapni e
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"
-msgstr ""
+msgstr "Szia világ!"
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9
