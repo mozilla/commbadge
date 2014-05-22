@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-21T16:42:39.181Z\n"
-"PO-Revision-Date: 2014-04-25 03:57+0000\n"
+"PO-Revision-Date: 2014-05-22 02:24+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: MozTW <petercpg@mail.moztw.org>\n"
 "Language: zh_TW\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-POOTLE-MTIME: 1398398275.0\n"
+"X-POOTLE-MTIME: 1400725468.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -305,7 +305,7 @@ msgstr "Persona 登入失敗，伺服器發生錯誤。"
 
 #: /media/js/commonplace/login.js:210
 msgid "Persona cannot be reached. Try again later."
-msgstr ""
+msgstr "無法聯繫 Persona，請稍後再試。"
 
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
@@ -351,7 +351,7 @@ msgstr "已成功退訂，您將不會再收到該討論串的郵件通知。"
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"
-msgstr ""
+msgstr "Hello World!"
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9
