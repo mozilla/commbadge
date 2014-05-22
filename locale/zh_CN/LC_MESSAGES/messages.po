@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-21T16:42:39.181Z\n"
-"PO-Revision-Date: 2014-05-07 22:50+0000\n"
+"PO-Revision-Date: 2014-05-22 08:20+0000\n"
 "Last-Translator: yfdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1399503020.0\n"
+"X-POOTLE-MTIME: 1400746811.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -304,7 +304,7 @@ msgstr "Persona 登录失败。服务器发生错误。"
 
 #: /media/js/commonplace/login.js:210
 msgid "Persona cannot be reached. Try again later."
-msgstr ""
+msgstr "Persona 无法到达。请稍候再试。"
 
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
@@ -350,7 +350,7 @@ msgstr "已成功退订。您将不会再收到此话题的邮件通知。"
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"
-msgstr ""
+msgstr "Hello World!"
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9
