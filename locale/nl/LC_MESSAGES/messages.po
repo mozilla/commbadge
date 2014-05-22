@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-21T16:42:39.181Z\n"
-"PO-Revision-Date: 2014-05-21 21:09+0000\n"
-"Last-Translator: Mark <markh@babelzilla.org>\n"
+"PO-Revision-Date: 2014-05-22 01:05+0000\n"
+"Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: none\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1400706570.0\n"
+"X-POOTLE-MTIME: 1400720704.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -170,7 +170,7 @@ msgstr "Plaatsen"
 
 #: /templates/_macros/thread.html:14
 msgid "View older"
-msgstr "Oudere bekijken"
+msgstr "Oudere weergeven"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -178,7 +178,7 @@ msgstr "{app_name} (versie {version_number})"
 
 #: /templates/_macros/thread_header.html:21
 msgid "(Obsolete)"
-msgstr "(Vervallen)"
+msgstr "(Verouderd)"
 
 #: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:42
 msgid "{n} note"
@@ -209,7 +209,7 @@ msgstr "Uitschrijven"
 # verb or noun?
 #: /templates/_macros/thread_header.html:51
 msgid "Review"
-msgstr "Beoordeling"
+msgstr "Beoordelen"
 
 #: /templates/_macros/thread_header.html:54
 msgid "Mark All Read"
