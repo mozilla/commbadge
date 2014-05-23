@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Commbadge\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-21T16:42:39.181Z\n"
-"PO-Revision-Date: 2014-04-25 05:21+0000\n"
+"PO-Revision-Date: 2014-05-23 07:53+0000\n"
 "Last-Translator: Pavel <jasnapaka@jasnapaka.com>\n"
 "Language-Team: Czech <info@mozilla.cz>\n"
 "Language: cs\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1398403282.0\n"
+"X-POOTLE-MTIME: 1400831583.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -308,7 +308,7 @@ msgstr "Přihlášení pomocí Persona selhalo. Vyskytla se chyba na serveru."
 
 #: /media/js/commonplace/login.js:210
 msgid "Persona cannot be reached. Try again later."
-msgstr ""
+msgstr "Komunikace s Persona se nezdařila. Zkuste to znovu později."
 
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
@@ -356,7 +356,7 @@ msgstr "Odběr byl úspěšně zrušen. Pro toto vlákno již nebudete dostávat
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"
-msgstr ""
+msgstr "Ahoj světe!"
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9
