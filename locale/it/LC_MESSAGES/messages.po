@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Commbadge\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-21T16:42:39.181Z\n"
-"PO-Revision-Date: 2014-04-28 12:09+0000\n"
+"PO-Revision-Date: 2014-05-24 07:36+0000\n"
 "Last-Translator: Sara <sara.todaro@mozillaitalia.org>\n"
 "Language-Team: gialloporpora <gialloporpora@yahoo.it>\n"
 "Language: it\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1398686964.0\n"
+"X-POOTLE-MTIME: 1400917003.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -308,7 +308,7 @@ msgstr "Identificazione tramite Persona non riuscita. Si è verificato un errore
 
 #: /media/js/commonplace/login.js:210
 msgid "Persona cannot be reached. Try again later."
-msgstr ""
+msgstr "Impossibile comunicare con il server di Persona. Riprova più tardi."
 
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
@@ -355,7 +355,7 @@ msgstr "La sottoscrizione è stata annullata. Non riceverai più notifiche email
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"
-msgstr ""
+msgstr "Salve a tutti!"
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9
