@@ -36,7 +36,7 @@ msgstr "Centro de Desarrolladores"
 
 #: /templates/footer.html:6
 msgid "Support"
-msgstr "Asistencia"
+msgstr "Ayuda"
 
 #: /templates/footer.html:10
 msgid "My Submissions"
@@ -307,7 +307,7 @@ msgstr "Error en la identificación con Mozilla Persona. Se encontró un error d
 
 #: /media/js/commonplace/login.js:210
 msgid "Persona cannot be reached. Try again later."
-msgstr ""
+msgstr "No es posible conectarse con Mozilla Persona. Prueba más tarde."
 
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
@@ -354,9 +354,9 @@ msgstr "Suscripción cancelada correctamente. No recibirás más notificaciones 
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"
-msgstr ""
+msgstr "¡Hola, mundo!"
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9
 msgid "Not Found"
-msgstr "No pudo encontrarse"
+msgstr "No encontrada"
