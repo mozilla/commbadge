@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-05-21T16:42:39.181Z\n"
+"POT-Creation-Date: 2014-05-28T16:42:26.982Z\n"
 "PO-Revision-Date: 2014-05-22 13:08+0000\n"
 "Last-Translator: Gábor <kelemeng@ubuntu.com>\n"
 "Language-Team: none\n"
@@ -102,54 +102,9 @@ msgstr "Melléklet"
 msgid "File Description"
 msgstr "Fájl leírása"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "App ikon"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "{app_name} minden szálának megjelenítése"
-
-#: /templates/comm/app_dashboard.html:8
-msgid "Back to my threads"
-msgstr "Vissza a szálaimhoz"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Szálaim"
-
-#: /templates/comm/main.html:13
-msgid "You have no threads."
-msgstr "Nincsenek szálak."
-
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10
+#: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "Nincsenek jegyzetek"
-
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "Jegyzet megjelölése olvasottként"
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr "Üres jegyzet"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "{app_name} szálának megjelenítése"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Vissza {app_name} összes szálához"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Threads"
-msgstr "Ezen app szálai"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -213,6 +168,51 @@ msgstr "Értékelés"
 msgid "Mark All Read"
 msgstr "Összes jelölése olvasottként"
 
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "App ikon"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "{app_name} minden szálának megjelenítése"
+
+#: /templates/comm/app_dashboard.html:8
+msgid "Back to my threads"
+msgstr "Vissza a szálaimhoz"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Szálaim"
+
+#: /templates/comm/main.html:13
+msgid "You have no threads."
+msgstr "Nincsenek szálak."
+
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr "Jegyzet megjelölése olvasottként"
+
+#: /templates/comm/note_detail.html:15
+msgid "Empty note"
+msgstr "Üres jegyzet"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "{app_name} szálának megjelenítése"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Vissza {app_name} összes szálához"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Threads"
+msgstr "Ezen app szálai"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
+
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "Na ne!"
@@ -221,6 +221,10 @@ msgstr "Na ne!"
 msgid "The page you were looking for was not found."
 msgstr "A keresett oldal nem található."
 
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Hiba történt."
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Hiba továbbiak betöltésekor"
@@ -228,10 +232,6 @@ msgstr "Hiba továbbiak betöltésekor"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Próbálja újra"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Hiba történt."
 
 #: /media/js/settings.js:33
 msgid "Message"

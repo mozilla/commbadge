@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-05-21T16:42:39.181Z\n"
+"POT-Creation-Date: 2014-05-28T16:42:26.982Z\n"
 "PO-Revision-Date: 2014-04-25 05:02+0000\n"
 "Last-Translator: Aman <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -102,54 +102,9 @@ msgstr "ਨੱਥੀ"
 msgid "File Description"
 msgstr "ਫਾਇਲ ਵੇਰਵਾ"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "ਐਪ ਆਈਕਾਨ"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "{app_name} ਲਈ ਸਭ ਥਰੈੱਡ ਵੈਖੋ"
-
-#: /templates/comm/app_dashboard.html:8
-msgid "Back to my threads"
-msgstr "ਮੇਰੇ ਥਰਿੱਡ ਤੇ ਵਾਪਿਸ ਜਾਓ"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "ਮੇਰੇ ਥਰਿੱਡ"
-
-#: /templates/comm/main.html:13
-msgid "You have no threads."
-msgstr "ਤੁਹਾਡੇ ਕੋਲ ਥਰਿੱਡ ਨਹੀਂ ਹੈ"
-
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10
+#: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "ਨੋਟਿਸ ਨਹੀ ਲੱਭੇ"
-
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "ਪੜ੍ਹਨ ਦੌਰਾਨ ਇਹ ਨੋਟ ਮਾਰਕ "
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr "ਖਾਲੀ ਨੋਟ"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr " {app_name} ਲਈ ਥਰਿੱਡ ਦੇਖੋ"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr " {app_name} ਲਈ ਪਿਛਲੇ ਸਾਰੇ ਥਰਿੱਡਾ ਤੇ ਜਾਓ"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Threads"
-msgstr "ਇਹ ਐਪ ਦੇ ਥਰਿੱਡ ਹਨ"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -213,6 +168,51 @@ msgstr "ਮੁਆਇਨਾ"
 msgid "Mark All Read"
 msgstr "ਸਭ ਮਾਰਕ ਪੜ੍ਹੋ"
 
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "ਐਪ ਆਈਕਾਨ"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "{app_name} ਲਈ ਸਭ ਥਰੈੱਡ ਵੈਖੋ"
+
+#: /templates/comm/app_dashboard.html:8
+msgid "Back to my threads"
+msgstr "ਮੇਰੇ ਥਰਿੱਡ ਤੇ ਵਾਪਿਸ ਜਾਓ"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "ਮੇਰੇ ਥਰਿੱਡ"
+
+#: /templates/comm/main.html:13
+msgid "You have no threads."
+msgstr "ਤੁਹਾਡੇ ਕੋਲ ਥਰਿੱਡ ਨਹੀਂ ਹੈ"
+
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr "ਪੜ੍ਹਨ ਦੌਰਾਨ ਇਹ ਨੋਟ ਮਾਰਕ "
+
+#: /templates/comm/note_detail.html:15
+msgid "Empty note"
+msgstr "ਖਾਲੀ ਨੋਟ"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr " {app_name} ਲਈ ਥਰਿੱਡ ਦੇਖੋ"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr " {app_name} ਲਈ ਪਿਛਲੇ ਸਾਰੇ ਥਰਿੱਡਾ ਤੇ ਜਾਓ"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Threads"
+msgstr "ਇਹ ਐਪ ਦੇ ਥਰਿੱਡ ਹਨ"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
+
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "ਓਹ ਨਹੀਂ!"
@@ -221,6 +221,10 @@ msgstr "ਓਹ ਨਹੀਂ!"
 msgid "The page you were looking for was not found."
 msgstr "ਜੋ ਸਫ਼ਾ ਤਸੀ ਲੱਭ ਰਹੇ ਹੋ ਉਹ ਨਹੀ ਮਿਲਿਆ ਹੈ।"
 
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "ਇੱਕ ਗਲਤੀ ਆਈ ਹੈ"
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "ਲੋਡ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ ਹਈ ਹੈ"
@@ -228,10 +232,6 @@ msgstr "ਲੋਡ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ ਹਈ ਹੈ"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "ਇੱਕ ਗਲਤੀ ਆਈ ਹੈ"
 
 #: /media/js/settings.js:33
 msgid "Message"

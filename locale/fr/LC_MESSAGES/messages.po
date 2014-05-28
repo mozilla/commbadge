@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-05-21T16:42:39.181Z\n"
+"POT-Creation-Date: 2014-05-28T16:42:26.982Z\n"
 "PO-Revision-Date: 2014-04-27 08:11+0000\n"
 "Last-Translator: Benoit <benoit.leseul@gmail.com>\n"
 "Language-Team: français <>\n"
@@ -105,54 +105,9 @@ msgstr "Pièce jointe"
 msgid "File Description"
 msgstr "Description du fichier"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Icône de l'application"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Affichage de toutes les discussion sur {app_name}"
-
-#: /templates/comm/app_dashboard.html:8
-msgid "Back to my threads"
-msgstr "Revenir à mes discussions"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Mes discussions"
-
-#: /templates/comm/main.html:13
-msgid "You have no threads."
-msgstr "Vous n'avez aucun sujet de discussion."
-
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10
+#: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "Aucune note trouvée"
-
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "Marquer cette note comme lue"
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr "Note vide"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Affichage de la discussion sur {app_name}"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Revenir aux discussions sur {app_name}"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Threads"
-msgstr "Les discussions sur cette application"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -216,6 +171,51 @@ msgstr "Révision"
 msgid "Mark All Read"
 msgstr "Tout marquer comme lu"
 
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Icône de l'application"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Affichage de toutes les discussion sur {app_name}"
+
+#: /templates/comm/app_dashboard.html:8
+msgid "Back to my threads"
+msgstr "Revenir à mes discussions"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Mes discussions"
+
+#: /templates/comm/main.html:13
+msgid "You have no threads."
+msgstr "Vous n'avez aucun sujet de discussion."
+
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr "Marquer cette note comme lue"
+
+#: /templates/comm/note_detail.html:15
+msgid "Empty note"
+msgstr "Note vide"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Affichage de la discussion sur {app_name}"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Revenir aux discussions sur {app_name}"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Threads"
+msgstr "Les discussions sur cette application"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
+
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "Oh non !"
@@ -224,6 +224,10 @@ msgstr "Oh non !"
 msgid "The page you were looking for was not found."
 msgstr "La page que vous avez demandé n'a pas été trouvée."
 
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Une erreur est survenue."
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Erreur pendant le chargement"
@@ -231,10 +235,6 @@ msgstr "Erreur pendant le chargement"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Réessayez"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Une erreur est survenue."
 
 #: /media/js/settings.js:33
 msgid "Message"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AMO Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-05-21T16:42:39.181Z\n"
+"POT-Creation-Date: 2014-05-28T16:42:26.982Z\n"
 "PO-Revision-Date: 2013-10-28 21:27+0200\n"
 "Last-Translator: Mihail Chilyashev <m@chilyashev.com>\n"
 "Language-Team: Bulgarian (bg)\n"
@@ -101,54 +101,9 @@ msgstr ""
 msgid "File Description"
 msgstr ""
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Икона на приложението"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Разглеждане на всички теми за {app_name}"
-
-#: /templates/comm/app_dashboard.html:8
-msgid "Back to my threads"
-msgstr "Назад към моите теми"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Мои теми"
-
-#: /templates/comm/main.html:13
-msgid "You have no threads."
-msgstr "Нямате теми."
-
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10
+#: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "Няма намерени бележки"
-
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "Маркирай тази бележка като прочетена"
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr "Празна бележка"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Показване на темите за {app_name}"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Назад към всички теми за {app_name}"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Threads"
-msgstr "Темите за това приложение"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -212,6 +167,51 @@ msgstr ""
 msgid "Mark All Read"
 msgstr "Маркирай всички като прочетени"
 
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Икона на приложението"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Разглеждане на всички теми за {app_name}"
+
+#: /templates/comm/app_dashboard.html:8
+msgid "Back to my threads"
+msgstr "Назад към моите теми"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Мои теми"
+
+#: /templates/comm/main.html:13
+msgid "You have no threads."
+msgstr "Нямате теми."
+
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr "Маркирай тази бележка като прочетена"
+
+#: /templates/comm/note_detail.html:15
+msgid "Empty note"
+msgstr "Празна бележка"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Показване на темите за {app_name}"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Назад към всички теми за {app_name}"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Threads"
+msgstr "Темите за това приложение"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
+
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "О, не!"
@@ -220,6 +220,10 @@ msgstr "О, не!"
 msgid "The page you were looking for was not found."
 msgstr "Страницата, която търсите не бе намерена."
 
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Възникна грешка."
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Грешка при зареждането"
@@ -227,10 +231,6 @@ msgstr "Грешка при зареждането"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Опитай отново"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Възникна грешка."
 
 #: /media/js/settings.js:33
 msgid "Message"

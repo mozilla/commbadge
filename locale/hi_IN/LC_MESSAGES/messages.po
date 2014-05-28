@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-05-21T16:42:39.181Z\n"
+"POT-Creation-Date: 2014-05-28T16:42:26.982Z\n"
 "PO-Revision-Date: 2014-05-14 08:17+0000\n"
 "Last-Translator: Umesh <umesh.agarwal1@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -102,54 +102,9 @@ msgstr "अनुलग्नक"
 msgid "File Description"
 msgstr "फाइल विवरण"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "एप्प्स आइकन"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "{app_name} के लिए सभी थ्रेड देख रहा है"
-
-#: /templates/comm/app_dashboard.html:8
-msgid "Back to my threads"
-msgstr "मेरे थ्रेड्स में वापस"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "मेरे थ्रेड्स"
-
-#: /templates/comm/main.html:13
-msgid "You have no threads."
-msgstr "आपके पास कोई थ्रेड्स नहीं है."
-
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10
+#: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "कोई नोट्स नहीं पाया गया"
-
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "स नोट को पढ़ें हुआ मार्क करें"
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr "खाली नोट"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "{app_name} के लिए थ्रेड देख रहा है"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "{app_name} के लिए सभी थ्रेड वापस"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Threads"
-msgstr "इस एप्लिकेशन के थ्रेड्स"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -213,6 +168,51 @@ msgstr "समीक्षा"
 msgid "Mark All Read"
 msgstr "सभी पढ़े गए रूप में चिह्नित करें"
 
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "एप्प्स आइकन"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "{app_name} के लिए सभी थ्रेड देख रहा है"
+
+#: /templates/comm/app_dashboard.html:8
+msgid "Back to my threads"
+msgstr "मेरे थ्रेड्स में वापस"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "मेरे थ्रेड्स"
+
+#: /templates/comm/main.html:13
+msgid "You have no threads."
+msgstr "आपके पास कोई थ्रेड्स नहीं है."
+
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr "स नोट को पढ़ें हुआ मार्क करें"
+
+#: /templates/comm/note_detail.html:15
+msgid "Empty note"
+msgstr "खाली नोट"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "{app_name} के लिए थ्रेड देख रहा है"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "{app_name} के लिए सभी थ्रेड वापस"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Threads"
+msgstr "इस एप्लिकेशन के थ्रेड्स"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
+
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "अरे नहीं!"
@@ -221,6 +221,10 @@ msgstr "अरे नहीं!"
 msgid "The page you were looking for was not found."
 msgstr "आप जो पृष्ठ देख रहे थे वह नहीं मिला था."
 
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "एक त्रुटि उत्पन्न हुई."
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "अधिक लोड करने में त्रुटि"
@@ -228,10 +232,6 @@ msgstr "अधिक लोड करने में त्रुटि"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "पुन: प्रयास करें"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "एक त्रुटि उत्पन्न हुई."
 
 #: /media/js/settings.js:33
 msgid "Message"

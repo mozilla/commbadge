@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-05-21T16:42:39.181Z\n"
+"POT-Creation-Date: 2014-05-28T16:42:26.982Z\n"
 "PO-Revision-Date: 2014-05-21 21:10+0000\n"
 "Last-Translator: Aleksandra <auzelac91@gmail.com>\n"
 "Language-Team: none\n"
@@ -10,8 +10,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1400706601.0\n"
 
@@ -103,54 +102,9 @@ msgstr "Прилог"
 msgid "File Description"
 msgstr "Опис датотеке"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Иконица апликације"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Преглед свих тема за {app_name}"
-
-#: /templates/comm/app_dashboard.html:8
-msgid "Back to my threads"
-msgstr "Повратак на моје теме"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Моје теме"
-
-#: /templates/comm/main.html:13
-msgid "You have no threads."
-msgstr "Немате теме."
-
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10
+#: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "Нема пронађених белешки"
-
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "Означите ову белешку као прочитану"
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr "Празна белешка"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Гледате тему за {app_name}"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Повратак на све теме за {app_name}"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Threads"
-msgstr "Теме ове апликације"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -215,6 +169,51 @@ msgstr "Оцени"
 msgid "Mark All Read"
 msgstr "Означи све прочитане"
 
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Иконица апликације"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Преглед свих тема за {app_name}"
+
+#: /templates/comm/app_dashboard.html:8
+msgid "Back to my threads"
+msgstr "Повратак на моје теме"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Моје теме"
+
+#: /templates/comm/main.html:13
+msgid "You have no threads."
+msgstr "Немате теме."
+
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr "Означите ову белешку као прочитану"
+
+#: /templates/comm/note_detail.html:15
+msgid "Empty note"
+msgstr "Празна белешка"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Гледате тему за {app_name}"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Повратак на све теме за {app_name}"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Threads"
+msgstr "Теме ове апликације"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
+
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "Ох не!"
@@ -223,6 +222,10 @@ msgstr "Ох не!"
 msgid "The page you were looking for was not found."
 msgstr "Страница коју сте тражили није пронађена."
 
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Дошло је до грешке."
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Грешка при учитавању"
@@ -230,10 +233,6 @@ msgstr "Грешка при учитавању"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Покушај поново"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Дошло је до грешке."
 
 #: /media/js/settings.js:33
 msgid "Message"

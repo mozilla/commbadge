@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-05-21T16:42:39.181Z\n"
+"POT-Creation-Date: 2014-05-28T16:42:26.982Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -99,53 +99,8 @@ msgstr ""
 msgid "File Description"
 msgstr ""
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr ""
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr ""
-
-#: /templates/comm/app_dashboard.html:8
-msgid "Back to my threads"
-msgstr ""
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr ""
-
-#: /templates/comm/main.html:13
-msgid "You have no threads."
-msgstr ""
-
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10
+#: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
 msgid "No notes found"
-msgstr ""
-
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr ""
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr ""
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr ""
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr ""
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Threads"
-msgstr ""
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
 msgstr ""
 
 #: /templates/_macros/reply_box.html:2
@@ -210,6 +165,51 @@ msgstr ""
 msgid "Mark All Read"
 msgstr ""
 
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr ""
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr ""
+
+#: /templates/comm/app_dashboard.html:8
+msgid "Back to my threads"
+msgstr ""
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr ""
+
+#: /templates/comm/main.html:13
+msgid "You have no threads."
+msgstr ""
+
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr ""
+
+#: /templates/comm/note_detail.html:15
+msgid "Empty note"
+msgstr ""
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr ""
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr ""
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Threads"
+msgstr ""
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr ""
+
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr ""
@@ -218,16 +218,16 @@ msgstr ""
 msgid "The page you were looking for was not found."
 msgstr ""
 
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr ""
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr ""
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
-msgstr ""
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
 msgstr ""
 
 #: /media/js/settings.js:33

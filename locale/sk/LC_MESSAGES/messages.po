@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-05-21T16:42:39.181Z\n"
+"POT-Creation-Date: 2014-05-28T16:42:26.982Z\n"
 "PO-Revision-Date: 2014-05-24 21:25+0000\n"
 "Last-Translator: Vlado <valastiak@mozilla.sk>\n"
 "Language-Team: Mozilla.sk <l10n@mozilla.sk>\n"
@@ -102,54 +102,9 @@ msgstr "Príloha"
 msgid "File Description"
 msgstr "Popis súboru"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Ikona aplikácie"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Zobrazujú sa všetky vlákna pre {app_name}"
-
-#: /templates/comm/app_dashboard.html:8
-msgid "Back to my threads"
-msgstr "Naspäť na moje vlákna"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Moje vlákna"
-
-#: /templates/comm/main.html:13
-msgid "You have no threads."
-msgstr "Žiadne dostupné vlákna."
-
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10
+#: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "Neboli nájdené žiadne poznámky"
-
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "Označiť túto poznámku ako prečítanú"
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr "Prázdna poznámka"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Zobrazuje sa vlákno pre {app_name}"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Naspäť na všetky vlákna pre {app_name}"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Threads"
-msgstr "Vlákna tejto aplikácie"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -214,6 +169,51 @@ msgstr "Kontrola"
 msgid "Mark All Read"
 msgstr "Označiť všetky ako prečítané"
 
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Ikona aplikácie"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Zobrazujú sa všetky vlákna pre {app_name}"
+
+#: /templates/comm/app_dashboard.html:8
+msgid "Back to my threads"
+msgstr "Naspäť na moje vlákna"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Moje vlákna"
+
+#: /templates/comm/main.html:13
+msgid "You have no threads."
+msgstr "Žiadne dostupné vlákna."
+
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr "Označiť túto poznámku ako prečítanú"
+
+#: /templates/comm/note_detail.html:15
+msgid "Empty note"
+msgstr "Prázdna poznámka"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Zobrazuje sa vlákno pre {app_name}"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Naspäť na všetky vlákna pre {app_name}"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Threads"
+msgstr "Vlákna tejto aplikácie"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
+
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "Ale nie!"
@@ -222,6 +222,10 @@ msgstr "Ale nie!"
 msgid "The page you were looking for was not found."
 msgstr "Hľadaná stránka nebola nájdená."
 
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Vyskytla sa chyba."
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Chyba pri načítavaní ďalších položiek"
@@ -229,10 +233,6 @@ msgstr "Chyba pri načítavaní ďalších položiek"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Skúsiť znova"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Vyskytla sa chyba."
 
 #: /media/js/settings.js:33
 msgid "Message"
