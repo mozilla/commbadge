@@ -4,15 +4,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-28T16:42:26.982Z\n"
-"PO-Revision-Date: 2013-06-20 00:37+0200\n"
-"Last-Translator: Maddi Agiriano <mae20@hotmail.com>\n"
+"PO-Revision-Date: 2014-06-04 22:21+0000\n"
+"Last-Translator: Ibai <ibai@oihanguren.com>\n"
 "Language-Team: 89578-OEM-7332157-00211\n"
-"Language: en\n"
+"Language: eu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Virtaal 0.7.1\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1401920466.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -20,11 +21,11 @@ msgstr "Itxi"
 
 #: /templates/confirmation.html:3
 msgid "No"
-msgstr ""
+msgstr "Ez"
 
 #: /templates/confirmation.html:4
 msgid "Yes"
-msgstr ""
+msgstr "Bai"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -48,7 +49,7 @@ msgstr "Berrikuspen-tresnak"
 
 #: /templates/footer.html:16
 msgid "Lookup Tool"
-msgstr ""
+msgstr "Bilaketa-tresna"
 
 #: /templates/footer.html:24
 msgid ""
@@ -72,7 +73,7 @@ msgstr "Eman markaren erabilera okerraren berri"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
-msgstr ""
+msgstr "Komunikazio-panela"
 
 #: /templates/header.html:7
 msgid "Sign Out"
@@ -84,11 +85,11 @@ msgstr "Hasi saioa"
 
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
-msgstr ""
+msgstr "Hasi saioa"
 
 #: /templates/login.html:3
 msgid "You must sign in to proceed."
-msgstr ""
+msgstr "Saioa hasi behar duzu jarraitu ahal izateko."
 
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
@@ -96,122 +97,122 @@ msgstr "Hasi saioa / Eman izena"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
-msgstr ""
+msgstr "Eranskina"
 
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
-msgstr ""
+msgstr "Fitxategiaren deskribapena"
 
 #: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
 msgid "No notes found"
-msgstr ""
+msgstr "Ez da oharrik aurkitu"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
-msgstr ""
+msgstr "Idatzi oharraren testua hemen"
 
 #: /templates/_macros/reply_box.html:6
 msgid "Attach screenshots and log files:"
-msgstr ""
+msgstr "Erantsi pantaila-argazkiak eta egunkari-fitxategiak:"
 
 #: /templates/_macros/reply_box.html:8
 msgid "Attach another file"
-msgstr ""
+msgstr "Erantsi beste fitxategi bat"
 
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
-msgstr ""
+msgstr "Bidali"
 
 #: /templates/_macros/thread.html:14
 msgid "View older"
-msgstr ""
+msgstr "Ikusi zaharragoak"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
-msgstr ""
+msgstr "{app_name} ({version_number} bertsioa)"
 
 #: /templates/_macros/thread_header.html:21
 msgid "(Obsolete)"
-msgstr ""
+msgstr "(zaharkitua)"
 
 #: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:42
 msgid "{n} note"
 msgid_plural "{n} notes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Ohar {n}"
+msgstr[1] "{n} ohar"
 
 #: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:52 /media/js/views/comm.js:134
 msgid "Reply"
-msgstr ""
+msgstr "Erantzun"
 
 #: /templates/_macros/thread_header.html:41
 msgid "Recent"
-msgstr ""
+msgstr "Azkenak"
 
 #: /templates/_macros/thread_header.html:43
 msgid "Unread"
-msgstr ""
+msgstr "Irakurri gabeak"
 
 #: /templates/_macros/thread_header.html:44
 msgid "Read"
-msgstr ""
+msgstr "Irakurritakoak"
 
 #: /templates/_macros/thread_header.html:48
 msgid "Unsubscribe"
-msgstr ""
+msgstr "Eten harpidetza"
 
 #: /templates/_macros/thread_header.html:51
 msgid "Review"
-msgstr ""
+msgstr "Berrikusi"
 
 #: /templates/_macros/thread_header.html:54
 msgid "Mark All Read"
-msgstr ""
+msgstr "Markatu denak irakurrita gisa"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
-msgstr ""
+msgstr "Aplikazioaren ikonoa"
 
 #: /templates/comm/app_dashboard.html:7
 msgid "Viewing All Threads for {app_name}"
-msgstr ""
+msgstr "{app_name}(r)entzako hari guztiak ikusgai"
 
 #: /templates/comm/app_dashboard.html:8
 msgid "Back to my threads"
-msgstr ""
+msgstr "Itzuli nire harietara"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
-msgstr ""
+msgstr "Nire hariak"
 
 #: /templates/comm/main.html:13
 msgid "You have no threads."
-msgstr ""
+msgstr "Ez duzu haririk."
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
-msgstr ""
+msgstr "Markatu ohar hau irakurrita gisa"
 
 #: /templates/comm/note_detail.html:15
 msgid "Empty note"
-msgstr ""
+msgstr "Ohar hutsa"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
-msgstr ""
+msgstr "{app_name}(r)entzako haria ikusten"
 
 #: /templates/comm/show_thread.html:10
 msgid "Back to all threads for {app_name}"
-msgstr ""
+msgstr "Itzuli {app_name}(r)en hari guztietara"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Threads"
-msgstr ""
+msgstr "Aplikazio honen hariak"
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
-msgstr ""
+msgstr "v.{version_number}"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -227,31 +228,31 @@ msgstr "Errore bat gertatu da."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
-msgstr ""
+msgstr "Errorea gehiago kargatzean"
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
-msgstr ""
+msgstr "Saiatu berriro"
 
 #: /media/js/settings.js:33
 msgid "Message"
-msgstr ""
+msgstr "Mezua"
 
 #: /media/js/settings.js:34
 msgid "App approved"
-msgstr ""
+msgstr "Aplikazioa onartuta"
 
 #: /media/js/settings.js:35
 msgid "App rejected"
-msgstr ""
+msgstr "Aplikazioa baztertuta"
 
 #: /media/js/settings.js:36
 msgid "App disabled"
-msgstr ""
+msgstr "Aplikazioa desgaituta"
 
 #: /media/js/settings.js:37
 msgid "More info required"
-msgstr ""
+msgstr "Informazio gehiago behar da"
 
 #: /media/js/settings.js:38
 msgid "Review escalated to senior reviewer"
@@ -259,7 +260,7 @@ msgstr ""
 
 #: /media/js/settings.js:39
 msgid "Reviewer comment"
-msgstr ""
+msgstr "Berrikuslearen iruzkina"
 
 #: /media/js/settings.js:40
 msgid "App resubmission"
@@ -267,23 +268,23 @@ msgstr ""
 
 #: /media/js/settings.js:42
 msgid "Approved but waiting to be made public"
-msgstr ""
+msgstr "Onartuta, baina publikatzeko zain"
 
 #: /media/js/settings.js:43
 msgid "Escalation cleared"
-msgstr ""
+msgstr "Igorpena ezabatuta"
 
 #: /media/js/settings.js:44
 msgid "Escalated due to High Abuse Reports"
-msgstr ""
+msgstr "Abusu-salaketa ugarien ondorioz igorria"
 
 #: /media/js/settings.js:45
 msgid "Escalated due to High Refund Requests"
-msgstr ""
+msgstr "Dirua itzultzeko eskaera ugarien ondorioz igorria"
 
 #: /media/js/settings.js:46
 msgid "Re-review cleared"
-msgstr ""
+msgstr "Ber-berrikuspena ezabatua"
 
 #: /media/js/commonplace/login.js:8
 msgid "You have been signed out"
@@ -295,7 +296,7 @@ msgstr "Saioa hasi duzu"
 
 #: /media/js/commonplace/login.js:50
 msgid "Error signing out"
-msgstr ""
+msgstr "Errorea saioa amaitzean"
 
 #: /media/js/commonplace/login.js:137
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
@@ -307,7 +308,7 @@ msgstr "Huts egin du saioa hastean. Zerbitzariaren errore bat gertatu da."
 
 #: /media/js/commonplace/login.js:210
 msgid "Persona cannot be reached. Try again later."
-msgstr ""
+msgstr "Persona ezin izan da eskuratu. Saiatu berriro geroago."
 
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
@@ -322,39 +323,43 @@ msgstr[1] "<b>{n}</b> karaktere falta dira."
 
 #: /media/js/views/comm.js:59
 msgid "Message sent."
-msgstr ""
+msgstr "Mezua bidalita."
 
 #: /media/js/views/comm.js:64
 msgid "Message sending failed."
-msgstr ""
+msgstr "Huts egin du mezua bidaltzean."
 
 #: /media/js/views/comm.js:124
 msgid "Cancel reply"
-msgstr ""
+msgstr "Baztertu erantzuna"
 
 #: /media/js/views/comm.js:207
 msgid "There are no more older notes."
-msgstr ""
+msgstr "Ez dago ohar zaharragorik."
 
 #: /media/js/views/comm.js:255
 msgid "There was some problem marking the note as read. Try again."
 msgstr ""
+"Arazoren bat gertatu da oharra irakurrita gisa markatzean. Saiatu berriro."
 
 #: /media/js/views/comm.js:268
 msgid "No notes to show."
-msgstr ""
+msgstr "Ez dago erakusteko oharrik."
 
 #: /media/js/views/comm.js:275
 msgid "There was some problem marking the thread as read. Try again."
 msgstr ""
+"Arazoren bat gertatu da haria irakurrita gisa markatzean. Saiatu berriro."
 
 #: /media/js/views/comm.js:285
 msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
 msgstr ""
+"Harpidetza behar bezala etenda. Ez duzu hari honen jakinarazpen-mezu "
+"gehiagorik jasoko."
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"
-msgstr ""
+msgstr "Kaixo mundua!"
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9
