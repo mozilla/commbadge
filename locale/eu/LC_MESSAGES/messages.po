@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-28T16:42:26.982Z\n"
-"PO-Revision-Date: 2014-06-04 22:21+0000\n"
+"PO-Revision-Date: 2014-06-09 20:34+0000\n"
 "Last-Translator: Ibai <ibai@oihanguren.com>\n"
 "Language-Team: 89578-OEM-7332157-00211\n"
 "Language: eu\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1401920466.0\n"
+"X-POOTLE-MTIME: 1402346079.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -256,7 +256,7 @@ msgstr "Informazio gehiago behar da"
 
 #: /media/js/settings.js:38
 msgid "Review escalated to senior reviewer"
-msgstr ""
+msgstr "Berrikuspena senior berrikusleagana goratuta"
 
 #: /media/js/settings.js:39
 msgid "Reviewer comment"
@@ -264,11 +264,11 @@ msgstr "Berrikuslearen iruzkina"
 
 #: /media/js/settings.js:40
 msgid "App resubmission"
-msgstr ""
+msgstr "Berbidali aplikazioa"
 
 #: /media/js/settings.js:42
 msgid "Approved but waiting to be made public"
-msgstr "Onartuta, baina publikatzeko zain"
+msgstr "Berbidali aplikazioa"
 
 #: /media/js/settings.js:43
 msgid "Escalation cleared"
@@ -276,11 +276,11 @@ msgstr "Igorpena ezabatuta"
 
 #: /media/js/settings.js:44
 msgid "Escalated due to High Abuse Reports"
-msgstr "Abusu-salaketa ugarien ondorioz igorria"
+msgstr "Abusu-salaketa ugarien ondorioz gora igorrita"
 
 #: /media/js/settings.js:45
 msgid "Escalated due to High Refund Requests"
-msgstr "Dirua itzultzeko eskaera ugarien ondorioz igorria"
+msgstr "Dirua itzultzeko eskaera ugarien ondorioz gora igorrita"
 
 #: /media/js/settings.js:46
 msgid "Re-review cleared"
