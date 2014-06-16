@@ -1,359 +1,375 @@
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: CommBadge\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-28T16:42:26.982Z\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2014-06-16 02:02+0100\n"
+"Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
+"Language-Team: pt_PT\n"
+"Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);Content-Type: text/plain; charset=UTF-8\n"
-"X-Generator: Fireplace L10n Tools 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.4\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
-msgstr ""
+msgstr "Fechar"
 
 #: /templates/confirmation.html:3
 msgid "No"
-msgstr ""
+msgstr "Não"
 
 #: /templates/confirmation.html:4
 msgid "Yes"
-msgstr ""
+msgstr "Sim"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
-msgstr ""
+msgstr "Desenvolver aplicações"
 
 #: /templates/footer.html:5
 msgid "Developer Hub"
-msgstr ""
+msgstr "Central do programador"
 
 #: /templates/footer.html:6
 msgid "Support"
-msgstr ""
+msgstr "Suporte"
 
 #: /templates/footer.html:10
 msgid "My Submissions"
-msgstr ""
+msgstr "As minhas submissões"
 
 #: /templates/footer.html:13
 msgid "Reviewer Tools"
-msgstr ""
+msgstr "Ferramentas de revisão"
 
 #: /templates/footer.html:16
 msgid "Lookup Tool"
-msgstr ""
+msgstr "Ferramenta de pesquisa"
 
 #: /templates/footer.html:24
 msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, "
+"content on this site is licensed under the <a href=\"{cc_url}\" target="
+"\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> or any "
+"later version."
 msgstr ""
+"Exceto onde <a href=\"{legal_url}\" target=\"_blank\">especificado</a>, o "
+"conteúdo deste site é licenciado sob a <a href=\"{cc_url}\" target=\"_blank"
+"\">Licença Creative Commons Atribuição-CompartilhaIgual v3.0</a> ou qualquer "
+"versão mais recente. "
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Política de privacidade"
 
 #: /templates/footer.html:30
 msgid "Terms of Use"
-msgstr ""
+msgstr "Termos de utilização"
 
 #: /templates/footer.html:32
 msgid "Report Trademark Abuse"
-msgstr ""
+msgstr "Denunciar abuso de marca registada"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
-msgstr ""
+msgstr "Painel de comunicação"
 
 #: /templates/header.html:7
 msgid "Sign Out"
-msgstr ""
+msgstr "Terminar sessão"
 
 #: /templates/header.html:8
 msgid "Sign In"
-msgstr ""
+msgstr "Iniciar sessão"
 
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
-msgstr ""
+msgstr "Iniciar sessão"
 
 #: /templates/login.html:3
 msgid "You must sign in to proceed."
-msgstr ""
+msgstr "Deve iniciar sessão para continuar."
 
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
-msgstr ""
+msgstr "Iniciar sessão / Criar conta"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
-msgstr ""
+msgstr "Anexo"
 
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
-msgstr ""
+msgstr "Descrição do ficheiro"
 
 #: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
 msgid "No notes found"
-msgstr ""
+msgstr "Não foram encontradas notas"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
-msgstr ""
+msgstr "Introduza o texto da nota aqui"
 
 #: /templates/_macros/reply_box.html:6
 msgid "Attach screenshots and log files:"
-msgstr ""
+msgstr "Anexe capturas de ecrã e ficheiros de registo:"
 
 #: /templates/_macros/reply_box.html:8
 msgid "Attach another file"
-msgstr ""
+msgstr "Anexar outro ficheiro"
 
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
-msgstr ""
+msgstr "Artigo"
 
 #: /templates/_macros/thread.html:14
 msgid "View older"
-msgstr ""
+msgstr "Ver mais antigas"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
-msgstr ""
+msgstr "{app_name} (Versão {version_number})"
 
 #: /templates/_macros/thread_header.html:21
 msgid "(Obsolete)"
-msgstr ""
+msgstr "(Obsoleto)"
 
 #: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:42
 msgid "{n} note"
 msgid_plural "{n} notes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{n} nota"
+msgstr[1] "{n} notas"
 
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:52 /media/js/views/comm.js:134
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:52
+#: /media/js/views/comm.js:134
 msgid "Reply"
-msgstr ""
+msgstr "Responder"
 
 #: /templates/_macros/thread_header.html:41
 msgid "Recent"
-msgstr ""
+msgstr "Recente"
 
 #: /templates/_macros/thread_header.html:43
 msgid "Unread"
-msgstr ""
+msgstr "Não lido"
 
 #: /templates/_macros/thread_header.html:44
 msgid "Read"
-msgstr ""
+msgstr "Ler"
 
 #: /templates/_macros/thread_header.html:48
 msgid "Unsubscribe"
-msgstr ""
+msgstr "Anular subscrição"
 
 #: /templates/_macros/thread_header.html:51
 msgid "Review"
-msgstr ""
+msgstr "Análise"
 
 #: /templates/_macros/thread_header.html:54
 msgid "Mark All Read"
-msgstr ""
+msgstr "Marcar todas como lidas"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
-msgstr ""
+msgstr "Ícone da aplicação"
 
 #: /templates/comm/app_dashboard.html:7
 msgid "Viewing All Threads for {app_name}"
-msgstr ""
+msgstr "Ver todos os tópicos para {app_name}"
 
 #: /templates/comm/app_dashboard.html:8
 msgid "Back to my threads"
-msgstr ""
+msgstr "Voltar aos meus tópicos"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
-msgstr ""
+msgstr "Os meus tópicos"
 
 #: /templates/comm/main.html:13
 msgid "You have no threads."
-msgstr ""
+msgstr "Não tem tópicos."
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
-msgstr ""
+msgstr "Marcar esta nota como lida"
 
 #: /templates/comm/note_detail.html:15
 msgid "Empty note"
-msgstr ""
+msgstr "Nota vazia"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
-msgstr ""
+msgstr "A ver o tópico para {app_name}"
 
 #: /templates/comm/show_thread.html:10
 msgid "Back to all threads for {app_name}"
-msgstr ""
+msgstr "Voltar a todos os tópicos para {app_name}"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Threads"
-msgstr ""
+msgstr "Tópicos desta aplicação"
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
-msgstr ""
+msgstr "v.{version_number}"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
-msgstr ""
+msgstr "Oh não!"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
-msgstr ""
+msgstr "A página que procurava não foi encontrada."
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
-msgstr ""
+msgstr "Ocorreu um erro."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
-msgstr ""
+msgstr "Erro ao carregar mais"
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
-msgstr ""
+msgstr "Tentar novamente"
 
 #: /media/js/settings.js:33
 msgid "Message"
-msgstr ""
+msgstr "Mensagem"
 
 #: /media/js/settings.js:34
 msgid "App approved"
-msgstr ""
+msgstr "Aplicação aprovada"
 
 #: /media/js/settings.js:35
 msgid "App rejected"
-msgstr ""
+msgstr "Aplicação rejeitada"
 
 #: /media/js/settings.js:36
 msgid "App disabled"
-msgstr ""
+msgstr "Aplicação desativada"
 
 #: /media/js/settings.js:37
 msgid "More info required"
-msgstr ""
+msgstr "São necessárias mais informações"
 
 #: /media/js/settings.js:38
 msgid "Review escalated to senior reviewer"
-msgstr ""
+msgstr "A análise foi escalada para um revisor sénior"
 
 #: /media/js/settings.js:39
 msgid "Reviewer comment"
-msgstr ""
+msgstr "Comentário do revisor"
 
 #: /media/js/settings.js:40
 msgid "App resubmission"
-msgstr ""
+msgstr "Reenvio da aplicação"
 
 #: /media/js/settings.js:42
 msgid "Approved but waiting to be made public"
-msgstr ""
+msgstr "Aprovado mas à espera de ser tornado público"
 
 #: /media/js/settings.js:43
 msgid "Escalation cleared"
-msgstr ""
+msgstr "Encaminhado para análise superior removido"
 
 #: /media/js/settings.js:44
 msgid "Escalated due to High Abuse Reports"
-msgstr ""
+msgstr "Escalado devido ao número elevado de denúncias de abuso"
 
 #: /media/js/settings.js:45
 msgid "Escalated due to High Refund Requests"
-msgstr ""
+msgstr "Escalado devido ao número elevado de pedidos de devolução"
 
 #: /media/js/settings.js:46
 msgid "Re-review cleared"
-msgstr ""
+msgstr "Reanálise removida"
 
 #: /media/js/commonplace/login.js:8
 msgid "You have been signed out"
-msgstr ""
+msgstr "A sua sessão foi terminada"
 
 #: /media/js/commonplace/login.js:12
 msgid "You have been signed in"
-msgstr ""
+msgstr "A sua sessão foi iniciada"
 
 #: /media/js/commonplace/login.js:50
 msgid "Error signing out"
-msgstr ""
+msgstr "Erro ao terminar a sessão"
 
 #: /media/js/commonplace/login.js:137
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgid ""
+"Persona login failed. Maybe you don't have an account under that email "
+"address?"
 msgstr ""
+"A autenticação com o Persona falhou. Talvez não tenha uma conta com esse "
+"endereço de email?"
 
 #: /media/js/commonplace/login.js:142
 msgid "Persona login failed. A server error was encountered."
-msgstr ""
+msgstr "A autenticação com o Persona falhou. Ocorreu um erro de servidor."
 
 #: /media/js/commonplace/login.js:210
 msgid "Persona cannot be reached. Try again later."
 msgstr ""
+"Não é possível estabelecer ligação com o Persona. Tente novamente mais tarde."
 
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
-msgstr ""
+msgstr "Sem ligação à Internet"
 
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "<b>{n}</b> caráter restante."
+msgstr[1] "<b>{n}</b> caráteres restantes."
 
 #: /media/js/views/comm.js:59
 msgid "Message sent."
-msgstr ""
+msgstr "Mensagem enviada."
 
 #: /media/js/views/comm.js:64
 msgid "Message sending failed."
-msgstr ""
+msgstr "O envio da mensagem falhou."
 
 #: /media/js/views/comm.js:124
 msgid "Cancel reply"
-msgstr ""
+msgstr "Cancelar resposta"
 
 #: /media/js/views/comm.js:207
 msgid "There are no more older notes."
-msgstr ""
+msgstr "Não existem notas mais antigas."
 
 #: /media/js/views/comm.js:255
 msgid "There was some problem marking the note as read. Try again."
-msgstr ""
+msgstr "Ocorreu um problema ao marcar a nota como lida. Tente novamente."
 
 #: /media/js/views/comm.js:268
 msgid "No notes to show."
-msgstr ""
+msgstr "Sem notas a apresentar."
 
 #: /media/js/views/comm.js:275
 msgid "There was some problem marking the thread as read. Try again."
-msgstr ""
+msgstr "Ocorreu um problema ao marcar o tópico como lido. Tente novamente."
 
 #: /media/js/views/comm.js:285
-msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
+msgid ""
+"Successfully unsubsribed. You will no longer receive email notifications for "
+"that thread."
 msgstr ""
+"A subscrição foi anulada com sucesso. Não irá receber mais notificações por "
+"correio eletrónico para esse tópico."
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"
-msgstr ""
+msgstr "Olá mundo!"
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9
 msgid "Not Found"
-msgstr ""
+msgstr "Não encontrado"
