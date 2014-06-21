@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-28T16:42:26.982Z\n"
-"PO-Revision-Date: 2014-04-13 11:13+0000\n"
-"Last-Translator: Inma <inma.barrios@mozilla-hispano.org>\n"
+"PO-Revision-Date: 2014-06-21 20:29+0000\n"
+"Last-Translator: Angela <angelavelop@gmail.com>\n"
 "Language-Team: Español (España) <nave@elistas.net>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1397387638.0\n"
+"X-POOTLE-MTIME: 1403382576.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -36,7 +36,7 @@ msgstr "Centro de Desarrolladores"
 
 #: /templates/footer.html:6
 msgid "Support"
-msgstr "Ayuda"
+msgstr "Asistencia"
 
 #: /templates/footer.html:10
 msgid "My Submissions"
@@ -158,7 +158,7 @@ msgstr "Leídas"
 
 #: /templates/_macros/thread_header.html:48
 msgid "Unsubscribe"
-msgstr "Cancelar suscripción"
+msgstr "Cancelar la suscripción"
 
 #: /templates/_macros/thread_header.html:51
 msgid "Review"
@@ -307,7 +307,7 @@ msgstr "Error en la identificación con Mozilla Persona. Se encontró un error d
 
 #: /media/js/commonplace/login.js:210
 msgid "Persona cannot be reached. Try again later."
-msgstr "No es posible conectarse con Mozilla Persona. Prueba más tarde."
+msgstr "No se puede acceder a Persona. Inténtalo de nuevo más tarde."
 
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
@@ -359,4 +359,4 @@ msgstr "¡Hola, mundo!"
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9
 msgid "Not Found"
-msgstr "No encontrada"
+msgstr "No pudo encontrarse"
