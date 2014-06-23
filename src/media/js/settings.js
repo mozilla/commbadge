@@ -29,6 +29,10 @@ define('settings', ['l10n', 'settings_local', 'underscore'], function(l10n, sett
 
         title_suffix: 'Marketplace Communication Dashboard',
 
+        NOTE_TYPE_NO_ACTION: 0,
+        NOTE_TYPE_REVIEWER_COMMENT: 6,
+        NOTE_TYPE_DEVELOPER_COMMENT: 14,
+
         note_types: [
             {'name': 'NO_ACTION', 'class': 'post', 'msg': gettext('Message')},
             {'name': 'APPROVAL', 'class': 'approve','msg': gettext('App approved')},
@@ -44,6 +48,8 @@ define('settings', ['l10n', 'settings_local', 'underscore'], function(l10n, sett
             {'name': 'ESCALATION_HIGH_ABUSE', 'class': 'escalate-abuse', 'msg': gettext('Escalated due to High Abuse Reports')},
             {'name': 'ESCALATION_HIGH_REFUNDS', 'class': 'escalate-high-refunds', 'msg': gettext('Escalated due to High Refund Requests')},
             {'name': 'REREVIEW_CLEARED', 'class': 'rereview-clear', 'msg': gettext('Re-review cleared')},
+            {'name': 'SUBMISSION', 'class': 'submission', 'msg': gettext('App submission note')},
+            {'name': 'DEVELOPER_COMMENT', 'class': 'developer-comment', 'msg': gettext('Developer comment')},
         ],
     });
 });

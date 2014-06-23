@@ -1,6 +1,6 @@
 define('views/comm',
-    ['cache', 'jquery', 'jquery.fakefilefield', 'l10n', 'notification', 'nunjucks', 'requests', 'storage', 'underscore', 'urls', 'utils', 'z'],
-    function(cache, $, fakefilefield, l10n, notification, nunjucks, requests, storage, _, urls, utils, z) {
+    ['cache', 'jquery', 'jquery.fakefilefield', 'l10n', 'notification', 'nunjucks', 'requests', 'settings', 'storage', 'underscore', 'urls', 'user', 'utils', 'z'],
+    function(cache, $, fakefilefield, l10n, notification, nunjucks, requests, settings, storage, _, urls, user, utils, z) {
     'use strict';
 
     var gettext = l10n.gettext;
@@ -15,8 +15,16 @@ define('views/comm',
         var $threadItem = $text_elem.closest('.thread-item');
         var threadId = $threadItem.data('thread-id');
 
+        // Deduce the correct note type.
+        var note_type = settings.NOTE_TYPE_NO_ACTION;
+        if (user.get_apps().developed.indexOf($threadItem.data('app-id')) !== -1) {
+            note_type = settings.NOTE_TYPE_DEVELOPER_COMMENT;
+        } else if (user.get_permission('reviewer')) {
+            note_type = settings.NOTE_TYPE_REVIEWER_COMMENT;
+        }
+
         var data = {
-            note_type: 0,
+            note_type: note_type,
             body: $text_elem.val()
         };
         if (isCreateThread) {

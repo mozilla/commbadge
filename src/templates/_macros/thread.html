@@ -2,7 +2,8 @@
 
 {% macro thread(_thread) %}
   <div class="thread-item"
-       data-notes-page="1" data-notes-filter="recent" data-thread-id="{{ _thread.id }}">
+       data-notes-page="1" data-notes-filter="recent" data-thread-id="{{ _thread.id }}"
+       data-app-id="{{ _thread.addon_meta.id }}">
     {{ thread_header(_thread.addon_meta, _thread.addon_meta.thumbnail_url,
                      _thread.version_number, _thread, user) }}
     <section class="notes-outer-container">
