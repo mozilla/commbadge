@@ -2,7 +2,8 @@
 
 {% macro thread(_thread) %}
   <div class="thread-item"
-       data-notes-page="1" data-notes-filter="recent" data-thread-id="{{ _thread.id }}">
+       data-notes-page="1" data-notes-filter="recent" data-thread-id="{{ _thread.id }}"
+       data-app-id="{{ _thread.addon_meta.id }}">
     {{ thread_header(_thread.addon_meta, _thread.addon_meta.thumbnail_url,
                      _thread.version_number, _thread, user) }}
     <section class="notes-outer-container">
@@ -10,6 +11,11 @@
         {% for note in _thread.recent_notes %}
           {% include 'comm/note_detail.html' %}
         {% endfor %}
+        {% if not _thread.notes_count %}
+          <div class="empty">
+            {{ _('No notes found') }}
+          </div>
+        {% endif %}
       </div>
       {% if _thread.notes_count > _thread.recent_notes.length %}
         <button class="button alt view-older-notes">{{ _('View older') }}</button>
