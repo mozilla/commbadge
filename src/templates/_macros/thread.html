@@ -11,6 +11,11 @@
         {% for note in _thread.recent_notes %}
           {% include 'comm/note_detail.html' %}
         {% endfor %}
+        {% if not _thread.notes_count %}
+          <div class="empty">
+            {{ _('No notes found') }}
+          </div>
+        {% endif %}
       </div>
       {% if _thread.notes_count > _thread.recent_notes.length %}
         <button class="button alt view-older-notes">{{ _('View older') }}</button>
