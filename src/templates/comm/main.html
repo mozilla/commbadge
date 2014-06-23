@@ -12,6 +12,8 @@
       <div class="spinner alt"></div>
     {% empty %}
       <p>{{ _('You have no threads.') }}</p>
+    {% except %}
+      <p>{{ _('Hmm...an error?') }}</p>
     {% end %}
   </div>
 

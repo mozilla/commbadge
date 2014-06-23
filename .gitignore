@@ -5,6 +5,7 @@
 *.pyc
 *.styl.css
 *.swp
+*.swo
 *~
 .#*
 .DS_Store
