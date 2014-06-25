@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-28T16:42:26.982Z\n"
-"PO-Revision-Date: 2014-06-09 20:34+0000\n"
+"PO-Revision-Date: 2014-06-25 21:58+0000\n"
 "Last-Translator: Ibai <ibai@oihanguren.com>\n"
 "Language-Team: 89578-OEM-7332157-00211\n"
 "Language: eu\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1402346079.0\n"
+"X-POOTLE-MTIME: 1403733499.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -318,7 +318,7 @@ msgstr "Ez dago Internet-eko konexiorik"
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
-msgstr[0] "Karaktere bat falta da."
+msgstr[0] "Karaktere <b>{n}</b> falta da."
 msgstr[1] "<b>{n}</b> karaktere falta dira."
 
 #: /media/js/views/comm.js:59
