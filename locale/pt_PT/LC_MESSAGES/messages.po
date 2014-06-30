@@ -2,16 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CommBadge\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-05-28T16:42:26.982Z\n"
+"POT-Creation-Date: 2014-06-30T16:47:28.123Z\n"
 "PO-Revision-Date: 2014-06-16 02:02+0100\n"
 "Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
 "Language-Team: pt_PT\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.5.4\n"
-"Content-Type: text/plain; charset=UTF-8\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -24,6 +24,18 @@ msgstr "Não"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Sim"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Painel de comunicação"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Terminar sessão"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Iniciar sessão"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -51,15 +63,11 @@ msgstr "Ferramenta de pesquisa"
 
 #: /templates/footer.html:24
 msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, "
-"content on this site is licensed under the <a href=\"{cc_url}\" target="
-"\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> or any "
-"later version."
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
 msgstr ""
-"Exceto onde <a href=\"{legal_url}\" target=\"_blank\">especificado</a>, o "
-"conteúdo deste site é licenciado sob a <a href=\"{cc_url}\" target=\"_blank"
-"\">Licença Creative Commons Atribuição-CompartilhaIgual v3.0</a> ou qualquer "
-"versão mais recente. "
+"Exceto onde <a href=\"{legal_url}\" target=\"_blank\">especificado</a>, o conteúdo deste site é licenciado sob a <a href=\"{cc_url}\" target=\"_blank\">Licença Creative Commons Atribuição-"
+"CompartilhaIgual v3.0</a> ou qualquer versão mais recente. "
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
@@ -73,17 +81,13 @@ msgstr "Termos de utilização"
 msgid "Report Trademark Abuse"
 msgstr "Denunciar abuso de marca registada"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Painel de comunicação"
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Anexo"
 
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Terminar sessão"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Iniciar sessão"
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Descrição do ficheiro"
 
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
@@ -97,15 +101,7 @@ msgstr "Deve iniciar sessão para continuar."
 msgid "Sign in / Sign up"
 msgstr "Iniciar sessão / Criar conta"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Anexo"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Descrição do ficheiro"
-
-#: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "Não foram encontradas notas"
 
@@ -125,9 +121,33 @@ msgstr "Anexar outro ficheiro"
 msgid "Post"
 msgstr "Artigo"
 
-#: /templates/_macros/thread.html:14
+#: /templates/_macros/thread.html:20
 msgid "View older"
 msgstr "Ver mais antigas"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Ícone da aplicação"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Ver todos os tópicos para {app_name}"
+
+#: /templates/comm/app_dashboard.html:8
+msgid "Back to my threads"
+msgstr "Voltar aos meus tópicos"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Os meus tópicos"
+
+#: /templates/comm/main.html:13
+msgid "You have no threads."
+msgstr "Não tem tópicos."
+
+#: /templates/comm/main.html:15
+msgid "Hmm...an error?"
+msgstr ""
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -137,14 +157,13 @@ msgstr "{app_name} (Versão {version_number})"
 msgid "(Obsolete)"
 msgstr "(Obsoleto)"
 
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:42
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:50
 msgid "{n} note"
 msgid_plural "{n} notes"
 msgstr[0] "{n} nota"
 msgstr[1] "{n} notas"
 
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:52
-#: /media/js/views/comm.js:134
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:60 /media/js/views/comm.js:142
 msgid "Reply"
 msgstr "Responder"
 
@@ -171,26 +190,6 @@ msgstr "Análise"
 #: /templates/_macros/thread_header.html:54
 msgid "Mark All Read"
 msgstr "Marcar todas como lidas"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Ícone da aplicação"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Ver todos os tópicos para {app_name}"
-
-#: /templates/comm/app_dashboard.html:8
-msgid "Back to my threads"
-msgstr "Voltar aos meus tópicos"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Os meus tópicos"
-
-#: /templates/comm/main.html:13
-msgid "You have no threads."
-msgstr "Não tem tópicos."
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
@@ -237,57 +236,65 @@ msgstr "Erro ao carregar mais"
 msgid "Try Again"
 msgstr "Tentar novamente"
 
-#: /media/js/settings.js:33
+#: /media/js/settings.js:37
 msgid "Message"
 msgstr "Mensagem"
 
-#: /media/js/settings.js:34
+#: /media/js/settings.js:38
 msgid "App approved"
 msgstr "Aplicação aprovada"
 
-#: /media/js/settings.js:35
+#: /media/js/settings.js:39
 msgid "App rejected"
 msgstr "Aplicação rejeitada"
 
-#: /media/js/settings.js:36
+#: /media/js/settings.js:40
 msgid "App disabled"
 msgstr "Aplicação desativada"
 
-#: /media/js/settings.js:37
+#: /media/js/settings.js:41
 msgid "More info required"
 msgstr "São necessárias mais informações"
 
-#: /media/js/settings.js:38
+#: /media/js/settings.js:42
 msgid "Review escalated to senior reviewer"
 msgstr "A análise foi escalada para um revisor sénior"
 
-#: /media/js/settings.js:39
+#: /media/js/settings.js:43
 msgid "Reviewer comment"
 msgstr "Comentário do revisor"
 
-#: /media/js/settings.js:40
+#: /media/js/settings.js:44
 msgid "App resubmission"
 msgstr "Reenvio da aplicação"
 
-#: /media/js/settings.js:42
+#: /media/js/settings.js:46
 msgid "Approved but waiting to be made public"
 msgstr "Aprovado mas à espera de ser tornado público"
 
-#: /media/js/settings.js:43
+#: /media/js/settings.js:47
 msgid "Escalation cleared"
 msgstr "Encaminhado para análise superior removido"
 
-#: /media/js/settings.js:44
+#: /media/js/settings.js:48
 msgid "Escalated due to High Abuse Reports"
 msgstr "Escalado devido ao número elevado de denúncias de abuso"
 
-#: /media/js/settings.js:45
+#: /media/js/settings.js:49
 msgid "Escalated due to High Refund Requests"
 msgstr "Escalado devido ao número elevado de pedidos de devolução"
 
-#: /media/js/settings.js:46
+#: /media/js/settings.js:50
 msgid "Re-review cleared"
 msgstr "Reanálise removida"
+
+#: /media/js/settings.js:51
+msgid "App submission note"
+msgstr ""
+
+#: /media/js/settings.js:52
+msgid "Developer comment"
+msgstr ""
 
 #: /media/js/commonplace/login.js:8
 msgid "You have been signed out"
@@ -297,26 +304,21 @@ msgstr "A sua sessão foi terminada"
 msgid "You have been signed in"
 msgstr "A sua sessão foi iniciada"
 
-#: /media/js/commonplace/login.js:50
+#: /media/js/commonplace/login.js:49
 msgid "Error signing out"
 msgstr "Erro ao terminar a sessão"
 
-#: /media/js/commonplace/login.js:137
-msgid ""
-"Persona login failed. Maybe you don't have an account under that email "
-"address?"
-msgstr ""
-"A autenticação com o Persona falhou. Talvez não tenha uma conta com esse "
-"endereço de email?"
+#: /media/js/commonplace/login.js:136
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "A autenticação com o Persona falhou. Talvez não tenha uma conta com esse endereço de email?"
 
-#: /media/js/commonplace/login.js:142
+#: /media/js/commonplace/login.js:141
 msgid "Persona login failed. A server error was encountered."
 msgstr "A autenticação com o Persona falhou. Ocorreu um erro de servidor."
 
-#: /media/js/commonplace/login.js:210
+#: /media/js/commonplace/login.js:209
 msgid "Persona cannot be reached. Try again later."
-msgstr ""
-"Não é possível estabelecer ligação com o Persona. Tente novamente mais tarde."
+msgstr "Não é possível estabelecer ligação com o Persona. Tente novamente mais tarde."
 
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
@@ -329,41 +331,37 @@ msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{n}</b> caráter restante."
 msgstr[1] "<b>{n}</b> caráteres restantes."
 
-#: /media/js/views/comm.js:59
+#: /media/js/views/comm.js:67
 msgid "Message sent."
 msgstr "Mensagem enviada."
 
-#: /media/js/views/comm.js:64
+#: /media/js/views/comm.js:72
 msgid "Message sending failed."
 msgstr "O envio da mensagem falhou."
 
-#: /media/js/views/comm.js:124
+#: /media/js/views/comm.js:132
 msgid "Cancel reply"
 msgstr "Cancelar resposta"
 
-#: /media/js/views/comm.js:207
+#: /media/js/views/comm.js:215
 msgid "There are no more older notes."
 msgstr "Não existem notas mais antigas."
 
-#: /media/js/views/comm.js:255
+#: /media/js/views/comm.js:263
 msgid "There was some problem marking the note as read. Try again."
 msgstr "Ocorreu um problema ao marcar a nota como lida. Tente novamente."
 
-#: /media/js/views/comm.js:268
+#: /media/js/views/comm.js:276
 msgid "No notes to show."
 msgstr "Sem notas a apresentar."
 
-#: /media/js/views/comm.js:275
+#: /media/js/views/comm.js:283
 msgid "There was some problem marking the thread as read. Try again."
 msgstr "Ocorreu um problema ao marcar o tópico como lido. Tente novamente."
 
-#: /media/js/views/comm.js:285
-msgid ""
-"Successfully unsubsribed. You will no longer receive email notifications for "
-"that thread."
-msgstr ""
-"A subscrição foi anulada com sucesso. Não irá receber mais notificações por "
-"correio eletrónico para esse tópico."
+#: /media/js/views/comm.js:293
+msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
+msgstr "A subscrição foi anulada com sucesso. Não irá receber mais notificações por correio eletrónico para esse tópico."
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"
