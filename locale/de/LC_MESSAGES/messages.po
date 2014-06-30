@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: AMO Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-06-30T16:47:28.123Z\n"
-"PO-Revision-Date: 2014-05-21 18:50+0000\n"
+"PO-Revision-Date: 2014-06-30 17:11+0000\n"
 "Last-Translator: Michael <michael.koehler1@gmx.de>\n"
 "Language-Team: German (de) <coce@nurfuerspam.de>\n"
 "Language: de\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1400698217.0\n"
+"X-POOTLE-MTIME: 1404148264.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -148,7 +148,7 @@ msgstr "Sie haben keine Themen."
 
 #: /templates/comm/main.html:15
 msgid "Hmm...an error?"
-msgstr ""
+msgstr "Hmm… ein Fehler?"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -291,11 +291,11 @@ msgstr "Erneute Überprüfung erledigt"
 
 #: /media/js/settings.js:51
 msgid "App submission note"
-msgstr ""
+msgstr "Hinweis zur App-Einreichung"
 
 #: /media/js/settings.js:52
 msgid "Developer comment"
-msgstr ""
+msgstr "Entwicklerkommentar"
 
 #: /media/js/commonplace/login.js:8
 msgid "You have been signed out"
