@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Commbadge\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-05-28T16:42:26.982Z\n"
+"POT-Creation-Date: 2014-06-30T16:47:28.123Z\n"
 "PO-Revision-Date: 2014-05-23 07:53+0000\n"
 "Last-Translator: Pavel <jasnapaka@jasnapaka.com>\n"
 "Language-Team: Czech <info@mozilla.cz>\n"
@@ -25,6 +25,18 @@ msgstr "Ne"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Ano"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Nástěnka komunikace"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Odhlášení"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Přihlášení"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -70,17 +82,13 @@ msgstr "Podmínky použití"
 msgid "Report Trademark Abuse"
 msgstr "Nahlášení zneužití ochranné známky"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Nástěnka komunikace"
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Příloha"
 
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Odhlášení"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Přihlášení"
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Popis souboru"
 
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
@@ -94,15 +102,7 @@ msgstr "Pro pokračování se musíte přihlásit."
 msgid "Sign in / Sign up"
 msgstr "Přihlášení / Registrace"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Příloha"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Popis souboru"
-
-#: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "Nebyly nalezeny žádné poznámky"
 
@@ -122,9 +122,33 @@ msgstr "Přiložit další soubor"
 msgid "Post"
 msgstr "Přidat"
 
-#: /templates/_macros/thread.html:14
+#: /templates/_macros/thread.html:20
 msgid "View older"
 msgstr "Zobrazit starší"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Ikona aplikace"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Zobrazení všech vláken pro {app_name}"
+
+#: /templates/comm/app_dashboard.html:8
+msgid "Back to my threads"
+msgstr "Zpět na má vlákna"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Má vlákna"
+
+#: /templates/comm/main.html:13
+msgid "You have no threads."
+msgstr "Nemáte žádná vlákna."
+
+#: /templates/comm/main.html:15
+msgid "Hmm...an error?"
+msgstr ""
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -134,14 +158,14 @@ msgstr "{app_name} (Verze {version_number})"
 msgid "(Obsolete)"
 msgstr "(Zavržené)"
 
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:42
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:50
 msgid "{n} note"
 msgid_plural "{n} notes"
 msgstr[0] "{n} poznámka"
 msgstr[1] "{n} poznámky"
 msgstr[2] "{n} poznámek"
 
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:52 /media/js/views/comm.js:134
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:60 /media/js/views/comm.js:142
 msgid "Reply"
 msgstr "Odpovědět"
 
@@ -168,26 +192,6 @@ msgstr "Kontrola"
 #: /templates/_macros/thread_header.html:54
 msgid "Mark All Read"
 msgstr "Označit vše jako přečtené"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Ikona aplikace"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Zobrazení všech vláken pro {app_name}"
-
-#: /templates/comm/app_dashboard.html:8
-msgid "Back to my threads"
-msgstr "Zpět na má vlákna"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Má vlákna"
-
-#: /templates/comm/main.html:13
-msgid "You have no threads."
-msgstr "Nemáte žádná vlákna."
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
@@ -234,57 +238,65 @@ msgstr "Chyba při načítání"
 msgid "Try Again"
 msgstr "Zkusit znovu"
 
-#: /media/js/settings.js:33
+#: /media/js/settings.js:37
 msgid "Message"
 msgstr "Zpráva"
 
-#: /media/js/settings.js:34
+#: /media/js/settings.js:38
 msgid "App approved"
 msgstr "Aplikace byla schválena"
 
-#: /media/js/settings.js:35
+#: /media/js/settings.js:39
 msgid "App rejected"
 msgstr "Aplikace byla zamítnuta"
 
-#: /media/js/settings.js:36
+#: /media/js/settings.js:40
 msgid "App disabled"
 msgstr "Aplikace byla zakázána"
 
-#: /media/js/settings.js:37
+#: /media/js/settings.js:41
 msgid "More info required"
 msgstr "Je vyžadováno více informací"
 
-#: /media/js/settings.js:38
+#: /media/js/settings.js:42
 msgid "Review escalated to senior reviewer"
 msgstr "Kontrola byla přesunuta ke zkušenějšímu redaktorovi."
 
-#: /media/js/settings.js:39
+#: /media/js/settings.js:43
 msgid "Reviewer comment"
 msgstr "Komentář redaktora"
 
-#: /media/js/settings.js:40
+#: /media/js/settings.js:44
 msgid "App resubmission"
 msgstr "Opětovné nahrání aplikace"
 
-#: /media/js/settings.js:42
+#: /media/js/settings.js:46
 msgid "Approved but waiting to be made public"
 msgstr "Schválena a čeká na zveřejnění"
 
-#: /media/js/settings.js:43
+#: /media/js/settings.js:47
 msgid "Escalation cleared"
 msgstr "Zrušena nutnost kontroly administrátorem"
 
-#: /media/js/settings.js:44
+#: /media/js/settings.js:48
 msgid "Escalated due to High Abuse Reports"
 msgstr "Nutnost kontroly z důvodu vysokého počtu hlášení o zneužití"
 
-#: /media/js/settings.js:45
+#: /media/js/settings.js:49
 msgid "Escalated due to High Refund Requests"
 msgstr "Nutnost kontroly z důvodu velkého množství žádostí o vracení peněz"
 
-#: /media/js/settings.js:46
+#: /media/js/settings.js:50
 msgid "Re-review cleared"
 msgstr "Zrušena opakovaná kontrola"
+
+#: /media/js/settings.js:51
+msgid "App submission note"
+msgstr ""
+
+#: /media/js/settings.js:52
+msgid "Developer comment"
+msgstr ""
 
 #: /media/js/commonplace/login.js:8
 msgid "You have been signed out"
@@ -294,19 +306,19 @@ msgstr "Byl(a) jste odhlášen(a)"
 msgid "You have been signed in"
 msgstr "Byl(a) jste přihlášen(a)"
 
-#: /media/js/commonplace/login.js:50
+#: /media/js/commonplace/login.js:49
 msgid "Error signing out"
 msgstr "Během odhlašování došlo k chybě"
 
-#: /media/js/commonplace/login.js:137
+#: /media/js/commonplace/login.js:136
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr "Přihlášení pomocí Persona selhalo. Možná nemáte účet pod touto e-mailovou adresou?"
 
-#: /media/js/commonplace/login.js:142
+#: /media/js/commonplace/login.js:141
 msgid "Persona login failed. A server error was encountered."
 msgstr "Přihlášení pomocí Persona selhalo. Vyskytla se chyba na serveru."
 
-#: /media/js/commonplace/login.js:210
+#: /media/js/commonplace/login.js:209
 msgid "Persona cannot be reached. Try again later."
 msgstr "Komunikace s Persona se nezdařila. Zkuste to znovu později."
 
@@ -322,35 +334,35 @@ msgstr[0] "Zbývá <b>{n}</b> znak."
 msgstr[1] "Zbývají <b>{n}</b> znaky."
 msgstr[2] "Zbývá <b>{n}</b> znaků."
 
-#: /media/js/views/comm.js:59
+#: /media/js/views/comm.js:67
 msgid "Message sent."
 msgstr "Zpráva odeslána."
 
-#: /media/js/views/comm.js:64
+#: /media/js/views/comm.js:72
 msgid "Message sending failed."
 msgstr "Odeslání zprávy selhalo."
 
-#: /media/js/views/comm.js:124
+#: /media/js/views/comm.js:132
 msgid "Cancel reply"
 msgstr "Zrušit odpověď."
 
-#: /media/js/views/comm.js:207
+#: /media/js/views/comm.js:215
 msgid "There are no more older notes."
 msgstr "Neexistují žádné starší poznámky."
 
-#: /media/js/views/comm.js:255
+#: /media/js/views/comm.js:263
 msgid "There was some problem marking the note as read. Try again."
 msgstr "Vyskytl se problém při označování poznámky jako přečtené. Zkuste to znovu."
 
-#: /media/js/views/comm.js:268
+#: /media/js/views/comm.js:276
 msgid "No notes to show."
 msgstr "Nejsou k dispozici žádné poznámky."
 
-#: /media/js/views/comm.js:275
+#: /media/js/views/comm.js:283
 msgid "There was some problem marking the thread as read. Try again."
 msgstr "Vyskytl se problém při označování vlákna jako přečtené. Zkuste to znovu."
 
-#: /media/js/views/comm.js:285
+#: /media/js/views/comm.js:293
 msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
 msgstr "Odběr byl úspěšně zrušen. Pro toto vlákno již nebudete dostávat e-maily s upozorněním."
 

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-05-28T16:42:26.982Z\n"
+"POT-Creation-Date: 2014-06-30T16:47:28.123Z\n"
 "PO-Revision-Date: 2014-05-22 02:24+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: MozTW <petercpg@mail.moztw.org>\n"
@@ -26,6 +26,18 @@ msgstr "否"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "是"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "傳播主控台"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "登出"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "登入"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -69,17 +81,13 @@ msgstr "使用條款"
 msgid "Report Trademark Abuse"
 msgstr "回報商標濫用"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "傳播主控台"
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "附件"
 
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "登出"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "登入"
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "檔案描述"
 
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
@@ -93,15 +101,7 @@ msgstr "您必須登入才能繼續。"
 msgid "Sign in / Sign up"
 msgstr "登入 / 註冊"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "附件"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "檔案描述"
-
-#: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "找不到筆記"
 
@@ -121,9 +121,33 @@ msgstr "附加另一個檔案"
 msgid "Post"
 msgstr "張貼"
 
-#: /templates/_macros/thread.html:14
+#: /templates/_macros/thread.html:20
 msgid "View older"
 msgstr "檢視更舊項目"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "應用程式圖示"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "檢視所有 {app_name} 的討論串"
+
+#: /templates/comm/app_dashboard.html:8
+msgid "Back to my threads"
+msgstr "回到我的討論串"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "我的討論串"
+
+#: /templates/comm/main.html:13
+msgid "You have no threads."
+msgstr "您沒有討論串。"
+
+#: /templates/comm/main.html:15
+msgid "Hmm...an error?"
+msgstr ""
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -133,12 +157,12 @@ msgstr "{app_name} ({version_number} 版)"
 msgid "(Obsolete)"
 msgstr "（已過時）"
 
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:42
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:50
 msgid "{n} note"
 msgid_plural "{n} notes"
 msgstr[0] "{n} 筆筆記"
 
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:52 /media/js/views/comm.js:134
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:60 /media/js/views/comm.js:142
 msgid "Reply"
 msgstr "回覆"
 
@@ -165,26 +189,6 @@ msgstr "評論"
 #: /templates/_macros/thread_header.html:54
 msgid "Mark All Read"
 msgstr "標示所有已讀"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "應用程式圖示"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "檢視所有 {app_name} 的討論串"
-
-#: /templates/comm/app_dashboard.html:8
-msgid "Back to my threads"
-msgstr "回到我的討論串"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "我的討論串"
-
-#: /templates/comm/main.html:13
-msgid "You have no threads."
-msgstr "您沒有討論串。"
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
@@ -231,57 +235,65 @@ msgstr "載入更多時發生錯誤"
 msgid "Try Again"
 msgstr "重試"
 
-#: /media/js/settings.js:33
+#: /media/js/settings.js:37
 msgid "Message"
 msgstr "訊息"
 
-#: /media/js/settings.js:34
+#: /media/js/settings.js:38
 msgid "App approved"
 msgstr "應用程式審核通過"
 
-#: /media/js/settings.js:35
+#: /media/js/settings.js:39
 msgid "App rejected"
 msgstr "應用程式被拒絕"
 
-#: /media/js/settings.js:36
+#: /media/js/settings.js:40
 msgid "App disabled"
 msgstr "應用程式被停用"
 
-#: /media/js/settings.js:37
+#: /media/js/settings.js:41
 msgid "More info required"
 msgstr "需要更多資訊"
 
-#: /media/js/settings.js:38
+#: /media/js/settings.js:42
 msgid "Review escalated to senior reviewer"
 msgstr "已交由資深審核者進行審核"
 
-#: /media/js/settings.js:39
+#: /media/js/settings.js:43
 msgid "Reviewer comment"
 msgstr "審核者評論"
 
-#: /media/js/settings.js:40
+#: /media/js/settings.js:44
 msgid "App resubmission"
 msgstr "重新送出 App"
 
-#: /media/js/settings.js:42
+#: /media/js/settings.js:46
 msgid "Approved but waiting to be made public"
 msgstr "已通過審核，等待公開中"
 
-#: /media/js/settings.js:43
+#: /media/js/settings.js:47
 msgid "Escalation cleared"
 msgstr "已清除向上呈報"
 
-#: /media/js/settings.js:44
+#: /media/js/settings.js:48
 msgid "Escalated due to High Abuse Reports"
 msgstr "因為有大量濫用回報，已向上呈報"
 
-#: /media/js/settings.js:45
+#: /media/js/settings.js:49
 msgid "Escalated due to High Refund Requests"
 msgstr "因為有大量退款請求，已向上呈報"
 
-#: /media/js/settings.js:46
+#: /media/js/settings.js:50
 msgid "Re-review cleared"
 msgstr "已清除重新審核"
+
+#: /media/js/settings.js:51
+msgid "App submission note"
+msgstr ""
+
+#: /media/js/settings.js:52
+msgid "Developer comment"
+msgstr ""
 
 #: /media/js/commonplace/login.js:8
 msgid "You have been signed out"
@@ -291,19 +303,19 @@ msgstr "您已經登出。"
 msgid "You have been signed in"
 msgstr "您已經登入。"
 
-#: /media/js/commonplace/login.js:50
+#: /media/js/commonplace/login.js:49
 msgid "Error signing out"
 msgstr "登出時發生錯誤"
 
-#: /media/js/commonplace/login.js:137
+#: /media/js/commonplace/login.js:136
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr "Persona 登入失敗，也許您沒有使用該電子郵件地址的帳號？"
 
-#: /media/js/commonplace/login.js:142
+#: /media/js/commonplace/login.js:141
 msgid "Persona login failed. A server error was encountered."
 msgstr "Persona 登入失敗，伺服器發生錯誤。"
 
-#: /media/js/commonplace/login.js:210
+#: /media/js/commonplace/login.js:209
 msgid "Persona cannot be reached. Try again later."
 msgstr "無法聯繫 Persona，請稍後再試。"
 
@@ -317,35 +329,35 @@ msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "剩下 <b>{n}</b> 個字元。"
 
-#: /media/js/views/comm.js:59
+#: /media/js/views/comm.js:67
 msgid "Message sent."
 msgstr "訊息已送出。"
 
-#: /media/js/views/comm.js:64
+#: /media/js/views/comm.js:72
 msgid "Message sending failed."
 msgstr "訊息傳送失敗。"
 
-#: /media/js/views/comm.js:124
+#: /media/js/views/comm.js:132
 msgid "Cancel reply"
 msgstr "取消回覆"
 
-#: /media/js/views/comm.js:207
+#: /media/js/views/comm.js:215
 msgid "There are no more older notes."
 msgstr "沒有更舊的筆記了。"
 
-#: /media/js/views/comm.js:255
+#: /media/js/views/comm.js:263
 msgid "There was some problem marking the note as read. Try again."
 msgstr "將筆記標示為已讀時發生錯誤，請再試一次。"
 
-#: /media/js/views/comm.js:268
+#: /media/js/views/comm.js:276
 msgid "No notes to show."
 msgstr "沒有可以顯示的筆記。"
 
-#: /media/js/views/comm.js:275
+#: /media/js/views/comm.js:283
 msgid "There was some problem marking the thread as read. Try again."
 msgstr "將討論串標示為已讀時發生錯誤，請再試一次。"
 
-#: /media/js/views/comm.js:285
+#: /media/js/views/comm.js:293
 msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
 msgstr "已成功退訂，您將不會再收到該討論串的郵件通知。"
 

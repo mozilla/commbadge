@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-05-28T16:42:26.982Z\n"
+"POT-Creation-Date: 2014-06-30T16:47:28.123Z\n"
 "PO-Revision-Date: 2014-05-14 08:17+0000\n"
 "Last-Translator: Umesh <umesh.agarwal1@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,6 +25,18 @@ msgstr "नहीं"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "हाँ"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "संचार डैशबोर्ड"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "साइन आउट"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "साइन इन"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -70,17 +82,13 @@ msgstr "उपयोग की शर्तों"
 msgid "Report Trademark Abuse"
 msgstr "ट्रेडमार्क दुरुपयोग रिपोर्ट करें"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "संचार डैशबोर्ड"
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "अनुलग्नक"
 
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "साइन आउट"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "साइन इन"
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "फाइल विवरण"
 
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
@@ -94,15 +102,7 @@ msgstr "आगे बढ़ना के लियें साइन इन क
 msgid "Sign in / Sign up"
 msgstr "साइन इन / साइन अप"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "अनुलग्नक"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "फाइल विवरण"
-
-#: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "कोई नोट्स नहीं पाया गया"
 
@@ -122,9 +122,33 @@ msgstr "एक और फाइल संलग्न करें"
 msgid "Post"
 msgstr "पोस्ट करें"
 
-#: /templates/_macros/thread.html:14
+#: /templates/_macros/thread.html:20
 msgid "View older"
 msgstr "पुराने देखें"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "एप्प्स आइकन"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "{app_name} के लिए सभी थ्रेड देख रहा है"
+
+#: /templates/comm/app_dashboard.html:8
+msgid "Back to my threads"
+msgstr "मेरे थ्रेड्स में वापस"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "मेरे थ्रेड्स"
+
+#: /templates/comm/main.html:13
+msgid "You have no threads."
+msgstr "आपके पास कोई थ्रेड्स नहीं है."
+
+#: /templates/comm/main.html:15
+msgid "Hmm...an error?"
+msgstr ""
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -134,13 +158,13 @@ msgstr "{app_name} (Version {version_number})"
 msgid "(Obsolete)"
 msgstr "(अप्रचलित)"
 
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:42
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:50
 msgid "{n} note"
 msgid_plural "{n} notes"
 msgstr[0] "{n} नोट"
 msgstr[1] "{n} नोट्स"
 
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:52 /media/js/views/comm.js:134
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:60 /media/js/views/comm.js:142
 msgid "Reply"
 msgstr "जवाब दें"
 
@@ -167,26 +191,6 @@ msgstr "समीक्षा"
 #: /templates/_macros/thread_header.html:54
 msgid "Mark All Read"
 msgstr "सभी पढ़े गए रूप में चिह्नित करें"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "एप्प्स आइकन"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "{app_name} के लिए सभी थ्रेड देख रहा है"
-
-#: /templates/comm/app_dashboard.html:8
-msgid "Back to my threads"
-msgstr "मेरे थ्रेड्स में वापस"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "मेरे थ्रेड्स"
-
-#: /templates/comm/main.html:13
-msgid "You have no threads."
-msgstr "आपके पास कोई थ्रेड्स नहीं है."
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
@@ -233,57 +237,65 @@ msgstr "अधिक लोड करने में त्रुटि"
 msgid "Try Again"
 msgstr "पुन: प्रयास करें"
 
-#: /media/js/settings.js:33
+#: /media/js/settings.js:37
 msgid "Message"
 msgstr "संदेश"
 
-#: /media/js/settings.js:34
+#: /media/js/settings.js:38
 msgid "App approved"
 msgstr "एप्लिकेशन को मंजूरी दी"
 
-#: /media/js/settings.js:35
+#: /media/js/settings.js:39
 msgid "App rejected"
 msgstr "एप्लिकेशन अस्वीकार"
 
-#: /media/js/settings.js:36
+#: /media/js/settings.js:40
 msgid "App disabled"
 msgstr "एप्लिकेशन अक्षम"
 
-#: /media/js/settings.js:37
+#: /media/js/settings.js:41
 msgid "More info required"
 msgstr "अधिक जानकारी की आवश्यकता"
 
-#: /media/js/settings.js:38
+#: /media/js/settings.js:42
 msgid "Review escalated to senior reviewer"
 msgstr "समीक्षा वरिष्ठ समीक्षक को परिवर्धित"
 
-#: /media/js/settings.js:39
+#: /media/js/settings.js:43
 msgid "Reviewer comment"
 msgstr "समीक्षक की टिप्पणी"
 
-#: /media/js/settings.js:40
+#: /media/js/settings.js:44
 msgid "App resubmission"
 msgstr "एप्लिकेशन फिर से प्रस्तुत करने"
 
-#: /media/js/settings.js:42
+#: /media/js/settings.js:46
 msgid "Approved but waiting to be made public"
 msgstr "मंजूरी दी लेकिन सार्वजनिक किए जाने की प्रतीक्षा"
 
-#: /media/js/settings.js:43
+#: /media/js/settings.js:47
 msgid "Escalation cleared"
 msgstr "वृद्धि साफ किया गया"
 
-#: /media/js/settings.js:44
+#: /media/js/settings.js:48
 msgid "Escalated due to High Abuse Reports"
 msgstr "उच्च दुर्व्यवहार रिपोर्टों के कारण वृद्धि"
 
-#: /media/js/settings.js:45
+#: /media/js/settings.js:49
 msgid "Escalated due to High Refund Requests"
 msgstr "उच्च वापसी अनुरोधों के कारण वृद्धि"
 
-#: /media/js/settings.js:46
+#: /media/js/settings.js:50
 msgid "Re-review cleared"
 msgstr "पुनः समीक्षा को मंजूरी दे दी"
+
+#: /media/js/settings.js:51
+msgid "App submission note"
+msgstr ""
+
+#: /media/js/settings.js:52
+msgid "Developer comment"
+msgstr ""
 
 #: /media/js/commonplace/login.js:8
 msgid "You have been signed out"
@@ -293,19 +305,19 @@ msgstr "आपको साइन आउट कर दिया गया है
 msgid "You have been signed in"
 msgstr "आपको साइन इन कर दिया गया है"
 
-#: /media/js/commonplace/login.js:50
+#: /media/js/commonplace/login.js:49
 msgid "Error signing out"
 msgstr "साइन आउट करने में त्रुटि"
 
-#: /media/js/commonplace/login.js:137
+#: /media/js/commonplace/login.js:136
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr "परसोना लॉगिन विफल. हो सकता है कि आपका उस ईमेल पते के अंतर्गत खाता नहीं है?"
 
-#: /media/js/commonplace/login.js:142
+#: /media/js/commonplace/login.js:141
 msgid "Persona login failed. A server error was encountered."
 msgstr "परसोना लॉगिन विफल रहा. एक सर्वर त्रुटि से सामना हुआ था."
 
-#: /media/js/commonplace/login.js:210
+#: /media/js/commonplace/login.js:209
 msgid "Persona cannot be reached. Try again later."
 msgstr ""
 
@@ -320,35 +332,35 @@ msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{n}</b> अक्षर बाकी."
 msgstr[1] "<b>{n}</b> अक्षर बाकी."
 
-#: /media/js/views/comm.js:59
+#: /media/js/views/comm.js:67
 msgid "Message sent."
 msgstr "सन्देश भेजा गया."
 
-#: /media/js/views/comm.js:64
+#: /media/js/views/comm.js:72
 msgid "Message sending failed."
 msgstr "संदेश भेजने में विफल."
 
-#: /media/js/views/comm.js:124
+#: /media/js/views/comm.js:132
 msgid "Cancel reply"
 msgstr "उत्तर रद्द करें"
 
-#: /media/js/views/comm.js:207
+#: /media/js/views/comm.js:215
 msgid "There are no more older notes."
 msgstr "कोई अधिक पुराने नोट नहीं हैं."
 
-#: /media/js/views/comm.js:255
+#: /media/js/views/comm.js:263
 msgid "There was some problem marking the note as read. Try again."
 msgstr "पढ़ने हुअें के रूप में नोट अंकन करनें में कुछ समस्या थी. फिर से कोशिश करें."
 
-#: /media/js/views/comm.js:268
+#: /media/js/views/comm.js:276
 msgid "No notes to show."
 msgstr "दिखाने के लिए कोई नोट नहीं."
 
-#: /media/js/views/comm.js:275
+#: /media/js/views/comm.js:283
 msgid "There was some problem marking the thread as read. Try again."
 msgstr "पढ़ने हुअें के रूप में थ्रेड अंकन करनें में कुछ समस्या थी. फिर से कोशिश करें."
 
-#: /media/js/views/comm.js:285
+#: /media/js/views/comm.js:293
 msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
 msgstr "सफलतापूर्वक सदस्यता वापस. अब आप उस थ्रेड के लिए ईमेल सूचनाएँ प्राप्त नहीं करेंगे."
 

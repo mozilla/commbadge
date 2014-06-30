@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AMO Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-05-28T16:42:26.982Z\n"
+"POT-Creation-Date: 2014-06-30T16:47:28.123Z\n"
 "PO-Revision-Date: 2013-10-28 21:27+0200\n"
 "Last-Translator: Mihail Chilyashev <m@chilyashev.com>\n"
 "Language-Team: Bulgarian (bg)\n"
@@ -24,6 +24,18 @@ msgstr "Не"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Да"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Комуникационно табло"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Изход"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Вход"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -69,17 +81,13 @@ msgstr "Условия за ползване"
 msgid "Report Trademark Abuse"
 msgstr "Докладвай злоупотреба със запазена марка"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Комуникационно табло"
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr ""
 
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Изход"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Вход"
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr ""
 
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
@@ -93,15 +101,7 @@ msgstr "Трябва да влезете, за да продължите"
 msgid "Sign in / Sign up"
 msgstr "Вход / Регистрация"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr ""
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr ""
-
-#: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "Няма намерени бележки"
 
@@ -121,9 +121,33 @@ msgstr ""
 msgid "Post"
 msgstr "Публикуване"
 
-#: /templates/_macros/thread.html:14
+#: /templates/_macros/thread.html:20
 msgid "View older"
 msgstr "Виж по-стари"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Икона на приложението"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Разглеждане на всички теми за {app_name}"
+
+#: /templates/comm/app_dashboard.html:8
+msgid "Back to my threads"
+msgstr "Назад към моите теми"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Мои теми"
+
+#: /templates/comm/main.html:13
+msgid "You have no threads."
+msgstr "Нямате теми."
+
+#: /templates/comm/main.html:15
+msgid "Hmm...an error?"
+msgstr ""
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -133,13 +157,13 @@ msgstr "{app_name} (Версия {version_number})"
 msgid "(Obsolete)"
 msgstr "(Остаряла)"
 
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:42
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:50
 msgid "{n} note"
 msgid_plural "{n} notes"
 msgstr[0] "{n} бележка"
 msgstr[1] "{n} бележки"
 
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:52 /media/js/views/comm.js:134
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:60 /media/js/views/comm.js:142
 msgid "Reply"
 msgstr "Отговор"
 
@@ -166,26 +190,6 @@ msgstr ""
 #: /templates/_macros/thread_header.html:54
 msgid "Mark All Read"
 msgstr "Маркирай всички като прочетени"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Икона на приложението"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Разглеждане на всички теми за {app_name}"
-
-#: /templates/comm/app_dashboard.html:8
-msgid "Back to my threads"
-msgstr "Назад към моите теми"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Мои теми"
-
-#: /templates/comm/main.html:13
-msgid "You have no threads."
-msgstr "Нямате теми."
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
@@ -232,56 +236,64 @@ msgstr "Грешка при зареждането"
 msgid "Try Again"
 msgstr "Опитай отново"
 
-#: /media/js/settings.js:33
+#: /media/js/settings.js:37
 msgid "Message"
 msgstr "Съобщение"
 
-#: /media/js/settings.js:34
+#: /media/js/settings.js:38
 msgid "App approved"
 msgstr "Приложението одобрено"
 
-#: /media/js/settings.js:35
+#: /media/js/settings.js:39
 msgid "App rejected"
 msgstr "Приложението отказано"
 
-#: /media/js/settings.js:36
+#: /media/js/settings.js:40
 msgid "App disabled"
 msgstr "Приложението спряно"
 
-#: /media/js/settings.js:37
+#: /media/js/settings.js:41
 msgid "More info required"
 msgstr "Нужна е още информация"
 
-#: /media/js/settings.js:38
+#: /media/js/settings.js:42
 msgid "Review escalated to senior reviewer"
 msgstr "Прегледът ескалиран до старщи рецензент"
 
-#: /media/js/settings.js:39
+#: /media/js/settings.js:43
 msgid "Reviewer comment"
 msgstr "Коментар на рецензента"
 
-#: /media/js/settings.js:40
+#: /media/js/settings.js:44
 msgid "App resubmission"
 msgstr ""
 
-#: /media/js/settings.js:42
+#: /media/js/settings.js:46
 msgid "Approved but waiting to be made public"
 msgstr ""
 
-#: /media/js/settings.js:43
+#: /media/js/settings.js:47
 msgid "Escalation cleared"
 msgstr ""
 
-#: /media/js/settings.js:44
+#: /media/js/settings.js:48
 msgid "Escalated due to High Abuse Reports"
 msgstr ""
 
-#: /media/js/settings.js:45
+#: /media/js/settings.js:49
 msgid "Escalated due to High Refund Requests"
 msgstr ""
 
-#: /media/js/settings.js:46
+#: /media/js/settings.js:50
 msgid "Re-review cleared"
+msgstr ""
+
+#: /media/js/settings.js:51
+msgid "App submission note"
+msgstr ""
+
+#: /media/js/settings.js:52
+msgid "Developer comment"
 msgstr ""
 
 #: /media/js/commonplace/login.js:8
@@ -292,19 +304,19 @@ msgstr "Вие излязохте"
 msgid "You have been signed in"
 msgstr "Вие влязохте"
 
-#: /media/js/commonplace/login.js:50
+#: /media/js/commonplace/login.js:49
 msgid "Error signing out"
 msgstr ""
 
-#: /media/js/commonplace/login.js:137
+#: /media/js/commonplace/login.js:136
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr "Влизането в Persona се провали. Може би нямате акант с този имейл адрес?"
 
-#: /media/js/commonplace/login.js:142
+#: /media/js/commonplace/login.js:141
 msgid "Persona login failed. A server error was encountered."
 msgstr "Влизането в Persona се провали. Възникна сървърна грешка"
 
-#: /media/js/commonplace/login.js:210
+#: /media/js/commonplace/login.js:209
 msgid "Persona cannot be reached. Try again later."
 msgstr ""
 
@@ -319,35 +331,35 @@ msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "остава <b>{n}</b> знак."
 msgstr[1] "остават <b>{n}</b> знака"
 
-#: /media/js/views/comm.js:59
+#: /media/js/views/comm.js:67
 msgid "Message sent."
 msgstr "Съобщението изпратено."
 
-#: /media/js/views/comm.js:64
+#: /media/js/views/comm.js:72
 msgid "Message sending failed."
 msgstr "Изпращането на съобщението се провали."
 
-#: /media/js/views/comm.js:124
+#: /media/js/views/comm.js:132
 msgid "Cancel reply"
 msgstr "Откажи отговора"
 
-#: /media/js/views/comm.js:207
+#: /media/js/views/comm.js:215
 msgid "There are no more older notes."
 msgstr "Няма по-стари бележки."
 
-#: /media/js/views/comm.js:255
+#: /media/js/views/comm.js:263
 msgid "There was some problem marking the note as read. Try again."
 msgstr "Възникна проблем при маркирането на бележката като прочетена. Опитайте отново."
 
-#: /media/js/views/comm.js:268
+#: /media/js/views/comm.js:276
 msgid "No notes to show."
 msgstr "Няма бележки за показване."
 
-#: /media/js/views/comm.js:275
+#: /media/js/views/comm.js:283
 msgid "There was some problem marking the thread as read. Try again."
 msgstr "Възникна проблем при маркирането на темата като прочетена. Опитайте отново."
 
-#: /media/js/views/comm.js:285
+#: /media/js/views/comm.js:293
 msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
 msgstr ""
 

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-05-28T16:42:26.982Z\n"
+"POT-Creation-Date: 2014-06-30T16:47:28.123Z\n"
 "PO-Revision-Date: 2014-05-06 14:19+0000\n"
 "Last-Translator: Channy <channy@mozilla.or.kr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,6 +25,18 @@ msgstr "아니오"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "예"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "커뮤니케이션 대시보드"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "로그아웃"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "로그인"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -70,17 +82,13 @@ msgstr "이용 약관"
 msgid "Report Trademark Abuse"
 msgstr "등록 상표 오용 신고"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "커뮤니케이션 대시보드"
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "첨부 파일"
 
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "로그아웃"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "로그인"
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "파일 설명"
 
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
@@ -94,15 +102,7 @@ msgstr "진행을 위해서 로그인을 해야 합니다."
 msgid "Sign in / Sign up"
 msgstr "로그인 / 회원 가입"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "첨부 파일"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "파일 설명"
-
-#: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "소개 내용 없음"
 
@@ -122,9 +122,33 @@ msgstr "다른 파일 첨부"
 msgid "Post"
 msgstr "올리기"
 
-#: /templates/_macros/thread.html:14
+#: /templates/_macros/thread.html:20
 msgid "View older"
 msgstr "이전 보기"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "앱 아이콘"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "{app_name}에 대한 글타래 모두 보기"
+
+#: /templates/comm/app_dashboard.html:8
+msgid "Back to my threads"
+msgstr "내 글타래로 돌아가기"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "내 글타래"
+
+#: /templates/comm/main.html:13
+msgid "You have no threads."
+msgstr "글이 없습니다."
+
+#: /templates/comm/main.html:15
+msgid "Hmm...an error?"
+msgstr ""
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -134,12 +158,12 @@ msgstr "{app_name} (버전 {version_number})"
 msgid "(Obsolete)"
 msgstr "(중단됨)"
 
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:42
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:50
 msgid "{n} note"
 msgid_plural "{n} notes"
 msgstr[0] "{n} 주의"
 
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:52 /media/js/views/comm.js:134
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:60 /media/js/views/comm.js:142
 msgid "Reply"
 msgstr "댓글"
 
@@ -166,26 +190,6 @@ msgstr "리뷰"
 #: /templates/_macros/thread_header.html:54
 msgid "Mark All Read"
 msgstr "모두 읽은 것으로 표시"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "앱 아이콘"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "{app_name}에 대한 글타래 모두 보기"
-
-#: /templates/comm/app_dashboard.html:8
-msgid "Back to my threads"
-msgstr "내 글타래로 돌아가기"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "내 글타래"
-
-#: /templates/comm/main.html:13
-msgid "You have no threads."
-msgstr "글이 없습니다."
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
@@ -232,57 +236,65 @@ msgstr "더 불러오는 중 오류 발생"
 msgid "Try Again"
 msgstr "다시 시도"
 
-#: /media/js/settings.js:33
+#: /media/js/settings.js:37
 msgid "Message"
 msgstr "메시지"
 
-#: /media/js/settings.js:34
+#: /media/js/settings.js:38
 msgid "App approved"
 msgstr "승인한 앱"
 
-#: /media/js/settings.js:35
+#: /media/js/settings.js:39
 msgid "App rejected"
 msgstr "거절된 앱"
 
-#: /media/js/settings.js:36
+#: /media/js/settings.js:40
 msgid "App disabled"
 msgstr "사용 중단 앱"
 
-#: /media/js/settings.js:37
+#: /media/js/settings.js:41
 msgid "More info required"
 msgstr "필요한 추가 정보"
 
-#: /media/js/settings.js:38
+#: /media/js/settings.js:42
 msgid "Review escalated to senior reviewer"
 msgstr "우수 검토자에 의한 검수 내용"
 
-#: /media/js/settings.js:39
+#: /media/js/settings.js:43
 msgid "Reviewer comment"
 msgstr "검토자 코멘트"
 
-#: /media/js/settings.js:40
+#: /media/js/settings.js:44
 msgid "App resubmission"
 msgstr "앱 다시 제출"
 
-#: /media/js/settings.js:42
+#: /media/js/settings.js:46
 msgid "Approved but waiting to be made public"
 msgstr "승인 후 공개 대기 중"
 
-#: /media/js/settings.js:43
+#: /media/js/settings.js:47
 msgid "Escalation cleared"
 msgstr "검증 완료"
 
-#: /media/js/settings.js:44
+#: /media/js/settings.js:48
 msgid "Escalated due to High Abuse Reports"
 msgstr "어뷰징 보고로 인한 검증"
 
-#: /media/js/settings.js:45
+#: /media/js/settings.js:49
 msgid "Escalated due to High Refund Requests"
 msgstr "환불 요청으로 인한 검증"
 
-#: /media/js/settings.js:46
+#: /media/js/settings.js:50
 msgid "Re-review cleared"
 msgstr "재 검토 완료"
+
+#: /media/js/settings.js:51
+msgid "App submission note"
+msgstr ""
+
+#: /media/js/settings.js:52
+msgid "Developer comment"
+msgstr ""
 
 #: /media/js/commonplace/login.js:8
 msgid "You have been signed out"
@@ -292,19 +304,19 @@ msgstr "로그아웃 되었습니다."
 msgid "You have been signed in"
 msgstr "로그인 되었습니다"
 
-#: /media/js/commonplace/login.js:50
+#: /media/js/commonplace/login.js:49
 msgid "Error signing out"
 msgstr "로그아웃 오류"
 
-#: /media/js/commonplace/login.js:137
+#: /media/js/commonplace/login.js:136
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr "Persona 로그인에 실패했습니다. 입력하신 이메일과 연결된 계정이 없을 수 있습니다."
 
-#: /media/js/commonplace/login.js:142
+#: /media/js/commonplace/login.js:141
 msgid "Persona login failed. A server error was encountered."
 msgstr "Persona 로그인에 실패했습니다. 서버 오류가 발생했습니다."
 
-#: /media/js/commonplace/login.js:210
+#: /media/js/commonplace/login.js:209
 msgid "Persona cannot be reached. Try again later."
 msgstr ""
 
@@ -318,35 +330,35 @@ msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{n}</b>자 남았습니다."
 
-#: /media/js/views/comm.js:59
+#: /media/js/views/comm.js:67
 msgid "Message sent."
 msgstr "메시지가 전송되었습니다."
 
-#: /media/js/views/comm.js:64
+#: /media/js/views/comm.js:72
 msgid "Message sending failed."
 msgstr "메시지 전송이 실패하였습니다."
 
-#: /media/js/views/comm.js:124
+#: /media/js/views/comm.js:132
 msgid "Cancel reply"
 msgstr "댓글 취소"
 
-#: /media/js/views/comm.js:207
+#: /media/js/views/comm.js:215
 msgid "There are no more older notes."
 msgstr "이전 메모가 없습니다."
 
-#: /media/js/views/comm.js:255
+#: /media/js/views/comm.js:263
 msgid "There was some problem marking the note as read. Try again."
 msgstr "메모 읽음 표시중에 문제가 발생했습니다. 다시 시도하세요."
 
-#: /media/js/views/comm.js:268
+#: /media/js/views/comm.js:276
 msgid "No notes to show."
 msgstr "메모가 없습니다."
 
-#: /media/js/views/comm.js:275
+#: /media/js/views/comm.js:283
 msgid "There was some problem marking the thread as read. Try again."
 msgstr "글 읽음 표시중에 문제가 발생했습니다. 다시 시도하십시오."
 
-#: /media/js/views/comm.js:285
+#: /media/js/views/comm.js:293
 msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
 msgstr "구독이 해지되었습니다. 더 이상 메일을 받지 않습니다."
 

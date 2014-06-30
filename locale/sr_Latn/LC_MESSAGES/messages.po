@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-05-28T16:42:26.982Z\n"
+"POT-Creation-Date: 2014-06-30T16:47:28.123Z\n"
 "PO-Revision-Date: 2014-05-21 21:10+0000\n"
 "Last-Translator: Aleksandra <auzelac91@gmail.com>\n"
 "Language-Team: none\n"
@@ -25,6 +25,18 @@ msgstr "Ne"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Da"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Komunikaciona kontrolna tabla"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Odjavi se"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Prijavi se"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -70,17 +82,13 @@ msgstr "Uslovi korišćenja"
 msgid "Report Trademark Abuse"
 msgstr "Prijavite zloupotrebu robne marke"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Komunikaciona kontrolna tabla"
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Prilog"
 
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Odjavi se"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Prijavi se"
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Opis datoteke"
 
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
@@ -94,15 +102,7 @@ msgstr "Morate se prijaviti kako biste nastavili dalje."
 msgid "Sign in / Sign up"
 msgstr "Prijavi se / Registruj se"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Prilog"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Opis datoteke"
-
-#: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "Nema pronađenih beleški"
 
@@ -122,9 +122,33 @@ msgstr "Zakačite još jednu datoteku"
 msgid "Post"
 msgstr "Poruka"
 
-#: /templates/_macros/thread.html:14
+#: /templates/_macros/thread.html:20
 msgid "View older"
 msgstr "Pogledajte starije"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Ikonica aplikacije"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Pregled svih tema za {app_name}"
+
+#: /templates/comm/app_dashboard.html:8
+msgid "Back to my threads"
+msgstr "Povratak na moje teme"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Moje teme"
+
+#: /templates/comm/main.html:13
+msgid "You have no threads."
+msgstr "Nemate teme."
+
+#: /templates/comm/main.html:15
+msgid "Hmm...an error?"
+msgstr ""
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -134,14 +158,14 @@ msgstr "{app_name} (Verzija {version_number})"
 msgid "(Obsolete)"
 msgstr "(Zastareo)"
 
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:42
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:50
 msgid "{n} note"
 msgid_plural "{n} notes"
 msgstr[0] "{n} beleška"
 msgstr[1] "{n} beleške"
 msgstr[2] "{n} beleški"
 
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:52 /media/js/views/comm.js:134
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:60 /media/js/views/comm.js:142
 msgid "Reply"
 msgstr "Odgovori"
 
@@ -168,26 +192,6 @@ msgstr "Oceni"
 #: /templates/_macros/thread_header.html:54
 msgid "Mark All Read"
 msgstr "Označi sve pročitane"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Ikonica aplikacije"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Pregled svih tema za {app_name}"
-
-#: /templates/comm/app_dashboard.html:8
-msgid "Back to my threads"
-msgstr "Povratak na moje teme"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Moje teme"
-
-#: /templates/comm/main.html:13
-msgid "You have no threads."
-msgstr "Nemate teme."
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
@@ -234,57 +238,65 @@ msgstr "Greška pri učitavanju"
 msgid "Try Again"
 msgstr "Pokušaj ponovo"
 
-#: /media/js/settings.js:33
+#: /media/js/settings.js:37
 msgid "Message"
 msgstr "Poruka"
 
-#: /media/js/settings.js:34
+#: /media/js/settings.js:38
 msgid "App approved"
 msgstr "Aplikacija je odobrena"
 
-#: /media/js/settings.js:35
+#: /media/js/settings.js:39
 msgid "App rejected"
 msgstr "Aplikacija je odbijena"
 
-#: /media/js/settings.js:36
+#: /media/js/settings.js:40
 msgid "App disabled"
 msgstr "Aplikacija je onemogućena"
 
-#: /media/js/settings.js:37
+#: /media/js/settings.js:41
 msgid "More info required"
 msgstr "Potrebno je više informacija"
 
-#: /media/js/settings.js:38
+#: /media/js/settings.js:42
 msgid "Review escalated to senior reviewer"
 msgstr "Recenzija je eskalirala do višeg recezenta"
 
-#: /media/js/settings.js:39
+#: /media/js/settings.js:43
 msgid "Reviewer comment"
 msgstr "Rezecent komentara"
 
-#: /media/js/settings.js:40
+#: /media/js/settings.js:44
 msgid "App resubmission"
 msgstr "Ponovno podnošenje aplikacije"
 
-#: /media/js/settings.js:42
+#: /media/js/settings.js:46
 msgid "Approved but waiting to be made public"
 msgstr "Odobreno ali čeka da bude javno"
 
-#: /media/js/settings.js:43
+#: /media/js/settings.js:47
 msgid "Escalation cleared"
 msgstr "Eskalacija obrisana"
 
-#: /media/js/settings.js:44
+#: /media/js/settings.js:48
 msgid "Escalated due to High Abuse Reports"
 msgstr "Eskaliralo usred izveštaja o visokoj zloupotrebi"
 
-#: /media/js/settings.js:45
+#: /media/js/settings.js:49
 msgid "Escalated due to High Refund Requests"
 msgstr "Eskaliralo zbog velikog broja zahteva za refundaciju"
 
-#: /media/js/settings.js:46
+#: /media/js/settings.js:50
 msgid "Re-review cleared"
 msgstr "Ponovni pregled obrisan"
+
+#: /media/js/settings.js:51
+msgid "App submission note"
+msgstr ""
+
+#: /media/js/settings.js:52
+msgid "Developer comment"
+msgstr ""
 
 #: /media/js/commonplace/login.js:8
 msgid "You have been signed out"
@@ -294,19 +306,19 @@ msgstr "Odjavljeni ste"
 msgid "You have been signed in"
 msgstr "Prijavljeni ste"
 
-#: /media/js/commonplace/login.js:50
+#: /media/js/commonplace/login.js:49
 msgid "Error signing out"
 msgstr "Greška prilikom odjavljivanja"
 
-#: /media/js/commonplace/login.js:137
+#: /media/js/commonplace/login.js:136
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr "Prijava na Persona je neuspela. Možda nemate nalog pod tom adresom e-pošte?"
 
-#: /media/js/commonplace/login.js:142
+#: /media/js/commonplace/login.js:141
 msgid "Persona login failed. A server error was encountered."
 msgstr "Prijava na Persona nije uspela. Došlo je do greške na serveru."
 
-#: /media/js/commonplace/login.js:210
+#: /media/js/commonplace/login.js:209
 msgid "Persona cannot be reached. Try again later."
 msgstr "Persona je nedostupna. Pokušajte kasnije."
 
@@ -322,35 +334,35 @@ msgstr[0] "Preostalo karaktera: <b>{n}</b>."
 msgstr[1] "Preostalo karaktera: <b>{n}</b>."
 msgstr[2] "Preostalo karaktera: <b>{n}</b>."
 
-#: /media/js/views/comm.js:59
+#: /media/js/views/comm.js:67
 msgid "Message sent."
 msgstr "Poruka je poslata."
 
-#: /media/js/views/comm.js:64
+#: /media/js/views/comm.js:72
 msgid "Message sending failed."
 msgstr "Neuspešno slanje poruke."
 
-#: /media/js/views/comm.js:124
+#: /media/js/views/comm.js:132
 msgid "Cancel reply"
 msgstr "Otkaži odgovor"
 
-#: /media/js/views/comm.js:207
+#: /media/js/views/comm.js:215
 msgid "There are no more older notes."
 msgstr "Nema više starih beleški."
 
-#: /media/js/views/comm.js:255
+#: /media/js/views/comm.js:263
 msgid "There was some problem marking the note as read. Try again."
 msgstr "Došlo je do problema pri označavanju beleške kao pročitane. Pokušajte ponovo."
 
-#: /media/js/views/comm.js:268
+#: /media/js/views/comm.js:276
 msgid "No notes to show."
 msgstr "Nema beleški za prikazivanje."
 
-#: /media/js/views/comm.js:275
+#: /media/js/views/comm.js:283
 msgid "There was some problem marking the thread as read. Try again."
 msgstr "Bilo je nekih problema oko označavanja teme kao pročitane. Pokušajte ponovo."
 
-#: /media/js/views/comm.js:285
+#: /media/js/views/comm.js:293
 msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
 msgstr "Uspešno ste ukinuli pretplatu. Više nećete primati obaveštenja za ovu temu."
 
