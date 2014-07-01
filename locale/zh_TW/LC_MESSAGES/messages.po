@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-06-30T16:47:28.123Z\n"
-"PO-Revision-Date: 2014-05-22 02:24+0000\n"
+"PO-Revision-Date: 2014-07-01 05:05+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: MozTW <petercpg@mail.moztw.org>\n"
 "Language: zh_TW\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-POOTLE-MTIME: 1400725468.0\n"
+"X-POOTLE-MTIME: 1404191150.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -147,7 +147,7 @@ msgstr "您沒有討論串。"
 
 #: /templates/comm/main.html:15
 msgid "Hmm...an error?"
-msgstr ""
+msgstr "嗯…發生錯誤了嗎？"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -289,11 +289,11 @@ msgstr "已清除重新審核"
 
 #: /media/js/settings.js:51
 msgid "App submission note"
-msgstr ""
+msgstr "應用程式提交註記"
 
 #: /media/js/settings.js:52
 msgid "Developer comment"
-msgstr ""
+msgstr "開發者留言"
 
 #: /media/js/commonplace/login.js:8
 msgid "You have been signed out"
