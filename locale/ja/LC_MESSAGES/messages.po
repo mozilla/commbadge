@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-06-30T16:47:28.123Z\n"
-"PO-Revision-Date: 2014-05-21 13:10-0400\n"
+"PO-Revision-Date: 2014-06-30 20:16-0400\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -147,7 +147,7 @@ msgstr "スレッドがありません。"
 
 #: /templates/comm/main.html:15
 msgid "Hmm...an error?"
-msgstr ""
+msgstr "何か問題が発生したようです"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -290,11 +290,11 @@ msgstr "再審査クリア"
 
 #: /media/js/settings.js:51
 msgid "App submission note"
-msgstr ""
+msgstr "アプリ登録時の注意"
 
 #: /media/js/settings.js:52
 msgid "Developer comment"
-msgstr ""
+msgstr "開発者のコメント"
 
 #: /media/js/commonplace/login.js:8
 msgid "You have been signed out"
