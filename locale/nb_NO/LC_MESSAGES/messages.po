@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-06-30T16:47:28.123Z\n"
-"PO-Revision-Date: 2014-06-23 08:46+0000\n"
+"PO-Revision-Date: 2014-07-02 09:32+0000\n"
 "Last-Translator: Håvar <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1403513202.0\n"
+"X-POOTLE-MTIME: 1404293547.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -148,7 +148,7 @@ msgstr "Du har ingen tråder."
 
 #: /templates/comm/main.html:15
 msgid "Hmm...an error?"
-msgstr ""
+msgstr "Hmm … en feil?"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -295,7 +295,7 @@ msgstr ""
 
 #: /media/js/settings.js:52
 msgid "Developer comment"
-msgstr ""
+msgstr "Utviklerkommentar"
 
 #: /media/js/commonplace/login.js:8
 msgid "You have been signed out"
