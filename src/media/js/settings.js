@@ -44,9 +44,9 @@ define('settings', ['l10n', 'settings_local', 'underscore'], function(l10n, sett
             {'name': 'RESUBMISSION', 'class': 'resubmit', 'msg': gettext('App resubmission')},
 
             {'name': 'APPROVE_VERSION_WAITING', 'class': 'approve-waiting', 'msg': gettext('Approved but waiting to be made public')},
-            {'name': 'ESCALATION_CLEARED', 'class': 'escalate-clear', 'msg': gettext('Escalation cleared')},
             {'name': 'ESCALATION_HIGH_ABUSE', 'class': 'escalate-abuse', 'msg': gettext('Escalated due to High Abuse Reports')},
             {'name': 'ESCALATION_HIGH_REFUNDS', 'class': 'escalate-high-refunds', 'msg': gettext('Escalated due to High Refund Requests')},
+            {'name': 'ESCALATION_CLEARED', 'class': 'escalate-clear', 'msg': gettext('Escalation cleared')},
             {'name': 'REREVIEW_CLEARED', 'class': 'rereview-clear', 'msg': gettext('Re-review cleared')},
             {'name': 'SUBMISSION', 'class': 'submission', 'msg': gettext('App submission note')},
             {'name': 'DEVELOPER_COMMENT', 'class': 'developer-comment', 'msg': gettext('Developer comment')},
