@@ -287,10 +287,14 @@ define('views/comm',
     .on('click', '.unsubscribe', function() {
         var $threadItem = $(this).closest('.thread-item');
         var threadId = $threadItem.data('thread-id');
-        requests.del(urls.api.url('subscribe', [threadId])).done(function(data) {
-            $threadItem.remove();
-            notification.notification({
-                message: gettext('Successfully unsubsribed. You will no longer receive email notifications for that thread.')});
+        notification.confirmation({
+            message: gettext('By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?')
+        }).done(function() {;
+            requests.del(urls.api.url('subscribe', [threadId])).done(function(data) {
+                $threadItem.remove();
+                notification.notification({
+                    message: gettext('Successfully unsubscribed. You will no longer receive email notifications for that thread.')});
+            });
         });
     });
 
