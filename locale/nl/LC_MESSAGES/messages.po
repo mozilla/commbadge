@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-16T16:15:30.341Z\n"
-"PO-Revision-Date: 2014-07-01 06:47+0000\n"
+"PO-Revision-Date: 2014-07-16 21:00+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: none\n"
 "Language: nl\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1404197250.0\n"
+"X-POOTLE-MTIME: 1405544438.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -146,7 +146,7 @@ msgstr "Gelezen"
 
 #: /templates/_macros/thread_header.html:45
 msgid "View App"
-msgstr ""
+msgstr "App weergeven"
 
 #: /templates/_macros/thread_header.html:49
 msgid "Unsubscribe"
@@ -369,10 +369,14 @@ msgstr "Er was een probleem bij het markeren van de conversatie als gelezen. Pro
 #: /media/js/views/comm.js:291
 msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
 msgstr ""
+"Door u van deze conversatie uit te schrijven zult u hiervan geen "
+"e-mailmeldingen meer ontvangen. Weet u het zeker?"
 
 #: /media/js/views/comm.js:296
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
 msgstr ""
+"Met succes uitgeschreven. U ontvangt geen e-mailmeldingen meer voor deze "
+"conversatie."
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"
