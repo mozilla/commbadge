@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-30T16:47:28.123Z\n"
+"POT-Creation-Date: 2014-07-16T16:15:30.341Z\n"
 "PO-Revision-Date: 2014-07-01 06:47+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: none\n"
@@ -25,18 +25,6 @@ msgstr "Nee"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Ja"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Dashboard voor communicatie"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Afmelden"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Aanmelden"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -82,6 +70,18 @@ msgstr "Gebruiksvoorwaarden"
 msgid "Report Trademark Abuse"
 msgstr "Misbruik van handelsmerk melden"
 
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Dashboard voor communicatie"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Afmelden"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Aanmelden"
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr "Bijlage"
@@ -90,21 +90,13 @@ msgstr "Bijlage"
 msgid "File Description"
 msgstr "Bestandsbeschrijving"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Aanmelden"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "U moet zich aanmelden om verder te gaan."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Aanmelden / registreren"
-
 #: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "Geen opmerkingen gevonden"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Oudere weergeven"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -121,34 +113,6 @@ msgstr "Nog een bestand toevoegen"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "Plaatsen"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Oudere weergeven"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "App-pictogram"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Alle conversaties voor {app_name}"
-
-#: /templates/comm/app_dashboard.html:8
-msgid "Back to my threads"
-msgstr "Terug naar mijn conversaties"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Mijn conversaties"
-
-#: /templates/comm/main.html:13
-msgid "You have no threads."
-msgstr "U hebt geen conversaties."
-
-#: /templates/comm/main.html:15
-msgid "Hmm...an error?"
-msgstr "Hmm… een fout?"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -180,18 +144,46 @@ msgstr "Ongelezen"
 msgid "Read"
 msgstr "Gelezen"
 
-#: /templates/_macros/thread_header.html:48
+#: /templates/_macros/thread_header.html:45
+msgid "View App"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:49
 msgid "Unsubscribe"
 msgstr "Uitschrijven"
 
 # verb or noun?
-#: /templates/_macros/thread_header.html:51
+#: /templates/_macros/thread_header.html:52
 msgid "Review"
 msgstr "Beoordelen"
 
-#: /templates/_macros/thread_header.html:54
+#: /templates/_macros/thread_header.html:55
 msgid "Mark All Read"
 msgstr "Alle markeren als gelezen"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "App-pictogram"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Alle conversaties voor {app_name}"
+
+#: /templates/comm/app_dashboard.html:8
+msgid "Back to my threads"
+msgstr "Terug naar mijn conversaties"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Mijn conversaties"
+
+#: /templates/comm/main.html:13
+msgid "You have no threads."
+msgstr "U hebt geen conversaties."
+
+#: /templates/comm/main.html:15
+msgid "Hmm...an error?"
+msgstr "Hmm… een fout?"
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
@@ -201,6 +193,18 @@ msgstr "Deze opmerking markeren als gelezen"
 #: /templates/comm/note_detail.html:15
 msgid "Empty note"
 msgstr "Lege opmerking"
+
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Aanmelden"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "U moet zich aanmelden om verder te gaan."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Aanmelden / registreren"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -276,16 +280,16 @@ msgid "Approved but waiting to be made public"
 msgstr "Goedgekeurd, maar wacht op publicatie"
 
 #: /media/js/settings.js:47
-msgid "Escalation cleared"
-msgstr "Escalatie opgeheven"
-
-#: /media/js/settings.js:48
 msgid "Escalated due to High Abuse Reports"
 msgstr "Geëscaleerd vanwege groot aantal misbruikmeldingen"
 
-#: /media/js/settings.js:49
+#: /media/js/settings.js:48
 msgid "Escalated due to High Refund Requests"
 msgstr "Geëscaleerd vanwege groot aantal restitutieverzoeken"
+
+#: /media/js/settings.js:49
+msgid "Escalation cleared"
+msgstr "Escalatie opgeheven"
 
 #: /media/js/settings.js:50
 msgid "Re-review cleared"
@@ -362,9 +366,13 @@ msgstr "Geen opmerkingen te tonen."
 msgid "There was some problem marking the thread as read. Try again."
 msgstr "Er was een probleem bij het markeren van de conversatie als gelezen. Probeer het opnieuw."
 
-#: /media/js/views/comm.js:293
-msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
-msgstr "Uitschrijven gelukt. U ontvangt geen e-mailmeldingen meer voor die conversatie."
+#: /media/js/views/comm.js:291
+msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+msgstr ""
+
+#: /media/js/views/comm.js:296
+msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
+msgstr ""
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"

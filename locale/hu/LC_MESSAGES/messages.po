@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-30T16:47:28.123Z\n"
+"POT-Creation-Date: 2014-07-16T16:15:30.341Z\n"
 "PO-Revision-Date: 2014-05-22 13:08+0000\n"
 "Last-Translator: Gábor <kelemeng@ubuntu.com>\n"
 "Language-Team: none\n"
@@ -25,18 +25,6 @@ msgstr "Nem"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Igen"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Kommunikációs vezérlőpult"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Kijelentkezés"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Bejelentkezés"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -82,6 +70,18 @@ msgstr "Felhasználási feltételek"
 msgid "Report Trademark Abuse"
 msgstr "Védjeggyel kapcsolatos visszaélés jelentése"
 
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Kommunikációs vezérlőpult"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Kijelentkezés"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Bejelentkezés"
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr "Melléklet"
@@ -90,21 +90,13 @@ msgstr "Melléklet"
 msgid "File Description"
 msgstr "Fájl leírása"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Bejelentkezés"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Be kell jelentkeznie a folytatáshoz."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Bejelentkezés/regisztráció"
-
 #: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "Nincsenek jegyzetek"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Régebbi megjelenítése"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -121,34 +113,6 @@ msgstr "Másik fájl csatolása"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "Küldés"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Régebbi megjelenítése"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "App ikon"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "{app_name} minden szálának megjelenítése"
-
-#: /templates/comm/app_dashboard.html:8
-msgid "Back to my threads"
-msgstr "Vissza a szálaimhoz"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Szálaim"
-
-#: /templates/comm/main.html:13
-msgid "You have no threads."
-msgstr "Nincsenek szálak."
-
-#: /templates/comm/main.html:15
-msgid "Hmm...an error?"
-msgstr ""
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -180,17 +144,45 @@ msgstr "Olvasatlan"
 msgid "Read"
 msgstr "Olvasott"
 
-#: /templates/_macros/thread_header.html:48
+#: /templates/_macros/thread_header.html:45
+msgid "View App"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:49
 msgid "Unsubscribe"
 msgstr "Leiratkozás"
 
-#: /templates/_macros/thread_header.html:51
+#: /templates/_macros/thread_header.html:52
 msgid "Review"
 msgstr "Értékelés"
 
-#: /templates/_macros/thread_header.html:54
+#: /templates/_macros/thread_header.html:55
 msgid "Mark All Read"
 msgstr "Összes jelölése olvasottként"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "App ikon"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "{app_name} minden szálának megjelenítése"
+
+#: /templates/comm/app_dashboard.html:8
+msgid "Back to my threads"
+msgstr "Vissza a szálaimhoz"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Szálaim"
+
+#: /templates/comm/main.html:13
+msgid "You have no threads."
+msgstr "Nincsenek szálak."
+
+#: /templates/comm/main.html:15
+msgid "Hmm...an error?"
+msgstr ""
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
@@ -199,6 +191,18 @@ msgstr "Jegyzet megjelölése olvasottként"
 #: /templates/comm/note_detail.html:15
 msgid "Empty note"
 msgstr "Üres jegyzet"
+
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Bejelentkezés"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Be kell jelentkeznie a folytatáshoz."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Bejelentkezés/regisztráció"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -274,16 +278,16 @@ msgid "Approved but waiting to be made public"
 msgstr "Jóváhagyva, de közzétételre vár"
 
 #: /media/js/settings.js:47
-msgid "Escalation cleared"
-msgstr "Eszkaláció törölve"
-
-#: /media/js/settings.js:48
 msgid "Escalated due to High Abuse Reports"
 msgstr "Eszkalálva a sok visszaélési jelentés miatt"
 
-#: /media/js/settings.js:49
+#: /media/js/settings.js:48
 msgid "Escalated due to High Refund Requests"
 msgstr "Eszkalálva a sok visszatérítési kérés miatt"
+
+#: /media/js/settings.js:49
+msgid "Escalation cleared"
+msgstr "Eszkaláció törölve"
 
 #: /media/js/settings.js:50
 msgid "Re-review cleared"
@@ -360,9 +364,13 @@ msgstr "Nincsenek megjeleníthető jegyzetek."
 msgid "There was some problem marking the thread as read. Try again."
 msgstr "Hiba történt a szál olvasottként jelölésekor. Próbálja újra."
 
-#: /media/js/views/comm.js:293
-msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
-msgstr "Sikeresen leiratkozott. Nem fog további e-mail értesítéseket kapni erről a szálról."
+#: /media/js/views/comm.js:291
+msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+msgstr ""
+
+#: /media/js/views/comm.js:296
+msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
+msgstr ""
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"

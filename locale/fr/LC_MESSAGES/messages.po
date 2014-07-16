@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-30T16:47:28.123Z\n"
+"POT-Creation-Date: 2014-07-16T16:15:30.341Z\n"
 "PO-Revision-Date: 2014-04-27 08:11+0000\n"
 "Last-Translator: Benoit <benoit.leseul@gmail.com>\n"
 "Language-Team: français <>\n"
@@ -28,18 +28,6 @@ msgstr "Non"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Oui"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Tableau de bord de communication"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Déconnexion"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Connexion"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -85,6 +73,18 @@ msgstr "Conditions d'utilisation"
 msgid "Report Trademark Abuse"
 msgstr "Signaler un abus de marque déposée"
 
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Tableau de bord de communication"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Déconnexion"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Connexion"
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr "Pièce jointe"
@@ -93,21 +93,13 @@ msgstr "Pièce jointe"
 msgid "File Description"
 msgstr "Description du fichier"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Connexion"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Vous devez vous identifier pour continuer."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Connexion / Inscription"
-
 #: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "Aucune note trouvée"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Afficher plus anciens"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -124,34 +116,6 @@ msgstr "Joindre un autre fichier"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "Envoyer"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Afficher plus anciens"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Icône de l'application"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Affichage de toutes les discussion sur {app_name}"
-
-#: /templates/comm/app_dashboard.html:8
-msgid "Back to my threads"
-msgstr "Revenir à mes discussions"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Mes discussions"
-
-#: /templates/comm/main.html:13
-msgid "You have no threads."
-msgstr "Vous n'avez aucun sujet de discussion."
-
-#: /templates/comm/main.html:15
-msgid "Hmm...an error?"
-msgstr ""
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -183,17 +147,45 @@ msgstr "Non lu"
 msgid "Read"
 msgstr "Lu"
 
-#: /templates/_macros/thread_header.html:48
+#: /templates/_macros/thread_header.html:45
+msgid "View App"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:49
 msgid "Unsubscribe"
 msgstr "Désinscription"
 
-#: /templates/_macros/thread_header.html:51
+#: /templates/_macros/thread_header.html:52
 msgid "Review"
 msgstr "Révision"
 
-#: /templates/_macros/thread_header.html:54
+#: /templates/_macros/thread_header.html:55
 msgid "Mark All Read"
 msgstr "Tout marquer comme lu"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Icône de l'application"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Affichage de toutes les discussion sur {app_name}"
+
+#: /templates/comm/app_dashboard.html:8
+msgid "Back to my threads"
+msgstr "Revenir à mes discussions"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Mes discussions"
+
+#: /templates/comm/main.html:13
+msgid "You have no threads."
+msgstr "Vous n'avez aucun sujet de discussion."
+
+#: /templates/comm/main.html:15
+msgid "Hmm...an error?"
+msgstr ""
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
@@ -202,6 +194,18 @@ msgstr "Marquer cette note comme lue"
 #: /templates/comm/note_detail.html:15
 msgid "Empty note"
 msgstr "Note vide"
+
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Connexion"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Vous devez vous identifier pour continuer."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Connexion / Inscription"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -277,16 +281,16 @@ msgid "Approved but waiting to be made public"
 msgstr "Approuvée(s) mais en attente de publication"
 
 #: /media/js/settings.js:47
-msgid "Escalation cleared"
-msgstr "Signalement supprimé"
-
-#: /media/js/settings.js:48
 msgid "Escalated due to High Abuse Reports"
 msgstr "Signalée suite à de nombreux rapports d'abus"
 
-#: /media/js/settings.js:49
+#: /media/js/settings.js:48
 msgid "Escalated due to High Refund Requests"
 msgstr "Signalée suite à de nombreuses demandes de remboursement"
+
+#: /media/js/settings.js:49
+msgid "Escalation cleared"
+msgstr "Signalement supprimé"
 
 #: /media/js/settings.js:50
 msgid "Re-review cleared"
@@ -363,9 +367,13 @@ msgstr "Aucune note à afficher."
 msgid "There was some problem marking the thread as read. Try again."
 msgstr "Un problème s'est produit lors du marquage de la discussion comme lue. Veuillez réessayer."
 
-#: /media/js/views/comm.js:293
-msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
-msgstr "Désinscription effectuée. Vous ne recevrez plus de notifications par courriel pour ce sujet."
+#: /media/js/views/comm.js:291
+msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+msgstr ""
+
+#: /media/js/views/comm.js:296
+msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
+msgstr ""
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"

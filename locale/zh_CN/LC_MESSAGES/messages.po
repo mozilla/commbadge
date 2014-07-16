@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-30T16:47:28.123Z\n"
+"POT-Creation-Date: 2014-07-16T16:15:30.341Z\n"
 "PO-Revision-Date: 2014-07-04 23:20+0000\n"
 "Last-Translator: yfdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,18 +25,6 @@ msgstr "否"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "是"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "沟通主控台"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "登出"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "登录"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -80,6 +68,18 @@ msgstr "使用条款"
 msgid "Report Trademark Abuse"
 msgstr "回报商标滥用"
 
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "沟通主控台"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "登出"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "登录"
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr "附件"
@@ -88,21 +88,13 @@ msgstr "附件"
 msgid "File Description"
 msgstr "文件描述"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "登录"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "您必须登录才能继续。"
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "登录/注册"
-
 #: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "未找到笔记"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "查看更旧条目"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -119,34 +111,6 @@ msgstr "附加另一个文件"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "发表"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "查看更旧条目"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "应用图标"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "查看所有 {app_name} 的话题"
-
-#: /templates/comm/app_dashboard.html:8
-msgid "Back to my threads"
-msgstr "返回我的话题"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "我的话题"
-
-#: /templates/comm/main.html:13
-msgid "You have no threads."
-msgstr "您没有话题。"
-
-#: /templates/comm/main.html:15
-msgid "Hmm...an error?"
-msgstr "呃…出问题了？"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -177,17 +141,45 @@ msgstr "未读"
 msgid "Read"
 msgstr "已读"
 
-#: /templates/_macros/thread_header.html:48
+#: /templates/_macros/thread_header.html:45
+msgid "View App"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:49
 msgid "Unsubscribe"
 msgstr "取消订阅"
 
-#: /templates/_macros/thread_header.html:51
+#: /templates/_macros/thread_header.html:52
 msgid "Review"
 msgstr "评论"
 
-#: /templates/_macros/thread_header.html:54
+#: /templates/_macros/thread_header.html:55
 msgid "Mark All Read"
 msgstr "全部标记为已读"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "应用图标"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "查看所有 {app_name} 的话题"
+
+#: /templates/comm/app_dashboard.html:8
+msgid "Back to my threads"
+msgstr "返回我的话题"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "我的话题"
+
+#: /templates/comm/main.html:13
+msgid "You have no threads."
+msgstr "您没有话题。"
+
+#: /templates/comm/main.html:15
+msgid "Hmm...an error?"
+msgstr "呃…出问题了？"
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
@@ -196,6 +188,18 @@ msgstr "将此笔记标记为已读"
 #: /templates/comm/note_detail.html:15
 msgid "Empty note"
 msgstr "空笔记"
+
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "登录"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "您必须登录才能继续。"
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "登录/注册"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -271,16 +275,16 @@ msgid "Approved but waiting to be made public"
 msgstr "已通过审核，等待发布中"
 
 #: /media/js/settings.js:47
-msgid "Escalation cleared"
-msgstr "向上呈报已清除"
-
-#: /media/js/settings.js:48
 msgid "Escalated due to High Abuse Reports"
 msgstr "由于存在大量滥用报告，已向上呈报"
 
-#: /media/js/settings.js:49
+#: /media/js/settings.js:48
 msgid "Escalated due to High Refund Requests"
 msgstr "由于存在大量退款请求，已向上呈报"
+
+#: /media/js/settings.js:49
+msgid "Escalation cleared"
+msgstr "向上呈报已清除"
 
 #: /media/js/settings.js:50
 msgid "Re-review cleared"
@@ -356,9 +360,13 @@ msgstr "没有可显示的笔记。"
 msgid "There was some problem marking the thread as read. Try again."
 msgstr "将话题标示为已读时发生错误，请重试。"
 
-#: /media/js/views/comm.js:293
-msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
-msgstr "已成功退订。您将不会再收到此话题的邮件通知。"
+#: /media/js/views/comm.js:291
+msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+msgstr ""
+
+#: /media/js/views/comm.js:296
+msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
+msgstr ""
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"

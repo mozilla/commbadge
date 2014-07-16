@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-30T16:47:28.123Z\n"
+"POT-Creation-Date: 2014-07-16T16:15:30.341Z\n"
 "PO-Revision-Date: 2013-10-19 23:50+0000\n"
 "Last-Translator: Michael <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,18 +25,6 @@ msgstr "Chan eil"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Tha"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Deas-bhòrd a' chonaltraidh"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Clàraich a-mach"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Clàraich a-steach"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -82,6 +70,18 @@ msgstr "Teirmichean a' chleachdaidh"
 msgid "Report Trademark Abuse"
 msgstr "Dèan aithris air mì-chleachdadh comarra-malairt"
 
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Deas-bhòrd a' chonaltraidh"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Clàraich a-mach"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Clàraich a-steach"
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr ""
@@ -90,21 +90,13 @@ msgstr ""
 msgid "File Description"
 msgstr ""
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Clàraich a-steach"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Feumaidh tu clàradh a-steach mus urrainn dhut leantainn air adhart."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Clàraich a-steach/Clàraich leinn"
-
 #: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr ""
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Seall an fheadhainn nas sine"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -121,34 +113,6 @@ msgstr ""
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "Cuir"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Seall an fheadhainn nas sine"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr ""
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr ""
-
-#: /templates/comm/app_dashboard.html:8
-msgid "Back to my threads"
-msgstr ""
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr ""
-
-#: /templates/comm/main.html:13
-msgid "You have no threads."
-msgstr "Chan eil snàithlean sam bith agad."
-
-#: /templates/comm/main.html:15
-msgid "Hmm...an error?"
-msgstr ""
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -182,17 +146,45 @@ msgstr "Gun leughadh"
 msgid "Read"
 msgstr "Air a leughadh"
 
-#: /templates/_macros/thread_header.html:48
+#: /templates/_macros/thread_header.html:45
+msgid "View App"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:49
 msgid "Unsubscribe"
 msgstr ""
 
-#: /templates/_macros/thread_header.html:51
+#: /templates/_macros/thread_header.html:52
 msgid "Review"
 msgstr ""
 
-#: /templates/_macros/thread_header.html:54
+#: /templates/_macros/thread_header.html:55
 msgid "Mark All Read"
 msgstr "Cuir comharra gun deach iad uile a leughadh"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr ""
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr ""
+
+#: /templates/comm/app_dashboard.html:8
+msgid "Back to my threads"
+msgstr ""
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr ""
+
+#: /templates/comm/main.html:13
+msgid "You have no threads."
+msgstr "Chan eil snàithlean sam bith agad."
+
+#: /templates/comm/main.html:15
+msgid "Hmm...an error?"
+msgstr ""
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
@@ -201,6 +193,18 @@ msgstr "Cuir comharra gun deach an nòta seo a leughadh"
 #: /templates/comm/note_detail.html:15
 msgid "Empty note"
 msgstr ""
+
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Clàraich a-steach"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Feumaidh tu clàradh a-steach mus urrainn dhut leantainn air adhart."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Clàraich a-steach/Clàraich leinn"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -276,15 +280,15 @@ msgid "Approved but waiting to be made public"
 msgstr ""
 
 #: /media/js/settings.js:47
-msgid "Escalation cleared"
-msgstr ""
-
-#: /media/js/settings.js:48
 msgid "Escalated due to High Abuse Reports"
 msgstr ""
 
-#: /media/js/settings.js:49
+#: /media/js/settings.js:48
 msgid "Escalated due to High Refund Requests"
+msgstr ""
+
+#: /media/js/settings.js:49
+msgid "Escalation cleared"
 msgstr ""
 
 #: /media/js/settings.js:50
@@ -364,8 +368,12 @@ msgstr "Chan eil nòta ann a ghabhas a shealltainn."
 msgid "There was some problem marking the thread as read. Try again."
 msgstr "Cha b' urrainn dhuinn comharradh gun deach an snàithlean a leughadh. Nach fheuch thu ris a-rithist?"
 
-#: /media/js/views/comm.js:293
-msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
+#: /media/js/views/comm.js:291
+msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+msgstr ""
+
+#: /media/js/views/comm.js:296
+msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
 msgstr ""
 
 #: /media/js/views/commonplace/hello_world.js:9

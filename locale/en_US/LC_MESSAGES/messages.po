@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-30T16:47:28.123Z\n"
+"POT-Creation-Date: 2014-07-16T16:15:30.341Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -24,18 +24,6 @@ msgstr "No"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Yes"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Communication Dashboard"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Sign Out"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Sign In"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -81,6 +69,18 @@ msgstr "Terms of Use"
 msgid "Report Trademark Abuse"
 msgstr "Report Trademark Abuse"
 
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Communication Dashboard"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Sign Out"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Sign In"
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr "Attachment"
@@ -89,21 +89,13 @@ msgstr "Attachment"
 msgid "File Description"
 msgstr "File Description"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Sign in"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "You must sign in to proceed."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Sign in / Sign up"
-
 #: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "No notes found"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "View older"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -120,34 +112,6 @@ msgstr "Attach another file"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "Post"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "View older"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "App icon"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Viewing All Threads for {app_name}"
-
-#: /templates/comm/app_dashboard.html:8
-msgid "Back to my threads"
-msgstr "Back to my threads"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "My Threads"
-
-#: /templates/comm/main.html:13
-msgid "You have no threads."
-msgstr "You have no threads."
-
-#: /templates/comm/main.html:15
-msgid "Hmm...an error?"
-msgstr "Hmm...an error?"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -179,17 +143,45 @@ msgstr "Unread"
 msgid "Read"
 msgstr "Read"
 
-#: /templates/_macros/thread_header.html:48
+#: /templates/_macros/thread_header.html:45
+msgid "View App"
+msgstr "View App"
+
+#: /templates/_macros/thread_header.html:49
 msgid "Unsubscribe"
 msgstr "Unsubscribe"
 
-#: /templates/_macros/thread_header.html:51
+#: /templates/_macros/thread_header.html:52
 msgid "Review"
 msgstr "Review"
 
-#: /templates/_macros/thread_header.html:54
+#: /templates/_macros/thread_header.html:55
 msgid "Mark All Read"
 msgstr "Mark All Read"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "App icon"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Viewing All Threads for {app_name}"
+
+#: /templates/comm/app_dashboard.html:8
+msgid "Back to my threads"
+msgstr "Back to my threads"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "My Threads"
+
+#: /templates/comm/main.html:13
+msgid "You have no threads."
+msgstr "You have no threads."
+
+#: /templates/comm/main.html:15
+msgid "Hmm...an error?"
+msgstr "Hmm...an error?"
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
@@ -198,6 +190,18 @@ msgstr "Mark this note as read"
 #: /templates/comm/note_detail.html:15
 msgid "Empty note"
 msgstr "Empty note"
+
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Sign in"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "You must sign in to proceed."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Sign in / Sign up"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -273,16 +277,16 @@ msgid "Approved but waiting to be made public"
 msgstr "Approved but waiting to be made public"
 
 #: /media/js/settings.js:47
-msgid "Escalation cleared"
-msgstr "Escalation cleared"
-
-#: /media/js/settings.js:48
 msgid "Escalated due to High Abuse Reports"
 msgstr "Escalated due to High Abuse Reports"
 
-#: /media/js/settings.js:49
+#: /media/js/settings.js:48
 msgid "Escalated due to High Refund Requests"
 msgstr "Escalated due to High Refund Requests"
+
+#: /media/js/settings.js:49
+msgid "Escalation cleared"
+msgstr "Escalation cleared"
 
 #: /media/js/settings.js:50
 msgid "Re-review cleared"
@@ -359,9 +363,13 @@ msgstr "No notes to show."
 msgid "There was some problem marking the thread as read. Try again."
 msgstr "There was some problem marking the thread as read. Try again."
 
-#: /media/js/views/comm.js:293
-msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
-msgstr "Successfully unsubsribed. You will no longer receive email notifications for that thread."
+#: /media/js/views/comm.js:291
+msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+msgstr "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+
+#: /media/js/views/comm.js:296
+msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
+msgstr "Successfully unsubscribed. You will no longer receive email notifications for that thread."
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"

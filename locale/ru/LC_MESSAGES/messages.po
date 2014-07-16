@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-30T16:47:28.123Z\n"
+"POT-Creation-Date: 2014-07-16T16:15:30.341Z\n"
 "PO-Revision-Date: 2014-07-05 15:35+0000\n"
 "Last-Translator: Alexander <unghost@mozilla-russia.org>\n"
 "Language-Team: none\n"
@@ -10,8 +10,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1404574552.0\n"
 
@@ -26,18 +25,6 @@ msgstr "Нет"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Да"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Панель коммуникации"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Выйти"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Войти"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -83,6 +70,18 @@ msgstr "Условия использования"
 msgid "Report Trademark Abuse"
 msgstr "Сообщить о злоупотреблении торговой маркой"
 
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Панель коммуникации"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Выйти"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Войти"
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr "Приложение"
@@ -91,21 +90,13 @@ msgstr "Приложение"
 msgid "File Description"
 msgstr "Описание файла"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Войти"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Вы должны войти для продолжения"
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Вход / Регистрация"
-
 #: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "Заметок не найдено"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Показать старые"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -122,34 +113,6 @@ msgstr "Приложите другой файл"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "Разместить"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Показать старые"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Значок приложения"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Просмотр всех обсуждений для {app_name}"
-
-#: /templates/comm/app_dashboard.html:8
-msgid "Back to my threads"
-msgstr "Вернуться к моим обсуждениям"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Мои обсуждения"
-
-#: /templates/comm/main.html:13
-msgid "You have no threads."
-msgstr "У вас нет обсуждений."
-
-#: /templates/comm/main.html:15
-msgid "Hmm...an error?"
-msgstr "Хмм...ошибка?"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -182,17 +145,45 @@ msgstr "Непрочитанные"
 msgid "Read"
 msgstr "Прочитанные"
 
-#: /templates/_macros/thread_header.html:48
+#: /templates/_macros/thread_header.html:45
+msgid "View App"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:49
 msgid "Unsubscribe"
 msgstr "Отписаться"
 
-#: /templates/_macros/thread_header.html:51
+#: /templates/_macros/thread_header.html:52
 msgid "Review"
 msgstr "Рецензировать"
 
-#: /templates/_macros/thread_header.html:54
+#: /templates/_macros/thread_header.html:55
 msgid "Mark All Read"
 msgstr "Пометить все как \"прочитанные\""
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Значок приложения"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Просмотр всех обсуждений для {app_name}"
+
+#: /templates/comm/app_dashboard.html:8
+msgid "Back to my threads"
+msgstr "Вернуться к моим обсуждениям"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Мои обсуждения"
+
+#: /templates/comm/main.html:13
+msgid "You have no threads."
+msgstr "У вас нет обсуждений."
+
+#: /templates/comm/main.html:15
+msgid "Hmm...an error?"
+msgstr "Хмм...ошибка?"
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
@@ -201,6 +192,18 @@ msgstr "Пометить эту заметку как прочитанную"
 #: /templates/comm/note_detail.html:15
 msgid "Empty note"
 msgstr "Пустая заметка"
+
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Войти"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Вы должны войти для продолжения"
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Вход / Регистрация"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -276,16 +279,16 @@ msgid "Approved but waiting to be made public"
 msgstr "Одобрено, но ожидает представления публике"
 
 #: /media/js/settings.js:47
-msgid "Escalation cleared"
-msgstr "Эскалация очищена"
-
-#: /media/js/settings.js:48
 msgid "Escalated due to High Abuse Reports"
 msgstr "Эскалация из-за большого числа жалоб"
 
-#: /media/js/settings.js:49
+#: /media/js/settings.js:48
 msgid "Escalated due to High Refund Requests"
 msgstr "Эскалация из-за множества запросов на возврат денег"
+
+#: /media/js/settings.js:49
+msgid "Escalation cleared"
+msgstr "Эскалация очищена"
 
 #: /media/js/settings.js:50
 msgid "Re-review cleared"
@@ -363,9 +366,13 @@ msgstr "Нет заметок для показа."
 msgid "There was some problem marking the thread as read. Try again."
 msgstr "При пометке обсуждения как прочтённого возникла проблема. Попробуйте снова."
 
-#: /media/js/views/comm.js:293
-msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
-msgstr "Отписание прошло успешно. Вы больше не будете получать уведомления по эл. почте для этого обсуждения."
+#: /media/js/views/comm.js:291
+msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+msgstr ""
+
+#: /media/js/views/comm.js:296
+msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
+msgstr ""
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"

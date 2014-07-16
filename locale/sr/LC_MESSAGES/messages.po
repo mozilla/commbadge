@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-30T16:47:28.123Z\n"
+"POT-Creation-Date: 2014-07-16T16:15:30.341Z\n"
 "PO-Revision-Date: 2014-07-13 08:09+0000\n"
 "Last-Translator: Vanja <tumbas93@gmail.com>\n"
 "Language-Team: none\n"
@@ -10,8 +10,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1405238957.0\n"
 
@@ -26,18 +25,6 @@ msgstr "Не"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Да"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Комуникациона контролна табла"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Одјави се"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Пријави се"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -83,6 +70,18 @@ msgstr "Услови коришћења"
 msgid "Report Trademark Abuse"
 msgstr "Пријавите злоупотребу робне марке"
 
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Комуникациона контролна табла"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Одјави се"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Пријави се"
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr "Прилог"
@@ -91,21 +90,13 @@ msgstr "Прилог"
 msgid "File Description"
 msgstr "Опис датотеке"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Пријави се"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Морате се пријавити како бисте наставили даље."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Пријави се / Региструј се"
-
 #: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "Нема пронађених белешки"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Погледајте старије"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -122,34 +113,6 @@ msgstr "Закачите још једну датотеку"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "Порука"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Погледајте старије"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Иконица апликације"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Преглед свих тема за {app_name}"
-
-#: /templates/comm/app_dashboard.html:8
-msgid "Back to my threads"
-msgstr "Повратак на моје теме"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Моје теме"
-
-#: /templates/comm/main.html:13
-msgid "You have no threads."
-msgstr "Немате теме."
-
-#: /templates/comm/main.html:15
-msgid "Hmm...an error?"
-msgstr "Хмм...грешка?"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -182,17 +145,45 @@ msgstr "Непрочитанe"
 msgid "Read"
 msgstr "Прочитај"
 
-#: /templates/_macros/thread_header.html:48
+#: /templates/_macros/thread_header.html:45
+msgid "View App"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:49
 msgid "Unsubscribe"
 msgstr "Укини претплату"
 
-#: /templates/_macros/thread_header.html:51
+#: /templates/_macros/thread_header.html:52
 msgid "Review"
 msgstr "Оцени"
 
-#: /templates/_macros/thread_header.html:54
+#: /templates/_macros/thread_header.html:55
 msgid "Mark All Read"
 msgstr "Означи све прочитане"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Иконица апликације"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Преглед свих тема за {app_name}"
+
+#: /templates/comm/app_dashboard.html:8
+msgid "Back to my threads"
+msgstr "Повратак на моје теме"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Моје теме"
+
+#: /templates/comm/main.html:13
+msgid "You have no threads."
+msgstr "Немате теме."
+
+#: /templates/comm/main.html:15
+msgid "Hmm...an error?"
+msgstr "Хмм...грешка?"
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
@@ -201,6 +192,18 @@ msgstr "Означите ову белешку као прочитану"
 #: /templates/comm/note_detail.html:15
 msgid "Empty note"
 msgstr "Празна белешка"
+
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Пријави се"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Морате се пријавити како бисте наставили даље."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Пријави се / Региструј се"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -276,16 +279,16 @@ msgid "Approved but waiting to be made public"
 msgstr "Одобрено али чека да буде јавно"
 
 #: /media/js/settings.js:47
-msgid "Escalation cleared"
-msgstr "Ескалација обрисана"
-
-#: /media/js/settings.js:48
 msgid "Escalated due to High Abuse Reports"
 msgstr "Ескалирало усред извештаја о високој злоупотреби"
 
-#: /media/js/settings.js:49
+#: /media/js/settings.js:48
 msgid "Escalated due to High Refund Requests"
 msgstr "Ескалирало због великог броја захтева за рефундацију"
+
+#: /media/js/settings.js:49
+msgid "Escalation cleared"
+msgstr "Ескалација обрисана"
 
 #: /media/js/settings.js:50
 msgid "Re-review cleared"
@@ -363,9 +366,13 @@ msgstr "Нема белешки за приказивање."
 msgid "There was some problem marking the thread as read. Try again."
 msgstr "Било је неких проблема око означавања теме као прочитане. Покушајте поново."
 
-#: /media/js/views/comm.js:293
-msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
-msgstr "Успешно сте укинули претплату. Више нећете примати обавештења за ову тему."
+#: /media/js/views/comm.js:291
+msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+msgstr ""
+
+#: /media/js/views/comm.js:296
+msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
+msgstr ""
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"

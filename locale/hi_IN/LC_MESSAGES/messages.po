@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-30T16:47:28.123Z\n"
+"POT-Creation-Date: 2014-07-16T16:15:30.341Z\n"
 "PO-Revision-Date: 2014-05-14 08:17+0000\n"
 "Last-Translator: Umesh <umesh.agarwal1@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,18 +25,6 @@ msgstr "नहीं"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "हाँ"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "संचार डैशबोर्ड"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "साइन आउट"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "साइन इन"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -82,6 +70,18 @@ msgstr "उपयोग की शर्तों"
 msgid "Report Trademark Abuse"
 msgstr "ट्रेडमार्क दुरुपयोग रिपोर्ट करें"
 
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "संचार डैशबोर्ड"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "साइन आउट"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "साइन इन"
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr "अनुलग्नक"
@@ -90,21 +90,13 @@ msgstr "अनुलग्नक"
 msgid "File Description"
 msgstr "फाइल विवरण"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "साइन इन"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "आगे बढ़ना के लियें साइन इन करना होगा."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "साइन इन / साइन अप"
-
 #: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "कोई नोट्स नहीं पाया गया"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "पुराने देखें"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -121,34 +113,6 @@ msgstr "एक और फाइल संलग्न करें"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "पोस्ट करें"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "पुराने देखें"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "एप्प्स आइकन"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "{app_name} के लिए सभी थ्रेड देख रहा है"
-
-#: /templates/comm/app_dashboard.html:8
-msgid "Back to my threads"
-msgstr "मेरे थ्रेड्स में वापस"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "मेरे थ्रेड्स"
-
-#: /templates/comm/main.html:13
-msgid "You have no threads."
-msgstr "आपके पास कोई थ्रेड्स नहीं है."
-
-#: /templates/comm/main.html:15
-msgid "Hmm...an error?"
-msgstr ""
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -180,17 +144,45 @@ msgstr "न पढ़े"
 msgid "Read"
 msgstr "पढ़ें"
 
-#: /templates/_macros/thread_header.html:48
+#: /templates/_macros/thread_header.html:45
+msgid "View App"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:49
 msgid "Unsubscribe"
 msgstr "सदस्यता रद्द"
 
-#: /templates/_macros/thread_header.html:51
+#: /templates/_macros/thread_header.html:52
 msgid "Review"
 msgstr "समीक्षा"
 
-#: /templates/_macros/thread_header.html:54
+#: /templates/_macros/thread_header.html:55
 msgid "Mark All Read"
 msgstr "सभी पढ़े गए रूप में चिह्नित करें"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "एप्प्स आइकन"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "{app_name} के लिए सभी थ्रेड देख रहा है"
+
+#: /templates/comm/app_dashboard.html:8
+msgid "Back to my threads"
+msgstr "मेरे थ्रेड्स में वापस"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "मेरे थ्रेड्स"
+
+#: /templates/comm/main.html:13
+msgid "You have no threads."
+msgstr "आपके पास कोई थ्रेड्स नहीं है."
+
+#: /templates/comm/main.html:15
+msgid "Hmm...an error?"
+msgstr ""
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
@@ -199,6 +191,18 @@ msgstr "स नोट को पढ़ें हुआ मार्क करे
 #: /templates/comm/note_detail.html:15
 msgid "Empty note"
 msgstr "खाली नोट"
+
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "साइन इन"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "आगे बढ़ना के लियें साइन इन करना होगा."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "साइन इन / साइन अप"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -274,16 +278,16 @@ msgid "Approved but waiting to be made public"
 msgstr "मंजूरी दी लेकिन सार्वजनिक किए जाने की प्रतीक्षा"
 
 #: /media/js/settings.js:47
-msgid "Escalation cleared"
-msgstr "वृद्धि साफ किया गया"
-
-#: /media/js/settings.js:48
 msgid "Escalated due to High Abuse Reports"
 msgstr "उच्च दुर्व्यवहार रिपोर्टों के कारण वृद्धि"
 
-#: /media/js/settings.js:49
+#: /media/js/settings.js:48
 msgid "Escalated due to High Refund Requests"
 msgstr "उच्च वापसी अनुरोधों के कारण वृद्धि"
+
+#: /media/js/settings.js:49
+msgid "Escalation cleared"
+msgstr "वृद्धि साफ किया गया"
 
 #: /media/js/settings.js:50
 msgid "Re-review cleared"
@@ -360,9 +364,13 @@ msgstr "दिखाने के लिए कोई नोट नहीं."
 msgid "There was some problem marking the thread as read. Try again."
 msgstr "पढ़ने हुअें के रूप में थ्रेड अंकन करनें में कुछ समस्या थी. फिर से कोशिश करें."
 
-#: /media/js/views/comm.js:293
-msgid "Successfully unsubsribed. You will no longer receive email notifications for that thread."
-msgstr "सफलतापूर्वक सदस्यता वापस. अब आप उस थ्रेड के लिए ईमेल सूचनाएँ प्राप्त नहीं करेंगे."
+#: /media/js/views/comm.js:291
+msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+msgstr ""
+
+#: /media/js/views/comm.js:296
+msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
+msgstr ""
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"
