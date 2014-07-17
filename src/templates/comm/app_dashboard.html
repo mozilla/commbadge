@@ -13,7 +13,8 @@
     {% end %}
   </div>
 
-  {% defer (url=apiParams('threads', ordering='-created', app=app_slug)) %}
+  {# Manually add app param to not URI-encode unicode characters. #}
+  {% defer (url=apiParams('threads', ordering='-created') + '&app=' + app_slug) %}
     {% include 'comm/threads_nav.html' %}
 
     {% if this.objects.length %}
