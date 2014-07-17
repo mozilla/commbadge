@@ -3,16 +3,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-16T16:15:30.341Z\n"
-"PO-Revision-Date: 2014-07-13 08:09+0000\n"
-"Last-Translator: Vanja <tumbas93@gmail.com>\n"
+"PO-Revision-Date: 2014-07-16 21:20+0000\n"
+"Last-Translator: Marko <marko.andrejic93@gmail.com>\n"
 "Language-Team: none\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1405238957.0\n"
+"X-POOTLE-MTIME: 1405545623.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -147,7 +148,7 @@ msgstr "Прочитај"
 
 #: /templates/_macros/thread_header.html:45
 msgid "View App"
-msgstr ""
+msgstr "Погледај апликацију"
 
 #: /templates/_macros/thread_header.html:49
 msgid "Unsubscribe"
@@ -369,10 +370,14 @@ msgstr "Било је неких проблема око означавања т
 #: /media/js/views/comm.js:291
 msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
 msgstr ""
+"Ако се одјавите са ове теме, нећете више добијати обавештења е-поштом из ове "
+"теме. Да ли сте сигурни?"
 
 #: /media/js/views/comm.js:296
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
 msgstr ""
+"Успешно сте се одјавили. Више нећете добијати обавештења е-поштом из ове "
+"теме."
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"
