@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Pootle 2.5.0\n"
+"X-Generator: Fireplace L10n Tools 1.0\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-POOTLE-MTIME: 1405558242.0\n"
 
@@ -52,10 +52,10 @@ msgid "Lookup Tool"
 msgstr "尋找工具"
 
 #: /templates/footer.html:24
-msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
-msgstr "除非另有 <a href=\"{legal_url}\" target=\"_blank\">提及</a>，網站內容皆採用 <a href=\"{cc_url}\" target=\"_blank\">創用 CC 姓名標示-相同方式分享 3.0</a> 或更新版本條款進行授權。"
+msgid "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> or any later version."
+msgstr ""
+"除非另有 <a href=\"{legal_url}\" target=\"_blank\">提及</a>，網站內容皆採用 <a href=\"{cc_url}\" "
+"target=\"_blank\">創用 CC 姓名標示-相同方式分享 3.0</a> 或更新版本條款進行授權。"
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
@@ -89,7 +89,9 @@ msgstr "附件"
 msgid "File Description"
 msgstr "檔案描述"
 
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+#: /templates/_macros/create_thread.html:10
+#: /templates/_macros/thread.html:15
+#: /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "找不到筆記"
 
@@ -121,12 +123,15 @@ msgstr "{app_name} ({version_number} 版)"
 msgid "(Obsolete)"
 msgstr "（已過時）"
 
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:50
+#: /templates/_macros/thread_header.html:27
+#: /media/js/views/comm.js:50
 msgid "{n} note"
 msgid_plural "{n} notes"
 msgstr[0] "{n} 筆筆記"
 
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:60 /media/js/views/comm.js:142
+#: /templates/_macros/thread_header.html:33
+#: /media/js/views/comm.js:60
+#: /media/js/views/comm.js:142
 msgid "Reply"
 msgstr "回覆"
 
@@ -190,7 +195,8 @@ msgstr "將此筆記標示為已讀"
 msgid "Empty note"
 msgstr "空白筆記"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
+#: /templates/login.html:2
+#: /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "登入"
 
@@ -219,7 +225,8 @@ msgstr "此應用程式的討論"
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+#: /templates/errors/404.html:2
+#: /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "喔不！"
 
