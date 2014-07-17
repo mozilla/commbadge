@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-16T16:15:30.341Z\n"
-"PO-Revision-Date: 2014-06-30 20:16-0400\n"
+"PO-Revision-Date: 2014-07-17 09:04-0400\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -145,7 +145,7 @@ msgstr "既読"
 
 #: /templates/_macros/thread_header.html:45
 msgid "View App"
-msgstr ""
+msgstr "アプリを見る"
 
 #: /templates/_macros/thread_header.html:49
 msgid "Unsubscribe"
@@ -365,11 +365,11 @@ msgstr "スレッドを既読にする際に問題が発生しました。また
 
 #: /media/js/views/comm.js:291
 msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr ""
+msgstr "購読を解除すると、今後このスレッドが更新されてもメールによる通知は送られなくなります。よろしいですか？"
 
 #: /media/js/views/comm.js:296
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr ""
+msgstr "購読を解除しました。今後このスレッドが更新されてもメールによる通知は送られません。"
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"
