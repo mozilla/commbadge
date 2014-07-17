@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-16T16:15:30.341Z\n"
-"PO-Revision-Date: 2014-07-01 05:05+0000\n"
+"PO-Revision-Date: 2014-07-17 00:50+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: MozTW <petercpg@mail.moztw.org>\n"
 "Language: zh_TW\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-POOTLE-MTIME: 1404191150.0\n"
+"X-POOTLE-MTIME: 1405558242.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -144,7 +144,7 @@ msgstr "已讀"
 
 #: /templates/_macros/thread_header.html:45
 msgid "View App"
-msgstr ""
+msgstr "檢視應用程式"
 
 #: /templates/_macros/thread_header.html:49
 msgid "Unsubscribe"
@@ -363,11 +363,11 @@ msgstr "將討論串標示為已讀時發生錯誤，請再試一次。"
 
 #: /media/js/views/comm.js:291
 msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr ""
+msgstr "取消訂閱此討論串後您將不會在收到此討論串的郵件通知，確定要取消訂閱嗎？"
 
 #: /media/js/views/comm.js:296
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr ""
+msgstr "已成功取消訂閱。您將不會再收到該討論串的通知。"
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"
