@@ -3,16 +3,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-16T16:15:30.341Z\n"
-"PO-Revision-Date: 2014-05-21 21:10+0000\n"
-"Last-Translator: Aleksandra <auzelac91@gmail.com>\n"
+"PO-Revision-Date: 2014-07-16 21:20+0000\n"
+"Last-Translator: Marko <marko.andrejic93@gmail.com>\n"
 "Language-Team: none\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1400706601.0\n"
+"X-POOTLE-MTIME: 1405545623.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -147,7 +148,7 @@ msgstr "Pročitaj"
 
 #: /templates/_macros/thread_header.html:45
 msgid "View App"
-msgstr ""
+msgstr "Pogledaj aplikaciju"
 
 #: /templates/_macros/thread_header.html:49
 msgid "Unsubscribe"
@@ -183,7 +184,7 @@ msgstr "Nemate teme."
 
 #: /templates/comm/main.html:15
 msgid "Hmm...an error?"
-msgstr ""
+msgstr "Hmm...greška?"
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
@@ -296,11 +297,11 @@ msgstr "Ponovni pregled obrisan"
 
 #: /media/js/settings.js:51
 msgid "App submission note"
-msgstr ""
+msgstr "Beleška podnošenja aplikacije"
 
 #: /media/js/settings.js:52
 msgid "Developer comment"
-msgstr ""
+msgstr "Komentar programera"
 
 #: /media/js/commonplace/login.js:8
 msgid "You have been signed out"
@@ -369,10 +370,14 @@ msgstr "Bilo je nekih problema oko označavanja teme kao pročitane. Pokušajte 
 #: /media/js/views/comm.js:291
 msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
 msgstr ""
+"Ako se odjavite sa ove teme, nećete više dobijati obaveštenja e-poštom iz ove "
+"teme. Da li ste sigurni?"
 
 #: /media/js/views/comm.js:296
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
 msgstr ""
+"Uspešno ste se odjavili. Više nećete dobijati obaveštenja e-poštom iz ove "
+"teme."
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"
