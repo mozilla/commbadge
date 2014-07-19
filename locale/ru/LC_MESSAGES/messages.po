@@ -3,16 +3,17 @@ msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-16T16:15:30.341Z\n"
-"PO-Revision-Date: 2014-07-05 15:35+0000\n"
+"PO-Revision-Date: 2014-07-19 15:39+0000\n"
 "Last-Translator: Alexander <unghost@mozilla-russia.org>\n"
 "Language-Team: none\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1404574552.0\n"
+"X-POOTLE-MTIME: 1405784358.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -147,7 +148,7 @@ msgstr "Прочитанные"
 
 #: /templates/_macros/thread_header.html:45
 msgid "View App"
-msgstr ""
+msgstr "Просмотреть приложение"
 
 #: /templates/_macros/thread_header.html:49
 msgid "Unsubscribe"
@@ -369,10 +370,14 @@ msgstr "При пометке обсуждения как прочтённого
 #: /media/js/views/comm.js:291
 msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
 msgstr ""
+"Если вы отпишетесь от этого обсуждения, вы больше не будете получать "
+"уведомления по электронной почте из этого обсуждения. Вы уверены?"
 
 #: /media/js/views/comm.js:296
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
 msgstr ""
+"Вы были успешно отписаны и более не будете получать уведомления по "
+"электронной почте из этого обсуждения."
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"
