@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-16T16:15:30.341Z\n"
-"PO-Revision-Date: 2014-07-04 23:20+0000\n"
-"Last-Translator: yfdyh000 <yfdyh000@gmail.com>\n"
+"PO-Revision-Date: 2014-07-19 08:59+0000\n"
+"Last-Translator: Shen <steekid@icloud.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1404516022.0\n"
+"X-POOTLE-MTIME: 1405760363.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -143,7 +143,7 @@ msgstr "已读"
 
 #: /templates/_macros/thread_header.html:45
 msgid "View App"
-msgstr ""
+msgstr "查看应用"
 
 #: /templates/_macros/thread_header.html:49
 msgid "Unsubscribe"
@@ -362,11 +362,11 @@ msgstr "将话题标示为已读时发生错误，请重试。"
 
 #: /media/js/views/comm.js:291
 msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr ""
+msgstr "取消订阅这个话题，将不再收到关于他的邮件提醒，确定要取消订阅？"
 
 #: /media/js/views/comm.js:296
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr ""
+msgstr "成功取消订阅。您将不再收到这个话题的邮件提醒。"
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"
