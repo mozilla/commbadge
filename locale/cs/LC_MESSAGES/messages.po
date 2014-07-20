@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Commbadge\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-16T16:15:30.341Z\n"
-"PO-Revision-Date: 2014-07-14 13:07+0000\n"
+"PO-Revision-Date: 2014-07-20 20:45+0000\n"
 "Last-Translator: Pavel <jasnapaka@jasnapaka.com>\n"
 "Language-Team: Czech <info@mozilla.cz>\n"
 "Language: cs\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1405343233.0\n"
+"X-POOTLE-MTIME: 1405889133.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -147,7 +147,7 @@ msgstr "Přečtené"
 
 #: /templates/_macros/thread_header.html:45
 msgid "View App"
-msgstr ""
+msgstr "Zobrazit aplikaci"
 
 #: /templates/_macros/thread_header.html:49
 msgid "Unsubscribe"
@@ -369,10 +369,14 @@ msgstr "Vyskytl se problém při označování vlákna jako přečtené. Zkuste 
 #: /media/js/views/comm.js:291
 msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
 msgstr ""
+"Po odhlášení z tohoto vlákna vám již nebudou zasílány e-maily s upozorněním. "
+"Jste si jist(a)?"
 
 #: /media/js/views/comm.js:296
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
 msgstr ""
+"Odběr odhlášen. Již vám nebudou zasílány žádné e-maily s upozorněními z "
+"tohoto vlákna."
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"
