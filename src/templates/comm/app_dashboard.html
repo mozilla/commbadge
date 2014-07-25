@@ -6,7 +6,10 @@
     {% defer (url=app_endpoint) %}
       <img class="addon-icon" src="{{ this.icons['64'] }}" alt="{{ _('App icon') }}">
       <h1>{{ _('Viewing All Threads for {app_name}', app_name=this.name) }}</h1>
-      <a class="back" href="{{ url('comm') }}">{{ _('Back to my threads') }}</a>
+      {% if user.has_developed(this.id) %}
+        <a class="back" href="/developers/app/{{ this.slug }}/">
+          {{ _('Go back to app edit page') }}</a>
+      {% endif %}
     {% except %}
       <h1>{{ _('App Not Found') }}</h1>
       <a class="back" href="{{ url('comm') }}">{{ _('Back to my threads') }}</a>

@@ -1,6 +1,6 @@
 {% if this.app_threads.length %}
   <nav class="threads">
-    <h3>{{ _("This App's Threads") }}</h3>
+    <h3>{{ _("This App's Versions") }}</h3>
     {% for app_thread in this.app_threads %}
       <li>
         <a href="{{ url('show_thread', [app_thread.id]) }}">
