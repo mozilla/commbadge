@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-16T16:15:30.341Z\n"
-"PO-Revision-Date: 2014-05-22 13:08+0000\n"
+"PO-Revision-Date: 2014-07-29 13:13+0000\n"
 "Last-Translator: Gábor <kelemeng@ubuntu.com>\n"
 "Language-Team: none\n"
 "Language: hu\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n !=1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1400764089.0\n"
+"X-POOTLE-MTIME: 1406639626.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -146,7 +146,7 @@ msgstr "Olvasott"
 
 #: /templates/_macros/thread_header.html:45
 msgid "View App"
-msgstr ""
+msgstr "App megjelenítése"
 
 #: /templates/_macros/thread_header.html:49
 msgid "Unsubscribe"
@@ -182,7 +182,7 @@ msgstr "Nincsenek szálak."
 
 #: /templates/comm/main.html:15
 msgid "Hmm...an error?"
-msgstr ""
+msgstr "Hmm... egy hiba?"
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
@@ -295,11 +295,11 @@ msgstr "Ismételt vizsgálat törölve"
 
 #: /media/js/settings.js:51
 msgid "App submission note"
-msgstr ""
+msgstr "Appbeküldési megjegyzés"
 
 #: /media/js/settings.js:52
 msgid "Developer comment"
-msgstr ""
+msgstr "Fejlesztői megjegyzés"
 
 #: /media/js/commonplace/login.js:8
 msgid "You have been signed out"
@@ -367,10 +367,12 @@ msgstr "Hiba történt a szál olvasottként jelölésekor. Próbálja újra."
 #: /media/js/views/comm.js:291
 msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
 msgstr ""
+"A szálról leiratkozva nem fog több e-mail értesítést kapni a szálból. Biztos "
+"benne?"
 
 #: /media/js/views/comm.js:296
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr ""
+msgstr "Sikeresen leiratkozott. Nem fog több e-mail értesítést kapni a szálból."
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"
