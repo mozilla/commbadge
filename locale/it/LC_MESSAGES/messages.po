@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Marketplace Commbadge\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-16T16:15:30.341Z\n"
-"PO-Revision-Date: 2014-07-01 19:10+0000\n"
-"Last-Translator: Sandro <gialloporpora@mozillaitalia.org>\n"
+"PO-Revision-Date: 2014-08-03 09:49+0000\n"
+"Last-Translator: Sara <sara.todaro@mozillaitalia.org>\n"
 "Language-Team: gialloporpora <gialloporpora@yahoo.it>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1404241836.0\n"
+"X-POOTLE-MTIME: 1407059374.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -56,8 +56,10 @@ msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
 "Alike License v3.0</a> or any later version."
 msgstr ""
-"Eccetto dove diversamente <a href=\"{legal_url}\" target=\"_blank\">indicato</a>, i contenuti di questo sito sono distribuiti sotto licenza <a href=\"{cc_url}\" target=\"_blank\">Creative Commons "
-"Attribuzione - Condividi allo stesso modo versione 3.0</a> o successive."
+"Eccetto dove diversamente <a href=\"{legal_url}\" "
+"target=\"_blank\">indicato</a>, i contenuti di questo sito sono distribuiti "
+"sotto licenza <a href=\"{cc_url}\" target=\"_blank\">Creative Commons "
+"Attribuzione – Condividi allo stesso modo versione 3.0</a> o successive."
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
@@ -147,7 +149,7 @@ msgstr "Lette"
 
 #: /templates/_macros/thread_header.html:45
 msgid "View App"
-msgstr ""
+msgstr "Visualizza app"
 
 #: /templates/_macros/thread_header.html:49
 msgid "Unsubscribe"
@@ -368,10 +370,15 @@ msgstr "Si è verificato un problema nel marcare la discussione come letta. Ripr
 #: /media/js/views/comm.js:291
 msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
 msgstr ""
+"Annullando la sottoscrizione a questa discussione non riceverai più "
+"notifiche via email su di essa. Sei sicuro di voler rimuovere questa "
+"sottoscrizione?"
 
 #: /media/js/views/comm.js:296
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
 msgstr ""
+"La sottoscrizione è stata annullata correttamente. Non riceverai più "
+"notifiche via email per questa discussione."
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"
