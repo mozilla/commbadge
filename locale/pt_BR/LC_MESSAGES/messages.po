@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-16T16:15:30.341Z\n"
-"PO-Revision-Date: 2014-05-21 17:26+0000\n"
-"Last-Translator: Marcelo <mlcaraldi@gmail.com>\n"
+"PO-Revision-Date: 2014-08-06 17:46+0000\n"
+"Last-Translator: Marco Aurélio <ouesten@me.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1400693208.0\n"
+"X-POOTLE-MTIME: 1407347198.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -146,7 +146,7 @@ msgstr "Lidas"
 
 #: /templates/_macros/thread_header.html:45
 msgid "View App"
-msgstr ""
+msgstr "Visualizar aplicativo"
 
 #: /templates/_macros/thread_header.html:49
 msgid "Unsubscribe"
@@ -182,7 +182,7 @@ msgstr "Você não tem tópicos."
 
 #: /templates/comm/main.html:15
 msgid "Hmm...an error?"
-msgstr ""
+msgstr "Hum...um erro?"
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
@@ -295,11 +295,11 @@ msgstr "Re-revisão apuradas"
 
 #: /media/js/settings.js:51
 msgid "App submission note"
-msgstr ""
+msgstr "Nota de envio do aplicativo"
 
 #: /media/js/settings.js:52
 msgid "Developer comment"
-msgstr ""
+msgstr "Comentário do desenvolvedor"
 
 #: /media/js/commonplace/login.js:8
 msgid "You have been signed out"
@@ -367,10 +367,14 @@ msgstr "Houve algum problema marcando o tópico como lido. Tente novamente."
 #: /media/js/views/comm.js:291
 msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
 msgstr ""
+"Ao cancelar a subscrição neste tópico, não irá mais receber notificações por "
+"email a partir deste tópico. Tem a certeza?"
 
 #: /media/js/views/comm.js:296
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
 msgstr ""
+"Cancelamento da subscrição concluída com sucesso. Não irá mais receber "
+"notificações por email deste tópico."
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"
