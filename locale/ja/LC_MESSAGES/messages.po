@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-13T16:40:28.867Z\n"
-"PO-Revision-Date: 2014-07-17 09:04-0400\n"
+"PO-Revision-Date: 2014-08-13 18:46-0400\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -181,7 +181,7 @@ msgstr "{app_name} のすべてのスレッドを表示しています"
 
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
-msgstr ""
+msgstr "アプリ編集ページへ戻る"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -213,7 +213,7 @@ msgstr "{app_name} のすべてのスレッドへ戻る"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
-msgstr ""
+msgstr "このアプリのバージョン"
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
