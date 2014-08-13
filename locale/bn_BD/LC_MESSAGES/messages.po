@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-16T16:15:30.341Z\n"
+"POT-Creation-Date: 2014-08-13T16:40:28.867Z\n"
 "PO-Revision-Date: 2014-08-13 06:15+0000\n"
 "Last-Translator: আশিকুর <ashickur.noor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,10 +55,8 @@ msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
 "Alike License v3.0</a> or any later version."
 msgstr ""
-"এছাড়াও অন্যান্য ক্ষেত্রে <a href=\"{legal_url}\" "
-"target=\"_blank\">চিহ্নিত</a>,এই ওয়েবসাইটের কনটেন্ট গুলো অনুমোদিত <a "
-"href=\"{cc_url}\" target=\"_blank\">সৃষ্টিশীল সাধারণ শেয়ার সমভাবে আরোপ লাইসেন্স "
-"v৩.০</a> অথবা তার পরবর্তী ভার্সনে।"
+"এছাড়াও অন্যান্য ক্ষেত্রে <a href=\"{legal_url}\" target=\"_blank\">চিহ্নিত</a>,এই ওয়েবসাইটের কনটেন্ট গুলো অনুমোদিত <a href=\"{cc_url}\" target=\"_blank\">সৃষ্টিশীল সাধারণ শেয়ার সমভাবে আরোপ লাইসেন্স v৩.০</a> "
+"অথবা তার পরবর্তী ভার্সনে।"
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
@@ -84,6 +82,18 @@ msgstr "সাইন আউট"
 msgid "Sign In"
 msgstr "সাইন ইন"
 
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "সাইন ইন"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "এগিয়ে যেতে আপনাকে সাইন ইন করতে হবে।"
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "সাইন ইন / সাইন আপ"
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr "সংযুক্তি"
@@ -95,10 +105,6 @@ msgstr "ফাইলের বিবরণ"
 #: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "কোন নোট পাওয়া যায়নি"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "আগেরগুলো প্রদর্শন"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -115,6 +121,10 @@ msgstr "আরেকটি ফাইল সংযুক্ত করুন"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "পোস্ট"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "আগেরগুলো প্রদর্শন"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -170,19 +180,19 @@ msgstr "এপ আইকন"
 msgid "Viewing All Threads for {app_name}"
 msgstr "{app_name} এর জন্য সকল থ্রেড দেখা হচ্ছে"
 
-#: /templates/comm/app_dashboard.html:8
-msgid "Back to my threads"
-msgstr "আমার থ্রেড এ ফেরত যাই"
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr ""
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "আমার থ্রেড"
 
-#: /templates/comm/main.html:13
+#: /templates/comm/main.html:14
 msgid "You have no threads."
 msgstr "আপনার কাছে কোনো থ্রেড নেই"
 
-#: /templates/comm/main.html:15
+#: /templates/comm/main.html:16
 msgid "Hmm...an error?"
 msgstr "হুমম...কোন সমস্যা?"
 
@@ -194,18 +204,6 @@ msgstr "এই নোট পড়া হয়েছে হিসেবে চিহ�
 msgid "Empty note"
 msgstr "খালি নোট"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "সাইন ইন"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "এগিয়ে যেতে আপনাকে সাইন ইন করতে হবে।"
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "সাইন ইন / সাইন আপ"
-
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
 msgstr "{app_name} এর জন্য থ্রেড দেখা হচ্ছে"
@@ -215,8 +213,8 @@ msgid "Back to all threads for {app_name}"
 msgstr "{app_name} এর জন্য সকল থ্রেড এ ফেরত"
 
 #: /templates/comm/threads_nav.html:2
-msgid "This App's Threads"
-msgstr "এই অ্যাপস এর থ্রেডগুলো"
+msgid "This App's Versions"
+msgstr ""
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
@@ -317,8 +315,7 @@ msgstr "সাইন আউট করতে ত্রুটি হয়েছে"
 
 #: /media/js/commonplace/login.js:136
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr ""
-"পারসোনা লগিন ব্যর্থ। সম্ভবত এই ইমেইল এড্রেস দিয়ে আপনার পারসোনা একাউন্ট নেই?"
+msgstr "পারসোনা লগিন ব্যর্থ। সম্ভবত এই ইমেইল এড্রেস দিয়ে আপনার পারসোনা একাউন্ট নেই?"
 
 #: /media/js/commonplace/login.js:141
 msgid "Persona login failed. A server error was encountered."
@@ -369,15 +366,11 @@ msgstr "থ্রেডটি পঠিত হিসেবে চিহ্নি
 
 #: /media/js/views/comm.js:291
 msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr ""
-"এই টপিক থেকে আনসাব্সক্রাইপ করলে, আপনি এই টপিক থেকে কোন ইমেইল নোটিফিকেশন "
-"পাবেন না। আপনি আনসাব্সক্রাইপ করতে চাচ্ছেন?"
+msgstr "এই টপিক থেকে আনসাব্সক্রাইপ করলে, আপনি এই টপিক থেকে কোন ইমেইল নোটিফিকেশন পাবেন না। আপনি আনসাব্সক্রাইপ করতে চাচ্ছেন?"
 
 #: /media/js/views/comm.js:296
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr ""
-"সফলভাবে আনসাব্সক্রাইপ হয়েছে। আপনি এই টপিক থেকে আর কোন ইমেইল নটিফিকেশন পাবেন "
-"না।"
+msgstr "সফলভাবে আনসাব্সক্রাইপ হয়েছে। আপনি এই টপিক থেকে আর কোন ইমেইল নটিফিকেশন পাবেন না।"
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"

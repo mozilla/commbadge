@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-16T16:15:30.341Z\n"
+"POT-Creation-Date: 2014-08-13T16:40:28.867Z\n"
 "PO-Revision-Date: 2014-07-17 09:04-0400\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
@@ -81,6 +81,18 @@ msgstr "ログアウト"
 msgid "Sign In"
 msgstr "ログイン"
 
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "ログイン"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "続けるにはログインしてください。"
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "ログイン / ユーザ登録"
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr "添付ファイル"
@@ -92,10 +104,6 @@ msgstr "ファイル説明"
 #: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "ノートがが見つかりませんでした"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "以前の記事を表示"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -112,6 +120,10 @@ msgstr "他のファイルを添付"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "投稿"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "以前の記事を表示"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -167,19 +179,19 @@ msgstr "アプリのアイコン"
 msgid "Viewing All Threads for {app_name}"
 msgstr "{app_name} のすべてのスレッドを表示しています"
 
-#: /templates/comm/app_dashboard.html:8
-msgid "Back to my threads"
-msgstr "自分のスレッドへ戻る"
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr ""
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "自分のスレッド"
 
-#: /templates/comm/main.html:13
+#: /templates/comm/main.html:14
 msgid "You have no threads."
 msgstr "スレッドがありません。"
 
-#: /templates/comm/main.html:15
+#: /templates/comm/main.html:16
 msgid "Hmm...an error?"
 msgstr "何か問題が発生したようです"
 
@@ -191,18 +203,6 @@ msgstr "この記事を既読にする"
 msgid "Empty note"
 msgstr "空白のノート"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "ログイン"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "続けるにはログインしてください。"
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "ログイン / ユーザ登録"
-
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
 msgstr "{app_name} のスレッドを表示しています"
@@ -212,8 +212,8 @@ msgid "Back to all threads for {app_name}"
 msgstr "{app_name} のすべてのスレッドへ戻る"
 
 #: /templates/comm/threads_nav.html:2
-msgid "This App's Threads"
-msgstr "このアプリのスレッド"
+msgid "This App's Versions"
+msgstr ""
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7

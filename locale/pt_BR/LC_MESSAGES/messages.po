@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-16T16:15:30.341Z\n"
+"POT-Creation-Date: 2014-08-13T16:40:28.867Z\n"
 "PO-Revision-Date: 2014-08-06 17:46+0000\n"
 "Last-Translator: Marco Aurélio <ouesten@me.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,6 +82,18 @@ msgstr "Sair"
 msgid "Sign In"
 msgstr "Entrar"
 
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Entrar"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Você deve entrar para prosseguir."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Entrar / Registrar"
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr "Anexos"
@@ -93,10 +105,6 @@ msgstr "Descrição do arquivo"
 #: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "Nenhuma nota foi encontrada"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Ver anteriores"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -113,6 +121,10 @@ msgstr "Anexar outro arquivo"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "Publicar"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Ver anteriores"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -168,19 +180,19 @@ msgstr "Ícone do Aplicativo"
 msgid "Viewing All Threads for {app_name}"
 msgstr "Visualizando Todos os Tópicos para {app_name}"
 
-#: /templates/comm/app_dashboard.html:8
-msgid "Back to my threads"
-msgstr "Voltar para meus tópicos"
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr ""
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "Meus Tópicos"
 
-#: /templates/comm/main.html:13
+#: /templates/comm/main.html:14
 msgid "You have no threads."
 msgstr "Você não tem tópicos."
 
-#: /templates/comm/main.html:15
+#: /templates/comm/main.html:16
 msgid "Hmm...an error?"
 msgstr "Hum...um erro?"
 
@@ -192,18 +204,6 @@ msgstr "Marcar esta nota como lida"
 msgid "Empty note"
 msgstr "Nota Vazia"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Entrar"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Você deve entrar para prosseguir."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Entrar / Registrar"
-
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
 msgstr "Visualizando Tópico para {app_name}"
@@ -213,8 +213,8 @@ msgid "Back to all threads for {app_name}"
 msgstr "Voltar para todos os tópicos para {app_name}"
 
 #: /templates/comm/threads_nav.html:2
-msgid "This App's Threads"
-msgstr "Tópicos deste Aplicativo"
+msgid "This App's Versions"
+msgstr ""
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
@@ -366,15 +366,11 @@ msgstr "Houve algum problema marcando o tópico como lido. Tente novamente."
 
 #: /media/js/views/comm.js:291
 msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr ""
-"Ao cancelar a subscrição neste tópico, não irá mais receber notificações por "
-"email a partir deste tópico. Tem a certeza?"
+msgstr "Ao cancelar a subscrição neste tópico, não irá mais receber notificações por email a partir deste tópico. Tem a certeza?"
 
 #: /media/js/views/comm.js:296
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr ""
-"Cancelamento da subscrição concluída com sucesso. Não irá mais receber "
-"notificações por email deste tópico."
+msgstr "Cancelamento da subscrição concluída com sucesso. Não irá mais receber notificações por email deste tópico."
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"

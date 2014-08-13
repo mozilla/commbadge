@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-16T16:15:30.341Z\n"
+"POT-Creation-Date: 2014-08-13T16:40:28.867Z\n"
 "PO-Revision-Date: 2014-04-27 08:11+0000\n"
 "Last-Translator: Benoit <benoit.leseul@gmail.com>\n"
 "Language-Team: français <>\n"
@@ -85,6 +85,18 @@ msgstr "Déconnexion"
 msgid "Sign In"
 msgstr "Connexion"
 
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Connexion"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Vous devez vous identifier pour continuer."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Connexion / Inscription"
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr "Pièce jointe"
@@ -96,10 +108,6 @@ msgstr "Description du fichier"
 #: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "Aucune note trouvée"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Afficher plus anciens"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -116,6 +124,10 @@ msgstr "Joindre un autre fichier"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "Envoyer"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Afficher plus anciens"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -171,19 +183,19 @@ msgstr "Icône de l'application"
 msgid "Viewing All Threads for {app_name}"
 msgstr "Affichage de toutes les discussion sur {app_name}"
 
-#: /templates/comm/app_dashboard.html:8
-msgid "Back to my threads"
-msgstr "Revenir à mes discussions"
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr ""
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "Mes discussions"
 
-#: /templates/comm/main.html:13
+#: /templates/comm/main.html:14
 msgid "You have no threads."
 msgstr "Vous n'avez aucun sujet de discussion."
 
-#: /templates/comm/main.html:15
+#: /templates/comm/main.html:16
 msgid "Hmm...an error?"
 msgstr ""
 
@@ -195,18 +207,6 @@ msgstr "Marquer cette note comme lue"
 msgid "Empty note"
 msgstr "Note vide"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Connexion"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Vous devez vous identifier pour continuer."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Connexion / Inscription"
-
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
 msgstr "Affichage de la discussion sur {app_name}"
@@ -216,8 +216,8 @@ msgid "Back to all threads for {app_name}"
 msgstr "Revenir aux discussions sur {app_name}"
 
 #: /templates/comm/threads_nav.html:2
-msgid "This App's Threads"
-msgstr "Les discussions sur cette application"
+msgid "This App's Versions"
+msgstr ""
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7

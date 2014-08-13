@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Commbadge\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-16T16:15:30.341Z\n"
+"POT-Creation-Date: 2014-08-13T16:40:28.867Z\n"
 "PO-Revision-Date: 2014-08-03 09:49+0000\n"
 "Last-Translator: Sara <sara.todaro@mozillaitalia.org>\n"
 "Language-Team: gialloporpora <gialloporpora@yahoo.it>\n"
@@ -56,9 +56,7 @@ msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
 "Alike License v3.0</a> or any later version."
 msgstr ""
-"Eccetto dove diversamente <a href=\"{legal_url}\" "
-"target=\"_blank\">indicato</a>, i contenuti di questo sito sono distribuiti "
-"sotto licenza <a href=\"{cc_url}\" target=\"_blank\">Creative Commons "
+"Eccetto dove diversamente <a href=\"{legal_url}\" target=\"_blank\">indicato</a>, i contenuti di questo sito sono distribuiti sotto licenza <a href=\"{cc_url}\" target=\"_blank\">Creative Commons "
 "Attribuzione – Condividi allo stesso modo versione 3.0</a> o successive."
 
 #: /templates/footer.html:29
@@ -85,6 +83,18 @@ msgstr "Esci"
 msgid "Sign In"
 msgstr "Accedi"
 
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Accedi"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Per proseguire è necessario eseguire l'accesso."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Accedi o registrati"
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr "Allegato"
@@ -96,10 +106,6 @@ msgstr "Descrizione del file"
 #: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "Non è stata trovata alcuna nota"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Visualizza meno recenti"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -116,6 +122,10 @@ msgstr "Allega un altro file"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "Invia"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Visualizza meno recenti"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -171,19 +181,19 @@ msgstr "Icona dell'app"
 msgid "Viewing All Threads for {app_name}"
 msgstr "Mostra tutte le discussioni riguardanti {app_name}"
 
-#: /templates/comm/app_dashboard.html:8
-msgid "Back to my threads"
-msgstr "Ritorna alle mie discussioni"
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr ""
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "Le mie discussioni"
 
-#: /templates/comm/main.html:13
+#: /templates/comm/main.html:14
 msgid "You have no threads."
 msgstr "Non è stata trovata alcuna nota"
 
-#: /templates/comm/main.html:15
+#: /templates/comm/main.html:16
 msgid "Hmm...an error?"
 msgstr "Sembra che si sia verificato un errore…"
 
@@ -195,18 +205,6 @@ msgstr "Marca la nota come letta"
 msgid "Empty note"
 msgstr "Nota vuota"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Accedi"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Per proseguire è necessario eseguire l'accesso."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Accedi o registrati"
-
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
 msgstr "Visualizzazione delle discussioni riguardanti {app_name}"
@@ -216,8 +214,8 @@ msgid "Back to all threads for {app_name}"
 msgstr "Ritorna a tutte le discussioni riguardanti {app_name}"
 
 #: /templates/comm/threads_nav.html:2
-msgid "This App's Threads"
-msgstr "Discussioni riguardanti quest'app"
+msgid "This App's Versions"
+msgstr ""
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
@@ -369,16 +367,11 @@ msgstr "Si è verificato un problema nel marcare la discussione come letta. Ripr
 
 #: /media/js/views/comm.js:291
 msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr ""
-"Annullando la sottoscrizione a questa discussione non riceverai più "
-"notifiche via email su di essa. Sei sicuro di voler rimuovere questa "
-"sottoscrizione?"
+msgstr "Annullando la sottoscrizione a questa discussione non riceverai più notifiche via email su di essa. Sei sicuro di voler rimuovere questa sottoscrizione?"
 
 #: /media/js/views/comm.js:296
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr ""
-"La sottoscrizione è stata annullata correttamente. Non riceverai più "
-"notifiche via email per questa discussione."
+msgstr "La sottoscrizione è stata annullata correttamente. Non riceverai più notifiche via email per questa discussione."
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"

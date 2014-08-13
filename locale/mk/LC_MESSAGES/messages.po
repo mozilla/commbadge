@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-16T16:15:30.341Z\n"
+"POT-Creation-Date: 2014-08-13T16:40:28.867Z\n"
 "PO-Revision-Date: 2014-04-05 13:39+0000\n"
 "Last-Translator: Goce <goce.mitevski@gmail.com>\n"
 "Language-Team: none\n"
@@ -82,6 +82,18 @@ msgstr "Одјава"
 msgid "Sign In"
 msgstr "Најава"
 
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Најавете се"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Морате да се најавите за да продолжите."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Најава / Регистрација"
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr ""
@@ -93,10 +105,6 @@ msgstr ""
 #: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "Нема белешки"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Подредување"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -113,6 +121,10 @@ msgstr ""
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "Испрати"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Подредување"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -168,19 +180,19 @@ msgstr "Иконка"
 msgid "Viewing All Threads for {app_name}"
 msgstr "Преглед на сите нишки за {app_name}"
 
-#: /templates/comm/app_dashboard.html:8
-msgid "Back to my threads"
-msgstr "Назад кон моите нишки"
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr ""
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "Мои нишки"
 
-#: /templates/comm/main.html:13
+#: /templates/comm/main.html:14
 msgid "You have no threads."
 msgstr "Немате нишки."
 
-#: /templates/comm/main.html:15
+#: /templates/comm/main.html:16
 msgid "Hmm...an error?"
 msgstr ""
 
@@ -192,18 +204,6 @@ msgstr "Означи ја оваа белешка како прочитана"
 msgid "Empty note"
 msgstr "Празна белешка"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Најавете се"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Морате да се најавите за да продолжите."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Најава / Регистрација"
-
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
 msgstr "Преглед на нишка за {app_name}"
@@ -213,8 +213,8 @@ msgid "Back to all threads for {app_name}"
 msgstr "Назад кон нишките за {app_name}"
 
 #: /templates/comm/threads_nav.html:2
-msgid "This App's Threads"
-msgstr "Нишки за оваа апликација"
+msgid "This App's Versions"
+msgstr ""
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7

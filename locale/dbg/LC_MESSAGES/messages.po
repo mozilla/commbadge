@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-16T16:15:30.341Z\n"
+"POT-Creation-Date: 2014-08-13T16:40:28.867Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -81,6 +81,19 @@ msgstr "Şīɠƞ Ǿŭŧ"
 msgid "Sign In"
 msgstr "Şīɠƞ Īƞ"
 
+#: /templates/login.html:2
+#: /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Şīɠƞ īƞ"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Ẏǿŭ ḿŭşŧ şīɠƞ īƞ ŧǿ ƥřǿƈḗḗḓ."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Şīɠƞ īƞ / Şīɠƞ ŭƥ"
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr "Ȧŧŧȧƈħḿḗƞŧ"
@@ -94,10 +107,6 @@ msgstr "Ƒīŀḗ Ḓḗşƈřīƥŧīǿƞ"
 #: /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "Ƞǿ ƞǿŧḗş ƒǿŭƞḓ"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Ṽīḗẇ ǿŀḓḗř"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -114,6 +123,10 @@ msgstr "Ȧŧŧȧƈħ ȧƞǿŧħḗř ƒīŀḗ"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "Ƥǿşŧ"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Ṽīḗẇ ǿŀḓḗř"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -172,19 +185,19 @@ msgstr "Ȧƥƥ īƈǿƞ"
 msgid "Viewing All Threads for {app_name}"
 msgstr "Ṽīḗẇīƞɠ Ȧŀŀ Ŧħřḗȧḓş ƒǿř {ȧƥƥ_ƞȧḿḗ}"
 
-#: /templates/comm/app_dashboard.html:8
-msgid "Back to my threads"
-msgstr "Ɓȧƈķ ŧǿ ḿẏ ŧħřḗȧḓş"
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Ɠǿ ƀȧƈķ ŧǿ ȧƥƥ ḗḓīŧ ƥȧɠḗ"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "Ḿẏ Ŧħřḗȧḓş"
 
-#: /templates/comm/main.html:13
+#: /templates/comm/main.html:14
 msgid "You have no threads."
 msgstr "Ẏǿŭ ħȧṽḗ ƞǿ ŧħřḗȧḓş."
 
-#: /templates/comm/main.html:15
+#: /templates/comm/main.html:16
 msgid "Hmm...an error?"
 msgstr "Ħḿḿ...ȧƞ ḗřřǿř?"
 
@@ -196,19 +209,6 @@ msgstr "Ḿȧřķ ŧħīş ƞǿŧḗ ȧş řḗȧḓ"
 msgid "Empty note"
 msgstr "Ḗḿƥŧẏ ƞǿŧḗ"
 
-#: /templates/login.html:2
-#: /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Şīɠƞ īƞ"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Ẏǿŭ ḿŭşŧ şīɠƞ īƞ ŧǿ ƥřǿƈḗḗḓ."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Şīɠƞ īƞ / Şīɠƞ ŭƥ"
-
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
 msgstr "Ṽīḗẇīƞɠ Ŧħřḗȧḓ ƒǿř {ȧƥƥ_ƞȧḿḗ}"
@@ -218,8 +218,8 @@ msgid "Back to all threads for {app_name}"
 msgstr "Ɓȧƈķ ŧǿ ȧŀŀ ŧħřḗȧḓş ƒǿř {ȧƥƥ_ƞȧḿḗ}"
 
 #: /templates/comm/threads_nav.html:2
-msgid "This App's Threads"
-msgstr "Ŧħīş Ȧƥƥ'ş Ŧħřḗȧḓş"
+msgid "This App's Versions"
+msgstr "Ŧħīş Ȧƥƥ'ş Ṽḗřşīǿƞş"
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7

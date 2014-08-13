@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-16T16:15:30.341Z\n"
+"POT-Creation-Date: 2014-08-13T16:40:28.867Z\n"
 "PO-Revision-Date: 2014-05-06 14:19+0000\n"
 "Last-Translator: Channy <channy@mozilla.or.kr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,6 +82,18 @@ msgstr "로그아웃"
 msgid "Sign In"
 msgstr "로그인"
 
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "로그인"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "진행을 위해서 로그인을 해야 합니다."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "로그인 / 회원 가입"
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr "첨부 파일"
@@ -93,10 +105,6 @@ msgstr "파일 설명"
 #: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "소개 내용 없음"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "이전 보기"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -113,6 +121,10 @@ msgstr "다른 파일 첨부"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "올리기"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "이전 보기"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -167,19 +179,19 @@ msgstr "앱 아이콘"
 msgid "Viewing All Threads for {app_name}"
 msgstr "{app_name}에 대한 글타래 모두 보기"
 
-#: /templates/comm/app_dashboard.html:8
-msgid "Back to my threads"
-msgstr "내 글타래로 돌아가기"
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr ""
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "내 글타래"
 
-#: /templates/comm/main.html:13
+#: /templates/comm/main.html:14
 msgid "You have no threads."
 msgstr "글이 없습니다."
 
-#: /templates/comm/main.html:15
+#: /templates/comm/main.html:16
 msgid "Hmm...an error?"
 msgstr ""
 
@@ -191,18 +203,6 @@ msgstr "이 메모를 읽음으로 표시"
 msgid "Empty note"
 msgstr "소개 내용 없음"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "로그인"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "진행을 위해서 로그인을 해야 합니다."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "로그인 / 회원 가입"
-
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
 msgstr "{app_name}에 대한 글타래 보기"
@@ -212,8 +212,8 @@ msgid "Back to all threads for {app_name}"
 msgstr "{app_name}에 대한 글타래로 돌아가기"
 
 #: /templates/comm/threads_nav.html:2
-msgid "This App's Threads"
-msgstr "현재 앱의 글타래"
+msgid "This App's Versions"
+msgstr ""
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7

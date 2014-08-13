@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-16T16:15:30.341Z\n"
+"POT-Creation-Date: 2014-08-13T16:40:28.867Z\n"
 "PO-Revision-Date: 2014-04-19 14:14+0200\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -81,6 +81,18 @@ msgstr "Dilni"
 msgid "Sign In"
 msgstr "Hyni"
 
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Hyni"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Që të vazhdohet, duhet të bëni hyrjen."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Hyni / Regjistrohuni"
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr "Bashkëngjitje"
@@ -92,10 +104,6 @@ msgstr "Përshkrim Kartele"
 #: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "Nuk u gjetën shënime"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Shihni më të vjetrat"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -112,6 +120,10 @@ msgstr "Bashkëngjitni një tjetër kartelë"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "Postoje"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Shihni më të vjetrat"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -167,19 +179,19 @@ msgstr "Ikonë zbatimi"
 msgid "Viewing All Threads for {app_name}"
 msgstr "Po shihni Krejt Rrjedhat mbi {app_name}"
 
-#: /templates/comm/app_dashboard.html:8
-msgid "Back to my threads"
-msgstr "Mbrapsht te rrjedhat e mia"
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr ""
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "Rrjedhat e Mia"
 
-#: /templates/comm/main.html:13
+#: /templates/comm/main.html:14
 msgid "You have no threads."
 msgstr "Nuk keni rrjedhë."
 
-#: /templates/comm/main.html:15
+#: /templates/comm/main.html:16
 msgid "Hmm...an error?"
 msgstr ""
 
@@ -191,18 +203,6 @@ msgstr "Shënoje këtë shënim si të lexuar"
 msgid "Empty note"
 msgstr "Shënim i zbrazët"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Hyni"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Që të vazhdohet, duhet të bëni hyrjen."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Hyni / Regjistrohuni"
-
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
 msgstr "Po shihni Rrjedhë për {app_name}"
@@ -212,8 +212,8 @@ msgid "Back to all threads for {app_name}"
 msgstr "Mbrapsht te krejt rrjedhat për {app_name}"
 
 #: /templates/comm/threads_nav.html:2
-msgid "This App's Threads"
-msgstr "Rrjedha të Këtij Zbatimi"
+msgid "This App's Versions"
+msgstr ""
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
