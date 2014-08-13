@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: AMO Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-13T16:40:28.867Z\n"
-"PO-Revision-Date: 2014-07-16 18:16+0000\n"
+"PO-Revision-Date: 2014-08-13 16:55+0000\n"
 "Last-Translator: Michael <michael.koehler1@gmx.de>\n"
 "Language-Team: German (de) <coce@nurfuerspam.de>\n"
 "Language: de\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1405534603.0\n"
+"X-POOTLE-MTIME: 1407948911.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -182,7 +182,7 @@ msgstr "Alle Themen für {app_name} werden angezeigt"
 
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
-msgstr ""
+msgstr "Zurück zur App-bearbeiten-Seite gehen"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -214,7 +214,7 @@ msgstr "Zurück zu allen Themen für {app_name}"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
-msgstr ""
+msgstr "Versionen dieser App"
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
