@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-13T16:40:28.867Z\n"
-"PO-Revision-Date: 2014-07-19 08:59+0000\n"
+"PO-Revision-Date: 2014-08-14 06:20+0000\n"
 "Last-Translator: Shen <steekid@icloud.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1405760363.0\n"
+"X-POOTLE-MTIME: 1407997217.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -179,7 +179,7 @@ msgstr "查看所有 {app_name} 的话题"
 
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
-msgstr ""
+msgstr "返回应用编辑页面"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -211,7 +211,7 @@ msgstr "返回 {app_name} 的话题"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
-msgstr ""
+msgstr "此应用的版本"
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
