@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-13T16:40:28.867Z\n"
-"PO-Revision-Date: 2014-07-17 00:50+0000\n"
+"PO-Revision-Date: 2014-08-14 02:05+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: MozTW <petercpg@mail.moztw.org>\n"
 "Language: zh_TW\n"
@@ -11,9 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Fireplace L10n Tools 1.0\n"
+"X-Generator: Pootle 2.5.0\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-POOTLE-MTIME: 1405558242.0\n"
+"X-POOTLE-MTIME: 1407981929.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -180,7 +180,7 @@ msgstr "檢視所有 {app_name} 的討論串"
 
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
-msgstr ""
+msgstr "回到程式編輯頁面"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -212,7 +212,7 @@ msgstr "回到 {app_name} 的所有討論串"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
-msgstr ""
+msgstr "此應用程式的版本"
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
