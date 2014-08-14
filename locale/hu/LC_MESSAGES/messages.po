@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-13T16:40:28.867Z\n"
-"PO-Revision-Date: 2014-07-29 13:13+0000\n"
+"PO-Revision-Date: 2014-08-14 19:10+0000\n"
 "Last-Translator: Gábor <kelemeng@ubuntu.com>\n"
 "Language-Team: none\n"
 "Language: hu\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n !=1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1406639626.0\n"
+"X-POOTLE-MTIME: 1408043418.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -182,7 +182,7 @@ msgstr "{app_name} minden szálának megjelenítése"
 
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
-msgstr ""
+msgstr "Vissza az app szerkesztés oldalra"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -214,7 +214,7 @@ msgstr "Vissza {app_name} összes szálához"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
-msgstr ""
+msgstr "Az app verziói"
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
