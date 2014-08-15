@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-13T16:40:28.867Z\n"
-"PO-Revision-Date: 2014-05-29 07:48+0000\n"
-"Last-Translator: Servet <servet.cebeci@hotmail.com>\n"
+"PO-Revision-Date: 2014-08-15 12:09+0000\n"
+"Last-Translator: Selim <selim@sum.lu>\n"
 "Language-Team: none\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1401349724.0\n"
+"X-POOTLE-MTIME: 1408104559.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -157,7 +157,7 @@ msgstr "Okunmuş"
 
 #: /templates/_macros/thread_header.html:45
 msgid "View App"
-msgstr ""
+msgstr "Uygulamayı gör"
 
 #: /templates/_macros/thread_header.html:49
 msgid "Unsubscribe"
@@ -181,7 +181,7 @@ msgstr "{app_name} için tüm başlıklar gösteriliyor"
 
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
-msgstr ""
+msgstr "Uygulama düzenleme sayfasına dön"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -193,7 +193,7 @@ msgstr "Hiç başlığınız yok."
 
 #: /templates/comm/main.html:16
 msgid "Hmm...an error?"
-msgstr ""
+msgstr "Hmm... Hata mı var acaba?"
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
@@ -213,7 +213,7 @@ msgstr "Tüm {app_name} başlıklarına dön"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
-msgstr ""
+msgstr "Bu uygulamanın sürümleri"
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
