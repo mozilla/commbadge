@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-13T16:40:28.867Z\n"
-"PO-Revision-Date: 2014-05-06 14:19+0000\n"
+"PO-Revision-Date: 2014-08-15 05:46+0000\n"
 "Last-Translator: Channy <channy@mozilla.or.kr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1399385983.0\n"
+"X-POOTLE-MTIME: 1408081597.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -157,7 +157,7 @@ msgstr "읽음"
 
 #: /templates/_macros/thread_header.html:45
 msgid "View App"
-msgstr ""
+msgstr "앱 보기"
 
 #: /templates/_macros/thread_header.html:49
 msgid "Unsubscribe"
@@ -181,7 +181,7 @@ msgstr "{app_name}에 대한 글타래 모두 보기"
 
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
-msgstr ""
+msgstr "앱 편집 페이지 가기"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -193,7 +193,7 @@ msgstr "글이 없습니다."
 
 #: /templates/comm/main.html:16
 msgid "Hmm...an error?"
-msgstr ""
+msgstr "오류...인가요?"
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
@@ -213,7 +213,7 @@ msgstr "{app_name}에 대한 글타래로 돌아가기"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
-msgstr ""
+msgstr "앱 버전"
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
@@ -294,11 +294,11 @@ msgstr "재 검토 완료"
 
 #: /media/js/settings.js:51
 msgid "App submission note"
-msgstr ""
+msgstr "앱 제출 노트"
 
 #: /media/js/settings.js:52
 msgid "Developer comment"
-msgstr ""
+msgstr "개발자 코멘트"
 
 #: /media/js/commonplace/login.js:8
 msgid "You have been signed out"
@@ -322,7 +322,7 @@ msgstr "Persona 로그인에 실패했습니다. 서버 오류가 발생했습�
 
 #: /media/js/commonplace/login.js:209
 msgid "Persona cannot be reached. Try again later."
-msgstr ""
+msgstr "Persona에 접근할 수 없습니다. 다시 시도해 보세요."
 
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
@@ -364,15 +364,15 @@ msgstr "글 읽음 표시중에 문제가 발생했습니다. 다시 시도하�
 
 #: /media/js/views/comm.js:291
 msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr ""
+msgstr "현재 메일에 구독 취소하면 더 이상 메일 알림을 받을 수 없습니다. 계속하시겠습니까?"
 
 #: /media/js/views/comm.js:296
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr ""
+msgstr "구독 취소하였습니다. 더 이상 메일 알림을 받지 않습니다."
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"
-msgstr ""
+msgstr "Hello World!"
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9
