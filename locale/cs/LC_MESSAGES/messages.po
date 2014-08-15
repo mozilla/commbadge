@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Commbadge\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-13T16:40:28.867Z\n"
-"PO-Revision-Date: 2014-07-20 20:45+0000\n"
+"PO-Revision-Date: 2014-08-15 08:03+0000\n"
 "Last-Translator: Pavel <jasnapaka@jasnapaka.com>\n"
 "Language-Team: Czech <info@mozilla.cz>\n"
 "Language: cs\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1405889133.0\n"
+"X-POOTLE-MTIME: 1408089827.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -183,7 +183,7 @@ msgstr "Zobrazení všech vláken pro {app_name}"
 
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
-msgstr ""
+msgstr "Zpět na stránku úpravy aplikace"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -215,7 +215,7 @@ msgstr "Zpět na všechna vlákna pro {app_name}"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
-msgstr ""
+msgstr "Tyto verze aplikace"
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
