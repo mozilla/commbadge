@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-13T16:40:28.867Z\n"
-"PO-Revision-Date: 2014-08-14 08:35+0000\n"
-"Last-Translator: Mark <markh@babelzilla.org>\n"
+"PO-Revision-Date: 2014-08-16 10:20+0000\n"
+"Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: none\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1408005359.0\n"
+"X-POOTLE-MTIME: 1408184426.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -183,7 +183,7 @@ msgstr "Alle conversaties voor {app_name}"
 
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
-msgstr "Terug naar bewerkingspagina app"
+msgstr "Terug naar app-bewerkingspagina"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -317,7 +317,9 @@ msgstr "Fout bij afmelden"
 
 #: /media/js/commonplace/login.js:136
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Persona-aanmelding mislukt. Misschien hebt u geen account onder dat e-mailadres?"
+msgstr ""
+"Persona-aanmelding mislukt. Misschien hebt u geen account met dat "
+"e-mailadres?"
 
 #: /media/js/commonplace/login.js:141
 msgid "Persona login failed. A server error was encountered."
