@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-13T16:40:28.867Z\n"
-"PO-Revision-Date: 2014-08-13 06:15+0000\n"
-"Last-Translator: আশিকুর <ashickur.noor@gmail.com>\n"
+"PO-Revision-Date: 2014-08-18 08:00+0000\n"
+"Last-Translator: Arafat <mahmud.arafat.7@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bn_BD\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1407910529.0\n"
+"X-POOTLE-MTIME: 1408348857.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -182,7 +182,7 @@ msgstr "{app_name} এর জন্য সকল থ্রেড দেখা �
 
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
-msgstr ""
+msgstr "অ্যাপ সম্পাদনা পৃষ্ঠায় ফিরে যান"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -214,7 +214,7 @@ msgstr "{app_name} এর জন্য সকল থ্রেড এ ফের�
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
-msgstr ""
+msgstr "এই অ্যাপটি যে ভার্সনের"
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
