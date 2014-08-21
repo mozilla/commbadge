@@ -3,377 +3,388 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-13T16:40:28.867Z\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2014-08-13 21:14+0000\n"
+"Last-Translator: Andreas <az@kth.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);Content-Type: text/plain; charset=utf-8\n"
-"X-Generator: Fireplace L10n Tools 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1407964440.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
-msgstr ""
+msgstr "Stäng"
 
 #: /templates/confirmation.html:3
 msgid "No"
-msgstr ""
+msgstr "Nej"
 
 #: /templates/confirmation.html:4
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
-msgstr ""
+msgstr "Utveckla appar"
 
 #: /templates/footer.html:5
 msgid "Developer Hub"
-msgstr ""
+msgstr "Utvecklarcenter"
 
 #: /templates/footer.html:6
 msgid "Support"
-msgstr ""
+msgstr "Hjälp"
 
 #: /templates/footer.html:10
 msgid "My Submissions"
-msgstr ""
+msgstr "Mina bidrag"
 
 #: /templates/footer.html:13
 msgid "Reviewer Tools"
-msgstr ""
+msgstr "Verktyg för granskare"
 
 #: /templates/footer.html:16
 msgid "Lookup Tool"
-msgstr ""
+msgstr "Uppslagsverktyg"
 
 #: /templates/footer.html:24
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
 "Alike License v3.0</a> or any later version."
 msgstr ""
+"Om inget annat <a href=\"{legal_url}\" target=\"_blank\">anges</a>, är "
+"innehållet på denna sida licenserat under <a href=\"{cc_url}\" "
+"target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> "
+"eller någon senare version."
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Sekretesspolicy"
 
 #: /templates/footer.html:30
 msgid "Terms of Use"
-msgstr ""
+msgstr "Användarvillkor"
 
 #: /templates/footer.html:32
 msgid "Report Trademark Abuse"
-msgstr ""
+msgstr "Rapportera varumärkesintrång"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
-msgstr ""
+msgstr "Kommunikationsöversikt"
 
 #: /templates/header.html:7
 msgid "Sign Out"
-msgstr ""
+msgstr "Logga ut"
 
 #: /templates/header.html:8
 msgid "Sign In"
-msgstr ""
+msgstr "Logga in"
 
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
-msgstr ""
+msgstr "Logga in"
 
 #: /templates/login.html:3
 msgid "You must sign in to proceed."
-msgstr ""
+msgstr "Du måste logga in för att fortsätta."
 
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
-msgstr ""
+msgstr "Logga in / Registrera dig"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
-msgstr ""
+msgstr "Bilaga"
 
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
-msgstr ""
+msgstr "Filbeskrivning"
 
 #: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
-msgstr ""
+msgstr "Inga anteckningar hittades"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
-msgstr ""
+msgstr "Skriv anteckning här"
 
 #: /templates/_macros/reply_box.html:6
 msgid "Attach screenshots and log files:"
-msgstr ""
+msgstr "Bifoga skärmdumpar och loggfiler:"
 
 #: /templates/_macros/reply_box.html:8
 msgid "Attach another file"
-msgstr ""
+msgstr "Bifoga en annan fil"
 
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
-msgstr ""
+msgstr "Skicka"
 
 #: /templates/_macros/thread.html:20
 msgid "View older"
-msgstr ""
+msgstr "Visa äldre"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
-msgstr ""
+msgstr "{app_name} (Version {version_number})"
 
 #: /templates/_macros/thread_header.html:21
 msgid "(Obsolete)"
-msgstr ""
+msgstr "(Föråldrade)"
 
 #: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:50
 msgid "{n} note"
 msgid_plural "{n} notes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{n} anteckning"
+msgstr[1] "{n} anteckningar"
 
 #: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:60 /media/js/views/comm.js:142
 msgid "Reply"
-msgstr ""
+msgstr "Svara"
 
 #: /templates/_macros/thread_header.html:41
 msgid "Recent"
-msgstr ""
+msgstr "Senaste"
 
 #: /templates/_macros/thread_header.html:43
 msgid "Unread"
-msgstr ""
+msgstr "Oläst"
 
 #: /templates/_macros/thread_header.html:44
 msgid "Read"
-msgstr ""
+msgstr "Läst"
 
 #: /templates/_macros/thread_header.html:45
 msgid "View App"
-msgstr ""
+msgstr "Visa app"
 
 #: /templates/_macros/thread_header.html:49
 msgid "Unsubscribe"
-msgstr ""
+msgstr "Avsluta prenumeration"
 
 #: /templates/_macros/thread_header.html:52
 msgid "Review"
-msgstr ""
+msgstr "Omdöme"
 
 #: /templates/_macros/thread_header.html:55
 msgid "Mark All Read"
-msgstr ""
+msgstr "Markera alla som lästa"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
-msgstr ""
+msgstr "App-ikon"
 
 #: /templates/comm/app_dashboard.html:7
 msgid "Viewing All Threads for {app_name}"
-msgstr ""
+msgstr "Visa alla trådar för {app_name}"
 
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
-msgstr ""
+msgstr "Gå tillbaka till appens redigeringssida"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
-msgstr ""
+msgstr "Mina trådar"
 
 #: /templates/comm/main.html:14
 msgid "You have no threads."
-msgstr ""
+msgstr "Du har inga trådar."
 
 #: /templates/comm/main.html:16
 msgid "Hmm...an error?"
-msgstr ""
+msgstr "Hmm...ett fel?"
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
-msgstr ""
+msgstr "Markera denna anteckning som läst"
 
 #: /templates/comm/note_detail.html:15
 msgid "Empty note"
-msgstr ""
+msgstr "Tom anteckning"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
-msgstr ""
+msgstr "Du visar tråd för {app_name}"
 
 #: /templates/comm/show_thread.html:10
 msgid "Back to all threads for {app_name}"
-msgstr ""
+msgstr "Tillbaka till alla trådar för {app_name}"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
-msgstr ""
+msgstr "Denna App:s versioner"
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
-msgstr ""
+msgstr "v.{version_number}"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
-msgstr ""
+msgstr "Åh nej!"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
-msgstr ""
+msgstr "Sidan du letade efter kunde inte hittas."
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
-msgstr ""
+msgstr "Ett fel uppstod."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
-msgstr ""
+msgstr "Fel uppstod när mer skulle laddas"
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
-msgstr ""
+msgstr "Försök igen"
 
 #: /media/js/settings.js:37
 msgid "Message"
-msgstr ""
+msgstr "Meddelande"
 
 #: /media/js/settings.js:38
 msgid "App approved"
-msgstr ""
+msgstr "App godkänd"
 
 #: /media/js/settings.js:39
 msgid "App rejected"
-msgstr ""
+msgstr "App ej godkänd"
 
 #: /media/js/settings.js:40
 msgid "App disabled"
-msgstr ""
+msgstr "App inaktiverad"
 
 #: /media/js/settings.js:41
 msgid "More info required"
-msgstr ""
+msgstr "Mer information krävs"
 
 #: /media/js/settings.js:42
 msgid "Review escalated to senior reviewer"
-msgstr ""
+msgstr "Recensionen gick vidare till en mer erfaren granskare"
 
 #: /media/js/settings.js:43
 msgid "Reviewer comment"
-msgstr ""
+msgstr "Granskarens kommentarer"
 
 #: /media/js/settings.js:44
 msgid "App resubmission"
-msgstr ""
+msgstr "Ompröva app"
 
 #: /media/js/settings.js:46
 msgid "Approved but waiting to be made public"
-msgstr ""
+msgstr "Godkänd men väntar på att offentliggöras"
 
 #: /media/js/settings.js:47
 msgid "Escalated due to High Abuse Reports"
-msgstr ""
+msgstr "Upptrappad på grund av för många missbruksrapporter"
 
 #: /media/js/settings.js:48
 msgid "Escalated due to High Refund Requests"
-msgstr ""
+msgstr "Upptrappad på grund av för många ansökningar om återbetalning"
 
 #: /media/js/settings.js:49
 msgid "Escalation cleared"
-msgstr ""
+msgstr "Upptrappning nollställd"
 
 #: /media/js/settings.js:50
 msgid "Re-review cleared"
-msgstr ""
+msgstr "Återrecension nollställd"
 
 #: /media/js/settings.js:51
 msgid "App submission note"
-msgstr ""
+msgstr "Appens inlämningsanteckning"
 
 #: /media/js/settings.js:52
 msgid "Developer comment"
-msgstr ""
+msgstr "Utvecklarens kommentar"
 
 #: /media/js/commonplace/login.js:8
 msgid "You have been signed out"
-msgstr ""
+msgstr "Du är utloggad"
 
 #: /media/js/commonplace/login.js:12
 msgid "You have been signed in"
-msgstr ""
+msgstr "Du är inloggad"
 
 #: /media/js/commonplace/login.js:49
 msgid "Error signing out"
-msgstr ""
+msgstr "Fel vid utloggning"
 
 #: /media/js/commonplace/login.js:136
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr ""
+"Persona-inloggning misslyckades. Du kanske inte har ett konto med den "
+"e-postadressen registrerad?"
 
 #: /media/js/commonplace/login.js:141
 msgid "Persona login failed. A server error was encountered."
-msgstr ""
+msgstr "Persona-inloggning misslyckades. Ett serverfel uppstod."
 
 #: /media/js/commonplace/login.js:209
 msgid "Persona cannot be reached. Try again later."
-msgstr ""
+msgstr "Persona kan inte nås. Försök igen senare."
 
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
-msgstr ""
+msgstr "Ingen internetanslutning"
 
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "<b>{n}</b> tecken kvar."
+msgstr[1] "<b>{n}</b> tecken kvar."
 
 #: /media/js/views/comm.js:67
 msgid "Message sent."
-msgstr ""
+msgstr "Meddelande skickat."
 
 #: /media/js/views/comm.js:72
 msgid "Message sending failed."
-msgstr ""
+msgstr "Misslyckades med att skicka meddelande."
 
 #: /media/js/views/comm.js:132
 msgid "Cancel reply"
-msgstr ""
+msgstr "Avbryt svar"
 
 #: /media/js/views/comm.js:215
 msgid "There are no more older notes."
-msgstr ""
+msgstr "Det finns inga mer anteckningar."
 
 #: /media/js/views/comm.js:263
 msgid "There was some problem marking the note as read. Try again."
-msgstr ""
+msgstr "Kunde inte markera anteckning som läst. Försök igen."
 
 #: /media/js/views/comm.js:276
 msgid "No notes to show."
-msgstr ""
+msgstr "Inga anteckningar att visa."
 
 #: /media/js/views/comm.js:283
 msgid "There was some problem marking the thread as read. Try again."
-msgstr ""
+msgstr "Kunde inte markera tråden som läst. Försök igen."
 
 #: /media/js/views/comm.js:291
 msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
 msgstr ""
+"Genom att avsluta prenumerationen på tråden, kommer du inte längre få "
+"e-postmeddelanden från den här tråden. Är du säker?"
 
 #: /media/js/views/comm.js:296
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
 msgstr ""
+"Prenumeration avslutad. Du kommer inte längre få e-postmeddelanden för denna "
+"tråd."
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"
-msgstr ""
+msgstr "Hej världen!"
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9
 msgid "Not Found"
-msgstr ""
+msgstr "Hittades inte"
