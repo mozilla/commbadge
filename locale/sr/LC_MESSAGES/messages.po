@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-13T16:40:28.867Z\n"
-"PO-Revision-Date: 2014-08-14 04:58+0000\n"
+"PO-Revision-Date: 2014-08-24 10:44+0000\n"
 "Last-Translator: Vanja <tumbas93@gmail.com>\n"
 "Language-Team: none\n"
 "Language: sr\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1407992313.0\n"
+"X-POOTLE-MTIME: 1408877078.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -200,7 +200,7 @@ msgstr "Хмм...грешка?"
 
 #: /templates/comm/note_detail.html:8
 msgid "Mark this note as read"
-msgstr "Означите ову белешку као прочитану"
+msgstr "Означи ову белешку као прочитану"
 
 #: /templates/comm/note_detail.html:15
 msgid "Empty note"
@@ -325,7 +325,7 @@ msgstr "Пријава на Persona није успела. Дошло је до 
 
 #: /media/js/commonplace/login.js:209
 msgid "Persona cannot be reached. Try again later."
-msgstr "Persona је недоступна. Покушајте касније."
+msgstr "Persona је недоступна. Покушајте поново касније."
 
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
