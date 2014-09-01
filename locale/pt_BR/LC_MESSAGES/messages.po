@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-13T16:40:28.867Z\n"
-"PO-Revision-Date: 2014-08-06 17:46+0000\n"
+"PO-Revision-Date: 2014-09-01 15:45+0000\n"
 "Last-Translator: Marco Aurélio <ouesten@me.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1407347198.0\n"
+"X-POOTLE-MTIME: 1409586346.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -182,7 +182,7 @@ msgstr "Visualizando Todos os Tópicos para {app_name}"
 
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
-msgstr ""
+msgstr "Voltar para a página de edição do aplicativo"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -214,7 +214,7 @@ msgstr "Voltar para todos os tópicos para {app_name}"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
-msgstr ""
+msgstr "Versões deste aplicativo"
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
