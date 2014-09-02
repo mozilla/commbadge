@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-13T16:40:28.867Z\n"
-"PO-Revision-Date: 2014-07-18 00:50+0000\n"
+"PO-Revision-Date: 2014-09-02 21:07+0000\n"
 "Last-Translator: Ibai <ibai@oihanguren.com>\n"
 "Language-Team: 89578-OEM-7332157-00211\n"
 "Language: eu\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1405644654.0\n"
+"X-POOTLE-MTIME: 1409692074.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -183,7 +183,7 @@ msgstr "{app_name}(r)entzako hari guztiak ikusgai"
 
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
-msgstr ""
+msgstr "Itzuli aplikazioa editatzeko orrira"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -215,7 +215,7 @@ msgstr "Itzuli {app_name}(r)en hari guztietara"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
-msgstr ""
+msgstr "Aplikazio honen bertsioak"
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
