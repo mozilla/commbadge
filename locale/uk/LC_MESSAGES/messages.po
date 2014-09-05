@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-13T16:40:28.867Z\n"
+"POT-Creation-Date: 2014-09-05T15:31:04.604Z\n"
 "PO-Revision-Date: 2014-08-14 13:32+0000\n"
 "Last-Translator: Artem <a.polivanchuk@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -10,8 +10,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1408023170.0\n"
 
@@ -26,6 +25,18 @@ msgstr "Ні"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Так"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Панель спілкування"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Вийти"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Увійти"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -56,10 +67,8 @@ msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
 "Alike License v3.0</a> or any later version."
 msgstr ""
-"За виключенням вмісту з <a href=\"{legal_url}\" target=\"_blank\">явно "
-"вказаною</a> ліцензією, вміст цього сайту ліцензовано на умовах <a "
-"href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution із збереженням "
-"умов версії 3.0</a> або пізнішої."
+"За виключенням вмісту з <a href=\"{legal_url}\" target=\"_blank\">явно вказаною</a> ліцензією, вміст цього сайту ліцензовано на умовах <a href=\"{cc_url}\" target=\"_blank\">Creative Commons "
+"Attribution із збереженням умов версії 3.0</a> або пізнішої."
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
@@ -72,18 +81,6 @@ msgstr "Умови використання"
 #: /templates/footer.html:32
 msgid "Report Trademark Abuse"
 msgstr "Повідомити про зловживання торговою маркою"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Панель спілкування"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Вийти"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Увійти"
 
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
@@ -105,9 +102,78 @@ msgstr "Прикріплення"
 msgid "File Description"
 msgstr "Опис файлу"
 
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "О ні!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Сторінка, яку ви шукали не знайдена."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Сталася помилка."
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Іконка програми"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Перегляд всіх обговорень для {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Повернутися до сторінки редагування програми"
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Помилка подальшого завантаження"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Спробувати знову"
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
 msgid "No notes found"
 msgstr "Заміток не знайдено"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Мої обговорення"
+
+#: /templates/comm/main.html:14
+msgid "You have no threads."
+msgstr "Ви не маєте обговорень."
+
+#: /templates/comm/main.html:16
+msgid "Hmm...an error?"
+msgstr "Хмм...помилка?"
+
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr "Помітити цю замітку прочитаною"
+
+#: /templates/comm/note_detail.html:15
+msgid "Empty note"
+msgstr "Пуста замітка"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Перегляд обговорення для {app_name}"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Повернутись до всіх обговорень для {app_name}"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "Версії цієї програми"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -176,74 +242,29 @@ msgstr "Рецензія"
 msgid "Mark All Read"
 msgstr "Позначити всі прочитаними"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Іконка програми"
+#: /media/js/commonplace/login.js:8
+msgid "You have been signed out"
+msgstr "Ви успішно вийшли"
 
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Перегляд всіх обговорень для {app_name}"
+#: /media/js/commonplace/login.js:12
+msgid "You have been signed in"
+msgstr "Ви успішно увійшли"
 
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Повернутися до сторінки редагування програми"
+#: /media/js/commonplace/login.js:49
+msgid "Error signing out"
+msgstr "Помилка виходу"
 
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Мої обговорення"
+#: /media/js/commonplace/login.js:136
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Вхід через Persona невдалий. Можливо ви не маєте облікового запису під цією адресою ел. пошти?"
 
-#: /templates/comm/main.html:14
-msgid "You have no threads."
-msgstr "Ви не маєте обговорень."
+#: /media/js/commonplace/login.js:141
+msgid "Persona login failed. A server error was encountered."
+msgstr "Вхід через Persona невдалий. Сталася помилка сервера."
 
-#: /templates/comm/main.html:16
-msgid "Hmm...an error?"
-msgstr "Хмм...помилка?"
-
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "Помітити цю замітку прочитаною"
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr "Пуста замітка"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Перегляд обговорення для {app_name}"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Повернутись до всіх обговорень для {app_name}"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "Версії цієї програми"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "О ні!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Сторінка, яку ви шукали не знайдена."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Сталася помилка."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Помилка подальшого завантаження"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Спробувати знову"
+#: /media/js/commonplace/login.js:209
+msgid "Persona cannot be reached. Try again later."
+msgstr "Неможливо зв'язатися з Persona. Спробуйте знову пізніше."
 
 #: /media/js/settings.js:37
 msgid "Message"
@@ -305,36 +326,6 @@ msgstr "Замітка до представлення програми"
 msgid "Developer comment"
 msgstr "Коментар розробника"
 
-#: /media/js/commonplace/login.js:8
-msgid "You have been signed out"
-msgstr "Ви успішно вийшли"
-
-#: /media/js/commonplace/login.js:12
-msgid "You have been signed in"
-msgstr "Ви успішно увійшли"
-
-#: /media/js/commonplace/login.js:49
-msgid "Error signing out"
-msgstr "Помилка виходу"
-
-#: /media/js/commonplace/login.js:136
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr ""
-"Вхід через Persona невдалий. Можливо ви не маєте облікового запису під цією "
-"адресою ел. пошти?"
-
-#: /media/js/commonplace/login.js:141
-msgid "Persona login failed. A server error was encountered."
-msgstr "Вхід через Persona невдалий. Сталася помилка сервера."
-
-#: /media/js/commonplace/login.js:209
-msgid "Persona cannot be reached. Try again later."
-msgstr "Неможливо зв'язатися з Persona. Спробуйте знову пізніше."
-
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "Немає підключення до інтернету"
-
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
@@ -342,6 +333,10 @@ msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "Залишився <b>{n}</b> символ."
 msgstr[1] "Залишилось <b>{n}</b> символи."
 msgstr[2] "Залишилось <b>{n}</b> символів."
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "Немає підключення до інтернету"
 
 #: /media/js/views/comm.js:67
 msgid "Message sent."
@@ -369,20 +364,15 @@ msgstr "Немає заміток для показу."
 
 #: /media/js/views/comm.js:283
 msgid "There was some problem marking the thread as read. Try again."
-msgstr ""
-"Виникла проблема при помітці обговорення як прочитаного. Спробуйте знову."
+msgstr "Виникла проблема при помітці обговорення як прочитаного. Спробуйте знову."
 
 #: /media/js/views/comm.js:291
 msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr ""
-"Якщо ви відпишетесь від цього обговорення, то більше не будете отримувати "
-"повідомлення на електронну пошту щодо цього обговорення. Ви впевнені?"
+msgstr "Якщо ви відпишетесь від цього обговорення, то більше не будете отримувати повідомлення на електронну пошту щодо цього обговорення. Ви впевнені?"
 
 #: /media/js/views/comm.js:296
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr ""
-"Ви успішно відписані. Надалі ви не будете отримувати повідомлення "
-"електронної пошти для цього обговорення."
+msgstr "Ви успішно відписані. Надалі ви не будете отримувати повідомлення електронної пошти для цього обговорення."
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Commbadge\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-13T16:40:28.867Z\n"
+"POT-Creation-Date: 2014-09-05T15:31:04.604Z\n"
 "PO-Revision-Date: 2014-08-31 09:40+0000\n"
 "Last-Translator: Sandro <gialloporpora@mozillaitalia.org>\n"
 "Language-Team: gialloporpora <gialloporpora@yahoo.it>\n"
@@ -26,6 +26,18 @@ msgstr "No"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Si"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Pannello comunicazioni"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Esci"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Accedi"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -71,18 +83,6 @@ msgstr "Termini d'uso"
 msgid "Report Trademark Abuse"
 msgstr "Segnala abusi dei marchi registrati"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Pannello comunicazioni"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Esci"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Accedi"
-
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "Accedi"
@@ -103,9 +103,78 @@ msgstr "Allegato"
 msgid "File Description"
 msgstr "Descrizione del file"
 
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Accidenti!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Non è stato possibile trovare la pagina che stavi cercando."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Si è verificato un errore."
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Icona dell'app"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Mostra tutte le discussioni riguardanti {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Ritorna alla pagina di modifica dell’app"
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Errore durante il caricamento di contenuti extra"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Riprova"
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
 msgid "No notes found"
 msgstr "Non è stata trovata alcuna nota"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Le mie discussioni"
+
+#: /templates/comm/main.html:14
+msgid "You have no threads."
+msgstr "Non è stata trovata alcuna nota"
+
+#: /templates/comm/main.html:16
+msgid "Hmm...an error?"
+msgstr "Sembra che si sia verificato un errore…"
+
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr "Marca la nota come letta"
+
+#: /templates/comm/note_detail.html:15
+msgid "Empty note"
+msgstr "Nota vuota"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Visualizzazione delle discussioni riguardanti {app_name}"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Ritorna a tutte le discussioni riguardanti {app_name}"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "La versione corrente dell’app"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -173,74 +242,29 @@ msgstr "Recensione"
 msgid "Mark All Read"
 msgstr "Marca tutte come lette"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Icona dell'app"
+#: /media/js/commonplace/login.js:8
+msgid "You have been signed out"
+msgstr "Hai effettuato la disconnessione"
 
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Mostra tutte le discussioni riguardanti {app_name}"
+#: /media/js/commonplace/login.js:12
+msgid "You have been signed in"
+msgstr "Hai effettuato l'accesso"
 
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Ritorna alla pagina di modifica dell’app"
+#: /media/js/commonplace/login.js:49
+msgid "Error signing out"
+msgstr "Si è verificato un errore durante la disconnessione"
 
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Le mie discussioni"
+#: /media/js/commonplace/login.js:136
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Non è riuscita l'identificazione tramite Persona. Sei sicuro di avere un account Persona associato a questo indirizzo email?"
 
-#: /templates/comm/main.html:14
-msgid "You have no threads."
-msgstr "Non è stata trovata alcuna nota"
+#: /media/js/commonplace/login.js:141
+msgid "Persona login failed. A server error was encountered."
+msgstr "Identificazione tramite Persona non riuscita. Si è verificato un errore col server."
 
-#: /templates/comm/main.html:16
-msgid "Hmm...an error?"
-msgstr "Sembra che si sia verificato un errore…"
-
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "Marca la nota come letta"
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr "Nota vuota"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Visualizzazione delle discussioni riguardanti {app_name}"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Ritorna a tutte le discussioni riguardanti {app_name}"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "La versione corrente dell’app"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Accidenti!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Non è stato possibile trovare la pagina che stavi cercando."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Si è verificato un errore."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Errore durante il caricamento di contenuti extra"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Riprova"
+#: /media/js/commonplace/login.js:209
+msgid "Persona cannot be reached. Try again later."
+msgstr "Impossibile comunicare con il server di Persona. Riprova più tardi."
 
 #: /media/js/settings.js:37
 msgid "Message"
@@ -302,40 +326,16 @@ msgstr "Note di caricamento dell’app"
 msgid "Developer comment"
 msgstr "Commento dello sviluppatore"
 
-#: /media/js/commonplace/login.js:8
-msgid "You have been signed out"
-msgstr "Hai effettuato la disconnessione"
-
-#: /media/js/commonplace/login.js:12
-msgid "You have been signed in"
-msgstr "Hai effettuato l'accesso"
-
-#: /media/js/commonplace/login.js:49
-msgid "Error signing out"
-msgstr "Si è verificato un errore durante la disconnessione"
-
-#: /media/js/commonplace/login.js:136
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Non è riuscita l'identificazione tramite Persona. Sei sicuro di avere un account Persona associato a questo indirizzo email?"
-
-#: /media/js/commonplace/login.js:141
-msgid "Persona login failed. A server error was encountered."
-msgstr "Identificazione tramite Persona non riuscita. Si è verificato un errore col server."
-
-#: /media/js/commonplace/login.js:209
-msgid "Persona cannot be reached. Try again later."
-msgstr "Impossibile comunicare con il server di Persona. Riprova più tardi."
-
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "Connessione a Internet non disponibile"
-
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{n}</b> carattere rimanente."
 msgstr[1] "<b>{n}</b> caratteri rimanenti."
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "Connessione a Internet non disponibile"
 
 #: /media/js/views/comm.js:67
 msgid "Message sent."

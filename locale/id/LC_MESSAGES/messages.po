@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-13T16:40:28.867Z\n"
+"POT-Creation-Date: 2014-09-05T15:31:04.604Z\n"
 "PO-Revision-Date: 2013-11-07 07:52+0000\n"
 "Last-Translator: Benny <bennychandra@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,6 +25,18 @@ msgstr "Tidak"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Ya"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr ""
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr ""
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr ""
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -68,18 +80,6 @@ msgstr ""
 msgid "Report Trademark Abuse"
 msgstr ""
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr ""
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr ""
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr ""
-
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr ""
@@ -100,8 +100,77 @@ msgstr ""
 msgid "File Description"
 msgstr ""
 
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr ""
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr ""
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr ""
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr ""
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr ""
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr ""
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr ""
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Coba Lagi"
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
 msgid "No notes found"
+msgstr ""
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr ""
+
+#: /templates/comm/main.html:14
+msgid "You have no threads."
+msgstr ""
+
+#: /templates/comm/main.html:16
+msgid "Hmm...an error?"
+msgstr ""
+
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr ""
+
+#: /templates/comm/note_detail.html:15
+msgid "Empty note"
+msgstr ""
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr ""
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr ""
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr ""
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
 msgstr ""
 
 #: /templates/_macros/reply_box.html:2
@@ -169,74 +238,29 @@ msgstr ""
 msgid "Mark All Read"
 msgstr ""
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
+#: /media/js/commonplace/login.js:8
+msgid "You have been signed out"
 msgstr ""
 
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
+#: /media/js/commonplace/login.js:12
+msgid "You have been signed in"
 msgstr ""
 
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
+#: /media/js/commonplace/login.js:49
+msgid "Error signing out"
 msgstr ""
 
-#: /templates/comm/main.html:3
-msgid "My Threads"
+#: /media/js/commonplace/login.js:136
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr ""
 
-#: /templates/comm/main.html:14
-msgid "You have no threads."
+#: /media/js/commonplace/login.js:141
+msgid "Persona login failed. A server error was encountered."
 msgstr ""
 
-#: /templates/comm/main.html:16
-msgid "Hmm...an error?"
+#: /media/js/commonplace/login.js:209
+msgid "Persona cannot be reached. Try again later."
 msgstr ""
-
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr ""
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr ""
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr ""
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr ""
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr ""
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr ""
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr ""
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr ""
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr ""
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr ""
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Coba Lagi"
 
 #: /media/js/settings.js:37
 msgid "Message"
@@ -298,39 +322,15 @@ msgstr ""
 msgid "Developer comment"
 msgstr ""
 
-#: /media/js/commonplace/login.js:8
-msgid "You have been signed out"
-msgstr ""
-
-#: /media/js/commonplace/login.js:12
-msgid "You have been signed in"
-msgstr ""
-
-#: /media/js/commonplace/login.js:49
-msgid "Error signing out"
-msgstr ""
-
-#: /media/js/commonplace/login.js:136
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr ""
-
-#: /media/js/commonplace/login.js:141
-msgid "Persona login failed. A server error was encountered."
-msgstr ""
-
-#: /media/js/commonplace/login.js:209
-msgid "Persona cannot be reached. Try again later."
-msgstr ""
-
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "Tak ada koneksi internet"
-
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] ""
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "Tak ada koneksi internet"
 
 #: /media/js/views/comm.js:67
 msgid "Message sent."

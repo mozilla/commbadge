@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-13T16:40:28.867Z\n"
+"POT-Creation-Date: 2014-09-05T15:31:04.604Z\n"
 "PO-Revision-Date: 2014-08-20 14:57+0200\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,6 +24,18 @@ msgstr "Jo"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Po"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Pult Komunikimesh"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Dilni"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Hyni"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -50,8 +62,12 @@ msgid "Lookup Tool"
 msgstr "Mjet Kërkimi"
 
 #: /templates/footer.html:24
-msgid "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> or any later version."
-msgstr "Hiq atje ku <a href=\"{legal_url}\" target=\"_blank\">shënohet</a> ndryshe, lënda e këtij sajti qarkullon sipas licencës <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> ose cilitdo version të mëvonshëm. "
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
+msgstr ""
+"Hiq atje ku <a href=\"{legal_url}\" target=\"_blank\">shënohet</a> ndryshe, lënda e këtij sajti qarkullon sipas licencës <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> ose cilitdo version të mëvonshëm. "
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
@@ -65,20 +81,7 @@ msgstr "Kushte Përdorimi"
 msgid "Report Trademark Abuse"
 msgstr "Njoftoni Dhunim Shenjash Tregtare"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Pult Komunikimesh"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Dilni"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Hyni"
-
-#: /templates/login.html:2
-#: /media/js/views/login.js:10
+#: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "Hyni"
 
@@ -98,80 +101,17 @@ msgstr "Bashkëngjitje"
 msgid "File Description"
 msgstr "Përshkrim Kartele"
 
-#: /templates/_macros/create_thread.html:10
-#: /templates/_macros/thread.html:15
-#: /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Nuk u gjetën shënime"
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Mooos!"
 
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Jepni këtu tekstin e shënimit"
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Faqja që po kërkonit nuk u gjet."
 
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Bashkëngjitni foto ekrani dhe kartela regjistër"
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Bashkëngjitni një tjetër kartelë"
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Postoje"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Shihni më të vjetrat"
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} (Version {version_number})"
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "(Të vjetruar)"
-
-#: /templates/_macros/thread_header.html:27
-#: /media/js/views/comm.js:50
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} shënim"
-msgstr[1] "{n} shënime"
-
-#: /templates/_macros/thread_header.html:33
-#: /media/js/views/comm.js:60
-#: /media/js/views/comm.js:142
-msgid "Reply"
-msgstr "Përgjigjuni"
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "Së fundmi"
-
-#: /templates/_macros/thread_header.html:43
-msgid "Unread"
-msgstr "E palexuar"
-
-#: /templates/_macros/thread_header.html:44
-msgid "Read"
-msgstr "E lexuar"
-
-#: /templates/_macros/thread_header.html:45
-msgid "View App"
-msgstr "Shiheni Zbatimin"
-
-#: /templates/_macros/thread_header.html:49
-msgid "Unsubscribe"
-msgstr "Shpajtohuni"
-
-#: /templates/_macros/thread_header.html:52
-msgid "Review"
-msgstr "Shqyrtim"
-
-#: /templates/_macros/thread_header.html:55
-msgid "Mark All Read"
-msgstr "Vëru Shenjë të Tërave Si të Lexuara"
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Ndodhi një gabim."
 
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
@@ -184,6 +124,18 @@ msgstr "Po shihni Krejt Rrjedhat mbi {app_name}"
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
 msgstr "Kthehuni mbrapsht te faqja e përpunimit të zbatimit"
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Gabim në ngarkim më tepër"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Riprovoni"
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr "Nuk u gjetën shënime"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -222,26 +174,95 @@ msgstr "Versione të Këtij Zbatimi"
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
-#: /templates/errors/404.html:2
-#: /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Mooos!"
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Jepni këtu tekstin e shënimit"
 
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Faqja që po kërkonit nuk u gjet."
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Bashkëngjitni foto ekrani dhe kartela regjistër"
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Ndodhi një gabim."
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Bashkëngjitni një tjetër kartelë"
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Gabim në ngarkim më tepër"
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Postoje"
 
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Riprovoni"
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Shihni më të vjetrat"
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} (Version {version_number})"
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "(Të vjetruar)"
+
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:50
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} shënim"
+msgstr[1] "{n} shënime"
+
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:60 /media/js/views/comm.js:142
+msgid "Reply"
+msgstr "Përgjigjuni"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "Së fundmi"
+
+#: /templates/_macros/thread_header.html:43
+msgid "Unread"
+msgstr "E palexuar"
+
+#: /templates/_macros/thread_header.html:44
+msgid "Read"
+msgstr "E lexuar"
+
+#: /templates/_macros/thread_header.html:45
+msgid "View App"
+msgstr "Shiheni Zbatimin"
+
+#: /templates/_macros/thread_header.html:49
+msgid "Unsubscribe"
+msgstr "Shpajtohuni"
+
+#: /templates/_macros/thread_header.html:52
+msgid "Review"
+msgstr "Shqyrtim"
+
+#: /templates/_macros/thread_header.html:55
+msgid "Mark All Read"
+msgstr "Vëru Shenjë të Tërave Si të Lexuara"
+
+#: /media/js/commonplace/login.js:8
+msgid "You have been signed out"
+msgstr "Keni dalë"
+
+#: /media/js/commonplace/login.js:12
+msgid "You have been signed in"
+msgstr "Keni hyrë"
+
+#: /media/js/commonplace/login.js:49
+msgid "Error signing out"
+msgstr "Gabim gjatë daljes"
+
+#: /media/js/commonplace/login.js:136
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Hyrja me Persona-n dështoi. Ndoshta nuk keni llogari me këtë adresë email?"
+
+#: /media/js/commonplace/login.js:141
+msgid "Persona login failed. A server error was encountered."
+msgstr "Hyrja me Persona-n dështoi. U has një gabim shërbyesi."
+
+#: /media/js/commonplace/login.js:209
+msgid "Persona cannot be reached. Try again later."
+msgstr "Persona nuk u kap dot. Riprovoni më vonë."
 
 #: /media/js/settings.js:37
 msgid "Message"
@@ -303,40 +324,16 @@ msgstr "Shënim parashtrimi zbatimi"
 msgid "Developer comment"
 msgstr "Koment nga zhvilluesi"
 
-#: /media/js/commonplace/login.js:8
-msgid "You have been signed out"
-msgstr "Keni dalë"
-
-#: /media/js/commonplace/login.js:12
-msgid "You have been signed in"
-msgstr "Keni hyrë"
-
-#: /media/js/commonplace/login.js:49
-msgid "Error signing out"
-msgstr "Gabim gjatë daljes"
-
-#: /media/js/commonplace/login.js:136
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Hyrja me Persona-n dështoi. Ndoshta nuk keni llogari me këtë adresë email?"
-
-#: /media/js/commonplace/login.js:141
-msgid "Persona login failed. A server error was encountered."
-msgstr "Hyrja me Persona-n dështoi. U has një gabim shërbyesi."
-
-#: /media/js/commonplace/login.js:209
-msgid "Persona cannot be reached. Try again later."
-msgstr "Persona nuk u kap dot. Riprovoni më vonë."
-
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "Pa lidhje internet"
-
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "Edhe <b>{n}</b> shenjë."
 msgstr[1] "Edhe <b>{n}</b> shenja."
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "Pa lidhje internet"
 
 #: /media/js/views/comm.js:67
 msgid "Message sent."
@@ -382,4 +379,3 @@ msgstr "Njatjeta Botë!"
 #: /media/js/views/commonplace/not_found.js:9
 msgid "Not Found"
 msgstr "Nuk u Gjet"
-

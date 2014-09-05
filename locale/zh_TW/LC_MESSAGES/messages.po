@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-13T16:40:28.867Z\n"
+"POT-Creation-Date: 2014-09-05T15:31:04.604Z\n"
 "PO-Revision-Date: 2014-08-14 02:05+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: MozTW <petercpg@mail.moztw.org>\n"
@@ -26,6 +26,18 @@ msgstr "否"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "是"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "傳播主控台"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "登出"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "登入"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -69,18 +81,6 @@ msgstr "使用條款"
 msgid "Report Trademark Abuse"
 msgstr "回報商標濫用"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "傳播主控台"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "登出"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "登入"
-
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "登入"
@@ -101,9 +101,78 @@ msgstr "附件"
 msgid "File Description"
 msgstr "檔案描述"
 
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "喔不！"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "找不到您想開啟的頁面。"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "發生錯誤。"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "應用程式圖示"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "檢視所有 {app_name} 的討論串"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "回到程式編輯頁面"
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "載入更多時發生錯誤"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "重試"
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
 msgid "No notes found"
 msgstr "找不到筆記"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "我的討論串"
+
+#: /templates/comm/main.html:14
+msgid "You have no threads."
+msgstr "您沒有討論串。"
+
+#: /templates/comm/main.html:16
+msgid "Hmm...an error?"
+msgstr "嗯…發生錯誤了嗎？"
+
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr "將此筆記標示為已讀"
+
+#: /templates/comm/note_detail.html:15
+msgid "Empty note"
+msgstr "空白筆記"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "正在檢視 {app_name} 的討論串"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "回到 {app_name} 的所有討論串"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "此應用程式的版本"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -170,74 +239,29 @@ msgstr "評論"
 msgid "Mark All Read"
 msgstr "標示所有已讀"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "應用程式圖示"
+#: /media/js/commonplace/login.js:8
+msgid "You have been signed out"
+msgstr "您已經登出。"
 
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "檢視所有 {app_name} 的討論串"
+#: /media/js/commonplace/login.js:12
+msgid "You have been signed in"
+msgstr "您已經登入。"
 
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "回到程式編輯頁面"
+#: /media/js/commonplace/login.js:49
+msgid "Error signing out"
+msgstr "登出時發生錯誤"
 
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "我的討論串"
+#: /media/js/commonplace/login.js:136
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Persona 登入失敗，也許您沒有使用該電子郵件地址的帳號？"
 
-#: /templates/comm/main.html:14
-msgid "You have no threads."
-msgstr "您沒有討論串。"
+#: /media/js/commonplace/login.js:141
+msgid "Persona login failed. A server error was encountered."
+msgstr "Persona 登入失敗，伺服器發生錯誤。"
 
-#: /templates/comm/main.html:16
-msgid "Hmm...an error?"
-msgstr "嗯…發生錯誤了嗎？"
-
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "將此筆記標示為已讀"
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr "空白筆記"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "正在檢視 {app_name} 的討論串"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "回到 {app_name} 的所有討論串"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "此應用程式的版本"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "喔不！"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "找不到您想開啟的頁面。"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "發生錯誤。"
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "載入更多時發生錯誤"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "重試"
+#: /media/js/commonplace/login.js:209
+msgid "Persona cannot be reached. Try again later."
+msgstr "無法聯繫 Persona，請稍後再試。"
 
 #: /media/js/settings.js:37
 msgid "Message"
@@ -299,39 +323,15 @@ msgstr "應用程式提交註記"
 msgid "Developer comment"
 msgstr "開發者留言"
 
-#: /media/js/commonplace/login.js:8
-msgid "You have been signed out"
-msgstr "您已經登出。"
-
-#: /media/js/commonplace/login.js:12
-msgid "You have been signed in"
-msgstr "您已經登入。"
-
-#: /media/js/commonplace/login.js:49
-msgid "Error signing out"
-msgstr "登出時發生錯誤"
-
-#: /media/js/commonplace/login.js:136
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Persona 登入失敗，也許您沒有使用該電子郵件地址的帳號？"
-
-#: /media/js/commonplace/login.js:141
-msgid "Persona login failed. A server error was encountered."
-msgstr "Persona 登入失敗，伺服器發生錯誤。"
-
-#: /media/js/commonplace/login.js:209
-msgid "Persona cannot be reached. Try again later."
-msgstr "無法聯繫 Persona，請稍後再試。"
-
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "沒有網際網路連線"
-
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "剩下 <b>{n}</b> 個字元。"
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "沒有網際網路連線"
 
 #: /media/js/views/comm.js:67
 msgid "Message sent."

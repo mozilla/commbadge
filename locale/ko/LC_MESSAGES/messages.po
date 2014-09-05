@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-13T16:40:28.867Z\n"
+"POT-Creation-Date: 2014-09-05T15:31:04.604Z\n"
 "PO-Revision-Date: 2014-08-15 05:46+0000\n"
 "Last-Translator: Channy <channy@mozilla.or.kr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,6 +25,18 @@ msgstr "아니오"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "예"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "커뮤니케이션 대시보드"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "로그아웃"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "로그인"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -70,18 +82,6 @@ msgstr "이용 약관"
 msgid "Report Trademark Abuse"
 msgstr "등록 상표 오용 신고"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "커뮤니케이션 대시보드"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "로그아웃"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "로그인"
-
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "로그인"
@@ -102,9 +102,78 @@ msgstr "첨부 파일"
 msgid "File Description"
 msgstr "파일 설명"
 
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "오 이런!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "찾는 페이지가 없습니다."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "오류가 발생했습니다."
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "앱 아이콘"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "{app_name}에 대한 글타래 모두 보기"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "앱 편집 페이지 가기"
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "더 불러오는 중 오류 발생"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "다시 시도"
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
 msgid "No notes found"
 msgstr "소개 내용 없음"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "내 글타래"
+
+#: /templates/comm/main.html:14
+msgid "You have no threads."
+msgstr "글이 없습니다."
+
+#: /templates/comm/main.html:16
+msgid "Hmm...an error?"
+msgstr "오류...인가요?"
+
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr "이 메모를 읽음으로 표시"
+
+#: /templates/comm/note_detail.html:15
+msgid "Empty note"
+msgstr "소개 내용 없음"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "{app_name}에 대한 글타래 보기"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "{app_name}에 대한 글타래로 돌아가기"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "앱 버전"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -171,74 +240,29 @@ msgstr "리뷰"
 msgid "Mark All Read"
 msgstr "모두 읽은 것으로 표시"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "앱 아이콘"
+#: /media/js/commonplace/login.js:8
+msgid "You have been signed out"
+msgstr "로그아웃 되었습니다."
 
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "{app_name}에 대한 글타래 모두 보기"
+#: /media/js/commonplace/login.js:12
+msgid "You have been signed in"
+msgstr "로그인 되었습니다"
 
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "앱 편집 페이지 가기"
+#: /media/js/commonplace/login.js:49
+msgid "Error signing out"
+msgstr "로그아웃 오류"
 
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "내 글타래"
+#: /media/js/commonplace/login.js:136
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Persona 로그인에 실패했습니다. 입력하신 이메일과 연결된 계정이 없을 수 있습니다."
 
-#: /templates/comm/main.html:14
-msgid "You have no threads."
-msgstr "글이 없습니다."
+#: /media/js/commonplace/login.js:141
+msgid "Persona login failed. A server error was encountered."
+msgstr "Persona 로그인에 실패했습니다. 서버 오류가 발생했습니다."
 
-#: /templates/comm/main.html:16
-msgid "Hmm...an error?"
-msgstr "오류...인가요?"
-
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "이 메모를 읽음으로 표시"
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr "소개 내용 없음"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "{app_name}에 대한 글타래 보기"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "{app_name}에 대한 글타래로 돌아가기"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "앱 버전"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "오 이런!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "찾는 페이지가 없습니다."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "오류가 발생했습니다."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "더 불러오는 중 오류 발생"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "다시 시도"
+#: /media/js/commonplace/login.js:209
+msgid "Persona cannot be reached. Try again later."
+msgstr "Persona에 접근할 수 없습니다. 다시 시도해 보세요."
 
 #: /media/js/settings.js:37
 msgid "Message"
@@ -300,39 +324,15 @@ msgstr "앱 제출 노트"
 msgid "Developer comment"
 msgstr "개발자 코멘트"
 
-#: /media/js/commonplace/login.js:8
-msgid "You have been signed out"
-msgstr "로그아웃 되었습니다."
-
-#: /media/js/commonplace/login.js:12
-msgid "You have been signed in"
-msgstr "로그인 되었습니다"
-
-#: /media/js/commonplace/login.js:49
-msgid "Error signing out"
-msgstr "로그아웃 오류"
-
-#: /media/js/commonplace/login.js:136
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Persona 로그인에 실패했습니다. 입력하신 이메일과 연결된 계정이 없을 수 있습니다."
-
-#: /media/js/commonplace/login.js:141
-msgid "Persona login failed. A server error was encountered."
-msgstr "Persona 로그인에 실패했습니다. 서버 오류가 발생했습니다."
-
-#: /media/js/commonplace/login.js:209
-msgid "Persona cannot be reached. Try again later."
-msgstr "Persona에 접근할 수 없습니다. 다시 시도해 보세요."
-
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "인터넷 연결 불가"
-
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{n}</b>자 남았습니다."
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "인터넷 연결 불가"
 
 #: /media/js/views/comm.js:67
 msgid "Message sent."

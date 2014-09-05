@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-13T16:40:28.867Z\n"
+"POT-Creation-Date: 2014-09-05T15:31:04.604Z\n"
 "PO-Revision-Date: 2013-10-19 23:50+0000\n"
 "Last-Translator: Michael <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,6 +25,18 @@ msgstr "Chan eil"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Tha"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Deas-bhòrd a' chonaltraidh"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Clàraich a-mach"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Clàraich a-steach"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -70,18 +82,6 @@ msgstr "Teirmichean a' chleachdaidh"
 msgid "Report Trademark Abuse"
 msgstr "Dèan aithris air mì-chleachdadh comarra-malairt"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Deas-bhòrd a' chonaltraidh"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Clàraich a-mach"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Clàraich a-steach"
-
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "Clàraich a-steach"
@@ -102,8 +102,77 @@ msgstr ""
 msgid "File Description"
 msgstr ""
 
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Mo chreach!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Cha b' urrainn dhuinn an duilleag a bha a dhìth ort a lorg."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Thachair mearachd."
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr ""
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr ""
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr ""
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Thachair mearachd fhad 's a dh'fheuch sinn ri barrachd fiosrachaidh a luchdadh"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Feuch ris a-rithist"
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
 msgid "No notes found"
+msgstr ""
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr ""
+
+#: /templates/comm/main.html:14
+msgid "You have no threads."
+msgstr "Chan eil snàithlean sam bith agad."
+
+#: /templates/comm/main.html:16
+msgid "Hmm...an error?"
+msgstr ""
+
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr "Cuir comharra gun deach an nòta seo a leughadh"
+
+#: /templates/comm/note_detail.html:15
+msgid "Empty note"
+msgstr ""
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr ""
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr ""
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr ""
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
 msgstr ""
 
 #: /templates/_macros/reply_box.html:2
@@ -174,74 +243,29 @@ msgstr ""
 msgid "Mark All Read"
 msgstr "Cuir comharra gun deach iad uile a leughadh"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
+#: /media/js/commonplace/login.js:8
+msgid "You have been signed out"
+msgstr "Chaidh do chlàradh a-mach"
+
+#: /media/js/commonplace/login.js:12
+msgid "You have been signed in"
+msgstr "Chaidh do chlàradh a-steach"
+
+#: /media/js/commonplace/login.js:49
+msgid "Error signing out"
 msgstr ""
 
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
+#: /media/js/commonplace/login.js:136
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Dh'fhàillig clàradh a-steach Persona. Saoil a bheil cunntas agad ann leis an t-seòladh phuist-d seo?"
+
+#: /media/js/commonplace/login.js:141
+msgid "Persona login failed. A server error was encountered."
+msgstr "Dh'fhàillig clàradh a-steach Persona. Thachair mearachd leis an fhrithealaiche."
+
+#: /media/js/commonplace/login.js:209
+msgid "Persona cannot be reached. Try again later."
 msgstr ""
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr ""
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr ""
-
-#: /templates/comm/main.html:14
-msgid "You have no threads."
-msgstr "Chan eil snàithlean sam bith agad."
-
-#: /templates/comm/main.html:16
-msgid "Hmm...an error?"
-msgstr ""
-
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "Cuir comharra gun deach an nòta seo a leughadh"
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr ""
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr ""
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr ""
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr ""
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr ""
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Mo chreach!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Cha b' urrainn dhuinn an duilleag a bha a dhìth ort a lorg."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Thachair mearachd."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Thachair mearachd fhad 's a dh'fheuch sinn ri barrachd fiosrachaidh a luchdadh"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Feuch ris a-rithist"
 
 #: /media/js/settings.js:37
 msgid "Message"
@@ -303,34 +327,6 @@ msgstr ""
 msgid "Developer comment"
 msgstr ""
 
-#: /media/js/commonplace/login.js:8
-msgid "You have been signed out"
-msgstr "Chaidh do chlàradh a-mach"
-
-#: /media/js/commonplace/login.js:12
-msgid "You have been signed in"
-msgstr "Chaidh do chlàradh a-steach"
-
-#: /media/js/commonplace/login.js:49
-msgid "Error signing out"
-msgstr ""
-
-#: /media/js/commonplace/login.js:136
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Dh'fhàillig clàradh a-steach Persona. Saoil a bheil cunntas agad ann leis an t-seòladh phuist-d seo?"
-
-#: /media/js/commonplace/login.js:141
-msgid "Persona login failed. A server error was encountered."
-msgstr "Dh'fhàillig clàradh a-steach Persona. Thachair mearachd leis an fhrithealaiche."
-
-#: /media/js/commonplace/login.js:209
-msgid "Persona cannot be reached. Try again later."
-msgstr ""
-
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "Chan eil ceangal ris an eadar-lìon"
-
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
@@ -339,6 +335,10 @@ msgstr[0] "<b>{n}</b> charactar air fhàgail."
 msgstr[1] "<b>{n}</b> charactar air fhàgail."
 msgstr[2] "<b>{n}</b> caractaran air fhàgail."
 msgstr[3] "<b>{n}</b> caractar air fhàgail."
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "Chan eil ceangal ris an eadar-lìon"
 
 #: /media/js/views/comm.js:67
 msgid "Message sent."

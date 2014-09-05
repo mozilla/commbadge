@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-13T16:40:28.867Z\n"
+"POT-Creation-Date: 2014-09-05T15:31:04.604Z\n"
 "PO-Revision-Date: 2014-08-15 12:09+0000\n"
 "Last-Translator: Selim <selim@sum.lu>\n"
 "Language-Team: none\n"
@@ -25,6 +25,18 @@ msgstr "Hayır"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Evet"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "İletişim Panosu"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Oturumu kapat"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Oturum aç"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -70,18 +82,6 @@ msgstr "Kullanım Koşulları"
 msgid "Report Trademark Abuse"
 msgstr "Marka ihlali bildir"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "İletişim Panosu"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Oturumu kapat"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Oturum aç"
-
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "Oturum aç"
@@ -102,9 +102,78 @@ msgstr "Ek"
 msgid "File Description"
 msgstr "Dosya açıklaması"
 
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Olamaz!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Aradığınız sayfa bulunamadı."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Bir hata oluştu."
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Uygulama simgesi"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "{app_name} için tüm başlıklar gösteriliyor"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Uygulama düzenleme sayfasına dön"
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Daha fazlası yüklenirken hata oluştu"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Yeniden dene"
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
 msgid "No notes found"
 msgstr "Hiç not bulunamadı"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Başlıklarım"
+
+#: /templates/comm/main.html:14
+msgid "You have no threads."
+msgstr "Hiç başlığınız yok."
+
+#: /templates/comm/main.html:16
+msgid "Hmm...an error?"
+msgstr "Hmm... Hata mı var acaba?"
+
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr "Bu notu okunmuş olarak işaretle"
+
+#: /templates/comm/note_detail.html:15
+msgid "Empty note"
+msgstr "Boş not"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "{app_name} başlığı görüntüleniyor"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Tüm {app_name} başlıklarına dön"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "Bu uygulamanın sürümleri"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -171,74 +240,29 @@ msgstr "İnceleme"
 msgid "Mark All Read"
 msgstr "Tümünü okundu işaretle"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Uygulama simgesi"
+#: /media/js/commonplace/login.js:8
+msgid "You have been signed out"
+msgstr ""
 
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "{app_name} için tüm başlıklar gösteriliyor"
+#: /media/js/commonplace/login.js:12
+msgid "You have been signed in"
+msgstr ""
 
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Uygulama düzenleme sayfasına dön"
+#: /media/js/commonplace/login.js:49
+msgid "Error signing out"
+msgstr ""
 
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Başlıklarım"
+#: /media/js/commonplace/login.js:136
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr ""
 
-#: /templates/comm/main.html:14
-msgid "You have no threads."
-msgstr "Hiç başlığınız yok."
+#: /media/js/commonplace/login.js:141
+msgid "Persona login failed. A server error was encountered."
+msgstr "Persona'ya giriş başarısız oldu. Bir sunucu hatası ile karşılaşıldı."
 
-#: /templates/comm/main.html:16
-msgid "Hmm...an error?"
-msgstr "Hmm... Hata mı var acaba?"
-
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "Bu notu okunmuş olarak işaretle"
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr "Boş not"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "{app_name} başlığı görüntüleniyor"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Tüm {app_name} başlıklarına dön"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "Bu uygulamanın sürümleri"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Olamaz!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Aradığınız sayfa bulunamadı."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Bir hata oluştu."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Daha fazlası yüklenirken hata oluştu"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Yeniden dene"
+#: /media/js/commonplace/login.js:209
+msgid "Persona cannot be reached. Try again later."
+msgstr ""
 
 #: /media/js/settings.js:37
 msgid "Message"
@@ -300,39 +324,15 @@ msgstr ""
 msgid "Developer comment"
 msgstr ""
 
-#: /media/js/commonplace/login.js:8
-msgid "You have been signed out"
-msgstr ""
-
-#: /media/js/commonplace/login.js:12
-msgid "You have been signed in"
-msgstr ""
-
-#: /media/js/commonplace/login.js:49
-msgid "Error signing out"
-msgstr ""
-
-#: /media/js/commonplace/login.js:136
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr ""
-
-#: /media/js/commonplace/login.js:141
-msgid "Persona login failed. A server error was encountered."
-msgstr "Persona'ya giriş başarısız oldu. Bir sunucu hatası ile karşılaşıldı."
-
-#: /media/js/commonplace/login.js:209
-msgid "Persona cannot be reached. Try again later."
-msgstr ""
-
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr ""
-
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] ""
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr ""
 
 #: /media/js/views/comm.js:67
 msgid "Message sent."

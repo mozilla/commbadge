@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-13T16:40:28.867Z\n"
+"POT-Creation-Date: 2014-09-05T15:31:04.604Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -24,6 +24,18 @@ msgstr "No"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Yes"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Communication Dashboard"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Sign Out"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Sign In"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -69,18 +81,6 @@ msgstr "Terms of Use"
 msgid "Report Trademark Abuse"
 msgstr "Report Trademark Abuse"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Communication Dashboard"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Sign Out"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Sign In"
-
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "Sign in"
@@ -101,9 +101,78 @@ msgstr "Attachment"
 msgid "File Description"
 msgstr "File Description"
 
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Oh no!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "The page you were looking for was not found."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "An error occurred."
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "App icon"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Viewing All Threads for {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Go back to app edit page"
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Error loading more"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Try Again"
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
 msgid "No notes found"
 msgstr "No notes found"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "My Threads"
+
+#: /templates/comm/main.html:14
+msgid "You have no threads."
+msgstr "You have no threads."
+
+#: /templates/comm/main.html:16
+msgid "Hmm...an error?"
+msgstr "Hmm...an error?"
+
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr "Mark this note as read"
+
+#: /templates/comm/note_detail.html:15
+msgid "Empty note"
+msgstr "Empty note"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Viewing Thread for {app_name}"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Back to all threads for {app_name}"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "This App's Versions"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -171,74 +240,29 @@ msgstr "Review"
 msgid "Mark All Read"
 msgstr "Mark All Read"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "App icon"
+#: /media/js/commonplace/login.js:8
+msgid "You have been signed out"
+msgstr "You have been signed out"
 
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Viewing All Threads for {app_name}"
+#: /media/js/commonplace/login.js:12
+msgid "You have been signed in"
+msgstr "You have been signed in"
 
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Go back to app edit page"
+#: /media/js/commonplace/login.js:49
+msgid "Error signing out"
+msgstr "Error signing out"
 
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "My Threads"
+#: /media/js/commonplace/login.js:136
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Persona login failed. Maybe you don't have an account under that email address?"
 
-#: /templates/comm/main.html:14
-msgid "You have no threads."
-msgstr "You have no threads."
+#: /media/js/commonplace/login.js:141
+msgid "Persona login failed. A server error was encountered."
+msgstr "Persona login failed. A server error was encountered."
 
-#: /templates/comm/main.html:16
-msgid "Hmm...an error?"
-msgstr "Hmm...an error?"
-
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "Mark this note as read"
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr "Empty note"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Viewing Thread for {app_name}"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Back to all threads for {app_name}"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "This App's Versions"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Oh no!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "The page you were looking for was not found."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "An error occurred."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Error loading more"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Try Again"
+#: /media/js/commonplace/login.js:209
+msgid "Persona cannot be reached. Try again later."
+msgstr "Persona cannot be reached. Try again later."
 
 #: /media/js/settings.js:37
 msgid "Message"
@@ -300,40 +324,16 @@ msgstr "App submission note"
 msgid "Developer comment"
 msgstr "Developer comment"
 
-#: /media/js/commonplace/login.js:8
-msgid "You have been signed out"
-msgstr "You have been signed out"
-
-#: /media/js/commonplace/login.js:12
-msgid "You have been signed in"
-msgstr "You have been signed in"
-
-#: /media/js/commonplace/login.js:49
-msgid "Error signing out"
-msgstr "Error signing out"
-
-#: /media/js/commonplace/login.js:136
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Persona login failed. Maybe you don't have an account under that email address?"
-
-#: /media/js/commonplace/login.js:141
-msgid "Persona login failed. A server error was encountered."
-msgstr "Persona login failed. A server error was encountered."
-
-#: /media/js/commonplace/login.js:209
-msgid "Persona cannot be reached. Try again later."
-msgstr "Persona cannot be reached. Try again later."
-
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "No internet connection"
-
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{n}</b> character left."
 msgstr[1] "<b>{n}</b> characters left."
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "No internet connection"
 
 #: /media/js/views/comm.js:67
 msgid "Message sent."

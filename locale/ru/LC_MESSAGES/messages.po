@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-13T16:40:28.867Z\n"
+"POT-Creation-Date: 2014-09-05T15:31:04.604Z\n"
 "PO-Revision-Date: 2014-08-13 18:27+0000\n"
 "Last-Translator: Alexander <unghost@mozilla-russia.org>\n"
 "Language-Team: none\n"
@@ -10,8 +10,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1407954475.0\n"
 
@@ -26,6 +25,18 @@ msgstr "Нет"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Да"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Панель коммуникации"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Выйти"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Войти"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -71,18 +82,6 @@ msgstr "Условия использования"
 msgid "Report Trademark Abuse"
 msgstr "Сообщить о злоупотреблении торговой маркой"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Панель коммуникации"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Выйти"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Войти"
-
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "Войти"
@@ -103,9 +102,78 @@ msgstr "Приложение"
 msgid "File Description"
 msgstr "Описание файла"
 
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "О нет!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Страница, которую вы искали, не была найдена."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Произошла ошибка."
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Значок приложения"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Просмотр всех обсуждений для {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Вернуться к странице редактирования приложения"
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Ошибка загрузки большего"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Попробовать снова"
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
 msgid "No notes found"
 msgstr "Заметок не найдено"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Мои обсуждения"
+
+#: /templates/comm/main.html:14
+msgid "You have no threads."
+msgstr "У вас нет обсуждений."
+
+#: /templates/comm/main.html:16
+msgid "Hmm...an error?"
+msgstr "Хмм...ошибка?"
+
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr "Пометить эту заметку как прочитанную"
+
+#: /templates/comm/note_detail.html:15
+msgid "Empty note"
+msgstr "Пустая заметка"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Просмотр обсуждения для {app_name}"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Вернуться ко всем обсуждениям для {app_name}"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "Версии этого приложения"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -174,74 +242,29 @@ msgstr "Рецензировать"
 msgid "Mark All Read"
 msgstr "Пометить все как \"прочитанные\""
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Значок приложения"
+#: /media/js/commonplace/login.js:8
+msgid "You have been signed out"
+msgstr "Вы успешно вышли из своего аккаунта"
 
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Просмотр всех обсуждений для {app_name}"
+#: /media/js/commonplace/login.js:12
+msgid "You have been signed in"
+msgstr "Вы успешно вошли в свой аккаунт"
 
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Вернуться к странице редактирования приложения"
+#: /media/js/commonplace/login.js:49
+msgid "Error signing out"
+msgstr "Ошибка при выходе"
 
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Мои обсуждения"
+#: /media/js/commonplace/login.js:136
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Ошибка входа через Persona. Возможно у вас нет учетной записи для этого адреса эл. почты?"
 
-#: /templates/comm/main.html:14
-msgid "You have no threads."
-msgstr "У вас нет обсуждений."
+#: /media/js/commonplace/login.js:141
+msgid "Persona login failed. A server error was encountered."
+msgstr "Ошибка входа через Persona. Произошла ошибка сервера."
 
-#: /templates/comm/main.html:16
-msgid "Hmm...an error?"
-msgstr "Хмм...ошибка?"
-
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "Пометить эту заметку как прочитанную"
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr "Пустая заметка"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Просмотр обсуждения для {app_name}"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Вернуться ко всем обсуждениям для {app_name}"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "Версии этого приложения"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "О нет!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Страница, которую вы искали, не была найдена."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Произошла ошибка."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Ошибка загрузки большего"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Попробовать снова"
+#: /media/js/commonplace/login.js:209
+msgid "Persona cannot be reached. Try again later."
+msgstr "Не удалось связаться с Persona. Повторите попытку позже."
 
 #: /media/js/settings.js:37
 msgid "Message"
@@ -303,34 +326,6 @@ msgstr "Заметка к представлению приложения"
 msgid "Developer comment"
 msgstr "Комментарий разработчика"
 
-#: /media/js/commonplace/login.js:8
-msgid "You have been signed out"
-msgstr "Вы успешно вышли из своего аккаунта"
-
-#: /media/js/commonplace/login.js:12
-msgid "You have been signed in"
-msgstr "Вы успешно вошли в свой аккаунт"
-
-#: /media/js/commonplace/login.js:49
-msgid "Error signing out"
-msgstr "Ошибка при выходе"
-
-#: /media/js/commonplace/login.js:136
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Ошибка входа через Persona. Возможно у вас нет учетной записи для этого адреса эл. почты?"
-
-#: /media/js/commonplace/login.js:141
-msgid "Persona login failed. A server error was encountered."
-msgstr "Ошибка входа через Persona. Произошла ошибка сервера."
-
-#: /media/js/commonplace/login.js:209
-msgid "Persona cannot be reached. Try again later."
-msgstr "Не удалось связаться с Persona. Повторите попытку позже."
-
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "Нет подключения к Интернету"
-
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
@@ -338,6 +333,10 @@ msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "остался <b>{n}</b> символ."
 msgstr[1] "осталось <b>{n}</b> символа."
 msgstr[2] "осталось <b>{n}</b> символов."
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "Нет подключения к Интернету"
 
 #: /media/js/views/comm.js:67
 msgid "Message sent."

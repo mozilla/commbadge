@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-13T16:40:28.867Z\n"
+"POT-Creation-Date: 2014-09-05T15:31:04.604Z\n"
 "PO-Revision-Date: 2014-08-13 18:46-0400\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
@@ -24,6 +24,18 @@ msgstr "いいえ"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "はい"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "コミュニケーションダッシュボード"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "ログアウト"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "ログイン"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -69,18 +81,6 @@ msgstr "利用規約"
 msgid "Report Trademark Abuse"
 msgstr "商標不正使用報告"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "コミュニケーションダッシュボード"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "ログアウト"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "ログイン"
-
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "ログイン"
@@ -101,9 +101,78 @@ msgstr "添付ファイル"
 msgid "File Description"
 msgstr "ファイル説明"
 
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Not Found"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "お探しのページは見つかりませんでした。"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "問題が発生しました。"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "アプリのアイコン"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "{app_name} のすべてのスレッドを表示しています"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "アプリ編集ページへ戻る"
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "読み込み中に問題が発生しました"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "再読み込み"
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
 msgid "No notes found"
 msgstr "ノートがが見つかりませんでした"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "自分のスレッド"
+
+#: /templates/comm/main.html:14
+msgid "You have no threads."
+msgstr "スレッドがありません。"
+
+#: /templates/comm/main.html:16
+msgid "Hmm...an error?"
+msgstr "何か問題が発生したようです"
+
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr "この記事を既読にする"
+
+#: /templates/comm/note_detail.html:15
+msgid "Empty note"
+msgstr "空白のノート"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "{app_name} のスレッドを表示しています"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "{app_name} のすべてのスレッドへ戻る"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "このアプリのバージョン"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -171,74 +240,29 @@ msgstr "レビュー"
 msgid "Mark All Read"
 msgstr "すべて既読にする"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "アプリのアイコン"
+#: /media/js/commonplace/login.js:8
+msgid "You have been signed out"
+msgstr "ログアウトしました"
 
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "{app_name} のすべてのスレッドを表示しています"
+#: /media/js/commonplace/login.js:12
+msgid "You have been signed in"
+msgstr "ログインしました"
 
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "アプリ編集ページへ戻る"
+#: /media/js/commonplace/login.js:49
+msgid "Error signing out"
+msgstr "ログアウトに失敗しました"
 
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "自分のスレッド"
+#: /media/js/commonplace/login.js:136
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Persona のログインに失敗しました。入力されたメールアドレスのアカウントは存在しない可能性があります。"
 
-#: /templates/comm/main.html:14
-msgid "You have no threads."
-msgstr "スレッドがありません。"
+#: /media/js/commonplace/login.js:141
+msgid "Persona login failed. A server error was encountered."
+msgstr "Persona のログインに失敗しました。サーバエラーが発生しました。"
 
-#: /templates/comm/main.html:16
-msgid "Hmm...an error?"
-msgstr "何か問題が発生したようです"
-
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "この記事を既読にする"
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr "空白のノート"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "{app_name} のスレッドを表示しています"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "{app_name} のすべてのスレッドへ戻る"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "このアプリのバージョン"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Not Found"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "お探しのページは見つかりませんでした。"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "問題が発生しました。"
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "読み込み中に問題が発生しました"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "再読み込み"
+#: /media/js/commonplace/login.js:209
+msgid "Persona cannot be reached. Try again later."
+msgstr "Persona サーバへ接続できませんでした。また後で試してください。"
 
 #: /media/js/settings.js:37
 msgid "Message"
@@ -300,40 +324,16 @@ msgstr "アプリ登録時の注意"
 msgid "Developer comment"
 msgstr "開発者のコメント"
 
-#: /media/js/commonplace/login.js:8
-msgid "You have been signed out"
-msgstr "ログアウトしました"
-
-#: /media/js/commonplace/login.js:12
-msgid "You have been signed in"
-msgstr "ログインしました"
-
-#: /media/js/commonplace/login.js:49
-msgid "Error signing out"
-msgstr "ログアウトに失敗しました"
-
-#: /media/js/commonplace/login.js:136
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Persona のログインに失敗しました。入力されたメールアドレスのアカウントは存在しない可能性があります。"
-
-#: /media/js/commonplace/login.js:141
-msgid "Persona login failed. A server error was encountered."
-msgstr "Persona のログインに失敗しました。サーバエラーが発生しました。"
-
-#: /media/js/commonplace/login.js:209
-msgid "Persona cannot be reached. Try again later."
-msgstr "Persona サーバへ接続できませんでした。また後で試してください。"
-
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "インターネットに接続されていません"
-
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "残り <b>{n}</b> 文字です。"
 msgstr[1] "残り <b>{n}</b> 文字です。"
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "インターネットに接続されていません"
 
 #: /media/js/views/comm.js:67
 msgid "Message sent."

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-13T16:40:28.867Z\n"
+"POT-Creation-Date: 2014-09-05T15:31:04.604Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Αλέξανδρος Μιόγλου <alexandros@mioglou.me>\n"
 "Language-Team: none\n"
@@ -24,6 +24,18 @@ msgstr "Όχι"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Ναι"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Ταμπλό επικοινωνίας"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Αποσύνδεση"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Σύνδεση"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -69,18 +81,6 @@ msgstr "Όροι χρήσης"
 msgid "Report Trademark Abuse"
 msgstr "Αναφορά κατάχρησης επωνυμίας"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Ταμπλό επικοινωνίας"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Αποσύνδεση"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Σύνδεση"
-
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "Σύνδεση"
@@ -101,8 +101,77 @@ msgstr ""
 msgid "File Description"
 msgstr ""
 
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Ωχ όχι!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Η σελίδα που ζητήσατε δε βρέθηκε"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Παρουσιάστηκε σφάλμα"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr ""
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr ""
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr ""
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Σφάλμα κατά τη φόρτωση περισσότερων"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Προσπαθήστε ξανά"
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
 msgid "No notes found"
+msgstr ""
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr ""
+
+#: /templates/comm/main.html:14
+msgid "You have no threads."
+msgstr "Δεν έχετε θέματα"
+
+#: /templates/comm/main.html:16
+msgid "Hmm...an error?"
+msgstr ""
+
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr "Σημειώστε το ως διαβασμένο"
+
+#: /templates/comm/note_detail.html:15
+msgid "Empty note"
+msgstr ""
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr ""
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr ""
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr ""
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
 msgstr ""
 
 #: /templates/_macros/reply_box.html:2
@@ -171,74 +240,29 @@ msgstr ""
 msgid "Mark All Read"
 msgstr "Σημείωση όλων ως αναγνωσμένων"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
+#: /media/js/commonplace/login.js:8
+msgid "You have been signed out"
+msgstr "Έχετε αποσυνδεθεί"
+
+#: /media/js/commonplace/login.js:12
+msgid "You have been signed in"
+msgstr "Έχετε συνδεθεί"
+
+#: /media/js/commonplace/login.js:49
+msgid "Error signing out"
 msgstr ""
 
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
+#: /media/js/commonplace/login.js:136
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Η σύνδεση persona απέτυχε. Μήπως δεν έχετε λογαριασμό με αυτή τη διεύθυνση email;"
+
+#: /media/js/commonplace/login.js:141
+msgid "Persona login failed. A server error was encountered."
+msgstr "η σύνδεση persona απετυχε. Παρουσιάστηκε σφάλμα διακομιστή."
+
+#: /media/js/commonplace/login.js:209
+msgid "Persona cannot be reached. Try again later."
 msgstr ""
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr ""
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr ""
-
-#: /templates/comm/main.html:14
-msgid "You have no threads."
-msgstr "Δεν έχετε θέματα"
-
-#: /templates/comm/main.html:16
-msgid "Hmm...an error?"
-msgstr ""
-
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "Σημειώστε το ως διαβασμένο"
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr ""
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr ""
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr ""
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr ""
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr ""
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Ωχ όχι!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Η σελίδα που ζητήσατε δε βρέθηκε"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Παρουσιάστηκε σφάλμα"
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Σφάλμα κατά τη φόρτωση περισσότερων"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Προσπαθήστε ξανά"
 
 #: /media/js/settings.js:37
 msgid "Message"
@@ -300,40 +324,16 @@ msgstr ""
 msgid "Developer comment"
 msgstr ""
 
-#: /media/js/commonplace/login.js:8
-msgid "You have been signed out"
-msgstr "Έχετε αποσυνδεθεί"
-
-#: /media/js/commonplace/login.js:12
-msgid "You have been signed in"
-msgstr "Έχετε συνδεθεί"
-
-#: /media/js/commonplace/login.js:49
-msgid "Error signing out"
-msgstr ""
-
-#: /media/js/commonplace/login.js:136
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Η σύνδεση persona απέτυχε. Μήπως δεν έχετε λογαριασμό με αυτή τη διεύθυνση email;"
-
-#: /media/js/commonplace/login.js:141
-msgid "Persona login failed. A server error was encountered."
-msgstr "η σύνδεση persona απετυχε. Παρουσιάστηκε σφάλμα διακομιστή."
-
-#: /media/js/commonplace/login.js:209
-msgid "Persona cannot be reached. Try again later."
-msgstr ""
-
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "Χωρίς σύνδεση"
-
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{n}</b> χαρακτήρας έμεινε"
 msgstr[1] "<b>{n}</b> χαρακτήρες έμειναν"
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "Χωρίς σύνδεση"
 
 #: /media/js/views/comm.js:67
 msgid "Message sent."

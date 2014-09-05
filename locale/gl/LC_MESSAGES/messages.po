@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-13T16:40:28.867Z\n"
+"POT-Creation-Date: 2014-09-05T15:31:04.604Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,6 +23,18 @@ msgstr "Non"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Si"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Taboleiro de comunicación"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Saír"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Identificarse"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -68,18 +80,6 @@ msgstr "Temos de uso"
 msgid "Report Trademark Abuse"
 msgstr "Informar de abusos de marca"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Taboleiro de comunicación"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Saír"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Identificarse"
-
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "Identificarse"
@@ -100,9 +100,78 @@ msgstr "Anexo"
 msgid "File Description"
 msgstr "Descrición do ficheiro"
 
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Oh non!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Non se atopou a páxina que estaba buscando."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Produciuse un erro."
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Icona do aplicativo"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Visualizar todas as conversas de {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr ""
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Erro ao cargar máis"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Tentar de novo"
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
 msgid "No notes found"
 msgstr "Non se atoparon notas"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "As miñas conversas"
+
+#: /templates/comm/main.html:14
+msgid "You have no threads."
+msgstr "Non ten conversas."
+
+#: /templates/comm/main.html:16
+msgid "Hmm...an error?"
+msgstr "Hmm...un erro?"
+
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr "Marcar esta nota como lida"
+
+#: /templates/comm/note_detail.html:15
+msgid "Empty note"
+msgstr "Baleirar nota"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Visualizar conversa de {app_name}"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Volver a todas as conversas de {app_name}"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr ""
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -170,74 +239,29 @@ msgstr "Valorar"
 msgid "Mark All Read"
 msgstr "Marcar todo como lido"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Icona do aplicativo"
+#: /media/js/commonplace/login.js:8
+msgid "You have been signed out"
+msgstr "Foi desconectado"
 
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Visualizar todas as conversas de {app_name}"
+#: /media/js/commonplace/login.js:12
+msgid "You have been signed in"
+msgstr "Foi identificado"
 
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr ""
+#: /media/js/commonplace/login.js:49
+msgid "Error signing out"
+msgstr "Produciuse un erro ao desconectarse"
 
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "As miñas conversas"
+#: /media/js/commonplace/login.js:136
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Fallou a identificación con Mozilla Persona. Quizais non teña unha conta con ese enderezo de correo?"
 
-#: /templates/comm/main.html:14
-msgid "You have no threads."
-msgstr "Non ten conversas."
+#: /media/js/commonplace/login.js:141
+msgid "Persona login failed. A server error was encountered."
+msgstr "Fallou a identificación con Mozilla Persona. Produciuse un erro no servidor."
 
-#: /templates/comm/main.html:16
-msgid "Hmm...an error?"
-msgstr "Hmm...un erro?"
-
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "Marcar esta nota como lida"
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr "Baleirar nota"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Visualizar conversa de {app_name}"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Volver a todas as conversas de {app_name}"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr ""
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Oh non!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Non se atopou a páxina que estaba buscando."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Produciuse un erro."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Erro ao cargar máis"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Tentar de novo"
+#: /media/js/commonplace/login.js:209
+msgid "Persona cannot be reached. Try again later."
+msgstr "Non foi posíbel alcanzar Mozilla Persona. Tente de novo máis tarde."
 
 #: /media/js/settings.js:37
 msgid "Message"
@@ -299,40 +323,16 @@ msgstr "Nota do envío do aplicativo"
 msgid "Developer comment"
 msgstr "Comentario do desenvolvedor"
 
-#: /media/js/commonplace/login.js:8
-msgid "You have been signed out"
-msgstr "Foi desconectado"
-
-#: /media/js/commonplace/login.js:12
-msgid "You have been signed in"
-msgstr "Foi identificado"
-
-#: /media/js/commonplace/login.js:49
-msgid "Error signing out"
-msgstr "Produciuse un erro ao desconectarse"
-
-#: /media/js/commonplace/login.js:136
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Fallou a identificación con Mozilla Persona. Quizais non teña unha conta con ese enderezo de correo?"
-
-#: /media/js/commonplace/login.js:141
-msgid "Persona login failed. A server error was encountered."
-msgstr "Fallou a identificación con Mozilla Persona. Produciuse un erro no servidor."
-
-#: /media/js/commonplace/login.js:209
-msgid "Persona cannot be reached. Try again later."
-msgstr "Non foi posíbel alcanzar Mozilla Persona. Tente de novo máis tarde."
-
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "Sen conexión á Internet"
-
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "Resta <b>{n}</b> carácter."
 msgstr[1] "Restan <b>{n}</b> caracteres."
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "Sen conexión á Internet"
 
 #: /media/js/views/comm.js:67
 msgid "Message sent."

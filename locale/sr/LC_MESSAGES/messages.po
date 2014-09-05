@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-13T16:40:28.867Z\n"
+"POT-Creation-Date: 2014-09-05T15:31:04.604Z\n"
 "PO-Revision-Date: 2014-08-24 10:44+0000\n"
 "Last-Translator: Vanja <tumbas93@gmail.com>\n"
 "Language-Team: none\n"
@@ -10,8 +10,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1408877078.0\n"
 
@@ -26,6 +25,18 @@ msgstr "Не"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Да"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Комуникациона контролна табла"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Одјави се"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Пријави се"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -71,18 +82,6 @@ msgstr "Услови коришћења"
 msgid "Report Trademark Abuse"
 msgstr "Пријавите злоупотребу робне марке"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Комуникациона контролна табла"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Одјави се"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Пријави се"
-
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "Пријави се"
@@ -103,9 +102,78 @@ msgstr "Прилог"
 msgid "File Description"
 msgstr "Опис датотеке"
 
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Ох не!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Страница коју сте тражили није пронађена."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Дошло је до грешке."
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Иконица апликације"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Преглед свих тема за {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Врати се на страницу за уређивање"
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Грешка при учитавању"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Покушај поново"
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
 msgid "No notes found"
 msgstr "Нема пронађених белешки"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Моје теме"
+
+#: /templates/comm/main.html:14
+msgid "You have no threads."
+msgstr "Немате теме."
+
+#: /templates/comm/main.html:16
+msgid "Hmm...an error?"
+msgstr "Хмм...грешка?"
+
+#: /templates/comm/note_detail.html:8
+msgid "Mark this note as read"
+msgstr "Означи ову белешку као прочитану"
+
+#: /templates/comm/note_detail.html:15
+msgid "Empty note"
+msgstr "Празна белешка"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Гледате тему за {app_name}"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Повратак на све теме за {app_name}"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "Верзија ове апликације"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -174,74 +242,29 @@ msgstr "Оцени"
 msgid "Mark All Read"
 msgstr "Означи све прочитане"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Иконица апликације"
+#: /media/js/commonplace/login.js:8
+msgid "You have been signed out"
+msgstr "Одјављени сте"
 
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Преглед свих тема за {app_name}"
+#: /media/js/commonplace/login.js:12
+msgid "You have been signed in"
+msgstr "Пријављени сте"
 
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Врати се на страницу за уређивање"
+#: /media/js/commonplace/login.js:49
+msgid "Error signing out"
+msgstr "Грешка приликом одјављивања"
 
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Моје теме"
+#: /media/js/commonplace/login.js:136
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Пријава на Persona је неуспела. Можда немате налог под том адресом е-поште?"
 
-#: /templates/comm/main.html:14
-msgid "You have no threads."
-msgstr "Немате теме."
+#: /media/js/commonplace/login.js:141
+msgid "Persona login failed. A server error was encountered."
+msgstr "Пријава на Persona није успела. Дошло је до грешке на серверу."
 
-#: /templates/comm/main.html:16
-msgid "Hmm...an error?"
-msgstr "Хмм...грешка?"
-
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "Означи ову белешку као прочитану"
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr "Празна белешка"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Гледате тему за {app_name}"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Повратак на све теме за {app_name}"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "Верзија ове апликације"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Ох не!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Страница коју сте тражили није пронађена."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Дошло је до грешке."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Грешка при учитавању"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Покушај поново"
+#: /media/js/commonplace/login.js:209
+msgid "Persona cannot be reached. Try again later."
+msgstr "Persona је недоступна. Покушајте поново касније."
 
 #: /media/js/settings.js:37
 msgid "Message"
@@ -303,34 +326,6 @@ msgstr "Белешка подношења апликације"
 msgid "Developer comment"
 msgstr "Коментар програмера"
 
-#: /media/js/commonplace/login.js:8
-msgid "You have been signed out"
-msgstr "Одјављени сте"
-
-#: /media/js/commonplace/login.js:12
-msgid "You have been signed in"
-msgstr "Пријављени сте"
-
-#: /media/js/commonplace/login.js:49
-msgid "Error signing out"
-msgstr "Грешка приликом одјављивања"
-
-#: /media/js/commonplace/login.js:136
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Пријава на Persona је неуспела. Можда немате налог под том адресом е-поште?"
-
-#: /media/js/commonplace/login.js:141
-msgid "Persona login failed. A server error was encountered."
-msgstr "Пријава на Persona није успела. Дошло је до грешке на серверу."
-
-#: /media/js/commonplace/login.js:209
-msgid "Persona cannot be reached. Try again later."
-msgstr "Persona је недоступна. Покушајте поново касније."
-
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "Нема интернет конекције"
-
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
@@ -338,6 +333,10 @@ msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "Преостало карактера: <b>{n}</b>."
 msgstr[1] "Преостало карактера: <b>{n}</b>."
 msgstr[2] "Преостало карактера: <b>{n}</b>."
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "Нема интернет конекције"
 
 #: /media/js/views/comm.js:67
 msgid "Message sent."
