@@ -37,7 +37,7 @@ define('settings', ['l10n', 'settings_local', 'underscore'], function(l10n, sett
             {'name': 'NO_ACTION', 'class': 'post', 'msg': gettext('Message')},
             {'name': 'APPROVAL', 'class': 'approve','msg': gettext('App approved')},
             {'name': 'REJECTION', 'class': 'reject', 'msg': gettext('App rejected')},
-            {'name': 'DISABLED', 'class': 'disable', 'msg': gettext('App disabled')},
+            {'name': 'DISABLED', 'class': 'disable', 'msg': gettext('App banned')},
             {'name': 'MORE_INFO_REQUIRED', 'class': 'need-info', 'msg': gettext('More info required')},
             {'name': 'ESCALATION', 'class': 'escalate', 'msg': gettext('Review escalated to senior reviewer')},
             {'name': 'REVIEWER_COMMENT', 'class': 'comment', 'msg': gettext('Reviewer comment')},
