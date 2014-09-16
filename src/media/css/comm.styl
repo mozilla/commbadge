@@ -142,12 +142,6 @@ tick() {
     .thread-action {
         float: right;
     }
-    .mark-thread-read {
-        float: right;
-        margin-top: 5px;
-        tick();
-    }
-
 }
 
 .notes-outer-container {
@@ -164,9 +158,6 @@ tick() {
     .note-detail {
         border-bottom: 1px solid $seavan-salt-white;
 
-        &.unread {
-            background-color: lighten(blue, 98%);
-        }
         img.author-gravatar {
             float: left;
             margin-right: 8px;
@@ -209,10 +200,6 @@ tick() {
             &.escalate-high-refunds {
                 color: $orange;
             }
-        }
-        .mark-note-read {
-            float: right;
-            tick();
         }
         .note-attachments {
             margin-top: 5px;

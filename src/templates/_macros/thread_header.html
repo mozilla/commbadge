@@ -41,8 +41,6 @@
       <ul>
         <li><a href="#show-recent-{{ thread.id }}" class="notes-filter filter-recent selected" data-filter-mode="recent">{{ _('Recent') }}</a></li>
         {% if thread %}
-          <li><a href="#show-unread-{{ thread.id }}" class="notes-filter filter-unread" data-filter-mode="unread">{{ _('Unread') }}</a></li>
-          <li><a href="#show-read-{{ thread.id }}" class="notes-filter filter-read" data-filter-mode="read">{{ _('Read') }}</a></li>
           <li><a href="{{ settings.api_url + '/app/' + app.app_slug }}">{{ _('View App') }}</a></li>
         {% endif %}
         {% if thread and user and not user.has_developed(app.id) %}
@@ -51,9 +49,6 @@
         {% endif %}
         {% if user and user.get_permission('reviewer') %}
           <li><a class="review-link" href="{{ thread.addon_meta.review_url }}">{{ _('Review') }}</a></li>
-        {% endif %}
-        {% if thread %}
-          <li><b title="{{ _('Mark All Read') }}" class="mark-thread-read tick"></b></li>
         {% endif %}
       </ul>
     </div>

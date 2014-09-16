@@ -1,13 +1,10 @@
-<div class="note-detail {{ 'read' if note.is_read else 'unread' }}" data-note-id="{{ note.id }}">
+<div class="note-detail" data-note-id="{{ note.id }}">
   <div class="c">
     <img class="author-gravatar" src="{{ gravatar(note.author_meta.gravatar_hash) }}">
     {% set action = note_action(note.note_type) %}
     <div class="note-action {{ action.class }}">{{ action.msg }}</div>
     <span class="author-name">{{ note.author_meta.name }}</span>
     <span class="info">{{ note.created|datetime }}</span>
-    {% if not note.is_read %}
-      <b title="{{ _('Mark this note as read') }}" class="hidden mark-note-read"></b>
-    {% endif %}
   </div>
   <div class="note-body">
     {% if note.body %}

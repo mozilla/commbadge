@@ -157,51 +157,6 @@ define('views/comm',
             });
         }
 
-    }).on('click', '.notes-filter', function(e) {
-        var $this = $(this);
-        var $threadItem = $this.closest('.thread-item');
-        var threadId = $threadItem.data('thread-id');
-        var filterMode = $this.data('filter-mode');
-        var params = {ordering: '-created', limit: 5};
-
-        if (!threadId) {
-            return;
-        }
-
-        $threadItem.data('notes-filter', filterMode);
-        $threadItem.data('notes-page', 1);
-
-        switch (filterMode) {
-            case 'read':
-                params.show_read = '1';
-                break;
-            case 'unread':
-                params.show_read = '0';
-                break;
-        }
-
-        var url = urls.api.url('notes', [threadId], params);
-        requests.get(url, true).done(function(data) {
-            var markup = '';
-            $threadItem.find('.notes-filter').removeClass('selected');
-            $this.addClass('selected');
-
-            if (!data.meta.next) {
-                $threadItem.find('.view-older-notes').hide();
-                $threadItem.data('notes-page', -1);
-            } else {
-                $threadItem.find('.view-older-notes').show();
-            }
-            if (data.objects.length) {
-                data.objects.forEach(function(object) {
-                    markup += nunjucks.env.render('comm/note_detail.html', {note: object});
-                });
-            } else {
-                markup = nunjucks.env.render('comm/no_notes.html');
-            }
-            $threadItem.find('.notes-container').html(markup);
-        });
-
     }).on('click', '.view-older-notes', function(e) {
         // Fetch next page of notes.
         var $this = $(this);
@@ -217,17 +172,6 @@ define('views/comm',
         }
         params.page = ++pageNumber;
 
-        switch (filterMode) {
-            case 'read':
-                params.show_read = '1';
-                break;
-            case 'unread':
-                params.show_read = '0';
-                break;
-            case 'recent':
-                break;
-        }
-
         requests.get(urls.api.url('notes', [threadId], params)).done(function(data) {
             var markup = '';
             // Set pageNumber = negative value so we can identify if we have more results to load.
@@ -242,49 +186,7 @@ define('views/comm',
             $threadItem.data('notes-page', pageNumber);
         });
 
-    }).on('click', '.mark-note-read', function(e) {
-        var $this = $(this);
-        var $noteItem = $this.closest('.note-detail');
-        var noteId = $noteItem.data('note-id');
-        var $threadItem = $this.closest('.thread-item');
-        var threadId = $threadItem.data('thread-id');
-
-        requests.patch(urls.api.url('note', [threadId, noteId]), {is_read: true})
-        .done(function(data) {
-            $this.remove();
-            $noteItem.removeClass('unread');
-            $noteItem.addClass('read');
-
-            if ($threadItem.data('notes-filter') === 'unread') {
-                $noteItem.remove();
-            }
-
-        }).fail(function(err) {
-            notification.notification({message: gettext('There was some problem marking the note as read. Try again.')});
-        });
-
-    }).on('click', '.mark-thread-read', function(e) {
-        // Mark all notes read.
-        var $this = $(this);
-        var $threadItem = $this.closest('.thread-item');
-        var threadId = $threadItem.data('thread-id');
-
-        requests.patch(urls.api.url('thread', [threadId]), {is_read: true}).done(function(data) {
-            var filterMode = $threadItem.data('notes-filter');
-            if (filterMode === 'unread') {
-                $threadItem.find('.note-detail.unread').remove();
-                $threadItem.find('.notes-container').html('<div>' + gettext('No notes to show.') + '</div>');
-            } else {
-                $threadItem.find('.note-detail.unread').removeClass('unread');
-                $threadItem.find('.mark-note-read').remove();
-            }
-
-        }).fail(function(err) {
-            notification.notification({message: gettext('There was some problem marking the thread as read. Try again.')});
-        });
-    })
-
-    .on('click', '.unsubscribe', function() {
+    }).on('click', '.unsubscribe', function() {
         var $threadItem = $(this).closest('.thread-item');
         var threadId = $threadItem.data('thread-id');
         notification.confirmation({
