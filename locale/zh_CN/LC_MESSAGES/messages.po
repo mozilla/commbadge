@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-17T16:10:32.456Z\n"
-"PO-Revision-Date: 2014-08-14 06:20+0000\n"
-"Last-Translator: Shen <steekid@icloud.com>\n"
+"PO-Revision-Date: 2014-09-17 23:55+0000\n"
+"Last-Translator: yfdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1407997217.0\n"
+"X-POOTLE-MTIME: 1410998106.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -236,7 +236,7 @@ msgstr "应用被拒绝"
 
 #: /media/js/settings.js:40
 msgid "App banned"
-msgstr ""
+msgstr "应用已封禁"
 
 #: /media/js/settings.js:41
 msgid "More info required"
