@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-05T15:31:04.604Z\n"
+"POT-Creation-Date: 2014-09-17T16:10:32.456Z\n"
 "PO-Revision-Date: 2014-07-02 09:32+0000\n"
 "Last-Translator: Håvar <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,6 +37,72 @@ msgstr "Logg ut"
 #: /templates/header.html:8
 msgid "Sign In"
 msgstr "Logg inn"
+
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Logg inn"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Du må logge inn for å fortsette."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Logg inn / Bli medlem"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Vedlegg"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Filbeskrivelse"
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} (Versjon {version_number})"
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "(Foreldet)"
+
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:50
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} notat"
+msgstr[1] "{n} notater"
+
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:60 /media/js/views/comm.js:142
+msgid "Reply"
+msgstr "Svar"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "Siste"
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "Avslutt abonnement"
+
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "Gjennomgang"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "App-ikon"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Viser alle tråder for {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr ""
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -82,61 +148,33 @@ msgstr "Vilkår for bruk"
 msgid "Report Trademark Abuse"
 msgstr "Rapporter misbruk av varemerker"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Logg inn"
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Tomt notat"
 
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Du må logge inn for å fortsette."
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Skriv inn notatteksten her"
 
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Logg inn / Bli medlem"
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Legg ved skjermbilder og loggfiler:"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Vedlegg"
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Legg ved en annen fil"
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Filbeskrivelse"
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Send inn"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Å nei!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Siden du leter etter ble ikke funnet."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "En feil oppstod."
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "App-ikon"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Viser alle tråder for {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr ""
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Feil ved lasting av flere"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Prøv igjen"
-
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "Ingen notater funnet"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Vis eldre"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -149,14 +187,6 @@ msgstr "Du har ingen tråder."
 #: /templates/comm/main.html:16
 msgid "Hmm...an error?"
 msgstr "Hmm … en feil?"
-
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "Marker dette notatet som lest"
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr "Tomt notat"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -175,95 +205,25 @@ msgstr ""
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Skriv inn notatteksten her"
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Å nei!"
 
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Legg ved skjermbilder og loggfiler:"
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Siden du leter etter ble ikke funnet."
 
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Legg ved en annen fil"
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "En feil oppstod."
 
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Send inn"
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Feil ved lasting av flere"
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Vis eldre"
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} (Versjon {version_number})"
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "(Foreldet)"
-
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:50
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} notat"
-msgstr[1] "{n} notater"
-
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:60 /media/js/views/comm.js:142
-msgid "Reply"
-msgstr "Svar"
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "Siste"
-
-#: /templates/_macros/thread_header.html:43
-msgid "Unread"
-msgstr "Ulest"
-
-#: /templates/_macros/thread_header.html:44
-msgid "Read"
-msgstr "Lest"
-
-#: /templates/_macros/thread_header.html:45
-msgid "View App"
-msgstr ""
-
-#: /templates/_macros/thread_header.html:49
-msgid "Unsubscribe"
-msgstr "Avslutt abonnement"
-
-#: /templates/_macros/thread_header.html:52
-msgid "Review"
-msgstr "Gjennomgang"
-
-#: /templates/_macros/thread_header.html:55
-msgid "Mark All Read"
-msgstr "Marker alle som lest"
-
-#: /media/js/commonplace/login.js:8
-msgid "You have been signed out"
-msgstr "Du har blitt logget ut"
-
-#: /media/js/commonplace/login.js:12
-msgid "You have been signed in"
-msgstr "Du har blitt logget inn"
-
-#: /media/js/commonplace/login.js:49
-msgid "Error signing out"
-msgstr "Feil under utlogging"
-
-#: /media/js/commonplace/login.js:136
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Persona-pålogging mislyktes. Kanskje har du ikke en konto under den e-postadressen?"
-
-#: /media/js/commonplace/login.js:141
-msgid "Persona login failed. A server error was encountered."
-msgstr "Persona-pålogging mislyktes. En serverfeil oppstod."
-
-#: /media/js/commonplace/login.js:209
-msgid "Persona cannot be reached. Try again later."
-msgstr "Persona kan ikke nås. Prøv igjen senere."
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Prøv igjen"
 
 #: /media/js/settings.js:37
 msgid "Message"
@@ -278,8 +238,8 @@ msgid "App rejected"
 msgstr "App avvist"
 
 #: /media/js/settings.js:40
-msgid "App disabled"
-msgstr "App deaktivert"
+msgid "App banned"
+msgstr ""
 
 #: /media/js/settings.js:41
 msgid "More info required"
@@ -325,16 +285,40 @@ msgstr ""
 msgid "Developer comment"
 msgstr "Utviklerkommentar"
 
+#: /media/js/commonplace/login.js:8
+msgid "You have been signed out"
+msgstr "Du har blitt logget ut"
+
+#: /media/js/commonplace/login.js:12
+msgid "You have been signed in"
+msgstr "Du har blitt logget inn"
+
+#: /media/js/commonplace/login.js:49
+msgid "Error signing out"
+msgstr "Feil under utlogging"
+
+#: /media/js/commonplace/login.js:136
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Persona-pålogging mislyktes. Kanskje har du ikke en konto under den e-postadressen?"
+
+#: /media/js/commonplace/login.js:141
+msgid "Persona login failed. A server error was encountered."
+msgstr "Persona-pålogging mislyktes. En serverfeil oppstod."
+
+#: /media/js/commonplace/login.js:209
+msgid "Persona cannot be reached. Try again later."
+msgstr "Persona kan ikke nås. Prøv igjen senere."
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "Ingen Internett-tilkobling"
+
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{n}</b> tegn igjen."
 msgstr[1] "<b>{n}</b> tegn igjen."
-
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "Ingen Internett-tilkobling"
 
 #: /media/js/views/comm.js:67
 msgid "Message sent."
@@ -348,27 +332,15 @@ msgstr "Sending av melding mislyktes."
 msgid "Cancel reply"
 msgstr "Avbryt svar"
 
-#: /media/js/views/comm.js:215
+#: /media/js/views/comm.js:170
 msgid "There are no more older notes."
 msgstr "Det er ingen flere eldre notater."
 
-#: /media/js/views/comm.js:263
-msgid "There was some problem marking the note as read. Try again."
-msgstr "Det var et problem ved merking av notatet som lest. Prøv på nytt."
-
-#: /media/js/views/comm.js:276
-msgid "No notes to show."
-msgstr "Ingen notater å vise."
-
-#: /media/js/views/comm.js:283
-msgid "There was some problem marking the thread as read. Try again."
-msgstr "Det var et problem ved merking av tråden som lest. Prøv på nytt."
-
-#: /media/js/views/comm.js:291
+#: /media/js/views/comm.js:193
 msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
 msgstr ""
 
-#: /media/js/views/comm.js:296
+#: /media/js/views/comm.js:198
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
 msgstr ""
 

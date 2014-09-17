@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-05T15:31:04.604Z\n"
+"POT-Creation-Date: 2014-09-17T16:10:32.456Z\n"
 "PO-Revision-Date: 2014-04-27 08:11+0000\n"
 "Last-Translator: Benoit <benoit.leseul@gmail.com>\n"
 "Language-Team: français <>\n"
@@ -40,6 +40,72 @@ msgstr "Déconnexion"
 #: /templates/header.html:8
 msgid "Sign In"
 msgstr "Connexion"
+
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Connexion"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Vous devez vous identifier pour continuer."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Connexion / Inscription"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Pièce jointe"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Description du fichier"
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} (Version {version_number})"
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "(Obsolète)"
+
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:50
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} note"
+msgstr[1] "{n} notes"
+
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:60 /media/js/views/comm.js:142
+msgid "Reply"
+msgstr "Répondre"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "Récent"
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "Désinscription"
+
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "Révision"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Icône de l'application"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Affichage de toutes les discussion sur {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr ""
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -85,61 +151,33 @@ msgstr "Conditions d'utilisation"
 msgid "Report Trademark Abuse"
 msgstr "Signaler un abus de marque déposée"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Connexion"
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Note vide"
 
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Vous devez vous identifier pour continuer."
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Saisissez le texte de la note ici"
 
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Connexion / Inscription"
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Joindre des captures d'écran et fichiers log&nbsp;:"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Pièce jointe"
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Joindre un autre fichier"
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Description du fichier"
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Envoyer"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Oh non !"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "La page que vous avez demandé n'a pas été trouvée."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Une erreur est survenue."
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Icône de l'application"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Affichage de toutes les discussion sur {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr ""
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Erreur pendant le chargement"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Réessayez"
-
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "Aucune note trouvée"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Afficher plus anciens"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -152,14 +190,6 @@ msgstr "Vous n'avez aucun sujet de discussion."
 #: /templates/comm/main.html:16
 msgid "Hmm...an error?"
 msgstr ""
-
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "Marquer cette note comme lue"
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr "Note vide"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -178,95 +208,25 @@ msgstr ""
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Saisissez le texte de la note ici"
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Oh non !"
 
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Joindre des captures d'écran et fichiers log&nbsp;:"
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "La page que vous avez demandé n'a pas été trouvée."
 
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Joindre un autre fichier"
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Une erreur est survenue."
 
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Envoyer"
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Erreur pendant le chargement"
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Afficher plus anciens"
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} (Version {version_number})"
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "(Obsolète)"
-
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:50
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} note"
-msgstr[1] "{n} notes"
-
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:60 /media/js/views/comm.js:142
-msgid "Reply"
-msgstr "Répondre"
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "Récent"
-
-#: /templates/_macros/thread_header.html:43
-msgid "Unread"
-msgstr "Non lu"
-
-#: /templates/_macros/thread_header.html:44
-msgid "Read"
-msgstr "Lu"
-
-#: /templates/_macros/thread_header.html:45
-msgid "View App"
-msgstr ""
-
-#: /templates/_macros/thread_header.html:49
-msgid "Unsubscribe"
-msgstr "Désinscription"
-
-#: /templates/_macros/thread_header.html:52
-msgid "Review"
-msgstr "Révision"
-
-#: /templates/_macros/thread_header.html:55
-msgid "Mark All Read"
-msgstr "Tout marquer comme lu"
-
-#: /media/js/commonplace/login.js:8
-msgid "You have been signed out"
-msgstr "Vous avez été déconnecté"
-
-#: /media/js/commonplace/login.js:12
-msgid "You have been signed in"
-msgstr "Vous êtes connecté"
-
-#: /media/js/commonplace/login.js:49
-msgid "Error signing out"
-msgstr "Erreur à la déconnexion"
-
-#: /media/js/commonplace/login.js:136
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "La connexion Persona a échouée. Peut-être que vous n'avez pas de compte associé à cette adresse de courriel ?"
-
-#: /media/js/commonplace/login.js:141
-msgid "Persona login failed. A server error was encountered."
-msgstr "La connexion Persona a échouée. Une erreur serveur est survenue."
-
-#: /media/js/commonplace/login.js:209
-msgid "Persona cannot be reached. Try again later."
-msgstr ""
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Réessayez"
 
 #: /media/js/settings.js:37
 msgid "Message"
@@ -281,8 +241,8 @@ msgid "App rejected"
 msgstr "Application rejetée"
 
 #: /media/js/settings.js:40
-msgid "App disabled"
-msgstr "Application désactivée"
+msgid "App banned"
+msgstr ""
 
 #: /media/js/settings.js:41
 msgid "More info required"
@@ -328,16 +288,40 @@ msgstr ""
 msgid "Developer comment"
 msgstr ""
 
+#: /media/js/commonplace/login.js:8
+msgid "You have been signed out"
+msgstr "Vous avez été déconnecté"
+
+#: /media/js/commonplace/login.js:12
+msgid "You have been signed in"
+msgstr "Vous êtes connecté"
+
+#: /media/js/commonplace/login.js:49
+msgid "Error signing out"
+msgstr "Erreur à la déconnexion"
+
+#: /media/js/commonplace/login.js:136
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "La connexion Persona a échouée. Peut-être que vous n'avez pas de compte associé à cette adresse de courriel ?"
+
+#: /media/js/commonplace/login.js:141
+msgid "Persona login failed. A server error was encountered."
+msgstr "La connexion Persona a échouée. Une erreur serveur est survenue."
+
+#: /media/js/commonplace/login.js:209
+msgid "Persona cannot be reached. Try again later."
+msgstr ""
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "Pas de connexion Internet"
+
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{n}</b> caractère restant."
 msgstr[1] "<b>{n}</b> caractères restants."
-
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "Pas de connexion Internet"
 
 #: /media/js/views/comm.js:67
 msgid "Message sent."
@@ -351,27 +335,15 @@ msgstr "Échec d'envoi du message."
 msgid "Cancel reply"
 msgstr "Annuler la réponse"
 
-#: /media/js/views/comm.js:215
+#: /media/js/views/comm.js:170
 msgid "There are no more older notes."
 msgstr "Il n'y a pas de notes plus anciennes."
 
-#: /media/js/views/comm.js:263
-msgid "There was some problem marking the note as read. Try again."
-msgstr "Un problème s'est produit lors du marquage de la note comme lue. Veuillez réessayer."
-
-#: /media/js/views/comm.js:276
-msgid "No notes to show."
-msgstr "Aucune note à afficher."
-
-#: /media/js/views/comm.js:283
-msgid "There was some problem marking the thread as read. Try again."
-msgstr "Un problème s'est produit lors du marquage de la discussion comme lue. Veuillez réessayer."
-
-#: /media/js/views/comm.js:291
+#: /media/js/views/comm.js:193
 msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
 msgstr ""
 
-#: /media/js/views/comm.js:296
+#: /media/js/views/comm.js:198
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
 msgstr ""
 

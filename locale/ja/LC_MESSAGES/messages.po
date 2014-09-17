@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-05T15:31:04.604Z\n"
+"POT-Creation-Date: 2014-09-17T16:10:32.456Z\n"
 "PO-Revision-Date: 2014-08-13 18:46-0400\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
@@ -36,6 +36,72 @@ msgstr "ログアウト"
 #: /templates/header.html:8
 msgid "Sign In"
 msgstr "ログイン"
+
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "ログイン"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "続けるにはログインしてください。"
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "ログイン / ユーザ登録"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "添付ファイル"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "ファイル説明"
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} (バージョン {version_number})"
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "(旧バージョン)"
+
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:50
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} 件の記事"
+msgstr[1] "{n} 件の記事"
+
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:60 /media/js/views/comm.js:142
+msgid "Reply"
+msgstr "返信"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "最近"
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr "アプリを見る"
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "購読解除"
+
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "レビュー"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "アプリのアイコン"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "{app_name} のすべてのスレッドを表示しています"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "アプリ編集ページへ戻る"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -81,61 +147,33 @@ msgstr "利用規約"
 msgid "Report Trademark Abuse"
 msgstr "商標不正使用報告"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "ログイン"
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "空白のノート"
 
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "続けるにはログインしてください。"
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "投稿内容をここに入力してください"
 
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "ログイン / ユーザ登録"
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "スクリーンショットとログファイルを添付:"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "添付ファイル"
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "他のファイルを添付"
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "ファイル説明"
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "投稿"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Not Found"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "お探しのページは見つかりませんでした。"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "問題が発生しました。"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "アプリのアイコン"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "{app_name} のすべてのスレッドを表示しています"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "アプリ編集ページへ戻る"
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "読み込み中に問題が発生しました"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "再読み込み"
-
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "ノートがが見つかりませんでした"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "以前の記事を表示"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -148,14 +186,6 @@ msgstr "スレッドがありません。"
 #: /templates/comm/main.html:16
 msgid "Hmm...an error?"
 msgstr "何か問題が発生したようです"
-
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "この記事を既読にする"
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr "空白のノート"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -174,95 +204,25 @@ msgstr "このアプリのバージョン"
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "投稿内容をここに入力してください"
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Not Found"
 
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "スクリーンショットとログファイルを添付:"
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "お探しのページは見つかりませんでした。"
 
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "他のファイルを添付"
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "問題が発生しました。"
 
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "投稿"
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "読み込み中に問題が発生しました"
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "以前の記事を表示"
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} (バージョン {version_number})"
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "(旧バージョン)"
-
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:50
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} 件の記事"
-msgstr[1] "{n} 件の記事"
-
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:60 /media/js/views/comm.js:142
-msgid "Reply"
-msgstr "返信"
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "最近"
-
-#: /templates/_macros/thread_header.html:43
-msgid "Unread"
-msgstr "未読"
-
-#: /templates/_macros/thread_header.html:44
-msgid "Read"
-msgstr "既読"
-
-#: /templates/_macros/thread_header.html:45
-msgid "View App"
-msgstr "アプリを見る"
-
-#: /templates/_macros/thread_header.html:49
-msgid "Unsubscribe"
-msgstr "購読解除"
-
-#: /templates/_macros/thread_header.html:52
-msgid "Review"
-msgstr "レビュー"
-
-#: /templates/_macros/thread_header.html:55
-msgid "Mark All Read"
-msgstr "すべて既読にする"
-
-#: /media/js/commonplace/login.js:8
-msgid "You have been signed out"
-msgstr "ログアウトしました"
-
-#: /media/js/commonplace/login.js:12
-msgid "You have been signed in"
-msgstr "ログインしました"
-
-#: /media/js/commonplace/login.js:49
-msgid "Error signing out"
-msgstr "ログアウトに失敗しました"
-
-#: /media/js/commonplace/login.js:136
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Persona のログインに失敗しました。入力されたメールアドレスのアカウントは存在しない可能性があります。"
-
-#: /media/js/commonplace/login.js:141
-msgid "Persona login failed. A server error was encountered."
-msgstr "Persona のログインに失敗しました。サーバエラーが発生しました。"
-
-#: /media/js/commonplace/login.js:209
-msgid "Persona cannot be reached. Try again later."
-msgstr "Persona サーバへ接続できませんでした。また後で試してください。"
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "再読み込み"
 
 #: /media/js/settings.js:37
 msgid "Message"
@@ -277,8 +237,8 @@ msgid "App rejected"
 msgstr "アプリは却下されました"
 
 #: /media/js/settings.js:40
-msgid "App disabled"
-msgstr "アプリは無効化されました"
+msgid "App banned"
+msgstr ""
 
 #: /media/js/settings.js:41
 msgid "More info required"
@@ -324,16 +284,40 @@ msgstr "アプリ登録時の注意"
 msgid "Developer comment"
 msgstr "開発者のコメント"
 
+#: /media/js/commonplace/login.js:8
+msgid "You have been signed out"
+msgstr "ログアウトしました"
+
+#: /media/js/commonplace/login.js:12
+msgid "You have been signed in"
+msgstr "ログインしました"
+
+#: /media/js/commonplace/login.js:49
+msgid "Error signing out"
+msgstr "ログアウトに失敗しました"
+
+#: /media/js/commonplace/login.js:136
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Persona のログインに失敗しました。入力されたメールアドレスのアカウントは存在しない可能性があります。"
+
+#: /media/js/commonplace/login.js:141
+msgid "Persona login failed. A server error was encountered."
+msgstr "Persona のログインに失敗しました。サーバエラーが発生しました。"
+
+#: /media/js/commonplace/login.js:209
+msgid "Persona cannot be reached. Try again later."
+msgstr "Persona サーバへ接続できませんでした。また後で試してください。"
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "インターネットに接続されていません"
+
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "残り <b>{n}</b> 文字です。"
 msgstr[1] "残り <b>{n}</b> 文字です。"
-
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "インターネットに接続されていません"
 
 #: /media/js/views/comm.js:67
 msgid "Message sent."
@@ -347,27 +331,15 @@ msgstr "メッセージを送信できませんでした。"
 msgid "Cancel reply"
 msgstr "返信をキャンセル"
 
-#: /media/js/views/comm.js:215
+#: /media/js/views/comm.js:170
 msgid "There are no more older notes."
 msgstr "これ以上古い記事はありません。"
 
-#: /media/js/views/comm.js:263
-msgid "There was some problem marking the note as read. Try again."
-msgstr "記事を既読にする際に問題が発生しました。また後で試してください。"
-
-#: /media/js/views/comm.js:276
-msgid "No notes to show."
-msgstr "表示する記事はありません。"
-
-#: /media/js/views/comm.js:283
-msgid "There was some problem marking the thread as read. Try again."
-msgstr "スレッドを既読にする際に問題が発生しました。また後で試してください。"
-
-#: /media/js/views/comm.js:291
+#: /media/js/views/comm.js:193
 msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
 msgstr "購読を解除すると、今後このスレッドが更新されてもメールによる通知は送られなくなります。よろしいですか？"
 
-#: /media/js/views/comm.js:296
+#: /media/js/views/comm.js:198
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
 msgstr "購読を解除しました。今後このスレッドが更新されてもメールによる通知は送られません。"
 

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-05T15:31:04.604Z\n"
+"POT-Creation-Date: 2014-09-17T16:10:32.456Z\n"
 "PO-Revision-Date: 2014-08-18 08:00+0000\n"
 "Last-Translator: Arafat <mahmud.arafat.7@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,6 +37,72 @@ msgstr "সাইন আউট"
 #: /templates/header.html:8
 msgid "Sign In"
 msgstr "সাইন ইন"
+
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "সাইন ইন"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "এগিয়ে যেতে আপনাকে সাইন ইন করতে হবে।"
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "সাইন ইন / সাইন আপ"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "সংযুক্তি"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "ফাইলের বিবরণ"
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{APP_NAME} ({সংস্করণ {VERSION_NUMBER})"
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "(অপ্রচলিত)"
+
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:50
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} নোট"
+msgstr[1] "{n} নোটগুলো"
+
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:60 /media/js/views/comm.js:142
+msgid "Reply"
+msgstr "উত্তর"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "সাম্প্রতিক"
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr "অ্যাপ দেখাও"
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "আনসাবস্ক্রাইব"
+
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "রিভিউ"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "এপ আইকন"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "{app_name} এর জন্য সকল থ্রেড দেখা হচ্ছে"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "অ্যাপ সম্পাদনা পৃষ্ঠায় ফিরে যান"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -82,61 +148,33 @@ msgstr "ব্যবহারের শর্তাবলী"
 msgid "Report Trademark Abuse"
 msgstr "ট্রেডমার্ক অপব্যাবহার রিপোর্ট করুন"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "সাইন ইন"
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "খালি নোট"
 
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "এগিয়ে যেতে আপনাকে সাইন ইন করতে হবে।"
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "এখানে উল্লেখ্য টেক্সট লিখুন"
 
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "সাইন ইন / সাইন আপ"
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "স্ক্রিনশট সংযুক্ত করুন এবং লগ ফাইল:"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "সংযুক্তি"
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "আরেকটি ফাইল সংযুক্ত করুন"
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "ফাইলের বিবরণ"
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "পোস্ট"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "ওহ না !"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "আপনি যে পৃষ্ঠা খুঁজছেন তা খুঁজে পাওয়া যায় নি।"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "একটি ত্রুটি ঘটেছে।"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "এপ আইকন"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "{app_name} এর জন্য সকল থ্রেড দেখা হচ্ছে"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "অ্যাপ সম্পাদনা পৃষ্ঠায় ফিরে যান"
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "আরও লোড হতে ত্রুটি দেখা দিচ্ছে"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "আবার চেষ্টা করুন"
-
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "কোন নোট পাওয়া যায়নি"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "আগেরগুলো প্রদর্শন"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -149,14 +187,6 @@ msgstr "আপনার কাছে কোনো থ্রেড নেই"
 #: /templates/comm/main.html:16
 msgid "Hmm...an error?"
 msgstr "হুমম...কোন সমস্যা?"
-
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "এই নোট পড়া হয়েছে হিসেবে চিহ্নিত করুন"
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr "খালি নোট"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -175,95 +205,25 @@ msgstr "এই অ্যাপটি যে ভার্সনের"
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "এখানে উল্লেখ্য টেক্সট লিখুন"
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "ওহ না !"
 
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "স্ক্রিনশট সংযুক্ত করুন এবং লগ ফাইল:"
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "আপনি যে পৃষ্ঠা খুঁজছেন তা খুঁজে পাওয়া যায় নি।"
 
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "আরেকটি ফাইল সংযুক্ত করুন"
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "একটি ত্রুটি ঘটেছে।"
 
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "পোস্ট"
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "আরও লোড হতে ত্রুটি দেখা দিচ্ছে"
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "আগেরগুলো প্রদর্শন"
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{APP_NAME} ({সংস্করণ {VERSION_NUMBER})"
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "(অপ্রচলিত)"
-
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:50
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} নোট"
-msgstr[1] "{n} নোটগুলো"
-
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:60 /media/js/views/comm.js:142
-msgid "Reply"
-msgstr "উত্তর"
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "সাম্প্রতিক"
-
-#: /templates/_macros/thread_header.html:43
-msgid "Unread"
-msgstr "অপঠিত"
-
-#: /templates/_macros/thread_header.html:44
-msgid "Read"
-msgstr "পঠিত"
-
-#: /templates/_macros/thread_header.html:45
-msgid "View App"
-msgstr "অ্যাপ দেখাও"
-
-#: /templates/_macros/thread_header.html:49
-msgid "Unsubscribe"
-msgstr "আনসাবস্ক্রাইব"
-
-#: /templates/_macros/thread_header.html:52
-msgid "Review"
-msgstr "রিভিউ"
-
-#: /templates/_macros/thread_header.html:55
-msgid "Mark All Read"
-msgstr "সবগুলোকে পঠিত হিসেবে চিহ্নিত করুন"
-
-#: /media/js/commonplace/login.js:8
-msgid "You have been signed out"
-msgstr "আপনি সাইন আউট করেছেন"
-
-#: /media/js/commonplace/login.js:12
-msgid "You have been signed in"
-msgstr "আপনি সাইন ইন করেছেন"
-
-#: /media/js/commonplace/login.js:49
-msgid "Error signing out"
-msgstr "সাইন আউট করতে ত্রুটি হয়েছে"
-
-#: /media/js/commonplace/login.js:136
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "পারসোনা লগিন ব্যর্থ। সম্ভবত এই ইমেইল এড্রেস দিয়ে আপনার পারসোনা একাউন্ট নেই?"
-
-#: /media/js/commonplace/login.js:141
-msgid "Persona login failed. A server error was encountered."
-msgstr "পারসোনা লগইন ব্যার্থ হয়েছে। একটি সার্ভারের ত্রুটির সম্মুখীন হয়েছে।"
-
-#: /media/js/commonplace/login.js:209
-msgid "Persona cannot be reached. Try again later."
-msgstr "পারসোনা পৌছাতে পারেনি। পুনরায় চেষ্টা করুন।"
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "আবার চেষ্টা করুন"
 
 #: /media/js/settings.js:37
 msgid "Message"
@@ -278,8 +238,8 @@ msgid "App rejected"
 msgstr "এপ গ্রহন করা হয়নি"
 
 #: /media/js/settings.js:40
-msgid "App disabled"
-msgstr "এপ নিষ্ক্রিয়"
+msgid "App banned"
+msgstr ""
 
 #: /media/js/settings.js:41
 msgid "More info required"
@@ -325,16 +285,40 @@ msgstr "অ্যাপ জমাদান নোট"
 msgid "Developer comment"
 msgstr "ডেভলপার মন্তব্য"
 
+#: /media/js/commonplace/login.js:8
+msgid "You have been signed out"
+msgstr "আপনি সাইন আউট করেছেন"
+
+#: /media/js/commonplace/login.js:12
+msgid "You have been signed in"
+msgstr "আপনি সাইন ইন করেছেন"
+
+#: /media/js/commonplace/login.js:49
+msgid "Error signing out"
+msgstr "সাইন আউট করতে ত্রুটি হয়েছে"
+
+#: /media/js/commonplace/login.js:136
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "পারসোনা লগিন ব্যর্থ। সম্ভবত এই ইমেইল এড্রেস দিয়ে আপনার পারসোনা একাউন্ট নেই?"
+
+#: /media/js/commonplace/login.js:141
+msgid "Persona login failed. A server error was encountered."
+msgstr "পারসোনা লগইন ব্যার্থ হয়েছে। একটি সার্ভারের ত্রুটির সম্মুখীন হয়েছে।"
+
+#: /media/js/commonplace/login.js:209
+msgid "Persona cannot be reached. Try again later."
+msgstr "পারসোনা পৌছাতে পারেনি। পুনরায় চেষ্টা করুন।"
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "ইন্টারনেট সংযোগ নেই"
+
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{n}</b> অক্ষর বাকি।"
 msgstr[1] "<b>{n}</b> অক্ষর বাকি।"
-
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "ইন্টারনেট সংযোগ নেই"
 
 #: /media/js/views/comm.js:67
 msgid "Message sent."
@@ -348,27 +332,15 @@ msgstr "বার্তা পাঠানো ব্যর্থ হয়েছে
 msgid "Cancel reply"
 msgstr "উত্তরটি বাতিল করুন"
 
-#: /media/js/views/comm.js:215
+#: /media/js/views/comm.js:170
 msgid "There are no more older notes."
 msgstr "এখানে আর কোন পুরাতন নোট নেই।"
 
-#: /media/js/views/comm.js:263
-msgid "There was some problem marking the note as read. Try again."
-msgstr "এখানে নোট পড়তে কিছু সমস্যা আছে। পুনরায় চেষ্টা করুন।"
-
-#: /media/js/views/comm.js:276
-msgid "No notes to show."
-msgstr "কোন নোট দেখা যাচ্ছে না।"
-
-#: /media/js/views/comm.js:283
-msgid "There was some problem marking the thread as read. Try again."
-msgstr "থ্রেডটি পঠিত হিসেবে চিহ্নিত করতে কিছু সমস্যা হয়েছে। পুনরায় চেষ্টা করুন।"
-
-#: /media/js/views/comm.js:291
+#: /media/js/views/comm.js:193
 msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
 msgstr "এই টপিক থেকে আনসাব্সক্রাইপ করলে, আপনি এই টপিক থেকে কোন ইমেইল নোটিফিকেশন পাবেন না। আপনি আনসাব্সক্রাইপ করতে চাচ্ছেন?"
 
-#: /media/js/views/comm.js:296
+#: /media/js/views/comm.js:198
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
 msgstr "সফলভাবে আনসাব্সক্রাইপ হয়েছে। আপনি এই টপিক থেকে আর কোন ইমেইল নটিফিকেশন পাবেন না।"
 

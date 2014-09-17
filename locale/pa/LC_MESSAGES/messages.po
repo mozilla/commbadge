@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-05T15:31:04.604Z\n"
+"POT-Creation-Date: 2014-09-17T16:10:32.456Z\n"
 "PO-Revision-Date: 2014-09-04 22:12+0000\n"
 "Last-Translator: Aman <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,6 +37,72 @@ msgstr "ਸਾਈਨ ਆਉਟ"
 #: /templates/header.html:8
 msgid "Sign In"
 msgstr "ਸਾਈਨ ਇਨ"
+
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "ਸਾਈਨ ਇਨ"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "ਤੁਹਾਨੂੰ ਅੱਗੇ ਵਧਣ ਲਈ ਸਾਈਨ ਇਨ ਕਰਨਾ ਲਾਜਮੀ ਹੈ."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "ਸਾਈਨ ਇਨ / ਸਾਈਨ ਅੱਪ"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "ਨੱਥੀ"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "ਫਾਇਲ ਵੇਰਵਾ"
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} (ਵਰਜਨ {version_number}"
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "(ਬਰਤਰਫ਼)"
+
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:50
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} ਨੋਟਿਸ{n} ਨੋਟਿਸ"
+msgstr[1] ""
+
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:60 /media/js/views/comm.js:142
+msgid "Reply"
+msgstr "ਉੱਤਰ"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "ਤਾਜਾ"
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr "ਐਪ ਵੇਖੋ"
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "ਮੈਂਬਰੀ ਹਟਾਓ"
+
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "ਮੁਆਇਨਾ"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "ਐਪ ਆਈਕਾਨ"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "{app_name} ਲਈ ਸਭ ਥਰੈੱਡ ਵੈਖੋ"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "ਐਪ ਸੋਧ ਸਫ਼ੇ ਉੱਤੇ ਵਾਪਿਸ ਜਾਓ"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -82,61 +148,33 @@ msgstr "ਵਰਤੋ ਦੇ ਅਧਾਰ"
 msgid "Report Trademark Abuse"
 msgstr "ਰੀਪੋਰਟ ਟਰੇਡਮਾਰਕ ਦੀ ਦੁਰਵਰਤੋ"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "ਸਾਈਨ ਇਨ"
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "ਖਾਲੀ ਨੋਟ"
 
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "ਤੁਹਾਨੂੰ ਅੱਗੇ ਵਧਣ ਲਈ ਸਾਈਨ ਇਨ ਕਰਨਾ ਲਾਜਮੀ ਹੈ."
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "ਇੱਥੇ ਨੋਟ ਟੈਕਸਟ ਦਾਖਲ ਕਰੋ"
 
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "ਸਾਈਨ ਇਨ / ਸਾਈਨ ਅੱਪ"
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "ਸਕਰੀਨਸ਼ਾਟ ਅਤੇ ਲਾਗ ਫਾਇਲਾਂ ਨੱਥੀ:"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "ਨੱਥੀ"
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "ਹੋਰ ਫਾਇਲ ਨੱਥੀ"
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "ਫਾਇਲ ਵੇਰਵਾ"
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "ਪੋਸਟ"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "ਓਹ ਨਹੀਂ!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "ਜੋ ਸਫ਼ਾ ਤਸੀ ਲੱਭ ਰਹੇ ਹੋ ਉਹ ਨਹੀ ਮਿਲਿਆ ਹੈ।"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "ਇੱਕ ਗਲਤੀ ਆਈ ਹੈ"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "ਐਪ ਆਈਕਾਨ"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "{app_name} ਲਈ ਸਭ ਥਰੈੱਡ ਵੈਖੋ"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "ਐਪ ਸੋਧ ਸਫ਼ੇ ਉੱਤੇ ਵਾਪਿਸ ਜਾਓ"
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "ਲੋਡ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ ਹਈ ਹੈ"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ"
-
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "ਨੋਟਿਸ ਨਹੀ ਲੱਭੇ"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "ਪੁਰਾਣਾ ਵੇਖੋ"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -149,14 +187,6 @@ msgstr "ਤੁਹਾਡੇ ਕੋਲ ਥਰਿੱਡ ਨਹੀਂ ਹੈ"
 #: /templates/comm/main.html:16
 msgid "Hmm...an error?"
 msgstr "ਓਕੇ... ਗਲਤੀ ਹੈ?"
-
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "ਪੜ੍ਹਨ ਦੌਰਾਨ ਇਹ ਨੋਟ ਮਾਰਕ "
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr "ਖਾਲੀ ਨੋਟ"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -175,95 +205,25 @@ msgstr "ਇਹ ਐਪ ਦਾ ਵਰਜਨ"
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "ਇੱਥੇ ਨੋਟ ਟੈਕਸਟ ਦਾਖਲ ਕਰੋ"
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "ਓਹ ਨਹੀਂ!"
 
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "ਸਕਰੀਨਸ਼ਾਟ ਅਤੇ ਲਾਗ ਫਾਇਲਾਂ ਨੱਥੀ:"
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "ਜੋ ਸਫ਼ਾ ਤਸੀ ਲੱਭ ਰਹੇ ਹੋ ਉਹ ਨਹੀ ਮਿਲਿਆ ਹੈ।"
 
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "ਹੋਰ ਫਾਇਲ ਨੱਥੀ"
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "ਇੱਕ ਗਲਤੀ ਆਈ ਹੈ"
 
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "ਪੋਸਟ"
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "ਲੋਡ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ ਹਈ ਹੈ"
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "ਪੁਰਾਣਾ ਵੇਖੋ"
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} (ਵਰਜਨ {version_number}"
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "(ਬਰਤਰਫ਼)"
-
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:50
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} ਨੋਟਿਸ{n} ਨੋਟਿਸ"
-msgstr[1] ""
-
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:60 /media/js/views/comm.js:142
-msgid "Reply"
-msgstr "ਉੱਤਰ"
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "ਤਾਜਾ"
-
-#: /templates/_macros/thread_header.html:43
-msgid "Unread"
-msgstr "ਨਾ ਪੜ੍ਹਿਆ"
-
-#: /templates/_macros/thread_header.html:44
-msgid "Read"
-msgstr "ਪੜ੍ਹਿਆ"
-
-#: /templates/_macros/thread_header.html:45
-msgid "View App"
-msgstr "ਐਪ ਵੇਖੋ"
-
-#: /templates/_macros/thread_header.html:49
-msgid "Unsubscribe"
-msgstr "ਮੈਂਬਰੀ ਹਟਾਓ"
-
-#: /templates/_macros/thread_header.html:52
-msgid "Review"
-msgstr "ਮੁਆਇਨਾ"
-
-#: /templates/_macros/thread_header.html:55
-msgid "Mark All Read"
-msgstr "ਸਭ ਮਾਰਕ ਪੜ੍ਹੋ"
-
-#: /media/js/commonplace/login.js:8
-msgid "You have been signed out"
-msgstr "ਤੁਸੀ ਸਾਇਨ ਆਉਟ ਕਰ ਲਿਆ ਹੈ।"
-
-#: /media/js/commonplace/login.js:12
-msgid "You have been signed in"
-msgstr "ਤੁਸੀ ਸਾਇਨ ਇਨ ਕਰ ਲਿਆ ਹੈ।"
-
-#: /media/js/commonplace/login.js:49
-msgid "Error signing out"
-msgstr "ਸਾਇਨ ਆਉਟ ਕਰਨ ਵਿੱਚ ਗਲਤੀ"
-
-#: /media/js/commonplace/login.js:136
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "ਵਅਕਤੀ ਲਾਗਇਨ ਫੇਲ੍ਹ ਹੈ। ਹੋ ਸਕਦਾ ਹੈ ਕਿ ਤੁਹਾਡਾ ਖਾਤਾ ਉਸ ਮੇਲ ਪਤੇ ਹੇਠਾ ਨਾ ਹੋਵੇ?"
-
-#: /media/js/commonplace/login.js:141
-msgid "Persona login failed. A server error was encountered."
-msgstr "ਿਵਅਕਤੀ ਲਾਗਇਨ ਫੇਲ੍ਹ ਹੈ। ਇੱਕ ਸਰਵਰ ਨੂੰ ਗਲਤੀ ਆਈ ਹੈ।"
-
-#: /media/js/commonplace/login.js:209
-msgid "Persona cannot be reached. Try again later."
-msgstr "ਪਰਸੋਨਾ ਵਰਤਿਆ ਨਹੀਂ ਜਾ ਸਕਦਾ। ਬਾਅਦ ਵਿੱਚ ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ"
 
 #: /media/js/settings.js:37
 msgid "Message"
@@ -278,8 +238,8 @@ msgid "App rejected"
 msgstr "ਐਪ ਰੱਦ"
 
 #: /media/js/settings.js:40
-msgid "App disabled"
-msgstr "ਐਪ ਆਯੋਗ"
+msgid "App banned"
+msgstr ""
 
 #: /media/js/settings.js:41
 msgid "More info required"
@@ -325,16 +285,40 @@ msgstr "ਐਪ ਪੇਸ਼ ਕਰਨ ਸੂਚਨਾ"
 msgid "Developer comment"
 msgstr "ਡਿਵੈਲਪਰ ਟਿੱਪਣੀ"
 
+#: /media/js/commonplace/login.js:8
+msgid "You have been signed out"
+msgstr "ਤੁਸੀ ਸਾਇਨ ਆਉਟ ਕਰ ਲਿਆ ਹੈ।"
+
+#: /media/js/commonplace/login.js:12
+msgid "You have been signed in"
+msgstr "ਤੁਸੀ ਸਾਇਨ ਇਨ ਕਰ ਲਿਆ ਹੈ।"
+
+#: /media/js/commonplace/login.js:49
+msgid "Error signing out"
+msgstr "ਸਾਇਨ ਆਉਟ ਕਰਨ ਵਿੱਚ ਗਲਤੀ"
+
+#: /media/js/commonplace/login.js:136
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "ਵਅਕਤੀ ਲਾਗਇਨ ਫੇਲ੍ਹ ਹੈ। ਹੋ ਸਕਦਾ ਹੈ ਕਿ ਤੁਹਾਡਾ ਖਾਤਾ ਉਸ ਮੇਲ ਪਤੇ ਹੇਠਾ ਨਾ ਹੋਵੇ?"
+
+#: /media/js/commonplace/login.js:141
+msgid "Persona login failed. A server error was encountered."
+msgstr "ਿਵਅਕਤੀ ਲਾਗਇਨ ਫੇਲ੍ਹ ਹੈ। ਇੱਕ ਸਰਵਰ ਨੂੰ ਗਲਤੀ ਆਈ ਹੈ।"
+
+#: /media/js/commonplace/login.js:209
+msgid "Persona cannot be reached. Try again later."
+msgstr "ਪਰਸੋਨਾ ਵਰਤਿਆ ਨਹੀਂ ਜਾ ਸਕਦਾ। ਬਾਅਦ ਵਿੱਚ ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "ਇੰਟਰਨੈੱਟ ਕੁਨੈਕਸ਼ਨ ਨਹੀਂ ਹੈ"
+
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{n}</b> ਅੱਖਰ ਬਾਕੀ।"
 msgstr[1] "<b>{n}</b> ਅੱਖਰ ਬਾਕੀ।"
-
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "ਇੰਟਰਨੈੱਟ ਕੁਨੈਕਸ਼ਨ ਨਹੀਂ ਹੈ"
 
 #: /media/js/views/comm.js:67
 msgid "Message sent."
@@ -348,27 +332,15 @@ msgstr "ਸੁਨੇਹਾ ਭੇਜਣ ਲਈ ਅਸਫਲ"
 msgid "Cancel reply"
 msgstr "ਜੁਵਾਬ ਰੱਦ"
 
-#: /media/js/views/comm.js:215
+#: /media/js/views/comm.js:170
 msgid "There are no more older notes."
 msgstr "ਹੋਰ ਪੁਰਾਣੇ ਨੋਟਿਸ ਨਹੀਂ"
 
-#: /media/js/views/comm.js:263
-msgid "There was some problem marking the note as read. Try again."
-msgstr "ਨੋਟ ਨੂੰ ਪੜ੍ਹਨ ਦੌਰਾਨ ਕੁੱਝ ਸਮੱਸਿਆਵਾਂ ਆਈਆਂ ਹਨ. ਦੁਬਾਰਾ ਕੋਸਿਸ਼ ਕਰੋ."
-
-#: /media/js/views/comm.js:276
-msgid "No notes to show."
-msgstr "ਦਿਖਾਉਣ ਲਈ ਕੋਈ ਨੋਟ ਨਹੀਂ"
-
-#: /media/js/views/comm.js:283
-msgid "There was some problem marking the thread as read. Try again."
-msgstr "ਥਰੈੱਡ ਨੂੰ ਪੜ੍ਹਨ ਦੌਰਾਨ ਕੁੱਝ ਸਮੱਸਿਆਵਾਂ ਆਈਆਂ ਹਨ. ਦੁਬਾਰਾ ਕੋਸਿ਼ਸ ਕਰੋ."
-
-#: /media/js/views/comm.js:291
+#: /media/js/views/comm.js:193
 msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
 msgstr "ਇਹ ਮਾਮਲੇ ਤੋਂ ਮੈਂਬਰੀ ਹਟਾਉਣ ਨਾਲ ਤੁਸੀਂ ਇਸ ਮਾਮਲੇ ਤੋਂ ਈਮੇਲ ਸੂਚਨਾ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕਰੋਗੇ। ਕੀ ਤੁਸੀਂ ਇਹ ਚਾਹੁੰਦੇ ਹੋ?"
 
-#: /media/js/views/comm.js:296
+#: /media/js/views/comm.js:198
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
 msgstr "ਕਾਮਯਾਬੀ ਨਾਲ ਮੈਂਬਰੀ ਹਟਾਈ ਗਈ। ਤੁਹਾਨੂੰ ਉਸ ਮਾਮਲੇ ਤੋਂ ਈਮੇਲ ਸੂਚਨਾ ਪ੍ਰਾਪਤ ਨਹੀਂ ਹੋਵੇਗੀ।"
 

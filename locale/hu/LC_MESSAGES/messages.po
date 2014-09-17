@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-05T15:31:04.604Z\n"
+"POT-Creation-Date: 2014-09-17T16:10:32.456Z\n"
 "PO-Revision-Date: 2014-08-14 19:10+0000\n"
 "Last-Translator: Gábor <kelemeng@ubuntu.com>\n"
 "Language-Team: none\n"
@@ -37,6 +37,72 @@ msgstr "Kijelentkezés"
 #: /templates/header.html:8
 msgid "Sign In"
 msgstr "Bejelentkezés"
+
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Bejelentkezés"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Be kell jelentkeznie a folytatáshoz."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Bejelentkezés/regisztráció"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Melléklet"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Fájl leírása"
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} ({version_number} verzió)"
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "(elavult)"
+
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:50
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} jegyzet"
+msgstr[1] "{n} jegyzet"
+
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:60 /media/js/views/comm.js:142
+msgid "Reply"
+msgstr "Válasz"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "Legutóbbi"
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr "App megjelenítése"
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "Leiratkozás"
+
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "Értékelés"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "App ikon"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "{app_name} minden szálának megjelenítése"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Vissza az app szerkesztés oldalra"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -82,61 +148,33 @@ msgstr "Felhasználási feltételek"
 msgid "Report Trademark Abuse"
 msgstr "Védjeggyel kapcsolatos visszaélés jelentése"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Bejelentkezés"
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Üres jegyzet"
 
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Be kell jelentkeznie a folytatáshoz."
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Írja ide a jegyzet szövegét"
 
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Bejelentkezés/regisztráció"
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Mellékletek és naplófájlok csatolása:"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Melléklet"
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Másik fájl csatolása"
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Fájl leírása"
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Küldés"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Na ne!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "A keresett oldal nem található."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Hiba történt."
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "App ikon"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "{app_name} minden szálának megjelenítése"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Vissza az app szerkesztés oldalra"
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Hiba továbbiak betöltésekor"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Próbálja újra"
-
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "Nincsenek jegyzetek"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Régebbi megjelenítése"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -149,14 +187,6 @@ msgstr "Nincsenek szálak."
 #: /templates/comm/main.html:16
 msgid "Hmm...an error?"
 msgstr "Hmm... egy hiba?"
-
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "Jegyzet megjelölése olvasottként"
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr "Üres jegyzet"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -175,95 +205,25 @@ msgstr "Az app verziói"
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Írja ide a jegyzet szövegét"
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Na ne!"
 
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Mellékletek és naplófájlok csatolása:"
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "A keresett oldal nem található."
 
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Másik fájl csatolása"
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Hiba történt."
 
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Küldés"
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Hiba továbbiak betöltésekor"
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Régebbi megjelenítése"
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} ({version_number} verzió)"
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "(elavult)"
-
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:50
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} jegyzet"
-msgstr[1] "{n} jegyzet"
-
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:60 /media/js/views/comm.js:142
-msgid "Reply"
-msgstr "Válasz"
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "Legutóbbi"
-
-#: /templates/_macros/thread_header.html:43
-msgid "Unread"
-msgstr "Olvasatlan"
-
-#: /templates/_macros/thread_header.html:44
-msgid "Read"
-msgstr "Olvasott"
-
-#: /templates/_macros/thread_header.html:45
-msgid "View App"
-msgstr "App megjelenítése"
-
-#: /templates/_macros/thread_header.html:49
-msgid "Unsubscribe"
-msgstr "Leiratkozás"
-
-#: /templates/_macros/thread_header.html:52
-msgid "Review"
-msgstr "Értékelés"
-
-#: /templates/_macros/thread_header.html:55
-msgid "Mark All Read"
-msgstr "Összes jelölése olvasottként"
-
-#: /media/js/commonplace/login.js:8
-msgid "You have been signed out"
-msgstr "Kijelentkezett"
-
-#: /media/js/commonplace/login.js:12
-msgid "You have been signed in"
-msgstr "Bejelentkezett"
-
-#: /media/js/commonplace/login.js:49
-msgid "Error signing out"
-msgstr "Hiba a kijelentkezéskor"
-
-#: /media/js/commonplace/login.js:136
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "A Persona bejelentkezés sikertelen. Talán nincs fiókja ehhez az e-mail címhez?"
-
-#: /media/js/commonplace/login.js:141
-msgid "Persona login failed. A server error was encountered."
-msgstr "A Persona bejelentkezés sikertelen. Kiszolgálóhiba történt."
-
-#: /media/js/commonplace/login.js:209
-msgid "Persona cannot be reached. Try again later."
-msgstr "A Persona nem érhető el. Próbálja újra később."
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Próbálja újra"
 
 #: /media/js/settings.js:37
 msgid "Message"
@@ -278,8 +238,8 @@ msgid "App rejected"
 msgstr "App elutasítva"
 
 #: /media/js/settings.js:40
-msgid "App disabled"
-msgstr "App letiltva"
+msgid "App banned"
+msgstr ""
 
 #: /media/js/settings.js:41
 msgid "More info required"
@@ -325,16 +285,40 @@ msgstr "Appbeküldési megjegyzés"
 msgid "Developer comment"
 msgstr "Fejlesztői megjegyzés"
 
+#: /media/js/commonplace/login.js:8
+msgid "You have been signed out"
+msgstr "Kijelentkezett"
+
+#: /media/js/commonplace/login.js:12
+msgid "You have been signed in"
+msgstr "Bejelentkezett"
+
+#: /media/js/commonplace/login.js:49
+msgid "Error signing out"
+msgstr "Hiba a kijelentkezéskor"
+
+#: /media/js/commonplace/login.js:136
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "A Persona bejelentkezés sikertelen. Talán nincs fiókja ehhez az e-mail címhez?"
+
+#: /media/js/commonplace/login.js:141
+msgid "Persona login failed. A server error was encountered."
+msgstr "A Persona bejelentkezés sikertelen. Kiszolgálóhiba történt."
+
+#: /media/js/commonplace/login.js:209
+msgid "Persona cannot be reached. Try again later."
+msgstr "A Persona nem érhető el. Próbálja újra később."
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "Nincs internetkapcsolat"
+
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{n}</b> karakter maradt."
 msgstr[1] "<b>{n}</b> karakter maradt."
-
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "Nincs internetkapcsolat"
 
 #: /media/js/views/comm.js:67
 msgid "Message sent."
@@ -348,27 +332,15 @@ msgstr "Üzenet küldése sikertelen."
 msgid "Cancel reply"
 msgstr "Válasz megszakítása"
 
-#: /media/js/views/comm.js:215
+#: /media/js/views/comm.js:170
 msgid "There are no more older notes."
 msgstr "Nincs több régi jegyzet."
 
-#: /media/js/views/comm.js:263
-msgid "There was some problem marking the note as read. Try again."
-msgstr "Hiba történt a jegyzet olvasottként jelölésekor. Próbálja újra."
-
-#: /media/js/views/comm.js:276
-msgid "No notes to show."
-msgstr "Nincsenek megjeleníthető jegyzetek."
-
-#: /media/js/views/comm.js:283
-msgid "There was some problem marking the thread as read. Try again."
-msgstr "Hiba történt a szál olvasottként jelölésekor. Próbálja újra."
-
-#: /media/js/views/comm.js:291
+#: /media/js/views/comm.js:193
 msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
 msgstr "A szálról leiratkozva nem fog több e-mail értesítést kapni a szálból. Biztos benne?"
 
-#: /media/js/views/comm.js:296
+#: /media/js/views/comm.js:198
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
 msgstr "Sikeresen leiratkozott. Nem fog több e-mail értesítést kapni a szálból."
 

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-05T15:31:04.604Z\n"
+"POT-Creation-Date: 2014-09-17T16:10:32.456Z\n"
 "PO-Revision-Date: 2014-08-14 04:58+0000\n"
 "Last-Translator: Vanja <tumbas93@gmail.com>\n"
 "Language-Team: none\n"
@@ -37,6 +37,73 @@ msgstr "Odjavi se"
 #: /templates/header.html:8
 msgid "Sign In"
 msgstr "Prijavi se"
+
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Prijavi se"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Morate se prijaviti kako biste nastavili dalje."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Prijavi se / Registruj se"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Prilog"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Opis datoteke"
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} (Verzija {version_number})"
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "(Zastareo)"
+
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:50
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} beleška"
+msgstr[1] "{n} beleške"
+msgstr[2] "{n} beleški"
+
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:60 /media/js/views/comm.js:142
+msgid "Reply"
+msgstr "Odgovori"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "Skorašnje"
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr "Pogledaj aplikaciju"
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "Ukini pretplatu"
+
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "Oceni"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Ikonica aplikacije"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Pregled svih tema za {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Vrati se na stranicu za uređivanje"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -82,61 +149,33 @@ msgstr "Uslovi korišćenja"
 msgid "Report Trademark Abuse"
 msgstr "Prijavite zloupotrebu robne marke"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Prijavi se"
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Prazna beleška"
 
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Morate se prijaviti kako biste nastavili dalje."
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Ovde unesite tekst"
 
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Prijavi se / Registruj se"
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Zakačite snimak ekrana i dnevnike:"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Prilog"
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Zakačite još jednu datoteku"
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Opis datoteke"
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Poruka"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Oh ne!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Stranica koju ste tražili nije pronađena."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Došlo je do greške."
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Ikonica aplikacije"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Pregled svih tema za {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Vrati se na stranicu za uređivanje"
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Greška pri učitavanju"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Pokušaj ponovo"
-
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "Nema pronađenih beleški"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Pogledajte starije"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -149,14 +188,6 @@ msgstr "Nemate teme."
 #: /templates/comm/main.html:16
 msgid "Hmm...an error?"
 msgstr "Hmm...greška?"
-
-#: /templates/comm/note_detail.html:8
-msgid "Mark this note as read"
-msgstr "Označite ovu belešku kao pročitanu"
-
-#: /templates/comm/note_detail.html:15
-msgid "Empty note"
-msgstr "Prazna beleška"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -175,96 +206,25 @@ msgstr "Verzija ove aplikacije"
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Ovde unesite tekst"
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Oh ne!"
 
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Zakačite snimak ekrana i dnevnike:"
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Stranica koju ste tražili nije pronađena."
 
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Zakačite još jednu datoteku"
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Došlo je do greške."
 
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Poruka"
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Greška pri učitavanju"
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Pogledajte starije"
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} (Verzija {version_number})"
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "(Zastareo)"
-
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:50
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} beleška"
-msgstr[1] "{n} beleške"
-msgstr[2] "{n} beleški"
-
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:60 /media/js/views/comm.js:142
-msgid "Reply"
-msgstr "Odgovori"
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "Skorašnje"
-
-#: /templates/_macros/thread_header.html:43
-msgid "Unread"
-msgstr "Nepročitane"
-
-#: /templates/_macros/thread_header.html:44
-msgid "Read"
-msgstr "Pročitaj"
-
-#: /templates/_macros/thread_header.html:45
-msgid "View App"
-msgstr "Pogledaj aplikaciju"
-
-#: /templates/_macros/thread_header.html:49
-msgid "Unsubscribe"
-msgstr "Ukini pretplatu"
-
-#: /templates/_macros/thread_header.html:52
-msgid "Review"
-msgstr "Oceni"
-
-#: /templates/_macros/thread_header.html:55
-msgid "Mark All Read"
-msgstr "Označi sve pročitane"
-
-#: /media/js/commonplace/login.js:8
-msgid "You have been signed out"
-msgstr "Odjavljeni ste"
-
-#: /media/js/commonplace/login.js:12
-msgid "You have been signed in"
-msgstr "Prijavljeni ste"
-
-#: /media/js/commonplace/login.js:49
-msgid "Error signing out"
-msgstr "Greška prilikom odjavljivanja"
-
-#: /media/js/commonplace/login.js:136
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Prijava na Persona je neuspela. Možda nemate nalog pod tom adresom e-pošte?"
-
-#: /media/js/commonplace/login.js:141
-msgid "Persona login failed. A server error was encountered."
-msgstr "Prijava na Persona nije uspela. Došlo je do greške na serveru."
-
-#: /media/js/commonplace/login.js:209
-msgid "Persona cannot be reached. Try again later."
-msgstr "Persona je nedostupna. Pokušajte kasnije."
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Pokušaj ponovo"
 
 #: /media/js/settings.js:37
 msgid "Message"
@@ -279,8 +239,8 @@ msgid "App rejected"
 msgstr "Aplikacija je odbijena"
 
 #: /media/js/settings.js:40
-msgid "App disabled"
-msgstr "Aplikacija je onemogućena"
+msgid "App banned"
+msgstr ""
 
 #: /media/js/settings.js:41
 msgid "More info required"
@@ -326,6 +286,34 @@ msgstr "Beleška podnošenja aplikacije"
 msgid "Developer comment"
 msgstr "Komentar programera"
 
+#: /media/js/commonplace/login.js:8
+msgid "You have been signed out"
+msgstr "Odjavljeni ste"
+
+#: /media/js/commonplace/login.js:12
+msgid "You have been signed in"
+msgstr "Prijavljeni ste"
+
+#: /media/js/commonplace/login.js:49
+msgid "Error signing out"
+msgstr "Greška prilikom odjavljivanja"
+
+#: /media/js/commonplace/login.js:136
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Prijava na Persona je neuspela. Možda nemate nalog pod tom adresom e-pošte?"
+
+#: /media/js/commonplace/login.js:141
+msgid "Persona login failed. A server error was encountered."
+msgstr "Prijava na Persona nije uspela. Došlo je do greške na serveru."
+
+#: /media/js/commonplace/login.js:209
+msgid "Persona cannot be reached. Try again later."
+msgstr "Persona je nedostupna. Pokušajte kasnije."
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "Nema internet konekcije"
+
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
@@ -333,10 +321,6 @@ msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "Preostalo karaktera: <b>{n}</b>."
 msgstr[1] "Preostalo karaktera: <b>{n}</b>."
 msgstr[2] "Preostalo karaktera: <b>{n}</b>."
-
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "Nema internet konekcije"
 
 #: /media/js/views/comm.js:67
 msgid "Message sent."
@@ -350,27 +334,15 @@ msgstr "Neuspešno slanje poruke."
 msgid "Cancel reply"
 msgstr "Otkaži odgovor"
 
-#: /media/js/views/comm.js:215
+#: /media/js/views/comm.js:170
 msgid "There are no more older notes."
 msgstr "Nema više starih beleški."
 
-#: /media/js/views/comm.js:263
-msgid "There was some problem marking the note as read. Try again."
-msgstr "Došlo je do problema pri označavanju beleške kao pročitane. Pokušajte ponovo."
-
-#: /media/js/views/comm.js:276
-msgid "No notes to show."
-msgstr "Nema beleški za prikazivanje."
-
-#: /media/js/views/comm.js:283
-msgid "There was some problem marking the thread as read. Try again."
-msgstr "Bilo je nekih problema oko označavanja teme kao pročitane. Pokušajte ponovo."
-
-#: /media/js/views/comm.js:291
+#: /media/js/views/comm.js:193
 msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
 msgstr "Ako se odjavite sa ove teme, nećete više dobijati obaveštenja e-poštom iz ove teme. Da li ste sigurni?"
 
-#: /media/js/views/comm.js:296
+#: /media/js/views/comm.js:198
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
 msgstr "Uspešno ste se odjavili. Više nećete dobijati obaveštenja e-poštom iz ove teme."
 
