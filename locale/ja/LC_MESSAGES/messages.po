@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-17T16:10:32.456Z\n"
-"PO-Revision-Date: 2014-08-13 18:46-0400\n"
+"PO-Revision-Date: 2014-09-17 18:46-0400\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -238,7 +238,7 @@ msgstr "アプリは却下されました"
 
 #: /media/js/settings.js:40
 msgid "App banned"
-msgstr ""
+msgstr "アプリは禁止されました"
 
 #: /media/js/settings.js:41
 msgid "More info required"
