@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Commbadge\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-17T16:10:32.456Z\n"
-"PO-Revision-Date: 2014-08-15 08:03+0000\n"
+"PO-Revision-Date: 2014-09-18 13:04+0000\n"
 "Last-Translator: Pavel <jasnapaka@jasnapaka.com>\n"
 "Language-Team: Czech <info@mozilla.cz>\n"
 "Language: cs\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1408089827.0\n"
+"X-POOTLE-MTIME: 1411045454.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -240,7 +240,7 @@ msgstr "Aplikace byla zamítnuta"
 
 #: /media/js/settings.js:40
 msgid "App banned"
-msgstr ""
+msgstr "Aplikace byla zakázána"
 
 #: /media/js/settings.js:41
 msgid "More info required"
