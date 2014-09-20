@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-17T16:10:32.456Z\n"
-"PO-Revision-Date: 2014-08-14 19:10+0000\n"
+"PO-Revision-Date: 2014-09-20 11:27+0000\n"
 "Last-Translator: Gábor <kelemeng@ubuntu.com>\n"
 "Language-Team: none\n"
 "Language: hu\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n !=1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1408043418.0\n"
+"X-POOTLE-MTIME: 1411212467.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -239,7 +239,7 @@ msgstr "App elutasítva"
 
 #: /media/js/settings.js:40
 msgid "App banned"
-msgstr ""
+msgstr "App kitiltva"
 
 #: /media/js/settings.js:41
 msgid "More info required"
