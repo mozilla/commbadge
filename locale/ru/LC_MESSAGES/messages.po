@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-17T16:10:32.456Z\n"
+"POT-Creation-Date: 2014-10-01T16:26:55.888Z\n"
 "PO-Revision-Date: 2014-09-20 14:04+0000\n"
 "Last-Translator: Alexander <unghost@mozilla-russia.org>\n"
 "Language-Team: none\n"
@@ -10,101 +10,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1411221856.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Закрыть"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Нет"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Да"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Панель коммуникации"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Выйти"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Войти"
-
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Войти"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Вы должны войти для продолжения"
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Вход / Регистрация"
-
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Приложение"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Описание файла"
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} (Версия {version_number})"
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "(Устарело)"
-
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:50
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} заметка"
-msgstr[1] "{n} заметки"
-msgstr[2] "{n} заметок"
-
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:60 /media/js/views/comm.js:142
-msgid "Reply"
-msgstr "Ответить"
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "Недавние"
-
-#: /templates/_macros/thread_header.html:43
-msgid "View App"
-msgstr "Просмотреть приложение"
-
-#: /templates/_macros/thread_header.html:47
-msgid "Unsubscribe"
-msgstr "Отписаться"
-
-#: /templates/_macros/thread_header.html:50
-msgid "Review"
-msgstr "Рецензировать"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Значок приложения"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Просмотр всех обсуждений для {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Вернуться к странице редактирования приложения"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -150,33 +58,61 @@ msgstr "Условия использования"
 msgid "Report Trademark Abuse"
 msgstr "Сообщить о злоупотреблении торговой маркой"
 
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Пустая заметка"
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Закрыть"
 
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Введите здесь текст заметки"
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Нет"
 
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Приложите скриншоты и файлы логов:"
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Да"
 
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Приложите другой файл"
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Войти"
 
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Разместить"
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Вы должны войти для продолжения"
 
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Заметок не найдено"
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Вход / Регистрация"
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Показать старые"
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Панель коммуникации"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Выйти"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Войти"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Значок приложения"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Просмотр всех обсуждений для {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Вернуться к странице редактирования приложения"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Приложение"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Описание файла"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -189,6 +125,14 @@ msgstr "У вас нет обсуждений."
 #: /templates/comm/main.html:16
 msgid "Hmm...an error?"
 msgstr "Хмм...ошибка?"
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr "Заметок не найдено"
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Пустая заметка"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -207,17 +151,72 @@ msgstr "Версии этого приложения"
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Введите здесь текст заметки"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Приложите скриншоты и файлы логов:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Приложите другой файл"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Разместить"
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} (Версия {version_number})"
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "(Устарело)"
+
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:50
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} заметка"
+msgstr[1] "{n} заметки"
+msgstr[2] "{n} заметок"
+
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:60 /media/js/views/comm.js:142
+msgid "Reply"
+msgstr "Ответить"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "Недавние"
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr "Просмотреть приложение"
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "Отписаться"
+
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "Рецензировать"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Показать старые"
+
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
 msgstr "О нет!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Страница, которую вы искали, не была найдена."
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "Произошла ошибка."
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Страница, которую вы искали, не была найдена."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"

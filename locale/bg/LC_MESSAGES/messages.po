@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AMO Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-17T16:10:32.456Z\n"
+"POT-Creation-Date: 2014-10-01T16:26:55.888Z\n"
 "PO-Revision-Date: 2013-10-28 21:27+0200\n"
 "Last-Translator: Mihail Chilyashev <m@chilyashev.com>\n"
 "Language-Team: Bulgarian (bg)\n"
@@ -12,96 +12,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.5.4\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Затвори"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Не"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Да"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Комуникационно табло"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Изход"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Вход"
-
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Вход"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Трябва да влезете, за да продължите"
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Вход / Регистрация"
-
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr ""
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr ""
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} (Версия {version_number})"
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "(Остаряла)"
-
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:50
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} бележка"
-msgstr[1] "{n} бележки"
-
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:60 /media/js/views/comm.js:142
-msgid "Reply"
-msgstr "Отговор"
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "Последни"
-
-#: /templates/_macros/thread_header.html:43
-msgid "View App"
-msgstr ""
-
-#: /templates/_macros/thread_header.html:47
-msgid "Unsubscribe"
-msgstr ""
-
-#: /templates/_macros/thread_header.html:50
-msgid "Review"
-msgstr ""
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Икона на приложението"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Разглеждане на всички теми за {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr ""
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -147,33 +57,61 @@ msgstr "Условия за ползване"
 msgid "Report Trademark Abuse"
 msgstr "Докладвай злоупотреба със запазена марка"
 
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Празна бележка"
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Затвори"
 
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Въведете текстът на бележката тук"
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Не"
 
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Да"
+
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Вход"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Трябва да влезете, за да продължите"
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Вход / Регистрация"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Комуникационно табло"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Изход"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Вход"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Икона на приложението"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Разглеждане на всички теми за {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
 msgstr ""
 
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
 msgstr ""
 
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Публикуване"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Няма намерени бележки"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Виж по-стари"
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr ""
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -186,6 +124,14 @@ msgstr "Нямате теми."
 #: /templates/comm/main.html:16
 msgid "Hmm...an error?"
 msgstr ""
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr "Няма намерени бележки"
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Празна бележка"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -204,17 +150,71 @@ msgstr ""
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Въведете текстът на бележката тук"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr ""
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr ""
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Публикуване"
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} (Версия {version_number})"
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "(Остаряла)"
+
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:50
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} бележка"
+msgstr[1] "{n} бележки"
+
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:60 /media/js/views/comm.js:142
+msgid "Reply"
+msgstr "Отговор"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "Последни"
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr ""
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Виж по-стари"
+
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
 msgstr "О, не!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Страницата, която търсите не бе намерена."
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "Възникна грешка."
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Страницата, която търсите не бе намерена."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"

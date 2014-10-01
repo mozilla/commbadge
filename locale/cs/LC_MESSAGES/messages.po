@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Commbadge\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-17T16:10:32.456Z\n"
+"POT-Creation-Date: 2014-10-01T16:26:55.888Z\n"
 "PO-Revision-Date: 2014-09-18 13:04+0000\n"
 "Last-Translator: Pavel <jasnapaka@jasnapaka.com>\n"
 "Language-Team: Czech <info@mozilla.cz>\n"
@@ -13,97 +13,6 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1411045454.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Zavřít"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Ne"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Ano"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Nástěnka komunikace"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Odhlášení"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Přihlášení"
-
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Přihlášení"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Pro pokračování se musíte přihlásit."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Přihlášení / Registrace"
-
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Příloha"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Popis souboru"
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} (Verze {version_number})"
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "(Zavržené)"
-
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:50
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} poznámka"
-msgstr[1] "{n} poznámky"
-msgstr[2] "{n} poznámek"
-
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:60 /media/js/views/comm.js:142
-msgid "Reply"
-msgstr "Odpovědět"
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "Nedávné"
-
-#: /templates/_macros/thread_header.html:43
-msgid "View App"
-msgstr "Zobrazit aplikaci"
-
-#: /templates/_macros/thread_header.html:47
-msgid "Unsubscribe"
-msgstr "Zrušit odběr"
-
-#: /templates/_macros/thread_header.html:50
-msgid "Review"
-msgstr "Kontrola"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Ikona aplikace"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Zobrazení všech vláken pro {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Zpět na stránku úpravy aplikace"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -149,33 +58,61 @@ msgstr "Podmínky použití"
 msgid "Report Trademark Abuse"
 msgstr "Nahlášení zneužití ochranné známky"
 
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Prázdná poznámka"
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Zavřít"
 
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Zde vložte text poznámky"
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Ne"
 
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Nahrajte snímky obrazovky a soubory s logy:"
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Ano"
 
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Přiložit další soubor"
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Přihlášení"
 
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Přidat"
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Pro pokračování se musíte přihlásit."
 
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Nebyly nalezeny žádné poznámky"
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Přihlášení / Registrace"
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Zobrazit starší"
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Nástěnka komunikace"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Odhlášení"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Přihlášení"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Ikona aplikace"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Zobrazení všech vláken pro {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Zpět na stránku úpravy aplikace"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Příloha"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Popis souboru"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -188,6 +125,14 @@ msgstr "Nemáte žádná vlákna."
 #: /templates/comm/main.html:16
 msgid "Hmm...an error?"
 msgstr "Hmm... chyba?"
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr "Nebyly nalezeny žádné poznámky"
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Prázdná poznámka"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -206,17 +151,72 @@ msgstr "Tyto verze aplikace"
 msgid "v.{version_number}"
 msgstr "v. {version_number}"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Zde vložte text poznámky"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Nahrajte snímky obrazovky a soubory s logy:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Přiložit další soubor"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Přidat"
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} (Verze {version_number})"
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "(Zavržené)"
+
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:50
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} poznámka"
+msgstr[1] "{n} poznámky"
+msgstr[2] "{n} poznámek"
+
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:60 /media/js/views/comm.js:142
+msgid "Reply"
+msgstr "Odpovědět"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "Nedávné"
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr "Zobrazit aplikaci"
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "Zrušit odběr"
+
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "Kontrola"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Zobrazit starší"
+
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
 msgstr "Ale ne!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Stránka, kterou hledáte, nebyla nalezena."
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "Nastala chyba"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Stránka, kterou hledáte, nebyla nalezena."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"

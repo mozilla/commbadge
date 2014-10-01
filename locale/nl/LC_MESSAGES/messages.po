@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-17T16:10:32.456Z\n"
+"POT-Creation-Date: 2014-10-01T16:26:55.888Z\n"
 "PO-Revision-Date: 2014-09-17 18:23+0000\n"
 "Last-Translator: Mark <markh@babelzilla.org>\n"
 "Language-Team: none\n"
@@ -13,97 +13,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1410978212.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Sluiten"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Nee"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Ja"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Dashboard voor communicatie"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Afmelden"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Aanmelden"
-
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Aanmelden"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "U moet zich aanmelden om verder te gaan."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Aanmelden / registreren"
-
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Bijlage"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Bestandsbeschrijving"
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} (versie {version_number})"
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "(Verouderd)"
-
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:50
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} opmerking"
-msgstr[1] "{n} opmerkingen"
-
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:60 /media/js/views/comm.js:142
-msgid "Reply"
-msgstr "Beantwoorden"
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "Recent"
-
-#: /templates/_macros/thread_header.html:43
-msgid "View App"
-msgstr "App weergeven"
-
-#: /templates/_macros/thread_header.html:47
-msgid "Unsubscribe"
-msgstr "Uitschrijven"
-
-# verb or noun?
-#: /templates/_macros/thread_header.html:50
-msgid "Review"
-msgstr "Beoordelen"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "App-pictogram"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Alle conversaties voor {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Terug naar app-bewerkingspagina"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -149,34 +58,61 @@ msgstr "Gebruiksvoorwaarden"
 msgid "Report Trademark Abuse"
 msgstr "Misbruik van handelsmerk melden"
 
-# Empty als werkwoord of als bijvoeglijk naamwoord? Vooralsnog gekozen voor het laatste.
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Lege opmerking"
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Sluiten"
 
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Voer hier de tekst in"
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Nee"
 
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Voeg schermafbeeldingen en logbestanden bij:"
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Ja"
 
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Nog een bestand toevoegen"
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Aanmelden"
 
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Plaatsen"
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "U moet zich aanmelden om verder te gaan."
 
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Geen opmerkingen gevonden"
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Aanmelden / registreren"
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Oudere weergeven"
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Dashboard voor communicatie"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Afmelden"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Aanmelden"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "App-pictogram"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Alle conversaties voor {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Terug naar app-bewerkingspagina"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Bijlage"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Bestandsbeschrijving"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -189,6 +125,15 @@ msgstr "U hebt geen conversaties."
 #: /templates/comm/main.html:16
 msgid "Hmm...an error?"
 msgstr "Hmm… een fout?"
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr "Geen opmerkingen gevonden"
+
+# Empty als werkwoord of als bijvoeglijk naamwoord? Vooralsnog gekozen voor het laatste.
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Lege opmerking"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -207,17 +152,72 @@ msgstr "Versies van deze app"
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Voer hier de tekst in"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Voeg schermafbeeldingen en logbestanden bij:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Nog een bestand toevoegen"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Plaatsen"
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} (versie {version_number})"
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "(Verouderd)"
+
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:50
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} opmerking"
+msgstr[1] "{n} opmerkingen"
+
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:60 /media/js/views/comm.js:142
+msgid "Reply"
+msgstr "Beantwoorden"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "Recent"
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr "App weergeven"
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "Uitschrijven"
+
+# verb or noun?
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "Beoordelen"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Oudere weergeven"
+
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
 msgstr "Oh nee!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "De door u gezochte pagina is niet gevonden."
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "Er is een fout opgetreden."
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "De door u gezochte pagina is niet gevonden."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"

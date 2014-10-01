@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-17T16:10:32.456Z\n"
+"POT-Creation-Date: 2014-10-01T16:26:55.888Z\n"
 "PO-Revision-Date: 2014-09-18 08:31+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: MozTW <petercpg@mail.moztw.org>\n"
@@ -14,95 +14,6 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-POOTLE-MTIME: 1411029065.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "關閉"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "否"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "是"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "傳播主控台"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "登出"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "登入"
-
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "登入"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "您必須登入才能繼續。"
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "登入 / 註冊"
-
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "附件"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "檔案描述"
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} ({version_number} 版)"
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "（已過時）"
-
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:50
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} 筆筆記"
-
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:60 /media/js/views/comm.js:142
-msgid "Reply"
-msgstr "回覆"
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "近期"
-
-#: /templates/_macros/thread_header.html:43
-msgid "View App"
-msgstr "檢視應用程式"
-
-#: /templates/_macros/thread_header.html:47
-msgid "Unsubscribe"
-msgstr "取消訂閱"
-
-#: /templates/_macros/thread_header.html:50
-msgid "Review"
-msgstr "評論"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "應用程式圖示"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "檢視所有 {app_name} 的討論串"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "回到程式編輯頁面"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -146,33 +57,61 @@ msgstr "使用條款"
 msgid "Report Trademark Abuse"
 msgstr "回報商標濫用"
 
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "空白筆記"
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "關閉"
 
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "在此輸入筆記內容"
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "否"
 
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "附加畫面擷圖與紀錄檔:"
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "是"
 
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "附加另一個檔案"
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "登入"
 
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "張貼"
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "您必須登入才能繼續。"
 
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "找不到筆記"
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "登入 / 註冊"
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "檢視更舊項目"
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "傳播主控台"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "登出"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "登入"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "應用程式圖示"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "檢視所有 {app_name} 的討論串"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "回到程式編輯頁面"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "附件"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "檔案描述"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -185,6 +124,14 @@ msgstr "您沒有討論串。"
 #: /templates/comm/main.html:16
 msgid "Hmm...an error?"
 msgstr "嗯…發生錯誤了嗎？"
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr "找不到筆記"
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "空白筆記"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -203,17 +150,70 @@ msgstr "此應用程式的版本"
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "在此輸入筆記內容"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "附加畫面擷圖與紀錄檔:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "附加另一個檔案"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "張貼"
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} ({version_number} 版)"
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "（已過時）"
+
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:50
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} 筆筆記"
+
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:60 /media/js/views/comm.js:142
+msgid "Reply"
+msgstr "回覆"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "近期"
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr "檢視應用程式"
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "取消訂閱"
+
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "評論"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "檢視更舊項目"
+
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
 msgstr "喔不！"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "找不到您想開啟的頁面。"
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "發生錯誤。"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "找不到您想開啟的頁面。"
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"

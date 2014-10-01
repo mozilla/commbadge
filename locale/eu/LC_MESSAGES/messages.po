@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-17T16:10:32.456Z\n"
+"POT-Creation-Date: 2014-10-01T16:26:55.888Z\n"
 "PO-Revision-Date: 2014-09-30 19:12+0000\n"
 "Last-Translator: Ibai <ibai@oihanguren.com>\n"
 "Language-Team: 89578-OEM-7332157-00211\n"
@@ -14,96 +14,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1412104359.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Itxi"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Ez"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Bai"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Komunikazio-panela"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Amaitu saioa"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Hasi saioa"
-
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Hasi saioa"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Saioa hasi behar duzu jarraitu ahal izateko."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Hasi saioa / Eman izena"
-
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Eranskina"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Fitxategiaren deskribapena"
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} ({version_number} bertsioa)"
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "(zaharkitua)"
-
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:50
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "Ohar {n}"
-msgstr[1] "{n} ohar"
-
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:60 /media/js/views/comm.js:142
-msgid "Reply"
-msgstr "Erantzun"
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "Azkenak"
-
-#: /templates/_macros/thread_header.html:43
-msgid "View App"
-msgstr "Ikusi aplikazioa"
-
-#: /templates/_macros/thread_header.html:47
-msgid "Unsubscribe"
-msgstr "Eten harpidetza"
-
-#: /templates/_macros/thread_header.html:50
-msgid "Review"
-msgstr "Berrikusi"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Aplikazioaren ikonoa"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "{app_name}(r)entzako hari guztiak ikusgai"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Itzuli aplikazioa editatzeko orrira"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -149,33 +59,61 @@ msgstr "Erabiltzeko baldintzak"
 msgid "Report Trademark Abuse"
 msgstr "Eman markaren erabilera okerraren berri"
 
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Ohar hutsa"
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Itxi"
 
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Idatzi oharraren testua hemen"
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Ez"
 
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Erantsi pantaila-argazkiak eta egunkari-fitxategiak:"
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Bai"
 
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Erantsi beste fitxategi bat"
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Hasi saioa"
 
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Bidali"
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Saioa hasi behar duzu jarraitu ahal izateko."
 
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Ez da oharrik aurkitu"
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Hasi saioa / Eman izena"
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Ikusi zaharragoak"
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Komunikazio-panela"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Amaitu saioa"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Hasi saioa"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Aplikazioaren ikonoa"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "{app_name}(r)entzako hari guztiak ikusgai"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Itzuli aplikazioa editatzeko orrira"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Eranskina"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Fitxategiaren deskribapena"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -188,6 +126,14 @@ msgstr "Ez duzu haririk."
 #: /templates/comm/main.html:16
 msgid "Hmm...an error?"
 msgstr "Mmm... errorea?"
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr "Ez da oharrik aurkitu"
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Ohar hutsa"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -206,17 +152,71 @@ msgstr "Aplikazio honen bertsioak"
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Idatzi oharraren testua hemen"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Erantsi pantaila-argazkiak eta egunkari-fitxategiak:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Erantsi beste fitxategi bat"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Bidali"
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} ({version_number} bertsioa)"
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "(zaharkitua)"
+
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:50
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "Ohar {n}"
+msgstr[1] "{n} ohar"
+
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:60 /media/js/views/comm.js:142
+msgid "Reply"
+msgstr "Erantzun"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "Azkenak"
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr "Ikusi aplikazioa"
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "Eten harpidetza"
+
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "Berrikusi"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Ikusi zaharragoak"
+
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
 msgstr "O ez!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Bilatzen ari zinen orria ez da aurkitu."
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "Errore bat gertatu da."
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Bilatzen ari zinen orria ez da aurkitu."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"

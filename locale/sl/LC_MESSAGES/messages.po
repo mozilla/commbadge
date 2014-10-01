@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-17T16:10:32.456Z\n"
+"POT-Creation-Date: 2014-10-01T16:26:55.888Z\n"
 "PO-Revision-Date: 2013-10-19 14:33+0000\n"
 "Last-Translator: Matjaž <m@owca.info>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,98 +13,6 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1382193217.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr ""
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr ""
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr ""
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr ""
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr ""
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr ""
-
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr ""
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr ""
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr ""
-
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr ""
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr ""
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr ""
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr ""
-
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:50
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:60 /media/js/views/comm.js:142
-msgid "Reply"
-msgstr ""
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr ""
-
-#: /templates/_macros/thread_header.html:43
-msgid "View App"
-msgstr ""
-
-#: /templates/_macros/thread_header.html:47
-msgid "Unsubscribe"
-msgstr ""
-
-#: /templates/_macros/thread_header.html:50
-msgid "Review"
-msgstr ""
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr ""
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr ""
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr ""
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -148,32 +56,60 @@ msgstr ""
 msgid "Report Trademark Abuse"
 msgstr ""
 
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
+#: /templates/confirmation.html:0
+msgid "Close"
 msgstr ""
 
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
+#: /templates/confirmation.html:3
+msgid "No"
 msgstr ""
 
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
+#: /templates/confirmation.html:4
+msgid "Yes"
 msgstr ""
 
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
 msgstr ""
 
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
 msgstr ""
 
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
 msgstr ""
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr ""
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr ""
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr ""
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr ""
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr ""
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr ""
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr ""
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
 msgstr ""
 
 #: /templates/comm/main.html:3
@@ -186,6 +122,14 @@ msgstr ""
 
 #: /templates/comm/main.html:16
 msgid "Hmm...an error?"
+msgstr ""
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr ""
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
 msgstr ""
 
 #: /templates/comm/show_thread.html:7
@@ -205,16 +149,72 @@ msgstr ""
 msgid "v.{version_number}"
 msgstr ""
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
 msgstr ""
 
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr ""
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr ""
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:50
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:60 /media/js/views/comm.js:142
+msgid "Reply"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr ""
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr ""
+
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
 msgstr ""
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
+msgstr ""
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
 msgstr ""
 
 #: /templates/errors/pagination.html:1

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-17T16:10:32.456Z\n"
+"POT-Creation-Date: 2014-10-01T16:26:55.888Z\n"
 "PO-Revision-Date: 2014-06-21 20:29+0000\n"
 "Last-Translator: Angela <angelavelop@gmail.com>\n"
 "Language-Team: Español (España) <nave@elistas.net>\n"
@@ -13,96 +13,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1403382576.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Cerrar"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "No"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Sí"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Tablero de comunicaciones"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Salir"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Identificarse"
-
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Identificarse"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Debes identificarte para continuar."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Identificarse / Registrarse"
-
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Adjunto"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Descripción del archivo"
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} (versión {version_number})"
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "(obsoleto)"
-
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:50
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} nota"
-msgstr[1] "{n} notas"
-
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:60 /media/js/views/comm.js:142
-msgid "Reply"
-msgstr "Responder"
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "Recientes"
-
-#: /templates/_macros/thread_header.html:43
-msgid "View App"
-msgstr ""
-
-#: /templates/_macros/thread_header.html:47
-msgid "Unsubscribe"
-msgstr "Cancelar la suscripción"
-
-#: /templates/_macros/thread_header.html:50
-msgid "Review"
-msgstr "Revisar"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Icono de aplicación"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Visualizando todas las conversaciones de {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr ""
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -148,33 +58,61 @@ msgstr "Condiciones de uso"
 msgid "Report Trademark Abuse"
 msgstr "Informar sobre infracción de marca"
 
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Nota vacía"
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Cerrar"
 
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Escribe texto de nota aquí"
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "No"
 
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Adjunta capturas de pantalla y archivos de registro:"
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Sí"
 
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Adjuntar otro archivo"
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Identificarse"
 
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Publicar"
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Debes identificarte para continuar."
 
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "No se encontraron notas"
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Identificarse / Registrarse"
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Ver anteriores"
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Tablero de comunicaciones"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Salir"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Identificarse"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Icono de aplicación"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Visualizando todas las conversaciones de {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr ""
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Adjunto"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Descripción del archivo"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -187,6 +125,14 @@ msgstr "No tienes ningún hilo."
 #: /templates/comm/main.html:16
 msgid "Hmm...an error?"
 msgstr ""
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr "No se encontraron notas"
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Nota vacía"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -205,17 +151,71 @@ msgstr ""
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Escribe texto de nota aquí"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Adjunta capturas de pantalla y archivos de registro:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Adjuntar otro archivo"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Publicar"
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} (versión {version_number})"
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "(obsoleto)"
+
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:50
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} nota"
+msgstr[1] "{n} notas"
+
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:60 /media/js/views/comm.js:142
+msgid "Reply"
+msgstr "Responder"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "Recientes"
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "Cancelar la suscripción"
+
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "Revisar"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Ver anteriores"
+
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
 msgstr "¡Oh, no!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "No se encontró la página que buscabas."
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "Se produjo un error."
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "No se encontró la página que buscabas."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
