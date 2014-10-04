@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-01T16:26:55.888Z\n"
-"PO-Revision-Date: 2014-04-27 08:11+0000\n"
+"PO-Revision-Date: 2014-10-04 14:06+0000\n"
 "Last-Translator: Benoit <benoit.leseul@gmail.com>\n"
 "Language-Team: français <>\n"
 "Language: fr\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1398586293.0\n"
+"X-POOTLE-MTIME: 1412431599.0\n"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -107,7 +107,7 @@ msgstr "Affichage de toutes les discussion sur {app_name}"
 
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
-msgstr ""
+msgstr "Retour à la page de modification de l'app"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
@@ -127,7 +127,7 @@ msgstr "Vous n'avez aucun sujet de discussion."
 
 #: /templates/comm/main.html:16
 msgid "Hmm...an error?"
-msgstr ""
+msgstr "Hmm… un problème&nbsp;?"
 
 #: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
 msgid "No notes found"
@@ -147,7 +147,7 @@ msgstr "Revenir aux discussions sur {app_name}"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
-msgstr ""
+msgstr "Les versions de cette application"
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
@@ -194,7 +194,7 @@ msgstr "Récent"
 
 #: /templates/_macros/thread_header.html:43
 msgid "View App"
-msgstr ""
+msgstr "Afficher l'application"
 
 #: /templates/_macros/thread_header.html:47
 msgid "Unsubscribe"
@@ -242,7 +242,7 @@ msgstr "Application rejetée"
 
 #: /media/js/settings.js:40
 msgid "App banned"
-msgstr ""
+msgstr "Application radiée"
 
 #: /media/js/settings.js:41
 msgid "More info required"
@@ -282,11 +282,11 @@ msgstr "Seconde revue retirée"
 
 #: /media/js/settings.js:51
 msgid "App submission note"
-msgstr ""
+msgstr "Note de soumission de l'application"
 
 #: /media/js/settings.js:52
 msgid "Developer comment"
-msgstr ""
+msgstr "Commentaire du développeur"
 
 #: /media/js/commonplace/login.js:8
 msgid "You have been signed out"
@@ -310,7 +310,7 @@ msgstr "La connexion Persona a échouée. Une erreur serveur est survenue."
 
 #: /media/js/commonplace/login.js:209
 msgid "Persona cannot be reached. Try again later."
-msgstr ""
+msgstr "Persona ne peut pas être joint. Réessayez plus tard."
 
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
@@ -342,14 +342,19 @@ msgstr "Il n'y a pas de notes plus anciennes."
 #: /media/js/views/comm.js:193
 msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
 msgstr ""
+"En vous désinscrivant de cette discussion, vous ne recevrez plus de "
+"notifications par courrier électronique pour celle-ci. Confirmez-vous votre "
+"désinscription ?"
 
 #: /media/js/views/comm.js:198
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
 msgstr ""
+"Désinscription effectuée. Vous ne recevrez plus de notifications par "
+"courrier électronique pour cette discussion."
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"
-msgstr ""
+msgstr "Bonjour&nbsp;!"
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9
