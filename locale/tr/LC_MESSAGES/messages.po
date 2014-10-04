@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-01T16:26:55.888Z\n"
-"PO-Revision-Date: 2014-08-15 12:09+0000\n"
+"PO-Revision-Date: 2014-10-04 11:07+0000\n"
 "Last-Translator: Selim <selim@sum.lu>\n"
 "Language-Team: none\n"
 "Language: tr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1408104559.0\n"
+"X-POOTLE-MTIME: 1412420837.0\n"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -238,7 +238,7 @@ msgstr "Uygulama reddedildi"
 
 #: /media/js/settings.js:40
 msgid "App banned"
-msgstr ""
+msgstr "Uygulama yasaklandı"
 
 #: /media/js/settings.js:41
 msgid "More info required"
@@ -310,13 +310,13 @@ msgstr ""
 
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
-msgstr ""
+msgstr "İnternet bağlantısı yok"
 
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
-msgstr[0] ""
+msgstr[0] "<b>{n}</b> karakter kaldı."
 
 #: /media/js/views/comm.js:67
 msgid "Message sent."
