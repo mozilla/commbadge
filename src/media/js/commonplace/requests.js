@@ -14,13 +14,13 @@ define('requests',
         }
     }
 
-    function _is_obj(obj) {
-        return obj && obj.constructor === Object;
+    function _is_obj_or_array(obj) {
+        return obj && obj.constructor === Object || Array.isArray(obj);
     }
 
     function _has_object_props(obj) {
         for (var i in obj) {
-            if (obj.hasOwnProperty(i) && _is_obj(obj[i])) {
+            if (obj.hasOwnProperty(i) && _is_obj_or_array(obj[i])) {
                 return true;
             }
         }
@@ -68,7 +68,7 @@ define('requests',
 
         var content_type = 'application/x-www-form-urlencoded';
         if (data) {
-            if (_is_obj(data) && !_has_object_props(data)) {
+            if (_is_obj_or_array(data) && !_has_object_props(data)) {
                 data = utils.urlencode(data);
             } else if (!(data instanceof RawData)) {
                 data = JSON.stringify(data);
@@ -164,9 +164,9 @@ define('requests',
         }
     }
 
-    function del(url) {
+    function del(url, data) {
         console.log('DELETing', url);
-        return ajax('DELETE', url).done(function() {
+        return ajax('DELETE', url, data).done(function() {
             console.log('DELETEd', url);
         });
     }

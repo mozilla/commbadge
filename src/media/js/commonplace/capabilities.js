@@ -1,4 +1,4 @@
-define('capabilities', [], function() {
+define('capabilities', ['settings'], function(settings) {
     function safeMatchMedia(query) {
         var m = window.matchMedia(query);
         return !!m && m.matches;
@@ -26,7 +26,25 @@ define('capabilities', [], function() {
         'phantom': navigator.userAgent.match(/Phantom/)  // Don't use this if you can help it.
     };
 
-    static_caps.persona = function() { return (!!navigator.id || !!navigator.mozId) && !static_caps.phantom; };
+    // Note: persona will be true for nativeFxA, since it uses the same JavaScript API.
+    // FallbackFxA uses a completely different path, though.
+    static_caps.persona = function() {
+        return ((!!navigator.id || !!navigator.mozId) &&
+                !static_caps.phantom &&
+                !static_caps.fallbackFxA());
+    };
+    static_caps.nativeFxA = function() {
+        return (static_caps.firefoxOS &&
+                settings.switches.indexOf('firefox-accounts') !== -1 &&
+                window.location.protocol === 'app:' &&
+                navigator.userAgent.match(/rv:(\d{2})/)[1] >= 34);
+
+    };
+    static_caps.fallbackFxA = function() {
+        return (!static_caps.nativeFxA() &&
+                settings.switches.indexOf('firefox-accounts') !== -1);
+    };
+
 
     // True if the login should inherit mobile behaviors such as allowUnverified.
     // The _shimmed check is for B2G where identity is native (not shimmed).

@@ -53,7 +53,7 @@ define('urls',
     function _userArgs(func) {
         return function() {
             var out = func.apply(this, arguments);
-            var args = api_args();
+            var args = api_args(arguments[0]);  // arguments[0] should always be the endpoint/URL.
             if (user.logged_in()) {
                 args._user = user.get_token();
             }
@@ -65,7 +65,7 @@ define('urls',
     function _anonymousArgs(func) {
         return function() {
             var out = func.apply(this, arguments);
-            var args = api_args();
+            var args = api_args(arguments[0]);  // arguments[0] should always be the endpoint/URL.
             _removeBlacklistedParams(args);
             return utils.urlparams(out, args);
         };
@@ -103,7 +103,8 @@ define('urls',
         // If the API URL is already reversed, then here's where we determine
         // whether that URL gets served from the API or CDN.
         var host = settings.api_url;
-        if (settings.api_cdn_whitelist && utils.baseurl(path) in settings.api_cdn_whitelist) {
+        if (settings.api_cdn_whitelist &&
+            utils.baseurl(path) in settings.api_cdn_whitelist) {
             host = settings.cdn_url;
         }
         return host;
@@ -111,9 +112,11 @@ define('urls',
 
     function media(path) {
         var media_url = settings.media_url;
-        if (media_url[media_url.length - 1] !== '/') {
+        // Media URL should end with trailing slash.
+        if (media_url.substr(-1) !== '/') {
             media_url += '/';
         }
+        // Path should not start with leading slash.
         if (path[0] === '/') {
             path = path.substr(1);
         }

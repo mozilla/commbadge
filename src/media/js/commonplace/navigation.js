@@ -31,7 +31,7 @@ define('navigation',
     function canNavigate() {
         if (!navigator.onLine && !capabilities.phantom) {
             notification.notification({message: gettext('No internet connection')});
-            return false;
+            return !!settings.offline_capable;
         }
         return true;
     }
@@ -50,10 +50,12 @@ define('navigation',
             return;
         }
 
-        views.build(view[0], view[1], state.params);
         if (initialized) {
+            // Call navigating before the view build function so that modules
+            // the view depend on can react in time.
             z.win.trigger('navigating', [popped]);
         }
+        views.build(view[0], view[1], state.params);
         initialized = true;
         state.type = z.context.type;
         state.title = z.context.title;
@@ -93,6 +95,13 @@ define('navigation',
                 stack = stack.slice(i + 1);
                 break;
             }
+        }
+
+        if (!stack.length) {
+            // Band-aid patch for truncating issues.
+            stack = [
+                {path: '/', type: 'root'}
+            ];
         }
 
         // Are we home? clear any history.
@@ -193,6 +202,7 @@ define('navigation',
         var href = el.getAttribute('href') || el.getAttribute('action');
         return !href || href.substr(0, 4) === 'http' ||
                 href.substr(0, 7) === 'mailto:' ||
+                href.substr(0, 11) === 'javascript:' ||  // jshint ignore:line
                 href[0] === '#' ||
                 href.indexOf('?modified=') !== -1 ||
                 el.getAttribute('target') ||

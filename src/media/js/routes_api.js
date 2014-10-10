@@ -1,16 +1,11 @@
 define('routes_api', [], function() {
-
-    // List API routes here.
-    // E.g.:
-    // {
-    //     "route": "/foo/bar/{0}",
-    //     "another_route": "/foo/bar/{0}/asdf"
-    // }
 	return {
-        'login': '/api/v1/account/login/',
-        'logout': '/api/v1/account/logout/',
+        'fxa-login': '/api/v2/account/fxa-login/',
+        'login': '/api/v2/account/login/',
+        'logout': '/api/v2/account/logout/',
+        'site-config': '/api/v2/services/config/site/?serializer=commonplace',
 
-        'app': '/api/v1/apps/app/{0}/',
+        'app': '/api/v2/apps/app/{0}/',
 
         'threads': '/api/v1/comm/thread/',
         'thread': '/api/v1/comm/thread/{0}/',

@@ -9,7 +9,8 @@ require.config({
         'nunjucks.compat': 'lib/nunjucks.compat',
         'templates': '../../templates',
         'settings': ['settings_local', 'settings'],
-        'format': 'lib/format'
+        'format': 'lib/format',
+        'site_config': 'commonplace/site_config'
     },
 });
 

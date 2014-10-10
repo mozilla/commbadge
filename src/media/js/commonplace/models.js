@@ -9,7 +9,7 @@ define('models',
     var data_store = {};
 
     if (settings.offline_cache_enabled && settings.offline_cache_enabled()) {
-        data_store = JSON.parse(storage.getItem(cache_key) || '{}');
+        data_store = storage.getItem(cache_key) || {};
     }
 
     // Persist the model cache.
@@ -25,8 +25,8 @@ define('models',
         // model caches. It's fine. It's fine.
 
         var data = {
-            'request_cache': JSON.stringify(cache.cache),
-            'model_cache': JSON.stringify(data_store)
+            'request_cache': cache.cache,
+            'model_cache': data_store
         };
 
         var size = (JSON.stringify(data.request_cache).length +
@@ -36,12 +36,12 @@ define('models',
                          'flushing cache');
             cache.flush();
             flush();
-            storage.setItem(cache_key, data_store_str);
+            storage.setItem(cache_key, data_store);
         } else {
             // Persist only if the data has changed.
-            var data_store_str = data[cache_key];
-            if (storage.getItem(cache_key) !== data_store_str) {
-                storage.setItem(cache_key, data_store_str);
+            var data_store_piece = data[cache_key];
+            if (! _.isEqual(storage.getItem(cache_key), data_store_piece)) {
+                storage.setItem(cache_key, data_store_piece);
                 console.log('Persisting model cache');
             }
         }
@@ -56,9 +56,8 @@ define('models',
         z.doc.trigger('save_cache', cache_key);
 
         // Persist only if the data has changed.
-        var data_store_str = JSON.stringify(data_store);
-        if (storage.getItem(cache_key) !== data_store_str) {
-            storage.setItem(cache_key, data_store_str);
+        if (! _.isEqual(storage.getItem(cache_key), data_store)) {
+            storage.setItem(cache_key, data_store);
             console.log('Persisting model cache');
         }
     }
@@ -77,7 +76,7 @@ define('models',
 
         var key = prototypes[type];
 
-        function cast(data) {
+        function cast(data, do_not_return) {
             function do_cast(data) {
                 var keyed_value = data[key];
                 data_store[type][keyed_value] = data;
@@ -85,9 +84,11 @@ define('models',
             }
             if (_.isArray(data)) {
                 _.each(data, do_cast);
-                return data;
+                return do_not_return ? null : data;
+            } else {
+                var casted_data = do_cast(data);
+                return do_not_return ? null : [casted_data, data];
             }
-            return do_cast(data), data;
         }
 
         function uncast(object) {
