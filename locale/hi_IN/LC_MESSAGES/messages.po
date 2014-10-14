@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-01T16:26:55.888Z\n"
-"PO-Revision-Date: 2014-05-14 08:17+0000\n"
+"PO-Revision-Date: 2014-10-14 18:57+0000\n"
 "Last-Translator: Umesh <umesh.agarwal1@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1400055461.0\n"
+"X-POOTLE-MTIME: 1413313042.0\n"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -104,7 +104,7 @@ msgstr "{app_name} के लिए सभी थ्रेड देख रह�
 
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
-msgstr ""
+msgstr "एप्लिकेशन संपादित पेज पर वापस जाएँ"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
@@ -124,7 +124,7 @@ msgstr "आपके पास कोई थ्रेड्स नहीं ह�
 
 #: /templates/comm/main.html:16
 msgid "Hmm...an error?"
-msgstr ""
+msgstr "हम्म ... एक त्रुटि?"
 
 #: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
 msgid "No notes found"
@@ -144,7 +144,7 @@ msgstr "{app_name} के लिए सभी थ्रेड वापस"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
-msgstr ""
+msgstr "इस एप्लिकेशन के संस्करण"
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
@@ -191,7 +191,7 @@ msgstr "हाल का"
 
 #: /templates/_macros/thread_header.html:43
 msgid "View App"
-msgstr ""
+msgstr "एप्लिकेशन देखें"
 
 #: /templates/_macros/thread_header.html:47
 msgid "Unsubscribe"
@@ -239,7 +239,7 @@ msgstr "एप्लिकेशन अस्वीकार"
 
 #: /media/js/settings.js:40
 msgid "App banned"
-msgstr ""
+msgstr "एप्लिकेशन पर प्रतिबंध"
 
 #: /media/js/settings.js:41
 msgid "More info required"
@@ -279,11 +279,11 @@ msgstr "पुनः समीक्षा को मंजूरी दे द�
 
 #: /media/js/settings.js:51
 msgid "App submission note"
-msgstr ""
+msgstr "एप्लिकेशन प्रस्तुत नोट"
 
 #: /media/js/settings.js:52
 msgid "Developer comment"
-msgstr ""
+msgstr "डेवलपर टिप्पणी"
 
 #: /media/js/commonplace/login.js:8
 msgid "You have been signed out"
@@ -307,7 +307,7 @@ msgstr "परसोना लॉगिन विफल रहा. एक सर
 
 #: /media/js/commonplace/login.js:209
 msgid "Persona cannot be reached. Try again later."
-msgstr ""
+msgstr "पेर्सोना पहुँच नहीं सकता. दोबारा प्रयास करे."
 
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
@@ -339,14 +339,18 @@ msgstr "कोई अधिक पुराने नोट नहीं है�
 #: /media/js/views/comm.js:193
 msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
 msgstr ""
+"इस लिंक से सदस्यता समाप्ति पर, आप इस कड़ी से ईमेल सूचनाएं प्राप्त नही कर "
+"पायगे, क्या आपको यकीन है?"
 
 #: /media/js/views/comm.js:198
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
 msgstr ""
+"सफलतापूर्वक सदस्यता वापस. अब आप उस लिंक के लिए ईमेल सूचनाएं प्राप्त नही "
+"करेगे."
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"
-msgstr ""
+msgstr "हेलो वर्ल्ड!"
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9
