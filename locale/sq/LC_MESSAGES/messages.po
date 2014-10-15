@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-01T16:26:55.888Z\n"
+"POT-Creation-Date: 2014-10-15T16:06:31.205Z\n"
 "PO-Revision-Date: 2014-10-02 09:54+0000\n"
 "Last-Translator: Besnik <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,6 +13,18 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1412243683.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Mbylle"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Jo"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Po"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -58,18 +70,6 @@ msgstr "Kushte Përdorimi"
 msgid "Report Trademark Abuse"
 msgstr "Njoftoni Dhunim Shenjash Tregtare"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Mbylle"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Jo"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Po"
-
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "Hyni"
@@ -114,6 +114,10 @@ msgstr "Bashkëngjitje"
 msgid "File Description"
 msgstr "Përshkrim Kartele"
 
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr "Nuk u gjetën shënime"
+
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "Rrjedhat e Mia"
@@ -125,10 +129,6 @@ msgstr "Nuk keni rrjedhë."
 #: /templates/comm/main.html:16
 msgid "Hmm...an error?"
 msgstr "Hmm...ndonjë gabim?"
-
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
-msgid "No notes found"
-msgstr "Nuk u gjetën shënime"
 
 #: /templates/comm/note_detail.html:12
 msgid "Empty note"
@@ -167,6 +167,10 @@ msgstr "Bashkëngjitni një tjetër kartelë"
 msgid "Post"
 msgstr "Postoje"
 
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Shihni më të vjetrat"
+
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
 msgstr "{app_name} (Version {version_number})"
@@ -200,10 +204,6 @@ msgstr "Shpajtohuni"
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
 msgstr "Shqyrtim"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Shihni më të vjetrat"
 
 #: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
@@ -285,33 +285,29 @@ msgstr "Shënim parashtrimi zbatimi"
 msgid "Developer comment"
 msgstr "Koment nga zhvilluesi"
 
-#: /media/js/commonplace/login.js:8
-msgid "You have been signed out"
-msgstr "Keni dalë"
-
-#: /media/js/commonplace/login.js:12
-msgid "You have been signed in"
-msgstr "Keni hyrë"
-
-#: /media/js/commonplace/login.js:49
-msgid "Error signing out"
-msgstr "Gabim gjatë daljes"
-
-#: /media/js/commonplace/login.js:136
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Hyrja me Persona-n dështoi. Ndoshta nuk keni llogari me këtë adresë email?"
-
-#: /media/js/commonplace/login.js:141
-msgid "Persona login failed. A server error was encountered."
-msgstr "Hyrja me Persona-n dështoi. U has një gabim shërbyesi."
-
-#: /media/js/commonplace/login.js:209
-msgid "Persona cannot be reached. Try again later."
-msgstr "Persona nuk u kap dot. Riprovoni më vonë."
-
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
 msgstr "Pa lidhje internet"
+
+#: /media/js/commonplace/login.js:24
+msgid "You have been signed out"
+msgstr "Keni dalë"
+
+#: /media/js/commonplace/login.js:28
+msgid "You have been signed in"
+msgstr "Keni hyrë"
+
+#: /media/js/commonplace/login.js:216
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Hyrja me Persona-n dështoi. Ndoshta nuk keni llogari me këtë adresë email?"
+
+#: /media/js/commonplace/login.js:221
+msgid "Persona login failed. A server error was encountered."
+msgstr "Hyrja me Persona-n dështoi. U has një gabim shërbyesi."
+
+#: /media/js/commonplace/login.js:291
+msgid "Persona cannot be reached. Try again later."
+msgstr "Persona nuk u kap dot. Riprovoni më vonë."
 
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28

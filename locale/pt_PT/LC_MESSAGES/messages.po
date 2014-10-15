@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CommBadge\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-01T16:26:55.888Z\n"
+"POT-Creation-Date: 2014-10-15T16:06:31.205Z\n"
 "PO-Revision-Date: 2014-07-03 02:57+0100\n"
 "Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
 "Language-Team: pt_PT\n"
@@ -12,6 +12,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.5.4\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Fechar"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Não"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Sim"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -57,18 +69,6 @@ msgstr "Termos de utilização"
 msgid "Report Trademark Abuse"
 msgstr "Denunciar abuso de marca registada"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Fechar"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Não"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Sim"
-
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "Iniciar sessão"
@@ -113,6 +113,10 @@ msgstr "Anexo"
 msgid "File Description"
 msgstr "Descrição do ficheiro"
 
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr "Não foram encontradas notas"
+
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "Os meus tópicos"
@@ -124,10 +128,6 @@ msgstr "Não tem tópicos."
 #: /templates/comm/main.html:16
 msgid "Hmm...an error?"
 msgstr "Hmm...um erro?"
-
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
-msgid "No notes found"
-msgstr "Não foram encontradas notas"
 
 #: /templates/comm/note_detail.html:12
 msgid "Empty note"
@@ -166,6 +166,10 @@ msgstr "Anexar outro ficheiro"
 msgid "Post"
 msgstr "Artigo"
 
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Ver mais antigas"
+
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
 msgstr "{app_name} (Versão {version_number})"
@@ -199,10 +203,6 @@ msgstr "Anular subscrição"
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
 msgstr "Análise"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Ver mais antigas"
 
 #: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
@@ -284,33 +284,29 @@ msgstr "Nota de submissão da aplicação"
 msgid "Developer comment"
 msgstr "Comentário do programador"
 
-#: /media/js/commonplace/login.js:8
-msgid "You have been signed out"
-msgstr "A sua sessão foi terminada"
-
-#: /media/js/commonplace/login.js:12
-msgid "You have been signed in"
-msgstr "A sua sessão foi iniciada"
-
-#: /media/js/commonplace/login.js:49
-msgid "Error signing out"
-msgstr "Erro ao terminar a sessão"
-
-#: /media/js/commonplace/login.js:136
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "A autenticação com o Persona falhou. Talvez não tenha uma conta com esse endereço de email?"
-
-#: /media/js/commonplace/login.js:141
-msgid "Persona login failed. A server error was encountered."
-msgstr "A autenticação com o Persona falhou. Ocorreu um erro de servidor."
-
-#: /media/js/commonplace/login.js:209
-msgid "Persona cannot be reached. Try again later."
-msgstr "Não é possível estabelecer ligação com o Persona. Tente novamente mais tarde."
-
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
 msgstr "Sem ligação à Internet"
+
+#: /media/js/commonplace/login.js:24
+msgid "You have been signed out"
+msgstr "A sua sessão foi terminada"
+
+#: /media/js/commonplace/login.js:28
+msgid "You have been signed in"
+msgstr "A sua sessão foi iniciada"
+
+#: /media/js/commonplace/login.js:216
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "A autenticação com o Persona falhou. Talvez não tenha uma conta com esse endereço de email?"
+
+#: /media/js/commonplace/login.js:221
+msgid "Persona login failed. A server error was encountered."
+msgstr "A autenticação com o Persona falhou. Ocorreu um erro de servidor."
+
+#: /media/js/commonplace/login.js:291
+msgid "Persona cannot be reached. Try again later."
+msgstr "Não é possível estabelecer ligação com o Persona. Tente novamente mais tarde."
 
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28

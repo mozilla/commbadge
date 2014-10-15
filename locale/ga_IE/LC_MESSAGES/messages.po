@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fireplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-01T16:26:55.888Z\n"
+"POT-Creation-Date: 2014-10-15T16:06:31.205Z\n"
 "PO-Revision-Date: 2013-05-04 08:35-0500\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -12,6 +12,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : (n>2 && n<7) ? 2 :(n>6 && n<11) ? 3 : 4;\n"
 "X-Generator: Fireplace L10n Tools 1.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Dún"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Níl"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Tá"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -57,18 +69,6 @@ msgstr "Téarmaí Úsáide"
 msgid "Report Trademark Abuse"
 msgstr "Drochúsáid Trádmharcanna"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Dún"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Níl"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Tá"
-
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr ""
@@ -113,6 +113,10 @@ msgstr ""
 msgid "File Description"
 msgstr ""
 
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr ""
+
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr ""
@@ -123,10 +127,6 @@ msgstr ""
 
 #: /templates/comm/main.html:16
 msgid "Hmm...an error?"
-msgstr ""
-
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
-msgid "No notes found"
 msgstr ""
 
 #: /templates/comm/note_detail.html:12
@@ -166,6 +166,10 @@ msgstr ""
 msgid "Post"
 msgstr ""
 
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr ""
+
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
 msgstr ""
@@ -201,10 +205,6 @@ msgstr ""
 
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
-msgstr ""
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
 msgstr ""
 
 #: /templates/errors/fragment.html:1 /templates/errors/404.html:2
@@ -287,33 +287,29 @@ msgstr ""
 msgid "Developer comment"
 msgstr ""
 
-#: /media/js/commonplace/login.js:8
-msgid "You have been signed out"
-msgstr "Tá tú logáilte amach anois"
-
-#: /media/js/commonplace/login.js:12
-msgid "You have been signed in"
-msgstr "Tá tú logáilte isteach anois"
-
-#: /media/js/commonplace/login.js:49
-msgid "Error signing out"
-msgstr ""
-
-#: /media/js/commonplace/login.js:136
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Theip ar logáil isteach trí Persona. Ar chláraigh tú leis an seoladh ríomhphoist sin?"
-
-#: /media/js/commonplace/login.js:141
-msgid "Persona login failed. A server error was encountered."
-msgstr "Theip ar logáil isteach trí Persona. Fadhb leis an bhfreastalaí."
-
-#: /media/js/commonplace/login.js:209
-msgid "Persona cannot be reached. Try again later."
-msgstr ""
-
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
 msgstr "Gan ceangal Idirlín"
+
+#: /media/js/commonplace/login.js:24
+msgid "You have been signed out"
+msgstr "Tá tú logáilte amach anois"
+
+#: /media/js/commonplace/login.js:28
+msgid "You have been signed in"
+msgstr "Tá tú logáilte isteach anois"
+
+#: /media/js/commonplace/login.js:216
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Theip ar logáil isteach trí Persona. Ar chláraigh tú leis an seoladh ríomhphoist sin?"
+
+#: /media/js/commonplace/login.js:221
+msgid "Persona login failed. A server error was encountered."
+msgstr "Theip ar logáil isteach trí Persona. Fadhb leis an bhfreastalaí."
+
+#: /media/js/commonplace/login.js:291
+msgid "Persona cannot be reached. Try again later."
+msgstr ""
 
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28

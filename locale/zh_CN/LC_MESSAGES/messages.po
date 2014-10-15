@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-01T16:26:55.888Z\n"
+"POT-Creation-Date: 2014-10-15T16:06:31.205Z\n"
 "PO-Revision-Date: 2014-09-17 23:55+0000\n"
 "Last-Translator: yfdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,6 +13,18 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1410998106.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "关闭"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "否"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "是"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -55,18 +67,6 @@ msgstr "使用条款"
 #: /templates/footer.html:32
 msgid "Report Trademark Abuse"
 msgstr "回报商标滥用"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "关闭"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "否"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "是"
 
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
@@ -112,6 +112,10 @@ msgstr "附件"
 msgid "File Description"
 msgstr "文件描述"
 
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr "未找到笔记"
+
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "我的话题"
@@ -123,10 +127,6 @@ msgstr "您没有话题。"
 #: /templates/comm/main.html:16
 msgid "Hmm...an error?"
 msgstr "呃…出问题了？"
-
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
-msgid "No notes found"
-msgstr "未找到笔记"
 
 #: /templates/comm/note_detail.html:12
 msgid "Empty note"
@@ -165,6 +165,10 @@ msgstr "附加另一个文件"
 msgid "Post"
 msgstr "发表"
 
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "查看更旧条目"
+
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
 msgstr "{app_name} (版本号  {version_number})"
@@ -197,10 +201,6 @@ msgstr "取消订阅"
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
 msgstr "评论"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "查看更旧条目"
 
 #: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
@@ -282,33 +282,29 @@ msgstr "应用提交注记"
 msgid "Developer comment"
 msgstr "开发者留言"
 
-#: /media/js/commonplace/login.js:8
-msgid "You have been signed out"
-msgstr "您已经登出"
-
-#: /media/js/commonplace/login.js:12
-msgid "You have been signed in"
-msgstr "您已经登录"
-
-#: /media/js/commonplace/login.js:49
-msgid "Error signing out"
-msgstr "登出时出错"
-
-#: /media/js/commonplace/login.js:136
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Persona 登录失败，也许您没有使用该电子邮件地址的帐号？"
-
-#: /media/js/commonplace/login.js:141
-msgid "Persona login failed. A server error was encountered."
-msgstr "Persona 登录失败。服务器发生错误。"
-
-#: /media/js/commonplace/login.js:209
-msgid "Persona cannot be reached. Try again later."
-msgstr "Persona 无法到达。请稍候再试。"
-
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
 msgstr "没有互联网连接"
+
+#: /media/js/commonplace/login.js:24
+msgid "You have been signed out"
+msgstr "您已经登出"
+
+#: /media/js/commonplace/login.js:28
+msgid "You have been signed in"
+msgstr "您已经登录"
+
+#: /media/js/commonplace/login.js:216
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Persona 登录失败，也许您没有使用该电子邮件地址的帐号？"
+
+#: /media/js/commonplace/login.js:221
+msgid "Persona login failed. A server error was encountered."
+msgstr "Persona 登录失败。服务器发生错误。"
+
+#: /media/js/commonplace/login.js:291
+msgid "Persona cannot be reached. Try again later."
+msgstr "Persona 无法到达。请稍候再试。"
 
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28

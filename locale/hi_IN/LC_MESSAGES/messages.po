@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-01T16:26:55.888Z\n"
+"POT-Creation-Date: 2014-10-15T16:06:31.205Z\n"
 "PO-Revision-Date: 2014-10-14 18:57+0000\n"
 "Last-Translator: Umesh <umesh.agarwal1@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,6 +13,18 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1413313042.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "बंद करे"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "नहीं"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "हाँ"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -58,18 +70,6 @@ msgstr "उपयोग की शर्तों"
 msgid "Report Trademark Abuse"
 msgstr "ट्रेडमार्क दुरुपयोग रिपोर्ट करें"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "बंद करे"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "नहीं"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "हाँ"
-
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "साइन इन"
@@ -114,6 +114,10 @@ msgstr "अनुलग्नक"
 msgid "File Description"
 msgstr "फाइल विवरण"
 
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr "कोई नोट्स नहीं पाया गया"
+
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "मेरे थ्रेड्स"
@@ -125,10 +129,6 @@ msgstr "आपके पास कोई थ्रेड्स नहीं ह�
 #: /templates/comm/main.html:16
 msgid "Hmm...an error?"
 msgstr "हम्म ... एक त्रुटि?"
-
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
-msgid "No notes found"
-msgstr "कोई नोट्स नहीं पाया गया"
 
 #: /templates/comm/note_detail.html:12
 msgid "Empty note"
@@ -167,6 +167,10 @@ msgstr "एक और फाइल संलग्न करें"
 msgid "Post"
 msgstr "पोस्ट करें"
 
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "पुराने देखें"
+
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
 msgstr "{app_name} (Version {version_number})"
@@ -200,10 +204,6 @@ msgstr "सदस्यता रद्द"
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
 msgstr "समीक्षा"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "पुराने देखें"
 
 #: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
@@ -285,33 +285,29 @@ msgstr "एप्लिकेशन प्रस्तुत नोट"
 msgid "Developer comment"
 msgstr "डेवलपर टिप्पणी"
 
-#: /media/js/commonplace/login.js:8
-msgid "You have been signed out"
-msgstr "आपको साइन आउट कर दिया गया है"
-
-#: /media/js/commonplace/login.js:12
-msgid "You have been signed in"
-msgstr "आपको साइन इन कर दिया गया है"
-
-#: /media/js/commonplace/login.js:49
-msgid "Error signing out"
-msgstr "साइन आउट करने में त्रुटि"
-
-#: /media/js/commonplace/login.js:136
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "परसोना लॉगिन विफल. हो सकता है कि आपका उस ईमेल पते के अंतर्गत खाता नहीं है?"
-
-#: /media/js/commonplace/login.js:141
-msgid "Persona login failed. A server error was encountered."
-msgstr "परसोना लॉगिन विफल रहा. एक सर्वर त्रुटि से सामना हुआ था."
-
-#: /media/js/commonplace/login.js:209
-msgid "Persona cannot be reached. Try again later."
-msgstr "पेर्सोना पहुँच नहीं सकता. दोबारा प्रयास करे."
-
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
 msgstr "कोई इंटरनेट कनेक्शन नहीं"
+
+#: /media/js/commonplace/login.js:24
+msgid "You have been signed out"
+msgstr "आपको साइन आउट कर दिया गया है"
+
+#: /media/js/commonplace/login.js:28
+msgid "You have been signed in"
+msgstr "आपको साइन इन कर दिया गया है"
+
+#: /media/js/commonplace/login.js:216
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "परसोना लॉगिन विफल. हो सकता है कि आपका उस ईमेल पते के अंतर्गत खाता नहीं है?"
+
+#: /media/js/commonplace/login.js:221
+msgid "Persona login failed. A server error was encountered."
+msgstr "परसोना लॉगिन विफल रहा. एक सर्वर त्रुटि से सामना हुआ था."
+
+#: /media/js/commonplace/login.js:291
+msgid "Persona cannot be reached. Try again later."
+msgstr "पेर्सोना पहुँच नहीं सकता. दोबारा प्रयास करे."
 
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
@@ -338,15 +334,11 @@ msgstr "कोई अधिक पुराने नोट नहीं है�
 
 #: /media/js/views/comm.js:193
 msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr ""
-"इस लिंक से सदस्यता समाप्ति पर, आप इस कड़ी से ईमेल सूचनाएं प्राप्त नही कर "
-"पायगे, क्या आपको यकीन है?"
+msgstr "इस लिंक से सदस्यता समाप्ति पर, आप इस कड़ी से ईमेल सूचनाएं प्राप्त नही कर पायगे, क्या आपको यकीन है?"
 
 #: /media/js/views/comm.js:198
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr ""
-"सफलतापूर्वक सदस्यता वापस. अब आप उस लिंक के लिए ईमेल सूचनाएं प्राप्त नही "
-"करेगे."
+msgstr "सफलतापूर्वक सदस्यता वापस. अब आप उस लिंक के लिए ईमेल सूचनाएं प्राप्त नही करेगे."
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"

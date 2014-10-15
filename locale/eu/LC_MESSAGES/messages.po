@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-01T16:26:55.888Z\n"
+"POT-Creation-Date: 2014-10-15T16:06:31.205Z\n"
 "PO-Revision-Date: 2014-09-30 19:12+0000\n"
 "Last-Translator: Ibai <ibai@oihanguren.com>\n"
 "Language-Team: 89578-OEM-7332157-00211\n"
@@ -14,6 +14,18 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1412104359.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Itxi"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Ez"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Bai"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -59,18 +71,6 @@ msgstr "Erabiltzeko baldintzak"
 msgid "Report Trademark Abuse"
 msgstr "Eman markaren erabilera okerraren berri"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Itxi"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Ez"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Bai"
-
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "Hasi saioa"
@@ -115,6 +115,10 @@ msgstr "Eranskina"
 msgid "File Description"
 msgstr "Fitxategiaren deskribapena"
 
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr "Ez da oharrik aurkitu"
+
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "Nire hariak"
@@ -126,10 +130,6 @@ msgstr "Ez duzu haririk."
 #: /templates/comm/main.html:16
 msgid "Hmm...an error?"
 msgstr "Mmm... errorea?"
-
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
-msgid "No notes found"
-msgstr "Ez da oharrik aurkitu"
 
 #: /templates/comm/note_detail.html:12
 msgid "Empty note"
@@ -168,6 +168,10 @@ msgstr "Erantsi beste fitxategi bat"
 msgid "Post"
 msgstr "Bidali"
 
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Ikusi zaharragoak"
+
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
 msgstr "{app_name} ({version_number} bertsioa)"
@@ -201,10 +205,6 @@ msgstr "Eten harpidetza"
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
 msgstr "Berrikusi"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Ikusi zaharragoak"
 
 #: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
@@ -286,33 +286,29 @@ msgstr "Aplikazioaren bidalketa-oharra"
 msgid "Developer comment"
 msgstr "Garatzailearen iruzkina"
 
-#: /media/js/commonplace/login.js:8
-msgid "You have been signed out"
-msgstr "Saioa amaitu duzu"
-
-#: /media/js/commonplace/login.js:12
-msgid "You have been signed in"
-msgstr "Saioa hasi duzu"
-
-#: /media/js/commonplace/login.js:49
-msgid "Error signing out"
-msgstr "Errorea saioa amaitzean"
-
-#: /media/js/commonplace/login.js:136
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Huts egin du saioa hastean. Agian ez duzu konturik helbide elektroniko horrekin?"
-
-#: /media/js/commonplace/login.js:141
-msgid "Persona login failed. A server error was encountered."
-msgstr "Huts egin du saioa hastean. Zerbitzariaren errore bat gertatu da."
-
-#: /media/js/commonplace/login.js:209
-msgid "Persona cannot be reached. Try again later."
-msgstr "Persona ezin izan da eskuratu. Saiatu berriro geroago."
-
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
 msgstr "Ez dago Internet-eko konexiorik"
+
+#: /media/js/commonplace/login.js:24
+msgid "You have been signed out"
+msgstr "Saioa amaitu duzu"
+
+#: /media/js/commonplace/login.js:28
+msgid "You have been signed in"
+msgstr "Saioa hasi duzu"
+
+#: /media/js/commonplace/login.js:216
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Huts egin du saioa hastean. Agian ez duzu konturik helbide elektroniko horrekin?"
+
+#: /media/js/commonplace/login.js:221
+msgid "Persona login failed. A server error was encountered."
+msgstr "Huts egin du saioa hastean. Zerbitzariaren errore bat gertatu da."
+
+#: /media/js/commonplace/login.js:291
+msgid "Persona cannot be reached. Try again later."
+msgstr "Persona ezin izan da eskuratu. Saiatu berriro geroago."
 
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28

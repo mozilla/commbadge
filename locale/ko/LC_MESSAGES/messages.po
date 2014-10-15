@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-01T16:26:55.888Z\n"
+"POT-Creation-Date: 2014-10-15T16:06:31.205Z\n"
 "PO-Revision-Date: 2014-08-15 05:46+0000\n"
 "Last-Translator: Channy <channy@mozilla.or.kr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,6 +13,18 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1408081597.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "닫기"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "아니오"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "예"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -58,18 +70,6 @@ msgstr "이용 약관"
 msgid "Report Trademark Abuse"
 msgstr "등록 상표 오용 신고"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "닫기"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "아니오"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "예"
-
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "로그인"
@@ -114,6 +114,10 @@ msgstr "첨부 파일"
 msgid "File Description"
 msgstr "파일 설명"
 
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr "소개 내용 없음"
+
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "내 글타래"
@@ -125,10 +129,6 @@ msgstr "글이 없습니다."
 #: /templates/comm/main.html:16
 msgid "Hmm...an error?"
 msgstr "오류...인가요?"
-
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
-msgid "No notes found"
-msgstr "소개 내용 없음"
 
 #: /templates/comm/note_detail.html:12
 msgid "Empty note"
@@ -167,6 +167,10 @@ msgstr "다른 파일 첨부"
 msgid "Post"
 msgstr "올리기"
 
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "이전 보기"
+
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
 msgstr "{app_name} (버전 {version_number})"
@@ -199,10 +203,6 @@ msgstr "구독 해지"
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
 msgstr "리뷰"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "이전 보기"
 
 #: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
@@ -284,33 +284,29 @@ msgstr "앱 제출 노트"
 msgid "Developer comment"
 msgstr "개발자 코멘트"
 
-#: /media/js/commonplace/login.js:8
-msgid "You have been signed out"
-msgstr "로그아웃 되었습니다."
-
-#: /media/js/commonplace/login.js:12
-msgid "You have been signed in"
-msgstr "로그인 되었습니다"
-
-#: /media/js/commonplace/login.js:49
-msgid "Error signing out"
-msgstr "로그아웃 오류"
-
-#: /media/js/commonplace/login.js:136
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Persona 로그인에 실패했습니다. 입력하신 이메일과 연결된 계정이 없을 수 있습니다."
-
-#: /media/js/commonplace/login.js:141
-msgid "Persona login failed. A server error was encountered."
-msgstr "Persona 로그인에 실패했습니다. 서버 오류가 발생했습니다."
-
-#: /media/js/commonplace/login.js:209
-msgid "Persona cannot be reached. Try again later."
-msgstr "Persona에 접근할 수 없습니다. 다시 시도해 보세요."
-
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
 msgstr "인터넷 연결 불가"
+
+#: /media/js/commonplace/login.js:24
+msgid "You have been signed out"
+msgstr "로그아웃 되었습니다."
+
+#: /media/js/commonplace/login.js:28
+msgid "You have been signed in"
+msgstr "로그인 되었습니다"
+
+#: /media/js/commonplace/login.js:216
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Persona 로그인에 실패했습니다. 입력하신 이메일과 연결된 계정이 없을 수 있습니다."
+
+#: /media/js/commonplace/login.js:221
+msgid "Persona login failed. A server error was encountered."
+msgstr "Persona 로그인에 실패했습니다. 서버 오류가 발생했습니다."
+
+#: /media/js/commonplace/login.js:291
+msgid "Persona cannot be reached. Try again later."
+msgstr "Persona에 접근할 수 없습니다. 다시 시도해 보세요."
 
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28

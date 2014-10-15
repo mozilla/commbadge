@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-01T16:26:55.888Z\n"
+"POT-Creation-Date: 2014-10-15T16:06:31.205Z\n"
 "PO-Revision-Date: 2014-08-18 08:00+0000\n"
 "Last-Translator: Arafat <mahmud.arafat.7@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,6 +13,18 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1408348857.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "বন্ধ করুন"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "না"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "হ্যাঁ"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -58,18 +70,6 @@ msgstr "ব্যবহারের শর্তাবলী"
 msgid "Report Trademark Abuse"
 msgstr "ট্রেডমার্ক অপব্যাবহার রিপোর্ট করুন"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "বন্ধ করুন"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "না"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "হ্যাঁ"
-
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "সাইন ইন"
@@ -114,6 +114,10 @@ msgstr "সংযুক্তি"
 msgid "File Description"
 msgstr "ফাইলের বিবরণ"
 
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr "কোন নোট পাওয়া যায়নি"
+
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "আমার থ্রেড"
@@ -125,10 +129,6 @@ msgstr "আপনার কাছে কোনো থ্রেড নেই"
 #: /templates/comm/main.html:16
 msgid "Hmm...an error?"
 msgstr "হুমম...কোন সমস্যা?"
-
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
-msgid "No notes found"
-msgstr "কোন নোট পাওয়া যায়নি"
 
 #: /templates/comm/note_detail.html:12
 msgid "Empty note"
@@ -167,6 +167,10 @@ msgstr "আরেকটি ফাইল সংযুক্ত করুন"
 msgid "Post"
 msgstr "পোস্ট"
 
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "আগেরগুলো প্রদর্শন"
+
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
 msgstr "{APP_NAME} ({সংস্করণ {VERSION_NUMBER})"
@@ -200,10 +204,6 @@ msgstr "আনসাবস্ক্রাইব"
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
 msgstr "রিভিউ"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "আগেরগুলো প্রদর্শন"
 
 #: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
@@ -285,33 +285,29 @@ msgstr "অ্যাপ জমাদান নোট"
 msgid "Developer comment"
 msgstr "ডেভলপার মন্তব্য"
 
-#: /media/js/commonplace/login.js:8
-msgid "You have been signed out"
-msgstr "আপনি সাইন আউট করেছেন"
-
-#: /media/js/commonplace/login.js:12
-msgid "You have been signed in"
-msgstr "আপনি সাইন ইন করেছেন"
-
-#: /media/js/commonplace/login.js:49
-msgid "Error signing out"
-msgstr "সাইন আউট করতে ত্রুটি হয়েছে"
-
-#: /media/js/commonplace/login.js:136
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "পারসোনা লগিন ব্যর্থ। সম্ভবত এই ইমেইল এড্রেস দিয়ে আপনার পারসোনা একাউন্ট নেই?"
-
-#: /media/js/commonplace/login.js:141
-msgid "Persona login failed. A server error was encountered."
-msgstr "পারসোনা লগইন ব্যার্থ হয়েছে। একটি সার্ভারের ত্রুটির সম্মুখীন হয়েছে।"
-
-#: /media/js/commonplace/login.js:209
-msgid "Persona cannot be reached. Try again later."
-msgstr "পারসোনা পৌছাতে পারেনি। পুনরায় চেষ্টা করুন।"
-
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
 msgstr "ইন্টারনেট সংযোগ নেই"
+
+#: /media/js/commonplace/login.js:24
+msgid "You have been signed out"
+msgstr "আপনি সাইন আউট করেছেন"
+
+#: /media/js/commonplace/login.js:28
+msgid "You have been signed in"
+msgstr "আপনি সাইন ইন করেছেন"
+
+#: /media/js/commonplace/login.js:216
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "পারসোনা লগিন ব্যর্থ। সম্ভবত এই ইমেইল এড্রেস দিয়ে আপনার পারসোনা একাউন্ট নেই?"
+
+#: /media/js/commonplace/login.js:221
+msgid "Persona login failed. A server error was encountered."
+msgstr "পারসোনা লগইন ব্যার্থ হয়েছে। একটি সার্ভারের ত্রুটির সম্মুখীন হয়েছে।"
+
+#: /media/js/commonplace/login.js:291
+msgid "Persona cannot be reached. Try again later."
+msgstr "পারসোনা পৌছাতে পারেনি। পুনরায় চেষ্টা করুন।"
 
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28

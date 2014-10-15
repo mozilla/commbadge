@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-01T16:26:55.888Z\n"
+"POT-Creation-Date: 2014-10-15T16:06:31.205Z\n"
 "PO-Revision-Date: 2014-07-02 09:32+0000\n"
 "Last-Translator: Håvar <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,6 +13,18 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1404293547.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Lukk"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Nei"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Ja"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -58,18 +70,6 @@ msgstr "Vilkår for bruk"
 msgid "Report Trademark Abuse"
 msgstr "Rapporter misbruk av varemerker"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Lukk"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Nei"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Ja"
-
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "Logg inn"
@@ -114,6 +114,10 @@ msgstr "Vedlegg"
 msgid "File Description"
 msgstr "Filbeskrivelse"
 
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr "Ingen notater funnet"
+
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "Mine tråder"
@@ -125,10 +129,6 @@ msgstr "Du har ingen tråder."
 #: /templates/comm/main.html:16
 msgid "Hmm...an error?"
 msgstr "Hmm … en feil?"
-
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
-msgid "No notes found"
-msgstr "Ingen notater funnet"
 
 #: /templates/comm/note_detail.html:12
 msgid "Empty note"
@@ -167,6 +167,10 @@ msgstr "Legg ved en annen fil"
 msgid "Post"
 msgstr "Send inn"
 
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Vis eldre"
+
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
 msgstr "{app_name} (Versjon {version_number})"
@@ -200,10 +204,6 @@ msgstr "Avslutt abonnement"
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
 msgstr "Gjennomgang"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Vis eldre"
 
 #: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
@@ -285,33 +285,29 @@ msgstr ""
 msgid "Developer comment"
 msgstr "Utviklerkommentar"
 
-#: /media/js/commonplace/login.js:8
-msgid "You have been signed out"
-msgstr "Du har blitt logget ut"
-
-#: /media/js/commonplace/login.js:12
-msgid "You have been signed in"
-msgstr "Du har blitt logget inn"
-
-#: /media/js/commonplace/login.js:49
-msgid "Error signing out"
-msgstr "Feil under utlogging"
-
-#: /media/js/commonplace/login.js:136
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Persona-pålogging mislyktes. Kanskje har du ikke en konto under den e-postadressen?"
-
-#: /media/js/commonplace/login.js:141
-msgid "Persona login failed. A server error was encountered."
-msgstr "Persona-pålogging mislyktes. En serverfeil oppstod."
-
-#: /media/js/commonplace/login.js:209
-msgid "Persona cannot be reached. Try again later."
-msgstr "Persona kan ikke nås. Prøv igjen senere."
-
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
 msgstr "Ingen Internett-tilkobling"
+
+#: /media/js/commonplace/login.js:24
+msgid "You have been signed out"
+msgstr "Du har blitt logget ut"
+
+#: /media/js/commonplace/login.js:28
+msgid "You have been signed in"
+msgstr "Du har blitt logget inn"
+
+#: /media/js/commonplace/login.js:216
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Persona-pålogging mislyktes. Kanskje har du ikke en konto under den e-postadressen?"
+
+#: /media/js/commonplace/login.js:221
+msgid "Persona login failed. A server error was encountered."
+msgstr "Persona-pålogging mislyktes. En serverfeil oppstod."
+
+#: /media/js/commonplace/login.js:291
+msgid "Persona cannot be reached. Try again later."
+msgstr "Persona kan ikke nås. Prøv igjen senere."
 
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28

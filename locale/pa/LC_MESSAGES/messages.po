@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-01T16:26:55.888Z\n"
+"POT-Creation-Date: 2014-10-15T16:06:31.205Z\n"
 "PO-Revision-Date: 2014-09-04 22:12+0000\n"
 "Last-Translator: Aman <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,6 +13,18 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1) ;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1409868726.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "ਬੰਦ"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "ਨਹੀਂ"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "ਹਾਂ"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -58,18 +70,6 @@ msgstr "ਵਰਤੋ ਦੇ ਅਧਾਰ"
 msgid "Report Trademark Abuse"
 msgstr "ਰੀਪੋਰਟ ਟਰੇਡਮਾਰਕ ਦੀ ਦੁਰਵਰਤੋ"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "ਬੰਦ"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "ਨਹੀਂ"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "ਹਾਂ"
-
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "ਸਾਈਨ ਇਨ"
@@ -114,6 +114,10 @@ msgstr "ਨੱਥੀ"
 msgid "File Description"
 msgstr "ਫਾਇਲ ਵੇਰਵਾ"
 
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr "ਨੋਟਿਸ ਨਹੀ ਲੱਭੇ"
+
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "ਮੇਰੇ ਥਰਿੱਡ"
@@ -125,10 +129,6 @@ msgstr "ਤੁਹਾਡੇ ਕੋਲ ਥਰਿੱਡ ਨਹੀਂ ਹੈ"
 #: /templates/comm/main.html:16
 msgid "Hmm...an error?"
 msgstr "ਓਕੇ... ਗਲਤੀ ਹੈ?"
-
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
-msgid "No notes found"
-msgstr "ਨੋਟਿਸ ਨਹੀ ਲੱਭੇ"
 
 #: /templates/comm/note_detail.html:12
 msgid "Empty note"
@@ -167,6 +167,10 @@ msgstr "ਹੋਰ ਫਾਇਲ ਨੱਥੀ"
 msgid "Post"
 msgstr "ਪੋਸਟ"
 
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "ਪੁਰਾਣਾ ਵੇਖੋ"
+
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
 msgstr "{app_name} (ਵਰਜਨ {version_number}"
@@ -200,10 +204,6 @@ msgstr "ਮੈਂਬਰੀ ਹਟਾਓ"
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
 msgstr "ਮੁਆਇਨਾ"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "ਪੁਰਾਣਾ ਵੇਖੋ"
 
 #: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
@@ -285,33 +285,29 @@ msgstr "ਐਪ ਪੇਸ਼ ਕਰਨ ਸੂਚਨਾ"
 msgid "Developer comment"
 msgstr "ਡਿਵੈਲਪਰ ਟਿੱਪਣੀ"
 
-#: /media/js/commonplace/login.js:8
-msgid "You have been signed out"
-msgstr "ਤੁਸੀ ਸਾਇਨ ਆਉਟ ਕਰ ਲਿਆ ਹੈ।"
-
-#: /media/js/commonplace/login.js:12
-msgid "You have been signed in"
-msgstr "ਤੁਸੀ ਸਾਇਨ ਇਨ ਕਰ ਲਿਆ ਹੈ।"
-
-#: /media/js/commonplace/login.js:49
-msgid "Error signing out"
-msgstr "ਸਾਇਨ ਆਉਟ ਕਰਨ ਵਿੱਚ ਗਲਤੀ"
-
-#: /media/js/commonplace/login.js:136
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "ਵਅਕਤੀ ਲਾਗਇਨ ਫੇਲ੍ਹ ਹੈ। ਹੋ ਸਕਦਾ ਹੈ ਕਿ ਤੁਹਾਡਾ ਖਾਤਾ ਉਸ ਮੇਲ ਪਤੇ ਹੇਠਾ ਨਾ ਹੋਵੇ?"
-
-#: /media/js/commonplace/login.js:141
-msgid "Persona login failed. A server error was encountered."
-msgstr "ਿਵਅਕਤੀ ਲਾਗਇਨ ਫੇਲ੍ਹ ਹੈ। ਇੱਕ ਸਰਵਰ ਨੂੰ ਗਲਤੀ ਆਈ ਹੈ।"
-
-#: /media/js/commonplace/login.js:209
-msgid "Persona cannot be reached. Try again later."
-msgstr "ਪਰਸੋਨਾ ਵਰਤਿਆ ਨਹੀਂ ਜਾ ਸਕਦਾ। ਬਾਅਦ ਵਿੱਚ ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
-
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
 msgstr "ਇੰਟਰਨੈੱਟ ਕੁਨੈਕਸ਼ਨ ਨਹੀਂ ਹੈ"
+
+#: /media/js/commonplace/login.js:24
+msgid "You have been signed out"
+msgstr "ਤੁਸੀ ਸਾਇਨ ਆਉਟ ਕਰ ਲਿਆ ਹੈ।"
+
+#: /media/js/commonplace/login.js:28
+msgid "You have been signed in"
+msgstr "ਤੁਸੀ ਸਾਇਨ ਇਨ ਕਰ ਲਿਆ ਹੈ।"
+
+#: /media/js/commonplace/login.js:216
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "ਵਅਕਤੀ ਲਾਗਇਨ ਫੇਲ੍ਹ ਹੈ। ਹੋ ਸਕਦਾ ਹੈ ਕਿ ਤੁਹਾਡਾ ਖਾਤਾ ਉਸ ਮੇਲ ਪਤੇ ਹੇਠਾ ਨਾ ਹੋਵੇ?"
+
+#: /media/js/commonplace/login.js:221
+msgid "Persona login failed. A server error was encountered."
+msgstr "ਿਵਅਕਤੀ ਲਾਗਇਨ ਫੇਲ੍ਹ ਹੈ। ਇੱਕ ਸਰਵਰ ਨੂੰ ਗਲਤੀ ਆਈ ਹੈ।"
+
+#: /media/js/commonplace/login.js:291
+msgid "Persona cannot be reached. Try again later."
+msgstr "ਪਰਸੋਨਾ ਵਰਤਿਆ ਨਹੀਂ ਜਾ ਸਕਦਾ। ਬਾਅਦ ਵਿੱਚ ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
 
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28

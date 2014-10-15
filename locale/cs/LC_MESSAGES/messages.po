@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Commbadge\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-01T16:26:55.888Z\n"
+"POT-Creation-Date: 2014-10-15T16:06:31.205Z\n"
 "PO-Revision-Date: 2014-09-18 13:04+0000\n"
 "Last-Translator: Pavel <jasnapaka@jasnapaka.com>\n"
 "Language-Team: Czech <info@mozilla.cz>\n"
@@ -13,6 +13,18 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1411045454.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Zavřít"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Ne"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Ano"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -58,18 +70,6 @@ msgstr "Podmínky použití"
 msgid "Report Trademark Abuse"
 msgstr "Nahlášení zneužití ochranné známky"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Zavřít"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Ne"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Ano"
-
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "Přihlášení"
@@ -114,6 +114,10 @@ msgstr "Příloha"
 msgid "File Description"
 msgstr "Popis souboru"
 
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr "Nebyly nalezeny žádné poznámky"
+
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "Má vlákna"
@@ -125,10 +129,6 @@ msgstr "Nemáte žádná vlákna."
 #: /templates/comm/main.html:16
 msgid "Hmm...an error?"
 msgstr "Hmm... chyba?"
-
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
-msgid "No notes found"
-msgstr "Nebyly nalezeny žádné poznámky"
 
 #: /templates/comm/note_detail.html:12
 msgid "Empty note"
@@ -167,6 +167,10 @@ msgstr "Přiložit další soubor"
 msgid "Post"
 msgstr "Přidat"
 
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Zobrazit starší"
+
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
 msgstr "{app_name} (Verze {version_number})"
@@ -201,10 +205,6 @@ msgstr "Zrušit odběr"
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
 msgstr "Kontrola"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Zobrazit starší"
 
 #: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
@@ -286,33 +286,29 @@ msgstr "Poznámka k přidání aplikace"
 msgid "Developer comment"
 msgstr "Komentář vývojáře"
 
-#: /media/js/commonplace/login.js:8
-msgid "You have been signed out"
-msgstr "Byl(a) jste odhlášen(a)"
-
-#: /media/js/commonplace/login.js:12
-msgid "You have been signed in"
-msgstr "Byl(a) jste přihlášen(a)"
-
-#: /media/js/commonplace/login.js:49
-msgid "Error signing out"
-msgstr "Během odhlašování došlo k chybě"
-
-#: /media/js/commonplace/login.js:136
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Přihlášení pomocí Persona selhalo. Možná nemáte účet pod touto e-mailovou adresou?"
-
-#: /media/js/commonplace/login.js:141
-msgid "Persona login failed. A server error was encountered."
-msgstr "Přihlášení pomocí Persona selhalo. Vyskytla se chyba na serveru."
-
-#: /media/js/commonplace/login.js:209
-msgid "Persona cannot be reached. Try again later."
-msgstr "Komunikace s Persona se nezdařila. Zkuste to znovu později."
-
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
 msgstr "Žádné připojení k Internetu"
+
+#: /media/js/commonplace/login.js:24
+msgid "You have been signed out"
+msgstr "Byl(a) jste odhlášen(a)"
+
+#: /media/js/commonplace/login.js:28
+msgid "You have been signed in"
+msgstr "Byl(a) jste přihlášen(a)"
+
+#: /media/js/commonplace/login.js:216
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Přihlášení pomocí Persona selhalo. Možná nemáte účet pod touto e-mailovou adresou?"
+
+#: /media/js/commonplace/login.js:221
+msgid "Persona login failed. A server error was encountered."
+msgstr "Přihlášení pomocí Persona selhalo. Vyskytla se chyba na serveru."
+
+#: /media/js/commonplace/login.js:291
+msgid "Persona cannot be reached. Try again later."
+msgstr "Komunikace s Persona se nezdařila. Zkuste to znovu později."
 
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28

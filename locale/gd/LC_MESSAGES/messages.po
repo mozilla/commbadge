@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-01T16:26:55.888Z\n"
+"POT-Creation-Date: 2014-10-15T16:06:31.205Z\n"
 "PO-Revision-Date: 2013-10-19 23:50+0000\n"
 "Last-Translator: Michael <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,6 +13,18 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n < 20) ? 0 : (n%10==2 && n < 20) ? 1 : (n==10 || (n%10 > 2 && n < 20)) ? 2 : 3;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1382226614.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Dùin"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Chan eil"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Tha"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -58,18 +70,6 @@ msgstr "Teirmichean a' chleachdaidh"
 msgid "Report Trademark Abuse"
 msgstr "Dèan aithris air mì-chleachdadh comarra-malairt"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Dùin"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Chan eil"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Tha"
-
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "Clàraich a-steach"
@@ -114,6 +114,10 @@ msgstr ""
 msgid "File Description"
 msgstr ""
 
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr ""
+
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr ""
@@ -124,10 +128,6 @@ msgstr "Chan eil snàithlean sam bith agad."
 
 #: /templates/comm/main.html:16
 msgid "Hmm...an error?"
-msgstr ""
-
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
-msgid "No notes found"
 msgstr ""
 
 #: /templates/comm/note_detail.html:12
@@ -167,6 +167,10 @@ msgstr ""
 msgid "Post"
 msgstr "Cuir"
 
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Seall an fheadhainn nas sine"
+
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
 msgstr ""
@@ -202,10 +206,6 @@ msgstr ""
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
 msgstr ""
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Seall an fheadhainn nas sine"
 
 #: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
@@ -287,33 +287,29 @@ msgstr ""
 msgid "Developer comment"
 msgstr ""
 
-#: /media/js/commonplace/login.js:8
-msgid "You have been signed out"
-msgstr "Chaidh do chlàradh a-mach"
-
-#: /media/js/commonplace/login.js:12
-msgid "You have been signed in"
-msgstr "Chaidh do chlàradh a-steach"
-
-#: /media/js/commonplace/login.js:49
-msgid "Error signing out"
-msgstr ""
-
-#: /media/js/commonplace/login.js:136
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Dh'fhàillig clàradh a-steach Persona. Saoil a bheil cunntas agad ann leis an t-seòladh phuist-d seo?"
-
-#: /media/js/commonplace/login.js:141
-msgid "Persona login failed. A server error was encountered."
-msgstr "Dh'fhàillig clàradh a-steach Persona. Thachair mearachd leis an fhrithealaiche."
-
-#: /media/js/commonplace/login.js:209
-msgid "Persona cannot be reached. Try again later."
-msgstr ""
-
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
 msgstr "Chan eil ceangal ris an eadar-lìon"
+
+#: /media/js/commonplace/login.js:24
+msgid "You have been signed out"
+msgstr "Chaidh do chlàradh a-mach"
+
+#: /media/js/commonplace/login.js:28
+msgid "You have been signed in"
+msgstr "Chaidh do chlàradh a-steach"
+
+#: /media/js/commonplace/login.js:216
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Dh'fhàillig clàradh a-steach Persona. Saoil a bheil cunntas agad ann leis an t-seòladh phuist-d seo?"
+
+#: /media/js/commonplace/login.js:221
+msgid "Persona login failed. A server error was encountered."
+msgstr "Dh'fhàillig clàradh a-steach Persona. Thachair mearachd leis an fhrithealaiche."
+
+#: /media/js/commonplace/login.js:291
+msgid "Persona cannot be reached. Try again later."
+msgstr ""
 
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28

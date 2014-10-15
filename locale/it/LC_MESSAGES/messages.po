@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Commbadge\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-01T16:26:55.888Z\n"
+"POT-Creation-Date: 2014-10-15T16:06:31.205Z\n"
 "PO-Revision-Date: 2014-09-18 21:08+0000\n"
 "Last-Translator: Sara <sara.todaro@mozillaitalia.org>\n"
 "Language-Team: gialloporpora <gialloporpora@yahoo.it>\n"
@@ -14,6 +14,18 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1411074486.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Chiudi"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "No"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Si"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -59,18 +71,6 @@ msgstr "Termini d'uso"
 msgid "Report Trademark Abuse"
 msgstr "Segnala abusi dei marchi registrati"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Chiudi"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "No"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Si"
-
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "Accedi"
@@ -115,6 +115,10 @@ msgstr "Allegato"
 msgid "File Description"
 msgstr "Descrizione del file"
 
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr "Non è stata trovata alcuna nota"
+
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "Le mie discussioni"
@@ -126,10 +130,6 @@ msgstr "Non è stata trovata alcuna nota"
 #: /templates/comm/main.html:16
 msgid "Hmm...an error?"
 msgstr "Sembra che si sia verificato un errore…"
-
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
-msgid "No notes found"
-msgstr "Non è stata trovata alcuna nota"
 
 #: /templates/comm/note_detail.html:12
 msgid "Empty note"
@@ -168,6 +168,10 @@ msgstr "Allega un altro file"
 msgid "Post"
 msgstr "Invia"
 
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Visualizza meno recenti"
+
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
 msgstr "{app_name} (Versione {version_number})"
@@ -201,10 +205,6 @@ msgstr "Annulla sottoscrizione"
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
 msgstr "Recensione"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Visualizza meno recenti"
 
 #: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
@@ -286,33 +286,29 @@ msgstr "Note di caricamento dell’app"
 msgid "Developer comment"
 msgstr "Commento dello sviluppatore"
 
-#: /media/js/commonplace/login.js:8
-msgid "You have been signed out"
-msgstr "Hai effettuato la disconnessione"
-
-#: /media/js/commonplace/login.js:12
-msgid "You have been signed in"
-msgstr "Hai effettuato l'accesso"
-
-#: /media/js/commonplace/login.js:49
-msgid "Error signing out"
-msgstr "Si è verificato un errore durante la disconnessione"
-
-#: /media/js/commonplace/login.js:136
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Non è riuscita l'identificazione tramite Persona. Sei sicuro di avere un account Persona associato a questo indirizzo email?"
-
-#: /media/js/commonplace/login.js:141
-msgid "Persona login failed. A server error was encountered."
-msgstr "Identificazione tramite Persona non riuscita. Si è verificato un errore col server."
-
-#: /media/js/commonplace/login.js:209
-msgid "Persona cannot be reached. Try again later."
-msgstr "Impossibile comunicare con il server di Persona. Riprova più tardi."
-
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
 msgstr "Connessione a Internet non disponibile"
+
+#: /media/js/commonplace/login.js:24
+msgid "You have been signed out"
+msgstr "Hai effettuato la disconnessione"
+
+#: /media/js/commonplace/login.js:28
+msgid "You have been signed in"
+msgstr "Hai effettuato l'accesso"
+
+#: /media/js/commonplace/login.js:216
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Non è riuscita l'identificazione tramite Persona. Sei sicuro di avere un account Persona associato a questo indirizzo email?"
+
+#: /media/js/commonplace/login.js:221
+msgid "Persona login failed. A server error was encountered."
+msgstr "Identificazione tramite Persona non riuscita. Si è verificato un errore col server."
+
+#: /media/js/commonplace/login.js:291
+msgid "Persona cannot be reached. Try again later."
+msgstr "Impossibile comunicare con il server di Persona. Riprova più tardi."
 
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28

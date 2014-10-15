@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-01T16:26:55.888Z\n"
+"POT-Creation-Date: 2014-10-15T16:06:31.205Z\n"
 "PO-Revision-Date: 2014-09-17 18:23+0000\n"
 "Last-Translator: Mark <markh@babelzilla.org>\n"
 "Language-Team: none\n"
@@ -13,6 +13,18 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1410978212.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Sluiten"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Nee"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Ja"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -58,18 +70,6 @@ msgstr "Gebruiksvoorwaarden"
 msgid "Report Trademark Abuse"
 msgstr "Misbruik van handelsmerk melden"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Sluiten"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Nee"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Ja"
-
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "Aanmelden"
@@ -114,6 +114,10 @@ msgstr "Bijlage"
 msgid "File Description"
 msgstr "Bestandsbeschrijving"
 
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr "Geen opmerkingen gevonden"
+
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "Mijn conversaties"
@@ -125,10 +129,6 @@ msgstr "U hebt geen conversaties."
 #: /templates/comm/main.html:16
 msgid "Hmm...an error?"
 msgstr "Hmm… een fout?"
-
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
-msgid "No notes found"
-msgstr "Geen opmerkingen gevonden"
 
 # Empty als werkwoord of als bijvoeglijk naamwoord? Vooralsnog gekozen voor het laatste.
 #: /templates/comm/note_detail.html:12
@@ -168,6 +168,10 @@ msgstr "Nog een bestand toevoegen"
 msgid "Post"
 msgstr "Plaatsen"
 
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Oudere weergeven"
+
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
 msgstr "{app_name} (versie {version_number})"
@@ -202,10 +206,6 @@ msgstr "Uitschrijven"
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
 msgstr "Beoordelen"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Oudere weergeven"
 
 #: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
@@ -287,33 +287,29 @@ msgstr "App-indieningsopmerking"
 msgid "Developer comment"
 msgstr "Ontwikkelaarsopmerking"
 
-#: /media/js/commonplace/login.js:8
-msgid "You have been signed out"
-msgstr "U bent afgemeld"
-
-#: /media/js/commonplace/login.js:12
-msgid "You have been signed in"
-msgstr "U bent aangemeld"
-
-#: /media/js/commonplace/login.js:49
-msgid "Error signing out"
-msgstr "Fout bij afmelden"
-
-#: /media/js/commonplace/login.js:136
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Persona-aanmelding mislukt. Misschien hebt u geen account met dat e-mailadres?"
-
-#: /media/js/commonplace/login.js:141
-msgid "Persona login failed. A server error was encountered."
-msgstr "Persona-aanmelding mislukt. Er is een serverfout opgetreden."
-
-#: /media/js/commonplace/login.js:209
-msgid "Persona cannot be reached. Try again later."
-msgstr "Persona is onbereikbaar. Probeer het later nog eens."
-
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
 msgstr "Geen internetverbinding"
+
+#: /media/js/commonplace/login.js:24
+msgid "You have been signed out"
+msgstr "U bent afgemeld"
+
+#: /media/js/commonplace/login.js:28
+msgid "You have been signed in"
+msgstr "U bent aangemeld"
+
+#: /media/js/commonplace/login.js:216
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Persona-aanmelding mislukt. Misschien hebt u geen account met dat e-mailadres?"
+
+#: /media/js/commonplace/login.js:221
+msgid "Persona login failed. A server error was encountered."
+msgstr "Persona-aanmelding mislukt. Er is een serverfout opgetreden."
+
+#: /media/js/commonplace/login.js:291
+msgid "Persona cannot be reached. Try again later."
+msgstr "Persona is onbereikbaar. Probeer het later nog eens."
 
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28

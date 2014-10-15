@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-01T16:26:55.888Z\n"
+"POT-Creation-Date: 2014-10-15T16:06:31.205Z\n"
 "PO-Revision-Date: 2014-09-20 11:27+0000\n"
 "Last-Translator: Gábor <kelemeng@ubuntu.com>\n"
 "Language-Team: none\n"
@@ -13,6 +13,18 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n !=1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1411212467.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Bezárás"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Nem"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Igen"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -58,18 +70,6 @@ msgstr "Felhasználási feltételek"
 msgid "Report Trademark Abuse"
 msgstr "Védjeggyel kapcsolatos visszaélés jelentése"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Bezárás"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Nem"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Igen"
-
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "Bejelentkezés"
@@ -114,6 +114,10 @@ msgstr "Melléklet"
 msgid "File Description"
 msgstr "Fájl leírása"
 
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr "Nincsenek jegyzetek"
+
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "Szálaim"
@@ -125,10 +129,6 @@ msgstr "Nincsenek szálak."
 #: /templates/comm/main.html:16
 msgid "Hmm...an error?"
 msgstr "Hmm... egy hiba?"
-
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
-msgid "No notes found"
-msgstr "Nincsenek jegyzetek"
 
 #: /templates/comm/note_detail.html:12
 msgid "Empty note"
@@ -167,6 +167,10 @@ msgstr "Másik fájl csatolása"
 msgid "Post"
 msgstr "Küldés"
 
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Régebbi megjelenítése"
+
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
 msgstr "{app_name} ({version_number} verzió)"
@@ -200,10 +204,6 @@ msgstr "Leiratkozás"
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
 msgstr "Értékelés"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Régebbi megjelenítése"
 
 #: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
@@ -285,33 +285,29 @@ msgstr "Appbeküldési megjegyzés"
 msgid "Developer comment"
 msgstr "Fejlesztői megjegyzés"
 
-#: /media/js/commonplace/login.js:8
-msgid "You have been signed out"
-msgstr "Kijelentkezett"
-
-#: /media/js/commonplace/login.js:12
-msgid "You have been signed in"
-msgstr "Bejelentkezett"
-
-#: /media/js/commonplace/login.js:49
-msgid "Error signing out"
-msgstr "Hiba a kijelentkezéskor"
-
-#: /media/js/commonplace/login.js:136
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "A Persona bejelentkezés sikertelen. Talán nincs fiókja ehhez az e-mail címhez?"
-
-#: /media/js/commonplace/login.js:141
-msgid "Persona login failed. A server error was encountered."
-msgstr "A Persona bejelentkezés sikertelen. Kiszolgálóhiba történt."
-
-#: /media/js/commonplace/login.js:209
-msgid "Persona cannot be reached. Try again later."
-msgstr "A Persona nem érhető el. Próbálja újra később."
-
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
 msgstr "Nincs internetkapcsolat"
+
+#: /media/js/commonplace/login.js:24
+msgid "You have been signed out"
+msgstr "Kijelentkezett"
+
+#: /media/js/commonplace/login.js:28
+msgid "You have been signed in"
+msgstr "Bejelentkezett"
+
+#: /media/js/commonplace/login.js:216
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "A Persona bejelentkezés sikertelen. Talán nincs fiókja ehhez az e-mail címhez?"
+
+#: /media/js/commonplace/login.js:221
+msgid "Persona login failed. A server error was encountered."
+msgstr "A Persona bejelentkezés sikertelen. Kiszolgálóhiba történt."
+
+#: /media/js/commonplace/login.js:291
+msgid "Persona cannot be reached. Try again later."
+msgstr "A Persona nem érhető el. Próbálja újra később."
 
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28

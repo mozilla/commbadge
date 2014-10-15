@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-01T16:26:55.888Z\n"
+"POT-Creation-Date: 2014-10-15T16:06:31.205Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,6 +12,18 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Fireplace L10n Tools 1.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Ƈŀǿşḗ"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Ƞǿ"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Ẏḗş"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -56,18 +68,6 @@ msgstr "Ŧḗřḿş ǿƒ Ŭşḗ"
 #: /templates/footer.html:32
 msgid "Report Trademark Abuse"
 msgstr "Řḗƥǿřŧ Ŧřȧḓḗḿȧřķ Ȧƀŭşḗ"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Ƈŀǿşḗ"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Ƞǿ"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Ẏḗş"
 
 #: /templates/login.html:2
 #: /media/js/views/login.js:10
@@ -114,6 +114,12 @@ msgstr "Ȧŧŧȧƈħḿḗƞŧ"
 msgid "File Description"
 msgstr "Ƒīŀḗ Ḓḗşƈřīƥŧīǿƞ"
 
+#: /templates/comm/no_notes.html:1
+#: /templates/_macros/create_thread.html:10
+#: /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr "Ƞǿ ƞǿŧḗş ƒǿŭƞḓ"
+
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "Ḿẏ Ŧħřḗȧḓş"
@@ -125,12 +131,6 @@ msgstr "Ẏǿŭ ħȧṽḗ ƞǿ ŧħřḗȧḓş."
 #: /templates/comm/main.html:16
 msgid "Hmm...an error?"
 msgstr "Ħḿḿ...ȧƞ ḗřřǿř?"
-
-#: /templates/comm/no_notes.html:1
-#: /templates/_macros/create_thread.html:10
-#: /templates/_macros/thread.html:15
-msgid "No notes found"
-msgstr "Ƞǿ ƞǿŧḗş ƒǿŭƞḓ"
 
 #: /templates/comm/note_detail.html:12
 msgid "Empty note"
@@ -169,6 +169,10 @@ msgstr "Ȧŧŧȧƈħ ȧƞǿŧħḗř ƒīŀḗ"
 msgid "Post"
 msgstr "Ƥǿşŧ"
 
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Ṽīḗẇ ǿŀḓḗř"
+
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
 msgstr "{ȧƥƥ_ƞȧḿḗ} (Ṽḗřşīǿƞ {ṽḗřşīǿƞ_ƞŭḿƀḗř})"
@@ -205,10 +209,6 @@ msgstr "Ŭƞşŭƀşƈřīƀḗ"
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
 msgstr "Řḗṽīḗẇ"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Ṽīḗẇ ǿŀḓḗř"
 
 #: /templates/errors/fragment.html:1
 #: /templates/errors/404.html:2
@@ -291,35 +291,31 @@ msgstr "Ȧƥƥ şŭƀḿīşşīǿƞ ƞǿŧḗ"
 msgid "Developer comment"
 msgstr "Ḓḗṽḗŀǿƥḗř ƈǿḿḿḗƞŧ"
 
-#: /media/js/commonplace/login.js:8
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "Ƞǿ īƞŧḗřƞḗŧ ƈǿƞƞḗƈŧīǿƞ"
+
+#: /media/js/commonplace/login.js:24
 msgid "You have been signed out"
 msgstr "Ẏǿŭ ħȧṽḗ ƀḗḗƞ şīɠƞḗḓ ǿŭŧ"
 
-#: /media/js/commonplace/login.js:12
+#: /media/js/commonplace/login.js:28
 msgid "You have been signed in"
 msgstr "Ẏǿŭ ħȧṽḗ ƀḗḗƞ şīɠƞḗḓ īƞ"
 
-#: /media/js/commonplace/login.js:49
-msgid "Error signing out"
-msgstr "Ḗřřǿř şīɠƞīƞɠ ǿŭŧ"
-
-#: /media/js/commonplace/login.js:136
+#: /media/js/commonplace/login.js:216
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr ""
 "Ƥḗřşǿƞȧ ŀǿɠīƞ ƒȧīŀḗḓ. Ḿȧẏƀḗ ẏǿŭ ḓǿƞ'ŧ ħȧṽḗ ȧƞ ȧƈƈǿŭƞŧ ŭƞḓḗř ŧħȧŧ ḗḿȧīŀ "
 "ȧḓḓřḗşş?"
 
-#: /media/js/commonplace/login.js:141
+#: /media/js/commonplace/login.js:221
 msgid "Persona login failed. A server error was encountered."
 msgstr "Ƥḗřşǿƞȧ ŀǿɠīƞ ƒȧīŀḗḓ. Ȧ şḗřṽḗř ḗřřǿř ẇȧş ḗƞƈǿŭƞŧḗřḗḓ."
 
-#: /media/js/commonplace/login.js:209
+#: /media/js/commonplace/login.js:291
 msgid "Persona cannot be reached. Try again later."
 msgstr "Ƥḗřşǿƞȧ ƈȧƞƞǿŧ ƀḗ řḗȧƈħḗḓ. Ŧřẏ ȧɠȧīƞ ŀȧŧḗř."
-
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "Ƞǿ īƞŧḗřƞḗŧ ƈǿƞƞḗƈŧīǿƞ"
 
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28

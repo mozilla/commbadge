@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-01T16:26:55.888Z\n"
+"POT-Creation-Date: 2014-10-15T16:06:31.205Z\n"
 "PO-Revision-Date: 2013-10-23 18:51+0000\n"
 "Last-Translator: Toni <toniher@softcatala.org>\n"
 "Language-Team: Catalan <ca@dodds.net>\n"
@@ -14,6 +14,18 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1382554264.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Tanca"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "No"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Sí"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -59,18 +71,6 @@ msgstr "Termes d'ús"
 msgid "Report Trademark Abuse"
 msgstr "Informa d'un abús de marca"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Tanca"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "No"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Sí"
-
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "Inici de sessió"
@@ -115,6 +115,10 @@ msgstr ""
 msgid "File Description"
 msgstr ""
 
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr ""
+
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr ""
@@ -125,10 +129,6 @@ msgstr ""
 
 #: /templates/comm/main.html:16
 msgid "Hmm...an error?"
-msgstr ""
-
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
-msgid "No notes found"
 msgstr ""
 
 #: /templates/comm/note_detail.html:12
@@ -168,6 +168,10 @@ msgstr ""
 msgid "Post"
 msgstr "Publica"
 
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Mostra anterior"
+
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
 msgstr ""
@@ -201,10 +205,6 @@ msgstr ""
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
 msgstr ""
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Mostra anterior"
 
 #: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
@@ -286,33 +286,29 @@ msgstr ""
 msgid "Developer comment"
 msgstr ""
 
-#: /media/js/commonplace/login.js:8
-msgid "You have been signed out"
-msgstr "Heu finalitzat la sessió"
-
-#: /media/js/commonplace/login.js:12
-msgid "You have been signed in"
-msgstr "Heu iniciat una sessió"
-
-#: /media/js/commonplace/login.js:49
-msgid "Error signing out"
-msgstr ""
-
-#: /media/js/commonplace/login.js:136
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "L'inici de sessió amb Persona ha fallat. Potser no teniu un compte amb aquesta adreça?"
-
-#: /media/js/commonplace/login.js:141
-msgid "Persona login failed. A server error was encountered."
-msgstr "L'inici de sessió amb Persona ha fallat. S'ha produït un error amb el servidor."
-
-#: /media/js/commonplace/login.js:209
-msgid "Persona cannot be reached. Try again later."
-msgstr ""
-
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
 msgstr "No hi ha connexió a Internet"
+
+#: /media/js/commonplace/login.js:24
+msgid "You have been signed out"
+msgstr "Heu finalitzat la sessió"
+
+#: /media/js/commonplace/login.js:28
+msgid "You have been signed in"
+msgstr "Heu iniciat una sessió"
+
+#: /media/js/commonplace/login.js:216
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "L'inici de sessió amb Persona ha fallat. Potser no teniu un compte amb aquesta adreça?"
+
+#: /media/js/commonplace/login.js:221
+msgid "Persona login failed. A server error was encountered."
+msgstr "L'inici de sessió amb Persona ha fallat. S'ha produït un error amb el servidor."
+
+#: /media/js/commonplace/login.js:291
+msgid "Persona cannot be reached. Try again later."
+msgstr ""
 
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28

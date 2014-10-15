@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AMO Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-01T16:26:55.888Z\n"
+"POT-Creation-Date: 2014-10-15T16:06:31.205Z\n"
 "PO-Revision-Date: 2013-10-28 21:27+0200\n"
 "Last-Translator: Mihail Chilyashev <m@chilyashev.com>\n"
 "Language-Team: Bulgarian (bg)\n"
@@ -12,6 +12,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.5.4\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Затвори"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Не"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Да"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -57,18 +69,6 @@ msgstr "Условия за ползване"
 msgid "Report Trademark Abuse"
 msgstr "Докладвай злоупотреба със запазена марка"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Затвори"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Не"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Да"
-
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "Вход"
@@ -113,6 +113,10 @@ msgstr ""
 msgid "File Description"
 msgstr ""
 
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr "Няма намерени бележки"
+
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "Мои теми"
@@ -124,10 +128,6 @@ msgstr "Нямате теми."
 #: /templates/comm/main.html:16
 msgid "Hmm...an error?"
 msgstr ""
-
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
-msgid "No notes found"
-msgstr "Няма намерени бележки"
 
 #: /templates/comm/note_detail.html:12
 msgid "Empty note"
@@ -166,6 +166,10 @@ msgstr ""
 msgid "Post"
 msgstr "Публикуване"
 
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Виж по-стари"
+
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
 msgstr "{app_name} (Версия {version_number})"
@@ -199,10 +203,6 @@ msgstr ""
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
 msgstr ""
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Виж по-стари"
 
 #: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
@@ -284,33 +284,29 @@ msgstr ""
 msgid "Developer comment"
 msgstr ""
 
-#: /media/js/commonplace/login.js:8
-msgid "You have been signed out"
-msgstr "Вие излязохте"
-
-#: /media/js/commonplace/login.js:12
-msgid "You have been signed in"
-msgstr "Вие влязохте"
-
-#: /media/js/commonplace/login.js:49
-msgid "Error signing out"
-msgstr ""
-
-#: /media/js/commonplace/login.js:136
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Влизането в Persona се провали. Може би нямате акант с този имейл адрес?"
-
-#: /media/js/commonplace/login.js:141
-msgid "Persona login failed. A server error was encountered."
-msgstr "Влизането в Persona се провали. Възникна сървърна грешка"
-
-#: /media/js/commonplace/login.js:209
-msgid "Persona cannot be reached. Try again later."
-msgstr ""
-
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
 msgstr "Няма връзка с интернет"
+
+#: /media/js/commonplace/login.js:24
+msgid "You have been signed out"
+msgstr "Вие излязохте"
+
+#: /media/js/commonplace/login.js:28
+msgid "You have been signed in"
+msgstr "Вие влязохте"
+
+#: /media/js/commonplace/login.js:216
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Влизането в Persona се провали. Може би нямате акант с този имейл адрес?"
+
+#: /media/js/commonplace/login.js:221
+msgid "Persona login failed. A server error was encountered."
+msgstr "Влизането в Persona се провали. Възникна сървърна грешка"
+
+#: /media/js/commonplace/login.js:291
+msgid "Persona cannot be reached. Try again later."
+msgstr ""
 
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28

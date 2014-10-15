@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-01T16:26:55.888Z\n"
+"POT-Creation-Date: 2014-10-15T16:06:31.205Z\n"
 "PO-Revision-Date: 2014-09-22 11:13+0000\n"
 "Last-Translator: Branislav <rozbora@mozilla.sk>\n"
 "Language-Team: Mozilla.sk <l10n@mozilla.sk>\n"
@@ -13,6 +13,18 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1411384426.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Zavrieť"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Nie"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Áno"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -58,18 +70,6 @@ msgstr "Podmienky použitia"
 msgid "Report Trademark Abuse"
 msgstr "Nahlásiť zneužitie ochrannej známky"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Zavrieť"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Nie"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Áno"
-
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "Prihlásiť"
@@ -114,6 +114,10 @@ msgstr "Príloha"
 msgid "File Description"
 msgstr "Popis súboru"
 
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr "Neboli nájdené žiadne poznámky"
+
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "Moje vlákna"
@@ -125,10 +129,6 @@ msgstr "Žiadne dostupné vlákna."
 #: /templates/comm/main.html:16
 msgid "Hmm...an error?"
 msgstr "Hmm, chyba?"
-
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
-msgid "No notes found"
-msgstr "Neboli nájdené žiadne poznámky"
 
 #: /templates/comm/note_detail.html:12
 msgid "Empty note"
@@ -167,6 +167,10 @@ msgstr "Pripojiť ďalší súbor"
 msgid "Post"
 msgstr "Pridať"
 
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Zobraziť staršie"
+
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
 msgstr "{app_name} (verzia {version_number})"
@@ -201,10 +205,6 @@ msgstr "Odhlásiť"
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
 msgstr "Kontrola"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Zobraziť staršie"
 
 #: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
@@ -286,33 +286,29 @@ msgstr "Poznámka k odoslaniu"
 msgid "Developer comment"
 msgstr "Komentár vývojára"
 
-#: /media/js/commonplace/login.js:8
-msgid "You have been signed out"
-msgstr "Odhlásenie prebehlo úspešne"
-
-#: /media/js/commonplace/login.js:12
-msgid "You have been signed in"
-msgstr "Prihlásenie prebehlo úspešne"
-
-#: /media/js/commonplace/login.js:49
-msgid "Error signing out"
-msgstr "Pri odhlasovaní sa vyskytla chyba"
-
-#: /media/js/commonplace/login.js:136
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Prihlásenie pomocou služby Persona zlyhalo. Možno pod touto e-mailovou adresou nemáte účet?"
-
-#: /media/js/commonplace/login.js:141
-msgid "Persona login failed. A server error was encountered."
-msgstr "Prihlásenie pomocou služby Persona zlyhalo. Nastala chyba servera."
-
-#: /media/js/commonplace/login.js:209
-msgid "Persona cannot be reached. Try again later."
-msgstr "Server Persona nie je dostupný. Skúste to znova neskôr."
-
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
 msgstr "Žiadne pripojenie k internetu"
+
+#: /media/js/commonplace/login.js:24
+msgid "You have been signed out"
+msgstr "Odhlásenie prebehlo úspešne"
+
+#: /media/js/commonplace/login.js:28
+msgid "You have been signed in"
+msgstr "Prihlásenie prebehlo úspešne"
+
+#: /media/js/commonplace/login.js:216
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Prihlásenie pomocou služby Persona zlyhalo. Možno pod touto e-mailovou adresou nemáte účet?"
+
+#: /media/js/commonplace/login.js:221
+msgid "Persona login failed. A server error was encountered."
+msgstr "Prihlásenie pomocou služby Persona zlyhalo. Nastala chyba servera."
+
+#: /media/js/commonplace/login.js:291
+msgid "Persona cannot be reached. Try again later."
+msgstr "Server Persona nie je dostupný. Skúste to znova neskôr."
 
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28

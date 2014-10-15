@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-01T16:26:55.888Z\n"
+"POT-Creation-Date: 2014-10-15T16:06:31.205Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11,6 +11,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);Content-Type: text/plain; charset=UTF-8\n"
 "X-Generator: Fireplace L10n Tools 1.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Pechar"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Non"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Si"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -56,18 +68,6 @@ msgstr "Temos de uso"
 msgid "Report Trademark Abuse"
 msgstr "Informar de abusos de marca"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Pechar"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Non"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Si"
-
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "Identificarse"
@@ -112,6 +112,10 @@ msgstr "Anexo"
 msgid "File Description"
 msgstr "Descrición do ficheiro"
 
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr "Non se atoparon notas"
+
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "As miñas conversas"
@@ -123,10 +127,6 @@ msgstr "Non ten conversas."
 #: /templates/comm/main.html:16
 msgid "Hmm...an error?"
 msgstr "Hmm...un erro?"
-
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
-msgid "No notes found"
-msgstr "Non se atoparon notas"
 
 #: /templates/comm/note_detail.html:12
 msgid "Empty note"
@@ -165,6 +165,10 @@ msgstr "Anexar outro ficheiro"
 msgid "Post"
 msgstr "Publicar"
 
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Ver anteriores"
+
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
 msgstr "{app_name} (Versión {version_number})"
@@ -198,10 +202,6 @@ msgstr "Cancelar subscrición"
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
 msgstr "Valorar"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Ver anteriores"
 
 #: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
@@ -283,33 +283,29 @@ msgstr "Nota do envío do aplicativo"
 msgid "Developer comment"
 msgstr "Comentario do desenvolvedor"
 
-#: /media/js/commonplace/login.js:8
-msgid "You have been signed out"
-msgstr "Foi desconectado"
-
-#: /media/js/commonplace/login.js:12
-msgid "You have been signed in"
-msgstr "Foi identificado"
-
-#: /media/js/commonplace/login.js:49
-msgid "Error signing out"
-msgstr "Produciuse un erro ao desconectarse"
-
-#: /media/js/commonplace/login.js:136
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Fallou a identificación con Mozilla Persona. Quizais non teña unha conta con ese enderezo de correo?"
-
-#: /media/js/commonplace/login.js:141
-msgid "Persona login failed. A server error was encountered."
-msgstr "Fallou a identificación con Mozilla Persona. Produciuse un erro no servidor."
-
-#: /media/js/commonplace/login.js:209
-msgid "Persona cannot be reached. Try again later."
-msgstr "Non foi posíbel alcanzar Mozilla Persona. Tente de novo máis tarde."
-
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
 msgstr "Sen conexión á Internet"
+
+#: /media/js/commonplace/login.js:24
+msgid "You have been signed out"
+msgstr "Foi desconectado"
+
+#: /media/js/commonplace/login.js:28
+msgid "You have been signed in"
+msgstr "Foi identificado"
+
+#: /media/js/commonplace/login.js:216
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Fallou a identificación con Mozilla Persona. Quizais non teña unha conta con ese enderezo de correo?"
+
+#: /media/js/commonplace/login.js:221
+msgid "Persona login failed. A server error was encountered."
+msgstr "Fallou a identificación con Mozilla Persona. Produciuse un erro no servidor."
+
+#: /media/js/commonplace/login.js:291
+msgid "Persona cannot be reached. Try again later."
+msgstr "Non foi posíbel alcanzar Mozilla Persona. Tente de novo máis tarde."
 
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
