@@ -191,7 +191,7 @@ define('views/comm',
         var threadId = $threadItem.data('thread-id');
         notification.confirmation({
             message: gettext('By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?')
-        }).done(function() {;
+        }).done(function() {
             requests.del(urls.api.url('subscribe', [threadId])).done(function(data) {
                 $threadItem.remove();
                 notification.notification({
