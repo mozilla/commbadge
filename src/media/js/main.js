@@ -1,40 +1,23 @@
 console.log('Marketplace Communication Dashboard');
 
-require.config({
-    enforceDefine: true,
-    paths: {
-        'jquery': 'lib/jquery-2.0.2',
-        'underscore': 'lib/underscore',
-        'nunjucks': 'lib/nunjucks',
-        'nunjucks.compat': 'lib/nunjucks.compat',
-        'templates': '../../templates',
-        'settings': ['settings_local', 'settings'],
-        'format': 'lib/format',
-        'site_config': 'commonplace/site_config'
-    },
-});
-
 (function() {
-
-    define(
-        'main',
-        [
-            'underscore',
-            'helpers',  // Must come before mostly everything else.
-            'capabilities',
-            'forms',
-            'l10n',
-            'log',
-            'login',
-            'navigation',
-            'templates',
-            //'tracking',
-            'user',
-            'views',
-            'z',
-            'header'
-        ],
-    function(_) {
+    define('main',
+    [
+        'underscore',
+        'helpers',  // Must come before mostly everything else.
+        'capabilities',
+        'forms',
+        'l10n',
+        'log',
+        'login',
+        'navigation',
+        'templates',
+        //'tracking',
+        'user',
+        'views',
+        'z',
+        'header'
+    ], function(_) {
         var capabilities = require('capabilities');
         var log = require('log');
         var nunjucks = require('templates');
@@ -138,5 +121,4 @@ require.config({
 
         console.log('Initialization complete');
     });
-
 })();
