@@ -1,6 +1,6 @@
 {
   "author": "Mozilla",
-  "name": "marketplace-communication-dashboard",
+  "name": "marketplace-comm-dashboard",
   "version": "0.0.0",
   "dependencies": {
     "commonplace": "*",
