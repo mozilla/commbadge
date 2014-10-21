@@ -12,9 +12,9 @@
     {% placeholder %}
       <div class="spinner alt"></div>
     {% empty %}
-      <p>{{ _('You have no threads.') }}</p>
+      <p>{{ _('You currently are not involved in any communication threads.') }}</p>
     {% except %}
-      <p>{{ _('Hmm...an error?') }}</p>
+      <p>{{ _('Sorry, an error has occurred. Try logging in again.') }}</p>
     {% end %}
   </div>
 
