@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-15T16:06:31.205Z\n"
-"PO-Revision-Date: 2014-08-14 04:58+0000\n"
+"PO-Revision-Date: 2014-09-17 19:35+0000\n"
 "Last-Translator: Vanja <tumbas93@gmail.com>\n"
 "Language-Team: none\n"
 "Language: sr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1407992313.0\n"
+"X-POOTLE-MTIME: 1410982532.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -240,7 +240,7 @@ msgstr "Aplikacija je odbijena"
 
 #: /media/js/settings.js:40
 msgid "App banned"
-msgstr ""
+msgstr "Aplikacija je banovana"
 
 #: /media/js/settings.js:41
 msgid "More info required"
@@ -308,7 +308,7 @@ msgstr "Prijava na Persona nije uspela. Došlo je do greške na serveru."
 
 #: /media/js/commonplace/login.js:291
 msgid "Persona cannot be reached. Try again later."
-msgstr "Persona je nedostupna. Pokušajte kasnije."
+msgstr "Persona je nedostupna. Pokušajte ponovo kasnije."
 
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
