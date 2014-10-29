@@ -50,6 +50,9 @@ define('settings', ['l10n', 'settings_local', 'underscore'], function(l10n, sett
             {'name': 'REREVIEW_CLEARED', 'class': 'rereview-clear', 'msg': gettext('Re-review cleared')},
             {'name': 'SUBMISSION', 'class': 'submission', 'msg': gettext('App submission note')},
             {'name': 'DEVELOPER_COMMENT', 'class': 'developer-comment', 'msg': gettext('Developer comment')},
+            {'name': 'ESCALATION_VIP_APP', 'class': 'escalate', 'msg': gettext('Escalation due to VIP app')},
+            {'name': 'DEVELOPER_VERSION_NOTE_FOR_REVIEWER', 'class': 'developer-comment', 'msg': gettext('Version notes for reviewer')},
+            {'name': 'REVIEWER_PUBLIC_COMMENT', 'class': 'comment', 'msg': gettext('Reviewer comment')},
         ],
     });
 });
