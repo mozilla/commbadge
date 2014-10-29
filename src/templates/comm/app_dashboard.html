@@ -11,7 +11,7 @@
           {{ _('Go back to app edit page') }}</a>
       {% endif %}
     {% except %}
-      <h1>{{ _('App Not Found') }}</h1>
+      <h1 class="error">{{ _('App Not Found') }}</h1>
       <a class="back" href="{{ url('comm') }}">{{ _('Back to my threads') }}</a>
     {% end %}
   </div>
