@@ -43,8 +43,8 @@
         {% if thread %}
           <li><a href="{{ settings.api_url + '/app/' + app.app_slug }}">{{ _('View App') }}</a></li>
         {% endif %}
-        {% if thread and user and not user.has_developed(app.id) %}
-          {# Allow unsubscribe if user not developer. #}
+        {% if thread and user %}
+          {# Allow unsubscribe which deletes CommunicationThreadCC object. #}
           <li class="unsubscribe"><a>{{ _('Unsubscribe') }}</a></li>
         {% endif %}
         {% if user and user.get_permission('reviewer') %}
