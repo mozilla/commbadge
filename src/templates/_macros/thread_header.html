@@ -17,7 +17,7 @@
           <img class="addon-icon" src="{{ icon_url }}">
           <div class="addon-name">
             {{ _('{app_name} (Version {version_number})',
-                 app_name=app.name, version_number=version_number) }}
+                 app_name=app.name or _('Deleted App'), version_number=version_number) }}
             {% if thread and thread.version_is_obsolete %}
               {{ _('(Obsolete)') }}
             {% endif %}
