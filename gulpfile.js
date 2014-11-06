@@ -8,9 +8,7 @@
    recommend git-cloning mozilla/marketplace-gulp directly into your
    bower_components directory.
 */
-var requireDir = require('require-dir');
+// Includes all tasks from the common gulpfile.
+var marketplaceGulp = require('marketplace-gulp');
 
 var config = require('./config');
-
-// Include all tasks from the common gulpfile.
-requireDir(config.GULP_SRC_PATH);
