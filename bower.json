@@ -3,7 +3,7 @@
   "name": "marketplace-comm-dashboard",
   "version": "0.0.0",
   "dependencies": {
-    "commonplace": "0.6.0",
+    "commonplace": "0.6.45",
     "marketplace-constants": "*",
 
     "almond": "0.2.9",

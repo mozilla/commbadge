@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "bower": "1.3.x",
-    "commonplace": "0.6.1",
+    "commonplace": "0.6.45",
     "marketplace-gulp": "1.0.0",
     "gulp": "3.8.x"
   },
