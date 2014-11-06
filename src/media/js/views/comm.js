@@ -1,6 +1,10 @@
 define('views/comm',
-    ['cache', 'jquery', 'jquery.fakefilefield', 'l10n', 'notification', 'nunjucks', 'requests', 'settings', 'storage', 'underscore', 'urls', 'user', 'utils', 'z'],
-    function(cache, $, fakefilefield, l10n, notification, nunjucks, requests, settings, storage, _, urls, user, utils, z) {
+    ['cache', 'defer', 'jquery', 'jquery.fakefilefield', 'l10n',
+     'notification', 'nunjucks', 'requests', 'settings', 'storage',
+     'underscore', 'urls', 'user', 'utils', 'z'],
+    function(cache, defer, $, fakefilefield, l10n,
+             notification, nunjucks, requests, settings, storage,
+             _, urls, user, utils, z) {
     'use strict';
 
     var gettext = l10n.gettext;
@@ -36,37 +40,55 @@ define('views/comm',
         var $btnText = $('.reply, .loading', $threadAction);
         $btnText.toggle();
 
-        var def = $.Deferred();
+        var def = defer.Deferred();
         postNoteEnabled = false;
-        var postUrl = isCreateThread ? urls.api.url('threads') : urls.api.url('notes', [threadId]);
-        requests.post(postUrl, data).done(function(data) {
+        var postUrl = isCreateThread ? urls.api.url('threads') :
+                                       urls.api.url('notes', [threadId]);
+        requests.post(postUrl, data).done(function(note) {
             var $threadElem = $threadItem.find('.thread-header');
 
-            // Add a new note element.
-            $threadElem.find('.filter-recent').trigger('click');
-            var noteMarkup = nunjucks.env.render('comm/note_detail.html', {note: data});
-            var $noteCount = $threadElem.find('.note-count');
-            var count = $noteCount.data('count') + 1;
-            $noteCount.html(ngettext('{n} note', '{n} notes', {n: count}))
-                      .data('count', count);
-            $threadItem.find('.notes-container').prepend(noteMarkup).find('.empty').remove();
+            // Post attachments before showing that everything is done.
+            postAttachments($threadItem, note.id).done(function(noteWithAttachments) {
+                note = noteWithAttachments || note;
 
-            // Close the reply box.
-            $threadElem.find('.reply-box').addClass('hidden');
-            $threadElem.find('.reply.button.close-reply')
-                       .removeClass('close-reply')
-                       .addClass('open-reply')
-                       .find('.reply')
-                       .html(gettext('Reply'));
-            $btnText.toggle();
+                // Add a new note element.
+                $threadElem.find('.filter-recent').trigger('click');
+                var noteMarkup = nunjucks.env.render('comm/note_detail.html', {note: note});
+                var $noteCount = $threadElem.find('.note-count');
+                var count = $noteCount.data('count') + 1;
+                $noteCount.html(ngettext('{n} note', '{n} notes', {n: count}))
+                          .data('count', count);
+                $threadItem.find('.notes-container').prepend(noteMarkup).find('.empty').remove();
 
-            $text_elem.siblings('button.post').addClass('disabled');
-            $text_elem.val('');
+                // Render attachment list.
+                if (note.attachments.length) {
+                    var $attachmentList = $('.note-detail[data-note-id="' + note.id + '"] .note-attachments');
+                    var markup = '';
+                    note.attachments.forEach(function(attachment) {
+                      markup += nunjucks.env.render('_includes/attachment.html', {
+                          note: note,
+                          attachment: attachment
+                      });
+                    });
+                    $attachmentList.html(markup);
+                }
 
-            postNoteEnabled = true;
-            notification.notification({message: gettext('Message sent.')});
-            def.resolve(data);
+                // Close the reply box.
+                $threadElem.find('.reply-box').addClass('hidden');
+                $threadElem.find('.reply.button.close-reply')
+                           .removeClass('close-reply')
+                           .addClass('open-reply')
+                           .find('.reply')
+                           .html(gettext('Reply'));
+                $btnText.toggle();
 
+                $text_elem.siblings('button.post').addClass('disabled');
+                $text_elem.val('');
+
+                postNoteEnabled = true;
+                notification.notification({message: gettext('Message sent.')});
+                def.resolve(note);
+            });
         }).fail(function() {
             postNoteEnabled = true;
             notification.notification({message: gettext('Message sending failed.')});
@@ -78,6 +100,7 @@ define('views/comm',
     };
 
     var postAttachments = function($thread, note_id) {
+        var def = defer.Deferred();
         var $attachments = $thread.find('.attachment-field');
         var attachUrl = urls.api.url('attachments', [note_id]);
 
@@ -93,25 +116,12 @@ define('views/comm',
             formData.append('form-' + i + '-description', $attachment.find('.attach-description input').val());
         });
         if (!hasInput) {
-            return;
+            def.resolve();
         }
 
         var xhr = new XMLHttpRequest();
         xhr.onload = function() {
-            // Add attachment response to note.
-            var data = JSON.parse(this.responseText);
-            var $attachmentList = $('.note-detail[data-note-id="' + note_id + '"] .note-attachments');
-
-            var markup = '';
-            if (!$('li', $attachmentList).length) {
-              data.attachments.forEach(function(attachment) {
-                markup += nunjucks.env.render('_includes/attachment.html', {
-                    note: data,
-                    attachment: attachment
-                });
-              });
-            }
-            $attachmentList.html(markup);
+            def.resolve(JSON.parse(this.responseText));
         };
         xhr.open('POST', attachUrl);
         xhr.send(formData);
@@ -119,6 +129,8 @@ define('views/comm',
         // Clear input.
         $thread.find('.attachment-field:first-child input').val('');
         $thread.find('.attachment-field:not(:first-child)').remove();
+
+        return def.promise();
     };
 
     z.page.on('click', '.reply.button.open-reply', function(e) {
@@ -153,7 +165,6 @@ define('views/comm',
         if (postNoteEnabled) {
             postNote($this.siblings('.reply-text'), $this.hasClass('create-thread')).done(function(note) {
                 replyBox.val('');
-                postAttachments($this.closest('.thread-item'), note.id);
             });
         }
 
