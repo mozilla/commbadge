@@ -32,6 +32,7 @@ package/archives/*
 settings_local.js
 settings_local.py
 src/app.html
+src/index.html
 src/server.html
 src/locales/*
 src/media/build_id.txt
