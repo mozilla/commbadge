@@ -32,6 +32,7 @@ package/archives/*
 settings_local.js
 settings_local.py
 src/app.html
+src/index.html
 src/server.html
 src/locales/*
 src/media/build_id.txt
@@ -41,6 +42,7 @@ src/media/imgurls.txt
 src/media/include.css
 src/media/include.js
 src/media/js/include.js
+src/media/js/include.js.map
 src/media/js/l10n.js
 src/media/js/lib/
 src/media/js/views.js

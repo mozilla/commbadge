@@ -30,29 +30,41 @@ define('settings', ['l10n', 'settings_local', 'underscore'], function(l10n, sett
         title_suffix: 'Marketplace Communication Dashboard',
 
         NOTE_TYPE_NO_ACTION: 0,
-        NOTE_TYPE_REVIEWER_COMMENT: 6,
         NOTE_TYPE_DEVELOPER_COMMENT: 14,
+        NOTE_TYPE_REVIEWER_COMMENT: 28,
 
+        // Must be in order as in mkt/constants/comm.py.
         note_types: [
-            {'name': 'NO_ACTION', 'class': 'post', 'msg': gettext('Message')},
-            {'name': 'APPROVAL', 'class': 'approve','msg': gettext('App approved')},
-            {'name': 'REJECTION', 'class': 'reject', 'msg': gettext('App rejected')},
-            {'name': 'DISABLED', 'class': 'disable', 'msg': gettext('App banned')},
-            {'name': 'MORE_INFO_REQUIRED', 'class': 'need-info', 'msg': gettext('More info required')},
-            {'name': 'ESCALATION', 'class': 'escalate', 'msg': gettext('Review escalated to senior reviewer')},
-            {'name': 'REVIEWER_COMMENT', 'class': 'comment', 'msg': gettext('Reviewer comment')},
-            {'name': 'RESUBMISSION', 'class': 'resubmit', 'msg': gettext('App resubmission')},
-
-            {'name': 'APPROVE_VERSION_WAITING', 'class': 'approve-waiting', 'msg': gettext('Approved but waiting to be made public')},
-            {'name': 'ESCALATION_HIGH_ABUSE', 'class': 'escalate-abuse', 'msg': gettext('Escalated due to High Abuse Reports')},
-            {'name': 'ESCALATION_HIGH_REFUNDS', 'class': 'escalate-high-refunds', 'msg': gettext('Escalated due to High Refund Requests')},
-            {'name': 'ESCALATION_CLEARED', 'class': 'escalate-clear', 'msg': gettext('Escalation cleared')},
-            {'name': 'REREVIEW_CLEARED', 'class': 'rereview-clear', 'msg': gettext('Re-review cleared')},
-            {'name': 'SUBMISSION', 'class': 'submission', 'msg': gettext('App submission note')},
-            {'name': 'DEVELOPER_COMMENT', 'class': 'developer-comment', 'msg': gettext('Developer comment')},
-            {'name': 'ESCALATION_VIP_APP', 'class': 'escalate', 'msg': gettext('Escalation due to VIP app')},
-            {'name': 'DEVELOPER_VERSION_NOTE_FOR_REVIEWER', 'class': 'developer-comment', 'msg': gettext('Version notes for reviewer')},
-            {'name': 'REVIEWER_PUBLIC_COMMENT', 'class': 'comment', 'msg': gettext('Reviewer comment')},
+            {'msg': gettext('Message'), 'class': 'gray'}, // 0
+            {'msg': gettext('App approved'), 'class': 'green'},
+            {'msg': gettext('App rejected'), 'class': 'red'},
+            {'msg': gettext('App banned'), 'class': 'red'},
+            {'msg': gettext('More info required'), 'class': 'gray'},
+            {'msg': gettext('Escalated to senior reviewer'), 'class': 'orange'}, // 5
+            {'msg': gettext('Internal reviewer comment'), 'class': 'gray'},
+            {'msg': gettext('App resubmission'), 'class': 'green'},
+            {'msg': gettext('Approved but waiting to be made public'), 'class': 'green'},
+            {'msg': gettext('Escalated due to high abuse reports'), 'class': 'orange'},
+            {'msg': gettext('Escalated due to high refund requests'), 'class': 'orange'}, // 10
+            {'msg': gettext('Escalation cleared'), 'class': 'green'},
+            {'msg': gettext('Re-review cleared'), 'class': 'green'},
+            {'msg': gettext('App submission note'), 'class': 'gray'},
+            {'msg': gettext('Developer comment'), 'class': 'gray'},
+            {'msg': gettext('Device(s) changed by reviewer'), 'class': 'gray'}, // 15
+            {'msg': gettext('Feature(s) changed by reviewer'), 'class': 'gray'},
+            {'msg': gettext('Review manifest change'), 'class': 'gray'},
+            {'msg': gettext('Review manifest url change'), 'class': 'gray'},
+            {'msg': gettext('Review manifest premium type upgrade'), 'class': 'gray'},
+            {'msg': gettext('Re-review devices added'), 'class': 'gray'},  // 20
+            {'msg': gettext('Re-review features changed'), 'class': 'gray'},
+            {'msg': gettext('Escalation due to VIP App'), 'class': 'orange'},
+            {'msg': gettext('Escalation due to prerelease App'), 'class': 'orange'},
+            {'msg': gettext('Priority review requested'), 'class': 'orange'},  // 25
+            {'msg': gettext('Tarako review passed'), 'class': 'green'},
+            {'msg': gettext('Tarako review failed'), 'class': 'red'},
+            {'msg': gettext('Version notes for reviewer'), 'class': 'gray'},
+            {'msg': gettext('Reviewer comment'), 'class': 'gray'},
+            {'msg': gettext('Re-review content rating adult'), 'class': 'gray'}
         ],
     });
 });
