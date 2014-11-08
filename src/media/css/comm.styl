@@ -180,24 +180,17 @@ tick() {
         }
         .note-action {
             font-weight: bold;
-            &.post {
+
+            &.gray {
                 color: $medium-gray;
             }
-            &.approve,
-            &.approve-waiting,
-            &.escalate-clear,
-            &.rereview-clear {
+            &.green {
                 color: $green;
             }
-            &.disable,
-            &.reject {
+            &.red {
                 color: $red;
             }
-            &.need-info,
-            &.escalate,
-            &.resubmit,
-            &.escalate-abuse,
-            &.escalate-high-refunds {
+            &.orange {
                 color: $orange;
             }
         }
