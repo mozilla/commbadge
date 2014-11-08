@@ -30,8 +30,8 @@ define('settings', ['l10n', 'settings_local', 'underscore'], function(l10n, sett
         title_suffix: 'Marketplace Communication Dashboard',
 
         NOTE_TYPE_NO_ACTION: 0,
-        NOTE_TYPE_REVIEWER_COMMENT: 6,
         NOTE_TYPE_DEVELOPER_COMMENT: 14,
+        NOTE_TYPE_REVIEWER_COMMENT: 28,
 
         // Must be in order as in mkt/constants/comm.py.
         note_types: [
@@ -57,7 +57,6 @@ define('settings', ['l10n', 'settings_local', 'underscore'], function(l10n, sett
             {'msg': gettext('Review manifest premium type upgrade'), 'class': 'gray'},
             {'msg': gettext('Re-review devices added'), 'class': 'gray'},  // 20
             {'msg': gettext('Re-review features changed'), 'class': 'gray'},
-            {'msg': gettext('Re-review content rating adult'), 'class': 'gray'},
             {'msg': gettext('Escalation due to VIP App'), 'class': 'orange'},
             {'msg': gettext('Escalation due to prerelease App'), 'class': 'orange'},
             {'msg': gettext('Priority review requested'), 'class': 'orange'},  // 25
@@ -65,6 +64,7 @@ define('settings', ['l10n', 'settings_local', 'underscore'], function(l10n, sett
             {'msg': gettext('Tarako review failed'), 'class': 'red'},
             {'msg': gettext('Version notes for reviewer'), 'class': 'gray'},
             {'msg': gettext('Reviewer comment'), 'class': 'gray'},
+            {'msg': gettext('Re-review content rating adult'), 'class': 'gray'}
         ],
     });
 });
