@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-15T16:06:31.205Z\n"
-"PO-Revision-Date: 2014-09-18 11:33+0000\n"
+"PO-Revision-Date: 2014-11-08 17:26+0000\n"
 "Last-Translator: Marco Aurélio <ouesten@me.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1411039983.0\n"
+"X-POOTLE-MTIME: 1415467610.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -96,7 +96,7 @@ msgstr "Entrar"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
-msgstr "Ícone do Aplicativo"
+msgstr "Ícone do aplicativo"
 
 #: /templates/comm/app_dashboard.html:7
 msgid "Viewing All Threads for {app_name}"
@@ -132,7 +132,7 @@ msgstr "Hum...um erro?"
 
 #: /templates/comm/note_detail.html:12
 msgid "Empty note"
-msgstr "Nota Vazia"
+msgstr "Nota vazia"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -251,7 +251,7 @@ msgstr "Revisão escalada para revisor sênior"
 
 #: /media/js/settings.js:43
 msgid "Reviewer comment"
-msgstr "Comentário do Revisador"
+msgstr "Comentário do revisor"
 
 #: /media/js/settings.js:44
 msgid "App resubmission"
@@ -299,7 +299,9 @@ msgstr "Você foi conectado"
 
 #: /media/js/commonplace/login.js:216
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "O Login Persona falhou. Talvez você não tenha uma conta com esse endereço de e-mail."
+msgstr ""
+"A autenticação com o Persona falhou. Talvez não tenha uma conta com esse "
+"endereço de email?"
 
 #: /media/js/commonplace/login.js:221
 msgid "Persona login failed. A server error was encountered."
