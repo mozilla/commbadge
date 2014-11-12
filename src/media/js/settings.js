@@ -41,7 +41,7 @@ define('settings', ['l10n', 'settings_local', 'underscore'], function(l10n, sett
             {'msg': gettext('App banned'), 'class': 'red'},
             {'msg': gettext('More info required'), 'class': 'gray'},
             {'msg': gettext('Escalated to senior reviewer'), 'class': 'orange'}, // 5
-            {'msg': gettext('Internal reviewer comment'), 'class': 'gray'},
+            {'msg': gettext('Private reviewer comment'), 'class': 'gray'},
             {'msg': gettext('App resubmission'), 'class': 'green'},
             {'msg': gettext('Approved but waiting to be made public'), 'class': 'green'},
             {'msg': gettext('Escalated due to high abuse reports'), 'class': 'orange'},
@@ -63,7 +63,7 @@ define('settings', ['l10n', 'settings_local', 'underscore'], function(l10n, sett
             {'msg': gettext('Tarako review passed'), 'class': 'green'},
             {'msg': gettext('Tarako review failed'), 'class': 'red'},
             {'msg': gettext('Version notes for reviewer'), 'class': 'gray'},
-            {'msg': gettext('Reviewer comment'), 'class': 'gray'},
+            {'msg': gettext('Public reviewer comment'), 'class': 'gray'},
             {'msg': gettext('Re-review content rating adult'), 'class': 'gray'}
         ],
     });
