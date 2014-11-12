@@ -1,5 +1,5 @@
-Commbadge is the front-end for the Communication Dashboard for the Firefox
-Marketplace for centralized communication between app developers and app
+The frontend for the Communication Dashboard for the Firefox
+Marketplace. Allows centralized communication between app developers and app
 reviewers.
 
 - [Marketplace frontend documentation](https://marketplace-frontend.readthedocs.org)
