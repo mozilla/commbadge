@@ -1,16 +1,16 @@
-# Commbadge
-
 Commbadge is the front-end for the Communication Dashboard for the Firefox
 Marketplace for centralized communication between app developers and app
 reviewers.
 
-## Usage
+- [Marketplace frontend documentation](https://marketplace-frontend.readthedocs.org)
+- [Marketplace documentation](https://marketplace.readthedocs.org)
+- [Marketplace API documentation](https://firefox-marketplace-api.readthedocs.org)
 
-From the terminal, run the following commands:
+![](http://i.imgur.com/SQhGhUm.png)
+
+## Installation
 
 ```bash
 make init
 make serve
 ```
-
-[Commonplace README](https://github.com/mozilla/commonplace/blob/master/README.md)
