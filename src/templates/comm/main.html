@@ -2,7 +2,7 @@
 
 <section class="main">
   <h1>{{ _('My Threads') }}</h1>
-  <a class="devhub back" href="/developers/">{{ _('Go to Developer Hub') }}</a>
+  <a class="devhub comm-back" href="/developers/">{{ _('Go to Developer Hub') }}</a>
 
   <div class="threads-container">
     {% defer (url=apiParams('threads', ordering='-modified'), pluck='objects') %}
