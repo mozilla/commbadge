@@ -14,7 +14,7 @@
     "bower": "1.3.x",
     "commonplace": "0.6.49",
     "gulp": "3.8.x",
-    "marketplace-gulp": "1.2.6",
+    "marketplace-gulp": "1.2.71",
     "node.extend": "1.1.2"
   },
   "devDependencies": {

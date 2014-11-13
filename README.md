@@ -11,6 +11,7 @@ reviewers.
 ## Installation
 
 ```bash
-make init
+npm install
+make install
 make serve
 ```
