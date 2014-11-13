@@ -7,7 +7,7 @@
       <h1 class="show-thread">
         {{ _('Viewing Thread for {app_name}', app_name=this.addon_meta.name) }}
       </h1>
-      <a class="back" href="{{ url('app_dashboard', [this.addon_meta.app_slug]) }}">
+      <a class="comm-back" href="{{ url('app_dashboard', [this.addon_meta.app_slug]) }}">
         {{ _('Back to all threads for {app_name}', app_name=this.addon_meta.name) }}</a>
     </div>
 
@@ -19,11 +19,11 @@
   {% except %}
     {% if error == 404 %}
       <h1 class="error">{{ _('Thread Not Found') }}</h1>
-      <a class="back" href="{{ url('comm') }}">{{ _('Back to my threads')|safe }}</a>
+      <a class="comm-back" href="{{ url('comm') }}">{{ _('Back to my threads')|safe }}</a>
       <p>{{ _('Sorry, the thread you requested was not found.') }}</p>
     {% else %}
       <h1 class="error">{{ _('Error Loading Thread') }}</h1>
-      <a class="back" href="{{ url('comm') }}">{{ _('Back to my threads')|safe }}</a>
+      <a class="comm-back" href="{{ url('comm') }}">{{ _('Back to my threads')|safe }}</a>
       <p>{{ _('Sorry, there was an error fetching this thread.') }}</p>
     {% endif %}
   {% end %}

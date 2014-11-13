@@ -25,9 +25,8 @@ def pre_update(ref):
 def update():
     with lcd(COMMBADGE):
         local('npm install')
-        local('make update')
+        local('make install')
         local('cp src/media/js/settings_local_hosted.js src/media/js/settings_local.js')
-
         local('make build')
         local('node_modules/.bin/commonplace langpacks')
 
