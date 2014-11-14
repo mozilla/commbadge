@@ -1,16 +1,20 @@
 (function() {
 
+var root = '^/comm/';
+
 // Please leave quotes around keys! They're needed for Space Heater.
 var routes = window.routes = [
-    {'pattern': '^/comm/?$', 'view_name': 'comm'},
-    {'pattern': '^/comm/app/([^/<>"\']+)$', 'view_name': 'app_dashboard'},
-    {'pattern': '^/comm/login$', 'view_name': 'login'},
-    {'pattern': '^/comm/thread/(\\d+)$', 'view_name': 'show_thread'}
+    {'pattern': root + '?$', 'view_name': 'comm'},
+    {'pattern': root + 'app/([^/<>"\']+)$', 'view_name': 'app_dashboard'},
+    {'pattern': '^/fxa-authorize$', 'view_name': 'fxa_authorize'},
+    {'pattern': root + 'login$', 'view_name': 'login'},
+    {'pattern': root + 'thread/(\\d+)$', 'view_name': 'show_thread'}
 ];
 
 define('routes', [
     'views/app_dashboard',
     'views/comm',
+    'views/fxa_authorize',
     'views/login',
     'views/show_thread'
 ], function() {
