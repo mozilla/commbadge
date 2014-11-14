@@ -93,7 +93,7 @@ console.log('Marketplace Communication Dashboard');
 
         // Perform initial navigation.
         console.log('Triggering initial navigation');
-        if (!user.logged_in()) {
+        if (!user.logged_in() && window.location.pathname != urls.reverse('fxa_authorize')) {
             z.page.trigger('navigate', [urls.reverse('login')]);
         } else if (!z.spaceheater) {
             z.page.trigger('navigate', [window.location.pathname +
