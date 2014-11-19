@@ -1,103 +1,108 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-15T16:06:31.205Z\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2014-11-19 08:03+0000\n"
+"Last-Translator: SreeMegha21 <s.guha21@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: bn_IN\n"
 "MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);Content-Type: text/plain; charset=UTF-8\n"
-"X-Generator: Fireplace L10n Tools 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1416384229.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
-msgstr ""
+msgstr "বন্ধ করা"
 
 #: /templates/confirmation.html:3
 msgid "No"
-msgstr ""
+msgstr "না"
 
 #: /templates/confirmation.html:4
 msgid "Yes"
-msgstr ""
+msgstr "হ্যাঁ"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
-msgstr ""
+msgstr "এপস ডেভলপ করুন"
 
 #: /templates/footer.html:5
 msgid "Developer Hub"
-msgstr ""
+msgstr "ডেভেলপার হাব"
 
 #: /templates/footer.html:6
 msgid "Support"
-msgstr ""
+msgstr "সমর্থন"
 
 #: /templates/footer.html:10
 msgid "My Submissions"
-msgstr ""
+msgstr "আমার জমা"
 
 #: /templates/footer.html:13
 msgid "Reviewer Tools"
-msgstr ""
+msgstr "পর্যালোচনাকারী সরঞ্জাম"
 
 #: /templates/footer.html:16
 msgid "Lookup Tool"
-msgstr ""
+msgstr "লুকআপ টুল"
 
 #: /templates/footer.html:24
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
 "Alike License v3.0</a> or any later version."
 msgstr ""
+"অন্যথায় <a href=\"{legal_url}\" target=\"_blank\"> করুন </a> লক্ষনীয় যেখানে "
+"ছাড়া, এই সাইটে কন্টেন্ট <a href=\"{cc_url}\" target=\"_blank\">ক্রিয়েটিভ কমন্স "
+"অ্যাট্রিবিউশন আওতায় লাইসেন্সকৃত শেয়ার করুন-আলাইক লাইসেন্সের v3.0</a> বা "
+"পায় যে তারা."
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
-msgstr ""
+msgstr "গোপনীয়তা নীতি"
 
 #: /templates/footer.html:30
 msgid "Terms of Use"
-msgstr ""
+msgstr "ব্যবহারের শর্তাবলী"
 
 #: /templates/footer.html:32
 msgid "Report Trademark Abuse"
-msgstr ""
+msgstr "ট্রেডমার্ক অপব্যবহার সম্বন্ধে রিপোর্ট"
 
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
-msgstr ""
+msgstr "সাইন ইন"
 
 #: /templates/login.html:3
 msgid "You must sign in to proceed."
-msgstr ""
+msgstr "আপনাকে এগিয়ে যেতে সাইন ইন করতে হবে।"
 
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
-msgstr ""
+msgstr "সাইন ইন / সাইন আপ করুন"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
-msgstr ""
+msgstr "যোগাযোগের ড্যাশবোর্ড"
 
 #: /templates/header.html:7
 msgid "Sign Out"
-msgstr ""
+msgstr "সাইন আউট"
 
 #: /templates/header.html:8
 msgid "Sign In"
-msgstr ""
+msgstr "সাইন ইন"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
-msgstr ""
+msgstr "অ্যাপ আইকন"
 
 #: /templates/comm/app_dashboard.html:7
 msgid "Viewing All Threads for {app_name}"
-msgstr ""
+msgstr "{app_name} জন্য সকল টপিক দেখছেন"
 
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
@@ -105,23 +110,23 @@ msgstr ""
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
-msgstr ""
+msgstr "সংযুক্তি"
 
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
-msgstr ""
+msgstr "ফাইলর বিবরণ"
 
 #: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
 msgid "No notes found"
-msgstr ""
+msgstr "কোন নোটা পাওয়া যায়নি"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
-msgstr ""
+msgstr "আমার টপিক"
 
 #: /templates/comm/main.html:14
 msgid "You have no threads."
-msgstr ""
+msgstr "আপনার কোন থ্রেড নেই।"
 
 #: /templates/comm/main.html:16
 msgid "Hmm...an error?"
@@ -129,15 +134,15 @@ msgstr ""
 
 #: /templates/comm/note_detail.html:12
 msgid "Empty note"
-msgstr ""
+msgstr "খালি নোট"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
-msgstr ""
+msgstr "{অ্যাপ_নেম} জন্য থ্রেড দেখছেন"
 
 #: /templates/comm/show_thread.html:10
 msgid "Back to all threads for {app_name}"
-msgstr ""
+msgstr "পিছনে {app_name} জন্য সকল টপিক থেকে"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
@@ -146,49 +151,49 @@ msgstr ""
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
-msgstr ""
+msgstr "v.{version_number}"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
-msgstr ""
+msgstr "এখানে উল্লেেখ্য টেক্সট লিখুন"
 
 #: /templates/_macros/reply_box.html:6
 msgid "Attach screenshots and log files:"
-msgstr ""
+msgstr "স্ক্রিনশট সংযুক্ত করুন এবং লগ ফাইল:"
 
 #: /templates/_macros/reply_box.html:8
 msgid "Attach another file"
-msgstr ""
+msgstr "আরেকটি ফাইল সংযুক্ত করুন"
 
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
-msgstr ""
+msgstr "পোষ্ট করুন"
 
 #: /templates/_macros/thread.html:20
 msgid "View older"
-msgstr ""
+msgstr "দেখুন পুরোনো"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
-msgstr ""
+msgstr "{app_name} (সংস্করণ {version_number})"
 
 #: /templates/_macros/thread_header.html:21
 msgid "(Obsolete)"
-msgstr ""
+msgstr "(অপ্রচলিত)"
 
 #: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:50
 msgid "{n} note"
 msgid_plural "{n} notes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{n} নোট"
+msgstr[1] "{n} নোটগুলি"
 
 #: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:60 /media/js/views/comm.js:142
 msgid "Reply"
-msgstr ""
+msgstr "জবাব"
 
 #: /templates/_macros/thread_header.html:41
 msgid "Recent"
-msgstr ""
+msgstr "সাম্প্রতিক"
 
 #: /templates/_macros/thread_header.html:43
 msgid "View App"
@@ -196,43 +201,43 @@ msgstr ""
 
 #: /templates/_macros/thread_header.html:47
 msgid "Unsubscribe"
-msgstr ""
+msgstr "আনসাবস্ক্রাইব"
 
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
-msgstr ""
+msgstr "পর্যালোচনা"
 
 #: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
-msgstr ""
+msgstr "ওহ না!"
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
-msgstr ""
+msgstr "সমস্যা দেখা দিয়েছে।"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
-msgstr ""
+msgstr "আপনি যেই পাতা খুজছিলেন সেটি পাওয়া জায়েনি।"
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
-msgstr ""
+msgstr "ত্রুটি লোড হচ্ছে আরও"
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
-msgstr ""
+msgstr "পুনরায় চেষ্টা করুন"
 
 #: /media/js/settings.js:37
 msgid "Message"
-msgstr ""
+msgstr "বার্তা"
 
 #: /media/js/settings.js:38
 msgid "App approved"
-msgstr ""
+msgstr "অ্যাপ অনুমোদিত"
 
 #: /media/js/settings.js:39
 msgid "App rejected"
-msgstr ""
+msgstr "অ্যাপ বাতিল"
 
 #: /media/js/settings.js:40
 msgid "App banned"
@@ -240,39 +245,39 @@ msgstr ""
 
 #: /media/js/settings.js:41
 msgid "More info required"
-msgstr ""
+msgstr "প্রয়োজনীয় আরও তথ্য"
 
 #: /media/js/settings.js:42
 msgid "Review escalated to senior reviewer"
-msgstr ""
+msgstr "পর্যালোচনা সিনিয়র সমালোচক যাও ছড়ানোর"
 
 #: /media/js/settings.js:43
 msgid "Reviewer comment"
-msgstr ""
+msgstr "দেখার মন্তব্য"
 
 #: /media/js/settings.js:44
 msgid "App resubmission"
-msgstr ""
+msgstr "অ্যাপ পুনঃজমা"
 
 #: /media/js/settings.js:46
 msgid "Approved but waiting to be made public"
-msgstr ""
+msgstr "কিন্তু পাবলিক তৈরি হওয়ার জন্য অপেক্ষা করছে অনুমোদিত"
 
 #: /media/js/settings.js:47
 msgid "Escalated due to High Abuse Reports"
-msgstr ""
+msgstr "কারণে উচ্চ অপব্যবহার প্রতিবেদন করার ছড়ানোর"
 
 #: /media/js/settings.js:48
 msgid "Escalated due to High Refund Requests"
-msgstr ""
+msgstr "কারণে উচ্চ পরিশোধের অনুরোধ করতে ছড়ানোর"
 
 #: /media/js/settings.js:49
 msgid "Escalation cleared"
-msgstr ""
+msgstr "এস্কেলশন সাফ"
 
 #: /media/js/settings.js:50
 msgid "Re-review cleared"
-msgstr ""
+msgstr "পুনরায় পর্যালোচনা"
 
 #: /media/js/settings.js:51
 msgid "App submission note"
@@ -284,23 +289,23 @@ msgstr ""
 
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
-msgstr ""
+msgstr "কোন ইন্টারনেট সংযোগ নেই"
 
 #: /media/js/commonplace/login.js:24
 msgid "You have been signed out"
-msgstr ""
+msgstr "আপনি সাইন আউট করেছেন"
 
 #: /media/js/commonplace/login.js:28
 msgid "You have been signed in"
-msgstr ""
+msgstr " আপনি সাইন ইন করেছেন         "
 
 #: /media/js/commonplace/login.js:216
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr ""
+msgstr "পারসনা লগিন ব্যরথ। হতে পারে আপনি যে ইমেল ঠিকানা অধীন একটি একাউন্ট নেই?"
 
 #: /media/js/commonplace/login.js:221
 msgid "Persona login failed. A server error was encountered."
-msgstr ""
+msgstr "পারসনা লগিন ব্যার্থ। একটি সার্ভার ত্রুটির সম্মুখীন হয়েছিল।"
 
 #: /media/js/commonplace/login.js:291
 msgid "Persona cannot be reached. Try again later."
@@ -310,24 +315,24 @@ msgstr ""
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "<b>{n}</b> অক্ষর বাকি।"
+msgstr[1] "<b>{n}</b> টি অক্ষর বাকি।"
 
 #: /media/js/views/comm.js:67
 msgid "Message sent."
-msgstr ""
+msgstr "বার্তা পাঠানো হয়েছে।"
 
 #: /media/js/views/comm.js:72
 msgid "Message sending failed."
-msgstr ""
+msgstr "বার্তা পাঠানো ব্যর্থ হয়েছে।"
 
 #: /media/js/views/comm.js:132
 msgid "Cancel reply"
-msgstr ""
+msgstr "উত্তর বাতিল করুন"
 
 #: /media/js/views/comm.js:170
 msgid "There are no more older notes."
-msgstr ""
+msgstr "কোন পুরনো নোট নেই।"
 
 #: /media/js/views/comm.js:193
 msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
@@ -344,4 +349,4 @@ msgstr ""
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9
 msgid "Not Found"
-msgstr ""
+msgstr "পাওয়া যায়নি"
