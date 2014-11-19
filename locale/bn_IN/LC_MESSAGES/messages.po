@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-15T16:06:31.205Z\n"
-"PO-Revision-Date: 2014-11-19 08:03+0000\n"
+"PO-Revision-Date: 2014-11-19 15:12+0000\n"
 "Last-Translator: SreeMegha21 <s.guha21@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bn_IN\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1416384229.0\n"
+"X-POOTLE-MTIME: 1416409974.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -106,7 +106,7 @@ msgstr "{app_name} জন্য সকল টপিক দেখছেন"
 
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
-msgstr ""
+msgstr "অ্যাপ সম্পাদনা পৃষ্ঠায়ে ফিরে যান"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
@@ -130,7 +130,7 @@ msgstr "আপনার কোন থ্রেড নেই।"
 
 #: /templates/comm/main.html:16
 msgid "Hmm...an error?"
-msgstr ""
+msgstr "হুম ... কোন ত্রুটি?"
 
 #: /templates/comm/note_detail.html:12
 msgid "Empty note"
@@ -146,7 +146,7 @@ msgstr "পিছনে {app_name} জন্য সকল টপিক থেক
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
-msgstr ""
+msgstr "এই অ্যাপ এর সংস্করণ"
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
@@ -197,7 +197,7 @@ msgstr "সাম্প্রতিক"
 
 #: /templates/_macros/thread_header.html:43
 msgid "View App"
-msgstr ""
+msgstr "অ্যাপ দেখুন"
 
 #: /templates/_macros/thread_header.html:47
 msgid "Unsubscribe"
@@ -241,7 +241,7 @@ msgstr "অ্যাপ বাতিল"
 
 #: /media/js/settings.js:40
 msgid "App banned"
-msgstr ""
+msgstr "অ্যাপ নিষিদ্ধ হয়েছে"
 
 #: /media/js/settings.js:41
 msgid "More info required"
@@ -281,11 +281,11 @@ msgstr "পুনরায় পর্যালোচনা"
 
 #: /media/js/settings.js:51
 msgid "App submission note"
-msgstr ""
+msgstr "অ্যাপ জমা করার উল্লেখ্য"
 
 #: /media/js/settings.js:52
 msgid "Developer comment"
-msgstr ""
+msgstr "ডেভেলপার মন্তব্য"
 
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
@@ -309,7 +309,7 @@ msgstr "পারসনা লগিন ব্যার্থ। একটি �
 
 #: /media/js/commonplace/login.js:291
 msgid "Persona cannot be reached. Try again later."
-msgstr ""
+msgstr "Persona পৌছনো যাছে না। পরে আবার চেষ্টা করুন।"
 
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
@@ -337,14 +337,18 @@ msgstr "কোন পুরনো নোট নেই।"
 #: /media/js/views/comm.js:193
 msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
 msgstr ""
+"এই থ্রেড থেকে আন-সাবস্ক্রাইব করে, আপনি আর এই থ্রেড থেকে ইমেল বিজ্ঞপ্তি পাবেন "
+"না। আপনি কি নিশ্চিত?"
 
 #: /media/js/views/comm.js:198
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
 msgstr ""
+"সফলভাবে আন-সাবস্ক্রাইব করা হয়েছে। আপনি এই থ্রেডের জন্য আর ইমেল বিজ্ঞপ্তি "
+"পাবেন না।"
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"
-msgstr ""
+msgstr "ওহে দুনিয়া!"
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9
