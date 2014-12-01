@@ -4,14 +4,15 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-15T16:06:31.205Z\n"
-"PO-Revision-Date: 2014-09-06 12:51+0200\n"
+"PO-Revision-Date: 2014-12-01 13:11+0100\n"
 "Last-Translator: Wojciech Szczęsny\n"
 "Language-Team: Polish <team@aviary.pl>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.4\n"
 
 #: /templates/confirmation.html:0
@@ -52,10 +53,14 @@ msgstr "Narzędzie sprawdzania"
 
 #: /templates/footer.html:24
 msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, "
+"content on this site is licensed under the <a href=\"{cc_url}\" "
+"target=\"_blank\">Creative Commons Attribution Share-"
 "Alike License v3.0</a> or any later version."
 msgstr ""
-"Wyłączając miejsca, gdzie wskazano <a href=\"{legal_url}\" target=\"_blank\">inaczej</a>, zawartość tej witryny jest dostępna na licencji <a href=\"{cc_url}\" target=\"_blank\">Creative Commons "
+"Wyłączając miejsca, gdzie wskazano <a href=\"{legal_url}\" target=\"_blank\">"
+"inaczej</a>, zawartość tej witryny jest dostępna na licencji <a "
+"href=\"{cc_url}\" target=\"_blank\">Creative Commons "
 "Attribution Share-Alike License wer. 3.0</a> lub dowolnej nowszej wersji."
 
 #: /templates/footer.html:29
@@ -240,7 +245,7 @@ msgstr "Odrzucono aplikację"
 
 #: /media/js/settings.js:40
 msgid "App banned"
-msgstr ""
+msgstr "Zablokowano aplikację"
 
 #: /media/js/settings.js:41
 msgid "More info required"
@@ -299,8 +304,12 @@ msgid "You have been signed in"
 msgstr "Zalogowano"
 
 #: /media/js/commonplace/login.js:216
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Logowanie Persona nie powiodło się. Być może nie masz konta dla tego adresu e-mail?"
+msgid ""
+"Persona login failed. Maybe you don't have an account under that email "
+"address?"
+msgstr ""
+"Logowanie Persona nie powiodło się. Być może nie masz konta dla tego adresu "
+"e-mail?"
 
 #: /media/js/commonplace/login.js:221
 msgid "Persona login failed. A server error was encountered."
@@ -335,12 +344,20 @@ msgid "There are no more older notes."
 msgstr "Nie ma więcej starszych informacji."
 
 #: /media/js/views/comm.js:193
-msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr "Poprzez anulowanie subskrypcji tego wątku nie będziesz więcej otrzymywać powiadomień e-mail z tego wątku. Czy masz pewność?"
+msgid ""
+"By unsubscribing from this thread, you will no longer receive email "
+"notifications from this thread. Are you sure?"
+msgstr ""
+"Poprzez anulowanie subskrypcji tego wątku nie będziesz więcej otrzymywać "
+"powiadomień e-mail z tego wątku. Czy masz pewność?"
 
 #: /media/js/views/comm.js:198
-msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr "Pomyślnie anulowano subskrypcję. Nie będziesz więcej otrzymywać powiadomień z tego wątku."
+msgid ""
+"Successfully unsubscribed. You will no longer receive email notifications for "
+"that thread."
+msgstr ""
+"Pomyślnie anulowano subskrypcję. Nie będziesz więcej otrzymywać powiadomień z "
+"tego wątku."
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"
@@ -350,3 +367,4 @@ msgstr "Witaj świecie!"
 #: /media/js/views/commonplace/not_found.js:9
 msgid "Not Found"
 msgstr "Nie znaleziono"
+
