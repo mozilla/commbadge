@@ -55,10 +55,8 @@ msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
 "Alike License v3.0</a> or any later version."
 msgstr ""
-"অন্যথায় <a href=\"{legal_url}\" target=\"_blank\"> করুন </a> লক্ষনীয় যেখানে "
-"ছাড়া, এই সাইটে কন্টেন্ট <a href=\"{cc_url}\" target=\"_blank\">ক্রিয়েটিভ কমন্স "
-"অ্যাট্রিবিউশন আওতায় লাইসেন্সকৃত শেয়ার করুন-আলাইক লাইসেন্সের v3.0</a> বা "
-"পায় যে তারা."
+"অন্যথায় <a href=\"{legal_url}\" target=\"_blank\"> করুন </a> লক্ষনীয় যেখানে ছাড়া, এই সাইটে কন্টেন্ট <a href=\"{cc_url}\" target=\"_blank\">ক্রিয়েটিভ কমন্স অ্যাট্রিবিউশন আওতায় লাইসেন্সকৃত শেয়ার করুন-আলাইক "
+"লাইসেন্সের v3.0</a> বা পায় যে তারা."
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
@@ -336,15 +334,11 @@ msgstr "কোন পুরনো নোট নেই।"
 
 #: /media/js/views/comm.js:193
 msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr ""
-"এই থ্রেড থেকে আন-সাবস্ক্রাইব করে, আপনি আর এই থ্রেড থেকে ইমেল বিজ্ঞপ্তি পাবেন "
-"না। আপনি কি নিশ্চিত?"
+msgstr "এই থ্রেড থেকে আন-সাবস্ক্রাইব করে, আপনি আর এই থ্রেড থেকে ইমেল বিজ্ঞপ্তি পাবেন না। আপনি কি নিশ্চিত?"
 
 #: /media/js/views/comm.js:198
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr ""
-"সফলভাবে আন-সাবস্ক্রাইব করা হয়েছে। আপনি এই থ্রেডের জন্য আর ইমেল বিজ্ঞপ্তি "
-"পাবেন না।"
+msgstr "সফলভাবে আন-সাবস্ক্রাইব করা হয়েছে। আপনি এই থ্রেডের জন্য আর ইমেল বিজ্ঞপ্তি পাবেন না।"
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"

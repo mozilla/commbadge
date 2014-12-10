@@ -299,9 +299,7 @@ msgstr "Você foi conectado"
 
 #: /media/js/commonplace/login.js:216
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr ""
-"A autenticação com o Persona falhou. Talvez não tenha uma conta com esse "
-"endereço de email?"
+msgstr "A autenticação com o Persona falhou. Talvez não tenha uma conta com esse endereço de email?"
 
 #: /media/js/commonplace/login.js:221
 msgid "Persona login failed. A server error was encountered."
