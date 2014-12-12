@@ -4,25 +4,28 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
     <title>Communication Dashboard</title>
-        <!-- These styles need to come first. -->
-    <link rel="stylesheet" href="/media/css/reset.styl.css">
-    <link rel="stylesheet" href="/media/css/typography.styl.css">
-    <link rel="stylesheet" href="/media/css/site.styl.css">
-    <link rel="stylesheet" href="/media/css/header.styl.css">
-    <link rel="stylesheet" href="/media/css/infobox.styl.css">
 
-    <!-- These styles don't need to be in an order. -->
-    <link rel="stylesheet" href="/media/css/buttons.styl.css">
-    <link rel="stylesheet" href="/media/css/forms.styl.css">
-    <link rel="stylesheet" href="/media/css/form-modal.styl.css">
-    <link rel="stylesheet" href="/media/css/modal.styl.css">
-    <link rel="stylesheet" href="/media/css/notification.styl.css">
-    <link rel="stylesheet" href="/media/css/paginator.styl.css">
-    <link rel="stylesheet" href="/media/css/comm.styl.css">
-
+    {% if compiled %}
+      <link rel="stylesheet" href="/media/css/include.css">
+    {% else %}
+      <!-- These styles need to come first. -->
+      <link rel="stylesheet" href="/media/css/reset.styl.css">
+      <link rel="stylesheet" href="/media/css/typography.styl.css">
+      <link rel="stylesheet" href="/media/css/site.styl.css">
+      <link rel="stylesheet" href="/media/css/header.styl.css">
+      <link rel="stylesheet" href="/media/css/infobox.styl.css">
+      <!-- These styles don't need to be in an order. -->
+      <link rel="stylesheet" href="/media/css/buttons.styl.css">
+      <link rel="stylesheet" href="/media/css/forms.styl.css">
+      <link rel="stylesheet" href="/media/css/form-modal.styl.css">
+      <link rel="stylesheet" href="/media/css/modal.styl.css">
+      <link rel="stylesheet" href="/media/css/notification.styl.css">
+      <link rel="stylesheet" href="/media/css/paginator.styl.css">
+      <link rel="stylesheet" href="/media/css/comm.styl.css">
+    {% endif %}
   </head>
-  <body class="home" data-media="">
 
+  <body class="home" data-media="">
     <noscript><p>Sorry, you need JavaScript to use this site.</p></noscript>
     <div id="splash-overlay"><div class="throbber"></div></div>
 
@@ -35,9 +38,11 @@
 
     <footer id="site-footer"></footer>
 
-    <script src="https://login.persona.org/include.js"></script>
     <script src="/media/js/l10n.js"></script>
-    <script data-main="/media/js/main" src="/media/js/lib/require.js"></script>
-
+    {% if compiled %}
+      <script src="/media/js/include.js" defer></script>
+    {% else %}
+      <script data-main="/media/js/main" src="/media/js/lib/require.js"></script>
+    {% endif %}
   </body>
 </html>
