@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-15T16:06:31.205Z\n"
-"PO-Revision-Date: 2014-12-27 14:48+0000\n"
+"PO-Revision-Date: 2014-12-27 21:21+0000\n"
 "Last-Translator: milupo <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
 "n%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1419691719.0\n"
+"X-POOTLE-MTIME: 1419715263.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -349,7 +349,7 @@ msgstr "Starše noticy njejsu."
 #: /media/js/views/comm.js:193
 msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
 msgstr ""
-"Jolic tutu nitku wotskazaće, njedóstanjeće hižo e-mejlowe zdźělenki z tuteje "
+"Jeli tutu nitku wotskazaće, njedóstanjeće hižo e-mejlowe zdźělenki z tuteje "
 "nitki. Sće wěsty?"
 
 #: /media/js/views/comm.js:198
