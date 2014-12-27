@@ -3,351 +3,367 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-15T16:06:31.205Z\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2014-12-27 15:13+0000\n"
+"Last-Translator: milupo <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);Content-Type: text/plain; "
-"charset=utf-8\n"
-"X-Generator: Fireplace L10n Tools 1.0\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3);\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1419693213.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
-msgstr ""
+msgstr "Zacyniś"
 
 #: /templates/confirmation.html:3
 msgid "No"
-msgstr ""
+msgstr "Ně"
 
 #: /templates/confirmation.html:4
 msgid "Yes"
-msgstr ""
+msgstr "Jo"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
-msgstr ""
+msgstr "Nałoženja wuwijaś"
 
 #: /templates/footer.html:5
 msgid "Developer Hub"
-msgstr ""
+msgstr "Centrum wuwijarjow"
 
 #: /templates/footer.html:6
 msgid "Support"
-msgstr ""
+msgstr "Pomoc"
 
 #: /templates/footer.html:10
 msgid "My Submissions"
-msgstr ""
+msgstr "Móje zapódaśa"
 
 #: /templates/footer.html:13
 msgid "Reviewer Tools"
-msgstr ""
+msgstr "Rědy za pśeglědowarjow"
 
 #: /templates/footer.html:16
 msgid "Lookup Tool"
-msgstr ""
+msgstr "Rěd póglědanja"
 
 #: /templates/footer.html:24
 msgid "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> or any later version."
 msgstr ""
+"Jolic nic hynac <a href=\"{legal_url}\" target=\"_blank\">zapisane</a>, jo "
+"wopśimjeśe toś togo sedła pód licencu <a href=\"{cc_url}\" "
+"target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> "
+"abo pód póznjejšeju wersiju."
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Pšawidła priwatnosći"
 
 #: /templates/footer.html:30
 msgid "Terms of Use"
-msgstr ""
+msgstr "Wužywańske wuměnjenja"
 
 #: /templates/footer.html:32
 msgid "Report Trademark Abuse"
-msgstr ""
+msgstr "Znjewužywanje wikoweje marki k wěsći daś"
 
 #: /templates/login.html:2
 #: /media/js/views/login.js:10
 msgid "Sign in"
-msgstr ""
+msgstr "Pśizjawiś"
 
 #: /templates/login.html:3
 msgid "You must sign in to proceed."
-msgstr ""
+msgstr "Musyśo se pśizjawiś, aby pókšacował."
 
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
-msgstr ""
+msgstr "Pśizjawiś / Registrěrowaś"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
-msgstr ""
+msgstr "Komunikaciski pśeglěd"
 
 #: /templates/header.html:7
 msgid "Sign Out"
-msgstr ""
+msgstr "Wótzjawiś"
 
 #: /templates/header.html:8
 msgid "Sign In"
-msgstr ""
+msgstr "Pśizjawiś"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
-msgstr ""
+msgstr "Nałožeński symbol"
 
 #: /templates/comm/app_dashboard.html:7
 msgid "Viewing All Threads for {app_name}"
-msgstr ""
+msgstr "Wšykne nitki za {app_name} se zwobraznjuju"
 
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
-msgstr ""
+msgstr "Slědk k wobźěłowańskemu bokoju nałoženja"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
-msgstr ""
+msgstr "Pśidank"
 
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
-msgstr ""
+msgstr "Datajowe wopisanje"
 
 #: /templates/comm/no_notes.html:1
 #: /templates/_macros/create_thread.html:10
 #: /templates/_macros/thread.html:15
 msgid "No notes found"
-msgstr ""
+msgstr "Žedne notice namakane"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
-msgstr ""
+msgstr "Móje nitki"
 
 #: /templates/comm/main.html:14
 msgid "You have no threads."
-msgstr ""
+msgstr "Njamaśo nitki."
 
 #: /templates/comm/main.html:16
 msgid "Hmm...an error?"
-msgstr ""
+msgstr "Hmm...zmólka?"
 
 #: /templates/comm/note_detail.html:12
 msgid "Empty note"
-msgstr ""
+msgstr "Prozna notica"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
-msgstr ""
+msgstr "Nitka za {app_name} se zwobraznjujo"
 
 #: /templates/comm/show_thread.html:10
 msgid "Back to all threads for {app_name}"
-msgstr ""
+msgstr "Slědk ku wšym nitkam za {app_name}"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
-msgstr ""
+msgstr "Wersije toś togo nałoženja"
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
-msgstr ""
+msgstr "v {version_number}"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
-msgstr ""
+msgstr "Tekst notice how zapódaś"
 
 #: /templates/_macros/reply_box.html:6
 msgid "Attach screenshots and log files:"
-msgstr ""
+msgstr "Fota wobrazowki a protokolowe dataje pśipowjesyś:"
 
 #: /templates/_macros/reply_box.html:8
 msgid "Attach another file"
-msgstr ""
+msgstr "Dalšnu dataju pśipowjesyś"
 
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
-msgstr ""
+msgstr "Wótpósłaś"
 
 #: /templates/_macros/thread.html:20
 msgid "View older"
-msgstr ""
+msgstr "Starše se woglědaś"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
-msgstr ""
+msgstr "{app_name} (wersija {version_number})"
 
 #: /templates/_macros/thread_header.html:21
 msgid "(Obsolete)"
-msgstr ""
+msgstr "(Zestarjony)"
 
 #: /templates/_macros/thread_header.html:27
 #: /media/js/views/comm.js:50
 msgid "{n} note"
 msgid_plural "{n} notes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{n} notica"
+msgstr[1] "{n} noticy"
+msgstr[2] "{n} notice"
+msgstr[3] "{n} noticow"
 
 #: /templates/_macros/thread_header.html:33
 #: /media/js/views/comm.js:60
 #: /media/js/views/comm.js:142
 msgid "Reply"
-msgstr ""
+msgstr "Wótegroniś"
 
 #: /templates/_macros/thread_header.html:41
 msgid "Recent"
-msgstr ""
+msgstr "Nejnowšy"
 
 #: /templates/_macros/thread_header.html:43
 msgid "View App"
-msgstr ""
+msgstr "Nałoženje se woglědaś"
 
 #: /templates/_macros/thread_header.html:47
 msgid "Unsubscribe"
-msgstr ""
+msgstr "Wótskazaś"
 
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
-msgstr ""
+msgstr "Pśeglědowaś"
 
 #: /templates/errors/fragment.html:1
 #: /templates/errors/404.html:2
 msgid "Oh no!"
-msgstr ""
+msgstr "Ow ně!"
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
-msgstr ""
+msgstr "Zmólka jo nastała."
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
-msgstr ""
+msgstr "Bok, kótaryž pytaśo, njejo se namakał."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
-msgstr ""
+msgstr "Zmólka pśi zacytowanju dalšnych informacijow"
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
-msgstr ""
+msgstr "Hyšći raz wopytaś"
 
 #: /media/js/settings.js:37
 msgid "Message"
-msgstr ""
+msgstr "Powěsć"
 
 #: /media/js/settings.js:38
 msgid "App approved"
-msgstr ""
+msgstr "Nałoženje jo pśizwólone"
 
 #: /media/js/settings.js:39
 msgid "App rejected"
-msgstr ""
+msgstr "Nałoženje jo wótpokazane"
 
 #: /media/js/settings.js:40
 msgid "App banned"
-msgstr ""
+msgstr "Nałoženje jo zastajone"
 
 #: /media/js/settings.js:41
 msgid "More info required"
-msgstr ""
+msgstr "Dalšne informacije trěbne"
 
 #: /media/js/settings.js:42
 msgid "Review escalated to senior reviewer"
-msgstr ""
+msgstr "Pśeglědowanje jo se pśeglědowarjeju wušego rěda pśepódało"
 
 #: /media/js/settings.js:43
 msgid "Reviewer comment"
-msgstr ""
+msgstr "Komentar pśeglědowarja"
 
 #: /media/js/settings.js:44
 msgid "App resubmission"
-msgstr ""
+msgstr "Zasejzapódaśe nałoženja"
 
 #: /media/js/settings.js:46
 msgid "Approved but waiting to be made public"
-msgstr ""
+msgstr "Pśizwólone, ale hyšći njewózjawjone"
 
 #: /media/js/settings.js:47
 msgid "Escalated due to High Abuse Reports"
-msgstr ""
+msgstr "Wjele powěźeńki znjewužywanja dla pśiducemu wušemu městnoju pśepódane"
 
 #: /media/js/settings.js:48
 msgid "Escalated due to High Refund Requests"
 msgstr ""
+"Wjele zarownańskich napšašowanjow dla pśiducemu wušemu městnoji pśepódane"
 
 #: /media/js/settings.js:49
 msgid "Escalation cleared"
-msgstr ""
+msgstr "Pśepódaśe pśiducemu wušemu městnoju wótbyte"
 
 #: /media/js/settings.js:50
 msgid "Re-review cleared"
-msgstr ""
+msgstr "Wóspjetne pśeglědowanje dokóńcone"
 
 #: /media/js/settings.js:51
 msgid "App submission note"
-msgstr ""
+msgstr "Pokaz za zapódaśe nałoženja"
 
 #: /media/js/settings.js:52
 msgid "Developer comment"
-msgstr ""
+msgstr "Wuwijarski komentar"
 
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
-msgstr ""
+msgstr "Žeden internetny zwisk"
 
 #: /media/js/commonplace/login.js:24
 msgid "You have been signed out"
-msgstr ""
+msgstr "Sćo se wótzjawił"
 
 #: /media/js/commonplace/login.js:28
 msgid "You have been signed in"
-msgstr ""
+msgstr "Sćo se pśizjawił"
 
 #: /media/js/commonplace/login.js:216
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr ""
+"Pśizjawjenje z Persona njejo se raźiło. Snaź njamaśo konto pód toś teju "
+"e-mailoweju adresu?"
 
 #: /media/js/commonplace/login.js:221
 msgid "Persona login failed. A server error was encountered."
-msgstr ""
+msgstr "Pśizjawjenje z Persona njejo se raźiło. Serwerowa zmólka jo nastała."
 
 #: /media/js/commonplace/login.js:291
 msgid "Persona cannot be reached. Try again later."
-msgstr ""
+msgstr "Persona njedajo se dostaś. Wopytajśo pózdźej hyšći raz."
 
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "<b>{n}</b> znamuško wušej."
+msgstr[1] "<b>{n}</b> znamušce wušej."
+msgstr[2] "<b>{n}</b> znamuška wušej."
+msgstr[3] "<b>{n}</b> znamuškow wušej."
 
 #: /media/js/views/comm.js:67
 msgid "Message sent."
-msgstr ""
+msgstr "Powěsć jo se pósłała."
 
 #: /media/js/views/comm.js:72
 msgid "Message sending failed."
-msgstr ""
+msgstr "Słanje powěsći njejo se raźiło."
 
 #: /media/js/views/comm.js:132
 msgid "Cancel reply"
-msgstr ""
+msgstr "Wótegrono pśetergnuś"
 
 #: /media/js/views/comm.js:170
 msgid "There are no more older notes."
-msgstr ""
+msgstr "Starše notice njejsu."
 
 #: /media/js/views/comm.js:193
 msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
 msgstr ""
+"Jolic wótskažośo toś tu nitku, njedostanjośo wěcej e-mailowe powěźeńki z toś "
+"teje nitki. Sćo wěsty?"
 
 #: /media/js/views/comm.js:198
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
 msgstr ""
+"Nitka jo se wuspěšnje wótskazała. Njedostanjośo wěcej žedne e-mailowe "
+"powěźeńki za toś tu nitku."
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"
-msgstr ""
+msgstr "Halo swět!"
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9
 msgid "Not Found"
-msgstr ""
+msgstr "Njenamakany"
