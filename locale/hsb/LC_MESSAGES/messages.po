@@ -3,16 +3,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-07T16:58:46.524Z\n"
-"PO-Revision-Date: 2014-12-27 21:21+0000\n"
+"PO-Revision-Date: 2015-01-07 17:57+0000\n"
 "Last-Translator: milupo <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1419715263.0\n"
+"X-POOTLE-MTIME: 1420653425.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -112,7 +113,7 @@ msgstr "{app_name} (wersija {version_number})"
 
 #: /templates/_macros/thread_header.html:19
 msgid "Deleted App"
-msgstr ""
+msgstr "Zhašane nałoženje"
 
 #: /templates/_macros/thread_header.html:21
 msgid "(Obsolete)"
@@ -152,15 +153,15 @@ msgstr "Moje nitki"
 
 #: /templates/comm/main.html:4
 msgid "Go to Developer Hub"
-msgstr ""
+msgstr "K wuwiwarskemu centrumej"
 
 #: /templates/comm/main.html:14
 msgid "You currently are not involved in any communication threads."
-msgstr ""
+msgstr "Tuchwilu njejsće na komunikaciskich nitkach wobdźěleny."
 
 #: /templates/comm/main.html:16
 msgid "Sorry, an error has occurred. Try logging in again."
-msgstr ""
+msgstr "Bohužel je zmylk wustupił. Spytajće so hišće raz přizjewić."
 
 #: /templates/comm/note_detail.html:12
 msgid "Empty note"
@@ -257,11 +258,11 @@ msgstr "Dalše informacije trěbne"
 
 #: /media/js/settings.js:43
 msgid "Escalated to senior reviewer"
-msgstr ""
+msgstr "Přichodnemu wyšemu přepruwowarjej dale daty"
 
 #: /media/js/settings.js:44
 msgid "Private reviewer comment"
-msgstr ""
+msgstr "Priwatny přepruwowarski komentar"
 
 #: /media/js/settings.js:45
 msgid "App resubmission"
@@ -274,10 +275,12 @@ msgstr "Schwalene, ale hišće njewozjewjene"
 #: /media/js/settings.js:47
 msgid "Escalated due to high abuse reports"
 msgstr ""
+"Wjele znjewužiwanskich zdźělenjow dla přichodnemu wyšemu městnu dale daty"
 
 #: /media/js/settings.js:48
 msgid "Escalated due to high refund requests"
 msgstr ""
+"Wjele zarunanskich naprašowanjow dla přichodnemu wyšemu městnu dale daty"
 
 #: /media/js/settings.js:49
 msgid "Escalation cleared"
@@ -297,63 +300,63 @@ msgstr "Wuwiwarski komentar"
 
 #: /media/js/settings.js:53
 msgid "Device(s) changed by reviewer"
-msgstr ""
+msgstr "Graty, kotrež su so wot přepruwowarja změnili"
 
 #: /media/js/settings.js:54
 msgid "Feature(s) changed by reviewer"
-msgstr ""
+msgstr "Funkcije, kotrež su so wot přepruwowarja změnili"
 
 #: /media/js/settings.js:55
 msgid "Review manifest change"
-msgstr ""
+msgstr "Změnu manifesta přepruwować"
 
 #: /media/js/settings.js:56
 msgid "Review manifest url change"
-msgstr ""
+msgstr "Změnu manifesteho URL přepruwować"
 
 #: /media/js/settings.js:57
 msgid "Review manifest premium type upgrade"
-msgstr ""
+msgstr "Aktualizaciju premiumoweho typa manifesta přepruwować"
 
 #: /media/js/settings.js:58
 msgid "Re-review devices added"
-msgstr ""
+msgstr "Přidate graty znowa přepruwować"
 
 #: /media/js/settings.js:59
 msgid "Re-review features changed"
-msgstr ""
+msgstr "Změnjene funkcije znowa přepruwować"
 
 #: /media/js/settings.js:60
 msgid "Escalation due to VIP App"
-msgstr ""
+msgstr "VIP-nałoženja dla přichodnemu wyšemu městnu dale daty"
 
 #: /media/js/settings.js:61
 msgid "Escalation due to prerelease App"
-msgstr ""
+msgstr "Daledaće přichodnemu wyšemu městnu předschwalenja nałoženja dla"
 
 #: /media/js/settings.js:62
 msgid "Priority review requested"
-msgstr ""
+msgstr "Přepruwowanje priority požadane"
 
 #: /media/js/settings.js:63
 msgid "Tarako review passed"
-msgstr ""
+msgstr "Přepruwowanje Tarako je so wobstało"
 
 #: /media/js/settings.js:64
 msgid "Tarako review failed"
-msgstr ""
+msgstr "Přepruwowanje Tarako je so nimokuliło"
 
 #: /media/js/settings.js:65
 msgid "Version notes for reviewer"
-msgstr ""
+msgstr "Wersijowe pokazy za přepruwowarja"
 
 #: /media/js/settings.js:66
 msgid "Public reviewer comment"
-msgstr ""
+msgstr "Zjawny přepruwowarski komentar"
 
 #: /media/js/settings.js:67
 msgid "Re-review content rating adult"
-msgstr ""
+msgstr "Wobsahowe pohódnoćenje Dorosćeny znowa přepruwować"
 
 #: /media/js/views/comm.js:89
 msgid "Message sent."
