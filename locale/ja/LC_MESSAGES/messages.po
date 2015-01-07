@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-07T16:58:46.524Z\n"
-"PO-Revision-Date: 2014-09-17 18:46-0400\n"
+"PO-Revision-Date: 今日 14:08-0400\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -111,7 +111,7 @@ msgstr "{app_name} (バージョン {version_number})"
 
 #: /templates/_macros/thread_header.html:19
 msgid "Deleted App"
-msgstr ""
+msgstr "削除されたアプリ"
 
 #: /templates/_macros/thread_header.html:21
 msgid "(Obsolete)"
@@ -149,15 +149,15 @@ msgstr "自分のスレッド"
 
 #: /templates/comm/main.html:4
 msgid "Go to Developer Hub"
-msgstr ""
+msgstr "開発者センターへ"
 
 #: /templates/comm/main.html:14
 msgid "You currently are not involved in any communication threads."
-msgstr ""
+msgstr "あなたはまだどのコミュニケーションスレッドにも参加していません。"
 
 #: /templates/comm/main.html:16
 msgid "Sorry, an error has occurred. Try logging in again."
-msgstr ""
+msgstr "申し訳ありませんが、何か問題が発生しました。再度ログインしてみてください。"
 
 #: /templates/comm/note_detail.html:12
 msgid "Empty note"
@@ -254,11 +254,11 @@ msgstr "詳しい情報が必要です"
 
 #: /media/js/settings.js:43
 msgid "Escalated to senior reviewer"
-msgstr ""
+msgstr "上級審査に回されました"
 
 #: /media/js/settings.js:44
 msgid "Private reviewer comment"
-msgstr ""
+msgstr "審査担当者の非公開コメント"
 
 #: /media/js/settings.js:45
 msgid "App resubmission"
@@ -270,11 +270,11 @@ msgstr "承認済み、公開待ち"
 
 #: /media/js/settings.js:47
 msgid "Escalated due to high abuse reports"
-msgstr ""
+msgstr "違反報告を多数受けたため上級審査に回されました"
 
 #: /media/js/settings.js:48
 msgid "Escalated due to high refund requests"
-msgstr ""
+msgstr "返金報告を多数受けたため上級審査に回されました"
 
 #: /media/js/settings.js:49
 msgid "Escalation cleared"
@@ -294,63 +294,63 @@ msgstr "開発者のコメント"
 
 #: /media/js/settings.js:53
 msgid "Device(s) changed by reviewer"
-msgstr ""
+msgstr "審査担当者によって対応端末が変更されました"
 
 #: /media/js/settings.js:54
 msgid "Feature(s) changed by reviewer"
-msgstr ""
+msgstr "審査担当者によって対応機能が変更されました"
 
 #: /media/js/settings.js:55
 msgid "Review manifest change"
-msgstr ""
+msgstr "マニフェスト変更の再審査"
 
 #: /media/js/settings.js:56
 msgid "Review manifest url change"
-msgstr ""
+msgstr "マニフェスト URL 変更の再審査"
 
 #: /media/js/settings.js:57
 msgid "Review manifest premium type upgrade"
-msgstr ""
+msgstr "マニフェスト有料化の再審査"
 
 #: /media/js/settings.js:58
 msgid "Re-review devices added"
-msgstr ""
+msgstr "対応端末追加の再審査"
 
 #: /media/js/settings.js:59
 msgid "Re-review features changed"
-msgstr ""
+msgstr "対応機能変更の再審査"
 
 #: /media/js/settings.js:60
 msgid "Escalation due to VIP App"
-msgstr ""
+msgstr "VIP アプリのため上級審査をリクエスト"
 
 #: /media/js/settings.js:61
 msgid "Escalation due to prerelease App"
-msgstr ""
+msgstr "リリース前アプリのため上級審査をリクエスト"
 
 #: /media/js/settings.js:62
 msgid "Priority review requested"
-msgstr ""
+msgstr "優先審査依頼あり"
 
 #: /media/js/settings.js:63
 msgid "Tarako review passed"
-msgstr ""
+msgstr "Tarako 審査合格"
 
 #: /media/js/settings.js:64
 msgid "Tarako review failed"
-msgstr ""
+msgstr "Tarako 審査不合格"
 
 #: /media/js/settings.js:65
 msgid "Version notes for reviewer"
-msgstr ""
+msgstr "審査担当者のためのリリースノート"
 
 #: /media/js/settings.js:66
 msgid "Public reviewer comment"
-msgstr ""
+msgstr "審査担当者の公開コメント"
 
 #: /media/js/settings.js:67
 msgid "Re-review content rating adult"
-msgstr ""
+msgstr "成人向けコンテンツレーティングの再審査"
 
 #: /media/js/views/comm.js:89
 msgid "Message sent."
