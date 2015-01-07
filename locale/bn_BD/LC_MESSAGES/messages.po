@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-15T16:06:31.205Z\n"
+"POT-Creation-Date: 2015-01-07T16:58:46.524Z\n"
 "PO-Revision-Date: 2014-08-18 08:00+0000\n"
 "Last-Translator: Arafat <mahmud.arafat.7@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -70,18 +70,6 @@ msgstr "ব্যবহারের শর্তাবলী"
 msgid "Report Trademark Abuse"
 msgstr "ট্রেডমার্ক অপব্যাবহার রিপোর্ট করুন"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "সাইন ইন"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "এগিয়ে যেতে আপনাকে সাইন ইন করতে হবে।"
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "সাইন ইন / সাইন আপ"
-
 #: /templates/header.html:2
 msgid "Communication Dashboard"
 msgstr "যোগাযোগ ড্যাশবোর্ড"
@@ -94,17 +82,21 @@ msgstr "সাইন আউট"
 msgid "Sign In"
 msgstr "সাইন ইন"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "এপ আইকন"
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "সাইন ইন"
 
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "{app_name} এর জন্য সকল থ্রেড দেখা হচ্ছে"
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "এগিয়ে যেতে আপনাকে সাইন ইন করতে হবে।"
 
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "অ্যাপ সম্পাদনা পৃষ্ঠায় ফিরে যান"
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "সাইন ইন / সাইন আপ"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "কোন নোট পাওয়া যায়নি"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
@@ -114,78 +106,25 @@ msgstr "সংযুক্তি"
 msgid "File Description"
 msgstr "ফাইলের বিবরণ"
 
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
-msgid "No notes found"
-msgstr "কোন নোট পাওয়া যায়নি"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "আমার থ্রেড"
-
-#: /templates/comm/main.html:14
-msgid "You have no threads."
-msgstr "আপনার কাছে কোনো থ্রেড নেই"
-
-#: /templates/comm/main.html:16
-msgid "Hmm...an error?"
-msgstr "হুমম...কোন সমস্যা?"
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "খালি নোট"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "{app_name} এর জন্য থ্রেড দেখা হচ্ছে"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "{app_name} এর জন্য সকল থ্রেড এ ফেরত"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "এই অ্যাপটি যে ভার্সনের"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
-
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "এখানে উল্লেখ্য টেক্সট লিখুন"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "স্ক্রিনশট সংযুক্ত করুন এবং লগ ফাইল:"
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "আরেকটি ফাইল সংযুক্ত করুন"
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "পোস্ট"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "আগেরগুলো প্রদর্শন"
-
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
 msgstr "{APP_NAME} ({সংস্করণ {VERSION_NUMBER})"
+
+#: /templates/_macros/thread_header.html:19
+msgid "Deleted App"
+msgstr ""
 
 #: /templates/_macros/thread_header.html:21
 msgid "(Obsolete)"
 msgstr "(অপ্রচলিত)"
 
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:50
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:59
 msgid "{n} note"
 msgid_plural "{n} notes"
 msgstr[0] "{n} নোট"
 msgstr[1] "{n} নোটগুলো"
 
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:60 /media/js/views/comm.js:142
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:82 /media/js/views/comm.js:154
 msgid "Reply"
 msgstr "উত্তর"
 
@@ -205,17 +144,86 @@ msgstr "আনসাবস্ক্রাইব"
 msgid "Review"
 msgstr "রিভিউ"
 
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "আমার থ্রেড"
+
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr ""
+
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr ""
+
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr ""
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "খালি নোট"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "{app_name} এর জন্য থ্রেড দেখা হচ্ছে"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "{app_name} এর জন্য সকল থ্রেড এ ফেরত"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "এপ আইকন"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "{app_name} এর জন্য সকল থ্রেড দেখা হচ্ছে"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "অ্যাপ সম্পাদনা পৃষ্ঠায় ফিরে যান"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "আগেরগুলো প্রদর্শন"
+
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "এখানে উল্লেখ্য টেক্সট লিখুন"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "স্ক্রিনশট সংযুক্ত করুন এবং লগ ফাইল:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "আরেকটি ফাইল সংযুক্ত করুন"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "পোস্ট"
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "ওহ না !"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "একটি ত্রুটি ঘটেছে।"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
 msgstr "আপনি যে পৃষ্ঠা খুঁজছেন তা খুঁজে পাওয়া যায় নি।"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "এই অ্যাপটি যে ভার্সনের"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "একটি ত্রুটি ঘটেছে।"
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -225,35 +233,35 @@ msgstr "আরও লোড হতে ত্রুটি দেখা দিচ�
 msgid "Try Again"
 msgstr "আবার চেষ্টা করুন"
 
-#: /media/js/settings.js:37
+#: /media/js/settings.js:38
 msgid "Message"
 msgstr "বার্তা"
 
-#: /media/js/settings.js:38
+#: /media/js/settings.js:39
 msgid "App approved"
 msgstr "এপ অনুমোদিত"
 
-#: /media/js/settings.js:39
+#: /media/js/settings.js:40
 msgid "App rejected"
 msgstr "এপ গ্রহন করা হয়নি"
 
-#: /media/js/settings.js:40
+#: /media/js/settings.js:41
 msgid "App banned"
 msgstr ""
 
-#: /media/js/settings.js:41
+#: /media/js/settings.js:42
 msgid "More info required"
 msgstr "আরও তথ্য প্রয়োজন"
 
-#: /media/js/settings.js:42
-msgid "Review escalated to senior reviewer"
-msgstr "সিনিয়র রিভিউয়ারের কাছে রিভিউ পাঠান হয়েছে"
-
 #: /media/js/settings.js:43
-msgid "Reviewer comment"
-msgstr "রিভিউয়ার এর মন্তব্য"
+msgid "Escalated to senior reviewer"
+msgstr ""
 
 #: /media/js/settings.js:44
+msgid "Private reviewer comment"
+msgstr ""
+
+#: /media/js/settings.js:45
 msgid "App resubmission"
 msgstr "অ্যাপ পুনরায় জমা দিন"
 
@@ -262,12 +270,12 @@ msgid "Approved but waiting to be made public"
 msgstr "অনুমোদিত কিন্তু পাবলিক হওয়ার জন্য অপেক্ষা করছে"
 
 #: /media/js/settings.js:47
-msgid "Escalated due to High Abuse Reports"
-msgstr "অতিরিক্ত খারাপ রিপোর্টের জন্যে উত্তরণ করা হয়েছে"
+msgid "Escalated due to high abuse reports"
+msgstr ""
 
 #: /media/js/settings.js:48
-msgid "Escalated due to High Refund Requests"
-msgstr "অতিরিক্ত রিফান্ড অনুরোধের কারণে উত্তরণ করা হয়েছে"
+msgid "Escalated due to high refund requests"
+msgstr ""
 
 #: /media/js/settings.js:49
 msgid "Escalation cleared"
@@ -285,66 +293,86 @@ msgstr "অ্যাপ জমাদান নোট"
 msgid "Developer comment"
 msgstr "ডেভলপার মন্তব্য"
 
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "ইন্টারনেট সংযোগ নেই"
+#: /media/js/settings.js:53
+msgid "Device(s) changed by reviewer"
+msgstr ""
 
-#: /media/js/commonplace/login.js:24
-msgid "You have been signed out"
-msgstr "আপনি সাইন আউট করেছেন"
+#: /media/js/settings.js:54
+msgid "Feature(s) changed by reviewer"
+msgstr ""
 
-#: /media/js/commonplace/login.js:28
-msgid "You have been signed in"
-msgstr "আপনি সাইন ইন করেছেন"
+#: /media/js/settings.js:55
+msgid "Review manifest change"
+msgstr ""
 
-#: /media/js/commonplace/login.js:216
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "পারসোনা লগিন ব্যর্থ। সম্ভবত এই ইমেইল এড্রেস দিয়ে আপনার পারসোনা একাউন্ট নেই?"
+#: /media/js/settings.js:56
+msgid "Review manifest url change"
+msgstr ""
 
-#: /media/js/commonplace/login.js:221
-msgid "Persona login failed. A server error was encountered."
-msgstr "পারসোনা লগইন ব্যার্থ হয়েছে। একটি সার্ভারের ত্রুটির সম্মুখীন হয়েছে।"
+#: /media/js/settings.js:57
+msgid "Review manifest premium type upgrade"
+msgstr ""
 
-#: /media/js/commonplace/login.js:291
-msgid "Persona cannot be reached. Try again later."
-msgstr "পারসোনা পৌছাতে পারেনি। পুনরায় চেষ্টা করুন।"
+#: /media/js/settings.js:58
+msgid "Re-review devices added"
+msgstr ""
 
-#. {n} is the number of characters left.
-#: /media/js/commonplace/utils.js:28
-msgid "<b>{n}</b> character left."
-msgid_plural "<b>{n}</b> characters left."
-msgstr[0] "<b>{n}</b> অক্ষর বাকি।"
-msgstr[1] "<b>{n}</b> অক্ষর বাকি।"
+#: /media/js/settings.js:59
+msgid "Re-review features changed"
+msgstr ""
 
-#: /media/js/views/comm.js:67
+#: /media/js/settings.js:60
+msgid "Escalation due to VIP App"
+msgstr ""
+
+#: /media/js/settings.js:61
+msgid "Escalation due to prerelease App"
+msgstr ""
+
+#: /media/js/settings.js:62
+msgid "Priority review requested"
+msgstr ""
+
+#: /media/js/settings.js:63
+msgid "Tarako review passed"
+msgstr ""
+
+#: /media/js/settings.js:64
+msgid "Tarako review failed"
+msgstr ""
+
+#: /media/js/settings.js:65
+msgid "Version notes for reviewer"
+msgstr ""
+
+#: /media/js/settings.js:66
+msgid "Public reviewer comment"
+msgstr ""
+
+#: /media/js/settings.js:67
+msgid "Re-review content rating adult"
+msgstr ""
+
+#: /media/js/views/comm.js:89
 msgid "Message sent."
 msgstr "বার্তা পাঠানো হয়েছে।"
 
-#: /media/js/views/comm.js:72
+#: /media/js/views/comm.js:94
 msgid "Message sending failed."
 msgstr "বার্তা পাঠানো ব্যর্থ হয়েছে।"
 
-#: /media/js/views/comm.js:132
+#: /media/js/views/comm.js:144
 msgid "Cancel reply"
 msgstr "উত্তরটি বাতিল করুন"
 
-#: /media/js/views/comm.js:170
+#: /media/js/views/comm.js:181
 msgid "There are no more older notes."
 msgstr "এখানে আর কোন পুরাতন নোট নেই।"
 
-#: /media/js/views/comm.js:193
+#: /media/js/views/comm.js:204
 msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
 msgstr "এই টপিক থেকে আনসাব্সক্রাইপ করলে, আপনি এই টপিক থেকে কোন ইমেইল নোটিফিকেশন পাবেন না। আপনি আনসাব্সক্রাইপ করতে চাচ্ছেন?"
 
-#: /media/js/views/comm.js:198
+#: /media/js/views/comm.js:209
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
 msgstr "সফলভাবে আনসাব্সক্রাইপ হয়েছে। আপনি এই টপিক থেকে আর কোন ইমেইল নটিফিকেশন পাবেন না।"
-
-#: /media/js/views/commonplace/hello_world.js:9
-msgid "Hello World!"
-msgstr "হ্যালো ওয়ার্ল্ড!"
-
-#. Page not found (404)
-#: /media/js/views/commonplace/not_found.js:9
-msgid "Not Found"
-msgstr "পাওয়া যায়নি"

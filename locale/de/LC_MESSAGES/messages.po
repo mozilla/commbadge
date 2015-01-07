@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AMO Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-15T16:06:31.205Z\n"
+"POT-Creation-Date: 2015-01-07T16:58:46.524Z\n"
 "PO-Revision-Date: 2014-09-17 17:41+0000\n"
 "Last-Translator: Michael <michael.koehler1@gmx.de>\n"
 "Language-Team: German (de) <coce@nurfuerspam.de>\n"
@@ -70,18 +70,6 @@ msgstr "Nutzungsbedingungen"
 msgid "Report Trademark Abuse"
 msgstr "Markenrechtsverletzung melden"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Anmelden"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Sie müssen sich anmelden, um fortzufahren."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Anmelden / Registrieren"
-
 #: /templates/header.html:2
 msgid "Communication Dashboard"
 msgstr "Kommunikationsübersicht"
@@ -94,17 +82,21 @@ msgstr "Abmelden"
 msgid "Sign In"
 msgstr "Anmelden"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "App-Symbol"
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Anmelden"
 
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Alle Themen für {app_name} werden angezeigt"
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Sie müssen sich anmelden, um fortzufahren."
 
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Zurück zur App-bearbeiten-Seite gehen"
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Anmelden / Registrieren"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Keine Notizen gefunden"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
@@ -114,78 +106,25 @@ msgstr "Anhang"
 msgid "File Description"
 msgstr "Dateibeschreibung"
 
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
-msgid "No notes found"
-msgstr "Keine Notizen gefunden"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Meine Themen"
-
-#: /templates/comm/main.html:14
-msgid "You have no threads."
-msgstr "Sie haben keine Themen."
-
-#: /templates/comm/main.html:16
-msgid "Hmm...an error?"
-msgstr "Hmm… ein Fehler?"
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Leere Notiz"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Thema für {app_name} wird angezeigt"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Zurück zu allen Themen für {app_name}"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "Versionen dieser App"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v {version_number}"
-
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Text der Notiz hier eingeben"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Screenshots und Log-Dateien anhängen:"
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Eine weitere Datei anhängen"
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Absenden"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Ältere ansehen"
-
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
 msgstr "{app_name} (Version {version_number})"
+
+#: /templates/_macros/thread_header.html:19
+msgid "Deleted App"
+msgstr ""
 
 #: /templates/_macros/thread_header.html:21
 msgid "(Obsolete)"
 msgstr "(Veraltet)"
 
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:50
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:59
 msgid "{n} note"
 msgid_plural "{n} notes"
 msgstr[0] "{n} Notiz"
 msgstr[1] "{n} Notizen"
 
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:60 /media/js/views/comm.js:142
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:82 /media/js/views/comm.js:154
 msgid "Reply"
 msgstr "Antworten"
 
@@ -205,17 +144,86 @@ msgstr "Abonnement entfernen"
 msgid "Review"
 msgstr "Überprüfen"
 
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Meine Themen"
+
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr ""
+
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr ""
+
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr ""
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Leere Notiz"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Thema für {app_name} wird angezeigt"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Zurück zu allen Themen für {app_name}"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "App-Symbol"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Alle Themen für {app_name} werden angezeigt"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Zurück zur App-bearbeiten-Seite gehen"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Ältere ansehen"
+
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Text der Notiz hier eingeben"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Screenshots und Log-Dateien anhängen:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Eine weitere Datei anhängen"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Absenden"
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "Oh nein!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Ein Fehler ist aufgetreten."
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
 msgstr "Die Seite, die Sie suchen, wurde nicht gefunden."
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "Versionen dieser App"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v {version_number}"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Ein Fehler ist aufgetreten."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -225,35 +233,35 @@ msgstr "Beim Laden weiterer Informationen ist ein Fehler aufgetreten"
 msgid "Try Again"
 msgstr "Versuchen Sie es erneut"
 
-#: /media/js/settings.js:37
+#: /media/js/settings.js:38
 msgid "Message"
 msgstr "Nachricht"
 
-#: /media/js/settings.js:38
+#: /media/js/settings.js:39
 msgid "App approved"
 msgstr "App freigeschaltet"
 
-#: /media/js/settings.js:39
+#: /media/js/settings.js:40
 msgid "App rejected"
 msgstr "App abgelehnt"
 
-#: /media/js/settings.js:40
+#: /media/js/settings.js:41
 msgid "App banned"
 msgstr "App gesperrt"
 
-#: /media/js/settings.js:41
+#: /media/js/settings.js:42
 msgid "More info required"
 msgstr "Weitere Informationen erforderlich"
 
-#: /media/js/settings.js:42
-msgid "Review escalated to senior reviewer"
-msgstr "An höherrangigen Überprüfer weitergegeben"
-
 #: /media/js/settings.js:43
-msgid "Reviewer comment"
-msgstr "Kommentar des Überprüfers"
+msgid "Escalated to senior reviewer"
+msgstr ""
 
 #: /media/js/settings.js:44
+msgid "Private reviewer comment"
+msgstr ""
+
+#: /media/js/settings.js:45
 msgid "App resubmission"
 msgstr "Erneut eingereichte App"
 
@@ -262,12 +270,12 @@ msgid "Approved but waiting to be made public"
 msgstr "Freigeschaltet, aber noch nicht veröffentlicht"
 
 #: /media/js/settings.js:47
-msgid "Escalated due to High Abuse Reports"
-msgstr "Wegen vieler Missbrauchsmeldungen an nächsthöhere Stelle weitergegeben"
+msgid "Escalated due to high abuse reports"
+msgstr ""
 
 #: /media/js/settings.js:48
-msgid "Escalated due to High Refund Requests"
-msgstr "Wegen vieler Erstattungsanfragen an nächsthöhere Stelle weitergegeben"
+msgid "Escalated due to high refund requests"
+msgstr ""
 
 #: /media/js/settings.js:49
 msgid "Escalation cleared"
@@ -285,66 +293,86 @@ msgstr "Hinweis zur App-Einreichung"
 msgid "Developer comment"
 msgstr "Entwicklerkommentar"
 
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "Keine Internetverbindung"
+#: /media/js/settings.js:53
+msgid "Device(s) changed by reviewer"
+msgstr ""
 
-#: /media/js/commonplace/login.js:24
-msgid "You have been signed out"
-msgstr "Sie wurden abgemeldet"
+#: /media/js/settings.js:54
+msgid "Feature(s) changed by reviewer"
+msgstr ""
 
-#: /media/js/commonplace/login.js:28
-msgid "You have been signed in"
-msgstr "Sie müssen angemeldet sein"
+#: /media/js/settings.js:55
+msgid "Review manifest change"
+msgstr ""
 
-#: /media/js/commonplace/login.js:216
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Persona-Anmeldung fehlgeschlagen. Vielleicht haben Sie kein Benutzerkonto unter dieser E-Mail-Adresse?"
+#: /media/js/settings.js:56
+msgid "Review manifest url change"
+msgstr ""
 
-#: /media/js/commonplace/login.js:221
-msgid "Persona login failed. A server error was encountered."
-msgstr "Persona-Anmeldung fehlgeschlagen. Es ist ein Server-Fehler aufgetreten."
+#: /media/js/settings.js:57
+msgid "Review manifest premium type upgrade"
+msgstr ""
 
-#: /media/js/commonplace/login.js:291
-msgid "Persona cannot be reached. Try again later."
-msgstr "Persona kann nicht erreicht werden. Versuchen Sie es später erneut."
+#: /media/js/settings.js:58
+msgid "Re-review devices added"
+msgstr ""
 
-#. {n} is the number of characters left.
-#: /media/js/commonplace/utils.js:28
-msgid "<b>{n}</b> character left."
-msgid_plural "<b>{n}</b> characters left."
-msgstr[0] "<b>{n}</b> Zeichen verbleiben."
-msgstr[1] "<b>{n}</b> Zeichen verbleiben."
+#: /media/js/settings.js:59
+msgid "Re-review features changed"
+msgstr ""
 
-#: /media/js/views/comm.js:67
+#: /media/js/settings.js:60
+msgid "Escalation due to VIP App"
+msgstr ""
+
+#: /media/js/settings.js:61
+msgid "Escalation due to prerelease App"
+msgstr ""
+
+#: /media/js/settings.js:62
+msgid "Priority review requested"
+msgstr ""
+
+#: /media/js/settings.js:63
+msgid "Tarako review passed"
+msgstr ""
+
+#: /media/js/settings.js:64
+msgid "Tarako review failed"
+msgstr ""
+
+#: /media/js/settings.js:65
+msgid "Version notes for reviewer"
+msgstr ""
+
+#: /media/js/settings.js:66
+msgid "Public reviewer comment"
+msgstr ""
+
+#: /media/js/settings.js:67
+msgid "Re-review content rating adult"
+msgstr ""
+
+#: /media/js/views/comm.js:89
 msgid "Message sent."
 msgstr "Nachricht gesendet."
 
-#: /media/js/views/comm.js:72
+#: /media/js/views/comm.js:94
 msgid "Message sending failed."
 msgstr "Senden der Nachricht fehlgeschlagen."
 
-#: /media/js/views/comm.js:132
+#: /media/js/views/comm.js:144
 msgid "Cancel reply"
 msgstr "Antwort abbrechen"
 
-#: /media/js/views/comm.js:170
+#: /media/js/views/comm.js:181
 msgid "There are no more older notes."
 msgstr "Es gibt keine älteren Notizen."
 
-#: /media/js/views/comm.js:193
+#: /media/js/views/comm.js:204
 msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
 msgstr "Wenn Sie dieses Thema nicht mehr beobachten, erhalten Sie für dieses Thema keine E-Mail-Benachrichtigungen mehr. Sind Sie sicher?"
 
-#: /media/js/views/comm.js:198
+#: /media/js/views/comm.js:209
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
 msgstr "Thema wird nicht mehr beobachtet. Sie erhalten für dieses Thema keine E-Mail-Benachrichtigungen mehr."
-
-#: /media/js/views/commonplace/hello_world.js:9
-msgid "Hello World!"
-msgstr "Hallo Welt!"
-
-#. Page not found (404)
-#: /media/js/views/commonplace/not_found.js:9
-msgid "Not Found"
-msgstr "Nicht gefunden"
