@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: AMO Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-07T16:58:46.524Z\n"
-"PO-Revision-Date: 2014-09-17 17:41+0000\n"
+"PO-Revision-Date: 2015-01-07 18:31+0000\n"
 "Last-Translator: Michael <michael.koehler1@gmx.de>\n"
 "Language-Team: German (de) <coce@nurfuerspam.de>\n"
 "Language: de\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1410975681.0\n"
+"X-POOTLE-MTIME: 1420655460.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -112,7 +112,7 @@ msgstr "{app_name} (Version {version_number})"
 
 #: /templates/_macros/thread_header.html:19
 msgid "Deleted App"
-msgstr ""
+msgstr "Gelöschte App"
 
 #: /templates/_macros/thread_header.html:21
 msgid "(Obsolete)"
@@ -150,15 +150,17 @@ msgstr "Meine Themen"
 
 #: /templates/comm/main.html:4
 msgid "Go to Developer Hub"
-msgstr ""
+msgstr "Zum Entwicklerzentrum gehen"
 
 #: /templates/comm/main.html:14
 msgid "You currently are not involved in any communication threads."
-msgstr ""
+msgstr "Sie sind derzeit an keinen Kommunikationsthemen beteiligt."
 
 #: /templates/comm/main.html:16
 msgid "Sorry, an error has occurred. Try logging in again."
 msgstr ""
+"Es tut uns leid, ein Fehler ist aufgetreten. Versuchen Sie, sich erneut "
+"anzumelden."
 
 #: /templates/comm/note_detail.html:12
 msgid "Empty note"
@@ -255,11 +257,11 @@ msgstr "Weitere Informationen erforderlich"
 
 #: /media/js/settings.js:43
 msgid "Escalated to senior reviewer"
-msgstr ""
+msgstr "An höherrangigen Überprüfer weitergegeben"
 
 #: /media/js/settings.js:44
 msgid "Private reviewer comment"
-msgstr ""
+msgstr "Privater Überprüferkommentar"
 
 #: /media/js/settings.js:45
 msgid "App resubmission"
@@ -271,11 +273,11 @@ msgstr "Freigeschaltet, aber noch nicht veröffentlicht"
 
 #: /media/js/settings.js:47
 msgid "Escalated due to high abuse reports"
-msgstr ""
+msgstr "Wegen vieler Missbrauchsmeldungen an nächsthöhere Stelle weitergegeben"
 
 #: /media/js/settings.js:48
 msgid "Escalated due to high refund requests"
-msgstr ""
+msgstr "Wegen vieler Erstattungsanfragen an nächsthöhere Stelle weitergegeben"
 
 #: /media/js/settings.js:49
 msgid "Escalation cleared"
@@ -295,63 +297,64 @@ msgstr "Entwicklerkommentar"
 
 #: /media/js/settings.js:53
 msgid "Device(s) changed by reviewer"
-msgstr ""
+msgstr "Vom Überprüfer veränderte(s) Gerät(e)"
 
 #: /media/js/settings.js:54
 msgid "Feature(s) changed by reviewer"
-msgstr ""
+msgstr "Vom Überprüfer veränderte Funktion(en)"
 
 #: /media/js/settings.js:55
 msgid "Review manifest change"
-msgstr ""
+msgstr "Manifest-Änderung überprüfen"
 
 #: /media/js/settings.js:56
 msgid "Review manifest url change"
-msgstr ""
+msgstr "Manifest-URL-Änderung überprüfen"
 
 #: /media/js/settings.js:57
 msgid "Review manifest premium type upgrade"
-msgstr ""
+msgstr "Manifest-Premium-Typ-Upgrade überprüfen"
 
 #: /media/js/settings.js:58
 msgid "Re-review devices added"
-msgstr ""
+msgstr "Hinzugefügte Geräte erneut überprüfen"
 
 #: /media/js/settings.js:59
 msgid "Re-review features changed"
-msgstr ""
+msgstr "Geänderte Funktionen erneut überprüfen"
 
 #: /media/js/settings.js:60
 msgid "Escalation due to VIP App"
-msgstr ""
+msgstr "Wegen VIP-App an nächsthöhere Stelle weitergegeben"
 
 #: /media/js/settings.js:61
 msgid "Escalation due to prerelease App"
 msgstr ""
+"Wegen App für Vorabveröffentlichung an nächsthöhere Stelle weitergegeben"
 
 #: /media/js/settings.js:62
 msgid "Priority review requested"
-msgstr ""
+msgstr "Prioritätsüberprüfung angefordert"
 
 #: /media/js/settings.js:63
 msgid "Tarako review passed"
-msgstr ""
+msgstr "Tarako-Überprüfung bestanden"
 
 #: /media/js/settings.js:64
 msgid "Tarako review failed"
-msgstr ""
+msgstr "Tarako-Überprüfung nicht bestanden"
 
 #: /media/js/settings.js:65
 msgid "Version notes for reviewer"
-msgstr ""
+msgstr "Versionshinweise für Überprüfer"
 
 #: /media/js/settings.js:66
 msgid "Public reviewer comment"
-msgstr ""
+msgstr "Öffentlicher Überprüferkommentar"
 
 #: /media/js/settings.js:67
 msgid "Re-review content rating adult"
-msgstr ""
+msgstr "Inhaltseinstufung für Erwachsene erneut überprüfen"
 
 #: /media/js/views/comm.js:89
 msgid "Message sent."
