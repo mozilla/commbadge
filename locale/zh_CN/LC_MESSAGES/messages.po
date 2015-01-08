@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-07T16:58:46.524Z\n"
-"PO-Revision-Date: 2014-09-17 23:55+0000\n"
+"PO-Revision-Date: 2015-01-08 04:21+0000\n"
 "Last-Translator: yfdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1410998106.0\n"
+"X-POOTLE-MTIME: 1420690880.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -70,7 +70,7 @@ msgstr "回报商标滥用"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
-msgstr "沟通主控台"
+msgstr "交流主控台"
 
 #: /templates/header.html:7
 msgid "Sign Out"
@@ -110,7 +110,7 @@ msgstr "{app_name} (版本号  {version_number})"
 
 #: /templates/_macros/thread_header.html:19
 msgid "Deleted App"
-msgstr ""
+msgstr "已删除应用"
 
 #: /templates/_macros/thread_header.html:21
 msgid "(Obsolete)"
@@ -147,15 +147,15 @@ msgstr "我的话题"
 
 #: /templates/comm/main.html:4
 msgid "Go to Developer Hub"
-msgstr ""
+msgstr "转至开发者中心"
 
 #: /templates/comm/main.html:14
 msgid "You currently are not involved in any communication threads."
-msgstr ""
+msgstr "您当前未参与任何交流主题。"
 
 #: /templates/comm/main.html:16
 msgid "Sorry, an error has occurred. Try logging in again."
-msgstr ""
+msgstr "抱歉，发生错误。请尝试重新登录。"
 
 #: /templates/comm/note_detail.html:12
 msgid "Empty note"
@@ -252,11 +252,11 @@ msgstr "需要更多信息"
 
 #: /media/js/settings.js:43
 msgid "Escalated to senior reviewer"
-msgstr ""
+msgstr "已提升到高级审核者"
 
 #: /media/js/settings.js:44
 msgid "Private reviewer comment"
-msgstr ""
+msgstr "私密的审核者评论"
 
 #: /media/js/settings.js:45
 msgid "App resubmission"
@@ -268,11 +268,11 @@ msgstr "已通过审核，等待发布中"
 
 #: /media/js/settings.js:47
 msgid "Escalated due to high abuse reports"
-msgstr ""
+msgstr "由于大量滥用报告，已提升"
 
 #: /media/js/settings.js:48
 msgid "Escalated due to high refund requests"
-msgstr ""
+msgstr "由于大量退款要求，已提升"
 
 #: /media/js/settings.js:49
 msgid "Escalation cleared"
@@ -292,63 +292,63 @@ msgstr "开发者留言"
 
 #: /media/js/settings.js:53
 msgid "Device(s) changed by reviewer"
-msgstr ""
+msgstr "审核者更改了设备"
 
 #: /media/js/settings.js:54
 msgid "Feature(s) changed by reviewer"
-msgstr ""
+msgstr "审核者更改了功能"
 
 #: /media/js/settings.js:55
 msgid "Review manifest change"
-msgstr ""
+msgstr "审核清单变化"
 
 #: /media/js/settings.js:56
 msgid "Review manifest url change"
-msgstr ""
+msgstr "审核清单 URL 变化"
 
 #: /media/js/settings.js:57
 msgid "Review manifest premium type upgrade"
-msgstr ""
+msgstr "审核清单之付费类型升级"
 
 #: /media/js/settings.js:58
 msgid "Re-review devices added"
-msgstr ""
+msgstr "重新审核设备已添加"
 
 #: /media/js/settings.js:59
 msgid "Re-review features changed"
-msgstr ""
+msgstr "重新审核功能已更改"
 
 #: /media/js/settings.js:60
 msgid "Escalation due to VIP App"
-msgstr ""
+msgstr "VIP 应用，已提升"
 
 #: /media/js/settings.js:61
 msgid "Escalation due to prerelease App"
-msgstr ""
+msgstr "预发布应用，已提升"
 
 #: /media/js/settings.js:62
 msgid "Priority review requested"
-msgstr ""
+msgstr "已请求优先审核"
 
 #: /media/js/settings.js:63
 msgid "Tarako review passed"
-msgstr ""
+msgstr "Tarako 审核通过"
 
 #: /media/js/settings.js:64
 msgid "Tarako review failed"
-msgstr ""
+msgstr "Tarako 审核失败"
 
 #: /media/js/settings.js:65
 msgid "Version notes for reviewer"
-msgstr ""
+msgstr "给审核者的版本说明"
 
 #: /media/js/settings.js:66
 msgid "Public reviewer comment"
-msgstr ""
+msgstr "公开的审核者评论"
 
 #: /media/js/settings.js:67
 msgid "Re-review content rating adult"
-msgstr ""
+msgstr "重新审核成人内容分级"
 
 #: /media/js/views/comm.js:89
 msgid "Message sent."
