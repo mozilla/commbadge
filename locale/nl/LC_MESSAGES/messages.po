@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-07T16:58:46.524Z\n"
-"PO-Revision-Date: 2014-09-17 18:23+0000\n"
-"Last-Translator: Mark <markh@babelzilla.org>\n"
+"PO-Revision-Date: 2015-01-08 03:49+0000\n"
+"Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: none\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1410978212.0\n"
+"X-POOTLE-MTIME: 1420688968.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -112,7 +112,7 @@ msgstr "{app_name} (versie {version_number})"
 
 #: /templates/_macros/thread_header.html:19
 msgid "Deleted App"
-msgstr ""
+msgstr "Verwijderde app"
 
 #: /templates/_macros/thread_header.html:21
 msgid "(Obsolete)"
@@ -151,15 +151,15 @@ msgstr "Mijn conversaties"
 
 #: /templates/comm/main.html:4
 msgid "Go to Developer Hub"
-msgstr ""
+msgstr "Naar Ontwikkelaarshub"
 
 #: /templates/comm/main.html:14
 msgid "You currently are not involved in any communication threads."
-msgstr ""
+msgstr "U bent momenteel niet bij enige conversaties betrokken."
 
 #: /templates/comm/main.html:16
 msgid "Sorry, an error has occurred. Try logging in again."
-msgstr ""
+msgstr "Sorry, er is een fout opgetreden. Probeer u opnieuw aan te melden."
 
 # Empty als werkwoord of als bijvoeglijk naamwoord? Vooralsnog gekozen voor het laatste.
 #: /templates/comm/note_detail.html:12
@@ -257,11 +257,11 @@ msgstr "Meer info vereist"
 
 #: /media/js/settings.js:43
 msgid "Escalated to senior reviewer"
-msgstr ""
+msgstr "Geëscaleerd naar seniorbeoordelaar"
 
 #: /media/js/settings.js:44
 msgid "Private reviewer comment"
-msgstr ""
+msgstr "Privéreactie van beoordelaar"
 
 #: /media/js/settings.js:45
 msgid "App resubmission"
@@ -273,11 +273,11 @@ msgstr "Goedgekeurd, maar wacht op publicatie"
 
 #: /media/js/settings.js:47
 msgid "Escalated due to high abuse reports"
-msgstr ""
+msgstr "Geëscaleerd vanwege groot aantal misbruikmeldingen"
 
 #: /media/js/settings.js:48
 msgid "Escalated due to high refund requests"
-msgstr ""
+msgstr "Geëscaleerd vanwege groot aantal restitutieverzoeken"
 
 #: /media/js/settings.js:49
 msgid "Escalation cleared"
@@ -297,63 +297,63 @@ msgstr "Ontwikkelaarsopmerking"
 
 #: /media/js/settings.js:53
 msgid "Device(s) changed by reviewer"
-msgstr ""
+msgstr "Apparaten gewijzigd door beoordelaar"
 
 #: /media/js/settings.js:54
 msgid "Feature(s) changed by reviewer"
-msgstr ""
+msgstr "Functies gewijzigd door beoordelaar"
 
 #: /media/js/settings.js:55
 msgid "Review manifest change"
-msgstr ""
+msgstr "Manifestwijziging beoordelen"
 
 #: /media/js/settings.js:56
 msgid "Review manifest url change"
-msgstr ""
+msgstr "Wijziging van manifest-URL beoordelen"
 
 #: /media/js/settings.js:57
 msgid "Review manifest premium type upgrade"
-msgstr ""
+msgstr "Premium-type-upgrade van manifest beoordelen"
 
 #: /media/js/settings.js:58
 msgid "Re-review devices added"
-msgstr ""
+msgstr "Toegevoegde apparaten herbeoordelen"
 
 #: /media/js/settings.js:59
 msgid "Re-review features changed"
-msgstr ""
+msgstr "Gewijzigde functies herbeoordelen"
 
 #: /media/js/settings.js:60
 msgid "Escalation due to VIP App"
-msgstr ""
+msgstr "Escalatie vanwege VIP-app"
 
 #: /media/js/settings.js:61
 msgid "Escalation due to prerelease App"
-msgstr ""
+msgstr "Escalatie vanwege prerelease-app"
 
 #: /media/js/settings.js:62
 msgid "Priority review requested"
-msgstr ""
+msgstr "Prioriteitsbeoordeling gevraagd"
 
 #: /media/js/settings.js:63
 msgid "Tarako review passed"
-msgstr ""
+msgstr "Tarako-beoordeling geslaagd"
 
 #: /media/js/settings.js:64
 msgid "Tarako review failed"
-msgstr ""
+msgstr "Tarako-beoordeling mislukt"
 
 #: /media/js/settings.js:65
 msgid "Version notes for reviewer"
-msgstr ""
+msgstr "Versieopmerkingen voor beoordelaar"
 
 #: /media/js/settings.js:66
 msgid "Public reviewer comment"
-msgstr ""
+msgstr "Openbare reactie van beoordelaar"
 
 #: /media/js/settings.js:67
 msgid "Re-review content rating adult"
-msgstr ""
+msgstr "Inhoudsbeoordeling volwassen herbeoordelen"
 
 #: /media/js/views/comm.js:89
 msgid "Message sent."
