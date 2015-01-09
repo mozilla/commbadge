@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-07T16:58:46.524Z\n"
-"PO-Revision-Date: 2014-09-18 08:31+0000\n"
+"PO-Revision-Date: 2015-01-09 06:59+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: MozTW <petercpg@mail.moztw.org>\n"
 "Language: zh_TW\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-POOTLE-MTIME: 1411029065.0\n"
+"X-POOTLE-MTIME: 1420786773.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -111,7 +111,7 @@ msgstr "{app_name} ({version_number} 版)"
 
 #: /templates/_macros/thread_header.html:19
 msgid "Deleted App"
-msgstr ""
+msgstr "已刪除的程式"
 
 #: /templates/_macros/thread_header.html:21
 msgid "(Obsolete)"
@@ -148,15 +148,15 @@ msgstr "我的討論串"
 
 #: /templates/comm/main.html:4
 msgid "Go to Developer Hub"
-msgstr ""
+msgstr "前往 Developer Hub"
 
 #: /templates/comm/main.html:14
 msgid "You currently are not involved in any communication threads."
-msgstr ""
+msgstr "您目前並未參與任何討論串。"
 
 #: /templates/comm/main.html:16
 msgid "Sorry, an error has occurred. Try logging in again."
-msgstr ""
+msgstr "抱歉，發生錯誤，請重新登入看看。"
 
 #: /templates/comm/note_detail.html:12
 msgid "Empty note"
@@ -253,11 +253,11 @@ msgstr "需要更多資訊"
 
 #: /media/js/settings.js:43
 msgid "Escalated to senior reviewer"
-msgstr ""
+msgstr "已交由資深審查者進行審查"
 
 #: /media/js/settings.js:44
 msgid "Private reviewer comment"
-msgstr ""
+msgstr "審查者私人留言"
 
 #: /media/js/settings.js:45
 msgid "App resubmission"
@@ -269,11 +269,11 @@ msgstr "已通過審核，等待公開中"
 
 #: /media/js/settings.js:47
 msgid "Escalated due to high abuse reports"
-msgstr ""
+msgstr "因為接收到許多濫用回報，提高審查等級"
 
 #: /media/js/settings.js:48
 msgid "Escalated due to high refund requests"
-msgstr ""
+msgstr "因為接收到許多退款請求，提高審查等級"
 
 #: /media/js/settings.js:49
 msgid "Escalation cleared"
@@ -293,63 +293,63 @@ msgstr "開發者留言"
 
 #: /media/js/settings.js:53
 msgid "Device(s) changed by reviewer"
-msgstr ""
+msgstr "審查者變更了裝置"
 
 #: /media/js/settings.js:54
 msgid "Feature(s) changed by reviewer"
-msgstr ""
+msgstr "審查者變更了功能"
 
 #: /media/js/settings.js:55
 msgid "Review manifest change"
-msgstr ""
+msgstr "審查安裝資訊檔的變更"
 
 #: /media/js/settings.js:56
 msgid "Review manifest url change"
-msgstr ""
+msgstr "審查安裝資訊檔網址變更"
 
 #: /media/js/settings.js:57
 msgid "Review manifest premium type upgrade"
-msgstr ""
+msgstr "審查安裝資訊檔中收費類型的升級"
 
 #: /media/js/settings.js:58
 msgid "Re-review devices added"
-msgstr ""
+msgstr "重新審查新增裝置"
 
 #: /media/js/settings.js:59
 msgid "Re-review features changed"
-msgstr ""
+msgstr "重新審查功能變更"
 
 #: /media/js/settings.js:60
 msgid "Escalation due to VIP App"
-msgstr ""
+msgstr "因為是 VIP 應用程式，提高審查等級"
 
 #: /media/js/settings.js:61
 msgid "Escalation due to prerelease App"
-msgstr ""
+msgstr "因為是預先發行版本程式，提高審查等級"
 
 #: /media/js/settings.js:62
 msgid "Priority review requested"
-msgstr ""
+msgstr "已要求優先審查"
 
 #: /media/js/settings.js:63
 msgid "Tarako review passed"
-msgstr ""
+msgstr "通過 Tarako 審查"
 
 #: /media/js/settings.js:64
 msgid "Tarako review failed"
-msgstr ""
+msgstr "Tarako 審查失敗"
 
 #: /media/js/settings.js:65
 msgid "Version notes for reviewer"
-msgstr ""
+msgstr "給審查的版本紀錄"
 
 #: /media/js/settings.js:66
 msgid "Public reviewer comment"
-msgstr ""
+msgstr "審查者公開留言"
 
 #: /media/js/settings.js:67
 msgid "Re-review content rating adult"
-msgstr ""
+msgstr "因內容評等為成人重新審查"
 
 #: /media/js/views/comm.js:89
 msgid "Message sent."
