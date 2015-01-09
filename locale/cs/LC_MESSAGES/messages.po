@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Commbadge\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-07T16:58:46.524Z\n"
-"PO-Revision-Date: 2014-09-18 13:04+0000\n"
+"PO-Revision-Date: 2015-01-09 12:30+0000\n"
 "Last-Translator: Pavel <jasnapaka@jasnapaka.com>\n"
 "Language-Team: Czech <info@mozilla.cz>\n"
 "Language: cs\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1411045454.0\n"
+"X-POOTLE-MTIME: 1420806644.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -112,7 +112,7 @@ msgstr "{app_name} (Verze {version_number})"
 
 #: /templates/_macros/thread_header.html:19
 msgid "Deleted App"
-msgstr ""
+msgstr "Smazaná aplikace"
 
 #: /templates/_macros/thread_header.html:21
 msgid "(Obsolete)"
@@ -151,7 +151,7 @@ msgstr "Má vlákna"
 
 #: /templates/comm/main.html:4
 msgid "Go to Developer Hub"
-msgstr ""
+msgstr "Přejít na Pro vývojáře"
 
 #: /templates/comm/main.html:14
 msgid "You currently are not involved in any communication threads."
@@ -159,7 +159,7 @@ msgstr ""
 
 #: /templates/comm/main.html:16
 msgid "Sorry, an error has occurred. Try logging in again."
-msgstr ""
+msgstr "Omlouváme se, ale nastala chyba. Zkuste se znovu přihlásit."
 
 #: /templates/comm/note_detail.html:12
 msgid "Empty note"
@@ -256,11 +256,11 @@ msgstr "Je vyžadováno více informací"
 
 #: /media/js/settings.js:43
 msgid "Escalated to senior reviewer"
-msgstr ""
+msgstr "Předáno zkušenému redaktoru."
 
 #: /media/js/settings.js:44
 msgid "Private reviewer comment"
-msgstr ""
+msgstr "Soukromý komentář redaktora"
 
 #: /media/js/settings.js:45
 msgid "App resubmission"
@@ -296,11 +296,11 @@ msgstr "Komentář vývojáře"
 
 #: /media/js/settings.js:53
 msgid "Device(s) changed by reviewer"
-msgstr ""
+msgstr "Zařízení byla redaktorem změněna"
 
 #: /media/js/settings.js:54
 msgid "Feature(s) changed by reviewer"
-msgstr ""
+msgstr "Vlastnosti byly redaktorem změněny"
 
 #: /media/js/settings.js:55
 msgid "Review manifest change"
@@ -332,7 +332,7 @@ msgstr ""
 
 #: /media/js/settings.js:62
 msgid "Priority review requested"
-msgstr ""
+msgstr "Požádáno o prioritní kontrolu"
 
 #: /media/js/settings.js:63
 msgid "Tarako review passed"
