@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Marketplace Commbadge\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-07T16:58:46.524Z\n"
-"PO-Revision-Date: 2015-01-09 12:30+0000\n"
-"Last-Translator: Pavel <jasnapaka@jasnapaka.com>\n"
+"PO-Revision-Date: 2015-01-10 23:01+0000\n"
+"Last-Translator: Michal <michal.stanke@mikk.cz>\n"
 "Language-Team: Czech <info@mozilla.cz>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1420806644.0\n"
+"X-POOTLE-MTIME: 1420930863.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -155,7 +155,7 @@ msgstr "Přejít na Pro vývojáře"
 
 #: /templates/comm/main.html:14
 msgid "You currently are not involved in any communication threads."
-msgstr ""
+msgstr "Aktuálně nejste zapojeni do žádného komunikačního vlákna."
 
 #: /templates/comm/main.html:16
 msgid "Sorry, an error has occurred. Try logging in again."
@@ -304,11 +304,11 @@ msgstr "Vlastnosti byly redaktorem změněny"
 
 #: /media/js/settings.js:55
 msgid "Review manifest change"
-msgstr ""
+msgstr "Zkontrolovat změnu manifestu"
 
 #: /media/js/settings.js:56
 msgid "Review manifest url change"
-msgstr ""
+msgstr "Zkontrolovat změnu url manifestu"
 
 #: /media/js/settings.js:57
 msgid "Review manifest premium type upgrade"
@@ -344,11 +344,11 @@ msgstr ""
 
 #: /media/js/settings.js:65
 msgid "Version notes for reviewer"
-msgstr ""
+msgstr "Poznámky k verzi pro redaktora"
 
 #: /media/js/settings.js:66
 msgid "Public reviewer comment"
-msgstr ""
+msgstr "Veřejný komentář redaktora"
 
 #: /media/js/settings.js:67
 msgid "Re-review content rating adult"
