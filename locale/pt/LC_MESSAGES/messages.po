@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: CommBadge\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-07T16:58:46.524Z\n"
-"PO-Revision-Date: 2014-09-28 18:00+0000\n"
+"PO-Revision-Date: 2015-01-12 23:03+0000\n"
 "Last-Translator: Cláudio <cesperanc@gmail.com>\n"
 "Language-Team: pt_PT\n"
 "Language: pt\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1411927204.0\n"
+"X-POOTLE-MTIME: 1421103793.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -112,7 +112,7 @@ msgstr "{app_name} (Versão {version_number})"
 
 #: /templates/_macros/thread_header.html:19
 msgid "Deleted App"
-msgstr ""
+msgstr "Aplicação eliminada"
 
 #: /templates/_macros/thread_header.html:21
 msgid "(Obsolete)"
@@ -150,15 +150,15 @@ msgstr "Os meus tópicos"
 
 #: /templates/comm/main.html:4
 msgid "Go to Developer Hub"
-msgstr ""
+msgstr "Ir para a central do programador"
 
 #: /templates/comm/main.html:14
 msgid "You currently are not involved in any communication threads."
-msgstr ""
+msgstr "Não está envolvido em qualquer tópico de comunicação."
 
 #: /templates/comm/main.html:16
 msgid "Sorry, an error has occurred. Try logging in again."
-msgstr ""
+msgstr "Lamentamos, mas ocorreu um erro. Tente iniciar sessão novamente."
 
 #: /templates/comm/note_detail.html:12
 msgid "Empty note"
@@ -255,11 +255,11 @@ msgstr "São necessárias mais informações"
 
 #: /media/js/settings.js:43
 msgid "Escalated to senior reviewer"
-msgstr ""
+msgstr "Escalado para um revisor sénior"
 
 #: /media/js/settings.js:44
 msgid "Private reviewer comment"
-msgstr ""
+msgstr "Comentário privado do revisor"
 
 #: /media/js/settings.js:45
 msgid "App resubmission"
@@ -271,11 +271,11 @@ msgstr "Aprovado mas à espera de ser tornado público"
 
 #: /media/js/settings.js:47
 msgid "Escalated due to high abuse reports"
-msgstr ""
+msgstr "Escalado devido a muitos relatórios de abuso"
 
 #: /media/js/settings.js:48
 msgid "Escalated due to high refund requests"
-msgstr ""
+msgstr "Escalado devido a muitos pedidos de devolução"
 
 #: /media/js/settings.js:49
 msgid "Escalation cleared"
@@ -295,63 +295,63 @@ msgstr "Comentário do programador"
 
 #: /media/js/settings.js:53
 msgid "Device(s) changed by reviewer"
-msgstr ""
+msgstr "Dispositivo(s) modificados pelo revisor"
 
 #: /media/js/settings.js:54
 msgid "Feature(s) changed by reviewer"
-msgstr ""
+msgstr "Funcionalidade(s) modificadas pelo revisor"
 
 #: /media/js/settings.js:55
 msgid "Review manifest change"
-msgstr ""
+msgstr "Rever alteração do manifesto"
 
 #: /media/js/settings.js:56
 msgid "Review manifest url change"
-msgstr ""
+msgstr "Rever alteração de url no manifesto"
 
 #: /media/js/settings.js:57
 msgid "Review manifest premium type upgrade"
-msgstr ""
+msgstr "Rever atualização do tipo de premium no manifesto"
 
 #: /media/js/settings.js:58
 msgid "Re-review devices added"
-msgstr ""
+msgstr "Dispositivos de re-análise adicionados"
 
 #: /media/js/settings.js:59
 msgid "Re-review features changed"
-msgstr ""
+msgstr "Funcionalidades de re-análise alteradas"
 
 #: /media/js/settings.js:60
 msgid "Escalation due to VIP App"
-msgstr ""
+msgstr "Escalado devido a aplicação VIP"
 
 #: /media/js/settings.js:61
 msgid "Escalation due to prerelease App"
-msgstr ""
+msgstr "Escalado devido a pré-lançamento da aplicação"
 
 #: /media/js/settings.js:62
 msgid "Priority review requested"
-msgstr ""
+msgstr "Solicitada análise prioritária"
 
 #: /media/js/settings.js:63
 msgid "Tarako review passed"
-msgstr ""
+msgstr "A análise tarako passou"
 
 #: /media/js/settings.js:64
 msgid "Tarako review failed"
-msgstr ""
+msgstr "A análise tarako falhou"
 
 #: /media/js/settings.js:65
 msgid "Version notes for reviewer"
-msgstr ""
+msgstr "Notas da versão para o revisor"
 
 #: /media/js/settings.js:66
 msgid "Public reviewer comment"
-msgstr ""
+msgstr "Comentário público do revisor"
 
 #: /media/js/settings.js:67
 msgid "Re-review content rating adult"
-msgstr ""
+msgstr "Re-análise de conteúdo classificada como para adulto"
 
 #: /media/js/views/comm.js:89
 msgid "Message sent."
