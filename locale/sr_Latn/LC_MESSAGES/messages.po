@@ -3,16 +3,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-07T16:58:46.524Z\n"
-"PO-Revision-Date: 2014-09-17 19:35+0000\n"
-"Last-Translator: Vanja <tumbas93@gmail.com>\n"
+"PO-Revision-Date: 2015-01-08 18:22+0000\n"
+"Last-Translator: Marko <marko.andrejic93@gmail.com>\n"
 "Language-Team: none\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1410982532.0\n"
+"X-POOTLE-MTIME: 1420741329.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -112,7 +113,7 @@ msgstr "{app_name} (Verzija {version_number})"
 
 #: /templates/_macros/thread_header.html:19
 msgid "Deleted App"
-msgstr ""
+msgstr "Obrisana aplikacija"
 
 #: /templates/_macros/thread_header.html:21
 msgid "(Obsolete)"
@@ -151,15 +152,15 @@ msgstr "Moje teme"
 
 #: /templates/comm/main.html:4
 msgid "Go to Developer Hub"
-msgstr ""
+msgstr "Idi na centar za programera"
 
 #: /templates/comm/main.html:14
 msgid "You currently are not involved in any communication threads."
-msgstr ""
+msgstr "Trenutno ne učestvujete ni u jednoj komunikacionoj temi."
 
 #: /templates/comm/main.html:16
 msgid "Sorry, an error has occurred. Try logging in again."
-msgstr ""
+msgstr "Izvinjavamo se, došlo je do greške. Pokušajte ponovo pristupiti."
 
 #: /templates/comm/note_detail.html:12
 msgid "Empty note"
@@ -256,11 +257,11 @@ msgstr "Potrebno je više informacija"
 
 #: /media/js/settings.js:43
 msgid "Escalated to senior reviewer"
-msgstr ""
+msgstr "Eskaliralo do višeg recenzenta"
 
 #: /media/js/settings.js:44
 msgid "Private reviewer comment"
-msgstr ""
+msgstr "Komentar privatnog recenzenta"
 
 #: /media/js/settings.js:45
 msgid "App resubmission"
@@ -272,11 +273,11 @@ msgstr "Odobreno ali čeka da bude javno"
 
 #: /media/js/settings.js:47
 msgid "Escalated due to high abuse reports"
-msgstr ""
+msgstr "Eskaliralo zbog visokih prijava zloupotrebe"
 
 #: /media/js/settings.js:48
 msgid "Escalated due to high refund requests"
-msgstr ""
+msgstr "Eskaliralo zbog visokih zahteva za povraćaj novca"
 
 #: /media/js/settings.js:49
 msgid "Escalation cleared"
@@ -296,63 +297,63 @@ msgstr "Komentar programera"
 
 #: /media/js/settings.js:53
 msgid "Device(s) changed by reviewer"
-msgstr ""
+msgstr "Uređaj/i su izmenjeni od strane recenzenta"
 
 #: /media/js/settings.js:54
 msgid "Feature(s) changed by reviewer"
-msgstr ""
+msgstr "Karakteristika/e su izmenjene od strane recenzenta"
 
 #: /media/js/settings.js:55
 msgid "Review manifest change"
-msgstr ""
+msgstr "Recenzija manifesta je izmenjena"
 
 #: /media/js/settings.js:56
 msgid "Review manifest url change"
-msgstr ""
+msgstr "URL recenzije manifesta je izmenjen"
 
 #: /media/js/settings.js:57
 msgid "Review manifest premium type upgrade"
-msgstr ""
+msgstr "Nadogradnja premium tipa recenzije manifesta"
 
 #: /media/js/settings.js:58
 msgid "Re-review devices added"
-msgstr ""
+msgstr "Ponovo pregledani uređaji su dodati"
 
 #: /media/js/settings.js:59
 msgid "Re-review features changed"
-msgstr ""
+msgstr "Ponovo pregledane karakteristike su izmenjene"
 
 #: /media/js/settings.js:60
 msgid "Escalation due to VIP App"
-msgstr ""
+msgstr "Eskalacija zbog VIP aplikacije"
 
 #: /media/js/settings.js:61
 msgid "Escalation due to prerelease App"
-msgstr ""
+msgstr "Eskalacija zbog prve objavljene verzije aplikacije"
 
 #: /media/js/settings.js:62
 msgid "Priority review requested"
-msgstr ""
+msgstr "Recenzije prioriteta su zahtevane"
 
 #: /media/js/settings.js:63
 msgid "Tarako review passed"
-msgstr ""
+msgstr "Recenzija Tarako-a je prošla"
 
 #: /media/js/settings.js:64
 msgid "Tarako review failed"
-msgstr ""
+msgstr "Recenzija Tarako-a nije uspešna"
 
 #: /media/js/settings.js:65
 msgid "Version notes for reviewer"
-msgstr ""
+msgstr "Verzije beleški za recenzenta"
 
 #: /media/js/settings.js:66
 msgid "Public reviewer comment"
-msgstr ""
+msgstr "Komentar javnog recenzenta"
 
 #: /media/js/settings.js:67
 msgid "Re-review content rating adult"
-msgstr ""
+msgstr "Ocene ponovo pregledanog sadržaja za odrasle"
 
 #: /media/js/views/comm.js:89
 msgid "Message sent."
