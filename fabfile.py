@@ -22,6 +22,29 @@ def pre_update(ref):
 
 
 @task
+def build():
+    with lcd(COMMBADGE):
+        local('npm install')
+        local('make install')
+        local('cp src/media/js/settings_local_hosted.js '
+              'src/media/js/settings_local.js')
+        local('make build')
+        local('node_modules/.bin/commonplace langpacks')
+
+
+@task
+def deploy_jenkins():
+    rpm = helpers.build_rpm(name='commbadge',
+                            env=settings.ENV,
+                            cluster=settings.CLUSTER,
+                            domain=settings.DOMAIN,
+                            root=ROOT)
+
+    rpm.local_install()
+    rpm.remote_install(['web'])
+
+
+@task
 def update():
     with lcd(COMMBADGE):
         local('npm install')
