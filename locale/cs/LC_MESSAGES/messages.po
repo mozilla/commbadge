@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Commbadge\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-07T16:58:46.524Z\n"
-"PO-Revision-Date: 2015-01-10 23:01+0000\n"
+"PO-Revision-Date: 2015-01-17 09:50+0000\n"
 "Last-Translator: Michal <michal.stanke@mikk.cz>\n"
 "Language-Team: Czech <info@mozilla.cz>\n"
 "Language: cs\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1420930863.0\n"
+"X-POOTLE-MTIME: 1421488213.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -272,11 +272,11 @@ msgstr "Schválena a čeká na zveřejnění"
 
 #: /media/js/settings.js:47
 msgid "Escalated due to high abuse reports"
-msgstr ""
+msgstr "Předáno pro zvýšený počet hlášení zneužití"
 
 #: /media/js/settings.js:48
 msgid "Escalated due to high refund requests"
-msgstr ""
+msgstr "Předáno pro časté požadavky o náhradu"
 
 #: /media/js/settings.js:49
 msgid "Escalation cleared"
@@ -324,11 +324,11 @@ msgstr ""
 
 #: /media/js/settings.js:60
 msgid "Escalation due to VIP App"
-msgstr ""
+msgstr "Předáno jako VIP aplikace"
 
 #: /media/js/settings.js:61
 msgid "Escalation due to prerelease App"
-msgstr ""
+msgstr "Předáno jako aplikace před vydáním"
 
 #: /media/js/settings.js:62
 msgid "Priority review requested"
@@ -336,11 +336,11 @@ msgstr "Požádáno o prioritní kontrolu"
 
 #: /media/js/settings.js:63
 msgid "Tarako review passed"
-msgstr ""
+msgstr "Kontrola Tarako byla úspěšná"
 
 #: /media/js/settings.js:64
 msgid "Tarako review failed"
-msgstr ""
+msgstr "Kontrola Tarako byla neúspěšná"
 
 #: /media/js/settings.js:65
 msgid "Version notes for reviewer"
