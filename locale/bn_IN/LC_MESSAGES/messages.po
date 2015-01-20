@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-07T16:58:46.524Z\n"
-"PO-Revision-Date: 2014-11-19 15:12+0000\n"
-"Last-Translator: SreeMegha21 <s.guha21@gmail.com>\n"
+"PO-Revision-Date: 2015-01-20 10:42+0000\n"
+"Last-Translator: Ayan <ayay700@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bn_IN\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1416409974.0\n"
+"X-POOTLE-MTIME: 1421750533.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -112,7 +112,7 @@ msgstr "{app_name} (সংস্করণ {version_number})"
 
 #: /templates/_macros/thread_header.html:19
 msgid "Deleted App"
-msgstr ""
+msgstr "বাতিল হওয়া অ্যাপ"
 
 #: /templates/_macros/thread_header.html:21
 msgid "(Obsolete)"
@@ -150,15 +150,15 @@ msgstr "আমার টপিক"
 
 #: /templates/comm/main.html:4
 msgid "Go to Developer Hub"
-msgstr ""
+msgstr "ডেভেলপার হাবে যান"
 
 #: /templates/comm/main.html:14
 msgid "You currently are not involved in any communication threads."
-msgstr ""
+msgstr "আপনি বর্তমানে কোনো কথোপকথন থ্রেডে সংযুক্ত নন।"
 
 #: /templates/comm/main.html:16
 msgid "Sorry, an error has occurred. Try logging in again."
-msgstr ""
+msgstr "দুঃখিত, একটি ত্রুটি ঘটেছে। পুনরায় লগ-ইন করতে চেষ্টা করুন।"
 
 #: /templates/comm/note_detail.html:12
 msgid "Empty note"
@@ -255,11 +255,11 @@ msgstr "প্রয়োজনীয় আরও তথ্য"
 
 #: /media/js/settings.js:43
 msgid "Escalated to senior reviewer"
-msgstr ""
+msgstr "সিনিয়র রিভিউয়ারের দিকে বাড়ানো হয়েছে"
 
 #: /media/js/settings.js:44
 msgid "Private reviewer comment"
-msgstr ""
+msgstr "গোপন রিভিউয়ারের মন্তব্য"
 
 #: /media/js/settings.js:45
 msgid "App resubmission"
@@ -271,11 +271,11 @@ msgstr "কিন্তু পাবলিক তৈরি হওয়ার �
 
 #: /media/js/settings.js:47
 msgid "Escalated due to high abuse reports"
-msgstr ""
+msgstr "অধিক আবচিত রিপোর্টের জন্য বাড়ানো হলো"
 
 #: /media/js/settings.js:48
 msgid "Escalated due to high refund requests"
-msgstr ""
+msgstr "অধিক ফেরতের আবেদনের জন্য বাড়ানো হয়েছে"
 
 #: /media/js/settings.js:49
 msgid "Escalation cleared"
@@ -295,63 +295,63 @@ msgstr "ডেভেলপার মন্তব্য"
 
 #: /media/js/settings.js:53
 msgid "Device(s) changed by reviewer"
-msgstr ""
+msgstr "ডিভাইস(s) রিভিউয়ারের দ্বারা বদলানো হয়েছে"
 
 #: /media/js/settings.js:54
 msgid "Feature(s) changed by reviewer"
-msgstr ""
+msgstr "বৈশিষ্ট্য(s) রিভিউয়ারের দ্বারা বদলানো হয়েছে"
 
 #: /media/js/settings.js:55
 msgid "Review manifest change"
-msgstr ""
+msgstr "ম্যানিফেস্ট বদল রিভিউ করুন"
 
 #: /media/js/settings.js:56
 msgid "Review manifest url change"
-msgstr ""
+msgstr "ম্যানিফেস্ট url বদল রিভিউ করুন"
 
 #: /media/js/settings.js:57
 msgid "Review manifest premium type upgrade"
-msgstr ""
+msgstr "ম্যানিফেস্ট প্রিমিয়াম আপগ্রেড রিভিউ করুন"
 
 #: /media/js/settings.js:58
 msgid "Re-review devices added"
-msgstr ""
+msgstr "পুনঃ-রিভিউ ডিভাইস যোগ করা হয়েছে"
 
 #: /media/js/settings.js:59
 msgid "Re-review features changed"
-msgstr ""
+msgstr "পুনঃ-রিভিউ বৈশিষ্ট্য বদল করা হয়েছে"
 
 #: /media/js/settings.js:60
 msgid "Escalation due to VIP App"
-msgstr ""
+msgstr "VIP অ্যাপের জন্য বাড়ানো হয়েছে"
 
 #: /media/js/settings.js:61
 msgid "Escalation due to prerelease App"
-msgstr ""
+msgstr "আগের রিলিজের অ্যাপের জন্য বৃদ্ধি"
 
 #: /media/js/settings.js:62
 msgid "Priority review requested"
-msgstr ""
+msgstr "অগ্রাধিকার পর্যালোচনার জন্য অনুরোধ করা হয়েছে"
 
 #: /media/js/settings.js:63
 msgid "Tarako review passed"
-msgstr ""
+msgstr "টারাকো রিভিউ পাস করে গেছে"
 
 #: /media/js/settings.js:64
 msgid "Tarako review failed"
-msgstr ""
+msgstr "টারাকো রিভিউ ব্যর্থ হয়েছে"
 
 #: /media/js/settings.js:65
 msgid "Version notes for reviewer"
-msgstr ""
+msgstr "রিভিউয়ারদের জন্য নোটের সংস্করণ"
 
 #: /media/js/settings.js:66
 msgid "Public reviewer comment"
-msgstr ""
+msgstr "পাবলিক রিভিউয়ারের কমেন্ট"
 
 #: /media/js/settings.js:67
 msgid "Re-review content rating adult"
-msgstr ""
+msgstr "পুনঃ-রিভিউ কন্টেন্ট রেটিং প্রাপ্তবয়স্ক"
 
 #: /media/js/views/comm.js:89
 msgid "Message sent."
