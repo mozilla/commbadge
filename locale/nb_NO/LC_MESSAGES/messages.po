@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-07T16:58:46.524Z\n"
-"PO-Revision-Date: 2014-07-02 09:32+0000\n"
+"PO-Revision-Date: 2015-01-24 20:36+0000\n"
 "Last-Translator: Håvar <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1404293547.0\n"
+"X-POOTLE-MTIME: 1422131812.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -32,7 +32,7 @@ msgstr "Utvikle apper"
 
 #: /templates/footer.html:5
 msgid "Developer Hub"
-msgstr "Utvikler-hub"
+msgstr "Utvikler-knutepunkt"
 
 #: /templates/footer.html:6
 msgid "Support"
@@ -112,7 +112,7 @@ msgstr "{app_name} (Versjon {version_number})"
 
 #: /templates/_macros/thread_header.html:19
 msgid "Deleted App"
-msgstr ""
+msgstr "Slettet app"
 
 #: /templates/_macros/thread_header.html:21
 msgid "(Obsolete)"
@@ -134,7 +134,7 @@ msgstr "Siste"
 
 #: /templates/_macros/thread_header.html:43
 msgid "View App"
-msgstr ""
+msgstr "Vis app"
 
 #: /templates/_macros/thread_header.html:47
 msgid "Unsubscribe"
@@ -150,15 +150,15 @@ msgstr "Mine tråder"
 
 #: /templates/comm/main.html:4
 msgid "Go to Developer Hub"
-msgstr ""
+msgstr "Gå til utvikler-knutepunkt"
 
 #: /templates/comm/main.html:14
 msgid "You currently are not involved in any communication threads."
-msgstr ""
+msgstr "Du er for øyeblikket ikke involvert i noen kommunikasjonstråder."
 
 #: /templates/comm/main.html:16
 msgid "Sorry, an error has occurred. Try logging in again."
-msgstr ""
+msgstr "Det har oppstått en feil. Prøv å logge inn på nytt."
 
 #: /templates/comm/note_detail.html:12
 msgid "Empty note"
@@ -182,7 +182,7 @@ msgstr "Viser alle tråder for {app_name}"
 
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
-msgstr ""
+msgstr "Gå tilbake til app-redigeringssiden"
 
 #: /templates/_macros/thread.html:20
 msgid "View older"
@@ -214,7 +214,7 @@ msgstr "Siden du leter etter ble ikke funnet."
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
-msgstr ""
+msgstr "Denne appens versjoner"
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
@@ -247,7 +247,7 @@ msgstr "App avvist"
 
 #: /media/js/settings.js:41
 msgid "App banned"
-msgstr ""
+msgstr "App utestengt"
 
 #: /media/js/settings.js:42
 msgid "More info required"
@@ -255,11 +255,11 @@ msgstr "Mer informasjon kreves"
 
 #: /media/js/settings.js:43
 msgid "Escalated to senior reviewer"
-msgstr ""
+msgstr "Eskalert til senioranmelder"
 
 #: /media/js/settings.js:44
 msgid "Private reviewer comment"
-msgstr ""
+msgstr "Privat anmelderkommentar"
 
 #: /media/js/settings.js:45
 msgid "App resubmission"
