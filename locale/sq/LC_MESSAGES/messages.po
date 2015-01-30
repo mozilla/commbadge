@@ -28,7 +28,7 @@ msgstr "Po"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
-msgstr "Zhvilloni Zbatime"
+msgstr "Zhvilloni Aplikacione"
 
 #: /templates/footer.html:5
 msgid "Developer Hub"
@@ -136,7 +136,7 @@ msgstr "Së fundmi"
 
 #: /templates/_macros/thread_header.html:43
 msgid "View App"
-msgstr "Shiheni Zbatimin"
+msgstr "Shiheni Aplikacionin"
 
 #: /templates/_macros/thread_header.html:47
 msgid "Unsubscribe"
@@ -176,7 +176,7 @@ msgstr "Mbrapsht te krejt rrjedhat për {app_name}"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
-msgstr "Ikonë zbatimi"
+msgstr "Ikonë aplikacioni"
 
 #: /templates/comm/app_dashboard.html:7
 msgid "Viewing All Threads for {app_name}"
@@ -184,7 +184,7 @@ msgstr "Po shihni Krejt Rrjedhat mbi {app_name}"
 
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
-msgstr "Kthehuni mbrapsht te faqja e përpunimit të zbatimit"
+msgstr "Kthehuni mbrapsht te faqja e përpunimit të aplikacionit"
 
 #: /templates/_macros/thread.html:20
 msgid "View older"
@@ -217,7 +217,7 @@ msgstr "Faqja që po kërkonit nuk u gjet."
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
-msgstr "Versione të Këtij Zbatimi"
+msgstr "Versione të Këtij Aplikacioni"
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
@@ -242,15 +242,15 @@ msgstr "Mesazh"
 
 #: /media/js/settings.js:39
 msgid "App approved"
-msgstr "Zbatimi u miratua"
+msgstr "Aplikacioni u miratua"
 
 #: /media/js/settings.js:40
 msgid "App rejected"
-msgstr "Zbatimi u hodh poshtë"
+msgstr "Aplikacioni u hodh poshtë"
 
 #: /media/js/settings.js:41
 msgid "App banned"
-msgstr "Zbatimi u ndalua"
+msgstr "Aplikacioni u ndalua"
 
 #: /media/js/settings.js:42
 msgid "More info required"
@@ -266,7 +266,7 @@ msgstr "Koment privat shqyrtuesi"
 
 #: /media/js/settings.js:45
 msgid "App resubmission"
-msgstr "Riparashtrim zbatimi"
+msgstr "Riparashtrim aplikacioni"
 
 #: /media/js/settings.js:46
 msgid "Approved but waiting to be made public"
@@ -290,7 +290,7 @@ msgstr "Iu hoq kërkesa për rishqyrtim"
 
 #: /media/js/settings.js:51
 msgid "App submission note"
-msgstr "Shënim parashtrimi zbatimi"
+msgstr "Shënim parashtrimi aplikacioni"
 
 #: /media/js/settings.js:52
 msgid "Developer comment"
