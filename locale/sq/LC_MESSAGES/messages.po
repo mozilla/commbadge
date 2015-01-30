@@ -51,8 +51,12 @@ msgid "Lookup Tool"
 msgstr "Mjet Kërkimi"
 
 #: /templates/footer.html:24
-msgid "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> or any later version."
-msgstr "Hiq atje ku <a href=\"{legal_url}\" target=\"_blank\">shënohet</a> ndryshe, lënda e këtij sajti qarkullon sipas licencës <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> ose cilitdo version të mëvonshëm. "
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
+msgstr ""
+"Hiq atje ku <a href=\"{legal_url}\" target=\"_blank\">shënohet</a> ndryshe, lënda e këtij sajti qarkullon sipas licencës <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> ose cilitdo version të mëvonshëm. "
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
@@ -78,8 +82,7 @@ msgstr "Dilni"
 msgid "Sign In"
 msgstr "Hyni"
 
-#: /templates/login.html:2
-#: /media/js/views/login.js:10
+#: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "Hyni"
 
@@ -91,9 +94,7 @@ msgstr "Që të vazhdohet, duhet të bëni hyrjen."
 msgid "Sign in / Sign up"
 msgstr "Hyni / Regjistrohuni"
 
-#: /templates/_macros/create_thread.html:10
-#: /templates/_macros/thread.html:15
-#: /templates/comm/no_notes.html:1
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "Nuk u gjetën shënime"
 
@@ -117,16 +118,13 @@ msgstr "Aplikacioni u Fshi"
 msgid "(Obsolete)"
 msgstr "(Të vjetruar)"
 
-#: /templates/_macros/thread_header.html:27
-#: /media/js/views/comm.js:59
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:59
 msgid "{n} note"
 msgid_plural "{n} notes"
 msgstr[0] "{n} shënim"
 msgstr[1] "{n} shënime"
 
-#: /templates/_macros/thread_header.html:33
-#: /media/js/views/comm.js:82
-#: /media/js/views/comm.js:154
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:82 /media/js/views/comm.js:154
 msgid "Reply"
 msgstr "Përgjigjuni"
 
@@ -206,8 +204,7 @@ msgstr "Bashkëngjitni një tjetër kartelë"
 msgid "Post"
 msgstr "Postoje"
 
-#: /templates/errors/404.html:2
-#: /templates/errors/fragment.html:1
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "Mooos!"
 
@@ -381,4 +378,3 @@ msgstr "Duke u shpajtuar prej kësaj rrjedhe, nuk do të merrni më njoftime me 
 #: /media/js/views/comm.js:209
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
 msgstr "U shpajtuat me sukses. Nuk do të merrni më njoftime me email nga kjo rrjedhë."
-

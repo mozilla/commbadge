@@ -159,8 +159,7 @@ msgstr "Attualmente non stai partecipando a nessuna discussione."
 
 #: /templates/comm/main.html:16
 msgid "Sorry, an error has occurred. Try logging in again."
-msgstr ""
-"Siamo spiacenti, si è verificato un errore. Riprova a effettuare l’accesso."
+msgstr "Siamo spiacenti, si è verificato un errore. Riprova a effettuare l’accesso."
 
 #: /templates/comm/note_detail.html:12
 msgid "Empty note"

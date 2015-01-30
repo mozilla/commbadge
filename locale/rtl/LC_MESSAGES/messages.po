@@ -54,10 +54,8 @@ msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
 "Alike License v3.0</a> or any later version."
 msgstr ""
-"‮Ǝxɔǝdʇ ʍɥǝɹǝ oʇɥǝɹʍısǝ <a href=\"{legal_url}\" target=\"_blank\""
-">‮uoʇǝp</a>‮´ ɔouʇǝuʇ ou ʇɥıs sıʇǝ ıs ʅıɔǝusǝp nupǝɹ ʇɥǝ <a href=\"{cc_url}\""
-" target=\"_blank\">‮Ↄɹǝɐʇıʌǝ Ↄoɯɯous ∀ʇʇɹıqnʇıou Sɥɐɹǝ-∀ʅıʞǝ ⅂ıɔǝusǝ "
-"ʌ3.0</a>‮ oɹ ɐuʎ ʅɐʇǝɹ ʌǝɹsıou˙"
+"‮Ǝxɔǝdʇ ʍɥǝɹǝ oʇɥǝɹʍısǝ <a href=\"{legal_url}\" target=\"_blank\">‮uoʇǝp</a>‮´ ɔouʇǝuʇ ou ʇɥıs sıʇǝ ıs ʅıɔǝusǝp nupǝɹ ʇɥǝ <a href=\"{cc_url}\" target=\"_blank\">‮Ↄɹǝɐʇıʌǝ Ↄoɯɯous ∀ʇʇɹıqnʇıou Sɥɐɹǝ-"
+"∀ʅıʞǝ ⅂ıɔǝusǝ ʌ3.0</a>‮ oɹ ɐuʎ ʅɐʇǝɹ ʌǝɹsıou˙"
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
@@ -372,12 +370,8 @@ msgstr "‮⊥ɥǝɹǝ ɐɹǝ uo ɯoɹǝ oʅpǝɹ uoʇǝs˙"
 
 #: /media/js/views/comm.js:204
 msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr ""
-"‮Ԑʎ nusnqsɔɹıqıuƃ ɟɹoɯ ʇɥıs ʇɥɹǝɐp´ ʎon ʍıʅʅ uo ʅouƃǝɹ ɹǝɔǝıʌǝ ǝɯɐıʅ "
-"uoʇıɟıɔɐʇıous ɟɹoɯ ʇɥıs ʇɥɹǝɐp˙ ∀ɹǝ ʎon snɹǝ¿"
+msgstr "‮Ԑʎ nusnqsɔɹıqıuƃ ɟɹoɯ ʇɥıs ʇɥɹǝɐp´ ʎon ʍıʅʅ uo ʅouƃǝɹ ɹǝɔǝıʌǝ ǝɯɐıʅ uoʇıɟıɔɐʇıous ɟɹoɯ ʇɥıs ʇɥɹǝɐp˙ ∀ɹǝ ʎon snɹǝ¿"
 
 #: /media/js/views/comm.js:209
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr ""
-"‮Snɔɔǝssɟnʅʅʎ nusnqsɔɹıqǝp˙ ⅄on ʍıʅʅ uo ʅouƃǝɹ ɹǝɔǝıʌǝ ǝɯɐıʅ uoʇıɟıɔɐʇıous "
-"ɟoɹ ʇɥɐʇ ʇɥɹǝɐp˙"
+msgstr "‮Snɔɔǝssɟnʅʅʎ nusnqsɔɹıqǝp˙ ⅄on ʍıʅʅ uo ʅouƃǝɹ ɹǝɔǝıʌǝ ǝɯɐıʅ uoʇıɟıɔɐʇıous ɟoɹ ʇɥɐʇ ʇɥɹǝɐp˙"

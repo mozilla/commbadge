@@ -158,9 +158,7 @@ msgstr "Sie sind derzeit an keinen Kommunikationsthemen beteiligt."
 
 #: /templates/comm/main.html:16
 msgid "Sorry, an error has occurred. Try logging in again."
-msgstr ""
-"Es tut uns leid, ein Fehler ist aufgetreten. Versuchen Sie, sich erneut "
-"anzumelden."
+msgstr "Es tut uns leid, ein Fehler ist aufgetreten. Versuchen Sie, sich erneut anzumelden."
 
 #: /templates/comm/note_detail.html:12
 msgid "Empty note"
@@ -329,8 +327,7 @@ msgstr "Wegen VIP-App an nächsthöhere Stelle weitergegeben"
 
 #: /media/js/settings.js:61
 msgid "Escalation due to prerelease App"
-msgstr ""
-"Wegen App für Vorabveröffentlichung an nächsthöhere Stelle weitergegeben"
+msgstr "Wegen App für Vorabveröffentlichung an nächsthöhere Stelle weitergegeben"
 
 #: /media/js/settings.js:62
 msgid "Priority review requested"
