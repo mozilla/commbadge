@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-07T16:58:46.524Z\n"
-"PO-Revision-Date: 2014-11-08 17:26+0000\n"
+"PO-Revision-Date: 2015-02-06 19:00+0000\n"
 "Last-Translator: Marco Aurélio <ouesten@me.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1415467610.0\n"
+"X-POOTLE-MTIME: 1423249206.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -28,11 +28,11 @@ msgstr "Sim"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
-msgstr "Desenvolver Aplicativos"
+msgstr "Desenvolver aplicativos"
 
 #: /templates/footer.html:5
 msgid "Developer Hub"
-msgstr "Central do Desenvolvedor"
+msgstr "Central do desenvolvedor"
 
 #: /templates/footer.html:6
 msgid "Support"
@@ -40,11 +40,11 @@ msgstr "Suporte"
 
 #: /templates/footer.html:10
 msgid "My Submissions"
-msgstr "Minhas submissões"
+msgstr "Meus envios"
 
 #: /templates/footer.html:13
 msgid "Reviewer Tools"
-msgstr "Ferramentas do revisor"
+msgstr "Ferramentas de revisão"
 
 #: /templates/footer.html:16
 msgid "Lookup Tool"
@@ -55,16 +55,18 @@ msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
 "Alike License v3.0</a> or any later version."
 msgstr ""
-"Exceto quando <a href=\"{legal_url}\" target=\"_blank\">indicado</a>, o conteúdo desde site está licenciado a <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License "
-"v3.0</a> ou qualquer versão posterior."
+"Exceto quando <a href=\"{legal_url}\" target=\"_blank\">indicado</a>, o conteúdo "
+"desde site está licenciado sob a <a href=\"{cc_url}\" target=\"_blank\">Licença "
+"Creative Commons Atribuição-CompartilhaIgual v3.0</a> ou qualquer versão "
+"posterior."
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
-msgstr "Política de Privacidade"
+msgstr "Política de privacidade"
 
 #: /templates/footer.html:30
 msgid "Terms of Use"
-msgstr "Termos de Uso"
+msgstr "Termos de uso"
 
 #: /templates/footer.html:32
 msgid "Report Trademark Abuse"
@@ -100,7 +102,7 @@ msgstr "Nenhuma nota foi encontrada"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
-msgstr "Anexos"
+msgstr "Anexo"
 
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
@@ -112,7 +114,7 @@ msgstr "{app_name} (Versão {version_number})"
 
 #: /templates/_macros/thread_header.html:19
 msgid "Deleted App"
-msgstr ""
+msgstr "Aplicativo excluído"
 
 #: /templates/_macros/thread_header.html:21
 msgid "(Obsolete)"
@@ -146,19 +148,19 @@ msgstr "Revisar"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
-msgstr "Meus Tópicos"
+msgstr "Meus tópicos"
 
 #: /templates/comm/main.html:4
 msgid "Go to Developer Hub"
-msgstr ""
+msgstr "Ir para a central do desenvolvedor"
 
 #: /templates/comm/main.html:14
 msgid "You currently are not involved in any communication threads."
-msgstr ""
+msgstr "Atualmente não está participando de qualquer discussão."
 
 #: /templates/comm/main.html:16
 msgid "Sorry, an error has occurred. Try logging in again."
-msgstr ""
+msgstr "Lamentamos, mas ocorreu um erro. Tente entrar novamente."
 
 #: /templates/comm/note_detail.html:12
 msgid "Empty note"
@@ -166,11 +168,11 @@ msgstr "Nota vazia"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
-msgstr "Visualizando Tópico para {app_name}"
+msgstr "Visualizando tópico sobre {app_name}"
 
 #: /templates/comm/show_thread.html:10
 msgid "Back to all threads for {app_name}"
-msgstr "Voltar para todos os tópicos para {app_name}"
+msgstr "Voltar a todos os tópicos sobre {app_name}"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
@@ -178,11 +180,11 @@ msgstr "Ícone do aplicativo"
 
 #: /templates/comm/app_dashboard.html:7
 msgid "Viewing All Threads for {app_name}"
-msgstr "Visualizando Todos os Tópicos para {app_name}"
+msgstr "Visualizando todos os tópicos sobre {app_name}"
 
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
-msgstr "Voltar para a página de edição do aplicativo"
+msgstr "Voltar à página de edição do aplicativo"
 
 #: /templates/_macros/thread.html:20
 msgid "View older"
@@ -194,7 +196,7 @@ msgstr "Digite sua nota aqui"
 
 #: /templates/_macros/reply_box.html:6
 msgid "Attach screenshots and log files:"
-msgstr "Anexar capturas de tela e arquivos de log:"
+msgstr "Anexe capturas de tela e arquivos de log:"
 
 #: /templates/_macros/reply_box.html:8
 msgid "Attach another file"
@@ -210,7 +212,7 @@ msgstr "Oh, não!"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
-msgstr "A página que você estava procurando não foi encontrada."
+msgstr "A página procurada não foi encontrada."
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
@@ -251,15 +253,15 @@ msgstr "Aplicativo banido"
 
 #: /media/js/settings.js:42
 msgid "More info required"
-msgstr "É necessário mais informações"
+msgstr "São necessárias mais informações"
 
 #: /media/js/settings.js:43
 msgid "Escalated to senior reviewer"
-msgstr ""
+msgstr "Escalado para um revisor sênior"
 
 #: /media/js/settings.js:44
 msgid "Private reviewer comment"
-msgstr ""
+msgstr "Comentário privado do revisor"
 
 #: /media/js/settings.js:45
 msgid "App resubmission"
@@ -271,19 +273,19 @@ msgstr "Aprovado, mas à espera de ser tornar público"
 
 #: /media/js/settings.js:47
 msgid "Escalated due to high abuse reports"
-msgstr ""
+msgstr "Escalado devido a muitas denúncias de abuso"
 
 #: /media/js/settings.js:48
 msgid "Escalated due to high refund requests"
-msgstr ""
+msgstr "Escalado devido a muitos pedidos de devolução"
 
 #: /media/js/settings.js:49
 msgid "Escalation cleared"
-msgstr "Escalação apuradas"
+msgstr "Escalação removida"
 
 #: /media/js/settings.js:50
 msgid "Re-review cleared"
-msgstr "Re-revisão apuradas"
+msgstr "Reanálise removida"
 
 #: /media/js/settings.js:51
 msgid "App submission note"
@@ -295,63 +297,63 @@ msgstr "Comentário do desenvolvedor"
 
 #: /media/js/settings.js:53
 msgid "Device(s) changed by reviewer"
-msgstr ""
+msgstr "Dispositivo(s) modificados pelo revisor"
 
 #: /media/js/settings.js:54
 msgid "Feature(s) changed by reviewer"
-msgstr ""
+msgstr "Funcionalidade(s) modificada(s) pelo revisor"
 
 #: /media/js/settings.js:55
 msgid "Review manifest change"
-msgstr ""
+msgstr "Revisar alteração do manifesto"
 
 #: /media/js/settings.js:56
 msgid "Review manifest url change"
-msgstr ""
+msgstr "Revisar alteração da url do manifesto"
 
 #: /media/js/settings.js:57
 msgid "Review manifest premium type upgrade"
-msgstr ""
+msgstr "Revisar atualização do tipo premium no manifesto"
 
 #: /media/js/settings.js:58
 msgid "Re-review devices added"
-msgstr ""
+msgstr "Revisar novamente os dispositivos adicionados"
 
 #: /media/js/settings.js:59
 msgid "Re-review features changed"
-msgstr ""
+msgstr "Revisar novamente as funcionalidades alteradas"
 
 #: /media/js/settings.js:60
 msgid "Escalation due to VIP App"
-msgstr ""
+msgstr "Escalado devido a aplicativo VIP"
 
 #: /media/js/settings.js:61
 msgid "Escalation due to prerelease App"
-msgstr ""
+msgstr "Escalado devido a pré-lançamento do aplicativo"
 
 #: /media/js/settings.js:62
 msgid "Priority review requested"
-msgstr ""
+msgstr "Solicitada revisão prioritária"
 
 #: /media/js/settings.js:63
 msgid "Tarako review passed"
-msgstr ""
+msgstr "Passou na revisão Takaro"
 
 #: /media/js/settings.js:64
 msgid "Tarako review failed"
-msgstr ""
+msgstr "Falhou na revisão Takaro"
 
 #: /media/js/settings.js:65
 msgid "Version notes for reviewer"
-msgstr ""
+msgstr "Notas da versão para o revisor"
 
 #: /media/js/settings.js:66
 msgid "Public reviewer comment"
-msgstr ""
+msgstr "Comentário público do revisor"
 
 #: /media/js/settings.js:67
 msgid "Re-review content rating adult"
-msgstr ""
+msgstr "Reavaliação de conteúdo classificada como para adulto"
 
 #: /media/js/views/comm.js:89
 msgid "Message sent."
@@ -371,8 +373,12 @@ msgstr "Não há mais notas anteriores."
 
 #: /media/js/views/comm.js:204
 msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr "Ao cancelar a subscrição neste tópico, não irá mais receber notificações por email a partir deste tópico. Tem a certeza?"
+msgstr ""
+"Ao cancelar a inscrição neste tópico, não receberá mais notificações por "
+"email deste tópico. Tem certeza?"
 
 #: /media/js/views/comm.js:209
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr "Cancelamento da subscrição concluída com sucesso. Não irá mais receber notificações por email deste tópico."
+msgstr ""
+"Cancelamento da inscrição concluída com sucesso. Não receberá mais "
+"notificações por email deste tópico."
