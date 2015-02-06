@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-07T16:58:46.524Z\n"
-"PO-Revision-Date: 2015-01-24 22:05+0000\n"
+"PO-Revision-Date: 2015-02-06 16:13+0000\n"
 "Last-Translator: Branislav <rozbora@mozilla.sk>\n"
 "Language-Team: Mozilla.sk <l10n@mozilla.sk>\n"
 "Language: sk\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1422137139.0\n"
+"X-POOTLE-MTIME: 1423239205.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -312,23 +312,23 @@ msgstr "Skontrolovať zmenu URL adresy manifestu"
 
 #: /media/js/settings.js:57
 msgid "Review manifest premium type upgrade"
-msgstr ""
+msgstr "Kontrola aktualizácie manifestu pre typ prémium"
 
 #: /media/js/settings.js:58
 msgid "Re-review devices added"
-msgstr ""
+msgstr "Opakovaná kontrola pridaných zariadení"
 
 #: /media/js/settings.js:59
 msgid "Re-review features changed"
-msgstr ""
+msgstr "Opakovaná kontrola zmien vlastností"
 
 #: /media/js/settings.js:60
 msgid "Escalation due to VIP App"
-msgstr ""
+msgstr "Pridané ako VIP aplikácia"
 
 #: /media/js/settings.js:61
 msgid "Escalation due to prerelease App"
-msgstr ""
+msgstr "Pridané ako aplikácia pred vydaním"
 
 #: /media/js/settings.js:62
 msgid "Priority review requested"
@@ -352,7 +352,7 @@ msgstr "Verejný komentár redaktora"
 
 #: /media/js/settings.js:67
 msgid "Re-review content rating adult"
-msgstr ""
+msgstr "Opätovná kontrola na obsah pre dospelých"
 
 #: /media/js/views/comm.js:89
 msgid "Message sent."
