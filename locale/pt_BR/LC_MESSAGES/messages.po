@@ -55,10 +55,8 @@ msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
 "Alike License v3.0</a> or any later version."
 msgstr ""
-"Exceto quando <a href=\"{legal_url}\" target=\"_blank\">indicado</a>, o conteúdo "
-"desde site está licenciado sob a <a href=\"{cc_url}\" target=\"_blank\">Licença "
-"Creative Commons Atribuição-CompartilhaIgual v3.0</a> ou qualquer versão "
-"posterior."
+"Exceto quando <a href=\"{legal_url}\" target=\"_blank\">indicado</a>, o conteúdo desde site está licenciado sob a <a href=\"{cc_url}\" target=\"_blank\">Licença Creative Commons Atribuição-"
+"CompartilhaIgual v3.0</a> ou qualquer versão posterior."
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
@@ -373,12 +371,8 @@ msgstr "Não há mais notas anteriores."
 
 #: /media/js/views/comm.js:204
 msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr ""
-"Ao cancelar a inscrição neste tópico, não receberá mais notificações por "
-"email deste tópico. Tem certeza?"
+msgstr "Ao cancelar a inscrição neste tópico, não receberá mais notificações por email deste tópico. Tem certeza?"
 
 #: /media/js/views/comm.js:209
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr ""
-"Cancelamento da inscrição concluída com sucesso. Não receberá mais "
-"notificações por email deste tópico."
+msgstr "Cancelamento da inscrição concluída com sucesso. Não receberá mais notificações por email deste tópico."
