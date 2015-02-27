@@ -3,15 +3,16 @@ msgstr ""
 "Project-Id-Version: AMO Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-07T16:58:46.524Z\n"
-"PO-Revision-Date: 2013-10-28 21:27+0200\n"
-"Last-Translator: Mihail Chilyashev <m@chilyashev.com>\n"
+"PO-Revision-Date: 2015-02-27 10:01+0000\n"
+"Last-Translator: Стоян <stoyan@gmx.com>\n"
 "Language-Team: Bulgarian (bg)\n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1425031310.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -39,7 +40,7 @@ msgstr "Поддръжка"
 
 #: /templates/footer.html:10
 msgid "My Submissions"
-msgstr "Пратени от мен"
+msgstr "Мои"
 
 #: /templates/footer.html:13
 msgid "Reviewer Tools"
@@ -87,7 +88,7 @@ msgstr "Вход"
 
 #: /templates/login.html:3
 msgid "You must sign in to proceed."
-msgstr "Трябва да влезете, за да продължите"
+msgstr "Трябва да се впишете, за да продължите."
 
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
@@ -99,11 +100,11 @@ msgstr "Няма намерени бележки"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
-msgstr ""
+msgstr "Прикачен файл"
 
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
-msgstr ""
+msgstr "Описание на файла"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -111,7 +112,7 @@ msgstr "{app_name} (Версия {version_number})"
 
 #: /templates/_macros/thread_header.html:19
 msgid "Deleted App"
-msgstr ""
+msgstr "Изтрити приложения"
 
 #: /templates/_macros/thread_header.html:21
 msgid "(Obsolete)"
@@ -133,15 +134,15 @@ msgstr "Последни"
 
 #: /templates/_macros/thread_header.html:43
 msgid "View App"
-msgstr ""
+msgstr "Преглед на приложение"
 
 #: /templates/_macros/thread_header.html:47
 msgid "Unsubscribe"
-msgstr ""
+msgstr "Отмяна абонамент"
 
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
-msgstr ""
+msgstr "Преглед"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -149,11 +150,11 @@ msgstr "Мои теми"
 
 #: /templates/comm/main.html:4
 msgid "Go to Developer Hub"
-msgstr ""
+msgstr "Към Developer Hub"
 
 #: /templates/comm/main.html:14
 msgid "You currently are not involved in any communication threads."
-msgstr ""
+msgstr "В момента не участвате в разговор."
 
 #: /templates/comm/main.html:16
 msgid "Sorry, an error has occurred. Try logging in again."
@@ -189,15 +190,15 @@ msgstr "Виж по-стари"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
-msgstr "Въведете текстът на бележката тук"
+msgstr "Въведете текста на бележката тук"
 
 #: /templates/_macros/reply_box.html:6
 msgid "Attach screenshots and log files:"
-msgstr ""
+msgstr "Прикачане на екранна снимка и журнали:"
 
 #: /templates/_macros/reply_box.html:8
 msgid "Attach another file"
-msgstr ""
+msgstr "Прикачане на друг файл"
 
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
@@ -213,7 +214,7 @@ msgstr "Страницата, която търсите не бе намерен
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
-msgstr ""
+msgstr "Версиите на това приложение"
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
@@ -246,7 +247,7 @@ msgstr "Приложението отказано"
 
 #: /media/js/settings.js:41
 msgid "App banned"
-msgstr ""
+msgstr "Приложението е забранено"
 
 #: /media/js/settings.js:42
 msgid "More info required"
@@ -262,11 +263,11 @@ msgstr ""
 
 #: /media/js/settings.js:45
 msgid "App resubmission"
-msgstr ""
+msgstr "Ново изпращане на приложение"
 
 #: /media/js/settings.js:46
 msgid "Approved but waiting to be made public"
-msgstr ""
+msgstr "Одобрени, но изчакващи публичност"
 
 #: /media/js/settings.js:47
 msgid "Escalated due to high abuse reports"
@@ -290,7 +291,7 @@ msgstr ""
 
 #: /media/js/settings.js:52
 msgid "Developer comment"
-msgstr ""
+msgstr "Бележка от разработчика"
 
 #: /media/js/settings.js:53
 msgid "Device(s) changed by reviewer"
@@ -342,11 +343,11 @@ msgstr ""
 
 #: /media/js/settings.js:65
 msgid "Version notes for reviewer"
-msgstr ""
+msgstr "Бележки по изданието към рецензента"
 
 #: /media/js/settings.js:66
 msgid "Public reviewer comment"
-msgstr ""
+msgstr "Публичен коментар от рецензента"
 
 #: /media/js/settings.js:67
 msgid "Re-review content rating adult"
