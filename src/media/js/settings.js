@@ -39,7 +39,7 @@ define('settings', ['l10n', 'settings_local', 'underscore'], function(l10n, sett
             {'msg': gettext('App approved'), 'class': 'green'},
             {'msg': gettext('App rejected'), 'class': 'red'},
             {'msg': gettext('App banned'), 'class': 'red'},
-            {'msg': gettext('More info required'), 'class': 'gray'},
+            {'msg': gettext('Reviewer comment'), 'class': 'gray'},
             {'msg': gettext('Escalated to senior reviewer'), 'class': 'orange'}, // 5
             {'msg': gettext('Private reviewer comment'), 'class': 'gray'},
             {'msg': gettext('App resubmission'), 'class': 'green'},
