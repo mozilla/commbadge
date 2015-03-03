@@ -32,7 +32,7 @@ console.log('Marketplace Communication Dashboard');
         nunjucks.env.dev = true;
         var nunjucks_globals = require('nunjucks').require('globals');
         nunjucks_globals.gravatar = function(gravatar_hash, size) {
-            return ('http://www.gravatar.com/avatar/' + gravatar_hash + '?s=' +
+            return ('https://secure.gravatar.com/avatar/' + gravatar_hash + '?s=' +
                     (size || 36));
         };
 
