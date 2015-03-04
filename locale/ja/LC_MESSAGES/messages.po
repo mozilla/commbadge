@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-04T17:14:03.426Z\n"
-"PO-Revision-Date: 今日 14:08-0400\n"
+"PO-Revision-Date: 2015-03-04 12:36-0500\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -250,7 +250,7 @@ msgstr "アプリは禁止されました"
 
 #: /media/js/settings.js:42
 msgid "Reviewer comment"
-msgstr ""
+msgstr "審査担当者のコメント"
 
 #: /media/js/settings.js:43
 msgid "Escalated to senior reviewer"
