@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-07T16:58:46.524Z\n"
+"POT-Creation-Date: 2015-03-04T17:14:03.426Z\n"
 "PO-Revision-Date: 2015-01-08 03:49+0000\n"
 "Last-Translator: Wim <w.benes@gmail.com>\n"
 "Language-Team: FRISIAN <LL@li.org>\n"
@@ -70,18 +70,6 @@ msgstr "Gebruiksvoorwaarden"
 msgid "Report Trademark Abuse"
 msgstr "Misbruik van handelsmerk melden"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Dashboard voor communicatie"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Afmelden"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Aanmelden"
-
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "Aanmelden"
@@ -94,9 +82,17 @@ msgstr "U moet zich aanmelden om verder te gaan."
 msgid "Sign in / Sign up"
 msgstr "Aanmelden / registreren"
 
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Geen opmerkingen gevonden"
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Dashboard voor communicatie"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Afmelden"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Aanmelden"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
@@ -105,6 +101,30 @@ msgstr "Bijlage"
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
 msgstr "Bestandsbeschrijving"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Geen opmerkingen gevonden"
+
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Voer hier de tekst in"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Voeg schermafbeeldingen en logbestanden bij:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Nog een bestand toevoegen"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Plaatsen"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Oudere weergeven"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -145,6 +165,18 @@ msgstr "Uitschrijven"
 msgid "Review"
 msgstr "Beoordelen"
 
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "App-pictogram"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Alle conversaties voor {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Terug naar app-bewerkingspagina"
+
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "Mijn conversaties"
@@ -174,38 +206,6 @@ msgstr "Conversatie voor {app_name}"
 msgid "Back to all threads for {app_name}"
 msgstr "Terug naar alle conversaties voor {app_name}"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "App-pictogram"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Alle conversaties voor {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Terug naar app-bewerkingspagina"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Oudere weergeven"
-
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Voer hier de tekst in"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Voeg schermafbeeldingen en logbestanden bij:"
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Nog een bestand toevoegen"
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Plaatsen"
-
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "Oh nee!"
@@ -213,6 +213,10 @@ msgstr "Oh nee!"
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
 msgstr "De door u gezochte pagina is niet gevonden."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Er is een fout opgetreden."
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
@@ -222,10 +226,6 @@ msgstr "Versies van deze app"
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Er is een fout opgetreden."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -252,8 +252,8 @@ msgid "App banned"
 msgstr "App verbannen"
 
 #: /media/js/settings.js:42
-msgid "More info required"
-msgstr "Meer info vereist"
+msgid "Reviewer comment"
+msgstr ""
 
 #: /media/js/settings.js:43
 msgid "Escalated to senior reviewer"

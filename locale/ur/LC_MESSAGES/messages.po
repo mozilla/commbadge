@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-07T16:58:46.524Z\n"
+"POT-Creation-Date: 2015-03-04T17:14:03.426Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -67,18 +67,6 @@ msgstr ""
 msgid "Report Trademark Abuse"
 msgstr ""
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr ""
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr ""
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr ""
-
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr ""
@@ -91,8 +79,16 @@ msgstr ""
 msgid "Sign in / Sign up"
 msgstr ""
 
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr ""
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr ""
+
+#: /templates/header.html:8
+msgid "Sign In"
 msgstr ""
 
 #: /templates/_includes/attachment_field.html:4
@@ -101,6 +97,30 @@ msgstr ""
 
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
+msgstr ""
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr ""
+
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr ""
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr ""
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr ""
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr ""
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
 msgstr ""
 
 #: /templates/_macros/thread_header.html:18
@@ -141,6 +161,18 @@ msgstr ""
 msgid "Review"
 msgstr ""
 
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr ""
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr ""
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr ""
+
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr ""
@@ -169,44 +201,16 @@ msgstr ""
 msgid "Back to all threads for {app_name}"
 msgstr ""
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr ""
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr ""
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr ""
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr ""
-
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr ""
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr ""
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr ""
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr ""
-
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr ""
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
+msgstr ""
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
 msgstr ""
 
 #: /templates/comm/threads_nav.html:2
@@ -216,10 +220,6 @@ msgstr ""
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
-msgstr ""
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
 msgstr ""
 
 #: /templates/errors/pagination.html:1
@@ -247,7 +247,7 @@ msgid "App banned"
 msgstr ""
 
 #: /media/js/settings.js:42
-msgid "More info required"
+msgid "Reviewer comment"
 msgstr ""
 
 #: /media/js/settings.js:43

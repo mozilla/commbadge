@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox Marketplace Communication Dashboard\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-07T16:58:46.524Z\n"
+"POT-Creation-Date: 2015-03-04T17:14:03.426Z\n"
 "PO-Revision-Date: 2015-01-07 21:20+0100\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish l10n-team <community-sweden@lists.mozilla.org>\n"
@@ -70,18 +70,6 @@ msgstr "Användarvillkor"
 msgid "Report Trademark Abuse"
 msgstr "Rapportera varumärkesintrång"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Kommunikationsöversikt"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Logga ut"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Logga in"
-
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "Logga in"
@@ -94,9 +82,17 @@ msgstr "Du måste logga in för att fortsätta."
 msgid "Sign in / Sign up"
 msgstr "Logga in / Registrera dig"
 
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Inga anteckningar hittades"
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Kommunikationsöversikt"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Logga ut"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Logga in"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
@@ -105,6 +101,30 @@ msgstr "Bilaga"
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
 msgstr "Filbeskrivning"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Inga anteckningar hittades"
+
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Skriv anteckning här"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Bifoga skärmdumpar och loggfiler:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Bifoga en annan fil"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Skicka"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Visa äldre"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -144,6 +164,18 @@ msgstr "Avsluta prenumeration"
 msgid "Review"
 msgstr "Omdöme"
 
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "App-ikon"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Visa alla trådar för {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Gå tillbaka till appens redigeringssida"
+
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "Mina trådar"
@@ -172,38 +204,6 @@ msgstr "Du visar tråd för {app_name}"
 msgid "Back to all threads for {app_name}"
 msgstr "Tillbaka till alla trådar för {app_name}"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "App-ikon"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Visa alla trådar för {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Gå tillbaka till appens redigeringssida"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Visa äldre"
-
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Skriv anteckning här"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Bifoga skärmdumpar och loggfiler:"
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Bifoga en annan fil"
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Skicka"
-
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "Åh nej!"
@@ -211,6 +211,10 @@ msgstr "Åh nej!"
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
 msgstr "Sidan du letade efter kunde inte hittas."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Ett fel uppstod."
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
@@ -220,10 +224,6 @@ msgstr "Denna App:s versioner"
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Ett fel uppstod."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -250,8 +250,8 @@ msgid "App banned"
 msgstr "App bannlyst"
 
 #: /media/js/settings.js:42
-msgid "More info required"
-msgstr "Mer information krävs"
+msgid "Reviewer comment"
+msgstr ""
 
 #: /media/js/settings.js:43
 msgid "Escalated to senior reviewer"

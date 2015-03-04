@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Commbadge\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-07T16:58:46.524Z\n"
+"POT-Creation-Date: 2015-03-04T17:14:03.426Z\n"
 "PO-Revision-Date: 2015-01-10 10:02+0000\n"
 "Last-Translator: Sandro <gialloporpora@mozillaitalia.org>\n"
 "Language-Team: gialloporpora <gialloporpora@yahoo.it>\n"
@@ -71,18 +71,6 @@ msgstr "Termini d'uso"
 msgid "Report Trademark Abuse"
 msgstr "Segnala abusi dei marchi registrati"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Pannello comunicazioni"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Esci"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Accedi"
-
 #: /templates/login.html:2 /media/js/views/login.js:10
 msgid "Sign in"
 msgstr "Accedi"
@@ -95,9 +83,17 @@ msgstr "Per proseguire è necessario eseguire l'accesso."
 msgid "Sign in / Sign up"
 msgstr "Accedi o registrati"
 
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Non è stata trovata alcuna nota"
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Pannello comunicazioni"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Esci"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Accedi"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
@@ -106,6 +102,30 @@ msgstr "Allegato"
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
 msgstr "Descrizione del file"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Non è stata trovata alcuna nota"
+
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Inserisci qui il testo della nota"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Allega screenshot e file di log:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Allega un altro file"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Invia"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Visualizza meno recenti"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -145,6 +165,18 @@ msgstr "Annulla sottoscrizione"
 msgid "Review"
 msgstr "Recensione"
 
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Icona dell'app"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Mostra tutte le discussioni riguardanti {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Ritorna alla pagina di modifica dell’app"
+
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "Le mie discussioni"
@@ -173,38 +205,6 @@ msgstr "Visualizzazione delle discussioni riguardanti {app_name}"
 msgid "Back to all threads for {app_name}"
 msgstr "Ritorna a tutte le discussioni riguardanti {app_name}"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Icona dell'app"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Mostra tutte le discussioni riguardanti {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Ritorna alla pagina di modifica dell’app"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Visualizza meno recenti"
-
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Inserisci qui il testo della nota"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Allega screenshot e file di log:"
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Allega un altro file"
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Invia"
-
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "Accidenti!"
@@ -212,6 +212,10 @@ msgstr "Accidenti!"
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
 msgstr "Non è stato possibile trovare la pagina che stavi cercando."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Si è verificato un errore."
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
@@ -221,10 +225,6 @@ msgstr "La versione corrente dell’app"
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Si è verificato un errore."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -251,8 +251,8 @@ msgid "App banned"
 msgstr "App espulsa"
 
 #: /media/js/settings.js:42
-msgid "More info required"
-msgstr "Sono richieste ulteriori informazioni"
+msgid "Reviewer comment"
+msgstr ""
 
 #: /media/js/settings.js:43
 msgid "Escalated to senior reviewer"
