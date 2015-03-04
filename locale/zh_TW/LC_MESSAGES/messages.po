@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-04T17:14:03.426Z\n"
-"PO-Revision-Date: 2015-01-09 06:59+0000\n"
+"PO-Revision-Date: 2015-03-04 22:38+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: MozTW <petercpg@mail.moztw.org>\n"
 "Language: zh_TW\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-POOTLE-MTIME: 1420786773.0\n"
+"X-POOTLE-MTIME: 1425508686.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -249,7 +249,7 @@ msgstr "已封鎖程式"
 
 #: /media/js/settings.js:42
 msgid "Reviewer comment"
-msgstr ""
+msgstr "審核者留言"
 
 #: /media/js/settings.js:43
 msgid "Escalated to senior reviewer"
