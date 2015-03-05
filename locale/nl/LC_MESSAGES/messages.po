@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-04T17:14:03.426Z\n"
-"PO-Revision-Date: 2015-01-08 03:49+0000\n"
+"PO-Revision-Date: 2015-03-05 12:14+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: none\n"
 "Language: nl\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1420688968.0\n"
+"X-POOTLE-MTIME: 1425557668.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -253,7 +253,7 @@ msgstr "App verbannen"
 
 #: /media/js/settings.js:42
 msgid "Reviewer comment"
-msgstr ""
+msgstr "Reactie van beoordelaar"
 
 #: /media/js/settings.js:43
 msgid "Escalated to senior reviewer"
