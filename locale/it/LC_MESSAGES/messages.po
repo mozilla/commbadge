@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Commbadge\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-04T17:14:03.426Z\n"
-"PO-Revision-Date: 2015-01-10 10:02+0000\n"
+"PO-Revision-Date: 2015-03-05 16:11+0000\n"
 "Last-Translator: Sandro <gialloporpora@mozillaitalia.org>\n"
 "Language-Team: gialloporpora <gialloporpora@yahoo.it>\n"
 "Language: it\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1420884140.0\n"
+"X-POOTLE-MTIME: 1425571891.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -252,7 +252,7 @@ msgstr "App espulsa"
 
 #: /media/js/settings.js:42
 msgid "Reviewer comment"
-msgstr ""
+msgstr "Commento del revisore"
 
 #: /media/js/settings.js:43
 msgid "Escalated to senior reviewer"
@@ -268,7 +268,8 @@ msgstr "Invia nuovamente l’app"
 
 #: /media/js/settings.js:46
 msgid "Approved but waiting to be made public"
-msgstr "È stata approvata, ma è in attesa di essere resa disponibile al pubblico."
+msgstr ""
+"È stata approvata, ma è in attesa di essere resa disponibile al pubblico"
 
 #: /media/js/settings.js:47
 msgid "Escalated due to high abuse reports"
