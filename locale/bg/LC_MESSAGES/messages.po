@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: AMO Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-04T17:14:03.426Z\n"
-"PO-Revision-Date: 2015-02-27 10:01+0000\n"
+"PO-Revision-Date: 2015-03-06 10:44+0000\n"
 "Last-Translator: Стоян <stoyan@gmx.com>\n"
 "Language-Team: Bulgarian (bg)\n"
 "Language: bg\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1425031310.0\n"
+"X-POOTLE-MTIME: 1425638642.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -190,7 +190,7 @@ msgstr "В момента не участвате в разговор."
 
 #: /templates/comm/main.html:16
 msgid "Sorry, an error has occurred. Try logging in again."
-msgstr ""
+msgstr "Извинявайте, стана грешка. Впишете се отново."
 
 #: /templates/comm/note_detail.html:12
 msgid "Empty note"
