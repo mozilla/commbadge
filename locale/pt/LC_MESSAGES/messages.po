@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: CommBadge\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-04T17:14:03.426Z\n"
-"PO-Revision-Date: 2015-01-12 23:03+0000\n"
+"PO-Revision-Date: 2015-03-08 04:51+0000\n"
 "Last-Translator: Cláudio <cesperanc@gmail.com>\n"
 "Language-Team: pt_PT\n"
 "Language: pt\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1421103793.0\n"
+"X-POOTLE-MTIME: 1425790282.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -251,7 +251,7 @@ msgstr "Aplicação banida"
 
 #: /media/js/settings.js:42
 msgid "Reviewer comment"
-msgstr ""
+msgstr "Comentário do revisor"
 
 #: /media/js/settings.js:43
 msgid "Escalated to senior reviewer"
