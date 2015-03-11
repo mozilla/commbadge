@@ -128,7 +128,7 @@ msgstr "Разглеждане на всички теми за {app_name}"
 
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
-msgstr ""
+msgstr "Върни се към редакцията на приложението"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
@@ -251,11 +251,11 @@ msgstr "Няма по-стари бележки."
 
 #: /media/js/views/comm.js:204
 msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr ""
+msgstr "Ако се отпишете от тази тема, няма да получавате повече имейл известия от нея. Сигурни ли сте?"
 
 #: /media/js/views/comm.js:209
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr ""
+msgstr "Отписването успешно. Вече няма да получавате имейл известия за тази тема."
 
 #: /media/js/settings.js:38
 msgid "Message"
@@ -279,11 +279,11 @@ msgstr ""
 
 #: /media/js/settings.js:43
 msgid "Escalated to senior reviewer"
-msgstr ""
+msgstr "Ескалирано до страши рецензент"
 
 #: /media/js/settings.js:44
 msgid "Private reviewer comment"
-msgstr ""
+msgstr "Частен коментар от рецензент"
 
 #: /media/js/settings.js:45
 msgid "App resubmission"
@@ -295,11 +295,11 @@ msgstr "Одобрени, но изчакващи публичност"
 
 #: /media/js/settings.js:47
 msgid "Escalated due to high abuse reports"
-msgstr ""
+msgstr "Ескалирано заради високи брой доклади за злоупотреба"
 
 #: /media/js/settings.js:48
 msgid "Escalated due to high refund requests"
-msgstr ""
+msgstr "Ескалирано заради висок брой заявки за възстановяване на средства"
 
 #: /media/js/settings.js:49
 msgid "Escalation cleared"
@@ -307,7 +307,7 @@ msgstr ""
 
 #: /media/js/settings.js:50
 msgid "Re-review cleared"
-msgstr ""
+msgstr "Повторното преглеждане отказано"
 
 #: /media/js/settings.js:51
 msgid "App submission note"
@@ -319,11 +319,11 @@ msgstr "Бележка от разработчика"
 
 #: /media/js/settings.js:53
 msgid "Device(s) changed by reviewer"
-msgstr ""
+msgstr "Устройство(а) променени от рецензент"
 
 #: /media/js/settings.js:54
 msgid "Feature(s) changed by reviewer"
-msgstr ""
+msgstr "Свойство(а) променени от рецензент"
 
 #: /media/js/settings.js:55
 msgid "Review manifest change"
@@ -347,7 +347,7 @@ msgstr ""
 
 #: /media/js/settings.js:60
 msgid "Escalation due to VIP App"
-msgstr ""
+msgstr "Ескалиране заради VIP приложение"
 
 #: /media/js/settings.js:61
 msgid "Escalation due to prerelease App"
