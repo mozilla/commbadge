@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-04T17:14:03.426Z\n"
+"POT-Creation-Date: 2015-03-11T18:08:41.317Z\n"
 "PO-Revision-Date: 2015-03-05 13:45+0000\n"
 "Last-Translator: Branislav <rozbora@mozilla.sk>\n"
 "Language-Team: Mozilla.sk <l10n@mozilla.sk>\n"
@@ -70,18 +70,6 @@ msgstr "Podmienky použitia"
 msgid "Report Trademark Abuse"
 msgstr "Nahlásiť zneužitie ochrannej známky"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Prihlásiť"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Ak chcete pokračovať, musíte sa prihlásiť."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Prihlásiť sa / zaregistrovať"
-
 #: /templates/header.html:2
 msgid "Communication Dashboard"
 msgstr "Komunikačná nástenka"
@@ -94,13 +82,17 @@ msgstr "Odhlásiť sa"
 msgid "Sign In"
 msgstr "Prihlásiť sa"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Príloha"
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Prihlásiť"
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Popis súboru"
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Ak chcete pokračovať, musíte sa prihlásiť."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Prihlásiť sa / zaregistrovať"
 
 #: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
@@ -125,6 +117,26 @@ msgstr "Pridať"
 #: /templates/_macros/thread.html:20
 msgid "View older"
 msgstr "Zobraziť staršie"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Ikona aplikácie"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Zobrazujú sa všetky vlákna pre {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Späť na stránku úpravy aplikácie"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Príloha"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Popis súboru"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -165,18 +177,6 @@ msgstr "Odhlásiť"
 msgid "Review"
 msgstr "Kontrola"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Ikona aplikácie"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Zobrazujú sa všetky vlákna pre {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Späť na stránku úpravy aplikácie"
-
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "Moje vlákna"
@@ -205,17 +205,25 @@ msgstr "Zobrazuje sa vlákno pre {app_name}"
 msgid "Back to all threads for {app_name}"
 msgstr "Naspäť na všetky vlákna pre {app_name}"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
 msgstr "Ale nie!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Hľadaná stránka nebola nájdená."
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "Vyskytla sa chyba."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Chyba pri načítavaní ďalších položiek"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Skúsiť znova"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Hľadaná stránka nebola nájdená."
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
@@ -226,13 +234,29 @@ msgstr "Tieto verzie aplikácie"
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Chyba pri načítavaní ďalších položiek"
+#: /media/js/views/comm.js:89
+msgid "Message sent."
+msgstr "Správa odoslaná."
 
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Skúsiť znova"
+#: /media/js/views/comm.js:94
+msgid "Message sending failed."
+msgstr "Odoslanie správy zlyhalo."
+
+#: /media/js/views/comm.js:144
+msgid "Cancel reply"
+msgstr "Zrušiť odpoveď"
+
+#: /media/js/views/comm.js:181
+msgid "There are no more older notes."
+msgstr "Neexistujú žiadne staršie poznámky."
+
+#: /media/js/views/comm.js:204
+msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+msgstr "Po odhlásení z tohto vlákna vám už nebudú zasielané e-maily s upozornením. Ste si istý?"
+
+#: /media/js/views/comm.js:209
+msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
+msgstr "Odber bol odhlásený. Teraz vám už nebudú zasielané žiadne e-maily s upozornením na toto vlákno."
 
 #: /media/js/settings.js:38
 msgid "Message"
@@ -353,27 +377,3 @@ msgstr "Verejný komentár redaktora"
 #: /media/js/settings.js:67
 msgid "Re-review content rating adult"
 msgstr "Opätovná kontrola na obsah pre dospelých"
-
-#: /media/js/views/comm.js:89
-msgid "Message sent."
-msgstr "Správa odoslaná."
-
-#: /media/js/views/comm.js:94
-msgid "Message sending failed."
-msgstr "Odoslanie správy zlyhalo."
-
-#: /media/js/views/comm.js:144
-msgid "Cancel reply"
-msgstr "Zrušiť odpoveď"
-
-#: /media/js/views/comm.js:181
-msgid "There are no more older notes."
-msgstr "Neexistujú žiadne staršie poznámky."
-
-#: /media/js/views/comm.js:204
-msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr "Po odhlásení z tohto vlákna vám už nebudú zasielané e-maily s upozornením. Ste si istý?"
-
-#: /media/js/views/comm.js:209
-msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr "Odber bol odhlásený. Teraz vám už nebudú zasielané žiadne e-maily s upozornením na toto vlákno."

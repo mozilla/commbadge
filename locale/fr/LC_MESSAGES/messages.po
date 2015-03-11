@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-04T17:14:03.426Z\n"
+"POT-Creation-Date: 2015-03-11T18:08:41.317Z\n"
 "PO-Revision-Date: 2014-10-04 14:06+0000\n"
 "Last-Translator: Benoit <benoit.leseul@gmail.com>\n"
 "Language-Team: français <>\n"
@@ -73,18 +73,6 @@ msgstr "Conditions d'utilisation"
 msgid "Report Trademark Abuse"
 msgstr "Signaler un abus de marque déposée"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Connexion"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Vous devez vous identifier pour continuer."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Connexion / Inscription"
-
 #: /templates/header.html:2
 msgid "Communication Dashboard"
 msgstr "Tableau de bord de communication"
@@ -97,13 +85,17 @@ msgstr "Déconnexion"
 msgid "Sign In"
 msgstr "Connexion"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Pièce jointe"
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Connexion"
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Description du fichier"
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Vous devez vous identifier pour continuer."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Connexion / Inscription"
 
 #: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
@@ -128,6 +120,26 @@ msgstr "Envoyer"
 #: /templates/_macros/thread.html:20
 msgid "View older"
 msgstr "Afficher plus anciens"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Icône de l'application"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Affichage de toutes les discussion sur {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Retour à la page de modification de l'app"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Pièce jointe"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Description du fichier"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -167,18 +179,6 @@ msgstr "Désinscription"
 msgid "Review"
 msgstr "Révision"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Icône de l'application"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Affichage de toutes les discussion sur {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Retour à la page de modification de l'app"
-
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "Mes discussions"
@@ -207,17 +207,25 @@ msgstr "Affichage de la discussion sur {app_name}"
 msgid "Back to all threads for {app_name}"
 msgstr "Revenir aux discussions sur {app_name}"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
 msgstr "Oh non !"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "La page que vous avez demandé n'a pas été trouvée."
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "Une erreur est survenue."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Erreur pendant le chargement"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Réessayez"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "La page que vous avez demandé n'a pas été trouvée."
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
@@ -228,13 +236,29 @@ msgstr "Les versions de cette application"
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Erreur pendant le chargement"
+#: /media/js/views/comm.js:89
+msgid "Message sent."
+msgstr "Message envoyé."
 
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Réessayez"
+#: /media/js/views/comm.js:94
+msgid "Message sending failed."
+msgstr "Échec d'envoi du message."
+
+#: /media/js/views/comm.js:144
+msgid "Cancel reply"
+msgstr "Annuler la réponse"
+
+#: /media/js/views/comm.js:181
+msgid "There are no more older notes."
+msgstr "Il n'y a pas de notes plus anciennes."
+
+#: /media/js/views/comm.js:204
+msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+msgstr "En vous désinscrivant de cette discussion, vous ne recevrez plus de notifications par courrier électronique pour celle-ci. Confirmez-vous votre désinscription ?"
+
+#: /media/js/views/comm.js:209
+msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
+msgstr "Désinscription effectuée. Vous ne recevrez plus de notifications par courrier électronique pour cette discussion."
 
 #: /media/js/settings.js:38
 msgid "Message"
@@ -355,27 +379,3 @@ msgstr ""
 #: /media/js/settings.js:67
 msgid "Re-review content rating adult"
 msgstr ""
-
-#: /media/js/views/comm.js:89
-msgid "Message sent."
-msgstr "Message envoyé."
-
-#: /media/js/views/comm.js:94
-msgid "Message sending failed."
-msgstr "Échec d'envoi du message."
-
-#: /media/js/views/comm.js:144
-msgid "Cancel reply"
-msgstr "Annuler la réponse"
-
-#: /media/js/views/comm.js:181
-msgid "There are no more older notes."
-msgstr "Il n'y a pas de notes plus anciennes."
-
-#: /media/js/views/comm.js:204
-msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr "En vous désinscrivant de cette discussion, vous ne recevrez plus de notifications par courrier électronique pour celle-ci. Confirmez-vous votre désinscription ?"
-
-#: /media/js/views/comm.js:209
-msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr "Désinscription effectuée. Vous ne recevrez plus de notifications par courrier électronique pour cette discussion."

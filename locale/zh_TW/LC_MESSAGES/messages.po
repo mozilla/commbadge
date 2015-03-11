@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-04T17:14:03.426Z\n"
+"POT-Creation-Date: 2015-03-11T18:08:41.317Z\n"
 "PO-Revision-Date: 2015-03-04 22:38+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: MozTW <petercpg@mail.moztw.org>\n"
@@ -69,18 +69,6 @@ msgstr "使用條款"
 msgid "Report Trademark Abuse"
 msgstr "回報商標濫用"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "登入"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "您必須登入才能繼續。"
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "登入 / 註冊"
-
 #: /templates/header.html:2
 msgid "Communication Dashboard"
 msgstr "傳播主控台"
@@ -93,13 +81,17 @@ msgstr "登出"
 msgid "Sign In"
 msgstr "登入"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "附件"
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "登入"
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "檔案描述"
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "您必須登入才能繼續。"
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "登入 / 註冊"
 
 #: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
@@ -124,6 +116,26 @@ msgstr "張貼"
 #: /templates/_macros/thread.html:20
 msgid "View older"
 msgstr "檢視更舊項目"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "應用程式圖示"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "檢視所有 {app_name} 的討論串"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "回到程式編輯頁面"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "附件"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "檔案描述"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -162,18 +174,6 @@ msgstr "取消訂閱"
 msgid "Review"
 msgstr "評論"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "應用程式圖示"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "檢視所有 {app_name} 的討論串"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "回到程式編輯頁面"
-
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "我的討論串"
@@ -202,17 +202,25 @@ msgstr "正在檢視 {app_name} 的討論串"
 msgid "Back to all threads for {app_name}"
 msgstr "回到 {app_name} 的所有討論串"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
 msgstr "喔不！"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "找不到您想開啟的頁面。"
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "發生錯誤。"
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "載入更多時發生錯誤"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "重試"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "找不到您想開啟的頁面。"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
@@ -223,13 +231,29 @@ msgstr "此應用程式的版本"
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "載入更多時發生錯誤"
+#: /media/js/views/comm.js:89
+msgid "Message sent."
+msgstr "訊息已送出。"
 
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "重試"
+#: /media/js/views/comm.js:94
+msgid "Message sending failed."
+msgstr "訊息傳送失敗。"
+
+#: /media/js/views/comm.js:144
+msgid "Cancel reply"
+msgstr "取消回覆"
+
+#: /media/js/views/comm.js:181
+msgid "There are no more older notes."
+msgstr "沒有更舊的筆記了。"
+
+#: /media/js/views/comm.js:204
+msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+msgstr "取消訂閱此討論串後您將不會在收到此討論串的郵件通知，確定要取消訂閱嗎？"
+
+#: /media/js/views/comm.js:209
+msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
+msgstr "已成功取消訂閱。您將不會再收到該討論串的通知。"
 
 #: /media/js/settings.js:38
 msgid "Message"
@@ -350,27 +374,3 @@ msgstr "審查者公開留言"
 #: /media/js/settings.js:67
 msgid "Re-review content rating adult"
 msgstr "因內容評等為成人重新審查"
-
-#: /media/js/views/comm.js:89
-msgid "Message sent."
-msgstr "訊息已送出。"
-
-#: /media/js/views/comm.js:94
-msgid "Message sending failed."
-msgstr "訊息傳送失敗。"
-
-#: /media/js/views/comm.js:144
-msgid "Cancel reply"
-msgstr "取消回覆"
-
-#: /media/js/views/comm.js:181
-msgid "There are no more older notes."
-msgstr "沒有更舊的筆記了。"
-
-#: /media/js/views/comm.js:204
-msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr "取消訂閱此討論串後您將不會在收到此討論串的郵件通知，確定要取消訂閱嗎？"
-
-#: /media/js/views/comm.js:209
-msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr "已成功取消訂閱。您將不會再收到該討論串的通知。"

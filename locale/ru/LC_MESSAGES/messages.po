@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-04T17:14:03.426Z\n"
+"POT-Creation-Date: 2015-03-11T18:08:41.317Z\n"
 "PO-Revision-Date: 2015-03-07 19:32+0000\n"
 "Last-Translator: Alexander <unghost@mozilla-russia.org>\n"
 "Language-Team: none\n"
@@ -10,8 +10,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1425756746.0\n"
 
@@ -71,18 +70,6 @@ msgstr "Условия использования"
 msgid "Report Trademark Abuse"
 msgstr "Сообщить о злоупотреблении торговой маркой"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Войти"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Вы должны войти для продолжения"
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Вход / Регистрация"
-
 #: /templates/header.html:2
 msgid "Communication Dashboard"
 msgstr "Панель коммуникации"
@@ -95,13 +82,17 @@ msgstr "Выйти"
 msgid "Sign In"
 msgstr "Войти"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Приложение"
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Войти"
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Описание файла"
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Вы должны войти для продолжения"
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Вход / Регистрация"
 
 #: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
@@ -126,6 +117,26 @@ msgstr "Разместить"
 #: /templates/_macros/thread.html:20
 msgid "View older"
 msgstr "Показать старые"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Значок приложения"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Просмотр всех обсуждений для {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Вернуться к странице редактирования приложения"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Приложение"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Описание файла"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -166,18 +177,6 @@ msgstr "Отписаться"
 msgid "Review"
 msgstr "Рецензировать"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Значок приложения"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Просмотр всех обсуждений для {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Вернуться к странице редактирования приложения"
-
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "Мои обсуждения"
@@ -206,17 +205,25 @@ msgstr "Просмотр обсуждения для {app_name}"
 msgid "Back to all threads for {app_name}"
 msgstr "Вернуться ко всем обсуждениям для {app_name}"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
 msgstr "О нет!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Страница, которую вы искали, не была найдена."
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "Произошла ошибка."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Ошибка загрузки большего"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Попробовать снова"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Страница, которую вы искали, не была найдена."
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
@@ -227,13 +234,29 @@ msgstr "Версии этого приложения"
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Ошибка загрузки большего"
+#: /media/js/views/comm.js:89
+msgid "Message sent."
+msgstr "Сообщение отправлено."
 
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Попробовать снова"
+#: /media/js/views/comm.js:94
+msgid "Message sending failed."
+msgstr "Не удалось отправить сообщение."
+
+#: /media/js/views/comm.js:144
+msgid "Cancel reply"
+msgstr "Отменить ответ"
+
+#: /media/js/views/comm.js:181
+msgid "There are no more older notes."
+msgstr "Более старых заметок не имеется."
+
+#: /media/js/views/comm.js:204
+msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+msgstr "Если вы отпишетесь от этого обсуждения, вы больше не будете получать уведомления по электронной почте из этого обсуждения. Вы уверены?"
+
+#: /media/js/views/comm.js:209
+msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
+msgstr "Вы были успешно отписаны и более не будете получать уведомления по электронной почте из этого обсуждения."
 
 #: /media/js/settings.js:38
 msgid "Message"
@@ -354,27 +377,3 @@ msgstr "Публичный комментарий рецензента"
 #: /media/js/settings.js:67
 msgid "Re-review content rating adult"
 msgstr "Повторная проверка рейтинга содержимого \"для взрослых\""
-
-#: /media/js/views/comm.js:89
-msgid "Message sent."
-msgstr "Сообщение отправлено."
-
-#: /media/js/views/comm.js:94
-msgid "Message sending failed."
-msgstr "Не удалось отправить сообщение."
-
-#: /media/js/views/comm.js:144
-msgid "Cancel reply"
-msgstr "Отменить ответ"
-
-#: /media/js/views/comm.js:181
-msgid "There are no more older notes."
-msgstr "Более старых заметок не имеется."
-
-#: /media/js/views/comm.js:204
-msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr "Если вы отпишетесь от этого обсуждения, вы больше не будете получать уведомления по электронной почте из этого обсуждения. Вы уверены?"
-
-#: /media/js/views/comm.js:209
-msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr "Вы были успешно отписаны и более не будете получать уведомления по электронной почте из этого обсуждения."

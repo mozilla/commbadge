@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Commbadge\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-04T17:14:03.426Z\n"
+"POT-Creation-Date: 2015-03-11T18:08:41.317Z\n"
 "PO-Revision-Date: 2015-03-05 16:11+0000\n"
 "Last-Translator: Sandro <gialloporpora@mozillaitalia.org>\n"
 "Language-Team: gialloporpora <gialloporpora@yahoo.it>\n"
@@ -71,18 +71,6 @@ msgstr "Termini d'uso"
 msgid "Report Trademark Abuse"
 msgstr "Segnala abusi dei marchi registrati"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Accedi"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Per proseguire è necessario eseguire l'accesso."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Accedi o registrati"
-
 #: /templates/header.html:2
 msgid "Communication Dashboard"
 msgstr "Pannello comunicazioni"
@@ -95,13 +83,17 @@ msgstr "Esci"
 msgid "Sign In"
 msgstr "Accedi"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Allegato"
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Accedi"
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Descrizione del file"
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Per proseguire è necessario eseguire l'accesso."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Accedi o registrati"
 
 #: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
@@ -126,6 +118,26 @@ msgstr "Invia"
 #: /templates/_macros/thread.html:20
 msgid "View older"
 msgstr "Visualizza meno recenti"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Icona dell'app"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Mostra tutte le discussioni riguardanti {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Ritorna alla pagina di modifica dell’app"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Allegato"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Descrizione del file"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -165,18 +177,6 @@ msgstr "Annulla sottoscrizione"
 msgid "Review"
 msgstr "Recensione"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Icona dell'app"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Mostra tutte le discussioni riguardanti {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Ritorna alla pagina di modifica dell’app"
-
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "Le mie discussioni"
@@ -205,17 +205,25 @@ msgstr "Visualizzazione delle discussioni riguardanti {app_name}"
 msgid "Back to all threads for {app_name}"
 msgstr "Ritorna a tutte le discussioni riguardanti {app_name}"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
 msgstr "Accidenti!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Non è stato possibile trovare la pagina che stavi cercando."
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "Si è verificato un errore."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Errore durante il caricamento di contenuti extra"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Riprova"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Non è stato possibile trovare la pagina che stavi cercando."
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
@@ -226,13 +234,29 @@ msgstr "La versione corrente dell’app"
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Errore durante il caricamento di contenuti extra"
+#: /media/js/views/comm.js:89
+msgid "Message sent."
+msgstr "Messaggio inviato."
 
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Riprova"
+#: /media/js/views/comm.js:94
+msgid "Message sending failed."
+msgstr "Non è stato possibile inviare il messaggio."
+
+#: /media/js/views/comm.js:144
+msgid "Cancel reply"
+msgstr "Annulla risposta"
+
+#: /media/js/views/comm.js:181
+msgid "There are no more older notes."
+msgstr "Non sono state trovate note meno recenti."
+
+#: /media/js/views/comm.js:204
+msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+msgstr "Annullando la sottoscrizione a questa discussione non riceverai più notifiche via email su di essa. Sei sicuro di voler rimuovere questa sottoscrizione?"
+
+#: /media/js/views/comm.js:209
+msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
+msgstr "La sottoscrizione è stata annullata correttamente. Non riceverai più notifiche via email per questa discussione."
 
 #: /media/js/settings.js:38
 msgid "Message"
@@ -268,8 +292,7 @@ msgstr "Invia nuovamente l’app"
 
 #: /media/js/settings.js:46
 msgid "Approved but waiting to be made public"
-msgstr ""
-"È stata approvata, ma è in attesa di essere resa disponibile al pubblico"
+msgstr "È stata approvata, ma è in attesa di essere resa disponibile al pubblico"
 
 #: /media/js/settings.js:47
 msgid "Escalated due to high abuse reports"
@@ -354,27 +377,3 @@ msgstr "Commento pubblico del revisore"
 #: /media/js/settings.js:67
 msgid "Re-review content rating adult"
 msgstr "Riesame classificazione contenuti adulti"
-
-#: /media/js/views/comm.js:89
-msgid "Message sent."
-msgstr "Messaggio inviato."
-
-#: /media/js/views/comm.js:94
-msgid "Message sending failed."
-msgstr "Non è stato possibile inviare il messaggio."
-
-#: /media/js/views/comm.js:144
-msgid "Cancel reply"
-msgstr "Annulla risposta"
-
-#: /media/js/views/comm.js:181
-msgid "There are no more older notes."
-msgstr "Non sono state trovate note meno recenti."
-
-#: /media/js/views/comm.js:204
-msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr "Annullando la sottoscrizione a questa discussione non riceverai più notifiche via email su di essa. Sei sicuro di voler rimuovere questa sottoscrizione?"
-
-#: /media/js/views/comm.js:209
-msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr "La sottoscrizione è stata annullata correttamente. Non riceverai più notifiche via email per questa discussione."

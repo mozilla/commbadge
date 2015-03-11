@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-04T17:14:03.426Z\n"
+"POT-Creation-Date: 2015-03-11T18:08:41.317Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -69,19 +69,6 @@ msgstr "Ŧḗřḿş ǿƒ Ŭşḗ"
 msgid "Report Trademark Abuse"
 msgstr "Řḗƥǿřŧ Ŧřȧḓḗḿȧřķ Ȧƀŭşḗ"
 
-#: /templates/login.html:2
-#: /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Şīɠƞ īƞ"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Ẏǿŭ ḿŭşŧ şīɠƞ īƞ ŧǿ ƥřǿƈḗḗḓ."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Şīɠƞ īƞ / Şīɠƞ ŭƥ"
-
 #: /templates/header.html:2
 msgid "Communication Dashboard"
 msgstr "Ƈǿḿḿŭƞīƈȧŧīǿƞ Ḓȧşħƀǿȧřḓ"
@@ -94,13 +81,18 @@ msgstr "Şīɠƞ Ǿŭŧ"
 msgid "Sign In"
 msgstr "Şīɠƞ Īƞ"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Ȧŧŧȧƈħḿḗƞŧ"
+#: /templates/login.html:2
+#: /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Şīɠƞ īƞ"
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Ƒīŀḗ Ḓḗşƈřīƥŧīǿƞ"
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Ẏǿŭ ḿŭşŧ şīɠƞ īƞ ŧǿ ƥřǿƈḗḗḓ."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Şīɠƞ īƞ / Şīɠƞ ŭƥ"
 
 #: /templates/_macros/create_thread.html:10
 #: /templates/_macros/thread.html:15
@@ -127,6 +119,26 @@ msgstr "Ƥǿşŧ"
 #: /templates/_macros/thread.html:20
 msgid "View older"
 msgstr "Ṽīḗẇ ǿŀḓḗř"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Ȧƥƥ īƈǿƞ"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Ṽīḗẇīƞɠ Ȧŀŀ Ŧħřḗȧḓş ƒǿř {ȧƥƥ_ƞȧḿḗ}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Ɠǿ ƀȧƈķ ŧǿ ȧƥƥ ḗḓīŧ ƥȧɠḗ"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Ȧŧŧȧƈħḿḗƞŧ"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Ƒīŀḗ Ḓḗşƈřīƥŧīǿƞ"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -169,18 +181,6 @@ msgstr "Ŭƞşŭƀşƈřīƀḗ"
 msgid "Review"
 msgstr "Řḗṽīḗẇ"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Ȧƥƥ īƈǿƞ"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Ṽīḗẇīƞɠ Ȧŀŀ Ŧħřḗȧḓş ƒǿř {ȧƥƥ_ƞȧḿḗ}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Ɠǿ ƀȧƈķ ŧǿ ȧƥƥ ḗḓīŧ ƥȧɠḗ"
-
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "Ḿẏ Ŧħřḗȧḓş"
@@ -209,18 +209,26 @@ msgstr "Ṽīḗẇīƞɠ Ŧħřḗȧḓ ƒǿř {ȧƥƥ_ƞȧḿḗ}"
 msgid "Back to all threads for {app_name}"
 msgstr "Ɓȧƈķ ŧǿ ȧŀŀ ŧħřḗȧḓş ƒǿř {ȧƥƥ_ƞȧḿḗ}"
 
-#: /templates/errors/404.html:2
 #: /templates/errors/fragment.html:1
+#: /templates/errors/404.html:2
 msgid "Oh no!"
 msgstr "Ǿħ ƞǿ!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Ŧħḗ ƥȧɠḗ ẏǿŭ ẇḗřḗ ŀǿǿķīƞɠ ƒǿř ẇȧş ƞǿŧ ƒǿŭƞḓ."
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "Ȧƞ ḗřřǿř ǿƈƈŭřřḗḓ."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Ḗřřǿř ŀǿȧḓīƞɠ ḿǿřḗ"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Ŧřẏ Ȧɠȧīƞ"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Ŧħḗ ƥȧɠḗ ẏǿŭ ẇḗřḗ ŀǿǿķīƞɠ ƒǿř ẇȧş ƞǿŧ ƒǿŭƞḓ."
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
@@ -231,13 +239,33 @@ msgstr "Ŧħīş Ȧƥƥ'ş Ṽḗřşīǿƞş"
 msgid "v.{version_number}"
 msgstr "ṽ.{ṽḗřşīǿƞ_ƞŭḿƀḗř}"
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Ḗřřǿř ŀǿȧḓīƞɠ ḿǿřḗ"
+#: /media/js/views/comm.js:89
+msgid "Message sent."
+msgstr "Ḿḗşşȧɠḗ şḗƞŧ."
 
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Ŧřẏ Ȧɠȧīƞ"
+#: /media/js/views/comm.js:94
+msgid "Message sending failed."
+msgstr "Ḿḗşşȧɠḗ şḗƞḓīƞɠ ƒȧīŀḗḓ."
+
+#: /media/js/views/comm.js:144
+msgid "Cancel reply"
+msgstr "Ƈȧƞƈḗŀ řḗƥŀẏ"
+
+#: /media/js/views/comm.js:181
+msgid "There are no more older notes."
+msgstr "Ŧħḗřḗ ȧřḗ ƞǿ ḿǿřḗ ǿŀḓḗř ƞǿŧḗş."
+
+#: /media/js/views/comm.js:204
+msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+msgstr ""
+"Ɓẏ ŭƞşŭƀşƈřīƀīƞɠ ƒřǿḿ ŧħīş ŧħřḗȧḓ, ẏǿŭ ẇīŀŀ ƞǿ ŀǿƞɠḗř řḗƈḗīṽḗ ḗḿȧīŀ "
+"ƞǿŧīƒīƈȧŧīǿƞş ƒřǿḿ ŧħīş ŧħřḗȧḓ. Ȧřḗ ẏǿŭ şŭřḗ?"
+
+#: /media/js/views/comm.js:209
+msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
+msgstr ""
+"Şŭƈƈḗşşƒŭŀŀẏ ŭƞşŭƀşƈřīƀḗḓ. Ẏǿŭ ẇīŀŀ ƞǿ ŀǿƞɠḗř řḗƈḗīṽḗ ḗḿȧīŀ ƞǿŧīƒīƈȧŧīǿƞş "
+"ƒǿř ŧħȧŧ ŧħřḗȧḓ."
 
 #: /media/js/settings.js:38
 msgid "Message"
@@ -358,31 +386,3 @@ msgstr "Ƥŭƀŀīƈ řḗṽīḗẇḗř ƈǿḿḿḗƞŧ"
 #: /media/js/settings.js:67
 msgid "Re-review content rating adult"
 msgstr "Řḗ-řḗṽīḗẇ ƈǿƞŧḗƞŧ řȧŧīƞɠ ȧḓŭŀŧ"
-
-#: /media/js/views/comm.js:89
-msgid "Message sent."
-msgstr "Ḿḗşşȧɠḗ şḗƞŧ."
-
-#: /media/js/views/comm.js:94
-msgid "Message sending failed."
-msgstr "Ḿḗşşȧɠḗ şḗƞḓīƞɠ ƒȧīŀḗḓ."
-
-#: /media/js/views/comm.js:144
-msgid "Cancel reply"
-msgstr "Ƈȧƞƈḗŀ řḗƥŀẏ"
-
-#: /media/js/views/comm.js:181
-msgid "There are no more older notes."
-msgstr "Ŧħḗřḗ ȧřḗ ƞǿ ḿǿřḗ ǿŀḓḗř ƞǿŧḗş."
-
-#: /media/js/views/comm.js:204
-msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr ""
-"Ɓẏ ŭƞşŭƀşƈřīƀīƞɠ ƒřǿḿ ŧħīş ŧħřḗȧḓ, ẏǿŭ ẇīŀŀ ƞǿ ŀǿƞɠḗř řḗƈḗīṽḗ ḗḿȧīŀ "
-"ƞǿŧīƒīƈȧŧīǿƞş ƒřǿḿ ŧħīş ŧħřḗȧḓ. Ȧřḗ ẏǿŭ şŭřḗ?"
-
-#: /media/js/views/comm.js:209
-msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr ""
-"Şŭƈƈḗşşƒŭŀŀẏ ŭƞşŭƀşƈřīƀḗḓ. Ẏǿŭ ẇīŀŀ ƞǿ ŀǿƞɠḗř řḗƈḗīṽḗ ḗḿȧīŀ ƞǿŧīƒīƈȧŧīǿƞş "
-"ƒǿř ŧħȧŧ ŧħřḗȧḓ."

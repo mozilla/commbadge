@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-04T17:14:03.426Z\n"
+"POT-Creation-Date: 2015-03-11T18:08:41.317Z\n"
 "PO-Revision-Date: 2015-03-04 12:36-0500\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
@@ -69,18 +69,6 @@ msgstr "利用規約"
 msgid "Report Trademark Abuse"
 msgstr "商標不正使用報告"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "ログイン"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "続けるにはログインしてください。"
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "ログイン / ユーザ登録"
-
 #: /templates/header.html:2
 msgid "Communication Dashboard"
 msgstr "コミュニケーションダッシュボード"
@@ -93,13 +81,17 @@ msgstr "ログアウト"
 msgid "Sign In"
 msgstr "ログイン"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "添付ファイル"
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "ログイン"
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "ファイル説明"
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "続けるにはログインしてください。"
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "ログイン / ユーザ登録"
 
 #: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
@@ -124,6 +116,26 @@ msgstr "投稿"
 #: /templates/_macros/thread.html:20
 msgid "View older"
 msgstr "以前の記事を表示"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "アプリのアイコン"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "{app_name} のすべてのスレッドを表示しています"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "アプリ編集ページへ戻る"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "添付ファイル"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "ファイル説明"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -163,18 +175,6 @@ msgstr "購読解除"
 msgid "Review"
 msgstr "レビュー"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "アプリのアイコン"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "{app_name} のすべてのスレッドを表示しています"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "アプリ編集ページへ戻る"
-
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "自分のスレッド"
@@ -203,17 +203,25 @@ msgstr "{app_name} のスレッドを表示しています"
 msgid "Back to all threads for {app_name}"
 msgstr "{app_name} のすべてのスレッドへ戻る"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
 msgstr "Not Found"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "お探しのページは見つかりませんでした。"
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "問題が発生しました。"
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "読み込み中に問題が発生しました"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "再読み込み"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "お探しのページは見つかりませんでした。"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
@@ -224,13 +232,29 @@ msgstr "このアプリのバージョン"
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "読み込み中に問題が発生しました"
+#: /media/js/views/comm.js:89
+msgid "Message sent."
+msgstr "メッセージが送信されました。"
 
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "再読み込み"
+#: /media/js/views/comm.js:94
+msgid "Message sending failed."
+msgstr "メッセージを送信できませんでした。"
+
+#: /media/js/views/comm.js:144
+msgid "Cancel reply"
+msgstr "返信をキャンセル"
+
+#: /media/js/views/comm.js:181
+msgid "There are no more older notes."
+msgstr "これ以上古い記事はありません。"
+
+#: /media/js/views/comm.js:204
+msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+msgstr "購読を解除すると、今後このスレッドが更新されてもメールによる通知は送られなくなります。よろしいですか？"
+
+#: /media/js/views/comm.js:209
+msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
+msgstr "購読を解除しました。今後このスレッドが更新されてもメールによる通知は送られません。"
 
 #: /media/js/settings.js:38
 msgid "Message"
@@ -351,27 +375,3 @@ msgstr "審査担当者の公開コメント"
 #: /media/js/settings.js:67
 msgid "Re-review content rating adult"
 msgstr "成人向けコンテンツレーティングの再審査"
-
-#: /media/js/views/comm.js:89
-msgid "Message sent."
-msgstr "メッセージが送信されました。"
-
-#: /media/js/views/comm.js:94
-msgid "Message sending failed."
-msgstr "メッセージを送信できませんでした。"
-
-#: /media/js/views/comm.js:144
-msgid "Cancel reply"
-msgstr "返信をキャンセル"
-
-#: /media/js/views/comm.js:181
-msgid "There are no more older notes."
-msgstr "これ以上古い記事はありません。"
-
-#: /media/js/views/comm.js:204
-msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr "購読を解除すると、今後このスレッドが更新されてもメールによる通知は送られなくなります。よろしいですか？"
-
-#: /media/js/views/comm.js:209
-msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr "購読を解除しました。今後このスレッドが更新されてもメールによる通知は送られません。"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-04T17:14:03.426Z\n"
+"POT-Creation-Date: 2015-03-11T18:08:41.317Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -69,18 +69,6 @@ msgstr "Terms of Use"
 msgid "Report Trademark Abuse"
 msgstr "Report Trademark Abuse"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Sign in"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "You must sign in to proceed."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Sign in / Sign up"
-
 #: /templates/header.html:2
 msgid "Communication Dashboard"
 msgstr "Communication Dashboard"
@@ -93,13 +81,17 @@ msgstr "Sign Out"
 msgid "Sign In"
 msgstr "Sign In"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Attachment"
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Sign in"
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "File Description"
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "You must sign in to proceed."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Sign in / Sign up"
 
 #: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
@@ -124,6 +116,26 @@ msgstr "Post"
 #: /templates/_macros/thread.html:20
 msgid "View older"
 msgstr "View older"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "App icon"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Viewing All Threads for {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Go back to app edit page"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Attachment"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "File Description"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -163,18 +175,6 @@ msgstr "Unsubscribe"
 msgid "Review"
 msgstr "Review"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "App icon"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Viewing All Threads for {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Go back to app edit page"
-
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "My Threads"
@@ -203,17 +203,25 @@ msgstr "Viewing Thread for {app_name}"
 msgid "Back to all threads for {app_name}"
 msgstr "Back to all threads for {app_name}"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
 msgstr "Oh no!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "The page you were looking for was not found."
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "An error occurred."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Error loading more"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Try Again"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "The page you were looking for was not found."
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
@@ -224,13 +232,29 @@ msgstr "This App's Versions"
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Error loading more"
+#: /media/js/views/comm.js:89
+msgid "Message sent."
+msgstr "Message sent."
 
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Try Again"
+#: /media/js/views/comm.js:94
+msgid "Message sending failed."
+msgstr "Message sending failed."
+
+#: /media/js/views/comm.js:144
+msgid "Cancel reply"
+msgstr "Cancel reply"
+
+#: /media/js/views/comm.js:181
+msgid "There are no more older notes."
+msgstr "There are no more older notes."
+
+#: /media/js/views/comm.js:204
+msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+msgstr "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+
+#: /media/js/views/comm.js:209
+msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
+msgstr "Successfully unsubscribed. You will no longer receive email notifications for that thread."
 
 #: /media/js/settings.js:38
 msgid "Message"
@@ -351,27 +375,3 @@ msgstr "Public reviewer comment"
 #: /media/js/settings.js:67
 msgid "Re-review content rating adult"
 msgstr "Re-review content rating adult"
-
-#: /media/js/views/comm.js:89
-msgid "Message sent."
-msgstr "Message sent."
-
-#: /media/js/views/comm.js:94
-msgid "Message sending failed."
-msgstr "Message sending failed."
-
-#: /media/js/views/comm.js:144
-msgid "Cancel reply"
-msgstr "Cancel reply"
-
-#: /media/js/views/comm.js:181
-msgid "There are no more older notes."
-msgstr "There are no more older notes."
-
-#: /media/js/views/comm.js:204
-msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-
-#: /media/js/views/comm.js:209
-msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr "Successfully unsubscribed. You will no longer receive email notifications for that thread."

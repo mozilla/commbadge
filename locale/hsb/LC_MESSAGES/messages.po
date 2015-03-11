@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-04T17:14:03.426Z\n"
+"POT-Creation-Date: 2015-03-11T18:08:41.317Z\n"
 "PO-Revision-Date: 2015-03-04 22:09+0000\n"
 "Last-Translator: milupo <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -10,8 +10,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
-"n%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1425506954.0\n"
 
@@ -71,18 +70,6 @@ msgstr "Wužiwanske wuměnjenja"
 msgid "Report Trademark Abuse"
 msgstr "Znjewužiwanje wikowanskeho znamjenja zdźělić"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Přizjewić"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Dyrbiće so přizjewić, zo byšće pokročował."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Přizjewić / Registrować"
-
 #: /templates/header.html:2
 msgid "Communication Dashboard"
 msgstr "Komunikaciski přehlad"
@@ -95,13 +82,17 @@ msgstr "Wotzjewić"
 msgid "Sign In"
 msgstr "Přizjewić"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Přiwěšk"
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Přizjewić"
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Datajowe wopisanje"
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Dyrbiće so přizjewić, zo byšće pokročował."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Přizjewić / Registrować"
 
 #: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
@@ -126,6 +117,26 @@ msgstr "Wotpósłać"
 #: /templates/_macros/thread.html:20
 msgid "View older"
 msgstr "Starše sej wobhladać"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Nałoženski symbol"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Wšě nitka za {app_name} so zwobraznjeja"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Wróćo k wobdźěłowanskej stronje nałoženja"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Přiwěšk"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Datajowe wopisanje"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -167,18 +178,6 @@ msgstr "Wotskazać"
 msgid "Review"
 msgstr "Přepruwować"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Nałoženski symbol"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Wšě nitka za {app_name} so zwobraznjeja"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Wróćo k wobdźěłowanskej stronje nałoženja"
-
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "Moje nitki"
@@ -207,17 +206,25 @@ msgstr "Nitka za {app_name} so zwobraznja"
 msgid "Back to all threads for {app_name}"
 msgstr "Wróćo ke wšěm nitkam za {app_name}"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
 msgstr "Ow ně!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Strona, kotruž pytaće, njeje so namakała."
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "Zmylk je wustupił."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Zmylk při začitowanju dalšich informacijow"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Hišće raz spytać"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Strona, kotruž pytaće, njeje so namakała."
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
@@ -228,13 +235,29 @@ msgstr "Wersije tutoho nałoženja"
 msgid "v.{version_number}"
 msgstr "v {version_number}"
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Zmylk při začitowanju dalšich informacijow"
+#: /media/js/views/comm.js:89
+msgid "Message sent."
+msgstr "Powěsć je so pósłała."
 
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Hišće raz spytać"
+#: /media/js/views/comm.js:94
+msgid "Message sending failed."
+msgstr "Słanje powěsće je so nimokuliło."
+
+#: /media/js/views/comm.js:144
+msgid "Cancel reply"
+msgstr "Wotmołwu přetorhnyć"
+
+#: /media/js/views/comm.js:181
+msgid "There are no more older notes."
+msgstr "Starše noticy njejsu."
+
+#: /media/js/views/comm.js:204
+msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+msgstr "Jeli tutu nitku wotskazaće, njedóstanjeće hižo e-mejlowe zdźělenki z tuteje nitki. Sće wěsty?"
+
+#: /media/js/views/comm.js:209
+msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
+msgstr "Nitka je so wuspěšnje wotskazała. Njedóstanjeće hižo žane e-mejlowe zdźělenki za tutu nitku."
 
 #: /media/js/settings.js:38
 msgid "Message"
@@ -355,27 +378,3 @@ msgstr "Zjawny přepruwowarski komentar"
 #: /media/js/settings.js:67
 msgid "Re-review content rating adult"
 msgstr "Wobsahowe pohódnoćenje Dorosćeny znowa přepruwować"
-
-#: /media/js/views/comm.js:89
-msgid "Message sent."
-msgstr "Powěsć je so pósłała."
-
-#: /media/js/views/comm.js:94
-msgid "Message sending failed."
-msgstr "Słanje powěsće je so nimokuliło."
-
-#: /media/js/views/comm.js:144
-msgid "Cancel reply"
-msgstr "Wotmołwu přetorhnyć"
-
-#: /media/js/views/comm.js:181
-msgid "There are no more older notes."
-msgstr "Starše noticy njejsu."
-
-#: /media/js/views/comm.js:204
-msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr "Jeli tutu nitku wotskazaće, njedóstanjeće hižo e-mejlowe zdźělenki z tuteje nitki. Sće wěsty?"
-
-#: /media/js/views/comm.js:209
-msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr "Nitka je so wuspěšnje wotskazała. Njedóstanjeće hižo žane e-mejlowe zdźělenki za tutu nitku."

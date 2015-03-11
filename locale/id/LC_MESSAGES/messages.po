@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-04T17:14:03.426Z\n"
+"POT-Creation-Date: 2015-03-11T18:08:41.317Z\n"
 "PO-Revision-Date: 2013-11-07 07:52+0000\n"
 "Last-Translator: Benny <bennychandra@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -68,18 +68,6 @@ msgstr ""
 msgid "Report Trademark Abuse"
 msgstr ""
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr ""
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr ""
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr ""
-
 #: /templates/header.html:2
 msgid "Communication Dashboard"
 msgstr ""
@@ -92,12 +80,16 @@ msgstr ""
 msgid "Sign In"
 msgstr ""
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
 msgstr ""
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr ""
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
 msgstr ""
 
 #: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
@@ -122,6 +114,26 @@ msgstr ""
 
 #: /templates/_macros/thread.html:20
 msgid "View older"
+msgstr ""
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr ""
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr ""
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr ""
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr ""
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
 msgstr ""
 
 #: /templates/_macros/thread_header.html:18
@@ -161,18 +173,6 @@ msgstr ""
 msgid "Review"
 msgstr ""
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr ""
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr ""
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr ""
-
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr ""
@@ -201,16 +201,24 @@ msgstr ""
 msgid "Back to all threads for {app_name}"
 msgstr ""
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
-msgstr ""
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
 msgstr ""
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
+msgstr ""
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr ""
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Coba Lagi"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
 msgstr ""
 
 #: /templates/comm/threads_nav.html:2
@@ -222,13 +230,29 @@ msgstr ""
 msgid "v.{version_number}"
 msgstr ""
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
+#: /media/js/views/comm.js:89
+msgid "Message sent."
+msgstr "Pesan dikirim."
+
+#: /media/js/views/comm.js:94
+msgid "Message sending failed."
 msgstr ""
 
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Coba Lagi"
+#: /media/js/views/comm.js:144
+msgid "Cancel reply"
+msgstr ""
+
+#: /media/js/views/comm.js:181
+msgid "There are no more older notes."
+msgstr ""
+
+#: /media/js/views/comm.js:204
+msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+msgstr ""
+
+#: /media/js/views/comm.js:209
+msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
+msgstr ""
 
 #: /media/js/settings.js:38
 msgid "Message"
@@ -348,28 +372,4 @@ msgstr ""
 
 #: /media/js/settings.js:67
 msgid "Re-review content rating adult"
-msgstr ""
-
-#: /media/js/views/comm.js:89
-msgid "Message sent."
-msgstr "Pesan dikirim."
-
-#: /media/js/views/comm.js:94
-msgid "Message sending failed."
-msgstr ""
-
-#: /media/js/views/comm.js:144
-msgid "Cancel reply"
-msgstr ""
-
-#: /media/js/views/comm.js:181
-msgid "There are no more older notes."
-msgstr ""
-
-#: /media/js/views/comm.js:204
-msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr ""
-
-#: /media/js/views/comm.js:209
-msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
 msgstr ""

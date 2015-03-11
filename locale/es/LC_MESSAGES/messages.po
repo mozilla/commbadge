@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-04T17:14:03.426Z\n"
+"POT-Creation-Date: 2015-03-11T18:08:41.317Z\n"
 "PO-Revision-Date: 2014-10-02 16:16+0000\n"
 "Last-Translator: Inma <inma.barrios@mozilla-hispano.org>\n"
 "Language-Team: Español (España) <nave@elistas.net>\n"
@@ -70,18 +70,6 @@ msgstr "Condiciones de uso"
 msgid "Report Trademark Abuse"
 msgstr "Informar sobre infracción de marca"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Identificarse"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Debes identificarte para continuar."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Identificarse / Registrarse"
-
 #: /templates/header.html:2
 msgid "Communication Dashboard"
 msgstr "Tablero de comunicaciones"
@@ -94,13 +82,17 @@ msgstr "Salir"
 msgid "Sign In"
 msgstr "Identificarse"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Adjunto"
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Identificarse"
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Descripción del archivo"
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Debes identificarte para continuar."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Identificarse / Registrarse"
 
 #: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
@@ -125,6 +117,26 @@ msgstr "Publicar"
 #: /templates/_macros/thread.html:20
 msgid "View older"
 msgstr "Ver anteriores"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Icono de app"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Visualizando todas las conversaciones de {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Volver a página de edición de app"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Adjunto"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Descripción del archivo"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -164,18 +176,6 @@ msgstr "Cancelar la suscripción"
 msgid "Review"
 msgstr "Revisar"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Icono de app"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Visualizando todas las conversaciones de {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Volver a página de edición de app"
-
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "Mis temas"
@@ -204,17 +204,25 @@ msgstr "Ver temas de {app_name}"
 msgid "Back to all threads for {app_name}"
 msgstr "Volver a todos los temas de {app_name}"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
 msgstr "¡Oh, no!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "No se encontró la página que buscabas."
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "Se produjo un error."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Error al cargar más"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Intentar de nuevo"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "No se encontró la página que buscabas."
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
@@ -225,13 +233,29 @@ msgstr "Versiones de esta app"
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Error al cargar más"
+#: /media/js/views/comm.js:89
+msgid "Message sent."
+msgstr "Mensaje enviado."
 
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Intentar de nuevo"
+#: /media/js/views/comm.js:94
+msgid "Message sending failed."
+msgstr "Error al enviar mensaje."
+
+#: /media/js/views/comm.js:144
+msgid "Cancel reply"
+msgstr "Cancelar respuesta"
+
+#: /media/js/views/comm.js:181
+msgid "There are no more older notes."
+msgstr "No hay más notas anteriores."
+
+#: /media/js/views/comm.js:204
+msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+msgstr "Al darte de baja de este hilo, dejaras de recibir notificaciones del mismo por el correo electrónico. ¿Estás seguro?"
+
+#: /media/js/views/comm.js:209
+msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
+msgstr "La suscripción se ha cancelado correctamente. No volverás a recibir notificaciones de correo electrónico de ese hilo."
 
 #: /media/js/settings.js:38
 msgid "Message"
@@ -352,27 +376,3 @@ msgstr ""
 #: /media/js/settings.js:67
 msgid "Re-review content rating adult"
 msgstr ""
-
-#: /media/js/views/comm.js:89
-msgid "Message sent."
-msgstr "Mensaje enviado."
-
-#: /media/js/views/comm.js:94
-msgid "Message sending failed."
-msgstr "Error al enviar mensaje."
-
-#: /media/js/views/comm.js:144
-msgid "Cancel reply"
-msgstr "Cancelar respuesta"
-
-#: /media/js/views/comm.js:181
-msgid "There are no more older notes."
-msgstr "No hay más notas anteriores."
-
-#: /media/js/views/comm.js:204
-msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr "Al darte de baja de este hilo, dejaras de recibir notificaciones del mismo por el correo electrónico. ¿Estás seguro?"
-
-#: /media/js/views/comm.js:209
-msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr "La suscripción se ha cancelado correctamente. No volverás a recibir notificaciones de correo electrónico de ese hilo."

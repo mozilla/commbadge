@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-04T17:14:03.426Z\n"
+"POT-Creation-Date: 2015-03-11T18:08:41.317Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -68,18 +68,6 @@ msgstr "Temos de uso"
 msgid "Report Trademark Abuse"
 msgstr "Informar de abusos de marca"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Identificarse"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Debe identificarse para continuar."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Identificarse / Crear conta"
-
 #: /templates/header.html:2
 msgid "Communication Dashboard"
 msgstr "Taboleiro de comunicación"
@@ -92,13 +80,17 @@ msgstr "Saír"
 msgid "Sign In"
 msgstr "Identificarse"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Anexo"
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Identificarse"
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Descrición do ficheiro"
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Debe identificarse para continuar."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Identificarse / Crear conta"
 
 #: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
@@ -123,6 +115,26 @@ msgstr "Publicar"
 #: /templates/_macros/thread.html:20
 msgid "View older"
 msgstr "Ver anteriores"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Icona do aplicativo"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Visualizar todas as conversas de {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr ""
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Anexo"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Descrición do ficheiro"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -162,18 +174,6 @@ msgstr "Cancelar subscrición"
 msgid "Review"
 msgstr "Valorar"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Icona do aplicativo"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Visualizar todas as conversas de {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr ""
-
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "As miñas conversas"
@@ -202,17 +202,25 @@ msgstr "Visualizar conversa de {app_name}"
 msgid "Back to all threads for {app_name}"
 msgstr "Volver a todas as conversas de {app_name}"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
 msgstr "Oh non!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Non se atopou a páxina que estaba buscando."
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "Produciuse un erro."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Erro ao cargar máis"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Tentar de novo"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Non se atopou a páxina que estaba buscando."
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
@@ -223,13 +231,29 @@ msgstr ""
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Erro ao cargar máis"
+#: /media/js/views/comm.js:89
+msgid "Message sent."
+msgstr "Enviouse a mensaxe."
 
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Tentar de novo"
+#: /media/js/views/comm.js:94
+msgid "Message sending failed."
+msgstr "Fallou o envío da mensaxe."
+
+#: /media/js/views/comm.js:144
+msgid "Cancel reply"
+msgstr "Cancelar resposta"
+
+#: /media/js/views/comm.js:181
+msgid "There are no more older notes."
+msgstr "Non hai máis notas anteriores."
+
+#: /media/js/views/comm.js:204
+msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+msgstr "Se cancelas a subscrición desta conversa, non volverás a recibir notificacións por correo desta conversa. Confirma que quere cancelar a subscrición?"
+
+#: /media/js/views/comm.js:209
+msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
+msgstr "Cancelouse a subscrición correctamente. Xa non recibirá notificacións por correo para esa conversa."
 
 #: /media/js/settings.js:38
 msgid "Message"
@@ -350,27 +374,3 @@ msgstr ""
 #: /media/js/settings.js:67
 msgid "Re-review content rating adult"
 msgstr ""
-
-#: /media/js/views/comm.js:89
-msgid "Message sent."
-msgstr "Enviouse a mensaxe."
-
-#: /media/js/views/comm.js:94
-msgid "Message sending failed."
-msgstr "Fallou o envío da mensaxe."
-
-#: /media/js/views/comm.js:144
-msgid "Cancel reply"
-msgstr "Cancelar resposta"
-
-#: /media/js/views/comm.js:181
-msgid "There are no more older notes."
-msgstr "Non hai máis notas anteriores."
-
-#: /media/js/views/comm.js:204
-msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr "Se cancelas a subscrición desta conversa, non volverás a recibir notificacións por correo desta conversa. Confirma que quere cancelar a subscrición?"
-
-#: /media/js/views/comm.js:209
-msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr "Cancelouse a subscrición correctamente. Xa non recibirá notificacións por correo para esa conversa."

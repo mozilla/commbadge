@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-04T17:14:03.426Z\n"
+"POT-Creation-Date: 2015-03-11T18:08:41.317Z\n"
 "PO-Revision-Date: 2015-01-08 18:22+0000\n"
 "Last-Translator: Marko <marko.andrejic93@gmail.com>\n"
 "Language-Team: none\n"
@@ -70,18 +70,6 @@ msgstr "Uslovi korišćenja"
 msgid "Report Trademark Abuse"
 msgstr "Prijavite zloupotrebu robne marke"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Prijavi se"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Morate se prijaviti kako biste nastavili dalje."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Prijavi se / Registruj se"
-
 #: /templates/header.html:2
 msgid "Communication Dashboard"
 msgstr "Komunikaciona kontrolna tabla"
@@ -94,13 +82,17 @@ msgstr "Odjavi se"
 msgid "Sign In"
 msgstr "Prijavi se"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Prilog"
+#: /templates/login.html:2 /media/js/views/login.js:10
+msgid "Sign in"
+msgstr "Prijavi se"
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Opis datoteke"
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Morate se prijaviti kako biste nastavili dalje."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Prijavi se / Registruj se"
 
 #: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
@@ -125,6 +117,26 @@ msgstr "Poruka"
 #: /templates/_macros/thread.html:20
 msgid "View older"
 msgstr "Pogledajte starije"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Ikonica aplikacije"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Pregled svih tema za {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Vrati se na stranicu za uređivanje"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Prilog"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Opis datoteke"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -165,18 +177,6 @@ msgstr "Ukini pretplatu"
 msgid "Review"
 msgstr "Oceni"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Ikonica aplikacije"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Pregled svih tema za {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Vrati se na stranicu za uređivanje"
-
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "Moje teme"
@@ -205,17 +205,25 @@ msgstr "Gledate temu za {app_name}"
 msgid "Back to all threads for {app_name}"
 msgstr "Povratak na sve teme za {app_name}"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
 msgstr "Oh ne!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Stranica koju ste tražili nije pronađena."
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "Došlo je do greške."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Greška pri učitavanju"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Pokušaj ponovo"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Stranica koju ste tražili nije pronađena."
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
@@ -226,13 +234,29 @@ msgstr "Verzija ove aplikacije"
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Greška pri učitavanju"
+#: /media/js/views/comm.js:89
+msgid "Message sent."
+msgstr "Poruka je poslata."
 
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Pokušaj ponovo"
+#: /media/js/views/comm.js:94
+msgid "Message sending failed."
+msgstr "Neuspešno slanje poruke."
+
+#: /media/js/views/comm.js:144
+msgid "Cancel reply"
+msgstr "Otkaži odgovor"
+
+#: /media/js/views/comm.js:181
+msgid "There are no more older notes."
+msgstr "Nema više starih beleški."
+
+#: /media/js/views/comm.js:204
+msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+msgstr "Ako se odjavite sa ove teme, nećete više dobijati obaveštenja e-poštom iz ove teme. Da li ste sigurni?"
+
+#: /media/js/views/comm.js:209
+msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
+msgstr "Uspešno ste se odjavili. Više nećete dobijati obaveštenja e-poštom iz ove teme."
 
 #: /media/js/settings.js:38
 msgid "Message"
@@ -353,27 +377,3 @@ msgstr "Komentar javnog recenzenta"
 #: /media/js/settings.js:67
 msgid "Re-review content rating adult"
 msgstr "Ocene ponovo pregledanog sadržaja za odrasle"
-
-#: /media/js/views/comm.js:89
-msgid "Message sent."
-msgstr "Poruka je poslata."
-
-#: /media/js/views/comm.js:94
-msgid "Message sending failed."
-msgstr "Neuspešno slanje poruke."
-
-#: /media/js/views/comm.js:144
-msgid "Cancel reply"
-msgstr "Otkaži odgovor"
-
-#: /media/js/views/comm.js:181
-msgid "There are no more older notes."
-msgstr "Nema više starih beleški."
-
-#: /media/js/views/comm.js:204
-msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr "Ako se odjavite sa ove teme, nećete više dobijati obaveštenja e-poštom iz ove teme. Da li ste sigurni?"
-
-#: /media/js/views/comm.js:209
-msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr "Uspešno ste se odjavili. Više nećete dobijati obaveštenja e-poštom iz ove teme."
