@@ -12,6 +12,11 @@ fabdeploytools.envs.loadenv(os.path.join('/etc/deploytools/envs',
 COMMBADGE = os.path.dirname(__file__)
 ROOT = os.path.dirname(COMMBADGE)
 
+if settings.ZAMBONI_DIR:
+    helpers.scl_enable('python27')
+    ZAMBONI = '%s/zamboni' % settings.ZAMBONI_DIR
+    ZAMBONI_PYTHON = '%s/venv/bin/python' % settings.ZAMBONI_DIR
+
 
 @task
 def pre_update(ref):
@@ -43,6 +48,8 @@ def deploy_jenkins():
     rpm.local_install()
     rpm.remote_install(['web'])
 
+    deploy_build_id('commbadge')
+
 
 @task
 def update():
@@ -73,3 +80,10 @@ def deploy():
                               root=ROOT,
                               deploy_roles=['web'],
                               package_dirs=['commbadge'])
+
+
+@task
+def deploy_build_id(app):
+    with lcd(ZAMBONI):
+        local('%s manage.py deploy_build_id %s' %
+              (ZAMBONI_PYTHON, app))
