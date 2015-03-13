@@ -1,4 +1,6 @@
-define('views/show_thread', ['urls'], function(urls) {
+define('views/show_thread',
+    ['core/urls'],
+    function(urls) {
     'use strict';
 
     return function(builder, args) {

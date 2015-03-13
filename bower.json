@@ -3,9 +3,8 @@
   "name": "marketplace-comm-dashboard",
   "version": "0.0.0",
   "dependencies": {
-    "commonplace": "0.6.6",
-    "marketplace-constants": "*",
-    "marketplace-core-modules": "1.6.2",
+    "marketplace-constants": "0.6.0",
+    "marketplace-core-modules": "2.1.0",
 
     "almond": "0.2.9",
     "jquery": "2.0.2",

@@ -1,4 +1,6 @@
-define('views/app_dashboard', ['urls'], function(urls) {
+define('views/app_dashboard',
+    ['core/urls'],
+    function(urls) {
     'use strict';
 
     return function(builder, args) {

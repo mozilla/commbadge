@@ -1,12 +1,13 @@
 define('views/comm',
-    ['cache', 'defer', 'jquery', 'jquery.fakefilefield', 'l10n',
-     'notification', 'nunjucks', 'requests', 'settings', 'storage',
-     'underscore', 'urls', 'user', 'utils', 'z'],
-    function(cache, defer, $, fakefilefield, l10n,
-             notification, nunjucks, requests, settings, storage,
-             _, urls, user, utils, z) {
+    ['core/cache', 'core/defer', 'core/l10n', 'core/notification',
+     'core/nunjucks', 'core/requests', 'core/settings', 'core/storage',
+     'core/urls', 'core/user', 'core/utils', 'core/z', 'jquery',
+     'jquery.fakefilefield', 'underscore'],
+    function(cache, defer, l10n, notification,
+             nunjucks, requests, settings, storage,
+             urls, user, utils, z, $,
+             fakefilefield, _) {
     'use strict';
-
     var gettext = l10n.gettext;
     var ngettext = l10n.ngettext;
 

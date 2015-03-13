@@ -3,8 +3,5 @@ define('settings_local', [], function() {
         window.location.protocol + '//' + window.location.host);
     return {
         api_url: origin,
-        tracking_enabled: true,
-
-        potatolytics_enabled: false
     };
 });

@@ -1,4 +1,6 @@
-define('header', ['capabilities', 'z'], function(capabilities, z) {
+define('header',
+    ['core/capabilities', 'core/z'],
+    function(capabilities, z) {
     // We would use :hover, but we want to hide the menu on fragment load!
     function act_tray() {
         $('.act-tray').on('mouseover', function() {
