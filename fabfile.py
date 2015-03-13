@@ -17,6 +17,8 @@ if settings.ZAMBONI_DIR:
     ZAMBONI = '%s/zamboni' % settings.ZAMBONI_DIR
     ZAMBONI_PYTHON = '%s/venv/bin/python' % settings.ZAMBONI_DIR
 
+os.environ['DJANGO_SETTINGS_MODULE'] = 'settings_local_mkt'
+
 
 @task
 def pre_update(ref):
