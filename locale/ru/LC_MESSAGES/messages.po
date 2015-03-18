@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-11T18:08:41.317Z\n"
+"POT-Creation-Date: 2015-03-18T16:02:47.802Z\n"
 "PO-Revision-Date: 2015-03-07 19:32+0000\n"
 "Last-Translator: Alexander <unghost@mozilla-russia.org>\n"
 "Language-Team: none\n"
@@ -13,6 +13,165 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1425756746.0\n"
+
+#: /media/js/settings_app.js:29
+msgid "Message"
+msgstr "Сообщение"
+
+#: /media/js/settings_app.js:30
+msgid "App approved"
+msgstr "Приложение одобрено"
+
+#: /media/js/settings_app.js:31
+msgid "App rejected"
+msgstr "Приложение отклонено"
+
+#: /media/js/settings_app.js:32
+msgid "App banned"
+msgstr "Приложение забанено"
+
+#: /media/js/settings_app.js:33
+msgid "Reviewer comment"
+msgstr "Комментарий рецензента"
+
+#: /media/js/settings_app.js:34
+msgid "Escalated to senior reviewer"
+msgstr "Передано старшему рецензенту"
+
+#: /media/js/settings_app.js:35
+msgid "Private reviewer comment"
+msgstr "Приватный комментарий рецензента"
+
+#: /media/js/settings_app.js:36
+msgid "App resubmission"
+msgstr "Повторное представление приложения"
+
+#: /media/js/settings_app.js:37
+msgid "Approved but waiting to be made public"
+msgstr "Одобрено, но ожидает представления публике"
+
+#: /media/js/settings_app.js:38
+msgid "Escalated due to high abuse reports"
+msgstr "Эскалировано из-за большого числа жалоб"
+
+#: /media/js/settings_app.js:39
+msgid "Escalated due to high refund requests"
+msgstr "Эскалировано из-за большого числа запросов на возврат денег"
+
+#: /media/js/settings_app.js:40
+msgid "Escalation cleared"
+msgstr "Эскалация отменена"
+
+#: /media/js/settings_app.js:41
+msgid "Re-review cleared"
+msgstr "Повторная проверка отменена"
+
+#: /media/js/settings_app.js:42
+msgid "App submission note"
+msgstr "Заметка к представлению приложения"
+
+#: /media/js/settings_app.js:43
+msgid "Developer comment"
+msgstr "Комментарий разработчика"
+
+#: /media/js/settings_app.js:44
+msgid "Device(s) changed by reviewer"
+msgstr "Устройство(а) изменено(ы) проверяющим"
+
+#: /media/js/settings_app.js:45
+msgid "Feature(s) changed by reviewer"
+msgstr "Возможность(и) изменена(ы) проверяющим"
+
+#: /media/js/settings_app.js:46
+msgid "Review manifest change"
+msgstr "Проверка изменения манифеста"
+
+#: /media/js/settings_app.js:47
+msgid "Review manifest url change"
+msgstr "Проверка изменения URL манифеста"
+
+#: /media/js/settings_app.js:48
+msgid "Review manifest premium type upgrade"
+msgstr "Проверка обновления манифеста типа премиум"
+
+#: /media/js/settings_app.js:49
+msgid "Re-review devices added"
+msgstr "Повторная проверка добавленных устройств"
+
+#: /media/js/settings_app.js:50
+msgid "Re-review features changed"
+msgstr "Повторная проверка изменённых функций"
+
+#: /media/js/settings_app.js:51
+msgid "Escalation due to VIP App"
+msgstr "Эскалировано как VIP Приложение"
+
+#: /media/js/settings_app.js:52
+msgid "Escalation due to prerelease App"
+msgstr "Эскалировано как пререлиз приложения"
+
+#: /media/js/settings_app.js:53
+msgid "Priority review requested"
+msgstr "Запрошена приоритетная проверка"
+
+#: /media/js/settings_app.js:54
+msgid "Tarako review passed"
+msgstr "Проверка Tarako пройдена"
+
+#: /media/js/settings_app.js:55
+msgid "Tarako review failed"
+msgstr "Проверка Tarako не пройдена"
+
+#: /media/js/settings_app.js:56
+msgid "Version notes for reviewer"
+msgstr "Примечания к версии для проверяющего"
+
+#: /media/js/settings_app.js:57
+msgid "Public reviewer comment"
+msgstr "Публичный комментарий рецензента"
+
+#: /media/js/settings_app.js:58
+msgid "Re-review content rating adult"
+msgstr "Повторная проверка рейтинга содержимого \"для взрослых\""
+
+#: /media/js/views/comm.js:60 /templates/_macros/thread_header.html:27
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} заметка"
+msgstr[1] "{n} заметки"
+msgstr[2] "{n} заметок"
+
+#: /media/js/views/comm.js:83 /media/js/views/comm.js:155 /templates/_macros/thread_header.html:33
+msgid "Reply"
+msgstr "Ответить"
+
+#: /media/js/views/comm.js:90
+msgid "Message sent."
+msgstr "Сообщение отправлено."
+
+#: /media/js/views/comm.js:95
+msgid "Message sending failed."
+msgstr "Не удалось отправить сообщение."
+
+#: /media/js/views/comm.js:145
+msgid "Cancel reply"
+msgstr "Отменить ответ"
+
+#: /media/js/views/comm.js:182
+msgid "There are no more older notes."
+msgstr "Более старых заметок не имеется."
+
+#: /media/js/views/comm.js:205
+msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+msgstr "Если вы отпишетесь от этого обсуждения, вы больше не будете получать уведомления по электронной почте из этого обсуждения. Вы уверены?"
+
+#: /media/js/views/comm.js:210
+msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
+msgstr "Вы были успешно отписаны и более не будете получать уведомления по электронной почте из этого обсуждения."
+
+#: /media/js/views/login.js:12 /templates/login.html:2
+msgid "Sign in"
+msgstr "Войти"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -70,6 +229,22 @@ msgstr "Условия использования"
 msgid "Report Trademark Abuse"
 msgstr "Сообщить о злоупотреблении торговой маркой"
 
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Вы должны войти для продолжения"
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Вход / Регистрация"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Приложение"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Описание файла"
+
 #: /templates/header.html:2
 msgid "Communication Dashboard"
 msgstr "Панель коммуникации"
@@ -82,42 +257,6 @@ msgstr "Выйти"
 msgid "Sign In"
 msgstr "Войти"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Войти"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Вы должны войти для продолжения"
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Вход / Регистрация"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Заметок не найдено"
-
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Введите здесь текст заметки"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Приложите скриншоты и файлы логов:"
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Приложите другой файл"
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Разместить"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Показать старые"
-
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
 msgstr "Значок приложения"
@@ -129,53 +268,6 @@ msgstr "Просмотр всех обсуждений для {app_name}"
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
 msgstr "Вернуться к странице редактирования приложения"
-
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Приложение"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Описание файла"
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} (Версия {version_number})"
-
-#: /templates/_macros/thread_header.html:19
-msgid "Deleted App"
-msgstr "Удалённое приложение"
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "(Устарело)"
-
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:59
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} заметка"
-msgstr[1] "{n} заметки"
-msgstr[2] "{n} заметок"
-
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:82 /media/js/views/comm.js:154
-msgid "Reply"
-msgstr "Ответить"
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "Недавние"
-
-#: /templates/_macros/thread_header.html:43
-msgid "View App"
-msgstr "Просмотреть приложение"
-
-#: /templates/_macros/thread_header.html:47
-msgid "Unsubscribe"
-msgstr "Отписаться"
-
-#: /templates/_macros/thread_header.html:50
-msgid "Review"
-msgstr "Рецензировать"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -197,33 +289,25 @@ msgstr "К сожалению, произошла ошибка. Попробуй
 msgid "Empty note"
 msgstr "Пустая заметка"
 
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Просмотр обсуждения для {app_name}"
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr "Заметок не найдено"
 
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Вернуться ко всем обсуждениям для {app_name}"
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Введите здесь текст заметки"
 
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "О нет!"
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Приложите скриншоты и файлы логов:"
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Произошла ошибка."
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Приложите другой файл"
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Ошибка загрузки большего"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Попробовать снова"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Страница, которую вы искали, не была найдена."
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Разместить"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
@@ -234,146 +318,62 @@ msgstr "Версии этого приложения"
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
-#: /media/js/views/comm.js:89
-msgid "Message sent."
-msgstr "Сообщение отправлено."
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Показать старые"
 
-#: /media/js/views/comm.js:94
-msgid "Message sending failed."
-msgstr "Не удалось отправить сообщение."
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Просмотр обсуждения для {app_name}"
 
-#: /media/js/views/comm.js:144
-msgid "Cancel reply"
-msgstr "Отменить ответ"
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Вернуться ко всем обсуждениям для {app_name}"
 
-#: /media/js/views/comm.js:181
-msgid "There are no more older notes."
-msgstr "Более старых заметок не имеется."
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "О нет!"
 
-#: /media/js/views/comm.js:204
-msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr "Если вы отпишетесь от этого обсуждения, вы больше не будете получать уведомления по электронной почте из этого обсуждения. Вы уверены?"
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Страница, которую вы искали, не была найдена."
 
-#: /media/js/views/comm.js:209
-msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr "Вы были успешно отписаны и более не будете получать уведомления по электронной почте из этого обсуждения."
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} (Версия {version_number})"
 
-#: /media/js/settings.js:38
-msgid "Message"
-msgstr "Сообщение"
+#: /templates/_macros/thread_header.html:19
+msgid "Deleted App"
+msgstr "Удалённое приложение"
 
-#: /media/js/settings.js:39
-msgid "App approved"
-msgstr "Приложение одобрено"
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "(Устарело)"
 
-#: /media/js/settings.js:40
-msgid "App rejected"
-msgstr "Приложение отклонено"
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "Недавние"
 
-#: /media/js/settings.js:41
-msgid "App banned"
-msgstr "Приложение забанено"
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr "Просмотреть приложение"
 
-#: /media/js/settings.js:42
-msgid "Reviewer comment"
-msgstr "Комментарий рецензента"
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "Отписаться"
 
-#: /media/js/settings.js:43
-msgid "Escalated to senior reviewer"
-msgstr "Передано старшему рецензенту"
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "Рецензировать"
 
-#: /media/js/settings.js:44
-msgid "Private reviewer comment"
-msgstr "Приватный комментарий рецензента"
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Ошибка загрузки большего"
 
-#: /media/js/settings.js:45
-msgid "App resubmission"
-msgstr "Повторное представление приложения"
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Попробовать снова"
 
-#: /media/js/settings.js:46
-msgid "Approved but waiting to be made public"
-msgstr "Одобрено, но ожидает представления публике"
-
-#: /media/js/settings.js:47
-msgid "Escalated due to high abuse reports"
-msgstr "Эскалировано из-за большого числа жалоб"
-
-#: /media/js/settings.js:48
-msgid "Escalated due to high refund requests"
-msgstr "Эскалировано из-за большого числа запросов на возврат денег"
-
-#: /media/js/settings.js:49
-msgid "Escalation cleared"
-msgstr "Эскалация отменена"
-
-#: /media/js/settings.js:50
-msgid "Re-review cleared"
-msgstr "Повторная проверка отменена"
-
-#: /media/js/settings.js:51
-msgid "App submission note"
-msgstr "Заметка к представлению приложения"
-
-#: /media/js/settings.js:52
-msgid "Developer comment"
-msgstr "Комментарий разработчика"
-
-#: /media/js/settings.js:53
-msgid "Device(s) changed by reviewer"
-msgstr "Устройство(а) изменено(ы) проверяющим"
-
-#: /media/js/settings.js:54
-msgid "Feature(s) changed by reviewer"
-msgstr "Возможность(и) изменена(ы) проверяющим"
-
-#: /media/js/settings.js:55
-msgid "Review manifest change"
-msgstr "Проверка изменения манифеста"
-
-#: /media/js/settings.js:56
-msgid "Review manifest url change"
-msgstr "Проверка изменения URL манифеста"
-
-#: /media/js/settings.js:57
-msgid "Review manifest premium type upgrade"
-msgstr "Проверка обновления манифеста типа премиум"
-
-#: /media/js/settings.js:58
-msgid "Re-review devices added"
-msgstr "Повторная проверка добавленных устройств"
-
-#: /media/js/settings.js:59
-msgid "Re-review features changed"
-msgstr "Повторная проверка изменённых функций"
-
-#: /media/js/settings.js:60
-msgid "Escalation due to VIP App"
-msgstr "Эскалировано как VIP Приложение"
-
-#: /media/js/settings.js:61
-msgid "Escalation due to prerelease App"
-msgstr "Эскалировано как пререлиз приложения"
-
-#: /media/js/settings.js:62
-msgid "Priority review requested"
-msgstr "Запрошена приоритетная проверка"
-
-#: /media/js/settings.js:63
-msgid "Tarako review passed"
-msgstr "Проверка Tarako пройдена"
-
-#: /media/js/settings.js:64
-msgid "Tarako review failed"
-msgstr "Проверка Tarako не пройдена"
-
-#: /media/js/settings.js:65
-msgid "Version notes for reviewer"
-msgstr "Примечания к версии для проверяющего"
-
-#: /media/js/settings.js:66
-msgid "Public reviewer comment"
-msgstr "Публичный комментарий рецензента"
-
-#: /media/js/settings.js:67
-msgid "Re-review content rating adult"
-msgstr "Повторная проверка рейтинга содержимого \"для взрослых\""
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Произошла ошибка."

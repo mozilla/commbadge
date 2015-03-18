@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-11T18:08:41.317Z\n"
+"POT-Creation-Date: 2015-03-18T16:02:47.802Z\n"
 "PO-Revision-Date: 2015-03-11 06:03+0000\n"
 "Last-Translator: Vanja <tumbas93@gmail.com>\n"
 "Language-Team: none\n"
@@ -13,6 +13,165 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1426053837.0\n"
+
+#: /media/js/settings_app.js:29
+msgid "Message"
+msgstr "Порука"
+
+#: /media/js/settings_app.js:30
+msgid "App approved"
+msgstr "Апликација је одобрена"
+
+#: /media/js/settings_app.js:31
+msgid "App rejected"
+msgstr "Апликација је одбијена"
+
+#: /media/js/settings_app.js:32
+msgid "App banned"
+msgstr "Апликација је банована"
+
+#: /media/js/settings_app.js:33
+msgid "Reviewer comment"
+msgstr "Коментар рецезента"
+
+#: /media/js/settings_app.js:34
+msgid "Escalated to senior reviewer"
+msgstr "Ескалирало до вишег рецензента"
+
+#: /media/js/settings_app.js:35
+msgid "Private reviewer comment"
+msgstr "Коментар приватног рецензента"
+
+#: /media/js/settings_app.js:36
+msgid "App resubmission"
+msgstr "Поновно подношење апликације"
+
+#: /media/js/settings_app.js:37
+msgid "Approved but waiting to be made public"
+msgstr "Одобрено али чека да буде јавно"
+
+#: /media/js/settings_app.js:38
+msgid "Escalated due to high abuse reports"
+msgstr "Ескалирало због високих пријава злоупотребе"
+
+#: /media/js/settings_app.js:39
+msgid "Escalated due to high refund requests"
+msgstr "Ескалирало због високих захтева за повраћај новца"
+
+#: /media/js/settings_app.js:40
+msgid "Escalation cleared"
+msgstr "Ескалација обрисана"
+
+#: /media/js/settings_app.js:41
+msgid "Re-review cleared"
+msgstr "Поновни преглед обрисан"
+
+#: /media/js/settings_app.js:42
+msgid "App submission note"
+msgstr "Белешка подношења апликације"
+
+#: /media/js/settings_app.js:43
+msgid "Developer comment"
+msgstr "Коментар програмера"
+
+#: /media/js/settings_app.js:44
+msgid "Device(s) changed by reviewer"
+msgstr "Уређај/и су измењени од стране рецензента"
+
+#: /media/js/settings_app.js:45
+msgid "Feature(s) changed by reviewer"
+msgstr "Карактеристика/е су измењене од стране рецензента"
+
+#: /media/js/settings_app.js:46
+msgid "Review manifest change"
+msgstr "Рецензија манифеста је измењена"
+
+#: /media/js/settings_app.js:47
+msgid "Review manifest url change"
+msgstr "URL рецензије манифеста је измењен"
+
+#: /media/js/settings_app.js:48
+msgid "Review manifest premium type upgrade"
+msgstr "Надоградња премиум типа рецензије манифеста"
+
+#: /media/js/settings_app.js:49
+msgid "Re-review devices added"
+msgstr "Поново прегледани уређаји су додати"
+
+#: /media/js/settings_app.js:50
+msgid "Re-review features changed"
+msgstr "Поново прегледане карактеристике су измењене"
+
+#: /media/js/settings_app.js:51
+msgid "Escalation due to VIP App"
+msgstr "Ескалација због VIP апликације"
+
+#: /media/js/settings_app.js:52
+msgid "Escalation due to prerelease App"
+msgstr "Ескалација због прве објављене верзије апликације"
+
+#: /media/js/settings_app.js:53
+msgid "Priority review requested"
+msgstr "Рецензије приоритета су захтеване"
+
+#: /media/js/settings_app.js:54
+msgid "Tarako review passed"
+msgstr "Рецензија Tarako-а је прошла"
+
+#: /media/js/settings_app.js:55
+msgid "Tarako review failed"
+msgstr "Рецензија Tarako-а није успешна"
+
+#: /media/js/settings_app.js:56
+msgid "Version notes for reviewer"
+msgstr "Верзије белешки за рецензента"
+
+#: /media/js/settings_app.js:57
+msgid "Public reviewer comment"
+msgstr "Коментар јавног рецензента"
+
+#: /media/js/settings_app.js:58
+msgid "Re-review content rating adult"
+msgstr "Оцене поново прегледаног садржаја за одрасле"
+
+#: /media/js/views/comm.js:60 /templates/_macros/thread_header.html:27
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} белешка"
+msgstr[1] "{n} белешке"
+msgstr[2] "{n} белешки"
+
+#: /media/js/views/comm.js:83 /media/js/views/comm.js:155 /templates/_macros/thread_header.html:33
+msgid "Reply"
+msgstr "Одговори"
+
+#: /media/js/views/comm.js:90
+msgid "Message sent."
+msgstr "Порука је послата."
+
+#: /media/js/views/comm.js:95
+msgid "Message sending failed."
+msgstr "Неуспешно слање поруке."
+
+#: /media/js/views/comm.js:145
+msgid "Cancel reply"
+msgstr "Откажи одговор"
+
+#: /media/js/views/comm.js:182
+msgid "There are no more older notes."
+msgstr "Нема више старих белешки."
+
+#: /media/js/views/comm.js:205
+msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+msgstr "Ако се одјавите са ове теме, нећете више добијати обавештења е-поштом из ове теме. Да ли сте сигурни?"
+
+#: /media/js/views/comm.js:210
+msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
+msgstr "Успешно сте се одјавили. Више нећете добијати обавештења е-поштом из ове теме."
+
+#: /media/js/views/login.js:12 /templates/login.html:2
+msgid "Sign in"
+msgstr "Пријави се"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -70,6 +229,22 @@ msgstr "Услови коришћења"
 msgid "Report Trademark Abuse"
 msgstr "Пријавите злоупотребу робне марке"
 
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Морате се пријавити како бисте наставили даље."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Пријави се / Региструј се"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Прилог"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Опис датотеке"
+
 #: /templates/header.html:2
 msgid "Communication Dashboard"
 msgstr "Комуникациона контролна табла"
@@ -82,42 +257,6 @@ msgstr "Одјави се"
 msgid "Sign In"
 msgstr "Пријави се"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Пријави се"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Морате се пријавити како бисте наставили даље."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Пријави се / Региструј се"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Нема пронађених белешки"
-
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Овде унесите текст"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Закачите снимак екрана и дневнике:"
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Закачите још једну датотеку"
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Порука"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Погледајте старије"
-
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
 msgstr "Иконица апликације"
@@ -129,53 +268,6 @@ msgstr "Преглед свих тема за {app_name}"
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
 msgstr "Врати се на страницу за уређивање"
-
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Прилог"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Опис датотеке"
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} (Верзија {version_number})"
-
-#: /templates/_macros/thread_header.html:19
-msgid "Deleted App"
-msgstr "Обрисана апликација"
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "(Застарео)"
-
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:59
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} белешка"
-msgstr[1] "{n} белешке"
-msgstr[2] "{n} белешки"
-
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:82 /media/js/views/comm.js:154
-msgid "Reply"
-msgstr "Одговори"
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "Скорашњe"
-
-#: /templates/_macros/thread_header.html:43
-msgid "View App"
-msgstr "Погледај апликацију"
-
-#: /templates/_macros/thread_header.html:47
-msgid "Unsubscribe"
-msgstr "Укини претплату"
-
-#: /templates/_macros/thread_header.html:50
-msgid "Review"
-msgstr "Оцени"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -197,33 +289,25 @@ msgstr "Извињавамо се, дошло је до грешке. Покуш
 msgid "Empty note"
 msgstr "Празна белешка"
 
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Гледате тему за {app_name}"
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr "Нема пронађених белешки"
 
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Повратак на све теме за {app_name}"
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Овде унесите текст"
 
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "Ох не!"
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Закачите снимак екрана и дневнике:"
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Дошло је до грешке."
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Закачите још једну датотеку"
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Грешка при учитавању"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Покушај поново"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Страница коју сте тражили није пронађена."
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Порука"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
@@ -234,146 +318,62 @@ msgstr "Верзија ове апликације"
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
-#: /media/js/views/comm.js:89
-msgid "Message sent."
-msgstr "Порука је послата."
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Погледајте старије"
 
-#: /media/js/views/comm.js:94
-msgid "Message sending failed."
-msgstr "Неуспешно слање поруке."
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Гледате тему за {app_name}"
 
-#: /media/js/views/comm.js:144
-msgid "Cancel reply"
-msgstr "Откажи одговор"
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Повратак на све теме за {app_name}"
 
-#: /media/js/views/comm.js:181
-msgid "There are no more older notes."
-msgstr "Нема више старих белешки."
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Ох не!"
 
-#: /media/js/views/comm.js:204
-msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr "Ако се одјавите са ове теме, нећете више добијати обавештења е-поштом из ове теме. Да ли сте сигурни?"
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Страница коју сте тражили није пронађена."
 
-#: /media/js/views/comm.js:209
-msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr "Успешно сте се одјавили. Више нећете добијати обавештења е-поштом из ове теме."
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} (Верзија {version_number})"
 
-#: /media/js/settings.js:38
-msgid "Message"
-msgstr "Порука"
+#: /templates/_macros/thread_header.html:19
+msgid "Deleted App"
+msgstr "Обрисана апликација"
 
-#: /media/js/settings.js:39
-msgid "App approved"
-msgstr "Апликација је одобрена"
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "(Застарео)"
 
-#: /media/js/settings.js:40
-msgid "App rejected"
-msgstr "Апликација је одбијена"
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "Скорашњe"
 
-#: /media/js/settings.js:41
-msgid "App banned"
-msgstr "Апликација је банована"
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr "Погледај апликацију"
 
-#: /media/js/settings.js:42
-msgid "Reviewer comment"
-msgstr "Коментар рецезента"
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "Укини претплату"
 
-#: /media/js/settings.js:43
-msgid "Escalated to senior reviewer"
-msgstr "Ескалирало до вишег рецензента"
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "Оцени"
 
-#: /media/js/settings.js:44
-msgid "Private reviewer comment"
-msgstr "Коментар приватног рецензента"
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Грешка при учитавању"
 
-#: /media/js/settings.js:45
-msgid "App resubmission"
-msgstr "Поновно подношење апликације"
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Покушај поново"
 
-#: /media/js/settings.js:46
-msgid "Approved but waiting to be made public"
-msgstr "Одобрено али чека да буде јавно"
-
-#: /media/js/settings.js:47
-msgid "Escalated due to high abuse reports"
-msgstr "Ескалирало због високих пријава злоупотребе"
-
-#: /media/js/settings.js:48
-msgid "Escalated due to high refund requests"
-msgstr "Ескалирало због високих захтева за повраћај новца"
-
-#: /media/js/settings.js:49
-msgid "Escalation cleared"
-msgstr "Ескалација обрисана"
-
-#: /media/js/settings.js:50
-msgid "Re-review cleared"
-msgstr "Поновни преглед обрисан"
-
-#: /media/js/settings.js:51
-msgid "App submission note"
-msgstr "Белешка подношења апликације"
-
-#: /media/js/settings.js:52
-msgid "Developer comment"
-msgstr "Коментар програмера"
-
-#: /media/js/settings.js:53
-msgid "Device(s) changed by reviewer"
-msgstr "Уређај/и су измењени од стране рецензента"
-
-#: /media/js/settings.js:54
-msgid "Feature(s) changed by reviewer"
-msgstr "Карактеристика/е су измењене од стране рецензента"
-
-#: /media/js/settings.js:55
-msgid "Review manifest change"
-msgstr "Рецензија манифеста је измењена"
-
-#: /media/js/settings.js:56
-msgid "Review manifest url change"
-msgstr "URL рецензије манифеста је измењен"
-
-#: /media/js/settings.js:57
-msgid "Review manifest premium type upgrade"
-msgstr "Надоградња премиум типа рецензије манифеста"
-
-#: /media/js/settings.js:58
-msgid "Re-review devices added"
-msgstr "Поново прегледани уређаји су додати"
-
-#: /media/js/settings.js:59
-msgid "Re-review features changed"
-msgstr "Поново прегледане карактеристике су измењене"
-
-#: /media/js/settings.js:60
-msgid "Escalation due to VIP App"
-msgstr "Ескалација због VIP апликације"
-
-#: /media/js/settings.js:61
-msgid "Escalation due to prerelease App"
-msgstr "Ескалација због прве објављене верзије апликације"
-
-#: /media/js/settings.js:62
-msgid "Priority review requested"
-msgstr "Рецензије приоритета су захтеване"
-
-#: /media/js/settings.js:63
-msgid "Tarako review passed"
-msgstr "Рецензија Tarako-а је прошла"
-
-#: /media/js/settings.js:64
-msgid "Tarako review failed"
-msgstr "Рецензија Tarako-а није успешна"
-
-#: /media/js/settings.js:65
-msgid "Version notes for reviewer"
-msgstr "Верзије белешки за рецензента"
-
-#: /media/js/settings.js:66
-msgid "Public reviewer comment"
-msgstr "Коментар јавног рецензента"
-
-#: /media/js/settings.js:67
-msgid "Re-review content rating adult"
-msgstr "Оцене поново прегледаног садржаја за одрасле"
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Дошло је до грешке."

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-11T18:08:41.317Z\n"
+"POT-Creation-Date: 2015-03-18T16:02:47.802Z\n"
 "PO-Revision-Date: 2014-09-04 22:12+0000\n"
 "Last-Translator: Aman <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,6 +13,164 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1) ;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1409868726.0\n"
+
+#: /media/js/settings_app.js:29
+msgid "Message"
+msgstr "ਮੈਸਿਜ"
+
+#: /media/js/settings_app.js:30
+msgid "App approved"
+msgstr "ਐਪ ਨੂੰ ਪ੍ਰਵਾਨਗੀ"
+
+#: /media/js/settings_app.js:31
+msgid "App rejected"
+msgstr "ਐਪ ਰੱਦ"
+
+#: /media/js/settings_app.js:32
+msgid "App banned"
+msgstr ""
+
+#: /media/js/settings_app.js:33
+msgid "Reviewer comment"
+msgstr ""
+
+#: /media/js/settings_app.js:34
+msgid "Escalated to senior reviewer"
+msgstr ""
+
+#: /media/js/settings_app.js:35
+msgid "Private reviewer comment"
+msgstr ""
+
+#: /media/js/settings_app.js:36
+msgid "App resubmission"
+msgstr "ਐਪ ਮੁੜ-ਪੇਸ਼"
+
+#: /media/js/settings_app.js:37
+msgid "Approved but waiting to be made public"
+msgstr "ਮਨਜ਼ੂਰ ਹੈ, ਪਰ ਜਨਤਕ ਹੋਣ ਦੀ ਉਡੀਕ ਹੈ"
+
+#: /media/js/settings_app.js:38
+msgid "Escalated due to high abuse reports"
+msgstr ""
+
+#: /media/js/settings_app.js:39
+msgid "Escalated due to high refund requests"
+msgstr ""
+
+#: /media/js/settings_app.js:40
+msgid "Escalation cleared"
+msgstr "ਵਾਧਾ ਸਾਫ਼ ਕੀਤਾ"
+
+#: /media/js/settings_app.js:41
+msgid "Re-review cleared"
+msgstr "ਮੁੜ-ਪੜਤਾਲ ਪੂਰੀ ਹੋਈ"
+
+#: /media/js/settings_app.js:42
+msgid "App submission note"
+msgstr "ਐਪ ਪੇਸ਼ ਕਰਨ ਸੂਚਨਾ"
+
+#: /media/js/settings_app.js:43
+msgid "Developer comment"
+msgstr "ਡਿਵੈਲਪਰ ਟਿੱਪਣੀ"
+
+#: /media/js/settings_app.js:44
+msgid "Device(s) changed by reviewer"
+msgstr ""
+
+#: /media/js/settings_app.js:45
+msgid "Feature(s) changed by reviewer"
+msgstr ""
+
+#: /media/js/settings_app.js:46
+msgid "Review manifest change"
+msgstr ""
+
+#: /media/js/settings_app.js:47
+msgid "Review manifest url change"
+msgstr ""
+
+#: /media/js/settings_app.js:48
+msgid "Review manifest premium type upgrade"
+msgstr ""
+
+#: /media/js/settings_app.js:49
+msgid "Re-review devices added"
+msgstr ""
+
+#: /media/js/settings_app.js:50
+msgid "Re-review features changed"
+msgstr ""
+
+#: /media/js/settings_app.js:51
+msgid "Escalation due to VIP App"
+msgstr ""
+
+#: /media/js/settings_app.js:52
+msgid "Escalation due to prerelease App"
+msgstr ""
+
+#: /media/js/settings_app.js:53
+msgid "Priority review requested"
+msgstr ""
+
+#: /media/js/settings_app.js:54
+msgid "Tarako review passed"
+msgstr ""
+
+#: /media/js/settings_app.js:55
+msgid "Tarako review failed"
+msgstr ""
+
+#: /media/js/settings_app.js:56
+msgid "Version notes for reviewer"
+msgstr ""
+
+#: /media/js/settings_app.js:57
+msgid "Public reviewer comment"
+msgstr ""
+
+#: /media/js/settings_app.js:58
+msgid "Re-review content rating adult"
+msgstr ""
+
+#: /media/js/views/comm.js:60 /templates/_macros/thread_header.html:27
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} ਨੋਟਿਸ{n} ਨੋਟਿਸ"
+msgstr[1] ""
+
+#: /media/js/views/comm.js:83 /media/js/views/comm.js:155 /templates/_macros/thread_header.html:33
+msgid "Reply"
+msgstr "ਉੱਤਰ"
+
+#: /media/js/views/comm.js:90
+msgid "Message sent."
+msgstr "<b>{n}</b> ਅੱਖਰ ਬਾਕੀ।"
+
+#: /media/js/views/comm.js:95
+msgid "Message sending failed."
+msgstr "ਸੁਨੇਹਾ ਭੇਜਣ ਲਈ ਅਸਫਲ"
+
+#: /media/js/views/comm.js:145
+msgid "Cancel reply"
+msgstr "ਜੁਵਾਬ ਰੱਦ"
+
+#: /media/js/views/comm.js:182
+msgid "There are no more older notes."
+msgstr "ਹੋਰ ਪੁਰਾਣੇ ਨੋਟਿਸ ਨਹੀਂ"
+
+#: /media/js/views/comm.js:205
+msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+msgstr "ਇਹ ਮਾਮਲੇ ਤੋਂ ਮੈਂਬਰੀ ਹਟਾਉਣ ਨਾਲ ਤੁਸੀਂ ਇਸ ਮਾਮਲੇ ਤੋਂ ਈਮੇਲ ਸੂਚਨਾ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕਰੋਗੇ। ਕੀ ਤੁਸੀਂ ਇਹ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: /media/js/views/comm.js:210
+msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
+msgstr "ਕਾਮਯਾਬੀ ਨਾਲ ਮੈਂਬਰੀ ਹਟਾਈ ਗਈ। ਤੁਹਾਨੂੰ ਉਸ ਮਾਮਲੇ ਤੋਂ ਈਮੇਲ ਸੂਚਨਾ ਪ੍ਰਾਪਤ ਨਹੀਂ ਹੋਵੇਗੀ।"
+
+#: /media/js/views/login.js:12 /templates/login.html:2
+msgid "Sign in"
+msgstr "ਸਾਈਨ ਇਨ"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -70,6 +228,22 @@ msgstr "ਵਰਤੋ ਦੇ ਅਧਾਰ"
 msgid "Report Trademark Abuse"
 msgstr "ਰੀਪੋਰਟ ਟਰੇਡਮਾਰਕ ਦੀ ਦੁਰਵਰਤੋ"
 
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "ਤੁਹਾਨੂੰ ਅੱਗੇ ਵਧਣ ਲਈ ਸਾਈਨ ਇਨ ਕਰਨਾ ਲਾਜਮੀ ਹੈ."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "ਸਾਈਨ ਇਨ / ਸਾਈਨ ਅੱਪ"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "ਨੱਥੀ"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "ਫਾਇਲ ਵੇਰਵਾ"
+
 #: /templates/header.html:2
 msgid "Communication Dashboard"
 msgstr "ਸੰਚਾਰ ਡੈਸ਼ਬੋਰਡ"
@@ -82,42 +256,6 @@ msgstr "ਸਾਈਨ ਆਉਟ"
 msgid "Sign In"
 msgstr "ਸਾਈਨ ਇਨ"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "ਸਾਈਨ ਇਨ"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "ਤੁਹਾਨੂੰ ਅੱਗੇ ਵਧਣ ਲਈ ਸਾਈਨ ਇਨ ਕਰਨਾ ਲਾਜਮੀ ਹੈ."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "ਸਾਈਨ ਇਨ / ਸਾਈਨ ਅੱਪ"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "ਨੋਟਿਸ ਨਹੀ ਲੱਭੇ"
-
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "ਇੱਥੇ ਨੋਟ ਟੈਕਸਟ ਦਾਖਲ ਕਰੋ"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "ਸਕਰੀਨਸ਼ਾਟ ਅਤੇ ਲਾਗ ਫਾਇਲਾਂ ਨੱਥੀ:"
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "ਹੋਰ ਫਾਇਲ ਨੱਥੀ"
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "ਪੋਸਟ"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "ਪੁਰਾਣਾ ਵੇਖੋ"
-
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
 msgstr "ਐਪ ਆਈਕਾਨ"
@@ -129,52 +267,6 @@ msgstr "{app_name} ਲਈ ਸਭ ਥਰੈੱਡ ਵੈਖੋ"
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
 msgstr "ਐਪ ਸੋਧ ਸਫ਼ੇ ਉੱਤੇ ਵਾਪਿਸ ਜਾਓ"
-
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "ਨੱਥੀ"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "ਫਾਇਲ ਵੇਰਵਾ"
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} (ਵਰਜਨ {version_number}"
-
-#: /templates/_macros/thread_header.html:19
-msgid "Deleted App"
-msgstr ""
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "(ਬਰਤਰਫ਼)"
-
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:59
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} ਨੋਟਿਸ{n} ਨੋਟਿਸ"
-msgstr[1] ""
-
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:82 /media/js/views/comm.js:154
-msgid "Reply"
-msgstr "ਉੱਤਰ"
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "ਤਾਜਾ"
-
-#: /templates/_macros/thread_header.html:43
-msgid "View App"
-msgstr "ਐਪ ਵੇਖੋ"
-
-#: /templates/_macros/thread_header.html:47
-msgid "Unsubscribe"
-msgstr "ਮੈਂਬਰੀ ਹਟਾਓ"
-
-#: /templates/_macros/thread_header.html:50
-msgid "Review"
-msgstr "ਮੁਆਇਨਾ"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -196,33 +288,25 @@ msgstr ""
 msgid "Empty note"
 msgstr "ਖਾਲੀ ਨੋਟ"
 
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr " {app_name} ਲਈ ਥਰਿੱਡ ਦੇਖੋ"
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr "ਨੋਟਿਸ ਨਹੀ ਲੱਭੇ"
 
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr " {app_name} ਲਈ ਪਿਛਲੇ ਸਾਰੇ ਥਰਿੱਡਾ ਤੇ ਜਾਓ"
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "ਇੱਥੇ ਨੋਟ ਟੈਕਸਟ ਦਾਖਲ ਕਰੋ"
 
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "ਓਹ ਨਹੀਂ!"
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "ਸਕਰੀਨਸ਼ਾਟ ਅਤੇ ਲਾਗ ਫਾਇਲਾਂ ਨੱਥੀ:"
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "ਇੱਕ ਗਲਤੀ ਆਈ ਹੈ"
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "ਹੋਰ ਫਾਇਲ ਨੱਥੀ"
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "ਲੋਡ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ ਹਈ ਹੈ"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "ਜੋ ਸਫ਼ਾ ਤਸੀ ਲੱਭ ਰਹੇ ਹੋ ਉਹ ਨਹੀ ਮਿਲਿਆ ਹੈ।"
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "ਪੋਸਟ"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
@@ -233,146 +317,62 @@ msgstr "ਇਹ ਐਪ ਦਾ ਵਰਜਨ"
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
-#: /media/js/views/comm.js:89
-msgid "Message sent."
-msgstr "<b>{n}</b> ਅੱਖਰ ਬਾਕੀ।"
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "ਪੁਰਾਣਾ ਵੇਖੋ"
 
-#: /media/js/views/comm.js:94
-msgid "Message sending failed."
-msgstr "ਸੁਨੇਹਾ ਭੇਜਣ ਲਈ ਅਸਫਲ"
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr " {app_name} ਲਈ ਥਰਿੱਡ ਦੇਖੋ"
 
-#: /media/js/views/comm.js:144
-msgid "Cancel reply"
-msgstr "ਜੁਵਾਬ ਰੱਦ"
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr " {app_name} ਲਈ ਪਿਛਲੇ ਸਾਰੇ ਥਰਿੱਡਾ ਤੇ ਜਾਓ"
 
-#: /media/js/views/comm.js:181
-msgid "There are no more older notes."
-msgstr "ਹੋਰ ਪੁਰਾਣੇ ਨੋਟਿਸ ਨਹੀਂ"
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "ਓਹ ਨਹੀਂ!"
 
-#: /media/js/views/comm.js:204
-msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr "ਇਹ ਮਾਮਲੇ ਤੋਂ ਮੈਂਬਰੀ ਹਟਾਉਣ ਨਾਲ ਤੁਸੀਂ ਇਸ ਮਾਮਲੇ ਤੋਂ ਈਮੇਲ ਸੂਚਨਾ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕਰੋਗੇ। ਕੀ ਤੁਸੀਂ ਇਹ ਚਾਹੁੰਦੇ ਹੋ?"
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "ਜੋ ਸਫ਼ਾ ਤਸੀ ਲੱਭ ਰਹੇ ਹੋ ਉਹ ਨਹੀ ਮਿਲਿਆ ਹੈ।"
 
-#: /media/js/views/comm.js:209
-msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr "ਕਾਮਯਾਬੀ ਨਾਲ ਮੈਂਬਰੀ ਹਟਾਈ ਗਈ। ਤੁਹਾਨੂੰ ਉਸ ਮਾਮਲੇ ਤੋਂ ਈਮੇਲ ਸੂਚਨਾ ਪ੍ਰਾਪਤ ਨਹੀਂ ਹੋਵੇਗੀ।"
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} (ਵਰਜਨ {version_number}"
 
-#: /media/js/settings.js:38
-msgid "Message"
-msgstr "ਮੈਸਿਜ"
-
-#: /media/js/settings.js:39
-msgid "App approved"
-msgstr "ਐਪ ਨੂੰ ਪ੍ਰਵਾਨਗੀ"
-
-#: /media/js/settings.js:40
-msgid "App rejected"
-msgstr "ਐਪ ਰੱਦ"
-
-#: /media/js/settings.js:41
-msgid "App banned"
+#: /templates/_macros/thread_header.html:19
+msgid "Deleted App"
 msgstr ""
 
-#: /media/js/settings.js:42
-msgid "Reviewer comment"
-msgstr ""
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "(ਬਰਤਰਫ਼)"
 
-#: /media/js/settings.js:43
-msgid "Escalated to senior reviewer"
-msgstr ""
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "ਤਾਜਾ"
 
-#: /media/js/settings.js:44
-msgid "Private reviewer comment"
-msgstr ""
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr "ਐਪ ਵੇਖੋ"
 
-#: /media/js/settings.js:45
-msgid "App resubmission"
-msgstr "ਐਪ ਮੁੜ-ਪੇਸ਼"
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "ਮੈਂਬਰੀ ਹਟਾਓ"
 
-#: /media/js/settings.js:46
-msgid "Approved but waiting to be made public"
-msgstr "ਮਨਜ਼ੂਰ ਹੈ, ਪਰ ਜਨਤਕ ਹੋਣ ਦੀ ਉਡੀਕ ਹੈ"
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "ਮੁਆਇਨਾ"
 
-#: /media/js/settings.js:47
-msgid "Escalated due to high abuse reports"
-msgstr ""
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "ਲੋਡ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ ਹਈ ਹੈ"
 
-#: /media/js/settings.js:48
-msgid "Escalated due to high refund requests"
-msgstr ""
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ"
 
-#: /media/js/settings.js:49
-msgid "Escalation cleared"
-msgstr "ਵਾਧਾ ਸਾਫ਼ ਕੀਤਾ"
-
-#: /media/js/settings.js:50
-msgid "Re-review cleared"
-msgstr "ਮੁੜ-ਪੜਤਾਲ ਪੂਰੀ ਹੋਈ"
-
-#: /media/js/settings.js:51
-msgid "App submission note"
-msgstr "ਐਪ ਪੇਸ਼ ਕਰਨ ਸੂਚਨਾ"
-
-#: /media/js/settings.js:52
-msgid "Developer comment"
-msgstr "ਡਿਵੈਲਪਰ ਟਿੱਪਣੀ"
-
-#: /media/js/settings.js:53
-msgid "Device(s) changed by reviewer"
-msgstr ""
-
-#: /media/js/settings.js:54
-msgid "Feature(s) changed by reviewer"
-msgstr ""
-
-#: /media/js/settings.js:55
-msgid "Review manifest change"
-msgstr ""
-
-#: /media/js/settings.js:56
-msgid "Review manifest url change"
-msgstr ""
-
-#: /media/js/settings.js:57
-msgid "Review manifest premium type upgrade"
-msgstr ""
-
-#: /media/js/settings.js:58
-msgid "Re-review devices added"
-msgstr ""
-
-#: /media/js/settings.js:59
-msgid "Re-review features changed"
-msgstr ""
-
-#: /media/js/settings.js:60
-msgid "Escalation due to VIP App"
-msgstr ""
-
-#: /media/js/settings.js:61
-msgid "Escalation due to prerelease App"
-msgstr ""
-
-#: /media/js/settings.js:62
-msgid "Priority review requested"
-msgstr ""
-
-#: /media/js/settings.js:63
-msgid "Tarako review passed"
-msgstr ""
-
-#: /media/js/settings.js:64
-msgid "Tarako review failed"
-msgstr ""
-
-#: /media/js/settings.js:65
-msgid "Version notes for reviewer"
-msgstr ""
-
-#: /media/js/settings.js:66
-msgid "Public reviewer comment"
-msgstr ""
-
-#: /media/js/settings.js:67
-msgid "Re-review content rating adult"
-msgstr ""
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "ਇੱਕ ਗਲਤੀ ਆਈ ਹੈ"

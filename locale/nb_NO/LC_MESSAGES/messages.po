@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-11T18:08:41.317Z\n"
+"POT-Creation-Date: 2015-03-18T16:02:47.802Z\n"
 "PO-Revision-Date: 2015-01-24 20:36+0000\n"
 "Last-Translator: Håvar <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,6 +13,164 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1422131812.0\n"
+
+#: /media/js/settings_app.js:29
+msgid "Message"
+msgstr "Melding"
+
+#: /media/js/settings_app.js:30
+msgid "App approved"
+msgstr "App godkjent"
+
+#: /media/js/settings_app.js:31
+msgid "App rejected"
+msgstr "App avvist"
+
+#: /media/js/settings_app.js:32
+msgid "App banned"
+msgstr "App utestengt"
+
+#: /media/js/settings_app.js:33
+msgid "Reviewer comment"
+msgstr ""
+
+#: /media/js/settings_app.js:34
+msgid "Escalated to senior reviewer"
+msgstr "Eskalert til senioranmelder"
+
+#: /media/js/settings_app.js:35
+msgid "Private reviewer comment"
+msgstr "Privat anmelderkommentar"
+
+#: /media/js/settings_app.js:36
+msgid "App resubmission"
+msgstr "App re-innsending"
+
+#: /media/js/settings_app.js:37
+msgid "Approved but waiting to be made public"
+msgstr "Godkjent, men venter på å bli offentliggjort"
+
+#: /media/js/settings_app.js:38
+msgid "Escalated due to high abuse reports"
+msgstr ""
+
+#: /media/js/settings_app.js:39
+msgid "Escalated due to high refund requests"
+msgstr ""
+
+#: /media/js/settings_app.js:40
+msgid "Escalation cleared"
+msgstr ""
+
+#: /media/js/settings_app.js:41
+msgid "Re-review cleared"
+msgstr "Revurdering klarert"
+
+#: /media/js/settings_app.js:42
+msgid "App submission note"
+msgstr ""
+
+#: /media/js/settings_app.js:43
+msgid "Developer comment"
+msgstr "Utviklerkommentar"
+
+#: /media/js/settings_app.js:44
+msgid "Device(s) changed by reviewer"
+msgstr ""
+
+#: /media/js/settings_app.js:45
+msgid "Feature(s) changed by reviewer"
+msgstr ""
+
+#: /media/js/settings_app.js:46
+msgid "Review manifest change"
+msgstr ""
+
+#: /media/js/settings_app.js:47
+msgid "Review manifest url change"
+msgstr ""
+
+#: /media/js/settings_app.js:48
+msgid "Review manifest premium type upgrade"
+msgstr ""
+
+#: /media/js/settings_app.js:49
+msgid "Re-review devices added"
+msgstr ""
+
+#: /media/js/settings_app.js:50
+msgid "Re-review features changed"
+msgstr ""
+
+#: /media/js/settings_app.js:51
+msgid "Escalation due to VIP App"
+msgstr ""
+
+#: /media/js/settings_app.js:52
+msgid "Escalation due to prerelease App"
+msgstr ""
+
+#: /media/js/settings_app.js:53
+msgid "Priority review requested"
+msgstr ""
+
+#: /media/js/settings_app.js:54
+msgid "Tarako review passed"
+msgstr ""
+
+#: /media/js/settings_app.js:55
+msgid "Tarako review failed"
+msgstr ""
+
+#: /media/js/settings_app.js:56
+msgid "Version notes for reviewer"
+msgstr ""
+
+#: /media/js/settings_app.js:57
+msgid "Public reviewer comment"
+msgstr ""
+
+#: /media/js/settings_app.js:58
+msgid "Re-review content rating adult"
+msgstr ""
+
+#: /media/js/views/comm.js:60 /templates/_macros/thread_header.html:27
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} notat"
+msgstr[1] "{n} notater"
+
+#: /media/js/views/comm.js:83 /media/js/views/comm.js:155 /templates/_macros/thread_header.html:33
+msgid "Reply"
+msgstr "Svar"
+
+#: /media/js/views/comm.js:90
+msgid "Message sent."
+msgstr "Melding sendt."
+
+#: /media/js/views/comm.js:95
+msgid "Message sending failed."
+msgstr "Sending av melding mislyktes."
+
+#: /media/js/views/comm.js:145
+msgid "Cancel reply"
+msgstr "Avbryt svar"
+
+#: /media/js/views/comm.js:182
+msgid "There are no more older notes."
+msgstr "Det er ingen flere eldre notater."
+
+#: /media/js/views/comm.js:205
+msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+msgstr ""
+
+#: /media/js/views/comm.js:210
+msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
+msgstr ""
+
+#: /media/js/views/login.js:12 /templates/login.html:2
+msgid "Sign in"
+msgstr "Logg inn"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -70,6 +228,22 @@ msgstr "Vilkår for bruk"
 msgid "Report Trademark Abuse"
 msgstr "Rapporter misbruk av varemerker"
 
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Du må logge inn for å fortsette."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Logg inn / Bli medlem"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Vedlegg"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Filbeskrivelse"
+
 #: /templates/header.html:2
 msgid "Communication Dashboard"
 msgstr "Kommunikasjonsinstrumentbord"
@@ -82,42 +256,6 @@ msgstr "Logg ut"
 msgid "Sign In"
 msgstr "Logg inn"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "Logg inn"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Du må logge inn for å fortsette."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Logg inn / Bli medlem"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Ingen notater funnet"
-
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Skriv inn notatteksten her"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Legg ved skjermbilder og loggfiler:"
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Legg ved en annen fil"
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Send inn"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Vis eldre"
-
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
 msgstr "App-ikon"
@@ -129,52 +267,6 @@ msgstr "Viser alle tråder for {app_name}"
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
 msgstr "Gå tilbake til app-redigeringssiden"
-
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Vedlegg"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Filbeskrivelse"
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} (Versjon {version_number})"
-
-#: /templates/_macros/thread_header.html:19
-msgid "Deleted App"
-msgstr "Slettet app"
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "(Foreldet)"
-
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:59
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} notat"
-msgstr[1] "{n} notater"
-
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:82 /media/js/views/comm.js:154
-msgid "Reply"
-msgstr "Svar"
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "Siste"
-
-#: /templates/_macros/thread_header.html:43
-msgid "View App"
-msgstr "Vis app"
-
-#: /templates/_macros/thread_header.html:47
-msgid "Unsubscribe"
-msgstr "Avslutt abonnement"
-
-#: /templates/_macros/thread_header.html:50
-msgid "Review"
-msgstr "Gjennomgang"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -196,33 +288,25 @@ msgstr "Det har oppstått en feil. Prøv å logge inn på nytt."
 msgid "Empty note"
 msgstr "Tomt notat"
 
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Viser tråd for {app_name}"
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr "Ingen notater funnet"
 
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Tilbake til alle tråder for {app_name}"
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Skriv inn notatteksten her"
 
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "Å nei!"
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Legg ved skjermbilder og loggfiler:"
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "En feil oppstod."
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Legg ved en annen fil"
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Feil ved lasting av flere"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Prøv igjen"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Siden du leter etter ble ikke funnet."
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Send inn"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
@@ -233,146 +317,62 @@ msgstr "Denne appens versjoner"
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
-#: /media/js/views/comm.js:89
-msgid "Message sent."
-msgstr "Melding sendt."
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Vis eldre"
 
-#: /media/js/views/comm.js:94
-msgid "Message sending failed."
-msgstr "Sending av melding mislyktes."
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Viser tråd for {app_name}"
 
-#: /media/js/views/comm.js:144
-msgid "Cancel reply"
-msgstr "Avbryt svar"
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Tilbake til alle tråder for {app_name}"
 
-#: /media/js/views/comm.js:181
-msgid "There are no more older notes."
-msgstr "Det er ingen flere eldre notater."
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Å nei!"
 
-#: /media/js/views/comm.js:204
-msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr ""
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Siden du leter etter ble ikke funnet."
 
-#: /media/js/views/comm.js:209
-msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr ""
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} (Versjon {version_number})"
 
-#: /media/js/settings.js:38
-msgid "Message"
-msgstr "Melding"
+#: /templates/_macros/thread_header.html:19
+msgid "Deleted App"
+msgstr "Slettet app"
 
-#: /media/js/settings.js:39
-msgid "App approved"
-msgstr "App godkjent"
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "(Foreldet)"
 
-#: /media/js/settings.js:40
-msgid "App rejected"
-msgstr "App avvist"
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "Siste"
 
-#: /media/js/settings.js:41
-msgid "App banned"
-msgstr "App utestengt"
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr "Vis app"
 
-#: /media/js/settings.js:42
-msgid "Reviewer comment"
-msgstr ""
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "Avslutt abonnement"
 
-#: /media/js/settings.js:43
-msgid "Escalated to senior reviewer"
-msgstr "Eskalert til senioranmelder"
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "Gjennomgang"
 
-#: /media/js/settings.js:44
-msgid "Private reviewer comment"
-msgstr "Privat anmelderkommentar"
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Feil ved lasting av flere"
 
-#: /media/js/settings.js:45
-msgid "App resubmission"
-msgstr "App re-innsending"
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Prøv igjen"
 
-#: /media/js/settings.js:46
-msgid "Approved but waiting to be made public"
-msgstr "Godkjent, men venter på å bli offentliggjort"
-
-#: /media/js/settings.js:47
-msgid "Escalated due to high abuse reports"
-msgstr ""
-
-#: /media/js/settings.js:48
-msgid "Escalated due to high refund requests"
-msgstr ""
-
-#: /media/js/settings.js:49
-msgid "Escalation cleared"
-msgstr ""
-
-#: /media/js/settings.js:50
-msgid "Re-review cleared"
-msgstr "Revurdering klarert"
-
-#: /media/js/settings.js:51
-msgid "App submission note"
-msgstr ""
-
-#: /media/js/settings.js:52
-msgid "Developer comment"
-msgstr "Utviklerkommentar"
-
-#: /media/js/settings.js:53
-msgid "Device(s) changed by reviewer"
-msgstr ""
-
-#: /media/js/settings.js:54
-msgid "Feature(s) changed by reviewer"
-msgstr ""
-
-#: /media/js/settings.js:55
-msgid "Review manifest change"
-msgstr ""
-
-#: /media/js/settings.js:56
-msgid "Review manifest url change"
-msgstr ""
-
-#: /media/js/settings.js:57
-msgid "Review manifest premium type upgrade"
-msgstr ""
-
-#: /media/js/settings.js:58
-msgid "Re-review devices added"
-msgstr ""
-
-#: /media/js/settings.js:59
-msgid "Re-review features changed"
-msgstr ""
-
-#: /media/js/settings.js:60
-msgid "Escalation due to VIP App"
-msgstr ""
-
-#: /media/js/settings.js:61
-msgid "Escalation due to prerelease App"
-msgstr ""
-
-#: /media/js/settings.js:62
-msgid "Priority review requested"
-msgstr ""
-
-#: /media/js/settings.js:63
-msgid "Tarako review passed"
-msgstr ""
-
-#: /media/js/settings.js:64
-msgid "Tarako review failed"
-msgstr ""
-
-#: /media/js/settings.js:65
-msgid "Version notes for reviewer"
-msgstr ""
-
-#: /media/js/settings.js:66
-msgid "Public reviewer comment"
-msgstr ""
-
-#: /media/js/settings.js:67
-msgid "Re-review content rating adult"
-msgstr ""
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "En feil oppstod."

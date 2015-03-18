@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-11T18:08:41.317Z\n"
+"POT-Creation-Date: 2015-03-18T16:02:47.802Z\n"
 "PO-Revision-Date: 2015-03-11 18:20+0000\n"
 "Last-Translator: yfdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,6 +13,163 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1426098054.0\n"
+
+#: /media/js/settings_app.js:29
+msgid "Message"
+msgstr "消息"
+
+#: /media/js/settings_app.js:30
+msgid "App approved"
+msgstr "应用已批准"
+
+#: /media/js/settings_app.js:31
+msgid "App rejected"
+msgstr "应用被拒绝"
+
+#: /media/js/settings_app.js:32
+msgid "App banned"
+msgstr "应用已封禁"
+
+#: /media/js/settings_app.js:33
+msgid "Reviewer comment"
+msgstr "审核者留言"
+
+#: /media/js/settings_app.js:34
+msgid "Escalated to senior reviewer"
+msgstr "已向上呈报至高级审核者"
+
+#: /media/js/settings_app.js:35
+msgid "Private reviewer comment"
+msgstr "私密的审核者评论"
+
+#: /media/js/settings_app.js:36
+msgid "App resubmission"
+msgstr "重新提交应用"
+
+#: /media/js/settings_app.js:37
+msgid "Approved but waiting to be made public"
+msgstr "已通过审核，等待发布中"
+
+#: /media/js/settings_app.js:38
+msgid "Escalated due to high abuse reports"
+msgstr "由于大量滥用报告，已向上呈报"
+
+#: /media/js/settings_app.js:39
+msgid "Escalated due to high refund requests"
+msgstr "由于大量退款要求，已向上呈报"
+
+#: /media/js/settings_app.js:40
+msgid "Escalation cleared"
+msgstr "向上呈报已清除"
+
+#: /media/js/settings_app.js:41
+msgid "Re-review cleared"
+msgstr "重新审核已清除"
+
+#: /media/js/settings_app.js:42
+msgid "App submission note"
+msgstr "应用提交注记"
+
+#: /media/js/settings_app.js:43
+msgid "Developer comment"
+msgstr "开发者留言"
+
+#: /media/js/settings_app.js:44
+msgid "Device(s) changed by reviewer"
+msgstr "审核者更改了设备"
+
+#: /media/js/settings_app.js:45
+msgid "Feature(s) changed by reviewer"
+msgstr "审核者更改了功能"
+
+#: /media/js/settings_app.js:46
+msgid "Review manifest change"
+msgstr "审核清单变化"
+
+#: /media/js/settings_app.js:47
+msgid "Review manifest url change"
+msgstr "审核清单 URL 变化"
+
+#: /media/js/settings_app.js:48
+msgid "Review manifest premium type upgrade"
+msgstr "审核清单之付费类型升级"
+
+#: /media/js/settings_app.js:49
+msgid "Re-review devices added"
+msgstr "重新审核设备已添加"
+
+#: /media/js/settings_app.js:50
+msgid "Re-review features changed"
+msgstr "重新审核功能已更改"
+
+#: /media/js/settings_app.js:51
+msgid "Escalation due to VIP App"
+msgstr "VIP 应用，已提升"
+
+#: /media/js/settings_app.js:52
+msgid "Escalation due to prerelease App"
+msgstr "预发布应用，已提升"
+
+#: /media/js/settings_app.js:53
+msgid "Priority review requested"
+msgstr "已请求优先审核"
+
+#: /media/js/settings_app.js:54
+msgid "Tarako review passed"
+msgstr "Tarako 审核通过"
+
+#: /media/js/settings_app.js:55
+msgid "Tarako review failed"
+msgstr "Tarako 审核失败"
+
+#: /media/js/settings_app.js:56
+msgid "Version notes for reviewer"
+msgstr "给审核者的版本说明"
+
+#: /media/js/settings_app.js:57
+msgid "Public reviewer comment"
+msgstr "公开的审核者评论"
+
+#: /media/js/settings_app.js:58
+msgid "Re-review content rating adult"
+msgstr "重新审核成人内容分级"
+
+#: /media/js/views/comm.js:60 /templates/_macros/thread_header.html:27
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} 笔笔记"
+
+#: /media/js/views/comm.js:83 /media/js/views/comm.js:155 /templates/_macros/thread_header.html:33
+msgid "Reply"
+msgstr "回复"
+
+#: /media/js/views/comm.js:90
+msgid "Message sent."
+msgstr "消息已发出。"
+
+#: /media/js/views/comm.js:95
+msgid "Message sending failed."
+msgstr "消息发送失败。"
+
+#: /media/js/views/comm.js:145
+msgid "Cancel reply"
+msgstr "取消回复"
+
+#: /media/js/views/comm.js:182
+msgid "There are no more older notes."
+msgstr "没有更早的笔记了。"
+
+#: /media/js/views/comm.js:205
+msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+msgstr "取消订阅这个话题，将不再收到关于他的邮件提醒，确定要取消订阅？"
+
+#: /media/js/views/comm.js:210
+msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
+msgstr "成功取消订阅。您将不再收到这个话题的邮件提醒。"
+
+#: /media/js/views/login.js:12 /templates/login.html:2
+msgid "Sign in"
+msgstr "登录"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -68,6 +225,22 @@ msgstr "使用条款"
 msgid "Report Trademark Abuse"
 msgstr "回报商标滥用"
 
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "您必须登录才能继续。"
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "登录/注册"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "附件"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "文件描述"
+
 #: /templates/header.html:2
 msgid "Communication Dashboard"
 msgstr "交流主控台"
@@ -80,42 +253,6 @@ msgstr "登出"
 msgid "Sign In"
 msgstr "登录"
 
-#: /templates/login.html:2 /media/js/views/login.js:10
-msgid "Sign in"
-msgstr "登录"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "您必须登录才能继续。"
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "登录/注册"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "未找到笔记"
-
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "在此输入笔记内容"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "附加截图或日志文件："
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "附加另一个文件"
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "发表"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "查看更旧条目"
-
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
 msgstr "应用图标"
@@ -127,51 +264,6 @@ msgstr "查看所有 {app_name} 的话题"
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
 msgstr "返回应用编辑页面"
-
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "附件"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "文件描述"
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} (版本号  {version_number})"
-
-#: /templates/_macros/thread_header.html:19
-msgid "Deleted App"
-msgstr "已删除应用"
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "（废弃的）"
-
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:59
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} 笔笔记"
-
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:82 /media/js/views/comm.js:154
-msgid "Reply"
-msgstr "回复"
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "近期"
-
-#: /templates/_macros/thread_header.html:43
-msgid "View App"
-msgstr "查看应用"
-
-#: /templates/_macros/thread_header.html:47
-msgid "Unsubscribe"
-msgstr "取消订阅"
-
-#: /templates/_macros/thread_header.html:50
-msgid "Review"
-msgstr "评论"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -193,33 +285,25 @@ msgstr "抱歉，发生错误。请尝试重新登录。"
 msgid "Empty note"
 msgstr "空笔记"
 
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "查看 {app_name} 的话题"
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr "未找到笔记"
 
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "返回 {app_name} 的话题"
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "在此输入笔记内容"
 
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "噢不！"
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "附加截图或日志文件："
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "发生了错误。"
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "附加另一个文件"
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "载入更多内容时发生错误"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "重试"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "找不到您想打开的页面。"
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "发表"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
@@ -230,146 +314,62 @@ msgstr "此应用的版本"
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
-#: /media/js/views/comm.js:89
-msgid "Message sent."
-msgstr "消息已发出。"
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "查看更旧条目"
 
-#: /media/js/views/comm.js:94
-msgid "Message sending failed."
-msgstr "消息发送失败。"
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "查看 {app_name} 的话题"
 
-#: /media/js/views/comm.js:144
-msgid "Cancel reply"
-msgstr "取消回复"
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "返回 {app_name} 的话题"
 
-#: /media/js/views/comm.js:181
-msgid "There are no more older notes."
-msgstr "没有更早的笔记了。"
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "噢不！"
 
-#: /media/js/views/comm.js:204
-msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr "取消订阅这个话题，将不再收到关于他的邮件提醒，确定要取消订阅？"
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "找不到您想打开的页面。"
 
-#: /media/js/views/comm.js:209
-msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr "成功取消订阅。您将不再收到这个话题的邮件提醒。"
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} (版本号  {version_number})"
 
-#: /media/js/settings.js:38
-msgid "Message"
-msgstr "消息"
+#: /templates/_macros/thread_header.html:19
+msgid "Deleted App"
+msgstr "已删除应用"
 
-#: /media/js/settings.js:39
-msgid "App approved"
-msgstr "应用已批准"
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "（废弃的）"
 
-#: /media/js/settings.js:40
-msgid "App rejected"
-msgstr "应用被拒绝"
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "近期"
 
-#: /media/js/settings.js:41
-msgid "App banned"
-msgstr "应用已封禁"
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr "查看应用"
 
-#: /media/js/settings.js:42
-msgid "Reviewer comment"
-msgstr "审核者留言"
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "取消订阅"
 
-#: /media/js/settings.js:43
-msgid "Escalated to senior reviewer"
-msgstr "已向上呈报至高级审核者"
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "评论"
 
-#: /media/js/settings.js:44
-msgid "Private reviewer comment"
-msgstr "私密的审核者评论"
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "载入更多内容时发生错误"
 
-#: /media/js/settings.js:45
-msgid "App resubmission"
-msgstr "重新提交应用"
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "重试"
 
-#: /media/js/settings.js:46
-msgid "Approved but waiting to be made public"
-msgstr "已通过审核，等待发布中"
-
-#: /media/js/settings.js:47
-msgid "Escalated due to high abuse reports"
-msgstr "由于大量滥用报告，已向上呈报"
-
-#: /media/js/settings.js:48
-msgid "Escalated due to high refund requests"
-msgstr "由于大量退款要求，已向上呈报"
-
-#: /media/js/settings.js:49
-msgid "Escalation cleared"
-msgstr "向上呈报已清除"
-
-#: /media/js/settings.js:50
-msgid "Re-review cleared"
-msgstr "重新审核已清除"
-
-#: /media/js/settings.js:51
-msgid "App submission note"
-msgstr "应用提交注记"
-
-#: /media/js/settings.js:52
-msgid "Developer comment"
-msgstr "开发者留言"
-
-#: /media/js/settings.js:53
-msgid "Device(s) changed by reviewer"
-msgstr "审核者更改了设备"
-
-#: /media/js/settings.js:54
-msgid "Feature(s) changed by reviewer"
-msgstr "审核者更改了功能"
-
-#: /media/js/settings.js:55
-msgid "Review manifest change"
-msgstr "审核清单变化"
-
-#: /media/js/settings.js:56
-msgid "Review manifest url change"
-msgstr "审核清单 URL 变化"
-
-#: /media/js/settings.js:57
-msgid "Review manifest premium type upgrade"
-msgstr "审核清单之付费类型升级"
-
-#: /media/js/settings.js:58
-msgid "Re-review devices added"
-msgstr "重新审核设备已添加"
-
-#: /media/js/settings.js:59
-msgid "Re-review features changed"
-msgstr "重新审核功能已更改"
-
-#: /media/js/settings.js:60
-msgid "Escalation due to VIP App"
-msgstr "VIP 应用，已提升"
-
-#: /media/js/settings.js:61
-msgid "Escalation due to prerelease App"
-msgstr "预发布应用，已提升"
-
-#: /media/js/settings.js:62
-msgid "Priority review requested"
-msgstr "已请求优先审核"
-
-#: /media/js/settings.js:63
-msgid "Tarako review passed"
-msgstr "Tarako 审核通过"
-
-#: /media/js/settings.js:64
-msgid "Tarako review failed"
-msgstr "Tarako 审核失败"
-
-#: /media/js/settings.js:65
-msgid "Version notes for reviewer"
-msgstr "给审核者的版本说明"
-
-#: /media/js/settings.js:66
-msgid "Public reviewer comment"
-msgstr "公开的审核者评论"
-
-#: /media/js/settings.js:67
-msgid "Re-review content rating adult"
-msgstr "重新审核成人内容分级"
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "发生了错误。"
