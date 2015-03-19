@@ -1,24 +1,15 @@
 console.log('Marketplace Communication Dashboard');
 
-define('main', ['routes', 'settings_app'], function() {
-require(['core/init'], function() {
-require([
-    'core/l10n',
-    'core/log',
-    'core/login',
-    'core/navigation',
-    'templates',
-    'core/settings',
-    'core/urls',
-    'core/user',
-    'core/z',
-
-    'core/forms',
-    'core/helpers',
-    'core/init',
-    'header',
-],
-function(l10n, log, login, navigation, nunjucks, settings, urls, user, z) {
+define('main', ['init'], function(init) {
+init.done(function() {
+require(
+    [// Modules actually used in main.
+     'core/l10n', 'core/log', 'core/login', 'core/navigation',
+     'core/nunjucks', 'core/settings', 'core/urls', 'core/user', 'core/z',
+     // Modules we require to initialize global stuff.
+     'core/forms', 'header'],
+    function(l10n, log, login, navigation,
+             nunjucks, settings, urls, user, z) {
     var logger = log('main');
 
     // Nunjucks helpers.
