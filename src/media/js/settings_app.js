@@ -4,12 +4,7 @@ define('settings_app',
     var gettext = l10n.gettext;
 
     settings._extend({
-        app_name: 'commbadge',
-        init_module: 'main',
-        default_locale: 'en-US',
         api_url: 'http://' + window.location.hostname,
-
-        storage_version: '0',
 
         param_whitelist: ['q', 'sort'],
 
