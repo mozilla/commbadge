@@ -3,8 +3,8 @@
     Exposes a promise that the `main` module should wait on.
 */
 define('init',
-    ['core/init', 'helpers_local', 'routes', 'settings_app', 'templates'],
-    function(init, helpersLocal, routes, settingsApp, templates) {
+    ['core/init', 'routes', 'settings_app', 'templates'],
+    function(init, routes, settingsApp, templates) {
 
     return init.ready;
 });
