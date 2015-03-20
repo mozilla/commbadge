@@ -7,7 +7,7 @@ require(
      'core/l10n', 'core/log', 'core/login', 'core/navigation',
      'core/nunjucks', 'core/settings', 'core/urls', 'core/user', 'core/z',
      // Modules we require to initialize global stuff.
-     'core/forms', 'header', 'helpers_local'],
+     'core/forms', 'header'],
     function(l10n, log, login, navigation,
              nunjucks, settings, urls, user, z) {
     var logger = log('main');
