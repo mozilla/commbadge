@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-18T16:02:47.802Z\n"
-"PO-Revision-Date: 2014-10-14 18:57+0000\n"
-"Last-Translator: Umesh <umesh.agarwal1@gmail.com>\n"
+"PO-Revision-Date: 2015-03-22 15:33+0000\n"
+"Last-Translator: Chandan <cbaba20@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1413313042.0\n"
+"X-POOTLE-MTIME: 1427038439.0\n"
 
 #: /media/js/settings_app.js:29
 msgid "Message"
@@ -32,15 +32,15 @@ msgstr "एप्लिकेशन पर प्रतिबंध"
 
 #: /media/js/settings_app.js:33
 msgid "Reviewer comment"
-msgstr ""
+msgstr "अनुप्रयोग प्रतिबंधित"
 
 #: /media/js/settings_app.js:34
 msgid "Escalated to senior reviewer"
-msgstr ""
+msgstr "वरिष्ठ निरीक्षक की ओर बढ़ाएँ"
 
 #: /media/js/settings_app.js:35
 msgid "Private reviewer comment"
-msgstr ""
+msgstr "निरीक्षक निजी टिप्पणी"
 
 #: /media/js/settings_app.js:36
 msgid "App resubmission"
@@ -52,11 +52,11 @@ msgstr "मंजूरी दी लेकिन सार्वजनिक �
 
 #: /media/js/settings_app.js:38
 msgid "Escalated due to high abuse reports"
-msgstr ""
+msgstr "अत्यधिक बुरे विवरण के कारण बढाया गया"
 
 #: /media/js/settings_app.js:39
 msgid "Escalated due to high refund requests"
-msgstr ""
+msgstr "अत्यधिक वापसी निवेदन के कारण बढ़ाया गया"
 
 #: /media/js/settings_app.js:40
 msgid "Escalation cleared"
@@ -72,67 +72,67 @@ msgstr "एप्लिकेशन प्रस्तुत नोट"
 
 #: /media/js/settings_app.js:43
 msgid "Developer comment"
-msgstr "डेवलपर टिप्पणी"
+msgstr "डिवाइस(से) निरीक्षक के द्वारा बदली गयी"
 
 #: /media/js/settings_app.js:44
 msgid "Device(s) changed by reviewer"
-msgstr ""
+msgstr "समीक्षक के द्वारा डिवाइसेस बदली गई"
 
 #: /media/js/settings_app.js:45
 msgid "Feature(s) changed by reviewer"
-msgstr ""
+msgstr "विशेषता(एँ)समीक्षक के द्वारा बदली गई"
 
 #: /media/js/settings_app.js:46
 msgid "Review manifest change"
-msgstr ""
+msgstr "घोषणापत्र बदलाव की समीक्षा"
 
 #: /media/js/settings_app.js:47
 msgid "Review manifest url change"
-msgstr ""
+msgstr "घोषणापत्र url बदलाव की समीक्षा"
 
 #: /media/js/settings_app.js:48
 msgid "Review manifest premium type upgrade"
-msgstr ""
+msgstr "घोषणापत्र के प्रीमियम अद्यतन प्रकार की समीक्षा"
 
 #: /media/js/settings_app.js:49
 msgid "Re-review devices added"
-msgstr ""
+msgstr "जोड़े गए डिवाइसेस की दुबारा समीक्षा"
 
 #: /media/js/settings_app.js:50
 msgid "Re-review features changed"
-msgstr ""
+msgstr "बदले गए विशेषताओं की पुनः समीक्षा"
 
 #: /media/js/settings_app.js:51
 msgid "Escalation due to VIP App"
-msgstr ""
+msgstr "वीआईपी अनुप्रयोग के कारण बढ़ाया गया"
 
 #: /media/js/settings_app.js:52
 msgid "Escalation due to prerelease App"
-msgstr ""
+msgstr "अनुप्रयोग पूर्व प्रस्तुतीकरण के कारण बढ़ाया गया"
 
 #: /media/js/settings_app.js:53
 msgid "Priority review requested"
-msgstr ""
+msgstr "प्राथमिकता समीक्षा अनुरोध"
 
 #: /media/js/settings_app.js:54
 msgid "Tarako review passed"
-msgstr ""
+msgstr "Tarako समीक्षा उत्तीर्ण"
 
 #: /media/js/settings_app.js:55
 msgid "Tarako review failed"
-msgstr ""
+msgstr "Tarako समीक्षा अनुतीर्ण"
 
 #: /media/js/settings_app.js:56
 msgid "Version notes for reviewer"
-msgstr ""
+msgstr "समीक्षक के लिए संस्करण टिप्पणी"
 
 #: /media/js/settings_app.js:57
 msgid "Public reviewer comment"
-msgstr ""
+msgstr "लोक समीक्षक टिप्पणी"
 
 #: /media/js/settings_app.js:58
 msgid "Re-review content rating adult"
-msgstr ""
+msgstr "व्यस्क विषय-वस्तु मूल्यांकन पुनः समीक्षा"
 
 #: /media/js/views/comm.js:60 /templates/_macros/thread_header.html:27
 msgid "{n} note"
@@ -274,15 +274,15 @@ msgstr "मेरे थ्रेड्स"
 
 #: /templates/comm/main.html:4
 msgid "Go to Developer Hub"
-msgstr ""
+msgstr "डेवलपर केंद्र जाएँ"
 
 #: /templates/comm/main.html:14
 msgid "You currently are not involved in any communication threads."
-msgstr ""
+msgstr "आप अभी किसी संपर्क सूची से नही जुड़ें हैं"
 
 #: /templates/comm/main.html:16
 msgid "Sorry, an error has occurred. Try logging in again."
-msgstr ""
+msgstr "त्रुटी के लिए माफ़ कीजिए.दुबारा लॉग इन की कोशिश करें "
 
 #: /templates/comm/note_detail.html:12
 msgid "Empty note"
@@ -343,7 +343,7 @@ msgstr "{app_name} (Version {version_number})"
 
 #: /templates/_macros/thread_header.html:19
 msgid "Deleted App"
-msgstr ""
+msgstr "रद्द अनुप्रयोग"
 
 #: /templates/_macros/thread_header.html:21
 msgid "(Obsolete)"
