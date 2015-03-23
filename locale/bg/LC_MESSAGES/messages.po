@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: AMO Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-18T16:02:47.802Z\n"
-"PO-Revision-Date: 2015-03-20 13:54+0000\n"
-"Last-Translator: Стоян <stoyan@gmx.com>\n"
+"PO-Revision-Date: 2015-03-23 09:13+0000\n"
+"Last-Translator: Anonymous Pootle User\n"
 "Language-Team: Bulgarian (bg)\n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1426859659.0\n"
+"X-POOTLE-MTIME: 1427101988.0\n"
 
 #: /media/js/settings_app.js:29
 msgid "Message"
@@ -172,11 +172,11 @@ msgstr "Отписването успешно. Вече няма да получ
 
 #: /media/js/views/login.js:12 /templates/login.html:2
 msgid "Sign in"
-msgstr "Вход"
+msgstr "Вписване"
 
 #: /templates/confirmation.html:0
 msgid "Close"
-msgstr "Затвори"
+msgstr "Затваряне"
 
 #: /templates/confirmation.html:3
 msgid "No"
@@ -236,7 +236,7 @@ msgstr "Трябва да се впишете, за да продължите."
 
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
-msgstr "Вход / Регистрация"
+msgstr "Вписване / Регистрация"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
@@ -256,7 +256,7 @@ msgstr "Изход"
 
 #: /templates/header.html:8
 msgid "Sign In"
-msgstr "Вход"
+msgstr "Вписване"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
@@ -268,7 +268,7 @@ msgstr "Разглеждане на всички теми за {app_name}"
 
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
-msgstr "Върни се към редакцията на приложението"
+msgstr "Редактиране на приложение"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -276,7 +276,7 @@ msgstr "Мои теми"
 
 #: /templates/comm/main.html:4
 msgid "Go to Developer Hub"
-msgstr "Към Developer Hub"
+msgstr "Към Центъра за разработчици"
 
 #: /templates/comm/main.html:14
 msgid "You currently are not involved in any communication threads."
@@ -321,7 +321,7 @@ msgstr "v.{version_number}"
 
 #: /templates/_macros/thread.html:20
 msgid "View older"
-msgstr "Виж по-стари"
+msgstr "Преглед на по-стари"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
