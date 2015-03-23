@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: AMO Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-18T16:02:47.802Z\n"
-"PO-Revision-Date: 2015-03-23 09:13+0000\n"
-"Last-Translator: Anonymous Pootle User\n"
+"PO-Revision-Date: 2015-03-23 09:16+0000\n"
+"Last-Translator: Стоян <stoyan@gmx.com>\n"
 "Language-Team: Bulgarian (bg)\n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1427101988.0\n"
+"X-POOTLE-MTIME: 1427102190.0\n"
 
 #: /media/js/settings_app.js:29
 msgid "Message"
@@ -68,7 +68,7 @@ msgstr "Повторна рецензия разрешена"
 
 #: /media/js/settings_app.js:42
 msgid "App submission note"
-msgstr ""
+msgstr "Забележка"
 
 #: /media/js/settings_app.js:43
 msgid "Developer comment"
@@ -91,9 +91,8 @@ msgid "Review manifest url change"
 msgstr "Рецензия на промяна на адрес в манифеста"
 
 #: /media/js/settings_app.js:48
-#, fuzzy
 msgid "Review manifest premium type upgrade"
-msgstr "Рецензия на манифеста поради"
+msgstr "Рецензия на манифеста поради надграждане"
 
 #: /media/js/settings_app.js:49
 msgid "Re-review devices added"
@@ -134,7 +133,7 @@ msgstr "Публичен коментар от рецензента"
 
 #: /media/js/settings_app.js:58
 msgid "Re-review content rating adult"
-msgstr ""
+msgstr "Повторна рецензия на промяна оценката на съдържанието"
 
 #: /media/js/views/comm.js:60 /templates/_macros/thread_header.html:27
 msgid "{n} note"
