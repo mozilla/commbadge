@@ -110,7 +110,7 @@ define('views/comm',
         var hasInput;
         $attachments.each(function(i, attachment) {
             var $attachment = $(attachment);
-            if ($('[type="file"]', $attachment).val() != '') {
+            if ($('[type="file"]', $attachment).val() !== '') {
                 hasInput = true;
             }
             formData.append('form-' + i + '-attachment', $attachment.find('.realfileinput').get(0).files[0]);

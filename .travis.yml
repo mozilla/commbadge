@@ -1,0 +1,44 @@
+sudo: false
+branches:
+  only:
+    - master
+notifications:
+  irc:
+    channels:
+      - "irc.mozilla.org#amo-bots"
+      - "irc.mozilla.org#fireplace"
+    on_success: change
+    on_failure: change
+  email: false
+language: node_js
+python:
+  - "2.7"
+node_js:
+  - "0.10"
+env:
+  - RUN_TEST=uitest-phantom START_SERVER=1 UPLOAD_CAPTURES=1 MAKE_LANGPACKS=1
+  - RUN_TEST=uitest-slimer START_SERVER=1 UPLOAD_CAPTURES=1 MAKE_LANGPACKS=1
+  - RUN_TEST=lint
+  - RUN_TEST=unittest
+  - RUN_TEST=test-langpacks
+before_script:
+  - "export PHANTOMJS_EXECUTABLE='phantomjs --local-to-remote-url-access=yes --ignore-ssl-errors=yes'"
+  - 'export SLIMERJSLAUNCHER=$(which firefox)'
+# Create an installation.
+  - "make install"
+# Setup xvfb for karma and slimerjs.
+  - 'export DISPLAY=:99.0'
+  - 'sh -e /etc/init.d/xvfb start'
+# Start the server if needed
+  - 'if [ $START_SERVER ]; then bash tests/serve.sh; fi'
+# Make the langpacks if needed.
+  - 'if [ $MAKE_LANGPACKS ]; then commonplace langpacks; fi'
+# Install the latest slimer if we're running slimer.
+  - "if [ $RUN_TEST = 'uitest-slimer' ]; then make install-slimer; fi"
+script:
+  - 'make $RUN_TEST'
+  - 'if [ $UPLOAD_CAPTURES ]; then make upload-captures; fi'
+cache:
+  directories:
+    - node_modules
+    - bower_components
