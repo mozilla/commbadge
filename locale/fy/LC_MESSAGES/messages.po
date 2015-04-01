@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-18T16:02:47.802Z\n"
-"PO-Revision-Date: 2015-04-01 07:19+0000\n"
+"PO-Revision-Date: 2015-04-01 08:46+0000\n"
 "Last-Translator: Wim <fryskefirefox@gmail.com>\n"
 "Language-Team: FRISIAN <LL@li.org>\n"
 "Language: fy\n"
@@ -12,23 +12,23 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1427872758.0\n"
+"X-POOTLE-MTIME: 1427878005.0\n"
 
 #: /media/js/settings_app.js:29
 msgid "Message"
-msgstr "Bericht"
+msgstr "Berjocht"
 
 #: /media/js/settings_app.js:30
 msgid "App approved"
-msgstr "App goedgekeurd"
+msgstr "App goedkard"
 
 #: /media/js/settings_app.js:31
 msgid "App rejected"
-msgstr "App afgewezen"
+msgstr "App ôfwiisd"
 
 #: /media/js/settings_app.js:32
 msgid "App banned"
-msgstr "App verbannen"
+msgstr "App ferbannen"
 
 #: /media/js/settings_app.js:33
 msgid "Reviewer comment"
@@ -36,103 +36,103 @@ msgstr "Reaksje fan beoardieler"
 
 #: /media/js/settings_app.js:34
 msgid "Escalated to senior reviewer"
-msgstr "Geëscaleerd naar seniorbeoordelaar"
+msgstr "Eskalearre nei seniorbeoardieler"
 
 #: /media/js/settings_app.js:35
 msgid "Private reviewer comment"
-msgstr "Privéreactie van beoordelaar"
+msgstr "Priveereaksje fan beoardieler"
 
 #: /media/js/settings_app.js:36
 msgid "App resubmission"
-msgstr "App-herindiening"
+msgstr "App-weryntsjinning"
 
 #: /media/js/settings_app.js:37
 msgid "Approved but waiting to be made public"
-msgstr "Goedgekeurd, maar wacht op publicatie"
+msgstr "Goedkard, mar wachtet op publikaasje"
 
 #: /media/js/settings_app.js:38
 msgid "Escalated due to high abuse reports"
-msgstr "Geëscaleerd vanwege groot aantal misbruikmeldingen"
+msgstr "Eskalearre fanwege grut oantal misbrûkmeldingen"
 
 #: /media/js/settings_app.js:39
 msgid "Escalated due to high refund requests"
-msgstr "Geëscaleerd vanwege groot aantal restitutieverzoeken"
+msgstr "Eskalearre fanwege grut oantal restitúsjefersiken"
 
 #: /media/js/settings_app.js:40
 msgid "Escalation cleared"
-msgstr "Escalatie opgeheven"
+msgstr "Eskalaasje opheven"
 
 #: /media/js/settings_app.js:41
 msgid "Re-review cleared"
-msgstr "Herbeoordeling opgeheven"
+msgstr "Werbeoardieling opheven"
 
 #: /media/js/settings_app.js:42
 msgid "App submission note"
-msgstr "App-indieningsopmerking"
+msgstr "App-yntsjinningsopmerking"
 
 #: /media/js/settings_app.js:43
 msgid "Developer comment"
-msgstr "Ontwikkelaarsopmerking"
+msgstr "Untwikkelersopmerking"
 
 #: /media/js/settings_app.js:44
 msgid "Device(s) changed by reviewer"
-msgstr "Apparaten gewijzigd door beoordelaar"
+msgstr "Apparaten wizige troch beoardieler"
 
 #: /media/js/settings_app.js:45
 msgid "Feature(s) changed by reviewer"
-msgstr "Functies gewijzigd door beoordelaar"
+msgstr "Funksje(s) wizige troch beoardieler"
 
 #: /media/js/settings_app.js:46
 msgid "Review manifest change"
-msgstr "Manifestwijziging beoordelen"
+msgstr "Manifestwiziging beoardiele"
 
 #: /media/js/settings_app.js:47
 msgid "Review manifest url change"
-msgstr "Wijziging van manifest-URL beoordelen"
+msgstr "Wiziging fan manifest-URL beoardiele"
 
 #: /media/js/settings_app.js:48
 msgid "Review manifest premium type upgrade"
-msgstr "Premium-type-upgrade van manifest beoordelen"
+msgstr "Premium-type-fernijing fan manifest beoardiele"
 
 #: /media/js/settings_app.js:49
 msgid "Re-review devices added"
-msgstr "Toegevoegde apparaten herbeoordelen"
+msgstr "Tafoege apparaten werbeoardiele"
 
 #: /media/js/settings_app.js:50
 msgid "Re-review features changed"
-msgstr "Gewijzigde functies herbeoordelen"
+msgstr "Wizige funksjes werbeoardiele"
 
 #: /media/js/settings_app.js:51
 msgid "Escalation due to VIP App"
-msgstr "Escalatie vanwege VIP-app"
+msgstr "Eskalaasje fanwege VIP-app"
 
 #: /media/js/settings_app.js:52
 msgid "Escalation due to prerelease App"
-msgstr "Escalatie vanwege prerelease-app"
+msgstr "Eskalaasje fanwege prerelease-app"
 
 #: /media/js/settings_app.js:53
 msgid "Priority review requested"
-msgstr "Prioriteitsbeoordeling gevraagd"
+msgstr "Prioriteitsbeoardieling frege"
 
 #: /media/js/settings_app.js:54
 msgid "Tarako review passed"
-msgstr "Tarako-beoordeling geslaagd"
+msgstr "Tarako-beoardieling slagge"
 
 #: /media/js/settings_app.js:55
 msgid "Tarako review failed"
-msgstr "Tarako-beoordeling mislukt"
+msgstr "Tarako-beoardieling mislearre"
 
 #: /media/js/settings_app.js:56
 msgid "Version notes for reviewer"
-msgstr "Versieopmerkingen voor beoordelaar"
+msgstr "Ferzjeopmerkingen foar beoardieler"
 
 #: /media/js/settings_app.js:57
 msgid "Public reviewer comment"
-msgstr "Openbare reactie van beoordelaar"
+msgstr "Iepenbiere reaksje fan beoardieler"
 
 #: /media/js/settings_app.js:58
 msgid "Re-review content rating adult"
-msgstr "Inhoudsbeoordeling volwassen herbeoordelen"
+msgstr "Ynhâldsbeoardieling folwoeksen werbeoardiele"
 
 #: /media/js/views/comm.js:60 /templates/_macros/thread_header.html:27
 msgid "{n} note"
@@ -142,39 +142,43 @@ msgstr[1] "{n} opmerkingen"
 
 #: /media/js/views/comm.js:83 /media/js/views/comm.js:155 /templates/_macros/thread_header.html:33
 msgid "Reply"
-msgstr "Beantwoorden"
+msgstr "Beantwurdzje"
 
 #: /media/js/views/comm.js:90
 msgid "Message sent."
-msgstr "Bericht verzonden."
+msgstr "Berjocht ferstjoere."
 
 #: /media/js/views/comm.js:95
 msgid "Message sending failed."
-msgstr "Bericht verzenden mislukt."
+msgstr "Berjocht ferstjoeren mislearre."
 
 #: /media/js/views/comm.js:145
 msgid "Cancel reply"
-msgstr "Antwoord annuleren"
+msgstr "Antwurd annulearje"
 
 #: /media/js/views/comm.js:182
 msgid "There are no more older notes."
-msgstr "Er zijn geen oudere opmerkingen."
+msgstr "Der binne gjin âldere opmerkingen."
 
 #: /media/js/views/comm.js:205
 msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr "Door u van deze conversatie uit te schrijven zult u hiervan geen e-mailmeldingen meer ontvangen. Weet u het zeker?"
+msgstr ""
+"Troch ja fan dizze konversaasje út te skriuwen sille jo hjirfan gjin "
+"e-mailmeldingen mear ûntfange. Binne jo wis?"
 
 #: /media/js/views/comm.js:210
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr "Met succes uitgeschreven. U ontvangt geen e-mailmeldingen meer voor deze conversatie."
+msgstr ""
+"Mei sukses útskreaun. Jo ûntfange gjin e-mailmeldingen mear foar dizze "
+"konversaasje."
 
 #: /media/js/views/login.js:12 /templates/login.html:2
 msgid "Sign in"
-msgstr "Aanmelden"
+msgstr "Oanmelde"
 
 #: /templates/confirmation.html:0
 msgid "Close"
-msgstr "Sluiten"
+msgstr "Slute"
 
 #: /templates/confirmation.html:3
 msgid "No"
@@ -186,103 +190,105 @@ msgstr "Ja"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
-msgstr "Apps ontwikkelen"
+msgstr "Apps ûntwikkelje"
 
 #: /templates/footer.html:5
 msgid "Developer Hub"
-msgstr "Ontwikkelaarshub"
+msgstr "Untwikkelershub"
 
 #: /templates/footer.html:6
 msgid "Support"
-msgstr "Ondersteuning"
+msgstr "Stipe"
 
 #: /templates/footer.html:10
 msgid "My Submissions"
-msgstr "Mijn inzendingen"
+msgstr "Myn ynstjoeringen"
 
 #: /templates/footer.html:13
 msgid "Reviewer Tools"
-msgstr "Hulpmiddelen voor reviewers"
+msgstr "Helpmiddelen foar beoardielers"
 
 #: /templates/footer.html:16
 msgid "Lookup Tool"
-msgstr "Zoekhulpmiddel"
+msgstr "Sykhelpmiddel"
 
 #: /templates/footer.html:24
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
 "Alike License v3.0</a> or any later version."
 msgstr ""
-"Tenzij anders <a href=\"{legal_url}\" target=\"_blank\">vermeld</a>, is op de inhoud van deze website de <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License "
-"v3.0</a> of latere versie van toepassing."
+"Utsein oars <a href=\"{legal_url}\" target=\"_blank\">melden</a>, is op de "
+"ynhâld fan dizze website de <a href=\"{cc_url}\" target=\"_blank\">Creative "
+"Commons Attribution Share-Alike License v3.0</a> of lettere ferzje fan "
+"tapassing."
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
-msgstr "Privacybeleid"
+msgstr "Privacybelied"
 
 #: /templates/footer.html:30
 msgid "Terms of Use"
-msgstr "Gebruiksvoorwaarden"
+msgstr "Brûkersbetingsten"
 
 #: /templates/footer.html:32
 msgid "Report Trademark Abuse"
-msgstr "Misbruik van handelsmerk melden"
+msgstr "Misbrûk fan hannelsmerk melde"
 
 #: /templates/login.html:3
 msgid "You must sign in to proceed."
-msgstr "U moet zich aanmelden om verder te gaan."
+msgstr "Jo moatte jo oanmelde om troch te gean."
 
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
-msgstr "Aanmelden / registreren"
+msgstr "Oanmelde / registrearje"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
-msgstr "Bijlage"
+msgstr "Bylage"
 
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
-msgstr "Bestandsbeschrijving"
+msgstr "Bestânsbeskriuwing"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
-msgstr "Dashboard voor communicatie"
+msgstr "Dashboerd foar kommunikaasje"
 
 #: /templates/header.html:7
 msgid "Sign Out"
-msgstr "Afmelden"
+msgstr "Ofmelde"
 
 #: /templates/header.html:8
 msgid "Sign In"
-msgstr "Aanmelden"
+msgstr "Oanmelde"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
-msgstr "App-pictogram"
+msgstr "App-piktogram"
 
 #: /templates/comm/app_dashboard.html:7
 msgid "Viewing All Threads for {app_name}"
-msgstr "Alle conversaties voor {app_name}"
+msgstr "Alle konversaasjes foar {app_name}"
 
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
-msgstr "Terug naar app-bewerkingspagina"
+msgstr "Tebek nei app-bewurkingsside"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
-msgstr "Mijn conversaties"
+msgstr "Myn konversaasjes"
 
 #: /templates/comm/main.html:4
 msgid "Go to Developer Hub"
-msgstr "Naar Ontwikkelaarshub"
+msgstr "Nei Untwikkelershub"
 
 #: /templates/comm/main.html:14
 msgid "You currently are not involved in any communication threads."
-msgstr "U bent momenteel niet bij enige conversaties betrokken."
+msgstr "Jo binne no net by ien konversaasjes belutsen."
 
 #: /templates/comm/main.html:16
 msgid "Sorry, an error has occurred. Try logging in again."
-msgstr "Sorry, er is een fout opgetreden. Probeer u opnieuw aan te melden."
+msgstr "Sorry, der is in flater bard. Probearje jo opnij oan te melden."
 
 # Empty als werkwoord of als bijvoeglijk naamwoord? Vooralsnog gekozen voor het laatste.
 #: /templates/comm/note_detail.html:12
@@ -291,44 +297,44 @@ msgstr "Lege opmerking"
 
 #: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
 msgid "No notes found"
-msgstr "Geen opmerkingen gevonden"
+msgstr "Gjin opmerkingen fûn"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
-msgstr "Voer hier de tekst in"
+msgstr "Fier hjir de tekst yn"
 
 #: /templates/_macros/reply_box.html:6
 msgid "Attach screenshots and log files:"
-msgstr "Voeg schermafbeeldingen en logbestanden bij:"
+msgstr "Foegje skermôfbyldingen en lochbestannen by:"
 
 #: /templates/_macros/reply_box.html:8
 msgid "Attach another file"
-msgstr "Nog een bestand toevoegen"
+msgstr "Noch in bestân tafoegje"
 
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
-msgstr "Plaatsen"
+msgstr "Pleatse"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
-msgstr "Versies van deze app"
+msgstr "Ferzjes fan dizze app"
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
-msgstr "v.{version_number}"
+msgstr "f.{version_number}"
 
 #: /templates/_macros/thread.html:20
 msgid "View older"
-msgstr "Oudere weergeven"
+msgstr "Aldere werjaan"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
-msgstr "Conversatie voor {app_name}"
+msgstr "Konversaasje foar {app_name}"
 
 #: /templates/comm/show_thread.html:10
 msgid "Back to all threads for {app_name}"
-msgstr "Terug naar alle conversaties voor {app_name}"
+msgstr "Tebek nei alle konversaasjes foar {app_name}"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -336,45 +342,45 @@ msgstr "Oh nee!"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
-msgstr "De door u gezochte pagina is niet gevonden."
+msgstr "De troch jo sochte side is net fûn."
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} (versie {version_number})"
+msgstr "{app_name} (ferzje {version_number})"
 
 #: /templates/_macros/thread_header.html:19
 msgid "Deleted App"
-msgstr "Verwijderde app"
+msgstr "Fuortsmiten app"
 
 #: /templates/_macros/thread_header.html:21
 msgid "(Obsolete)"
-msgstr "(Verouderd)"
+msgstr "(Ferâldere)"
 
 #: /templates/_macros/thread_header.html:41
 msgid "Recent"
-msgstr "Recent"
+msgstr "Resint"
 
 #: /templates/_macros/thread_header.html:43
 msgid "View App"
-msgstr "App weergeven"
+msgstr "App werjaan"
 
 #: /templates/_macros/thread_header.html:47
 msgid "Unsubscribe"
-msgstr "Uitschrijven"
+msgstr "Utskriuwe"
 
 # verb or noun?
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
-msgstr "Beoordelen"
+msgstr "Beoardiele"
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
-msgstr "Fout bij laden van meer"
+msgstr "Flater by laden fan mear"
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
-msgstr "Opnieuw proberen"
+msgstr "Opnij probearje"
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
-msgstr "Er is een fout opgetreden."
+msgstr "Der is in flater bard."
