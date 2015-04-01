@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-18T16:02:47.802Z\n"
-"PO-Revision-Date: 2015-01-08 03:49+0000\n"
-"Last-Translator: Wim <w.benes@gmail.com>\n"
+"PO-Revision-Date: 2015-04-01 07:19+0000\n"
+"Last-Translator: Wim <fryskefirefox@gmail.com>\n"
 "Language-Team: FRISIAN <LL@li.org>\n"
 "Language: fy\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1420688968.0\n"
+"X-POOTLE-MTIME: 1427872758.0\n"
 
 #: /media/js/settings_app.js:29
 msgid "Message"
@@ -32,7 +32,7 @@ msgstr "App verbannen"
 
 #: /media/js/settings_app.js:33
 msgid "Reviewer comment"
-msgstr ""
+msgstr "Reaksje fan beoardieler"
 
 #: /media/js/settings_app.js:34
 msgid "Escalated to senior reviewer"
