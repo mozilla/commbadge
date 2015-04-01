@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-18T16:02:47.802Z\n"
+"POT-Creation-Date: 2015-04-01T16:01:59.301Z\n"
 "PO-Revision-Date: 2014-09-20 11:27+0000\n"
 "Last-Translator: Gábor <kelemeng@ubuntu.com>\n"
 "Language-Team: none\n"
@@ -13,164 +13,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n !=1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1411212467.0\n"
-
-#: /media/js/settings_app.js:29
-msgid "Message"
-msgstr "Üzenet"
-
-#: /media/js/settings_app.js:30
-msgid "App approved"
-msgstr "App jóváhagyva"
-
-#: /media/js/settings_app.js:31
-msgid "App rejected"
-msgstr "App elutasítva"
-
-#: /media/js/settings_app.js:32
-msgid "App banned"
-msgstr "App kitiltva"
-
-#: /media/js/settings_app.js:33
-msgid "Reviewer comment"
-msgstr ""
-
-#: /media/js/settings_app.js:34
-msgid "Escalated to senior reviewer"
-msgstr ""
-
-#: /media/js/settings_app.js:35
-msgid "Private reviewer comment"
-msgstr ""
-
-#: /media/js/settings_app.js:36
-msgid "App resubmission"
-msgstr "App újrabeküldése"
-
-#: /media/js/settings_app.js:37
-msgid "Approved but waiting to be made public"
-msgstr "Jóváhagyva, de közzétételre vár"
-
-#: /media/js/settings_app.js:38
-msgid "Escalated due to high abuse reports"
-msgstr ""
-
-#: /media/js/settings_app.js:39
-msgid "Escalated due to high refund requests"
-msgstr ""
-
-#: /media/js/settings_app.js:40
-msgid "Escalation cleared"
-msgstr "Eszkaláció törölve"
-
-#: /media/js/settings_app.js:41
-msgid "Re-review cleared"
-msgstr "Ismételt vizsgálat törölve"
-
-#: /media/js/settings_app.js:42
-msgid "App submission note"
-msgstr "Appbeküldési megjegyzés"
-
-#: /media/js/settings_app.js:43
-msgid "Developer comment"
-msgstr "Fejlesztői megjegyzés"
-
-#: /media/js/settings_app.js:44
-msgid "Device(s) changed by reviewer"
-msgstr ""
-
-#: /media/js/settings_app.js:45
-msgid "Feature(s) changed by reviewer"
-msgstr ""
-
-#: /media/js/settings_app.js:46
-msgid "Review manifest change"
-msgstr ""
-
-#: /media/js/settings_app.js:47
-msgid "Review manifest url change"
-msgstr ""
-
-#: /media/js/settings_app.js:48
-msgid "Review manifest premium type upgrade"
-msgstr ""
-
-#: /media/js/settings_app.js:49
-msgid "Re-review devices added"
-msgstr ""
-
-#: /media/js/settings_app.js:50
-msgid "Re-review features changed"
-msgstr ""
-
-#: /media/js/settings_app.js:51
-msgid "Escalation due to VIP App"
-msgstr ""
-
-#: /media/js/settings_app.js:52
-msgid "Escalation due to prerelease App"
-msgstr ""
-
-#: /media/js/settings_app.js:53
-msgid "Priority review requested"
-msgstr ""
-
-#: /media/js/settings_app.js:54
-msgid "Tarako review passed"
-msgstr ""
-
-#: /media/js/settings_app.js:55
-msgid "Tarako review failed"
-msgstr ""
-
-#: /media/js/settings_app.js:56
-msgid "Version notes for reviewer"
-msgstr ""
-
-#: /media/js/settings_app.js:57
-msgid "Public reviewer comment"
-msgstr ""
-
-#: /media/js/settings_app.js:58
-msgid "Re-review content rating adult"
-msgstr ""
-
-#: /media/js/views/comm.js:60 /templates/_macros/thread_header.html:27
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} jegyzet"
-msgstr[1] "{n} jegyzet"
-
-#: /media/js/views/comm.js:83 /media/js/views/comm.js:155 /templates/_macros/thread_header.html:33
-msgid "Reply"
-msgstr "Válasz"
-
-#: /media/js/views/comm.js:90
-msgid "Message sent."
-msgstr "Üzenet elküldve."
-
-#: /media/js/views/comm.js:95
-msgid "Message sending failed."
-msgstr "Üzenet küldése sikertelen."
-
-#: /media/js/views/comm.js:145
-msgid "Cancel reply"
-msgstr "Válasz megszakítása"
-
-#: /media/js/views/comm.js:182
-msgid "There are no more older notes."
-msgstr "Nincs több régi jegyzet."
-
-#: /media/js/views/comm.js:205
-msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr "A szálról leiratkozva nem fog több e-mail értesítést kapni a szálból. Biztos benne?"
-
-#: /media/js/views/comm.js:210
-msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr "Sikeresen leiratkozott. Nem fog több e-mail értesítést kapni a szálból."
-
-#: /media/js/views/login.js:12 /templates/login.html:2
-msgid "Sign in"
-msgstr "Bejelentkezés"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -228,6 +70,22 @@ msgstr "Felhasználási feltételek"
 msgid "Report Trademark Abuse"
 msgstr "Védjeggyel kapcsolatos visszaélés jelentése"
 
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Kommunikációs vezérlőpult"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Kijelentkezés"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Bejelentkezés"
+
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "Bejelentkezés"
+
 #: /templates/login.html:3
 msgid "You must sign in to proceed."
 msgstr "Be kell jelentkeznie a folytatáshoz."
@@ -244,17 +102,87 @@ msgstr "Melléklet"
 msgid "File Description"
 msgstr "Fájl leírása"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Kommunikációs vezérlőpult"
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Nincsenek jegyzetek"
 
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Kijelentkezés"
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Írja ide a jegyzet szövegét"
 
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Bejelentkezés"
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Mellékletek és naplófájlok csatolása:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Másik fájl csatolása"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Küldés"
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Na ne!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "A keresett oldal nem található."
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Régebbi megjelenítése"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Hiba történt."
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} ({version_number} verzió)"
+
+#: /templates/_macros/thread_header.html:19
+msgid "Deleted App"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "(elavult)"
+
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:60
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} jegyzet"
+msgstr[1] "{n} jegyzet"
+
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
+msgid "Reply"
+msgstr "Válasz"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "Legutóbbi"
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr "App megjelenítése"
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "Leiratkozás"
+
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "Értékelés"
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Hiba továbbiak betöltésekor"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Próbálja újra"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
@@ -288,25 +216,13 @@ msgstr ""
 msgid "Empty note"
 msgstr "Üres jegyzet"
 
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
-msgid "No notes found"
-msgstr "Nincsenek jegyzetek"
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "{app_name} szálának megjelenítése"
 
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Írja ide a jegyzet szövegét"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Mellékletek és naplófájlok csatolása:"
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Másik fájl csatolása"
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Küldés"
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Vissza {app_name} összes szálához"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
@@ -317,62 +233,146 @@ msgstr "Az app verziói"
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Régebbi megjelenítése"
+#: /media/js/settings_app.js:24
+msgid "Message"
+msgstr "Üzenet"
 
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "{app_name} szálának megjelenítése"
+#: /media/js/settings_app.js:25
+msgid "App approved"
+msgstr "App jóváhagyva"
 
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Vissza {app_name} összes szálához"
+#: /media/js/settings_app.js:26
+msgid "App rejected"
+msgstr "App elutasítva"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Na ne!"
+#: /media/js/settings_app.js:27
+msgid "App banned"
+msgstr "App kitiltva"
 
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "A keresett oldal nem található."
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} ({version_number} verzió)"
-
-#: /templates/_macros/thread_header.html:19
-msgid "Deleted App"
+#: /media/js/settings_app.js:28
+msgid "Reviewer comment"
 msgstr ""
 
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "(elavult)"
+#: /media/js/settings_app.js:29
+msgid "Escalated to senior reviewer"
+msgstr ""
 
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "Legutóbbi"
+#: /media/js/settings_app.js:30
+msgid "Private reviewer comment"
+msgstr ""
 
-#: /templates/_macros/thread_header.html:43
-msgid "View App"
-msgstr "App megjelenítése"
+#: /media/js/settings_app.js:31
+msgid "App resubmission"
+msgstr "App újrabeküldése"
 
-#: /templates/_macros/thread_header.html:47
-msgid "Unsubscribe"
-msgstr "Leiratkozás"
+#: /media/js/settings_app.js:32
+msgid "Approved but waiting to be made public"
+msgstr "Jóváhagyva, de közzétételre vár"
 
-#: /templates/_macros/thread_header.html:50
-msgid "Review"
-msgstr "Értékelés"
+#: /media/js/settings_app.js:33
+msgid "Escalated due to high abuse reports"
+msgstr ""
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Hiba továbbiak betöltésekor"
+#: /media/js/settings_app.js:34
+msgid "Escalated due to high refund requests"
+msgstr ""
 
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Próbálja újra"
+#: /media/js/settings_app.js:35
+msgid "Escalation cleared"
+msgstr "Eszkaláció törölve"
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Hiba történt."
+#: /media/js/settings_app.js:36
+msgid "Re-review cleared"
+msgstr "Ismételt vizsgálat törölve"
+
+#: /media/js/settings_app.js:37
+msgid "App submission note"
+msgstr "Appbeküldési megjegyzés"
+
+#: /media/js/settings_app.js:38
+msgid "Developer comment"
+msgstr "Fejlesztői megjegyzés"
+
+#: /media/js/settings_app.js:39
+msgid "Device(s) changed by reviewer"
+msgstr ""
+
+#: /media/js/settings_app.js:40
+msgid "Feature(s) changed by reviewer"
+msgstr ""
+
+#: /media/js/settings_app.js:41
+msgid "Review manifest change"
+msgstr ""
+
+#: /media/js/settings_app.js:42
+msgid "Review manifest url change"
+msgstr ""
+
+#: /media/js/settings_app.js:43
+msgid "Review manifest premium type upgrade"
+msgstr ""
+
+#: /media/js/settings_app.js:44
+msgid "Re-review devices added"
+msgstr ""
+
+#: /media/js/settings_app.js:45
+msgid "Re-review features changed"
+msgstr ""
+
+#: /media/js/settings_app.js:46
+msgid "Escalation due to VIP App"
+msgstr ""
+
+#: /media/js/settings_app.js:47
+msgid "Escalation due to prerelease App"
+msgstr ""
+
+#: /media/js/settings_app.js:48
+msgid "Priority review requested"
+msgstr ""
+
+#: /media/js/settings_app.js:49
+msgid "Tarako review passed"
+msgstr ""
+
+#: /media/js/settings_app.js:50
+msgid "Tarako review failed"
+msgstr ""
+
+#: /media/js/settings_app.js:51
+msgid "Version notes for reviewer"
+msgstr ""
+
+#: /media/js/settings_app.js:52
+msgid "Public reviewer comment"
+msgstr ""
+
+#: /media/js/settings_app.js:53
+msgid "Re-review content rating adult"
+msgstr ""
+
+#: /media/js/views/comm.js:90
+msgid "Message sent."
+msgstr "Üzenet elküldve."
+
+#: /media/js/views/comm.js:95
+msgid "Message sending failed."
+msgstr "Üzenet küldése sikertelen."
+
+#: /media/js/views/comm.js:145
+msgid "Cancel reply"
+msgstr "Válasz megszakítása"
+
+#: /media/js/views/comm.js:182
+msgid "There are no more older notes."
+msgstr "Nincs több régi jegyzet."
+
+#: /media/js/views/comm.js:205
+msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+msgstr "A szálról leiratkozva nem fog több e-mail értesítést kapni a szálból. Biztos benne?"
+
+#: /media/js/views/comm.js:210
+msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
+msgstr "Sikeresen leiratkozott. Nem fog több e-mail értesítést kapni a szálból."

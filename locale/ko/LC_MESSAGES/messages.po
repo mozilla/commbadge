@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-18T16:02:47.802Z\n"
+"POT-Creation-Date: 2015-04-01T16:01:59.301Z\n"
 "PO-Revision-Date: 2014-08-15 05:46+0000\n"
 "Last-Translator: Channy <channy@mozilla.or.kr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,163 +13,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1408081597.0\n"
-
-#: /media/js/settings_app.js:29
-msgid "Message"
-msgstr "메시지"
-
-#: /media/js/settings_app.js:30
-msgid "App approved"
-msgstr "승인한 앱"
-
-#: /media/js/settings_app.js:31
-msgid "App rejected"
-msgstr "거절된 앱"
-
-#: /media/js/settings_app.js:32
-msgid "App banned"
-msgstr ""
-
-#: /media/js/settings_app.js:33
-msgid "Reviewer comment"
-msgstr ""
-
-#: /media/js/settings_app.js:34
-msgid "Escalated to senior reviewer"
-msgstr ""
-
-#: /media/js/settings_app.js:35
-msgid "Private reviewer comment"
-msgstr ""
-
-#: /media/js/settings_app.js:36
-msgid "App resubmission"
-msgstr "앱 다시 제출"
-
-#: /media/js/settings_app.js:37
-msgid "Approved but waiting to be made public"
-msgstr "승인 후 공개 대기 중"
-
-#: /media/js/settings_app.js:38
-msgid "Escalated due to high abuse reports"
-msgstr ""
-
-#: /media/js/settings_app.js:39
-msgid "Escalated due to high refund requests"
-msgstr ""
-
-#: /media/js/settings_app.js:40
-msgid "Escalation cleared"
-msgstr "검증 완료"
-
-#: /media/js/settings_app.js:41
-msgid "Re-review cleared"
-msgstr "재 검토 완료"
-
-#: /media/js/settings_app.js:42
-msgid "App submission note"
-msgstr "앱 제출 노트"
-
-#: /media/js/settings_app.js:43
-msgid "Developer comment"
-msgstr "개발자 코멘트"
-
-#: /media/js/settings_app.js:44
-msgid "Device(s) changed by reviewer"
-msgstr ""
-
-#: /media/js/settings_app.js:45
-msgid "Feature(s) changed by reviewer"
-msgstr ""
-
-#: /media/js/settings_app.js:46
-msgid "Review manifest change"
-msgstr ""
-
-#: /media/js/settings_app.js:47
-msgid "Review manifest url change"
-msgstr ""
-
-#: /media/js/settings_app.js:48
-msgid "Review manifest premium type upgrade"
-msgstr ""
-
-#: /media/js/settings_app.js:49
-msgid "Re-review devices added"
-msgstr ""
-
-#: /media/js/settings_app.js:50
-msgid "Re-review features changed"
-msgstr ""
-
-#: /media/js/settings_app.js:51
-msgid "Escalation due to VIP App"
-msgstr ""
-
-#: /media/js/settings_app.js:52
-msgid "Escalation due to prerelease App"
-msgstr ""
-
-#: /media/js/settings_app.js:53
-msgid "Priority review requested"
-msgstr ""
-
-#: /media/js/settings_app.js:54
-msgid "Tarako review passed"
-msgstr ""
-
-#: /media/js/settings_app.js:55
-msgid "Tarako review failed"
-msgstr ""
-
-#: /media/js/settings_app.js:56
-msgid "Version notes for reviewer"
-msgstr ""
-
-#: /media/js/settings_app.js:57
-msgid "Public reviewer comment"
-msgstr ""
-
-#: /media/js/settings_app.js:58
-msgid "Re-review content rating adult"
-msgstr ""
-
-#: /media/js/views/comm.js:60 /templates/_macros/thread_header.html:27
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} 주의"
-
-#: /media/js/views/comm.js:83 /media/js/views/comm.js:155 /templates/_macros/thread_header.html:33
-msgid "Reply"
-msgstr "댓글"
-
-#: /media/js/views/comm.js:90
-msgid "Message sent."
-msgstr "메시지가 전송되었습니다."
-
-#: /media/js/views/comm.js:95
-msgid "Message sending failed."
-msgstr "메시지 전송이 실패하였습니다."
-
-#: /media/js/views/comm.js:145
-msgid "Cancel reply"
-msgstr "댓글 취소"
-
-#: /media/js/views/comm.js:182
-msgid "There are no more older notes."
-msgstr "이전 메모가 없습니다."
-
-#: /media/js/views/comm.js:205
-msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr "현재 메일에 구독 취소하면 더 이상 메일 알림을 받을 수 없습니다. 계속하시겠습니까?"
-
-#: /media/js/views/comm.js:210
-msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr "구독 취소하였습니다. 더 이상 메일 알림을 받지 않습니다."
-
-#: /media/js/views/login.js:12 /templates/login.html:2
-msgid "Sign in"
-msgstr "로그인"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -227,6 +70,22 @@ msgstr "이용 약관"
 msgid "Report Trademark Abuse"
 msgstr "등록 상표 오용 신고"
 
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "커뮤니케이션 대시보드"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "로그아웃"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "로그인"
+
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "로그인"
+
 #: /templates/login.html:3
 msgid "You must sign in to proceed."
 msgstr "진행을 위해서 로그인을 해야 합니다."
@@ -243,17 +102,86 @@ msgstr "첨부 파일"
 msgid "File Description"
 msgstr "파일 설명"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "커뮤니케이션 대시보드"
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "소개 내용 없음"
 
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "로그아웃"
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "여기에 메모를 입력"
 
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "로그인"
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "스크린샷 및 로그 파일 첨부:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "다른 파일 첨부"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "올리기"
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "오 이런!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "찾는 페이지가 없습니다."
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "이전 보기"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "오류가 발생했습니다."
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} (버전 {version_number})"
+
+#: /templates/_macros/thread_header.html:19
+msgid "Deleted App"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "(중단됨)"
+
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:60
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} 주의"
+
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
+msgid "Reply"
+msgstr "댓글"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "최근"
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr "앱 보기"
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "구독 해지"
+
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "리뷰"
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "더 불러오는 중 오류 발생"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "다시 시도"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
@@ -287,25 +215,13 @@ msgstr ""
 msgid "Empty note"
 msgstr "소개 내용 없음"
 
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
-msgid "No notes found"
-msgstr "소개 내용 없음"
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "{app_name}에 대한 글타래 보기"
 
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "여기에 메모를 입력"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "스크린샷 및 로그 파일 첨부:"
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "다른 파일 첨부"
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "올리기"
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "{app_name}에 대한 글타래로 돌아가기"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
@@ -316,62 +232,146 @@ msgstr "앱 버전"
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "이전 보기"
+#: /media/js/settings_app.js:24
+msgid "Message"
+msgstr "메시지"
 
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "{app_name}에 대한 글타래 보기"
+#: /media/js/settings_app.js:25
+msgid "App approved"
+msgstr "승인한 앱"
 
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "{app_name}에 대한 글타래로 돌아가기"
+#: /media/js/settings_app.js:26
+msgid "App rejected"
+msgstr "거절된 앱"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "오 이런!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "찾는 페이지가 없습니다."
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} (버전 {version_number})"
-
-#: /templates/_macros/thread_header.html:19
-msgid "Deleted App"
+#: /media/js/settings_app.js:27
+msgid "App banned"
 msgstr ""
 
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "(중단됨)"
+#: /media/js/settings_app.js:28
+msgid "Reviewer comment"
+msgstr ""
 
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "최근"
+#: /media/js/settings_app.js:29
+msgid "Escalated to senior reviewer"
+msgstr ""
 
-#: /templates/_macros/thread_header.html:43
-msgid "View App"
-msgstr "앱 보기"
+#: /media/js/settings_app.js:30
+msgid "Private reviewer comment"
+msgstr ""
 
-#: /templates/_macros/thread_header.html:47
-msgid "Unsubscribe"
-msgstr "구독 해지"
+#: /media/js/settings_app.js:31
+msgid "App resubmission"
+msgstr "앱 다시 제출"
 
-#: /templates/_macros/thread_header.html:50
-msgid "Review"
-msgstr "리뷰"
+#: /media/js/settings_app.js:32
+msgid "Approved but waiting to be made public"
+msgstr "승인 후 공개 대기 중"
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "더 불러오는 중 오류 발생"
+#: /media/js/settings_app.js:33
+msgid "Escalated due to high abuse reports"
+msgstr ""
 
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "다시 시도"
+#: /media/js/settings_app.js:34
+msgid "Escalated due to high refund requests"
+msgstr ""
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "오류가 발생했습니다."
+#: /media/js/settings_app.js:35
+msgid "Escalation cleared"
+msgstr "검증 완료"
+
+#: /media/js/settings_app.js:36
+msgid "Re-review cleared"
+msgstr "재 검토 완료"
+
+#: /media/js/settings_app.js:37
+msgid "App submission note"
+msgstr "앱 제출 노트"
+
+#: /media/js/settings_app.js:38
+msgid "Developer comment"
+msgstr "개발자 코멘트"
+
+#: /media/js/settings_app.js:39
+msgid "Device(s) changed by reviewer"
+msgstr ""
+
+#: /media/js/settings_app.js:40
+msgid "Feature(s) changed by reviewer"
+msgstr ""
+
+#: /media/js/settings_app.js:41
+msgid "Review manifest change"
+msgstr ""
+
+#: /media/js/settings_app.js:42
+msgid "Review manifest url change"
+msgstr ""
+
+#: /media/js/settings_app.js:43
+msgid "Review manifest premium type upgrade"
+msgstr ""
+
+#: /media/js/settings_app.js:44
+msgid "Re-review devices added"
+msgstr ""
+
+#: /media/js/settings_app.js:45
+msgid "Re-review features changed"
+msgstr ""
+
+#: /media/js/settings_app.js:46
+msgid "Escalation due to VIP App"
+msgstr ""
+
+#: /media/js/settings_app.js:47
+msgid "Escalation due to prerelease App"
+msgstr ""
+
+#: /media/js/settings_app.js:48
+msgid "Priority review requested"
+msgstr ""
+
+#: /media/js/settings_app.js:49
+msgid "Tarako review passed"
+msgstr ""
+
+#: /media/js/settings_app.js:50
+msgid "Tarako review failed"
+msgstr ""
+
+#: /media/js/settings_app.js:51
+msgid "Version notes for reviewer"
+msgstr ""
+
+#: /media/js/settings_app.js:52
+msgid "Public reviewer comment"
+msgstr ""
+
+#: /media/js/settings_app.js:53
+msgid "Re-review content rating adult"
+msgstr ""
+
+#: /media/js/views/comm.js:90
+msgid "Message sent."
+msgstr "메시지가 전송되었습니다."
+
+#: /media/js/views/comm.js:95
+msgid "Message sending failed."
+msgstr "메시지 전송이 실패하였습니다."
+
+#: /media/js/views/comm.js:145
+msgid "Cancel reply"
+msgstr "댓글 취소"
+
+#: /media/js/views/comm.js:182
+msgid "There are no more older notes."
+msgstr "이전 메모가 없습니다."
+
+#: /media/js/views/comm.js:205
+msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+msgstr "현재 메일에 구독 취소하면 더 이상 메일 알림을 받을 수 없습니다. 계속하시겠습니까?"
+
+#: /media/js/views/comm.js:210
+msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
+msgstr "구독 취소하였습니다. 더 이상 메일 알림을 받지 않습니다."

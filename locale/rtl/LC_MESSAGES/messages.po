@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-18T16:02:47.802Z\n"
+"POT-Creation-Date: 2015-04-01T16:01:59.301Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,172 +12,6 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Fireplace L10n Tools 1.0\n"
-
-#: /media/js/settings_app.js:29
-msgid "Message"
-msgstr "‮Wǝssɐƃǝ"
-
-#: /media/js/settings_app.js:30
-msgid "App approved"
-msgstr "‮∀dd ɐddɹoʌǝp"
-
-#: /media/js/settings_app.js:31
-msgid "App rejected"
-msgstr "‮∀dd ɹǝɾǝɔʇǝp"
-
-#: /media/js/settings_app.js:32
-msgid "App banned"
-msgstr "‮∀dd qɐuuǝp"
-
-#: /media/js/settings_app.js:33
-msgid "Reviewer comment"
-msgstr "‮ᴚǝʌıǝʍǝɹ ɔoɯɯǝuʇ"
-
-#: /media/js/settings_app.js:34
-msgid "Escalated to senior reviewer"
-msgstr "‮Ǝsɔɐʅɐʇǝp ʇo sǝuıoɹ ɹǝʌıǝʍǝɹ"
-
-#: /media/js/settings_app.js:35
-msgid "Private reviewer comment"
-msgstr "‮Ԁɹıʌɐʇǝ ɹǝʌıǝʍǝɹ ɔoɯɯǝuʇ"
-
-#: /media/js/settings_app.js:36
-msgid "App resubmission"
-msgstr "‮∀dd ɹǝsnqɯıssıou"
-
-#: /media/js/settings_app.js:37
-msgid "Approved but waiting to be made public"
-msgstr "‮∀ddɹoʌǝp qnʇ ʍɐıʇıuƃ ʇo qǝ ɯɐpǝ dnqʅıɔ"
-
-#: /media/js/settings_app.js:38
-msgid "Escalated due to high abuse reports"
-msgstr "‮Ǝsɔɐʅɐʇǝp pnǝ ʇo ɥıƃɥ ɐqnsǝ ɹǝdoɹʇs"
-
-#: /media/js/settings_app.js:39
-msgid "Escalated due to high refund requests"
-msgstr "‮Ǝsɔɐʅɐʇǝp pnǝ ʇo ɥıƃɥ ɹǝɟnup ɹǝbnǝsʇs"
-
-#: /media/js/settings_app.js:40
-msgid "Escalation cleared"
-msgstr "‮Ǝsɔɐʅɐʇıou ɔʅǝɐɹǝp"
-
-#: /media/js/settings_app.js:41
-msgid "Re-review cleared"
-msgstr "‮ᴚǝ-ɹǝʌıǝʍ ɔʅǝɐɹǝp"
-
-#: /media/js/settings_app.js:42
-msgid "App submission note"
-msgstr "‮∀dd snqɯıssıou uoʇǝ"
-
-#: /media/js/settings_app.js:43
-msgid "Developer comment"
-msgstr "‮ᗡǝʌǝʅodǝɹ ɔoɯɯǝuʇ"
-
-#: /media/js/settings_app.js:44
-msgid "Device(s) changed by reviewer"
-msgstr "‮ᗡǝʌıɔǝ(s) ɔɥɐuƃǝp qʎ ɹǝʌıǝʍǝɹ"
-
-#: /media/js/settings_app.js:45
-msgid "Feature(s) changed by reviewer"
-msgstr "‮Ⅎǝɐʇnɹǝ(s) ɔɥɐuƃǝp qʎ ɹǝʌıǝʍǝɹ"
-
-#: /media/js/settings_app.js:46
-msgid "Review manifest change"
-msgstr "‮ᴚǝʌıǝʍ ɯɐuıɟǝsʇ ɔɥɐuƃǝ"
-
-#: /media/js/settings_app.js:47
-msgid "Review manifest url change"
-msgstr "‮ᴚǝʌıǝʍ ɯɐuıɟǝsʇ nɹʅ ɔɥɐuƃǝ"
-
-#: /media/js/settings_app.js:48
-msgid "Review manifest premium type upgrade"
-msgstr "‮ᴚǝʌıǝʍ ɯɐuıɟǝsʇ dɹǝɯınɯ ʇʎdǝ ndƃɹɐpǝ"
-
-#: /media/js/settings_app.js:49
-msgid "Re-review devices added"
-msgstr "‮ᴚǝ-ɹǝʌıǝʍ pǝʌıɔǝs ɐppǝp"
-
-#: /media/js/settings_app.js:50
-msgid "Re-review features changed"
-msgstr "‮ᴚǝ-ɹǝʌıǝʍ ɟǝɐʇnɹǝs ɔɥɐuƃǝp"
-
-#: /media/js/settings_app.js:51
-msgid "Escalation due to VIP App"
-msgstr "‮Ǝsɔɐʅɐʇıou pnǝ ʇo ɅIԀ ∀dd"
-
-#: /media/js/settings_app.js:52
-msgid "Escalation due to prerelease App"
-msgstr "‮Ǝsɔɐʅɐʇıou pnǝ ʇo dɹǝɹǝʅǝɐsǝ ∀dd"
-
-#: /media/js/settings_app.js:53
-msgid "Priority review requested"
-msgstr "‮Ԁɹıoɹıʇʎ ɹǝʌıǝʍ ɹǝbnǝsʇǝp"
-
-#: /media/js/settings_app.js:54
-msgid "Tarako review passed"
-msgstr "‮⊥ɐɹɐʞo ɹǝʌıǝʍ dɐssǝp"
-
-#: /media/js/settings_app.js:55
-msgid "Tarako review failed"
-msgstr "‮⊥ɐɹɐʞo ɹǝʌıǝʍ ɟɐıʅǝp"
-
-#: /media/js/settings_app.js:56
-msgid "Version notes for reviewer"
-msgstr "‮Ʌǝɹsıou uoʇǝs ɟoɹ ɹǝʌıǝʍǝɹ"
-
-#: /media/js/settings_app.js:57
-msgid "Public reviewer comment"
-msgstr "‮Ԁnqʅıɔ ɹǝʌıǝʍǝɹ ɔoɯɯǝuʇ"
-
-#: /media/js/settings_app.js:58
-msgid "Re-review content rating adult"
-msgstr "‮ᴚǝ-ɹǝʌıǝʍ ɔouʇǝuʇ ɹɐʇıuƃ ɐpnʅʇ"
-
-#: /media/js/views/comm.js:60
-#: /templates/_macros/thread_header.html:27
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "‮{u} uoʇǝ"
-msgstr[1] "‮{u} uoʇǝs"
-
-#: /media/js/views/comm.js:83
-#: /media/js/views/comm.js:155
-#: /templates/_macros/thread_header.html:33
-msgid "Reply"
-msgstr "‮ᴚǝdʅʎ"
-
-#: /media/js/views/comm.js:90
-msgid "Message sent."
-msgstr "‮Wǝssɐƃǝ sǝuʇ˙"
-
-#: /media/js/views/comm.js:95
-msgid "Message sending failed."
-msgstr "‮Wǝssɐƃǝ sǝupıuƃ ɟɐıʅǝp˙"
-
-#: /media/js/views/comm.js:145
-msgid "Cancel reply"
-msgstr "‮Ↄɐuɔǝʅ ɹǝdʅʎ"
-
-#: /media/js/views/comm.js:182
-msgid "There are no more older notes."
-msgstr "‮⊥ɥǝɹǝ ɐɹǝ uo ɯoɹǝ oʅpǝɹ uoʇǝs˙"
-
-#: /media/js/views/comm.js:205
-msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr ""
-"‮Ԑʎ nusnqsɔɹıqıuƃ ɟɹoɯ ʇɥıs ʇɥɹǝɐp´ ʎon ʍıʅʅ uo ʅouƃǝɹ ɹǝɔǝıʌǝ ǝɯɐıʅ "
-"uoʇıɟıɔɐʇıous ɟɹoɯ ʇɥıs ʇɥɹǝɐp˙ ∀ɹǝ ʎon snɹǝ¿"
-
-#: /media/js/views/comm.js:210
-msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr ""
-"‮Snɔɔǝssɟnʅʅʎ nusnqsɔɹıqǝp˙ ⅄on ʍıʅʅ uo ʅouƃǝɹ ɹǝɔǝıʌǝ ǝɯɐıʅ uoʇıɟıɔɐʇıous "
-"ɟoɹ ʇɥɐʇ ʇɥɹǝɐp˙"
-
-#: /media/js/views/login.js:12
-#: /templates/login.html:2
-msgid "Sign in"
-msgstr "‮Sıƃu ıu"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -235,6 +69,23 @@ msgstr "‮⊥ǝɹɯs oɟ ∩sǝ"
 msgid "Report Trademark Abuse"
 msgstr "‮ᴚǝdoɹʇ ⊥ɹɐpǝɯɐɹʞ ∀qnsǝ"
 
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "‮Ↄoɯɯnuıɔɐʇıou ᗡɐsɥqoɐɹp"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "‮Sıƃu Onʇ"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "‮Sıƃu Iu"
+
+#: /templates/login.html:2
+#: /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "‮Sıƃu ıu"
+
 #: /templates/login.html:3
 msgid "You must sign in to proceed."
 msgstr "‮⅄on ɯnsʇ sıƃu ıu ʇo dɹoɔǝǝp˙"
@@ -251,17 +102,93 @@ msgstr "‮∀ʇʇɐɔɥɯǝuʇ"
 msgid "File Description"
 msgstr "‮Ⅎıʅǝ ᗡǝsɔɹıdʇıou"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "‮Ↄoɯɯnuıɔɐʇıou ᗡɐsɥqoɐɹp"
+#: /templates/_macros/create_thread.html:10
+#: /templates/_macros/thread.html:15
+#: /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "‮No uoʇǝs ɟonup"
 
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "‮Sıƃu Onʇ"
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "‮Ǝuʇǝɹ uoʇǝ ʇǝxʇ ɥǝɹǝ"
 
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "‮Sıƃu Iu"
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "‮∀ʇʇɐɔɥ sɔɹǝǝusɥoʇs ɐup ʅoƃ ɟıʅǝs:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "‮∀ʇʇɐɔɥ ɐuoʇɥǝɹ ɟıʅǝ"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "‮Ԁosʇ"
+
+#: /templates/errors/404.html:2
+#: /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "‮Oɥ uo¡"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "‮⊥ɥǝ dɐƃǝ ʎon ʍǝɹǝ ʅooʞıuƃ ɟoɹ ʍɐs uoʇ ɟonup˙"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "‮Ʌıǝʍ oʅpǝɹ"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "‮∀u ǝɹɹoɹ oɔɔnɹɹǝp˙"
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "‮{ɐdd_uɐɯǝ} (Ʌǝɹsıou {ʌǝɹsıou_unɯqǝɹ})"
+
+#: /templates/_macros/thread_header.html:19
+msgid "Deleted App"
+msgstr "‮ᗡǝʅǝʇǝp ∀dd"
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "‮(Oqsoʅǝʇǝ)"
+
+#: /templates/_macros/thread_header.html:27
+#: /media/js/views/comm.js:60
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "‮{u} uoʇǝ"
+msgstr[1] "‮{u} uoʇǝs"
+
+#: /templates/_macros/thread_header.html:33
+#: /media/js/views/comm.js:83
+#: /media/js/views/comm.js:155
+msgid "Reply"
+msgstr "‮ᴚǝdʅʎ"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "‮ᴚǝɔǝuʇ"
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr "‮Ʌıǝʍ ∀dd"
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "‮∩usnqsɔɹıqǝ"
+
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "‮ᴚǝʌıǝʍ"
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "‮Ǝɹɹoɹ ʅoɐpıuƃ ɯoɹǝ"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "‮⊥ɹʎ ∀ƃɐıu"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
@@ -295,27 +222,13 @@ msgstr "‮Soɹɹʎ´ ɐu ǝɹɹoɹ ɥɐs oɔɔnɹɹǝp˙ ⊥ɹʎ ʅoƃƃıuƃ �
 msgid "Empty note"
 msgstr "‮Ǝɯdʇʎ uoʇǝ"
 
-#: /templates/comm/no_notes.html:1
-#: /templates/_macros/create_thread.html:10
-#: /templates/_macros/thread.html:15
-msgid "No notes found"
-msgstr "‮No uoʇǝs ɟonup"
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "‮Ʌıǝʍıuƃ ⊥ɥɹǝɐp ɟoɹ {ɐdd_uɐɯǝ}"
 
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "‮Ǝuʇǝɹ uoʇǝ ʇǝxʇ ɥǝɹǝ"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "‮∀ʇʇɐɔɥ sɔɹǝǝusɥoʇs ɐup ʅoƃ ɟıʅǝs:"
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "‮∀ʇʇɐɔɥ ɐuoʇɥǝɹ ɟıʅǝ"
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "‮Ԁosʇ"
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "‮Ԑɐɔʞ ʇo ɐʅʅ ʇɥɹǝɐps ɟoɹ {ɐdd_uɐɯǝ}"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
@@ -326,63 +239,150 @@ msgstr "‮⊥ɥıs ∀dd,s Ʌǝɹsıous"
 msgid "v.{version_number}"
 msgstr "‮ʌ˙{ʌǝɹsıou_unɯqǝɹ}"
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "‮Ʌıǝʍ oʅpǝɹ"
+#: /media/js/settings_app.js:24
+msgid "Message"
+msgstr "‮Wǝssɐƃǝ"
 
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "‮Ʌıǝʍıuƃ ⊥ɥɹǝɐp ɟoɹ {ɐdd_uɐɯǝ}"
+#: /media/js/settings_app.js:25
+msgid "App approved"
+msgstr "‮∀dd ɐddɹoʌǝp"
 
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "‮Ԑɐɔʞ ʇo ɐʅʅ ʇɥɹǝɐps ɟoɹ {ɐdd_uɐɯǝ}"
+#: /media/js/settings_app.js:26
+msgid "App rejected"
+msgstr "‮∀dd ɹǝɾǝɔʇǝp"
 
-#: /templates/errors/404.html:2
-#: /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "‮Oɥ uo¡"
+#: /media/js/settings_app.js:27
+msgid "App banned"
+msgstr "‮∀dd qɐuuǝp"
 
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "‮⊥ɥǝ dɐƃǝ ʎon ʍǝɹǝ ʅooʞıuƃ ɟoɹ ʍɐs uoʇ ɟonup˙"
+#: /media/js/settings_app.js:28
+msgid "Reviewer comment"
+msgstr "‮ᴚǝʌıǝʍǝɹ ɔoɯɯǝuʇ"
 
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "‮{ɐdd_uɐɯǝ} (Ʌǝɹsıou {ʌǝɹsıou_unɯqǝɹ})"
+#: /media/js/settings_app.js:29
+msgid "Escalated to senior reviewer"
+msgstr "‮Ǝsɔɐʅɐʇǝp ʇo sǝuıoɹ ɹǝʌıǝʍǝɹ"
 
-#: /templates/_macros/thread_header.html:19
-msgid "Deleted App"
-msgstr "‮ᗡǝʅǝʇǝp ∀dd"
+#: /media/js/settings_app.js:30
+msgid "Private reviewer comment"
+msgstr "‮Ԁɹıʌɐʇǝ ɹǝʌıǝʍǝɹ ɔoɯɯǝuʇ"
 
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "‮(Oqsoʅǝʇǝ)"
+#: /media/js/settings_app.js:31
+msgid "App resubmission"
+msgstr "‮∀dd ɹǝsnqɯıssıou"
 
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "‮ᴚǝɔǝuʇ"
+#: /media/js/settings_app.js:32
+msgid "Approved but waiting to be made public"
+msgstr "‮∀ddɹoʌǝp qnʇ ʍɐıʇıuƃ ʇo qǝ ɯɐpǝ dnqʅıɔ"
 
-#: /templates/_macros/thread_header.html:43
-msgid "View App"
-msgstr "‮Ʌıǝʍ ∀dd"
+#: /media/js/settings_app.js:33
+msgid "Escalated due to high abuse reports"
+msgstr "‮Ǝsɔɐʅɐʇǝp pnǝ ʇo ɥıƃɥ ɐqnsǝ ɹǝdoɹʇs"
 
-#: /templates/_macros/thread_header.html:47
-msgid "Unsubscribe"
-msgstr "‮∩usnqsɔɹıqǝ"
+#: /media/js/settings_app.js:34
+msgid "Escalated due to high refund requests"
+msgstr "‮Ǝsɔɐʅɐʇǝp pnǝ ʇo ɥıƃɥ ɹǝɟnup ɹǝbnǝsʇs"
 
-#: /templates/_macros/thread_header.html:50
-msgid "Review"
-msgstr "‮ᴚǝʌıǝʍ"
+#: /media/js/settings_app.js:35
+msgid "Escalation cleared"
+msgstr "‮Ǝsɔɐʅɐʇıou ɔʅǝɐɹǝp"
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "‮Ǝɹɹoɹ ʅoɐpıuƃ ɯoɹǝ"
+#: /media/js/settings_app.js:36
+msgid "Re-review cleared"
+msgstr "‮ᴚǝ-ɹǝʌıǝʍ ɔʅǝɐɹǝp"
 
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "‮⊥ɹʎ ∀ƃɐıu"
+#: /media/js/settings_app.js:37
+msgid "App submission note"
+msgstr "‮∀dd snqɯıssıou uoʇǝ"
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "‮∀u ǝɹɹoɹ oɔɔnɹɹǝp˙"
+#: /media/js/settings_app.js:38
+msgid "Developer comment"
+msgstr "‮ᗡǝʌǝʅodǝɹ ɔoɯɯǝuʇ"
+
+#: /media/js/settings_app.js:39
+msgid "Device(s) changed by reviewer"
+msgstr "‮ᗡǝʌıɔǝ(s) ɔɥɐuƃǝp qʎ ɹǝʌıǝʍǝɹ"
+
+#: /media/js/settings_app.js:40
+msgid "Feature(s) changed by reviewer"
+msgstr "‮Ⅎǝɐʇnɹǝ(s) ɔɥɐuƃǝp qʎ ɹǝʌıǝʍǝɹ"
+
+#: /media/js/settings_app.js:41
+msgid "Review manifest change"
+msgstr "‮ᴚǝʌıǝʍ ɯɐuıɟǝsʇ ɔɥɐuƃǝ"
+
+#: /media/js/settings_app.js:42
+msgid "Review manifest url change"
+msgstr "‮ᴚǝʌıǝʍ ɯɐuıɟǝsʇ nɹʅ ɔɥɐuƃǝ"
+
+#: /media/js/settings_app.js:43
+msgid "Review manifest premium type upgrade"
+msgstr "‮ᴚǝʌıǝʍ ɯɐuıɟǝsʇ dɹǝɯınɯ ʇʎdǝ ndƃɹɐpǝ"
+
+#: /media/js/settings_app.js:44
+msgid "Re-review devices added"
+msgstr "‮ᴚǝ-ɹǝʌıǝʍ pǝʌıɔǝs ɐppǝp"
+
+#: /media/js/settings_app.js:45
+msgid "Re-review features changed"
+msgstr "‮ᴚǝ-ɹǝʌıǝʍ ɟǝɐʇnɹǝs ɔɥɐuƃǝp"
+
+#: /media/js/settings_app.js:46
+msgid "Escalation due to VIP App"
+msgstr "‮Ǝsɔɐʅɐʇıou pnǝ ʇo ɅIԀ ∀dd"
+
+#: /media/js/settings_app.js:47
+msgid "Escalation due to prerelease App"
+msgstr "‮Ǝsɔɐʅɐʇıou pnǝ ʇo dɹǝɹǝʅǝɐsǝ ∀dd"
+
+#: /media/js/settings_app.js:48
+msgid "Priority review requested"
+msgstr "‮Ԁɹıoɹıʇʎ ɹǝʌıǝʍ ɹǝbnǝsʇǝp"
+
+#: /media/js/settings_app.js:49
+msgid "Tarako review passed"
+msgstr "‮⊥ɐɹɐʞo ɹǝʌıǝʍ dɐssǝp"
+
+#: /media/js/settings_app.js:50
+msgid "Tarako review failed"
+msgstr "‮⊥ɐɹɐʞo ɹǝʌıǝʍ ɟɐıʅǝp"
+
+#: /media/js/settings_app.js:51
+msgid "Version notes for reviewer"
+msgstr "‮Ʌǝɹsıou uoʇǝs ɟoɹ ɹǝʌıǝʍǝɹ"
+
+#: /media/js/settings_app.js:52
+msgid "Public reviewer comment"
+msgstr "‮Ԁnqʅıɔ ɹǝʌıǝʍǝɹ ɔoɯɯǝuʇ"
+
+#: /media/js/settings_app.js:53
+msgid "Re-review content rating adult"
+msgstr "‮ᴚǝ-ɹǝʌıǝʍ ɔouʇǝuʇ ɹɐʇıuƃ ɐpnʅʇ"
+
+#: /media/js/views/comm.js:90
+msgid "Message sent."
+msgstr "‮Wǝssɐƃǝ sǝuʇ˙"
+
+#: /media/js/views/comm.js:95
+msgid "Message sending failed."
+msgstr "‮Wǝssɐƃǝ sǝupıuƃ ɟɐıʅǝp˙"
+
+#: /media/js/views/comm.js:145
+msgid "Cancel reply"
+msgstr "‮Ↄɐuɔǝʅ ɹǝdʅʎ"
+
+#: /media/js/views/comm.js:182
+msgid "There are no more older notes."
+msgstr "‮⊥ɥǝɹǝ ɐɹǝ uo ɯoɹǝ oʅpǝɹ uoʇǝs˙"
+
+#: /media/js/views/comm.js:205
+msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+msgstr ""
+"‮Ԑʎ nusnqsɔɹıqıuƃ ɟɹoɯ ʇɥıs ʇɥɹǝɐp´ ʎon ʍıʅʅ uo ʅouƃǝɹ ɹǝɔǝıʌǝ ǝɯɐıʅ "
+"uoʇıɟıɔɐʇıous ɟɹoɯ ʇɥıs ʇɥɹǝɐp˙ ∀ɹǝ ʎon snɹǝ¿"
+
+#: /media/js/views/comm.js:210
+msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
+msgstr ""
+"‮Snɔɔǝssɟnʅʅʎ nusnqsɔɹıqǝp˙ ⅄on ʍıʅʅ uo ʅouƃǝɹ ɹǝɔǝıʌǝ ǝɯɐıʅ uoʇıɟıɔɐʇıous "
+"ɟoɹ ʇɥɐʇ ʇɥɹǝɐp˙"

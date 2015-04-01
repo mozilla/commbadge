@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-18T16:02:47.802Z\n"
+"POT-Creation-Date: 2015-04-01T16:01:59.301Z\n"
 "PO-Revision-Date: 2015-03-04 22:09+0000\n"
 "Last-Translator: milupo <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,166 +13,6 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1425506954.0\n"
-
-#: /media/js/settings_app.js:29
-msgid "Message"
-msgstr "Powěsć"
-
-#: /media/js/settings_app.js:30
-msgid "App approved"
-msgstr "Nałoženje je schwalene"
-
-#: /media/js/settings_app.js:31
-msgid "App rejected"
-msgstr "Nałoženje je wotpokazane"
-
-#: /media/js/settings_app.js:32
-msgid "App banned"
-msgstr "Nałoženje je zawrjene"
-
-#: /media/js/settings_app.js:33
-msgid "Reviewer comment"
-msgstr "Komentar přepruwowarja"
-
-#: /media/js/settings_app.js:34
-msgid "Escalated to senior reviewer"
-msgstr "Přichodnemu wyšemu přepruwowarjej dale daty"
-
-#: /media/js/settings_app.js:35
-msgid "Private reviewer comment"
-msgstr "Priwatny přepruwowarski komentar"
-
-#: /media/js/settings_app.js:36
-msgid "App resubmission"
-msgstr "Zasozapodaće nałoženja"
-
-#: /media/js/settings_app.js:37
-msgid "Approved but waiting to be made public"
-msgstr "Schwalene, ale hišće njewozjewjene"
-
-#: /media/js/settings_app.js:38
-msgid "Escalated due to high abuse reports"
-msgstr "Wjele znjewužiwanskich zdźělenjow dla přichodnemu wyšemu městnu dale daty"
-
-#: /media/js/settings_app.js:39
-msgid "Escalated due to high refund requests"
-msgstr "Wjele zarunanskich naprašowanjow dla přichodnemu wyšemu městnu dale daty"
-
-#: /media/js/settings_app.js:40
-msgid "Escalation cleared"
-msgstr "Přepodaće přichodnemu wyšemu městnu sčinjene"
-
-#: /media/js/settings_app.js:41
-msgid "Re-review cleared"
-msgstr "Wospjetowane přepruwowanje dokónčene"
-
-#: /media/js/settings_app.js:42
-msgid "App submission note"
-msgstr "Pokaz za zapodaće nałoženja"
-
-#: /media/js/settings_app.js:43
-msgid "Developer comment"
-msgstr "Wuwiwarski komentar"
-
-#: /media/js/settings_app.js:44
-msgid "Device(s) changed by reviewer"
-msgstr "Graty, kotrež su so wot přepruwowarja změnili"
-
-#: /media/js/settings_app.js:45
-msgid "Feature(s) changed by reviewer"
-msgstr "Funkcije, kotrež su so wot přepruwowarja změnili"
-
-#: /media/js/settings_app.js:46
-msgid "Review manifest change"
-msgstr "Změnu manifesta přepruwować"
-
-#: /media/js/settings_app.js:47
-msgid "Review manifest url change"
-msgstr "Změnu manifesteho URL přepruwować"
-
-#: /media/js/settings_app.js:48
-msgid "Review manifest premium type upgrade"
-msgstr "Aktualizaciju premiumoweho typa manifesta přepruwować"
-
-#: /media/js/settings_app.js:49
-msgid "Re-review devices added"
-msgstr "Přidate graty znowa přepruwować"
-
-#: /media/js/settings_app.js:50
-msgid "Re-review features changed"
-msgstr "Změnjene funkcije znowa přepruwować"
-
-#: /media/js/settings_app.js:51
-msgid "Escalation due to VIP App"
-msgstr "VIP-nałoženja dla přichodnemu wyšemu městnu dale daty"
-
-#: /media/js/settings_app.js:52
-msgid "Escalation due to prerelease App"
-msgstr "Daledaće přichodnemu wyšemu městnu předschwalenja nałoženja dla"
-
-#: /media/js/settings_app.js:53
-msgid "Priority review requested"
-msgstr "Přepruwowanje priority požadane"
-
-#: /media/js/settings_app.js:54
-msgid "Tarako review passed"
-msgstr "Přepruwowanje Tarako je so wobstało"
-
-#: /media/js/settings_app.js:55
-msgid "Tarako review failed"
-msgstr "Přepruwowanje Tarako je so nimokuliło"
-
-#: /media/js/settings_app.js:56
-msgid "Version notes for reviewer"
-msgstr "Wersijowe pokazy za přepruwowarja"
-
-#: /media/js/settings_app.js:57
-msgid "Public reviewer comment"
-msgstr "Zjawny přepruwowarski komentar"
-
-#: /media/js/settings_app.js:58
-msgid "Re-review content rating adult"
-msgstr "Wobsahowe pohódnoćenje Dorosćeny znowa přepruwować"
-
-#: /media/js/views/comm.js:60 /templates/_macros/thread_header.html:27
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} notica"
-msgstr[1] "{n} noticy"
-msgstr[2] "{n} noticy"
-msgstr[3] "{n} noticow"
-
-#: /media/js/views/comm.js:83 /media/js/views/comm.js:155 /templates/_macros/thread_header.html:33
-msgid "Reply"
-msgstr "Wotmołwić"
-
-#: /media/js/views/comm.js:90
-msgid "Message sent."
-msgstr "Powěsć je so pósłała."
-
-#: /media/js/views/comm.js:95
-msgid "Message sending failed."
-msgstr "Słanje powěsće je so nimokuliło."
-
-#: /media/js/views/comm.js:145
-msgid "Cancel reply"
-msgstr "Wotmołwu přetorhnyć"
-
-#: /media/js/views/comm.js:182
-msgid "There are no more older notes."
-msgstr "Starše noticy njejsu."
-
-#: /media/js/views/comm.js:205
-msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr "Jeli tutu nitku wotskazaće, njedóstanjeće hižo e-mejlowe zdźělenki z tuteje nitki. Sće wěsty?"
-
-#: /media/js/views/comm.js:210
-msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr "Nitka je so wuspěšnje wotskazała. Njedóstanjeće hižo žane e-mejlowe zdźělenki za tutu nitku."
-
-#: /media/js/views/login.js:12 /templates/login.html:2
-msgid "Sign in"
-msgstr "Přizjewić"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -230,6 +70,22 @@ msgstr "Wužiwanske wuměnjenja"
 msgid "Report Trademark Abuse"
 msgstr "Znjewužiwanje wikowanskeho znamjenja zdźělić"
 
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Komunikaciski přehlad"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Wotzjewić"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Přizjewić"
+
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "Přizjewić"
+
 #: /templates/login.html:3
 msgid "You must sign in to proceed."
 msgstr "Dyrbiće so přizjewić, zo byšće pokročował."
@@ -246,17 +102,89 @@ msgstr "Přiwěšk"
 msgid "File Description"
 msgstr "Datajowe wopisanje"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Komunikaciski přehlad"
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Žane noticy namakane"
 
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Wotzjewić"
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Tekst noticy tu zapodać"
 
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Přizjewić"
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Fota wobrazowki a protokolowe dataje připowěsnyć:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Dalšu dataju připowěsnyć"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Wotpósłać"
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Ow ně!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Strona, kotruž pytaće, njeje so namakała."
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Starše sej wobhladać"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Zmylk je wustupił."
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} (wersija {version_number})"
+
+#: /templates/_macros/thread_header.html:19
+msgid "Deleted App"
+msgstr "Zhašane nałoženje"
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "(Zestarjeny)"
+
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:60
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} notica"
+msgstr[1] "{n} noticy"
+msgstr[2] "{n} noticy"
+msgstr[3] "{n} noticow"
+
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
+msgid "Reply"
+msgstr "Wotmołwić"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "Najnowši"
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr "Nałoženje sej wobhladać"
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "Wotskazać"
+
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "Přepruwować"
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Zmylk při začitowanju dalšich informacijow"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Hišće raz spytać"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
@@ -290,25 +218,13 @@ msgstr "Bohužel je zmylk wustupił. Spytajće so hišće raz přizjewić."
 msgid "Empty note"
 msgstr "Prózdnja notica"
 
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
-msgid "No notes found"
-msgstr "Žane noticy namakane"
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Nitka za {app_name} so zwobraznja"
 
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Tekst noticy tu zapodać"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Fota wobrazowki a protokolowe dataje připowěsnyć:"
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Dalšu dataju připowěsnyć"
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Wotpósłać"
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Wróćo ke wšěm nitkam za {app_name}"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
@@ -319,62 +235,146 @@ msgstr "Wersije tutoho nałoženja"
 msgid "v.{version_number}"
 msgstr "v {version_number}"
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Starše sej wobhladać"
+#: /media/js/settings_app.js:24
+msgid "Message"
+msgstr "Powěsć"
 
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Nitka za {app_name} so zwobraznja"
+#: /media/js/settings_app.js:25
+msgid "App approved"
+msgstr "Nałoženje je schwalene"
 
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Wróćo ke wšěm nitkam za {app_name}"
+#: /media/js/settings_app.js:26
+msgid "App rejected"
+msgstr "Nałoženje je wotpokazane"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Ow ně!"
+#: /media/js/settings_app.js:27
+msgid "App banned"
+msgstr "Nałoženje je zawrjene"
 
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Strona, kotruž pytaće, njeje so namakała."
+#: /media/js/settings_app.js:28
+msgid "Reviewer comment"
+msgstr "Komentar přepruwowarja"
 
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} (wersija {version_number})"
+#: /media/js/settings_app.js:29
+msgid "Escalated to senior reviewer"
+msgstr "Přichodnemu wyšemu přepruwowarjej dale daty"
 
-#: /templates/_macros/thread_header.html:19
-msgid "Deleted App"
-msgstr "Zhašane nałoženje"
+#: /media/js/settings_app.js:30
+msgid "Private reviewer comment"
+msgstr "Priwatny přepruwowarski komentar"
 
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "(Zestarjeny)"
+#: /media/js/settings_app.js:31
+msgid "App resubmission"
+msgstr "Zasozapodaće nałoženja"
 
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "Najnowši"
+#: /media/js/settings_app.js:32
+msgid "Approved but waiting to be made public"
+msgstr "Schwalene, ale hišće njewozjewjene"
 
-#: /templates/_macros/thread_header.html:43
-msgid "View App"
-msgstr "Nałoženje sej wobhladać"
+#: /media/js/settings_app.js:33
+msgid "Escalated due to high abuse reports"
+msgstr "Wjele znjewužiwanskich zdźělenjow dla přichodnemu wyšemu městnu dale daty"
 
-#: /templates/_macros/thread_header.html:47
-msgid "Unsubscribe"
-msgstr "Wotskazać"
+#: /media/js/settings_app.js:34
+msgid "Escalated due to high refund requests"
+msgstr "Wjele zarunanskich naprašowanjow dla přichodnemu wyšemu městnu dale daty"
 
-#: /templates/_macros/thread_header.html:50
-msgid "Review"
-msgstr "Přepruwować"
+#: /media/js/settings_app.js:35
+msgid "Escalation cleared"
+msgstr "Přepodaće přichodnemu wyšemu městnu sčinjene"
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Zmylk při začitowanju dalšich informacijow"
+#: /media/js/settings_app.js:36
+msgid "Re-review cleared"
+msgstr "Wospjetowane přepruwowanje dokónčene"
 
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Hišće raz spytać"
+#: /media/js/settings_app.js:37
+msgid "App submission note"
+msgstr "Pokaz za zapodaće nałoženja"
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Zmylk je wustupił."
+#: /media/js/settings_app.js:38
+msgid "Developer comment"
+msgstr "Wuwiwarski komentar"
+
+#: /media/js/settings_app.js:39
+msgid "Device(s) changed by reviewer"
+msgstr "Graty, kotrež su so wot přepruwowarja změnili"
+
+#: /media/js/settings_app.js:40
+msgid "Feature(s) changed by reviewer"
+msgstr "Funkcije, kotrež su so wot přepruwowarja změnili"
+
+#: /media/js/settings_app.js:41
+msgid "Review manifest change"
+msgstr "Změnu manifesta přepruwować"
+
+#: /media/js/settings_app.js:42
+msgid "Review manifest url change"
+msgstr "Změnu manifesteho URL přepruwować"
+
+#: /media/js/settings_app.js:43
+msgid "Review manifest premium type upgrade"
+msgstr "Aktualizaciju premiumoweho typa manifesta přepruwować"
+
+#: /media/js/settings_app.js:44
+msgid "Re-review devices added"
+msgstr "Přidate graty znowa přepruwować"
+
+#: /media/js/settings_app.js:45
+msgid "Re-review features changed"
+msgstr "Změnjene funkcije znowa přepruwować"
+
+#: /media/js/settings_app.js:46
+msgid "Escalation due to VIP App"
+msgstr "VIP-nałoženja dla přichodnemu wyšemu městnu dale daty"
+
+#: /media/js/settings_app.js:47
+msgid "Escalation due to prerelease App"
+msgstr "Daledaće přichodnemu wyšemu městnu předschwalenja nałoženja dla"
+
+#: /media/js/settings_app.js:48
+msgid "Priority review requested"
+msgstr "Přepruwowanje priority požadane"
+
+#: /media/js/settings_app.js:49
+msgid "Tarako review passed"
+msgstr "Přepruwowanje Tarako je so wobstało"
+
+#: /media/js/settings_app.js:50
+msgid "Tarako review failed"
+msgstr "Přepruwowanje Tarako je so nimokuliło"
+
+#: /media/js/settings_app.js:51
+msgid "Version notes for reviewer"
+msgstr "Wersijowe pokazy za přepruwowarja"
+
+#: /media/js/settings_app.js:52
+msgid "Public reviewer comment"
+msgstr "Zjawny přepruwowarski komentar"
+
+#: /media/js/settings_app.js:53
+msgid "Re-review content rating adult"
+msgstr "Wobsahowe pohódnoćenje Dorosćeny znowa přepruwować"
+
+#: /media/js/views/comm.js:90
+msgid "Message sent."
+msgstr "Powěsć je so pósłała."
+
+#: /media/js/views/comm.js:95
+msgid "Message sending failed."
+msgstr "Słanje powěsće je so nimokuliło."
+
+#: /media/js/views/comm.js:145
+msgid "Cancel reply"
+msgstr "Wotmołwu přetorhnyć"
+
+#: /media/js/views/comm.js:182
+msgid "There are no more older notes."
+msgstr "Starše noticy njejsu."
+
+#: /media/js/views/comm.js:205
+msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+msgstr "Jeli tutu nitku wotskazaće, njedóstanjeće hižo e-mejlowe zdźělenki z tuteje nitki. Sće wěsty?"
+
+#: /media/js/views/comm.js:210
+msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
+msgstr "Nitka je so wuspěšnje wotskazała. Njedóstanjeće hižo žane e-mejlowe zdźělenki za tutu nitku."

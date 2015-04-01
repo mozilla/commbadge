@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CommBadge\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-18T16:02:47.802Z\n"
+"POT-Creation-Date: 2015-04-01T16:01:59.301Z\n"
 "PO-Revision-Date: 2015-03-08 04:51+0000\n"
 "Last-Translator: Cláudio <cesperanc@gmail.com>\n"
 "Language-Team: pt_PT\n"
@@ -13,164 +13,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1425790282.0\n"
-
-#: /media/js/settings_app.js:29
-msgid "Message"
-msgstr "Mensagem"
-
-#: /media/js/settings_app.js:30
-msgid "App approved"
-msgstr "Aplicação aprovada"
-
-#: /media/js/settings_app.js:31
-msgid "App rejected"
-msgstr "Aplicação rejeitada"
-
-#: /media/js/settings_app.js:32
-msgid "App banned"
-msgstr "Aplicação banida"
-
-#: /media/js/settings_app.js:33
-msgid "Reviewer comment"
-msgstr "Comentário do revisor"
-
-#: /media/js/settings_app.js:34
-msgid "Escalated to senior reviewer"
-msgstr "Escalado para um revisor sénior"
-
-#: /media/js/settings_app.js:35
-msgid "Private reviewer comment"
-msgstr "Comentário privado do revisor"
-
-#: /media/js/settings_app.js:36
-msgid "App resubmission"
-msgstr "Reenvio da aplicação"
-
-#: /media/js/settings_app.js:37
-msgid "Approved but waiting to be made public"
-msgstr "Aprovado mas à espera de ser tornado público"
-
-#: /media/js/settings_app.js:38
-msgid "Escalated due to high abuse reports"
-msgstr "Escalado devido a muitos relatórios de abuso"
-
-#: /media/js/settings_app.js:39
-msgid "Escalated due to high refund requests"
-msgstr "Escalado devido a muitos pedidos de devolução"
-
-#: /media/js/settings_app.js:40
-msgid "Escalation cleared"
-msgstr "Encaminhado para análise superior removido"
-
-#: /media/js/settings_app.js:41
-msgid "Re-review cleared"
-msgstr "Reanálise removida"
-
-#: /media/js/settings_app.js:42
-msgid "App submission note"
-msgstr "Nota de submissão da aplicação"
-
-#: /media/js/settings_app.js:43
-msgid "Developer comment"
-msgstr "Comentário do programador"
-
-#: /media/js/settings_app.js:44
-msgid "Device(s) changed by reviewer"
-msgstr "Dispositivo(s) modificados pelo revisor"
-
-#: /media/js/settings_app.js:45
-msgid "Feature(s) changed by reviewer"
-msgstr "Funcionalidade(s) modificadas pelo revisor"
-
-#: /media/js/settings_app.js:46
-msgid "Review manifest change"
-msgstr "Rever alteração do manifesto"
-
-#: /media/js/settings_app.js:47
-msgid "Review manifest url change"
-msgstr "Rever alteração de url no manifesto"
-
-#: /media/js/settings_app.js:48
-msgid "Review manifest premium type upgrade"
-msgstr "Rever atualização do tipo de premium no manifesto"
-
-#: /media/js/settings_app.js:49
-msgid "Re-review devices added"
-msgstr "Dispositivos de re-análise adicionados"
-
-#: /media/js/settings_app.js:50
-msgid "Re-review features changed"
-msgstr "Funcionalidades de re-análise alteradas"
-
-#: /media/js/settings_app.js:51
-msgid "Escalation due to VIP App"
-msgstr "Escalado devido a aplicação VIP"
-
-#: /media/js/settings_app.js:52
-msgid "Escalation due to prerelease App"
-msgstr "Escalado devido a pré-lançamento da aplicação"
-
-#: /media/js/settings_app.js:53
-msgid "Priority review requested"
-msgstr "Solicitada análise prioritária"
-
-#: /media/js/settings_app.js:54
-msgid "Tarako review passed"
-msgstr "A análise tarako passou"
-
-#: /media/js/settings_app.js:55
-msgid "Tarako review failed"
-msgstr "A análise tarako falhou"
-
-#: /media/js/settings_app.js:56
-msgid "Version notes for reviewer"
-msgstr "Notas da versão para o revisor"
-
-#: /media/js/settings_app.js:57
-msgid "Public reviewer comment"
-msgstr "Comentário público do revisor"
-
-#: /media/js/settings_app.js:58
-msgid "Re-review content rating adult"
-msgstr "Re-análise de conteúdo classificada como para adulto"
-
-#: /media/js/views/comm.js:60 /templates/_macros/thread_header.html:27
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} nota"
-msgstr[1] "{n} notas"
-
-#: /media/js/views/comm.js:83 /media/js/views/comm.js:155 /templates/_macros/thread_header.html:33
-msgid "Reply"
-msgstr "Responder"
-
-#: /media/js/views/comm.js:90
-msgid "Message sent."
-msgstr "Mensagem enviada."
-
-#: /media/js/views/comm.js:95
-msgid "Message sending failed."
-msgstr "O envio da mensagem falhou."
-
-#: /media/js/views/comm.js:145
-msgid "Cancel reply"
-msgstr "Cancelar resposta"
-
-#: /media/js/views/comm.js:182
-msgid "There are no more older notes."
-msgstr "Não existem notas mais antigas."
-
-#: /media/js/views/comm.js:205
-msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr "Ao anular a subscrição neste tópico, não irá mais receber notificações por email deste tópico. Tem a certeza?"
-
-#: /media/js/views/comm.js:210
-msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr "Anulação de subscrição concluída com sucesso. Não irá receber mais notificações por email para este tópico."
-
-#: /media/js/views/login.js:12 /templates/login.html:2
-msgid "Sign in"
-msgstr "Iniciar sessão"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -228,6 +70,22 @@ msgstr "Termos de utilização"
 msgid "Report Trademark Abuse"
 msgstr "Denunciar abuso de marca registada"
 
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Painel de comunicação"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Terminar sessão"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Iniciar sessão"
+
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "Iniciar sessão"
+
 #: /templates/login.html:3
 msgid "You must sign in to proceed."
 msgstr "Deve iniciar sessão para continuar."
@@ -244,17 +102,87 @@ msgstr "Anexo"
 msgid "File Description"
 msgstr "Descrição do ficheiro"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Painel de comunicação"
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Não foram encontradas notas"
 
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Terminar sessão"
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Introduza o texto da nota aqui"
 
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Iniciar sessão"
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Anexe capturas de ecrã e ficheiros de registo:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Anexar outro ficheiro"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Artigo"
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Oh não!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "A página que procurava não foi encontrada."
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Ver mais antigas"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Ocorreu um erro."
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} (Versão {version_number})"
+
+#: /templates/_macros/thread_header.html:19
+msgid "Deleted App"
+msgstr "Aplicação eliminada"
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "(Obsoleto)"
+
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:60
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} nota"
+msgstr[1] "{n} notas"
+
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
+msgid "Reply"
+msgstr "Responder"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "Recente"
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr "Ver aplicação"
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "Anular subscrição"
+
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "Análise"
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Erro ao carregar mais"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Tentar novamente"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
@@ -288,25 +216,13 @@ msgstr "Lamentamos, mas ocorreu um erro. Tente iniciar sessão novamente."
 msgid "Empty note"
 msgstr "Nota vazia"
 
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
-msgid "No notes found"
-msgstr "Não foram encontradas notas"
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "A ver o tópico para {app_name}"
 
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Introduza o texto da nota aqui"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Anexe capturas de ecrã e ficheiros de registo:"
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Anexar outro ficheiro"
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Artigo"
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Voltar a todos os tópicos para {app_name}"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
@@ -317,62 +233,146 @@ msgstr "Versões desta aplicação"
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Ver mais antigas"
+#: /media/js/settings_app.js:24
+msgid "Message"
+msgstr "Mensagem"
 
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "A ver o tópico para {app_name}"
+#: /media/js/settings_app.js:25
+msgid "App approved"
+msgstr "Aplicação aprovada"
 
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Voltar a todos os tópicos para {app_name}"
+#: /media/js/settings_app.js:26
+msgid "App rejected"
+msgstr "Aplicação rejeitada"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Oh não!"
+#: /media/js/settings_app.js:27
+msgid "App banned"
+msgstr "Aplicação banida"
 
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "A página que procurava não foi encontrada."
+#: /media/js/settings_app.js:28
+msgid "Reviewer comment"
+msgstr "Comentário do revisor"
 
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} (Versão {version_number})"
+#: /media/js/settings_app.js:29
+msgid "Escalated to senior reviewer"
+msgstr "Escalado para um revisor sénior"
 
-#: /templates/_macros/thread_header.html:19
-msgid "Deleted App"
-msgstr "Aplicação eliminada"
+#: /media/js/settings_app.js:30
+msgid "Private reviewer comment"
+msgstr "Comentário privado do revisor"
 
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "(Obsoleto)"
+#: /media/js/settings_app.js:31
+msgid "App resubmission"
+msgstr "Reenvio da aplicação"
 
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "Recente"
+#: /media/js/settings_app.js:32
+msgid "Approved but waiting to be made public"
+msgstr "Aprovado mas à espera de ser tornado público"
 
-#: /templates/_macros/thread_header.html:43
-msgid "View App"
-msgstr "Ver aplicação"
+#: /media/js/settings_app.js:33
+msgid "Escalated due to high abuse reports"
+msgstr "Escalado devido a muitos relatórios de abuso"
 
-#: /templates/_macros/thread_header.html:47
-msgid "Unsubscribe"
-msgstr "Anular subscrição"
+#: /media/js/settings_app.js:34
+msgid "Escalated due to high refund requests"
+msgstr "Escalado devido a muitos pedidos de devolução"
 
-#: /templates/_macros/thread_header.html:50
-msgid "Review"
-msgstr "Análise"
+#: /media/js/settings_app.js:35
+msgid "Escalation cleared"
+msgstr "Encaminhado para análise superior removido"
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Erro ao carregar mais"
+#: /media/js/settings_app.js:36
+msgid "Re-review cleared"
+msgstr "Reanálise removida"
 
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Tentar novamente"
+#: /media/js/settings_app.js:37
+msgid "App submission note"
+msgstr "Nota de submissão da aplicação"
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Ocorreu um erro."
+#: /media/js/settings_app.js:38
+msgid "Developer comment"
+msgstr "Comentário do programador"
+
+#: /media/js/settings_app.js:39
+msgid "Device(s) changed by reviewer"
+msgstr "Dispositivo(s) modificados pelo revisor"
+
+#: /media/js/settings_app.js:40
+msgid "Feature(s) changed by reviewer"
+msgstr "Funcionalidade(s) modificadas pelo revisor"
+
+#: /media/js/settings_app.js:41
+msgid "Review manifest change"
+msgstr "Rever alteração do manifesto"
+
+#: /media/js/settings_app.js:42
+msgid "Review manifest url change"
+msgstr "Rever alteração de url no manifesto"
+
+#: /media/js/settings_app.js:43
+msgid "Review manifest premium type upgrade"
+msgstr "Rever atualização do tipo de premium no manifesto"
+
+#: /media/js/settings_app.js:44
+msgid "Re-review devices added"
+msgstr "Dispositivos de re-análise adicionados"
+
+#: /media/js/settings_app.js:45
+msgid "Re-review features changed"
+msgstr "Funcionalidades de re-análise alteradas"
+
+#: /media/js/settings_app.js:46
+msgid "Escalation due to VIP App"
+msgstr "Escalado devido a aplicação VIP"
+
+#: /media/js/settings_app.js:47
+msgid "Escalation due to prerelease App"
+msgstr "Escalado devido a pré-lançamento da aplicação"
+
+#: /media/js/settings_app.js:48
+msgid "Priority review requested"
+msgstr "Solicitada análise prioritária"
+
+#: /media/js/settings_app.js:49
+msgid "Tarako review passed"
+msgstr "A análise tarako passou"
+
+#: /media/js/settings_app.js:50
+msgid "Tarako review failed"
+msgstr "A análise tarako falhou"
+
+#: /media/js/settings_app.js:51
+msgid "Version notes for reviewer"
+msgstr "Notas da versão para o revisor"
+
+#: /media/js/settings_app.js:52
+msgid "Public reviewer comment"
+msgstr "Comentário público do revisor"
+
+#: /media/js/settings_app.js:53
+msgid "Re-review content rating adult"
+msgstr "Re-análise de conteúdo classificada como para adulto"
+
+#: /media/js/views/comm.js:90
+msgid "Message sent."
+msgstr "Mensagem enviada."
+
+#: /media/js/views/comm.js:95
+msgid "Message sending failed."
+msgstr "O envio da mensagem falhou."
+
+#: /media/js/views/comm.js:145
+msgid "Cancel reply"
+msgstr "Cancelar resposta"
+
+#: /media/js/views/comm.js:182
+msgid "There are no more older notes."
+msgstr "Não existem notas mais antigas."
+
+#: /media/js/views/comm.js:205
+msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+msgstr "Ao anular a subscrição neste tópico, não irá mais receber notificações por email deste tópico. Tem a certeza?"
+
+#: /media/js/views/comm.js:210
+msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
+msgstr "Anulação de subscrição concluída com sucesso. Não irá receber mais notificações por email para este tópico."
