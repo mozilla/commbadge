@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-01T16:01:59.301Z\n"
+"POT-Creation-Date: 2015-04-08T16:08:05.743Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Αλέξανδρος Μιόγλου <alexandros@mioglou.me>\n"
 "Language-Team: none\n"
@@ -24,6 +24,30 @@ msgstr "Όχι"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Ναι"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Ταμπλό επικοινωνίας"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Αποσύνδεση"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Σύνδεση"
+
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "Σύνδεση"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Πρέπει να συνδεθείτε για να συνεχίσετε."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Σύνδεση / Εγγραφή"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -69,73 +93,9 @@ msgstr "Όροι χρήσης"
 msgid "Report Trademark Abuse"
 msgstr "Αναφορά κατάχρησης επωνυμίας"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Ταμπλό επικοινωνίας"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Αποσύνδεση"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Σύνδεση"
-
-#: /templates/login.html:2 /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "Σύνδεση"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Πρέπει να συνδεθείτε για να συνεχίσετε."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Σύνδεση / Εγγραφή"
-
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr ""
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr ""
-
 #: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr ""
-
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Εισαγωγή κειμένου σημείωσης εδώ"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr ""
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr ""
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Δημοσίευση"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Ωχ όχι!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Η σελίδα που ζητήσατε δε βρέθηκε"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Προβολή παλαιότερων"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Παρουσιάστηκε σφάλμα"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -175,25 +135,9 @@ msgstr ""
 msgid "Review"
 msgstr ""
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Σφάλμα κατά τη φόρτωση περισσότερων"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Προσπαθήστε ξανά"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr ""
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr ""
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr ""
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Προβολή παλαιότερων"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -211,9 +155,33 @@ msgstr ""
 msgid "Sorry, an error has occurred. Try logging in again."
 msgstr ""
 
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
 msgstr ""
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr ""
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr ""
+
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Εισαγωγή κειμένου σημείωσης εδώ"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr ""
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr ""
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Δημοσίευση"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -221,6 +189,10 @@ msgstr ""
 
 #: /templates/comm/show_thread.html:10
 msgid "Back to all threads for {app_name}"
+msgstr ""
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
 msgstr ""
 
 #: /templates/comm/threads_nav.html:2
@@ -231,6 +203,34 @@ msgstr ""
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr ""
+
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "Ωχ όχι!"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Παρουσιάστηκε σφάλμα"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr ""
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr ""
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Η σελίδα που ζητήσατε δε βρέθηκε"
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Σφάλμα κατά τη φόρτωση περισσότερων"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Προσπαθήστε ξανά"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

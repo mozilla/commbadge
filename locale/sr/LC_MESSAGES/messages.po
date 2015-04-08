@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-01T16:01:59.301Z\n"
+"POT-Creation-Date: 2015-04-08T16:08:05.743Z\n"
 "PO-Revision-Date: 2015-03-11 06:03+0000\n"
 "Last-Translator: Vanja <tumbas93@gmail.com>\n"
 "Language-Team: none\n"
@@ -25,6 +25,30 @@ msgstr "Не"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Да"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Комуникациона контролна табла"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Одјави се"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Пријави се"
+
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "Пријави се"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Морате се пријавити како бисте наставили даље."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Пријави се / Региструј се"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -70,73 +94,9 @@ msgstr "Услови коришћења"
 msgid "Report Trademark Abuse"
 msgstr "Пријавите злоупотребу робне марке"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Комуникациона контролна табла"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Одјави се"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Пријави се"
-
-#: /templates/login.html:2 /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "Пријави се"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Морате се пријавити како бисте наставили даље."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Пријави се / Региструј се"
-
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Прилог"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Опис датотеке"
-
 #: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "Нема пронађених белешки"
-
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Овде унесите текст"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Закачите снимак екрана и дневнике:"
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Закачите још једну датотеку"
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Порука"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Ох не!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Страница коју сте тражили није пронађена."
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Погледајте старије"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Дошло је до грешке."
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -177,25 +137,9 @@ msgstr "Укини претплату"
 msgid "Review"
 msgstr "Оцени"
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Грешка при учитавању"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Покушај поново"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Иконица апликације"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Преглед свих тема за {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Врати се на страницу за уређивање"
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Погледајте старије"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -213,9 +157,33 @@ msgstr "Тренутно не учествујете ни у једној ком
 msgid "Sorry, an error has occurred. Try logging in again."
 msgstr "Извињавамо се, дошло је до грешке. Покушајте поново приступити."
 
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Празна белешка"
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Иконица апликације"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Преглед свих тема за {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Врати се на страницу за уређивање"
+
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Овде унесите текст"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Закачите снимак екрана и дневнике:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Закачите још једну датотеку"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Порука"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -225,6 +193,10 @@ msgstr "Гледате тему за {app_name}"
 msgid "Back to all threads for {app_name}"
 msgstr "Повратак на све теме за {app_name}"
 
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Празна белешка"
+
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
 msgstr "Верзија ове апликације"
@@ -233,6 +205,34 @@ msgstr "Верзија ове апликације"
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
+
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "Ох не!"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Дошло је до грешке."
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Прилог"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Опис датотеке"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Страница коју сте тражили није пронађена."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Грешка при учитавању"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Покушај поново"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

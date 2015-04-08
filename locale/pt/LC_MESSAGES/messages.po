@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CommBadge\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-01T16:01:59.301Z\n"
+"POT-Creation-Date: 2015-04-08T16:08:05.743Z\n"
 "PO-Revision-Date: 2015-03-08 04:51+0000\n"
 "Last-Translator: Cláudio <cesperanc@gmail.com>\n"
 "Language-Team: pt_PT\n"
@@ -25,6 +25,30 @@ msgstr "Não"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Sim"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Painel de comunicação"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Terminar sessão"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Iniciar sessão"
+
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "Iniciar sessão"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Deve iniciar sessão para continuar."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Iniciar sessão / Criar conta"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -70,73 +94,9 @@ msgstr "Termos de utilização"
 msgid "Report Trademark Abuse"
 msgstr "Denunciar abuso de marca registada"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Painel de comunicação"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Terminar sessão"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Iniciar sessão"
-
-#: /templates/login.html:2 /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "Iniciar sessão"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Deve iniciar sessão para continuar."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Iniciar sessão / Criar conta"
-
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Anexo"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Descrição do ficheiro"
-
 #: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "Não foram encontradas notas"
-
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Introduza o texto da nota aqui"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Anexe capturas de ecrã e ficheiros de registo:"
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Anexar outro ficheiro"
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Artigo"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Oh não!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "A página que procurava não foi encontrada."
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Ver mais antigas"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Ocorreu um erro."
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -176,25 +136,9 @@ msgstr "Anular subscrição"
 msgid "Review"
 msgstr "Análise"
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Erro ao carregar mais"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Tentar novamente"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Ícone da aplicação"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Ver todos os tópicos para {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Voltar à página de edição da aplicação"
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Ver mais antigas"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -212,9 +156,33 @@ msgstr "Não está envolvido em qualquer tópico de comunicação."
 msgid "Sorry, an error has occurred. Try logging in again."
 msgstr "Lamentamos, mas ocorreu um erro. Tente iniciar sessão novamente."
 
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Nota vazia"
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Ícone da aplicação"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Ver todos os tópicos para {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Voltar à página de edição da aplicação"
+
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Introduza o texto da nota aqui"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Anexe capturas de ecrã e ficheiros de registo:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Anexar outro ficheiro"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Artigo"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -224,6 +192,10 @@ msgstr "A ver o tópico para {app_name}"
 msgid "Back to all threads for {app_name}"
 msgstr "Voltar a todos os tópicos para {app_name}"
 
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Nota vazia"
+
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
 msgstr "Versões desta aplicação"
@@ -232,6 +204,34 @@ msgstr "Versões desta aplicação"
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
+
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "Oh não!"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Ocorreu um erro."
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Anexo"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Descrição do ficheiro"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "A página que procurava não foi encontrada."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Erro ao carregar mais"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Tentar novamente"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

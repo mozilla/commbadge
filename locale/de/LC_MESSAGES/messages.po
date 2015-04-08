@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AMO Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-01T16:01:59.301Z\n"
+"POT-Creation-Date: 2015-04-08T16:08:05.743Z\n"
 "PO-Revision-Date: 2015-03-04 18:19+0000\n"
 "Last-Translator: Michael <michael.koehler1@gmx.de>\n"
 "Language-Team: German (de) <coce@nurfuerspam.de>\n"
@@ -25,6 +25,30 @@ msgstr "Nein"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Ja"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Kommunikationsübersicht"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Abmelden"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Anmelden"
+
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "Anmelden"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Sie müssen sich anmelden, um fortzufahren."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Anmelden / Registrieren"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -70,73 +94,9 @@ msgstr "Nutzungsbedingungen"
 msgid "Report Trademark Abuse"
 msgstr "Markenrechtsverletzung melden"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Kommunikationsübersicht"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Abmelden"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Anmelden"
-
-#: /templates/login.html:2 /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "Anmelden"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Sie müssen sich anmelden, um fortzufahren."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Anmelden / Registrieren"
-
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Anhang"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Dateibeschreibung"
-
 #: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "Keine Notizen gefunden"
-
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Text der Notiz hier eingeben"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Screenshots und Log-Dateien anhängen:"
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Eine weitere Datei anhängen"
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Absenden"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Oh nein!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Die Seite, die Sie suchen, wurde nicht gefunden."
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Ältere ansehen"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Ein Fehler ist aufgetreten."
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -176,25 +136,9 @@ msgstr "Abonnement entfernen"
 msgid "Review"
 msgstr "Überprüfen"
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Beim Laden weiterer Informationen ist ein Fehler aufgetreten"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Versuchen Sie es erneut"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "App-Symbol"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Alle Themen für {app_name} werden angezeigt"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Zurück zur App-bearbeiten-Seite gehen"
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Ältere ansehen"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -212,9 +156,33 @@ msgstr "Sie sind derzeit an keinen Kommunikationsthemen beteiligt."
 msgid "Sorry, an error has occurred. Try logging in again."
 msgstr "Es tut uns leid, ein Fehler ist aufgetreten. Versuchen Sie, sich erneut anzumelden."
 
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Leere Notiz"
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "App-Symbol"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Alle Themen für {app_name} werden angezeigt"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Zurück zur App-bearbeiten-Seite gehen"
+
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Text der Notiz hier eingeben"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Screenshots und Log-Dateien anhängen:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Eine weitere Datei anhängen"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Absenden"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -224,6 +192,10 @@ msgstr "Thema für {app_name} wird angezeigt"
 msgid "Back to all threads for {app_name}"
 msgstr "Zurück zu allen Themen für {app_name}"
 
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Leere Notiz"
+
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
 msgstr "Versionen dieser App"
@@ -232,6 +204,34 @@ msgstr "Versionen dieser App"
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr "v {version_number}"
+
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "Oh nein!"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Ein Fehler ist aufgetreten."
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Anhang"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Dateibeschreibung"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Die Seite, die Sie suchen, wurde nicht gefunden."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Beim Laden weiterer Informationen ist ein Fehler aufgetreten"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Versuchen Sie es erneut"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

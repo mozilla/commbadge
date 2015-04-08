@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-01T16:01:59.301Z\n"
+"POT-Creation-Date: 2015-04-08T16:08:05.743Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,6 +24,31 @@ msgstr "Ƞǿ"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Ẏḗş"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Ƈǿḿḿŭƞīƈȧŧīǿƞ Ḓȧşħƀǿȧřḓ"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Şīɠƞ Ǿŭŧ"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Şīɠƞ Īƞ"
+
+#: /templates/login.html:2
+#: /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "Şīɠƞ īƞ"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Ẏǿŭ ḿŭşŧ şīɠƞ īƞ ŧǿ ƥřǿƈḗḗḓ."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Şīɠƞ īƞ / Şīɠƞ ŭƥ"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -69,77 +94,11 @@ msgstr "Ŧḗřḿş ǿƒ Ŭşḗ"
 msgid "Report Trademark Abuse"
 msgstr "Řḗƥǿřŧ Ŧřȧḓḗḿȧřķ Ȧƀŭşḗ"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Ƈǿḿḿŭƞīƈȧŧīǿƞ Ḓȧşħƀǿȧřḓ"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Şīɠƞ Ǿŭŧ"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Şīɠƞ Īƞ"
-
-#: /templates/login.html:2
-#: /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "Şīɠƞ īƞ"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Ẏǿŭ ḿŭşŧ şīɠƞ īƞ ŧǿ ƥřǿƈḗḗḓ."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Şīɠƞ īƞ / Şīɠƞ ŭƥ"
-
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Ȧŧŧȧƈħḿḗƞŧ"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Ƒīŀḗ Ḓḗşƈřīƥŧīǿƞ"
-
 #: /templates/_macros/create_thread.html:10
 #: /templates/_macros/thread.html:15
 #: /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "Ƞǿ ƞǿŧḗş ƒǿŭƞḓ"
-
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Ḗƞŧḗř ƞǿŧḗ ŧḗẋŧ ħḗřḗ"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Ȧŧŧȧƈħ şƈřḗḗƞşħǿŧş ȧƞḓ ŀǿɠ ƒīŀḗş:"
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Ȧŧŧȧƈħ ȧƞǿŧħḗř ƒīŀḗ"
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Ƥǿşŧ"
-
-#: /templates/errors/404.html:2
-#: /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Ǿħ ƞǿ!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Ŧħḗ ƥȧɠḗ ẏǿŭ ẇḗřḗ ŀǿǿķīƞɠ ƒǿř ẇȧş ƞǿŧ ƒǿŭƞḓ."
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Ṽīḗẇ ǿŀḓḗř"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Ȧƞ ḗřřǿř ǿƈƈŭřřḗḓ."
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -182,25 +141,9 @@ msgstr "Ŭƞşŭƀşƈřīƀḗ"
 msgid "Review"
 msgstr "Řḗṽīḗẇ"
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Ḗřřǿř ŀǿȧḓīƞɠ ḿǿřḗ"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Ŧřẏ Ȧɠȧīƞ"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Ȧƥƥ īƈǿƞ"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Ṽīḗẇīƞɠ Ȧŀŀ Ŧħřḗȧḓş ƒǿř {ȧƥƥ_ƞȧḿḗ}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Ɠǿ ƀȧƈķ ŧǿ ȧƥƥ ḗḓīŧ ƥȧɠḗ"
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Ṽīḗẇ ǿŀḓḗř"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -218,9 +161,33 @@ msgstr "Ẏǿŭ ƈŭřřḗƞŧŀẏ ȧřḗ ƞǿŧ īƞṽǿŀṽḗḓ īƞ ȧ
 msgid "Sorry, an error has occurred. Try logging in again."
 msgstr "Şǿřřẏ, ȧƞ ḗřřǿř ħȧş ǿƈƈŭřřḗḓ. Ŧřẏ ŀǿɠɠīƞɠ īƞ ȧɠȧīƞ."
 
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Ḗḿƥŧẏ ƞǿŧḗ"
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Ȧƥƥ īƈǿƞ"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Ṽīḗẇīƞɠ Ȧŀŀ Ŧħřḗȧḓş ƒǿř {ȧƥƥ_ƞȧḿḗ}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Ɠǿ ƀȧƈķ ŧǿ ȧƥƥ ḗḓīŧ ƥȧɠḗ"
+
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Ḗƞŧḗř ƞǿŧḗ ŧḗẋŧ ħḗřḗ"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Ȧŧŧȧƈħ şƈřḗḗƞşħǿŧş ȧƞḓ ŀǿɠ ƒīŀḗş:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Ȧŧŧȧƈħ ȧƞǿŧħḗř ƒīŀḗ"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Ƥǿşŧ"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -230,6 +197,10 @@ msgstr "Ṽīḗẇīƞɠ Ŧħřḗȧḓ ƒǿř {ȧƥƥ_ƞȧḿḗ}"
 msgid "Back to all threads for {app_name}"
 msgstr "Ɓȧƈķ ŧǿ ȧŀŀ ŧħřḗȧḓş ƒǿř {ȧƥƥ_ƞȧḿḗ}"
 
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Ḗḿƥŧẏ ƞǿŧḗ"
+
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
 msgstr "Ŧħīş Ȧƥƥ'ş Ṽḗřşīǿƞş"
@@ -238,6 +209,35 @@ msgstr "Ŧħīş Ȧƥƥ'ş Ṽḗřşīǿƞş"
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr "ṽ.{ṽḗřşīǿƞ_ƞŭḿƀḗř}"
+
+#: /templates/errors/fragment.html:1
+#: /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "Ǿħ ƞǿ!"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Ȧƞ ḗřřǿř ǿƈƈŭřřḗḓ."
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Ȧŧŧȧƈħḿḗƞŧ"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Ƒīŀḗ Ḓḗşƈřīƥŧīǿƞ"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Ŧħḗ ƥȧɠḗ ẏǿŭ ẇḗřḗ ŀǿǿķīƞɠ ƒǿř ẇȧş ƞǿŧ ƒǿŭƞḓ."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Ḗřřǿř ŀǿȧḓīƞɠ ḿǿřḗ"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Ŧřẏ Ȧɠȧīƞ"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

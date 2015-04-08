@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-01T16:01:59.301Z\n"
+"POT-Creation-Date: 2015-04-08T16:08:05.743Z\n"
 "PO-Revision-Date: 2015-03-05 13:45+0000\n"
 "Last-Translator: Branislav <rozbora@mozilla.sk>\n"
 "Language-Team: Mozilla.sk <l10n@mozilla.sk>\n"
@@ -25,6 +25,30 @@ msgstr "Nie"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Áno"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Komunikačná nástenka"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Odhlásiť sa"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Prihlásiť sa"
+
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "Prihlásiť"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Ak chcete pokračovať, musíte sa prihlásiť."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Prihlásiť sa / zaregistrovať"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -70,73 +94,9 @@ msgstr "Podmienky použitia"
 msgid "Report Trademark Abuse"
 msgstr "Nahlásiť zneužitie ochrannej známky"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Komunikačná nástenka"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Odhlásiť sa"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Prihlásiť sa"
-
-#: /templates/login.html:2 /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "Prihlásiť"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Ak chcete pokračovať, musíte sa prihlásiť."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Prihlásiť sa / zaregistrovať"
-
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Príloha"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Popis súboru"
-
 #: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "Neboli nájdené žiadne poznámky"
-
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Zadajte text poznámky"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Pripojte snímky obrazovky a súbory .log:"
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Pripojiť ďalší súbor"
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Pridať"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Ale nie!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Hľadaná stránka nebola nájdená."
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Zobraziť staršie"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Vyskytla sa chyba."
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -177,25 +137,9 @@ msgstr "Odhlásiť"
 msgid "Review"
 msgstr "Kontrola"
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Chyba pri načítavaní ďalších položiek"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Skúsiť znova"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Ikona aplikácie"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Zobrazujú sa všetky vlákna pre {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Späť na stránku úpravy aplikácie"
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Zobraziť staršie"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -213,9 +157,33 @@ msgstr "Aktuálne nie ste zapojený(-á) do žiadnych komunikačných vlákien."
 msgid "Sorry, an error has occurred. Try logging in again."
 msgstr "Ospravedlňujeme sa, došlo k chybe. Skúste sa opäť prihlásiť."
 
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Prázdna poznámka"
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Ikona aplikácie"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Zobrazujú sa všetky vlákna pre {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Späť na stránku úpravy aplikácie"
+
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Zadajte text poznámky"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Pripojte snímky obrazovky a súbory .log:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Pripojiť ďalší súbor"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Pridať"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -225,6 +193,10 @@ msgstr "Zobrazuje sa vlákno pre {app_name}"
 msgid "Back to all threads for {app_name}"
 msgstr "Naspäť na všetky vlákna pre {app_name}"
 
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Prázdna poznámka"
+
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
 msgstr "Tieto verzie aplikácie"
@@ -233,6 +205,34 @@ msgstr "Tieto verzie aplikácie"
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
+
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "Ale nie!"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Vyskytla sa chyba."
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Príloha"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Popis súboru"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Hľadaná stránka nebola nájdená."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Chyba pri načítavaní ďalších položiek"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Skúsiť znova"
 
 #: /media/js/settings_app.js:24
 msgid "Message"
