@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-08T16:08:05.743Z\n"
-"PO-Revision-Date: 2014-09-30 19:12+0000\n"
+"PO-Revision-Date: 2015-04-14 22:31+0000\n"
 "Last-Translator: Ibai <ibai@oihanguren.com>\n"
 "Language-Team: 89578-OEM-7332157-00211\n"
 "Language: eu\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1412104359.0\n"
+"X-POOTLE-MTIME: 1429050719.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -105,7 +105,7 @@ msgstr "{app_name} ({version_number} bertsioa)"
 
 #: /templates/_macros/thread_header.html:19
 msgid "Deleted App"
-msgstr ""
+msgstr "Aplikazioa ezabatuta"
 
 #: /templates/_macros/thread_header.html:21
 msgid "(Obsolete)"
@@ -147,15 +147,15 @@ msgstr "Nire hariak"
 
 #: /templates/comm/main.html:4
 msgid "Go to Developer Hub"
-msgstr ""
+msgstr "Joan garatzaileen zentrora"
 
 #: /templates/comm/main.html:14
 msgid "You currently are not involved in any communication threads."
-msgstr ""
+msgstr "Une honetan ez zaude komunikazio-hari batean ere."
 
 #: /templates/comm/main.html:16
 msgid "Sorry, an error has occurred. Try logging in again."
-msgstr ""
+msgstr "Sentitzen dugu, errore bat gertatu da. Saiatu saioa berriro hasten."
 
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
@@ -252,7 +252,7 @@ msgstr "Aplikazioa debekatuta"
 
 #: /media/js/settings_app.js:28
 msgid "Reviewer comment"
-msgstr ""
+msgstr "Berrikuslearen iruzkina"
 
 #: /media/js/settings_app.js:29
 msgid "Escalated to senior reviewer"
@@ -260,7 +260,7 @@ msgstr ""
 
 #: /media/js/settings_app.js:30
 msgid "Private reviewer comment"
-msgstr ""
+msgstr "Berrikuslearen iruzkin pribatua"
 
 #: /media/js/settings_app.js:31
 msgid "App resubmission"
@@ -296,23 +296,23 @@ msgstr "Garatzailearen iruzkina"
 
 #: /media/js/settings_app.js:39
 msgid "Device(s) changed by reviewer"
-msgstr ""
+msgstr "Berrikusleak gailua(k) aldatu d(it)u"
 
 #: /media/js/settings_app.js:40
 msgid "Feature(s) changed by reviewer"
-msgstr ""
+msgstr "Berrikusleak eginbidea(k) aldatu d(it)u"
 
 #: /media/js/settings_app.js:41
 msgid "Review manifest change"
-msgstr ""
+msgstr "Berrikusi manifestuaren aldaketa"
 
 #: /media/js/settings_app.js:42
 msgid "Review manifest url change"
-msgstr ""
+msgstr "Berrikusi manifestuaren URLaren aldaketa"
 
 #: /media/js/settings_app.js:43
 msgid "Review manifest premium type upgrade"
-msgstr ""
+msgstr "Berrikusi manifestua premium motara eguneratzea"
 
 #: /media/js/settings_app.js:44
 msgid "Re-review devices added"
@@ -344,11 +344,11 @@ msgstr ""
 
 #: /media/js/settings_app.js:51
 msgid "Version notes for reviewer"
-msgstr ""
+msgstr "Berrikuslearentzako bertsio-oharrak"
 
 #: /media/js/settings_app.js:52
 msgid "Public reviewer comment"
-msgstr ""
+msgstr "Berrikuslearen iruzkin publikoa"
 
 #: /media/js/settings_app.js:53
 msgid "Re-review content rating adult"
