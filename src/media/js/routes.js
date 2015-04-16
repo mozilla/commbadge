@@ -6,7 +6,6 @@ define('routes',
     router.addRoutes([
         {'pattern': root + '?$', 'view_name': 'comm'},
         {'pattern': root + 'app/([^/<>"\']+)$', 'view_name': 'app_dashboard'},
-        {'pattern': '^/fxa-authorize$', 'view_name': 'core/fxa_authorize'},
         {'pattern': root + 'login$', 'view_name': 'login'},
         {'pattern': root + 'thread/(\\d+)$', 'view_name': 'show_thread'}
     ]);
