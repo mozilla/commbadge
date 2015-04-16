@@ -65,7 +65,7 @@ require(
 
     // Perform initial navigation.
     if (!user.logged_in() &&
-        window.location.pathname != urls.reverse('fxa_authorize')) {
+        window.location.pathname != urls.reverse('core/fxa_authorize')) {
         z.page.trigger('navigate', [urls.reverse('login')]);
     } else if (!z.spaceheater) {
         z.page.trigger('navigate', [window.location.pathname +
