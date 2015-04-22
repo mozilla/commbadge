@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AMO Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-08T16:08:05.743Z\n"
+"POT-Creation-Date: 2015-04-22T21:25:39.942Z\n"
 "PO-Revision-Date: 2015-03-04 18:19+0000\n"
 "Last-Translator: Michael <michael.koehler1@gmx.de>\n"
 "Language-Team: German (de) <coce@nurfuerspam.de>\n"
@@ -13,225 +13,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1425493195.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Schließen"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Nein"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Ja"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Kommunikationsübersicht"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Abmelden"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Anmelden"
-
-#: /templates/login.html:2 /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "Anmelden"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Sie müssen sich anmelden, um fortzufahren."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Anmelden / Registrieren"
-
-#: /templates/footer.html:2
-msgid "Develop Apps"
-msgstr "Apps entwickeln"
-
-#: /templates/footer.html:5
-msgid "Developer Hub"
-msgstr "Entwicklerzentrum"
-
-#: /templates/footer.html:6
-msgid "Support"
-msgstr "Hilfe"
-
-#: /templates/footer.html:10
-msgid "My Submissions"
-msgstr "Meine Einreichungen"
-
-#: /templates/footer.html:13
-msgid "Reviewer Tools"
-msgstr "Werkzeuge für Überprüfer"
-
-#: /templates/footer.html:16
-msgid "Lookup Tool"
-msgstr "Nachschlagewerkzeug"
-
-#: /templates/footer.html:24
-msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
-msgstr ""
-"Sofern nicht anders <a href=\"{legal_url}\" target=\"_blank\">vermerkt</a>, steht der Inhalt dieser Seite unter der <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike "
-"License v3.0</a> oder einer späteren Version."
-
-#: /templates/footer.html:29
-msgid "Privacy Policy"
-msgstr "Datenschutzerklärung"
-
-#: /templates/footer.html:30
-msgid "Terms of Use"
-msgstr "Nutzungsbedingungen"
-
-#: /templates/footer.html:32
-msgid "Report Trademark Abuse"
-msgstr "Markenrechtsverletzung melden"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Keine Notizen gefunden"
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} (Version {version_number})"
-
-#: /templates/_macros/thread_header.html:19
-msgid "Deleted App"
-msgstr "Gelöschte App"
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "(Veraltet)"
-
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:60
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} Notiz"
-msgstr[1] "{n} Notizen"
-
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
-msgid "Reply"
-msgstr "Antworten"
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "Neu"
-
-#: /templates/_macros/thread_header.html:43
-msgid "View App"
-msgstr "App ansehen"
-
-#: /templates/_macros/thread_header.html:47
-msgid "Unsubscribe"
-msgstr "Abonnement entfernen"
-
-#: /templates/_macros/thread_header.html:50
-msgid "Review"
-msgstr "Überprüfen"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Ältere ansehen"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Meine Themen"
-
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr "Zum Entwicklerzentrum gehen"
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr "Sie sind derzeit an keinen Kommunikationsthemen beteiligt."
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr "Es tut uns leid, ein Fehler ist aufgetreten. Versuchen Sie, sich erneut anzumelden."
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "App-Symbol"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Alle Themen für {app_name} werden angezeigt"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Zurück zur App-bearbeiten-Seite gehen"
-
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Text der Notiz hier eingeben"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Screenshots und Log-Dateien anhängen:"
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Eine weitere Datei anhängen"
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Absenden"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Thema für {app_name} wird angezeigt"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Zurück zu allen Themen für {app_name}"
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Leere Notiz"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "Versionen dieser App"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v {version_number}"
-
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "Oh nein!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Ein Fehler ist aufgetreten."
-
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Anhang"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Dateibeschreibung"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Die Seite, die Sie suchen, wurde nicht gefunden."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Beim Laden weiterer Informationen ist ein Fehler aufgetreten"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Versuchen Sie es erneut"
 
 #: /media/js/settings_app.js:24
 msgid "Message"
@@ -353,6 +134,16 @@ msgstr "Öffentlicher Überprüferkommentar"
 msgid "Re-review content rating adult"
 msgstr "Inhaltseinstufung für Erwachsene erneut überprüfen"
 
+#: /media/js/views/comm.js:60 /templates/_macros/thread_header.html:27
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} Notiz"
+msgstr[1] "{n} Notizen"
+
+#: /media/js/views/comm.js:83 /media/js/views/comm.js:155 /templates/_macros/thread_header.html:33
+msgid "Reply"
+msgstr "Antworten"
+
 #: /media/js/views/comm.js:90
 msgid "Message sent."
 msgstr "Nachricht gesendet."
@@ -376,3 +167,212 @@ msgstr "Wenn Sie dieses Thema nicht mehr beobachten, erhalten Sie für dieses Th
 #: /media/js/views/comm.js:210
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
 msgstr "Thema wird nicht mehr beobachtet. Sie erhalten für dieses Thema keine E-Mail-Benachrichtigungen mehr."
+
+#: /media/js/views/login.js:12 /templates/login.html:2
+msgid "Sign in"
+msgstr "Anmelden"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Schließen"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Nein"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Ja"
+
+#: /templates/footer.html:2
+msgid "Develop Apps"
+msgstr "Apps entwickeln"
+
+#: /templates/footer.html:5
+msgid "Developer Hub"
+msgstr "Entwicklerzentrum"
+
+#: /templates/footer.html:6
+msgid "Support"
+msgstr "Hilfe"
+
+#: /templates/footer.html:10
+msgid "My Submissions"
+msgstr "Meine Einreichungen"
+
+#: /templates/footer.html:13
+msgid "Reviewer Tools"
+msgstr "Werkzeuge für Überprüfer"
+
+#: /templates/footer.html:16
+msgid "Lookup Tool"
+msgstr "Nachschlagewerkzeug"
+
+#: /templates/footer.html:24
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
+msgstr ""
+"Sofern nicht anders <a href=\"{legal_url}\" target=\"_blank\">vermerkt</a>, steht der Inhalt dieser Seite unter der <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike "
+"License v3.0</a> oder einer späteren Version."
+
+#: /templates/footer.html:29
+msgid "Privacy Policy"
+msgstr "Datenschutzerklärung"
+
+#: /templates/footer.html:30
+msgid "Terms of Use"
+msgstr "Nutzungsbedingungen"
+
+#: /templates/footer.html:32
+msgid "Report Trademark Abuse"
+msgstr "Markenrechtsverletzung melden"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Kommunikationsübersicht"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Abmelden"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Anmelden"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Sie müssen sich anmelden, um fortzufahren."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Anmelden / Registrieren"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Anhang"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Dateibeschreibung"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Keine Notizen gefunden"
+
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Text der Notiz hier eingeben"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Screenshots und Log-Dateien anhängen:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Eine weitere Datei anhängen"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Absenden"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Ältere ansehen"
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} (Version {version_number})"
+
+#: /templates/_macros/thread_header.html:19
+msgid "Deleted App"
+msgstr "Gelöschte App"
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "(Veraltet)"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "Neu"
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr "App ansehen"
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "Abonnement entfernen"
+
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "Überprüfen"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "App-Symbol"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Alle Themen für {app_name} werden angezeigt"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Zurück zur App-bearbeiten-Seite gehen"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Meine Themen"
+
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr "Zum Entwicklerzentrum gehen"
+
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr "Sie sind derzeit an keinen Kommunikationsthemen beteiligt."
+
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr "Es tut uns leid, ein Fehler ist aufgetreten. Versuchen Sie, sich erneut anzumelden."
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Leere Notiz"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Thema für {app_name} wird angezeigt"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Zurück zu allen Themen für {app_name}"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "Versionen dieser App"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v {version_number}"
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Oh nein!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Die Seite, die Sie suchen, wurde nicht gefunden."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Ein Fehler ist aufgetreten."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Beim Laden weiterer Informationen ist ein Fehler aufgetreten"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Versuchen Sie es erneut"

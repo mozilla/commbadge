@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-08T16:08:05.743Z\n"
+"POT-Creation-Date: 2015-04-22T21:25:39.942Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,232 +12,6 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Fireplace L10n Tools 1.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Ƈŀǿşḗ"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Ƞǿ"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Ẏḗş"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Ƈǿḿḿŭƞīƈȧŧīǿƞ Ḓȧşħƀǿȧřḓ"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Şīɠƞ Ǿŭŧ"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Şīɠƞ Īƞ"
-
-#: /templates/login.html:2
-#: /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "Şīɠƞ īƞ"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Ẏǿŭ ḿŭşŧ şīɠƞ īƞ ŧǿ ƥřǿƈḗḗḓ."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Şīɠƞ īƞ / Şīɠƞ ŭƥ"
-
-#: /templates/footer.html:2
-msgid "Develop Apps"
-msgstr "Ḓḗṽḗŀǿƥ Ȧƥƥş"
-
-#: /templates/footer.html:5
-msgid "Developer Hub"
-msgstr "Ḓḗṽḗŀǿƥḗř Ħŭƀ"
-
-#: /templates/footer.html:6
-msgid "Support"
-msgstr "Şŭƥƥǿřŧ"
-
-#: /templates/footer.html:10
-msgid "My Submissions"
-msgstr "Ḿẏ Şŭƀḿīşşīǿƞş"
-
-#: /templates/footer.html:13
-msgid "Reviewer Tools"
-msgstr "Řḗṽīḗẇḗř Ŧǿǿŀş"
-
-#: /templates/footer.html:16
-msgid "Lookup Tool"
-msgstr "Ŀǿǿķŭƥ Ŧǿǿŀ"
-
-#: /templates/footer.html:24
-msgid "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> or any later version."
-msgstr ""
-"Ḗẋƈḗƥŧ ẇħḗřḗ ǿŧħḗřẇīşḗ <a href=\"{legal_url}\" target=\"_blank\">ƞǿŧḗḓ</a>, "
-"ƈǿƞŧḗƞŧ ǿƞ ŧħīş şīŧḗ īş ŀīƈḗƞşḗḓ ŭƞḓḗř ŧħḗ <a href=\"{cc_url}\" target=\""
-"_blank\">Ƈřḗȧŧīṽḗ Ƈǿḿḿǿƞş Ȧŧŧřīƀŭŧīǿƞ Şħȧřḗ-Ȧŀīķḗ Ŀīƈḗƞşḗ ṽ3.0</a> ǿř ȧƞẏ "
-"ŀȧŧḗř ṽḗřşīǿƞ."
-
-#: /templates/footer.html:29
-msgid "Privacy Policy"
-msgstr "Ƥřīṽȧƈẏ Ƥǿŀīƈẏ"
-
-#: /templates/footer.html:30
-msgid "Terms of Use"
-msgstr "Ŧḗřḿş ǿƒ Ŭşḗ"
-
-#: /templates/footer.html:32
-msgid "Report Trademark Abuse"
-msgstr "Řḗƥǿřŧ Ŧřȧḓḗḿȧřķ Ȧƀŭşḗ"
-
-#: /templates/_macros/create_thread.html:10
-#: /templates/_macros/thread.html:15
-#: /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Ƞǿ ƞǿŧḗş ƒǿŭƞḓ"
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{ȧƥƥ_ƞȧḿḗ} (Ṽḗřşīǿƞ {ṽḗřşīǿƞ_ƞŭḿƀḗř})"
-
-#: /templates/_macros/thread_header.html:19
-msgid "Deleted App"
-msgstr "Ḓḗŀḗŧḗḓ Ȧƥƥ"
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "(Ǿƀşǿŀḗŧḗ)"
-
-#: /templates/_macros/thread_header.html:27
-#: /media/js/views/comm.js:60
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{ƞ} ƞǿŧḗ"
-msgstr[1] "{ƞ} ƞǿŧḗş"
-
-#: /templates/_macros/thread_header.html:33
-#: /media/js/views/comm.js:83
-#: /media/js/views/comm.js:155
-msgid "Reply"
-msgstr "Řḗƥŀẏ"
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "Řḗƈḗƞŧ"
-
-#: /templates/_macros/thread_header.html:43
-msgid "View App"
-msgstr "Ṽīḗẇ Ȧƥƥ"
-
-#: /templates/_macros/thread_header.html:47
-msgid "Unsubscribe"
-msgstr "Ŭƞşŭƀşƈřīƀḗ"
-
-#: /templates/_macros/thread_header.html:50
-msgid "Review"
-msgstr "Řḗṽīḗẇ"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Ṽīḗẇ ǿŀḓḗř"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Ḿẏ Ŧħřḗȧḓş"
-
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr "Ɠǿ ŧǿ Ḓḗṽḗŀǿƥḗř Ħŭƀ"
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr "Ẏǿŭ ƈŭřřḗƞŧŀẏ ȧřḗ ƞǿŧ īƞṽǿŀṽḗḓ īƞ ȧƞẏ ƈǿḿḿŭƞīƈȧŧīǿƞ ŧħřḗȧḓş."
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr "Şǿřřẏ, ȧƞ ḗřřǿř ħȧş ǿƈƈŭřřḗḓ. Ŧřẏ ŀǿɠɠīƞɠ īƞ ȧɠȧīƞ."
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Ȧƥƥ īƈǿƞ"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Ṽīḗẇīƞɠ Ȧŀŀ Ŧħřḗȧḓş ƒǿř {ȧƥƥ_ƞȧḿḗ}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Ɠǿ ƀȧƈķ ŧǿ ȧƥƥ ḗḓīŧ ƥȧɠḗ"
-
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Ḗƞŧḗř ƞǿŧḗ ŧḗẋŧ ħḗřḗ"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Ȧŧŧȧƈħ şƈřḗḗƞşħǿŧş ȧƞḓ ŀǿɠ ƒīŀḗş:"
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Ȧŧŧȧƈħ ȧƞǿŧħḗř ƒīŀḗ"
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Ƥǿşŧ"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Ṽīḗẇīƞɠ Ŧħřḗȧḓ ƒǿř {ȧƥƥ_ƞȧḿḗ}"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Ɓȧƈķ ŧǿ ȧŀŀ ŧħřḗȧḓş ƒǿř {ȧƥƥ_ƞȧḿḗ}"
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Ḗḿƥŧẏ ƞǿŧḗ"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "Ŧħīş Ȧƥƥ'ş Ṽḗřşīǿƞş"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "ṽ.{ṽḗřşīǿƞ_ƞŭḿƀḗř}"
-
-#: /templates/errors/fragment.html:1
-#: /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "Ǿħ ƞǿ!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Ȧƞ ḗřřǿř ǿƈƈŭřřḗḓ."
-
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Ȧŧŧȧƈħḿḗƞŧ"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Ƒīŀḗ Ḓḗşƈřīƥŧīǿƞ"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Ŧħḗ ƥȧɠḗ ẏǿŭ ẇḗřḗ ŀǿǿķīƞɠ ƒǿř ẇȧş ƞǿŧ ƒǿŭƞḓ."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Ḗřřǿř ŀǿȧḓīƞɠ ḿǿřḗ"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Ŧřẏ Ȧɠȧīƞ"
 
 #: /media/js/settings_app.js:24
 msgid "Message"
@@ -359,6 +133,19 @@ msgstr "Ƥŭƀŀīƈ řḗṽīḗẇḗř ƈǿḿḿḗƞŧ"
 msgid "Re-review content rating adult"
 msgstr "Řḗ-řḗṽīḗẇ ƈǿƞŧḗƞŧ řȧŧīƞɠ ȧḓŭŀŧ"
 
+#: /media/js/views/comm.js:60
+#: /templates/_macros/thread_header.html:27
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{ƞ} ƞǿŧḗ"
+msgstr[1] "{ƞ} ƞǿŧḗş"
+
+#: /media/js/views/comm.js:83
+#: /media/js/views/comm.js:155
+#: /templates/_macros/thread_header.html:33
+msgid "Reply"
+msgstr "Řḗƥŀẏ"
+
 #: /media/js/views/comm.js:90
 msgid "Message sent."
 msgstr "Ḿḗşşȧɠḗ şḗƞŧ."
@@ -386,3 +173,216 @@ msgid "Successfully unsubscribed. You will no longer receive email notifications
 msgstr ""
 "Şŭƈƈḗşşƒŭŀŀẏ ŭƞşŭƀşƈřīƀḗḓ. Ẏǿŭ ẇīŀŀ ƞǿ ŀǿƞɠḗř řḗƈḗīṽḗ ḗḿȧīŀ ƞǿŧīƒīƈȧŧīǿƞş "
 "ƒǿř ŧħȧŧ ŧħřḗȧḓ."
+
+#: /media/js/views/login.js:12
+#: /templates/login.html:2
+msgid "Sign in"
+msgstr "Şīɠƞ īƞ"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Ƈŀǿşḗ"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Ƞǿ"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Ẏḗş"
+
+#: /templates/footer.html:2
+msgid "Develop Apps"
+msgstr "Ḓḗṽḗŀǿƥ Ȧƥƥş"
+
+#: /templates/footer.html:5
+msgid "Developer Hub"
+msgstr "Ḓḗṽḗŀǿƥḗř Ħŭƀ"
+
+#: /templates/footer.html:6
+msgid "Support"
+msgstr "Şŭƥƥǿřŧ"
+
+#: /templates/footer.html:10
+msgid "My Submissions"
+msgstr "Ḿẏ Şŭƀḿīşşīǿƞş"
+
+#: /templates/footer.html:13
+msgid "Reviewer Tools"
+msgstr "Řḗṽīḗẇḗř Ŧǿǿŀş"
+
+#: /templates/footer.html:16
+msgid "Lookup Tool"
+msgstr "Ŀǿǿķŭƥ Ŧǿǿŀ"
+
+#: /templates/footer.html:24
+msgid "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> or any later version."
+msgstr ""
+"Ḗẋƈḗƥŧ ẇħḗřḗ ǿŧħḗřẇīşḗ <a href=\"{legal_url}\" target=\"_blank\">ƞǿŧḗḓ</a>, "
+"ƈǿƞŧḗƞŧ ǿƞ ŧħīş şīŧḗ īş ŀīƈḗƞşḗḓ ŭƞḓḗř ŧħḗ <a href=\"{cc_url}\" target=\""
+"_blank\">Ƈřḗȧŧīṽḗ Ƈǿḿḿǿƞş Ȧŧŧřīƀŭŧīǿƞ Şħȧřḗ-Ȧŀīķḗ Ŀīƈḗƞşḗ ṽ3.0</a> ǿř ȧƞẏ "
+"ŀȧŧḗř ṽḗřşīǿƞ."
+
+#: /templates/footer.html:29
+msgid "Privacy Policy"
+msgstr "Ƥřīṽȧƈẏ Ƥǿŀīƈẏ"
+
+#: /templates/footer.html:30
+msgid "Terms of Use"
+msgstr "Ŧḗřḿş ǿƒ Ŭşḗ"
+
+#: /templates/footer.html:32
+msgid "Report Trademark Abuse"
+msgstr "Řḗƥǿřŧ Ŧřȧḓḗḿȧřķ Ȧƀŭşḗ"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Ƈǿḿḿŭƞīƈȧŧīǿƞ Ḓȧşħƀǿȧřḓ"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Şīɠƞ Ǿŭŧ"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Şīɠƞ Īƞ"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Ẏǿŭ ḿŭşŧ şīɠƞ īƞ ŧǿ ƥřǿƈḗḗḓ."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Şīɠƞ īƞ / Şīɠƞ ŭƥ"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Ȧŧŧȧƈħḿḗƞŧ"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Ƒīŀḗ Ḓḗşƈřīƥŧīǿƞ"
+
+#: /templates/_macros/create_thread.html:10
+#: /templates/_macros/thread.html:15
+#: /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Ƞǿ ƞǿŧḗş ƒǿŭƞḓ"
+
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Ḗƞŧḗř ƞǿŧḗ ŧḗẋŧ ħḗřḗ"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Ȧŧŧȧƈħ şƈřḗḗƞşħǿŧş ȧƞḓ ŀǿɠ ƒīŀḗş:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Ȧŧŧȧƈħ ȧƞǿŧħḗř ƒīŀḗ"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Ƥǿşŧ"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Ṽīḗẇ ǿŀḓḗř"
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{ȧƥƥ_ƞȧḿḗ} (Ṽḗřşīǿƞ {ṽḗřşīǿƞ_ƞŭḿƀḗř})"
+
+#: /templates/_macros/thread_header.html:19
+msgid "Deleted App"
+msgstr "Ḓḗŀḗŧḗḓ Ȧƥƥ"
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "(Ǿƀşǿŀḗŧḗ)"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "Řḗƈḗƞŧ"
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr "Ṽīḗẇ Ȧƥƥ"
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "Ŭƞşŭƀşƈřīƀḗ"
+
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "Řḗṽīḗẇ"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Ȧƥƥ īƈǿƞ"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Ṽīḗẇīƞɠ Ȧŀŀ Ŧħřḗȧḓş ƒǿř {ȧƥƥ_ƞȧḿḗ}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Ɠǿ ƀȧƈķ ŧǿ ȧƥƥ ḗḓīŧ ƥȧɠḗ"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Ḿẏ Ŧħřḗȧḓş"
+
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr "Ɠǿ ŧǿ Ḓḗṽḗŀǿƥḗř Ħŭƀ"
+
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr "Ẏǿŭ ƈŭřřḗƞŧŀẏ ȧřḗ ƞǿŧ īƞṽǿŀṽḗḓ īƞ ȧƞẏ ƈǿḿḿŭƞīƈȧŧīǿƞ ŧħřḗȧḓş."
+
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr "Şǿřřẏ, ȧƞ ḗřřǿř ħȧş ǿƈƈŭřřḗḓ. Ŧřẏ ŀǿɠɠīƞɠ īƞ ȧɠȧīƞ."
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Ḗḿƥŧẏ ƞǿŧḗ"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Ṽīḗẇīƞɠ Ŧħřḗȧḓ ƒǿř {ȧƥƥ_ƞȧḿḗ}"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Ɓȧƈķ ŧǿ ȧŀŀ ŧħřḗȧḓş ƒǿř {ȧƥƥ_ƞȧḿḗ}"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "Ŧħīş Ȧƥƥ'ş Ṽḗřşīǿƞş"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "ṽ.{ṽḗřşīǿƞ_ƞŭḿƀḗř}"
+
+#: /templates/errors/404.html:2
+#: /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Ǿħ ƞǿ!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Ŧħḗ ƥȧɠḗ ẏǿŭ ẇḗřḗ ŀǿǿķīƞɠ ƒǿř ẇȧş ƞǿŧ ƒǿŭƞḓ."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Ȧƞ ḗřřǿř ǿƈƈŭřřḗḓ."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Ḗřřǿř ŀǿȧḓīƞɠ ḿǿřḗ"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Ŧřẏ Ȧɠȧīƞ"

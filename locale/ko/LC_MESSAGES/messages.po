@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-08T16:08:05.743Z\n"
+"POT-Creation-Date: 2015-04-22T21:25:39.942Z\n"
 "PO-Revision-Date: 2014-08-15 05:46+0000\n"
 "Last-Translator: Channy <channy@mozilla.or.kr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,224 +13,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1408081597.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "닫기"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "아니오"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "예"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "커뮤니케이션 대시보드"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "로그아웃"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "로그인"
-
-#: /templates/login.html:2 /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "로그인"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "진행을 위해서 로그인을 해야 합니다."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "로그인 / 회원 가입"
-
-#: /templates/footer.html:2
-msgid "Develop Apps"
-msgstr "개발용 앱"
-
-#: /templates/footer.html:5
-msgid "Developer Hub"
-msgstr "개발자 허브"
-
-#: /templates/footer.html:6
-msgid "Support"
-msgstr "지원"
-
-#: /templates/footer.html:10
-msgid "My Submissions"
-msgstr "내 제출"
-
-#: /templates/footer.html:13
-msgid "Reviewer Tools"
-msgstr "리뷰어 도구"
-
-#: /templates/footer.html:16
-msgid "Lookup Tool"
-msgstr "검색 도구"
-
-#: /templates/footer.html:24
-msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
-msgstr ""
-"따로 <a href=\"{legal_url}\" target=\"_blank\">명시</a>된 경우를 제외하고 이 사이트의 내용은 <a href=\"{cc_url}\" target=\"_blank\">크리에이티브 커먼즈 저작자표시-동일 조건 변경 허락 3.0</a>이나 그 "
-"이후 버전 라이센스를 따릅니다."
-
-#: /templates/footer.html:29
-msgid "Privacy Policy"
-msgstr "개인 정보 보호 정책"
-
-#: /templates/footer.html:30
-msgid "Terms of Use"
-msgstr "이용 약관"
-
-#: /templates/footer.html:32
-msgid "Report Trademark Abuse"
-msgstr "등록 상표 오용 신고"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "소개 내용 없음"
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} (버전 {version_number})"
-
-#: /templates/_macros/thread_header.html:19
-msgid "Deleted App"
-msgstr ""
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "(중단됨)"
-
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:60
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} 주의"
-
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
-msgid "Reply"
-msgstr "댓글"
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "최근"
-
-#: /templates/_macros/thread_header.html:43
-msgid "View App"
-msgstr "앱 보기"
-
-#: /templates/_macros/thread_header.html:47
-msgid "Unsubscribe"
-msgstr "구독 해지"
-
-#: /templates/_macros/thread_header.html:50
-msgid "Review"
-msgstr "리뷰"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "이전 보기"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "내 글타래"
-
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr ""
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr ""
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr ""
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "앱 아이콘"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "{app_name}에 대한 글타래 모두 보기"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "앱 편집 페이지 가기"
-
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "여기에 메모를 입력"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "스크린샷 및 로그 파일 첨부:"
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "다른 파일 첨부"
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "올리기"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "{app_name}에 대한 글타래 보기"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "{app_name}에 대한 글타래로 돌아가기"
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "소개 내용 없음"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "앱 버전"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
-
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "오 이런!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "오류가 발생했습니다."
-
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "첨부 파일"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "파일 설명"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "찾는 페이지가 없습니다."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "더 불러오는 중 오류 발생"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "다시 시도"
 
 #: /media/js/settings_app.js:24
 msgid "Message"
@@ -352,6 +134,15 @@ msgstr ""
 msgid "Re-review content rating adult"
 msgstr ""
 
+#: /media/js/views/comm.js:60 /templates/_macros/thread_header.html:27
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} 주의"
+
+#: /media/js/views/comm.js:83 /media/js/views/comm.js:155 /templates/_macros/thread_header.html:33
+msgid "Reply"
+msgstr "댓글"
+
 #: /media/js/views/comm.js:90
 msgid "Message sent."
 msgstr "메시지가 전송되었습니다."
@@ -375,3 +166,212 @@ msgstr "현재 메일에 구독 취소하면 더 이상 메일 알림을 받을 
 #: /media/js/views/comm.js:210
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
 msgstr "구독 취소하였습니다. 더 이상 메일 알림을 받지 않습니다."
+
+#: /media/js/views/login.js:12 /templates/login.html:2
+msgid "Sign in"
+msgstr "로그인"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "닫기"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "아니오"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "예"
+
+#: /templates/footer.html:2
+msgid "Develop Apps"
+msgstr "개발용 앱"
+
+#: /templates/footer.html:5
+msgid "Developer Hub"
+msgstr "개발자 허브"
+
+#: /templates/footer.html:6
+msgid "Support"
+msgstr "지원"
+
+#: /templates/footer.html:10
+msgid "My Submissions"
+msgstr "내 제출"
+
+#: /templates/footer.html:13
+msgid "Reviewer Tools"
+msgstr "리뷰어 도구"
+
+#: /templates/footer.html:16
+msgid "Lookup Tool"
+msgstr "검색 도구"
+
+#: /templates/footer.html:24
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
+msgstr ""
+"따로 <a href=\"{legal_url}\" target=\"_blank\">명시</a>된 경우를 제외하고 이 사이트의 내용은 <a href=\"{cc_url}\" target=\"_blank\">크리에이티브 커먼즈 저작자표시-동일 조건 변경 허락 3.0</a>이나 그 "
+"이후 버전 라이센스를 따릅니다."
+
+#: /templates/footer.html:29
+msgid "Privacy Policy"
+msgstr "개인 정보 보호 정책"
+
+#: /templates/footer.html:30
+msgid "Terms of Use"
+msgstr "이용 약관"
+
+#: /templates/footer.html:32
+msgid "Report Trademark Abuse"
+msgstr "등록 상표 오용 신고"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "커뮤니케이션 대시보드"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "로그아웃"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "로그인"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "진행을 위해서 로그인을 해야 합니다."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "로그인 / 회원 가입"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "첨부 파일"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "파일 설명"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "소개 내용 없음"
+
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "여기에 메모를 입력"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "스크린샷 및 로그 파일 첨부:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "다른 파일 첨부"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "올리기"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "이전 보기"
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} (버전 {version_number})"
+
+#: /templates/_macros/thread_header.html:19
+msgid "Deleted App"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "(중단됨)"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "최근"
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr "앱 보기"
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "구독 해지"
+
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "리뷰"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "앱 아이콘"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "{app_name}에 대한 글타래 모두 보기"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "앱 편집 페이지 가기"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "내 글타래"
+
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr ""
+
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr ""
+
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr ""
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "소개 내용 없음"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "{app_name}에 대한 글타래 보기"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "{app_name}에 대한 글타래로 돌아가기"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "앱 버전"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "오 이런!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "찾는 페이지가 없습니다."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "오류가 발생했습니다."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "더 불러오는 중 오류 발생"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "다시 시도"
