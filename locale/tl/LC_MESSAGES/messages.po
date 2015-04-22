@@ -3,75 +3,77 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-08T16:08:05.743Z\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2015-04-22 03:43+0000\n"
+"Last-Translator: Robert <bob@mozillaph.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);Content-Type: text/plain; charset=utf-8\n"
-"X-Generator: Fireplace L10n Tools 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);Content-Type: text/plain; "
+"charset=utf-8\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1429674201.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
-msgstr ""
+msgstr "Isara"
 
 #: /templates/confirmation.html:3
 msgid "No"
-msgstr ""
+msgstr "Hindi"
 
 #: /templates/confirmation.html:4
 msgid "Yes"
-msgstr ""
+msgstr "Oo"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
-msgstr ""
+msgstr "Communication Dashboard"
 
 #: /templates/header.html:7
 msgid "Sign Out"
-msgstr ""
+msgstr "Sign Out"
 
 #: /templates/header.html:8
 msgid "Sign In"
-msgstr ""
+msgstr "Sign In"
 
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
-msgstr ""
+msgstr "Sign in"
 
 #: /templates/login.html:3
 msgid "You must sign in to proceed."
-msgstr ""
+msgstr "Kailangan mong mag-sign in para magpatuloy."
 
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
-msgstr ""
+msgstr "Sign in / Sign up"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
-msgstr ""
+msgstr "Mag-develop ng mga Apps"
 
 #: /templates/footer.html:5
 msgid "Developer Hub"
-msgstr ""
+msgstr "Developer Hub"
 
 #: /templates/footer.html:6
 msgid "Support"
-msgstr ""
+msgstr "Tulong"
 
 #: /templates/footer.html:10
 msgid "My Submissions"
-msgstr ""
+msgstr "Mga pagsusumite"
 
 #: /templates/footer.html:13
 msgid "Reviewer Tools"
-msgstr ""
+msgstr "Reviewer Tools"
 
 #: /templates/footer.html:16
 msgid "Lookup Tool"
-msgstr ""
+msgstr "Lookup Tool"
 
 #: /templates/footer.html:24
 msgid ""
@@ -81,81 +83,82 @@ msgstr ""
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Patakaran sa Privacy"
 
 #: /templates/footer.html:30
 msgid "Terms of Use"
-msgstr ""
+msgstr "Mga Tuntunin sa Paggamit"
 
 #: /templates/footer.html:32
 msgid "Report Trademark Abuse"
-msgstr ""
+msgstr "I-report ang Pang-aabuso sa Trademark"
 
 #: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
-msgstr ""
+msgstr "Walang talaan na makita"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
-msgstr ""
+msgstr "{app_name} (Version {version_number})"
 
 #: /templates/_macros/thread_header.html:19
 msgid "Deleted App"
-msgstr ""
+msgstr "Inalis na App"
 
 #: /templates/_macros/thread_header.html:21
 msgid "(Obsolete)"
-msgstr ""
+msgstr "(Obsolete)"
 
 #: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:60
 msgid "{n} note"
 msgid_plural "{n} notes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{n} note"
+msgstr[1] "{n} notes"
 
 #: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
 msgid "Reply"
-msgstr ""
+msgstr "Tugon"
 
 #: /templates/_macros/thread_header.html:41
 msgid "Recent"
-msgstr ""
+msgstr "Kamakailan lamang"
 
 #: /templates/_macros/thread_header.html:43
 msgid "View App"
-msgstr ""
+msgstr "Tingnan ang App"
 
 #: /templates/_macros/thread_header.html:47
 msgid "Unsubscribe"
-msgstr ""
+msgstr "Mag-unsubscribe"
 
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
-msgstr ""
+msgstr "Suriin"
 
 #: /templates/_macros/thread.html:20
 msgid "View older"
-msgstr ""
+msgstr "Tingnan ang mas luma"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
-msgstr ""
+msgstr "Ang Aking mga Threads"
 
 #: /templates/comm/main.html:4
 msgid "Go to Developer Hub"
-msgstr ""
+msgstr "Magtungo sa Developer Hub"
 
 #: /templates/comm/main.html:14
 msgid "You currently are not involved in any communication threads."
 msgstr ""
+"Sa kasalukuyan, ikaw ay hindi kasali sa anumang threads na pangkuminikasyon."
 
 #: /templates/comm/main.html:16
 msgid "Sorry, an error has occurred. Try logging in again."
-msgstr ""
+msgstr "Ipagpaumanhin, may error na nagganap. Subukang maglogin muli."
 
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
-msgstr ""
+msgstr "App icon"
 
 #: /templates/comm/app_dashboard.html:7
 msgid "Viewing All Threads for {app_name}"
@@ -167,19 +170,19 @@ msgstr ""
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
-msgstr ""
+msgstr "Itala ang mga salita dito"
 
 #: /templates/_macros/reply_box.html:6
 msgid "Attach screenshots and log files:"
-msgstr ""
+msgstr "I-attach ang screenshots at log files:"
 
 #: /templates/_macros/reply_box.html:8
 msgid "Attach another file"
-msgstr ""
+msgstr "Mag-attach ng isa pang file"
 
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
-msgstr ""
+msgstr "Ipaskil"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -191,7 +194,7 @@ msgstr ""
 
 #: /templates/comm/note_detail.html:12
 msgid "Empty note"
-msgstr ""
+msgstr "Walang laman na talaan"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
@@ -212,15 +215,15 @@ msgstr ""
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
-msgstr ""
+msgstr "Attachment"
 
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
-msgstr ""
+msgstr "Deskripsyon ng File"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
-msgstr ""
+msgstr "Ang pahina na iyong hinahanap ay hindi makita."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -228,23 +231,23 @@ msgstr ""
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
-msgstr ""
+msgstr "Subukan Muli"
 
 #: /media/js/settings_app.js:24
 msgid "Message"
-msgstr ""
+msgstr "Mensahe"
 
 #: /media/js/settings_app.js:25
 msgid "App approved"
-msgstr ""
+msgstr "Aprobado ang App"
 
 #: /media/js/settings_app.js:26
 msgid "App rejected"
-msgstr ""
+msgstr "Ang App ay Hindi Tanggap"
 
 #: /media/js/settings_app.js:27
 msgid "App banned"
-msgstr ""
+msgstr "Ang App ay banned"
 
 #: /media/js/settings_app.js:28
 msgid "Reviewer comment"
@@ -288,7 +291,7 @@ msgstr ""
 
 #: /media/js/settings_app.js:38
 msgid "Developer comment"
-msgstr ""
+msgstr "Kumento ng Developer"
 
 #: /media/js/settings_app.js:39
 msgid "Device(s) changed by reviewer"
@@ -320,31 +323,31 @@ msgstr ""
 
 #: /media/js/settings_app.js:46
 msgid "Escalation due to VIP App"
-msgstr ""
+msgstr "Pagdami dahil sa VIP App"
 
 #: /media/js/settings_app.js:47
 msgid "Escalation due to prerelease App"
-msgstr ""
+msgstr "Pagdami dahil sa prerelease App"
 
 #: /media/js/settings_app.js:48
 msgid "Priority review requested"
-msgstr ""
+msgstr "Hinihiling na unahin sa pagsusuri"
 
 #: /media/js/settings_app.js:49
 msgid "Tarako review passed"
-msgstr ""
+msgstr "Pasado ang pagsusuri sa Tarako"
 
 #: /media/js/settings_app.js:50
 msgid "Tarako review failed"
-msgstr ""
+msgstr "Hindi pasado ang pagsusuri sa Tarako"
 
 #: /media/js/settings_app.js:51
 msgid "Version notes for reviewer"
-msgstr ""
+msgstr "Bersyon ng mga Talaan para sa mga Tagasuri"
 
 #: /media/js/settings_app.js:52
 msgid "Public reviewer comment"
-msgstr ""
+msgstr "Kumentaryo ng isang pampublikong tagasuri"
 
 #: /media/js/settings_app.js:53
 msgid "Re-review content rating adult"
@@ -352,15 +355,15 @@ msgstr ""
 
 #: /media/js/views/comm.js:90
 msgid "Message sent."
-msgstr ""
+msgstr "Naipadala na ang mensahe."
 
 #: /media/js/views/comm.js:95
 msgid "Message sending failed."
-msgstr ""
+msgstr "Hindi naipadala ang mensahe."
 
 #: /media/js/views/comm.js:145
 msgid "Cancel reply"
-msgstr ""
+msgstr "Kanselahin ang tugon"
 
 #: /media/js/views/comm.js:182
 msgid "There are no more older notes."
@@ -373,3 +376,5 @@ msgstr ""
 #: /media/js/views/comm.js:210
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
 msgstr ""
+"Matagumpay na nakapag-unsubscribed. Hindi ka na makatatanggap ng email "
+"notifications mula sa thread."
