@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-22T21:25:39.942Z\n"
-"PO-Revision-Date: 2015-04-14 22:31+0000\n"
+"PO-Revision-Date: 2015-04-28 23:00+0000\n"
 "Last-Translator: Ibai <ibai@oihanguren.com>\n"
 "Language-Team: 89578-OEM-7332157-00211\n"
 "Language: eu\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1429050719.0\n"
+"X-POOTLE-MTIME: 1430262026.0\n"
 
 #: /media/js/settings_app.js:24
 msgid "Message"
@@ -37,7 +37,7 @@ msgstr "Berrikuslearen iruzkina"
 
 #: /media/js/settings_app.js:29
 msgid "Escalated to senior reviewer"
-msgstr ""
+msgstr "Goi-mailako berrikusle batengana goratua"
 
 #: /media/js/settings_app.js:30
 msgid "Private reviewer comment"
@@ -53,11 +53,11 @@ msgstr "Berbidali aplikazioa"
 
 #: /media/js/settings_app.js:33
 msgid "Escalated due to high abuse reports"
-msgstr ""
+msgstr "Abusu-salaketa ugarien ondorioz goratua"
 
 #: /media/js/settings_app.js:34
 msgid "Escalated due to high refund requests"
-msgstr ""
+msgstr "Dirua itzultzeko eskaera ugarien ondorioz goratua"
 
 #: /media/js/settings_app.js:35
 msgid "Escalation cleared"
@@ -97,31 +97,31 @@ msgstr "Berrikusi manifestua premium motara eguneratzea"
 
 #: /media/js/settings_app.js:44
 msgid "Re-review devices added"
-msgstr ""
+msgstr "Berrikusi berriro gehitutako gailuak"
 
 #: /media/js/settings_app.js:45
 msgid "Re-review features changed"
-msgstr ""
+msgstr "Berrikusi berriro aldatutako eginbideak"
 
 #: /media/js/settings_app.js:46
 msgid "Escalation due to VIP App"
-msgstr ""
+msgstr "VIP aplikazioa delako goratua"
 
 #: /media/js/settings_app.js:47
 msgid "Escalation due to prerelease App"
-msgstr ""
+msgstr "Prerelease aplikazioa delako goratua"
 
 #: /media/js/settings_app.js:48
 msgid "Priority review requested"
-msgstr ""
+msgstr "Lehentasunezko berrikuspena eskatuta"
 
 #: /media/js/settings_app.js:49
 msgid "Tarako review passed"
-msgstr ""
+msgstr "Tarako berrikuspena gaindituta"
 
 #: /media/js/settings_app.js:50
 msgid "Tarako review failed"
-msgstr ""
+msgstr "Tarako berrikuspenean huts eginda"
 
 #: /media/js/settings_app.js:51
 msgid "Version notes for reviewer"
@@ -133,7 +133,7 @@ msgstr "Berrikuslearen iruzkin publikoa"
 
 #: /media/js/settings_app.js:53
 msgid "Re-review content rating adult"
-msgstr ""
+msgstr "Berrikusi berriro helduentzako sailkatzea"
 
 #: /media/js/views/comm.js:60 /templates/_macros/thread_header.html:27
 msgid "{n} note"
