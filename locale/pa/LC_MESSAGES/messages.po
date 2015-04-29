@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-22T21:25:39.942Z\n"
-"PO-Revision-Date: 2014-09-04 22:12+0000\n"
-"Last-Translator: Aman <amanpreet.alam@gmail.com>\n"
+"PO-Revision-Date: 2015-04-16 11:25+0000\n"
+"Last-Translator: Pirthi <pirthi.d@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1) ;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1409868726.0\n"
+"X-POOTLE-MTIME: 1429183506.0\n"
 
 #: /media/js/settings_app.js:24
 msgid "Message"
@@ -28,19 +28,19 @@ msgstr "ਐਪ ਰੱਦ"
 
 #: /media/js/settings_app.js:27
 msgid "App banned"
-msgstr ""
+msgstr "ਬੰਦਿਸ਼ ਐਪ"
 
 #: /media/js/settings_app.js:28
 msgid "Reviewer comment"
-msgstr ""
+msgstr "ਸਮੀਖਿਅਕ ਟਿੱਪਣੀ"
 
 #: /media/js/settings_app.js:29
 msgid "Escalated to senior reviewer"
-msgstr ""
+msgstr "ਸੀਨੀਅਰ ਸਮੀਖਿਅਕ ਲਈ ਵਾਧਾ ਕੀਤਾ ਗਿਆ"
 
 #: /media/js/settings_app.js:30
 msgid "Private reviewer comment"
-msgstr ""
+msgstr "ਨਿੱਜੀ ਸਮੀਖਿਅਕ ਟਿੱਪਣੀ"
 
 #: /media/js/settings_app.js:31
 msgid "App resubmission"
@@ -52,11 +52,11 @@ msgstr "ਮਨਜ਼ੂਰ ਹੈ, ਪਰ ਜਨਤਕ ਹੋਣ ਦੀ ਉਡੀ�
 
 #: /media/js/settings_app.js:33
 msgid "Escalated due to high abuse reports"
-msgstr ""
+msgstr "ਉੱਚ ਦੁਰਵਰਤੋਂ ਦੇ ਕਾਰਨ ਵਾਧਾ ਕੀਤਾ ਗਿਆ"
 
 #: /media/js/settings_app.js:34
 msgid "Escalated due to high refund requests"
-msgstr ""
+msgstr "ਉੱਚ ਵਾਪਸੀ ਬੇਨਤੀਆਂ ਦੇ ਲਈ ਵਾਧਾ ਕੀਤਾ ਗਿਆ"
 
 #: /media/js/settings_app.js:35
 msgid "Escalation cleared"
@@ -76,7 +76,7 @@ msgstr "ਡਿਵੈਲਪਰ ਟਿੱਪਣੀ"
 
 #: /media/js/settings_app.js:39
 msgid "Device(s) changed by reviewer"
-msgstr ""
+msgstr "ਯੰਤਰ (s) ਸਮੀਖਿਅਕ ਦੁਬਾਰਾ ਬਦਲਿਆ ਗਿਆ"
 
 #: /media/js/settings_app.js:40
 msgid "Feature(s) changed by reviewer"
@@ -286,7 +286,7 @@ msgstr "{app_name} (ਵਰਜਨ {version_number}"
 
 #: /templates/_macros/thread_header.html:19
 msgid "Deleted App"
-msgstr ""
+msgstr "ਐਪ ਹਟਾਈ ਗਈ ਹੈ"
 
 #: /templates/_macros/thread_header.html:21
 msgid "(Obsolete)"
@@ -326,15 +326,15 @@ msgstr "ਮੇਰੇ ਥਰਿੱਡ"
 
 #: /templates/comm/main.html:4
 msgid "Go to Developer Hub"
-msgstr ""
+msgstr "ਵਿਕਸਿਤ ਹੱਬ ਉੱਤੇ ਜਾਓ"
 
 #: /templates/comm/main.html:14
 msgid "You currently are not involved in any communication threads."
-msgstr ""
+msgstr "ਤੁਸੀਂ ਮੌਜੂਦਾ ਕਿਸੇ ਵੀ ਸੰਚਾਰ ਥਰਿੱਡ ਵਿੱਚ ਸ਼ਾਮਿਲ ਨਹੀਂ।"
 
 #: /templates/comm/main.html:16
 msgid "Sorry, an error has occurred. Try logging in again."
-msgstr ""
+msgstr "ਅਫਸੋਸ, ਇੱਕ ਗਲਤੀ ਆਈ ਹੈ। ਦੁਬਾਰਾ ਲਾਗਇਨ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
 
 #: /templates/comm/note_detail.html:12
 msgid "Empty note"
