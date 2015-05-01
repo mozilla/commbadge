@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-22T21:25:39.942Z\n"
+"POT-Creation-Date: 2015-05-01T15:20:27.964Z\n"
 "PO-Revision-Date: 2013-10-19 23:50+0000\n"
 "Last-Translator: Michael <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,6 +13,227 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n < 20) ? 0 : (n%10==2 && n < 20) ? 1 : (n==10 || (n%10 > 2 && n < 20)) ? 2 : 3;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1382226614.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Dùin"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Chan eil"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Tha"
+
+#: /templates/footer.html:2
+msgid "Develop Apps"
+msgstr "Leasaich aplacaidean"
+
+#: /templates/footer.html:5
+msgid "Developer Hub"
+msgstr "Làr-ionad an luchd-leasachaidh"
+
+#: /templates/footer.html:6
+msgid "Support"
+msgstr "Taic"
+
+#: /templates/footer.html:10
+msgid "My Submissions"
+msgstr "Na thagair mi"
+
+#: /templates/footer.html:13
+msgid "Reviewer Tools"
+msgstr "Innealan luchd-lèirmheasaidh"
+
+#: /templates/footer.html:16
+msgid "Lookup Tool"
+msgstr "An t-inneal luirg"
+
+#: /templates/footer.html:24
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
+msgstr ""
+"Mur eil an caochladh 'ga innse <a href=\"{legal_url}\" target=\"_blank\">noted</a>, tha an t-susbaint air an làrach seo fo <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> no tionndadh sam bith nas ùire."
+
+#: /templates/footer.html:29
+msgid "Privacy Policy"
+msgstr "Am poileasaidh prìobhaideachd"
+
+#: /templates/footer.html:30
+msgid "Terms of Use"
+msgstr "Teirmichean a' chleachdaidh"
+
+#: /templates/footer.html:32
+msgid "Report Trademark Abuse"
+msgstr "Dèan aithris air mì-chleachdadh comarra-malairt"
+
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "Clàraich a-steach"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Feumaidh tu clàradh a-steach mus urrainn dhut leantainn air adhart."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Clàraich a-steach/Clàraich leinn"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Deas-bhòrd a' chonaltraidh"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Clàraich a-mach"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Clàraich a-steach"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr ""
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr ""
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr ""
+
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Cuir a-steach teacsa an nòta an-seo"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr ""
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr ""
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Cuir"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Seall an fheadhainn nas sine"
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:19
+msgid "Deleted App"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:60
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{0} nòta"
+msgstr[1] "{0} nòta"
+msgstr[2] "{0} nòtaichean"
+msgstr[3] "{0} nòta"
+
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
+msgid "Reply"
+msgstr "Freagair"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "O chionn goirid"
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr ""
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr ""
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr ""
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr ""
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr ""
+
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr ""
+
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr ""
+
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr ""
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr ""
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr ""
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr ""
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr ""
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr ""
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Mo chreach!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Cha b' urrainn dhuinn an duilleag a bha a dhìth ort a lorg."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Thachair mearachd."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Thachair mearachd fhad 's a dh'fheuch sinn ri barrachd fiosrachaidh a luchdadh"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Feuch ris a-rithist"
 
 #: /media/js/settings_app.js:24
 msgid "Message"
@@ -134,18 +355,6 @@ msgstr ""
 msgid "Re-review content rating adult"
 msgstr ""
 
-#: /media/js/views/comm.js:60 /templates/_macros/thread_header.html:27
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{0} nòta"
-msgstr[1] "{0} nòta"
-msgstr[2] "{0} nòtaichean"
-msgstr[3] "{0} nòta"
-
-#: /media/js/views/comm.js:83 /media/js/views/comm.js:155 /templates/_macros/thread_header.html:33
-msgid "Reply"
-msgstr "Freagair"
-
 #: /media/js/views/comm.js:90
 msgid "Message sent."
 msgstr "Chaidh an teachdaireachd a chur."
@@ -169,212 +378,3 @@ msgstr ""
 #: /media/js/views/comm.js:210
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
 msgstr ""
-
-#: /media/js/views/login.js:12 /templates/login.html:2
-msgid "Sign in"
-msgstr "Clàraich a-steach"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Dùin"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Chan eil"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Tha"
-
-#: /templates/footer.html:2
-msgid "Develop Apps"
-msgstr "Leasaich aplacaidean"
-
-#: /templates/footer.html:5
-msgid "Developer Hub"
-msgstr "Làr-ionad an luchd-leasachaidh"
-
-#: /templates/footer.html:6
-msgid "Support"
-msgstr "Taic"
-
-#: /templates/footer.html:10
-msgid "My Submissions"
-msgstr "Na thagair mi"
-
-#: /templates/footer.html:13
-msgid "Reviewer Tools"
-msgstr "Innealan luchd-lèirmheasaidh"
-
-#: /templates/footer.html:16
-msgid "Lookup Tool"
-msgstr "An t-inneal luirg"
-
-#: /templates/footer.html:24
-msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
-msgstr ""
-"Mur eil an caochladh 'ga innse <a href=\"{legal_url}\" target=\"_blank\">noted</a>, tha an t-susbaint air an làrach seo fo <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> no tionndadh sam bith nas ùire."
-
-#: /templates/footer.html:29
-msgid "Privacy Policy"
-msgstr "Am poileasaidh prìobhaideachd"
-
-#: /templates/footer.html:30
-msgid "Terms of Use"
-msgstr "Teirmichean a' chleachdaidh"
-
-#: /templates/footer.html:32
-msgid "Report Trademark Abuse"
-msgstr "Dèan aithris air mì-chleachdadh comarra-malairt"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Deas-bhòrd a' chonaltraidh"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Clàraich a-mach"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Clàraich a-steach"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Feumaidh tu clàradh a-steach mus urrainn dhut leantainn air adhart."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Clàraich a-steach/Clàraich leinn"
-
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr ""
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr ""
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr ""
-
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Cuir a-steach teacsa an nòta an-seo"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr ""
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr ""
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Cuir"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Seall an fheadhainn nas sine"
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr ""
-
-#: /templates/_macros/thread_header.html:19
-msgid "Deleted App"
-msgstr ""
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr ""
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "O chionn goirid"
-
-#: /templates/_macros/thread_header.html:43
-msgid "View App"
-msgstr ""
-
-#: /templates/_macros/thread_header.html:47
-msgid "Unsubscribe"
-msgstr ""
-
-#: /templates/_macros/thread_header.html:50
-msgid "Review"
-msgstr ""
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr ""
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr ""
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr ""
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr ""
-
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr ""
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr ""
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr ""
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr ""
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr ""
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr ""
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr ""
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr ""
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Mo chreach!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Cha b' urrainn dhuinn an duilleag a bha a dhìth ort a lorg."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Thachair mearachd."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Thachair mearachd fhad 's a dh'fheuch sinn ri barrachd fiosrachaidh a luchdadh"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Feuch ris a-rithist"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-22T21:25:39.942Z\n"
+"POT-Creation-Date: 2015-05-01T15:20:27.964Z\n"
 "PO-Revision-Date: 2015-03-05 13:45+0000\n"
 "Last-Translator: Branislav <rozbora@mozilla.sk>\n"
 "Language-Team: Mozilla.sk <l10n@mozilla.sk>\n"
@@ -13,6 +13,226 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1425563110.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Zavrieť"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Nie"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Áno"
+
+#: /templates/footer.html:2
+msgid "Develop Apps"
+msgstr "Vývoj aplikácie"
+
+#: /templates/footer.html:5
+msgid "Developer Hub"
+msgstr "Centrum vývojárov"
+
+#: /templates/footer.html:6
+msgid "Support"
+msgstr "Podpora"
+
+#: /templates/footer.html:10
+msgid "My Submissions"
+msgstr "Odoslané mnou"
+
+#: /templates/footer.html:13
+msgid "Reviewer Tools"
+msgstr "Nástroje redaktora"
+
+#: /templates/footer.html:16
+msgid "Lookup Tool"
+msgstr "Vyhľadávací nástroj"
+
+#: /templates/footer.html:24
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
+msgstr ""
+"Ak nie je <a href=\"{legal_url}\" target=\"_blank\">uvedené</a> inak, obsah tejto stránky je vedený pod licenciou <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike "
+"License v3.0</a> alebo ktorejkoľvek vyššej verzie."
+
+#: /templates/footer.html:29
+msgid "Privacy Policy"
+msgstr "Zásady ochrany súkromia"
+
+#: /templates/footer.html:30
+msgid "Terms of Use"
+msgstr "Podmienky použitia"
+
+#: /templates/footer.html:32
+msgid "Report Trademark Abuse"
+msgstr "Nahlásiť zneužitie ochrannej známky"
+
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "Prihlásiť"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Ak chcete pokračovať, musíte sa prihlásiť."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Prihlásiť sa / zaregistrovať"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Komunikačná nástenka"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Odhlásiť sa"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Prihlásiť sa"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Príloha"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Popis súboru"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Neboli nájdené žiadne poznámky"
+
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Zadajte text poznámky"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Pripojte snímky obrazovky a súbory .log:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Pripojiť ďalší súbor"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Pridať"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Zobraziť staršie"
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} (verzia {version_number})"
+
+#: /templates/_macros/thread_header.html:19
+msgid "Deleted App"
+msgstr "Odstránená aplikácia"
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "(neaktuálne)"
+
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:60
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} poznámka"
+msgstr[1] "{n} poznámky"
+msgstr[2] "{n} poznámok"
+
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
+msgid "Reply"
+msgstr "Odpovedať"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "Nedávne"
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr "Zobraziť aplikáciu"
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "Odhlásiť"
+
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "Kontrola"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Ikona aplikácie"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Zobrazujú sa všetky vlákna pre {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Späť na stránku úpravy aplikácie"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Moje vlákna"
+
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr "Prejsť na centrum pre vývojárov"
+
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr "Aktuálne nie ste zapojený(-á) do žiadnych komunikačných vlákien."
+
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr "Ospravedlňujeme sa, došlo k chybe. Skúste sa opäť prihlásiť."
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Prázdna poznámka"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Zobrazuje sa vlákno pre {app_name}"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Naspäť na všetky vlákna pre {app_name}"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "Tieto verzie aplikácie"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Ale nie!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Hľadaná stránka nebola nájdená."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Vyskytla sa chyba."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Chyba pri načítavaní ďalších položiek"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Skúsiť znova"
 
 #: /media/js/settings_app.js:24
 msgid "Message"
@@ -134,17 +354,6 @@ msgstr "Verejný komentár redaktora"
 msgid "Re-review content rating adult"
 msgstr "Opätovná kontrola na obsah pre dospelých"
 
-#: /media/js/views/comm.js:60 /templates/_macros/thread_header.html:27
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} poznámka"
-msgstr[1] "{n} poznámky"
-msgstr[2] "{n} poznámok"
-
-#: /media/js/views/comm.js:83 /media/js/views/comm.js:155 /templates/_macros/thread_header.html:33
-msgid "Reply"
-msgstr "Odpovedať"
-
 #: /media/js/views/comm.js:90
 msgid "Message sent."
 msgstr "Správa odoslaná."
@@ -168,212 +377,3 @@ msgstr "Po odhlásení z tohto vlákna vám už nebudú zasielané e-maily s upo
 #: /media/js/views/comm.js:210
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
 msgstr "Odber bol odhlásený. Teraz vám už nebudú zasielané žiadne e-maily s upozornením na toto vlákno."
-
-#: /media/js/views/login.js:12 /templates/login.html:2
-msgid "Sign in"
-msgstr "Prihlásiť"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Zavrieť"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Nie"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Áno"
-
-#: /templates/footer.html:2
-msgid "Develop Apps"
-msgstr "Vývoj aplikácie"
-
-#: /templates/footer.html:5
-msgid "Developer Hub"
-msgstr "Centrum vývojárov"
-
-#: /templates/footer.html:6
-msgid "Support"
-msgstr "Podpora"
-
-#: /templates/footer.html:10
-msgid "My Submissions"
-msgstr "Odoslané mnou"
-
-#: /templates/footer.html:13
-msgid "Reviewer Tools"
-msgstr "Nástroje redaktora"
-
-#: /templates/footer.html:16
-msgid "Lookup Tool"
-msgstr "Vyhľadávací nástroj"
-
-#: /templates/footer.html:24
-msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
-msgstr ""
-"Ak nie je <a href=\"{legal_url}\" target=\"_blank\">uvedené</a> inak, obsah tejto stránky je vedený pod licenciou <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike "
-"License v3.0</a> alebo ktorejkoľvek vyššej verzie."
-
-#: /templates/footer.html:29
-msgid "Privacy Policy"
-msgstr "Zásady ochrany súkromia"
-
-#: /templates/footer.html:30
-msgid "Terms of Use"
-msgstr "Podmienky použitia"
-
-#: /templates/footer.html:32
-msgid "Report Trademark Abuse"
-msgstr "Nahlásiť zneužitie ochrannej známky"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Komunikačná nástenka"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Odhlásiť sa"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Prihlásiť sa"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Ak chcete pokračovať, musíte sa prihlásiť."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Prihlásiť sa / zaregistrovať"
-
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Príloha"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Popis súboru"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Neboli nájdené žiadne poznámky"
-
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Zadajte text poznámky"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Pripojte snímky obrazovky a súbory .log:"
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Pripojiť ďalší súbor"
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Pridať"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Zobraziť staršie"
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} (verzia {version_number})"
-
-#: /templates/_macros/thread_header.html:19
-msgid "Deleted App"
-msgstr "Odstránená aplikácia"
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "(neaktuálne)"
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "Nedávne"
-
-#: /templates/_macros/thread_header.html:43
-msgid "View App"
-msgstr "Zobraziť aplikáciu"
-
-#: /templates/_macros/thread_header.html:47
-msgid "Unsubscribe"
-msgstr "Odhlásiť"
-
-#: /templates/_macros/thread_header.html:50
-msgid "Review"
-msgstr "Kontrola"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Ikona aplikácie"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Zobrazujú sa všetky vlákna pre {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Späť na stránku úpravy aplikácie"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Moje vlákna"
-
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr "Prejsť na centrum pre vývojárov"
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr "Aktuálne nie ste zapojený(-á) do žiadnych komunikačných vlákien."
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr "Ospravedlňujeme sa, došlo k chybe. Skúste sa opäť prihlásiť."
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Prázdna poznámka"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Zobrazuje sa vlákno pre {app_name}"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Naspäť na všetky vlákna pre {app_name}"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "Tieto verzie aplikácie"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Ale nie!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Hľadaná stránka nebola nájdená."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Vyskytla sa chyba."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Chyba pri načítavaní ďalších položiek"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Skúsiť znova"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Commbadge\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-22T21:25:39.942Z\n"
+"POT-Creation-Date: 2015-05-01T15:20:27.964Z\n"
 "PO-Revision-Date: 2015-03-05 16:11+0000\n"
 "Last-Translator: Sandro <gialloporpora@mozillaitalia.org>\n"
 "Language-Team: gialloporpora <gialloporpora@yahoo.it>\n"
@@ -14,6 +14,225 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1425571891.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Chiudi"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "No"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Si"
+
+#: /templates/footer.html:2
+msgid "Develop Apps"
+msgstr "Sviluppo app"
+
+#: /templates/footer.html:5
+msgid "Developer Hub"
+msgstr "Centro di sviluppo"
+
+#: /templates/footer.html:6
+msgid "Support"
+msgstr "Supporto"
+
+#: /templates/footer.html:10
+msgid "My Submissions"
+msgstr "Le mie app"
+
+#: /templates/footer.html:13
+msgid "Reviewer Tools"
+msgstr "Strumenti per revisori"
+
+#: /templates/footer.html:16
+msgid "Lookup Tool"
+msgstr "Strumenti di ricerca"
+
+#: /templates/footer.html:24
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
+msgstr ""
+"Eccetto dove diversamente <a href=\"{legal_url}\" target=\"_blank\">indicato</a>, i contenuti di questo sito sono distribuiti sotto licenza <a href=\"{cc_url}\" target=\"_blank\">Creative Commons "
+"Attribuzione – Condividi allo stesso modo versione 3.0</a> o successive."
+
+#: /templates/footer.html:29
+msgid "Privacy Policy"
+msgstr "Informativa sulla privacy"
+
+#: /templates/footer.html:30
+msgid "Terms of Use"
+msgstr "Termini d'uso"
+
+#: /templates/footer.html:32
+msgid "Report Trademark Abuse"
+msgstr "Segnala abusi dei marchi registrati"
+
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "Accedi"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Per proseguire è necessario eseguire l'accesso."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Accedi o registrati"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Pannello comunicazioni"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Esci"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Accedi"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Allegato"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Descrizione del file"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Non è stata trovata alcuna nota"
+
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Inserisci qui il testo della nota"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Allega screenshot e file di log:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Allega un altro file"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Invia"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Visualizza meno recenti"
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} (Versione {version_number})"
+
+#: /templates/_macros/thread_header.html:19
+msgid "Deleted App"
+msgstr "App eliminata"
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "(obsoleta)"
+
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:60
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} nota"
+msgstr[1] "{n} note"
+
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
+msgid "Reply"
+msgstr "Rispondi"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "Recenti"
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr "Visualizza app"
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "Annulla sottoscrizione"
+
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "Recensione"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Icona dell'app"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Mostra tutte le discussioni riguardanti {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Ritorna alla pagina di modifica dell’app"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Le mie discussioni"
+
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr "Vai al Centro di Sviluppo"
+
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr "Attualmente non stai partecipando a nessuna discussione."
+
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr "Siamo spiacenti, si è verificato un errore. Riprova a effettuare l’accesso."
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Nota vuota"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Visualizzazione delle discussioni riguardanti {app_name}"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Ritorna a tutte le discussioni riguardanti {app_name}"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "La versione corrente dell’app"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Accidenti!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Non è stato possibile trovare la pagina che stavi cercando."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Si è verificato un errore."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Errore durante il caricamento di contenuti extra"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Riprova"
 
 #: /media/js/settings_app.js:24
 msgid "Message"
@@ -135,16 +354,6 @@ msgstr "Commento pubblico del revisore"
 msgid "Re-review content rating adult"
 msgstr "Riesame classificazione contenuti adulti"
 
-#: /media/js/views/comm.js:60 /templates/_macros/thread_header.html:27
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} nota"
-msgstr[1] "{n} note"
-
-#: /media/js/views/comm.js:83 /media/js/views/comm.js:155 /templates/_macros/thread_header.html:33
-msgid "Reply"
-msgstr "Rispondi"
-
 #: /media/js/views/comm.js:90
 msgid "Message sent."
 msgstr "Messaggio inviato."
@@ -168,212 +377,3 @@ msgstr "Annullando la sottoscrizione a questa discussione non riceverai più not
 #: /media/js/views/comm.js:210
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
 msgstr "La sottoscrizione è stata annullata correttamente. Non riceverai più notifiche via email per questa discussione."
-
-#: /media/js/views/login.js:12 /templates/login.html:2
-msgid "Sign in"
-msgstr "Accedi"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Chiudi"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "No"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Si"
-
-#: /templates/footer.html:2
-msgid "Develop Apps"
-msgstr "Sviluppo app"
-
-#: /templates/footer.html:5
-msgid "Developer Hub"
-msgstr "Centro di sviluppo"
-
-#: /templates/footer.html:6
-msgid "Support"
-msgstr "Supporto"
-
-#: /templates/footer.html:10
-msgid "My Submissions"
-msgstr "Le mie app"
-
-#: /templates/footer.html:13
-msgid "Reviewer Tools"
-msgstr "Strumenti per revisori"
-
-#: /templates/footer.html:16
-msgid "Lookup Tool"
-msgstr "Strumenti di ricerca"
-
-#: /templates/footer.html:24
-msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
-msgstr ""
-"Eccetto dove diversamente <a href=\"{legal_url}\" target=\"_blank\">indicato</a>, i contenuti di questo sito sono distribuiti sotto licenza <a href=\"{cc_url}\" target=\"_blank\">Creative Commons "
-"Attribuzione – Condividi allo stesso modo versione 3.0</a> o successive."
-
-#: /templates/footer.html:29
-msgid "Privacy Policy"
-msgstr "Informativa sulla privacy"
-
-#: /templates/footer.html:30
-msgid "Terms of Use"
-msgstr "Termini d'uso"
-
-#: /templates/footer.html:32
-msgid "Report Trademark Abuse"
-msgstr "Segnala abusi dei marchi registrati"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Pannello comunicazioni"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Esci"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Accedi"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Per proseguire è necessario eseguire l'accesso."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Accedi o registrati"
-
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Allegato"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Descrizione del file"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Non è stata trovata alcuna nota"
-
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Inserisci qui il testo della nota"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Allega screenshot e file di log:"
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Allega un altro file"
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Invia"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Visualizza meno recenti"
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} (Versione {version_number})"
-
-#: /templates/_macros/thread_header.html:19
-msgid "Deleted App"
-msgstr "App eliminata"
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "(obsoleta)"
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "Recenti"
-
-#: /templates/_macros/thread_header.html:43
-msgid "View App"
-msgstr "Visualizza app"
-
-#: /templates/_macros/thread_header.html:47
-msgid "Unsubscribe"
-msgstr "Annulla sottoscrizione"
-
-#: /templates/_macros/thread_header.html:50
-msgid "Review"
-msgstr "Recensione"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Icona dell'app"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Mostra tutte le discussioni riguardanti {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Ritorna alla pagina di modifica dell’app"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Le mie discussioni"
-
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr "Vai al Centro di Sviluppo"
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr "Attualmente non stai partecipando a nessuna discussione."
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr "Siamo spiacenti, si è verificato un errore. Riprova a effettuare l’accesso."
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Nota vuota"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Visualizzazione delle discussioni riguardanti {app_name}"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Ritorna a tutte le discussioni riguardanti {app_name}"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "La versione corrente dell’app"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Accidenti!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Non è stato possibile trovare la pagina che stavi cercando."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Si è verificato un errore."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Errore durante il caricamento di contenuti extra"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Riprova"

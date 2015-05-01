@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-22T21:25:39.942Z\n"
+"POT-Creation-Date: 2015-05-01T15:20:27.964Z\n"
 "PO-Revision-Date: 2015-01-20 10:42+0000\n"
 "Last-Translator: Ayan <ayay700@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,6 +13,225 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1421750533.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "বন্ধ করা"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "না"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "হ্যাঁ"
+
+#: /templates/footer.html:2
+msgid "Develop Apps"
+msgstr "এপস ডেভলপ করুন"
+
+#: /templates/footer.html:5
+msgid "Developer Hub"
+msgstr "ডেভেলপার হাব"
+
+#: /templates/footer.html:6
+msgid "Support"
+msgstr "সমর্থন"
+
+#: /templates/footer.html:10
+msgid "My Submissions"
+msgstr "আমার জমা"
+
+#: /templates/footer.html:13
+msgid "Reviewer Tools"
+msgstr "পর্যালোচনাকারী সরঞ্জাম"
+
+#: /templates/footer.html:16
+msgid "Lookup Tool"
+msgstr "লুকআপ টুল"
+
+#: /templates/footer.html:24
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
+msgstr ""
+"অন্যথায় <a href=\"{legal_url}\" target=\"_blank\"> করুন </a> লক্ষনীয় যেখানে ছাড়া, এই সাইটে কন্টেন্ট <a href=\"{cc_url}\" target=\"_blank\">ক্রিয়েটিভ কমন্স অ্যাট্রিবিউশন আওতায় লাইসেন্সকৃত শেয়ার করুন-আলাইক "
+"লাইসেন্সের v3.0</a> বা পায় যে তারা."
+
+#: /templates/footer.html:29
+msgid "Privacy Policy"
+msgstr "গোপনীয়তা নীতি"
+
+#: /templates/footer.html:30
+msgid "Terms of Use"
+msgstr "ব্যবহারের শর্তাবলী"
+
+#: /templates/footer.html:32
+msgid "Report Trademark Abuse"
+msgstr "ট্রেডমার্ক অপব্যবহার সম্বন্ধে রিপোর্ট"
+
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "সাইন ইন"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "আপনাকে এগিয়ে যেতে সাইন ইন করতে হবে।"
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "সাইন ইন / সাইন আপ করুন"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "যোগাযোগের ড্যাশবোর্ড"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "সাইন আউট"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "সাইন ইন"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "সংযুক্তি"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "ফাইলর বিবরণ"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "কোন নোটা পাওয়া যায়নি"
+
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "এখানে উল্লেেখ্য টেক্সট লিখুন"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "স্ক্রিনশট সংযুক্ত করুন এবং লগ ফাইল:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "আরেকটি ফাইল সংযুক্ত করুন"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "পোষ্ট করুন"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "দেখুন পুরোনো"
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} (সংস্করণ {version_number})"
+
+#: /templates/_macros/thread_header.html:19
+msgid "Deleted App"
+msgstr "বাতিল হওয়া অ্যাপ"
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "(অপ্রচলিত)"
+
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:60
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} নোট"
+msgstr[1] "{n} নোটগুলি"
+
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
+msgid "Reply"
+msgstr "জবাব"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "সাম্প্রতিক"
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr "অ্যাপ দেখুন"
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "আনসাবস্ক্রাইব"
+
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "পর্যালোচনা"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "অ্যাপ আইকন"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "{app_name} জন্য সকল টপিক দেখছেন"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "অ্যাপ সম্পাদনা পৃষ্ঠায়ে ফিরে যান"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "আমার টপিক"
+
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr "ডেভেলপার হাবে যান"
+
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr "আপনি বর্তমানে কোনো কথোপকথন থ্রেডে সংযুক্ত নন।"
+
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr "দুঃখিত, একটি ত্রুটি ঘটেছে। পুনরায় লগ-ইন করতে চেষ্টা করুন।"
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "খালি নোট"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "{অ্যাপ_নেম} জন্য থ্রেড দেখছেন"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "পিছনে {app_name} জন্য সকল টপিক থেকে"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "এই অ্যাপ এর সংস্করণ"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "ওহ না!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "আপনি যেই পাতা খুজছিলেন সেটি পাওয়া জায়েনি।"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "সমস্যা দেখা দিয়েছে।"
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "ত্রুটি লোড হচ্ছে আরও"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "পুনরায় চেষ্টা করুন"
 
 #: /media/js/settings_app.js:24
 msgid "Message"
@@ -134,16 +353,6 @@ msgstr "পাবলিক রিভিউয়ারের কমেন্ট"
 msgid "Re-review content rating adult"
 msgstr "পুনঃ-রিভিউ কন্টেন্ট রেটিং প্রাপ্তবয়স্ক"
 
-#: /media/js/views/comm.js:60 /templates/_macros/thread_header.html:27
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} নোট"
-msgstr[1] "{n} নোটগুলি"
-
-#: /media/js/views/comm.js:83 /media/js/views/comm.js:155 /templates/_macros/thread_header.html:33
-msgid "Reply"
-msgstr "জবাব"
-
 #: /media/js/views/comm.js:90
 msgid "Message sent."
 msgstr "বার্তা পাঠানো হয়েছে।"
@@ -167,212 +376,3 @@ msgstr "এই থ্রেড থেকে আন-সাবস্ক্রা�
 #: /media/js/views/comm.js:210
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
 msgstr "সফলভাবে আন-সাবস্ক্রাইব করা হয়েছে। আপনি এই থ্রেডের জন্য আর ইমেল বিজ্ঞপ্তি পাবেন না।"
-
-#: /media/js/views/login.js:12 /templates/login.html:2
-msgid "Sign in"
-msgstr "সাইন ইন"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "বন্ধ করা"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "না"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "হ্যাঁ"
-
-#: /templates/footer.html:2
-msgid "Develop Apps"
-msgstr "এপস ডেভলপ করুন"
-
-#: /templates/footer.html:5
-msgid "Developer Hub"
-msgstr "ডেভেলপার হাব"
-
-#: /templates/footer.html:6
-msgid "Support"
-msgstr "সমর্থন"
-
-#: /templates/footer.html:10
-msgid "My Submissions"
-msgstr "আমার জমা"
-
-#: /templates/footer.html:13
-msgid "Reviewer Tools"
-msgstr "পর্যালোচনাকারী সরঞ্জাম"
-
-#: /templates/footer.html:16
-msgid "Lookup Tool"
-msgstr "লুকআপ টুল"
-
-#: /templates/footer.html:24
-msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
-msgstr ""
-"অন্যথায় <a href=\"{legal_url}\" target=\"_blank\"> করুন </a> লক্ষনীয় যেখানে ছাড়া, এই সাইটে কন্টেন্ট <a href=\"{cc_url}\" target=\"_blank\">ক্রিয়েটিভ কমন্স অ্যাট্রিবিউশন আওতায় লাইসেন্সকৃত শেয়ার করুন-আলাইক "
-"লাইসেন্সের v3.0</a> বা পায় যে তারা."
-
-#: /templates/footer.html:29
-msgid "Privacy Policy"
-msgstr "গোপনীয়তা নীতি"
-
-#: /templates/footer.html:30
-msgid "Terms of Use"
-msgstr "ব্যবহারের শর্তাবলী"
-
-#: /templates/footer.html:32
-msgid "Report Trademark Abuse"
-msgstr "ট্রেডমার্ক অপব্যবহার সম্বন্ধে রিপোর্ট"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "যোগাযোগের ড্যাশবোর্ড"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "সাইন আউট"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "সাইন ইন"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "আপনাকে এগিয়ে যেতে সাইন ইন করতে হবে।"
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "সাইন ইন / সাইন আপ করুন"
-
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "সংযুক্তি"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "ফাইলর বিবরণ"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "কোন নোটা পাওয়া যায়নি"
-
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "এখানে উল্লেেখ্য টেক্সট লিখুন"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "স্ক্রিনশট সংযুক্ত করুন এবং লগ ফাইল:"
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "আরেকটি ফাইল সংযুক্ত করুন"
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "পোষ্ট করুন"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "দেখুন পুরোনো"
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} (সংস্করণ {version_number})"
-
-#: /templates/_macros/thread_header.html:19
-msgid "Deleted App"
-msgstr "বাতিল হওয়া অ্যাপ"
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "(অপ্রচলিত)"
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "সাম্প্রতিক"
-
-#: /templates/_macros/thread_header.html:43
-msgid "View App"
-msgstr "অ্যাপ দেখুন"
-
-#: /templates/_macros/thread_header.html:47
-msgid "Unsubscribe"
-msgstr "আনসাবস্ক্রাইব"
-
-#: /templates/_macros/thread_header.html:50
-msgid "Review"
-msgstr "পর্যালোচনা"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "অ্যাপ আইকন"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "{app_name} জন্য সকল টপিক দেখছেন"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "অ্যাপ সম্পাদনা পৃষ্ঠায়ে ফিরে যান"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "আমার টপিক"
-
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr "ডেভেলপার হাবে যান"
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr "আপনি বর্তমানে কোনো কথোপকথন থ্রেডে সংযুক্ত নন।"
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr "দুঃখিত, একটি ত্রুটি ঘটেছে। পুনরায় লগ-ইন করতে চেষ্টা করুন।"
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "খালি নোট"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "{অ্যাপ_নেম} জন্য থ্রেড দেখছেন"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "পিছনে {app_name} জন্য সকল টপিক থেকে"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "এই অ্যাপ এর সংস্করণ"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "ওহ না!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "আপনি যেই পাতা খুজছিলেন সেটি পাওয়া জায়েনি।"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "সমস্যা দেখা দিয়েছে।"
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "ত্রুটি লোড হচ্ছে আরও"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "পুনরায় চেষ্টা করুন"
