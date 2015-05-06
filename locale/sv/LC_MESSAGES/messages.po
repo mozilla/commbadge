@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-01T15:20:27.964Z\n"
+"POT-Creation-Date: 2015-05-06T15:31:38.350Z\n"
 "PO-Revision-Date: 2014-08-13 21:14+0000\n"
 "Last-Translator: Andreas <az@kth.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,6 +25,18 @@ msgstr "Nej"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Ja"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Kommunikationsöversikt"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Logga ut"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Logga in"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -82,17 +94,9 @@ msgstr "Du måste logga in för att fortsätta."
 msgid "Sign in / Sign up"
 msgstr "Logga in / Registrera dig"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Kommunikationsöversikt"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Logga ut"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Logga in"
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Inga anteckningar hittades"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
@@ -101,10 +105,6 @@ msgstr "Bilaga"
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
 msgstr "Filbeskrivning"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Inga anteckningar hittades"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -164,6 +164,26 @@ msgstr "Avsluta prenumeration"
 msgid "Review"
 msgstr "Omdöme"
 
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "Åh nej!"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Ett fel uppstod."
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Sidan du letade efter kunde inte hittas."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Fel uppstod när mer skulle laddas"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Försök igen"
+
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
 msgstr "App-ikon"
@@ -212,26 +232,6 @@ msgstr "Denna App:s versioner"
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Åh nej!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Sidan du letade efter kunde inte hittas."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Ett fel uppstod."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Fel uppstod när mer skulle laddas"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Försök igen"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

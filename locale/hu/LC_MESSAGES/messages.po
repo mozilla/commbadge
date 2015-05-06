@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-01T15:20:27.964Z\n"
+"POT-Creation-Date: 2015-05-06T15:31:38.350Z\n"
 "PO-Revision-Date: 2014-09-20 11:27+0000\n"
 "Last-Translator: Gábor <kelemeng@ubuntu.com>\n"
 "Language-Team: none\n"
@@ -25,6 +25,18 @@ msgstr "Nem"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Igen"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Kommunikációs vezérlőpult"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Kijelentkezés"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Bejelentkezés"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -82,17 +94,9 @@ msgstr "Be kell jelentkeznie a folytatáshoz."
 msgid "Sign in / Sign up"
 msgstr "Bejelentkezés/regisztráció"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Kommunikációs vezérlőpult"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Kijelentkezés"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Bejelentkezés"
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Nincsenek jegyzetek"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
@@ -101,10 +105,6 @@ msgstr "Melléklet"
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
 msgstr "Fájl leírása"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Nincsenek jegyzetek"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -164,6 +164,26 @@ msgstr "Leiratkozás"
 msgid "Review"
 msgstr "Értékelés"
 
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "Na ne!"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Hiba történt."
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "A keresett oldal nem található."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Hiba továbbiak betöltésekor"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Próbálja újra"
+
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
 msgstr "App ikon"
@@ -212,26 +232,6 @@ msgstr "Az app verziói"
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Na ne!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "A keresett oldal nem található."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Hiba történt."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Hiba továbbiak betöltésekor"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Próbálja újra"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

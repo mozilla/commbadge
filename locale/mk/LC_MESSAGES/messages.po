@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-01T15:20:27.964Z\n"
+"POT-Creation-Date: 2015-05-06T15:31:38.350Z\n"
 "PO-Revision-Date: 2014-04-05 13:39+0000\n"
 "Last-Translator: Goce <goce.mitevski@gmail.com>\n"
 "Language-Team: none\n"
@@ -25,6 +25,18 @@ msgstr "Не"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Да"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Комуникација"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Одјава"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Најава"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -82,17 +94,9 @@ msgstr "Морате да се најавите за да продолжите."
 msgid "Sign in / Sign up"
 msgstr "Најава / Регистрација"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Комуникација"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Одјава"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Најава"
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Нема белешки"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
@@ -101,10 +105,6 @@ msgstr ""
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
 msgstr ""
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Нема белешки"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -164,6 +164,26 @@ msgstr ""
 msgid "Review"
 msgstr "Рецензија"
 
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "О, не!"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Настана грешка."
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Страницата што ја баравте не беше пронајдена."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Грешка при вчитување повеќе"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Повторно"
+
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
 msgstr "Иконка"
@@ -212,26 +232,6 @@ msgstr ""
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr "в.{version_number}"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "О, не!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Страницата што ја баравте не беше пронајдена."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Настана грешка."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Грешка при вчитување повеќе"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Повторно"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

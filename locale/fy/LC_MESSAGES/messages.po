@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-01T15:20:27.964Z\n"
+"POT-Creation-Date: 2015-05-06T15:31:38.350Z\n"
 "PO-Revision-Date: 2015-04-01 08:46+0000\n"
 "Last-Translator: Wim <fryskefirefox@gmail.com>\n"
 "Language-Team: FRISIAN <LL@li.org>\n"
@@ -25,6 +25,18 @@ msgstr "Nee"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Ja"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Dashboerd foar kommunikaasje"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Ofmelde"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Oanmelde"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -82,17 +94,9 @@ msgstr "Jo moatte jo oanmelde om troch te gean."
 msgid "Sign in / Sign up"
 msgstr "Oanmelde / registrearje"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Dashboerd foar kommunikaasje"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Ofmelde"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Oanmelde"
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Gjin opmerkingen fûn"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
@@ -101,10 +105,6 @@ msgstr "Bylage"
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
 msgstr "Bestânsbeskriuwing"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Gjin opmerkingen fûn"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -165,6 +165,26 @@ msgstr "Utskriuwe"
 msgid "Review"
 msgstr "Beoardiele"
 
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "Oh nee!"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Der is in flater bard."
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "De troch jo sochte side is net fûn."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Flater by laden fan mear"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Opnij probearje"
+
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
 msgstr "App-piktogram"
@@ -214,26 +234,6 @@ msgstr "Ferzjes fan dizze app"
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr "f.{version_number}"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Oh nee!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "De troch jo sochte side is net fûn."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Der is in flater bard."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Flater by laden fan mear"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Opnij probearje"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

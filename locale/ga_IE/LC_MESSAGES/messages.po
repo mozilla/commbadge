@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fireplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-01T15:20:27.964Z\n"
+"POT-Creation-Date: 2015-05-06T15:31:38.350Z\n"
 "PO-Revision-Date: 2013-05-04 08:35-0500\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -24,6 +24,18 @@ msgstr "Níl"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Tá"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr ""
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Logáil Amach"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Logáil Isteach"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -81,17 +93,9 @@ msgstr ""
 msgid "Sign in / Sign up"
 msgstr "Logáil Isteach / Cláraigh"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
 msgstr ""
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Logáil Amach"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Logáil Isteach"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
@@ -99,10 +103,6 @@ msgstr ""
 
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
-msgstr ""
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
 msgstr ""
 
 #: /templates/_macros/reply_box.html:2
@@ -166,6 +166,26 @@ msgstr ""
 msgid "Review"
 msgstr ""
 
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "Ochón!"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Tharla earráid."
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Níorbh fhéidir an leathanach a bhí uait a aimsiú."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Earráid agus tuilleadh á luchtú"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Déan Iarracht Eile"
+
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
 msgstr ""
@@ -214,26 +234,6 @@ msgstr ""
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr ""
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Ochón!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Níorbh fhéidir an leathanach a bhí uait a aimsiú."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Tharla earráid."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Earráid agus tuilleadh á luchtú"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Déan Iarracht Eile"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

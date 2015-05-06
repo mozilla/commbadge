@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-01T15:20:27.964Z\n"
+"POT-Creation-Date: 2015-05-06T15:31:38.350Z\n"
 "PO-Revision-Date: 2015-03-05 12:14+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: none\n"
@@ -25,6 +25,18 @@ msgstr "Nee"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Ja"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Dashboard voor communicatie"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Afmelden"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Aanmelden"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -82,17 +94,9 @@ msgstr "U moet zich aanmelden om verder te gaan."
 msgid "Sign in / Sign up"
 msgstr "Aanmelden / registreren"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Dashboard voor communicatie"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Afmelden"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Aanmelden"
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Geen opmerkingen gevonden"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
@@ -101,10 +105,6 @@ msgstr "Bijlage"
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
 msgstr "Bestandsbeschrijving"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Geen opmerkingen gevonden"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -165,6 +165,26 @@ msgstr "Uitschrijven"
 msgid "Review"
 msgstr "Beoordelen"
 
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "Oh nee!"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Er is een fout opgetreden."
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "De door u gezochte pagina is niet gevonden."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Fout bij laden van meer"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Opnieuw proberen"
+
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
 msgstr "App-pictogram"
@@ -214,26 +234,6 @@ msgstr "Versies van deze app"
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Oh nee!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "De door u gezochte pagina is niet gevonden."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Er is een fout opgetreden."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Fout bij laden van meer"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Opnieuw proberen"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

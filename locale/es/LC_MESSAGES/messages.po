@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-01T15:20:27.964Z\n"
+"POT-Creation-Date: 2015-05-06T15:31:38.350Z\n"
 "PO-Revision-Date: 2014-10-02 16:16+0000\n"
 "Last-Translator: Inma <inma.barrios@mozilla-hispano.org>\n"
 "Language-Team: Español (España) <nave@elistas.net>\n"
@@ -25,6 +25,18 @@ msgstr "No"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Sí"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Tablero de comunicaciones"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Salir"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Identificarse"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -82,17 +94,9 @@ msgstr "Debes identificarte para continuar."
 msgid "Sign in / Sign up"
 msgstr "Identificarse / Registrarse"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Tablero de comunicaciones"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Salir"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Identificarse"
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "No se encontraron notas"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
@@ -101,10 +105,6 @@ msgstr "Adjunto"
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
 msgstr "Descripción del archivo"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "No se encontraron notas"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -164,6 +164,26 @@ msgstr "Cancelar la suscripción"
 msgid "Review"
 msgstr "Revisar"
 
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "¡Oh, no!"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Se produjo un error."
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "No se encontró la página que buscabas."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Error al cargar más"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Intentar de nuevo"
+
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
 msgstr "Icono de app"
@@ -212,26 +232,6 @@ msgstr "Versiones de esta app"
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "¡Oh, no!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "No se encontró la página que buscabas."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Se produjo un error."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Error al cargar más"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Intentar de nuevo"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

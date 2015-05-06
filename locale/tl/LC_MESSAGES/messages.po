@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-01T15:20:27.964Z\n"
+"POT-Creation-Date: 2015-05-06T15:31:38.350Z\n"
 "PO-Revision-Date: 2015-04-29 10:00+0000\n"
 "Last-Translator: RoseShaneGil <lopez.rsg@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,6 +25,18 @@ msgstr "Hindi"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Oo"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Communication Dashboard"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Sign Out"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Sign In"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -80,17 +92,9 @@ msgstr "Kailangan mong mag-sign in para magpatuloy."
 msgid "Sign in / Sign up"
 msgstr "Sign in / Sign up"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Communication Dashboard"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Sign Out"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Sign In"
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Walang talaan na makita"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
@@ -99,10 +103,6 @@ msgstr "Attachment"
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
 msgstr "Deskripsyon ng File"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Walang talaan na makita"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -162,6 +162,26 @@ msgstr "Mag-unsubscribe"
 msgid "Review"
 msgstr "Suriin"
 
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "Naku!"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr ""
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Ang pahina na iyong hinahanap ay hindi makita."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr ""
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Subukan Muli"
+
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
 msgstr "App icon"
@@ -210,26 +230,6 @@ msgstr ""
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr ""
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Naku!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Ang pahina na iyong hinahanap ay hindi makita."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr ""
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr ""
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Subukan Muli"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

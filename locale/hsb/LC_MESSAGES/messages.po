@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-01T15:20:27.964Z\n"
+"POT-Creation-Date: 2015-05-06T15:31:38.350Z\n"
 "PO-Revision-Date: 2015-03-04 22:09+0000\n"
 "Last-Translator: milupo <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,6 +25,18 @@ msgstr "Ně"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Haj"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Komunikaciski přehlad"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Wotzjewić"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Přizjewić"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -82,17 +94,9 @@ msgstr "Dyrbiće so přizjewić, zo byšće pokročował."
 msgid "Sign in / Sign up"
 msgstr "Přizjewić / Registrować"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Komunikaciski přehlad"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Wotzjewić"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Přizjewić"
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Žane noticy namakane"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
@@ -101,10 +105,6 @@ msgstr "Přiwěšk"
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
 msgstr "Datajowe wopisanje"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Žane noticy namakane"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -166,6 +166,26 @@ msgstr "Wotskazać"
 msgid "Review"
 msgstr "Přepruwować"
 
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "Ow ně!"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Zmylk je wustupił."
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Strona, kotruž pytaće, njeje so namakała."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Zmylk při začitowanju dalšich informacijow"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Hišće raz spytać"
+
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
 msgstr "Nałoženski symbol"
@@ -214,26 +234,6 @@ msgstr "Wersije tutoho nałoženja"
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr "v {version_number}"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Ow ně!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Strona, kotruž pytaće, njeje so namakała."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Zmylk je wustupił."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Zmylk při začitowanju dalšich informacijow"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Hišće raz spytać"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

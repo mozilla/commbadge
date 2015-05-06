@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-01T15:20:27.964Z\n"
+"POT-Creation-Date: 2015-05-06T15:31:38.350Z\n"
 "PO-Revision-Date: 2015-05-02 12:28+0000\n"
 "Last-Translator: Benoit <benoit.leseul@gmail.com>\n"
 "Language-Team: français <>\n"
@@ -28,6 +28,18 @@ msgstr "Non"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Oui"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Tableau de bord de communication"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Déconnexion"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Connexion"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -85,17 +97,9 @@ msgstr "Vous devez vous identifier pour continuer."
 msgid "Sign in / Sign up"
 msgstr "Connexion / Inscription"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Tableau de bord de communication"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Déconnexion"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Connexion"
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Aucune note trouvée"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
@@ -104,10 +108,6 @@ msgstr "Pièce jointe"
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
 msgstr "Description du fichier"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Aucune note trouvée"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -167,6 +167,26 @@ msgstr "Désinscription"
 msgid "Review"
 msgstr "Révision"
 
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "Oh non !"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Une erreur est survenue."
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "La page que vous avez demandé n'a pas été trouvée."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Erreur pendant le chargement"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Réessayez"
+
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
 msgstr "Icône de l'application"
@@ -215,26 +235,6 @@ msgstr "Les versions de cette application"
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Oh non !"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "La page que vous avez demandé n'a pas été trouvée."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Une erreur est survenue."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Erreur pendant le chargement"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Réessayez"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

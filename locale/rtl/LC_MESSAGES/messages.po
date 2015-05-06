@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-01T15:20:27.964Z\n"
+"POT-Creation-Date: 2015-05-06T15:31:38.350Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,6 +24,18 @@ msgstr "‮No"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "‮⅄ǝs"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "‮Ↄoɯɯnuıɔɐʇıou ᗡɐsɥqoɐɹp"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "‮Sıƃu Onʇ"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "‮Sıƃu Iu"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -82,17 +94,11 @@ msgstr "‮⅄on ɯnsʇ sıƃu ıu ʇo dɹoɔǝǝp˙"
 msgid "Sign in / Sign up"
 msgstr "‮Sıƃu ıu / Sıƃu nd"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "‮Ↄoɯɯnuıɔɐʇıou ᗡɐsɥqoɐɹp"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "‮Sıƃu Onʇ"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "‮Sıƃu Iu"
+#: /templates/_macros/create_thread.html:10
+#: /templates/_macros/thread.html:15
+#: /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "‮No uoʇǝs ɟonup"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
@@ -101,12 +107,6 @@ msgstr "‮∀ʇʇɐɔɥɯǝuʇ"
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
 msgstr "‮Ⅎıʅǝ ᗡǝsɔɹıdʇıou"
-
-#: /templates/_macros/create_thread.html:10
-#: /templates/_macros/thread.html:15
-#: /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "‮No uoʇǝs ɟonup"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -169,6 +169,27 @@ msgstr "‮∩usnqsɔɹıqǝ"
 msgid "Review"
 msgstr "‮ᴚǝʌıǝʍ"
 
+#: /templates/errors/fragment.html:1
+#: /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "‮Oɥ uo¡"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "‮∀u ǝɹɹoɹ oɔɔnɹɹǝp˙"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "‮⊥ɥǝ dɐƃǝ ʎon ʍǝɹǝ ʅooʞıuƃ ɟoɹ ʍɐs uoʇ ɟonup˙"
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "‮Ǝɹɹoɹ ʅoɐpıuƃ ɯoɹǝ"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "‮⊥ɹʎ ∀ƃɐıu"
+
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
 msgstr "‮∀dd ıɔou"
@@ -217,27 +238,6 @@ msgstr "‮⊥ɥıs ∀dd,s Ʌǝɹsıous"
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr "‮ʌ˙{ʌǝɹsıou_unɯqǝɹ}"
-
-#: /templates/errors/404.html:2
-#: /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "‮Oɥ uo¡"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "‮⊥ɥǝ dɐƃǝ ʎon ʍǝɹǝ ʅooʞıuƃ ɟoɹ ʍɐs uoʇ ɟonup˙"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "‮∀u ǝɹɹoɹ oɔɔnɹɹǝp˙"
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "‮Ǝɹɹoɹ ʅoɐpıuƃ ɯoɹǝ"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "‮⊥ɹʎ ∀ƃɐıu"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

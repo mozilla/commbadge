@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AMO Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-01T15:20:27.964Z\n"
+"POT-Creation-Date: 2015-05-06T15:31:38.350Z\n"
 "PO-Revision-Date: 2015-03-23 09:16+0000\n"
 "Last-Translator: Стоян <stoyan@gmx.com>\n"
 "Language-Team: Bulgarian (bg)\n"
@@ -25,6 +25,18 @@ msgstr "Не"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Да"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Комуникационно табло"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Изход"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Вписване"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -82,17 +94,9 @@ msgstr "Трябва да се впишете, за да продължите."
 msgid "Sign in / Sign up"
 msgstr "Вписване / Регистрация"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Комуникационно табло"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Изход"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Вписване"
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Няма намерени бележки"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
@@ -101,10 +105,6 @@ msgstr "Прикачен файл"
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
 msgstr "Описание на файла"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Няма намерени бележки"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -164,6 +164,26 @@ msgstr "Отмяна абонамент"
 msgid "Review"
 msgstr "Рецензия"
 
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "О, не!"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Възникна грешка."
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Страницата, която търсите не бе намерена."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Грешка при зареждането"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Опитай отново"
+
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
 msgstr "Икона на приложението"
@@ -212,26 +232,6 @@ msgstr "Версиите на това приложение"
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "О, не!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Страницата, която търсите не бе намерена."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Възникна грешка."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Грешка при зареждането"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Опитай отново"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

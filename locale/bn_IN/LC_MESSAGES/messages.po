@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-01T15:20:27.964Z\n"
+"POT-Creation-Date: 2015-05-06T15:31:38.350Z\n"
 "PO-Revision-Date: 2015-01-20 10:42+0000\n"
 "Last-Translator: Ayan <ayay700@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,6 +25,18 @@ msgstr "না"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "হ্যাঁ"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "যোগাযোগের ড্যাশবোর্ড"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "সাইন আউট"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "সাইন ইন"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -82,17 +94,9 @@ msgstr "আপনাকে এগিয়ে যেতে সাইন ইন �
 msgid "Sign in / Sign up"
 msgstr "সাইন ইন / সাইন আপ করুন"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "যোগাযোগের ড্যাশবোর্ড"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "সাইন আউট"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "সাইন ইন"
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "কোন নোটা পাওয়া যায়নি"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
@@ -101,10 +105,6 @@ msgstr "সংযুক্তি"
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
 msgstr "ফাইলর বিবরণ"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "কোন নোটা পাওয়া যায়নি"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -164,6 +164,26 @@ msgstr "আনসাবস্ক্রাইব"
 msgid "Review"
 msgstr "পর্যালোচনা"
 
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "ওহ না!"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "সমস্যা দেখা দিয়েছে।"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "আপনি যেই পাতা খুজছিলেন সেটি পাওয়া জায়েনি।"
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "ত্রুটি লোড হচ্ছে আরও"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "পুনরায় চেষ্টা করুন"
+
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
 msgstr "অ্যাপ আইকন"
@@ -212,26 +232,6 @@ msgstr "এই অ্যাপ এর সংস্করণ"
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "ওহ না!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "আপনি যেই পাতা খুজছিলেন সেটি পাওয়া জায়েনি।"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "সমস্যা দেখা দিয়েছে।"
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "ত্রুটি লোড হচ্ছে আরও"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "পুনরায় চেষ্টা করুন"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-01T15:20:27.964Z\n"
+"POT-Creation-Date: 2015-05-06T15:31:38.350Z\n"
 "PO-Revision-Date: 2015-04-28 23:00+0000\n"
 "Last-Translator: Ibai <ibai@oihanguren.com>\n"
 "Language-Team: 89578-OEM-7332157-00211\n"
@@ -26,6 +26,18 @@ msgstr "Ez"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Bai"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Komunikazio-panela"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Amaitu saioa"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Hasi saioa"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -83,17 +95,9 @@ msgstr "Saioa hasi behar duzu jarraitu ahal izateko."
 msgid "Sign in / Sign up"
 msgstr "Hasi saioa / Eman izena"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Komunikazio-panela"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Amaitu saioa"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Hasi saioa"
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Ez da oharrik aurkitu"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
@@ -102,10 +106,6 @@ msgstr "Eranskina"
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
 msgstr "Fitxategiaren deskribapena"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Ez da oharrik aurkitu"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -165,6 +165,26 @@ msgstr "Eten harpidetza"
 msgid "Review"
 msgstr "Berrikusi"
 
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "O ez!"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Errore bat gertatu da."
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Bilatzen ari zinen orria ez da aurkitu."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Errorea gehiago kargatzean"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Saiatu berriro"
+
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
 msgstr "Aplikazioaren ikonoa"
@@ -213,26 +233,6 @@ msgstr "Aplikazio honen bertsioak"
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "O ez!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Bilatzen ari zinen orria ez da aurkitu."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Errore bat gertatu da."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Errorea gehiago kargatzean"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Saiatu berriro"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

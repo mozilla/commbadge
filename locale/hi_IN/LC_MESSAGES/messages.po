@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-01T15:20:27.964Z\n"
+"POT-Creation-Date: 2015-05-06T15:31:38.350Z\n"
 "PO-Revision-Date: 2015-03-22 15:33+0000\n"
 "Last-Translator: Chandan <cbaba20@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,6 +25,18 @@ msgstr "नहीं"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "हाँ"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "संचार डैशबोर्ड"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "साइन आउट"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "साइन इन"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -82,17 +94,9 @@ msgstr "आगे बढ़ना के लियें साइन इन क
 msgid "Sign in / Sign up"
 msgstr "साइन इन / साइन अप"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "संचार डैशबोर्ड"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "साइन आउट"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "साइन इन"
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "कोई नोट्स नहीं पाया गया"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
@@ -101,10 +105,6 @@ msgstr "अनुलग्नक"
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
 msgstr "फाइल विवरण"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "कोई नोट्स नहीं पाया गया"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -164,6 +164,26 @@ msgstr "सदस्यता रद्द"
 msgid "Review"
 msgstr "समीक्षा"
 
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "अरे नहीं!"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "एक त्रुटि उत्पन्न हुई."
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "आप जो पृष्ठ देख रहे थे वह नहीं मिला था."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "अधिक लोड करने में त्रुटि"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "पुन: प्रयास करें"
+
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
 msgstr "एप्प्स आइकन"
@@ -212,26 +232,6 @@ msgstr "इस एप्लिकेशन के संस्करण"
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "अरे नहीं!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "आप जो पृष्ठ देख रहे थे वह नहीं मिला था."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "एक त्रुटि उत्पन्न हुई."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "अधिक लोड करने में त्रुटि"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "पुन: प्रयास करें"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

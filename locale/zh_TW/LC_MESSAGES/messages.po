@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-01T15:20:27.964Z\n"
+"POT-Creation-Date: 2015-05-06T15:31:38.350Z\n"
 "PO-Revision-Date: 2015-03-04 22:38+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: MozTW <petercpg@mail.moztw.org>\n"
@@ -26,6 +26,18 @@ msgstr "否"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "是"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "傳播主控台"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "登出"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "登入"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -81,17 +93,9 @@ msgstr "您必須登入才能繼續。"
 msgid "Sign in / Sign up"
 msgstr "登入 / 註冊"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "傳播主控台"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "登出"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "登入"
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "找不到筆記"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
@@ -100,10 +104,6 @@ msgstr "附件"
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
 msgstr "檔案描述"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "找不到筆記"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -162,6 +162,26 @@ msgstr "取消訂閱"
 msgid "Review"
 msgstr "評論"
 
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "喔不！"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "發生錯誤。"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "找不到您想開啟的頁面。"
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "載入更多時發生錯誤"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "重試"
+
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
 msgstr "應用程式圖示"
@@ -210,26 +230,6 @@ msgstr "此應用程式的版本"
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "喔不！"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "找不到您想開啟的頁面。"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "發生錯誤。"
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "載入更多時發生錯誤"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "重試"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

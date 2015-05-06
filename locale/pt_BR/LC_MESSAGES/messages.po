@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-01T15:20:27.964Z\n"
+"POT-Creation-Date: 2015-05-06T15:31:38.350Z\n"
 "PO-Revision-Date: 2015-03-04 23:52+0000\n"
 "Last-Translator: Marco Aurélio <ouesten@me.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,6 +25,18 @@ msgstr "Não"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Sim"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Painel de comunicação"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Sair"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Entrar"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -82,17 +94,9 @@ msgstr "Você deve entrar para prosseguir."
 msgid "Sign in / Sign up"
 msgstr "Entrar / Registrar"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Painel de comunicação"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Sair"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Entrar"
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Nenhuma nota foi encontrada"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
@@ -101,10 +105,6 @@ msgstr "Anexo"
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
 msgstr "Descrição do arquivo"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Nenhuma nota foi encontrada"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -164,6 +164,26 @@ msgstr "Desinscrever"
 msgid "Review"
 msgstr "Revisar"
 
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "Oh, não!"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Ocorreu um erro."
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "A página procurada não foi encontrada."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Erro ao carregar mais"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Tente novamente"
+
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
 msgstr "Ícone do aplicativo"
@@ -212,26 +232,6 @@ msgstr "Versões deste aplicativo"
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Oh, não!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "A página procurada não foi encontrada."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Ocorreu um erro."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Erro ao carregar mais"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Tente novamente"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

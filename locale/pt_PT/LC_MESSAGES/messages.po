@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CommBadge\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-01T15:20:27.964Z\n"
+"POT-Creation-Date: 2015-05-06T15:31:38.350Z\n"
 "PO-Revision-Date: 2015-03-08 04:51+0000\n"
 "Last-Translator: Cláudio <cesperanc@gmail.com>\n"
 "Language-Team: pt_PT\n"
@@ -25,6 +25,18 @@ msgstr "Não"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Sim"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Painel de comunicação"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Terminar sessão"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Iniciar sessão"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -82,17 +94,9 @@ msgstr "Deve iniciar sessão para continuar."
 msgid "Sign in / Sign up"
 msgstr "Iniciar sessão / Criar conta"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Painel de comunicação"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Terminar sessão"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Iniciar sessão"
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Não foram encontradas notas"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
@@ -101,10 +105,6 @@ msgstr "Anexo"
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
 msgstr "Descrição do ficheiro"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Não foram encontradas notas"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -164,6 +164,26 @@ msgstr "Anular subscrição"
 msgid "Review"
 msgstr "Análise"
 
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "Oh não!"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Ocorreu um erro."
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "A página que procurava não foi encontrada."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Erro ao carregar mais"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Tentar novamente"
+
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
 msgstr "Ícone da aplicação"
@@ -212,26 +232,6 @@ msgstr "Versões desta aplicação"
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Oh não!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "A página que procurava não foi encontrada."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Ocorreu um erro."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Erro ao carregar mais"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Tentar novamente"
 
 #: /media/js/settings_app.js:24
 msgid "Message"
