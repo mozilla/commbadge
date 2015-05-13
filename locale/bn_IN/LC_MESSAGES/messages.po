@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-06T15:31:38.350Z\n"
+"POT-Creation-Date: 2015-05-13T15:38:26.551Z\n"
 "PO-Revision-Date: 2015-01-20 10:42+0000\n"
 "Last-Translator: Ayan <ayay700@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,30 +13,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1421750533.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "বন্ধ করা"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "না"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "হ্যাঁ"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "যোগাযোগের ড্যাশবোর্ড"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "সাইন আউট"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "সাইন ইন"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -82,6 +58,30 @@ msgstr "ব্যবহারের শর্তাবলী"
 msgid "Report Trademark Abuse"
 msgstr "ট্রেডমার্ক অপব্যবহার সম্বন্ধে রিপোর্ট"
 
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "যোগাযোগের ড্যাশবোর্ড"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "সাইন আউট"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "সাইন ইন"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "বন্ধ করা"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "না"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "হ্যাঁ"
+
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
 msgstr "সাইন ইন"
@@ -93,10 +93,6 @@ msgstr "আপনাকে এগিয়ে যেতে সাইন ইন �
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
 msgstr "সাইন ইন / সাইন আপ করুন"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "কোন নোটা পাওয়া যায়নি"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
@@ -121,6 +117,10 @@ msgstr "আরেকটি ফাইল সংযুক্ত করুন"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "পোষ্ট করুন"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "কোন নোটা পাওয়া যায়নি"
 
 #: /templates/_macros/thread.html:20
 msgid "View older"
@@ -163,26 +163,6 @@ msgstr "আনসাবস্ক্রাইব"
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
 msgstr "পর্যালোচনা"
-
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "ওহ না!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "সমস্যা দেখা দিয়েছে।"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "আপনি যেই পাতা খুজছিলেন সেটি পাওয়া জায়েনি।"
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "ত্রুটি লোড হচ্ছে আরও"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "পুনরায় চেষ্টা করুন"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
@@ -232,6 +212,26 @@ msgstr "এই অ্যাপ এর সংস্করণ"
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "ওহ না!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "আপনি যেই পাতা খুজছিলেন সেটি পাওয়া জায়েনি।"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "সমস্যা দেখা দিয়েছে।"
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "ত্রুটি লোড হচ্ছে আরও"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "পুনরায় চেষ্টা করুন"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

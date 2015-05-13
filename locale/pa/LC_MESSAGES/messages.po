@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-06T15:31:38.350Z\n"
+"POT-Creation-Date: 2015-05-13T15:38:26.551Z\n"
 "PO-Revision-Date: 2015-04-16 11:25+0000\n"
 "Last-Translator: Pirthi <pirthi.d@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,30 +13,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1) ;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1429183506.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "ਬੰਦ"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "ਨਹੀਂ"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "ਹਾਂ"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "ਸੰਚਾਰ ਡੈਸ਼ਬੋਰਡ"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "ਸਾਈਨ ਆਉਟ"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "ਸਾਈਨ ਇਨ"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -82,6 +58,30 @@ msgstr "ਵਰਤੋ ਦੇ ਅਧਾਰ"
 msgid "Report Trademark Abuse"
 msgstr "ਰੀਪੋਰਟ ਟਰੇਡਮਾਰਕ ਦੀ ਦੁਰਵਰਤੋ"
 
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "ਸੰਚਾਰ ਡੈਸ਼ਬੋਰਡ"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "ਸਾਈਨ ਆਉਟ"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "ਸਾਈਨ ਇਨ"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "ਬੰਦ"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "ਨਹੀਂ"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "ਹਾਂ"
+
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
 msgstr "ਸਾਈਨ ਇਨ"
@@ -93,10 +93,6 @@ msgstr "ਤੁਹਾਨੂੰ ਅੱਗੇ ਵਧਣ ਲਈ ਸਾਈਨ ਇਨ 
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
 msgstr "ਸਾਈਨ ਇਨ / ਸਾਈਨ ਅੱਪ"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "ਨੋਟਿਸ ਨਹੀ ਲੱਭੇ"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
@@ -121,6 +117,10 @@ msgstr "ਹੋਰ ਫਾਇਲ ਨੱਥੀ"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "ਪੋਸਟ"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "ਨੋਟਿਸ ਨਹੀ ਲੱਭੇ"
 
 #: /templates/_macros/thread.html:20
 msgid "View older"
@@ -163,26 +163,6 @@ msgstr "ਮੈਂਬਰੀ ਹਟਾਓ"
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
 msgstr "ਮੁਆਇਨਾ"
-
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "ਓਹ ਨਹੀਂ!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "ਇੱਕ ਗਲਤੀ ਆਈ ਹੈ"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "ਜੋ ਸਫ਼ਾ ਤਸੀ ਲੱਭ ਰਹੇ ਹੋ ਉਹ ਨਹੀ ਮਿਲਿਆ ਹੈ।"
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "ਲੋਡ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ ਹਈ ਹੈ"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
@@ -232,6 +212,26 @@ msgstr "ਇਹ ਐਪ ਦਾ ਵਰਜਨ"
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "ਓਹ ਨਹੀਂ!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "ਜੋ ਸਫ਼ਾ ਤਸੀ ਲੱਭ ਰਹੇ ਹੋ ਉਹ ਨਹੀ ਮਿਲਿਆ ਹੈ।"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "ਇੱਕ ਗਲਤੀ ਆਈ ਹੈ"
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "ਲੋਡ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ ਹਈ ਹੈ"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

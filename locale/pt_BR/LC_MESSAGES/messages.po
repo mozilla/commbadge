@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-06T15:31:38.350Z\n"
+"POT-Creation-Date: 2015-05-13T15:38:26.551Z\n"
 "PO-Revision-Date: 2015-03-04 23:52+0000\n"
 "Last-Translator: Marco Aurélio <ouesten@me.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,30 +13,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1425513160.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Fechar"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Não"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Sim"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Painel de comunicação"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Sair"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Entrar"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -82,6 +58,30 @@ msgstr "Termos de uso"
 msgid "Report Trademark Abuse"
 msgstr "Informar o uso indevido da marca"
 
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Painel de comunicação"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Sair"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Entrar"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Fechar"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Não"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Sim"
+
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
 msgstr "Entrar"
@@ -93,10 +93,6 @@ msgstr "Você deve entrar para prosseguir."
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
 msgstr "Entrar / Registrar"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Nenhuma nota foi encontrada"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
@@ -121,6 +117,10 @@ msgstr "Anexar outro arquivo"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "Publicar"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Nenhuma nota foi encontrada"
 
 #: /templates/_macros/thread.html:20
 msgid "View older"
@@ -163,26 +163,6 @@ msgstr "Desinscrever"
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
 msgstr "Revisar"
-
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "Oh, não!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Ocorreu um erro."
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "A página procurada não foi encontrada."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Erro ao carregar mais"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Tente novamente"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
@@ -232,6 +212,26 @@ msgstr "Versões deste aplicativo"
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Oh, não!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "A página procurada não foi encontrada."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Ocorreu um erro."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Erro ao carregar mais"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Tente novamente"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox Marketplace Communication Dashboard\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-06T15:31:38.350Z\n"
+"POT-Creation-Date: 2015-05-13T15:38:26.551Z\n"
 "PO-Revision-Date: 2015-03-05 17:15+0000\n"
 "Last-Translator: Andreas <az@kth.se>\n"
 "Language-Team: The Swedish l10n-team <community-sweden@lists.mozilla.org>\n"
@@ -13,30 +13,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1425575748.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Stäng"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Nej"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Ja"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Kommunikationsöversikt"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Logga ut"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Logga in"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -82,6 +58,30 @@ msgstr "Användarvillkor"
 msgid "Report Trademark Abuse"
 msgstr "Rapportera varumärkesintrång"
 
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Kommunikationsöversikt"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Logga ut"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Logga in"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Stäng"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Nej"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Ja"
+
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
 msgstr "Logga in"
@@ -93,10 +93,6 @@ msgstr "Du måste logga in för att fortsätta."
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
 msgstr "Logga in / Registrera dig"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Inga anteckningar hittades"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
@@ -121,6 +117,10 @@ msgstr "Bifoga en annan fil"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "Skicka"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Inga anteckningar hittades"
 
 #: /templates/_macros/thread.html:20
 msgid "View older"
@@ -163,26 +163,6 @@ msgstr "Avsluta prenumeration"
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
 msgstr "Omdöme"
-
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "Åh nej!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Ett fel uppstod."
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Sidan du letade efter kunde inte hittas."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Fel uppstod när mer skulle laddas"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Försök igen"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
@@ -232,6 +212,26 @@ msgstr "Denna App:s versioner"
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Åh nej!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Sidan du letade efter kunde inte hittas."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Ett fel uppstod."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Fel uppstod när mer skulle laddas"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Försök igen"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

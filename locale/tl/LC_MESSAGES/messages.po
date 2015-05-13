@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-06T15:31:38.350Z\n"
+"POT-Creation-Date: 2015-05-13T15:38:26.551Z\n"
 "PO-Revision-Date: 2015-04-29 10:00+0000\n"
 "Last-Translator: RoseShaneGil <lopez.rsg@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,30 +13,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);Content-Type: text/plain; charset=utf-8\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1430301638.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Isara"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Hindi"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Oo"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Communication Dashboard"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Sign Out"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Sign In"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -80,6 +56,30 @@ msgstr "Mga Tuntunin sa Paggamit"
 msgid "Report Trademark Abuse"
 msgstr "I-report ang Pang-aabuso sa Trademark"
 
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Communication Dashboard"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Sign Out"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Sign In"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Isara"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Hindi"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Oo"
+
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
 msgstr "Sign in"
@@ -91,10 +91,6 @@ msgstr "Kailangan mong mag-sign in para magpatuloy."
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
 msgstr "Sign in / Sign up"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Walang talaan na makita"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
@@ -119,6 +115,10 @@ msgstr "Mag-attach ng isa pang file"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "Ipaskil"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Walang talaan na makita"
 
 #: /templates/_macros/thread.html:20
 msgid "View older"
@@ -161,26 +161,6 @@ msgstr "Mag-unsubscribe"
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
 msgstr "Suriin"
-
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "Naku!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr ""
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Ang pahina na iyong hinahanap ay hindi makita."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr ""
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Subukan Muli"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
@@ -230,6 +210,26 @@ msgstr ""
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr ""
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Naku!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Ang pahina na iyong hinahanap ay hindi makita."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr ""
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr ""
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Subukan Muli"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

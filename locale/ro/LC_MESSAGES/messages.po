@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-06T15:31:38.350Z\n"
+"POT-Creation-Date: 2015-05-13T15:38:26.551Z\n"
 "PO-Revision-Date: 2014-03-31 19:52+0000\n"
 "Last-Translator: Raul <raul.malea@gmail.com>\n"
 "Language-Team: none\n"
@@ -13,30 +13,6 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1396295544.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Închide"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Nu"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Da"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr ""
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr ""
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr ""
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -80,6 +56,30 @@ msgstr "Termeni de utilizare"
 msgid "Report Trademark Abuse"
 msgstr ""
 
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr ""
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr ""
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr ""
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Închide"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Nu"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Da"
+
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
 msgstr ""
@@ -90,10 +90,6 @@ msgstr ""
 
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
-msgstr ""
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
 msgstr ""
 
 #: /templates/_includes/attachment_field.html:4
@@ -118,6 +114,10 @@ msgstr ""
 
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
+msgstr ""
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
 msgstr ""
 
 #: /templates/_macros/thread.html:20
@@ -161,26 +161,6 @@ msgstr ""
 
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
-msgstr ""
-
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr ""
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr ""
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr ""
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr ""
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
 msgstr ""
 
 #: /templates/comm/app_dashboard.html:6
@@ -230,6 +210,26 @@ msgstr ""
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
+msgstr ""
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr ""
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr ""
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr ""
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr ""
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
 msgstr ""
 
 #: /media/js/settings_app.js:24

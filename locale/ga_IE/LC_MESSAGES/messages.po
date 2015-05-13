@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fireplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-06T15:31:38.350Z\n"
+"POT-Creation-Date: 2015-05-13T15:38:26.551Z\n"
 "PO-Revision-Date: 2013-05-04 08:35-0500\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -12,30 +12,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : (n>2 && n<7) ? 2 :(n>6 && n<11) ? 3 : 4;\n"
 "X-Generator: Fireplace L10n Tools 1.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Dún"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Níl"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Tá"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr ""
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Logáil Amach"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Logáil Isteach"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -81,6 +57,30 @@ msgstr "Téarmaí Úsáide"
 msgid "Report Trademark Abuse"
 msgstr "Drochúsáid Trádmharcanna"
 
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr ""
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Logáil Amach"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Logáil Isteach"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Dún"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Níl"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Tá"
+
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
 msgstr ""
@@ -92,10 +92,6 @@ msgstr ""
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
 msgstr "Logáil Isteach / Cláraigh"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr ""
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
@@ -119,6 +115,10 @@ msgstr ""
 
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
+msgstr ""
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
 msgstr ""
 
 #: /templates/_macros/thread.html:20
@@ -165,26 +165,6 @@ msgstr ""
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
 msgstr ""
-
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "Ochón!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Tharla earráid."
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Níorbh fhéidir an leathanach a bhí uait a aimsiú."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Earráid agus tuilleadh á luchtú"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Déan Iarracht Eile"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
@@ -234,6 +214,26 @@ msgstr ""
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr ""
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Ochón!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Níorbh fhéidir an leathanach a bhí uait a aimsiú."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Tharla earráid."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Earráid agus tuilleadh á luchtú"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Déan Iarracht Eile"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

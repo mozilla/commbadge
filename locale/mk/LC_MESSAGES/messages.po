@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-06T15:31:38.350Z\n"
+"POT-Creation-Date: 2015-05-13T15:38:26.551Z\n"
 "PO-Revision-Date: 2014-04-05 13:39+0000\n"
 "Last-Translator: Goce <goce.mitevski@gmail.com>\n"
 "Language-Team: none\n"
@@ -13,30 +13,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1396705161.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Затвори"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Не"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Да"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Комуникација"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Одјава"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Најава"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -82,6 +58,30 @@ msgstr "Услови на употреба"
 msgid "Report Trademark Abuse"
 msgstr "Пријавете злоупотреба на трговска марка"
 
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Комуникација"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Одјава"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Најава"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Затвори"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Не"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Да"
+
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
 msgstr "Најавете се"
@@ -93,10 +93,6 @@ msgstr "Морате да се најавите за да продолжите."
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
 msgstr "Најава / Регистрација"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Нема белешки"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
@@ -121,6 +117,10 @@ msgstr ""
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "Испрати"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Нема белешки"
 
 #: /templates/_macros/thread.html:20
 msgid "View older"
@@ -163,26 +163,6 @@ msgstr ""
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
 msgstr "Рецензија"
-
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "О, не!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Настана грешка."
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Страницата што ја баравте не беше пронајдена."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Грешка при вчитување повеќе"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Повторно"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
@@ -232,6 +212,26 @@ msgstr ""
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr "в.{version_number}"
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "О, не!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Страницата што ја баравте не беше пронајдена."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Настана грешка."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Грешка при вчитување повеќе"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Повторно"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-06T15:31:38.350Z\n"
+"POT-Creation-Date: 2015-05-13T15:38:26.551Z\n"
 "PO-Revision-Date: 2015-03-22 15:33+0000\n"
 "Last-Translator: Chandan <cbaba20@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,30 +13,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1427038439.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "बंद करे"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "नहीं"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "हाँ"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "संचार डैशबोर्ड"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "साइन आउट"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "साइन इन"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -82,6 +58,30 @@ msgstr "उपयोग की शर्तों"
 msgid "Report Trademark Abuse"
 msgstr "ट्रेडमार्क दुरुपयोग रिपोर्ट करें"
 
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "संचार डैशबोर्ड"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "साइन आउट"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "साइन इन"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "बंद करे"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "नहीं"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "हाँ"
+
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
 msgstr "साइन इन"
@@ -93,10 +93,6 @@ msgstr "आगे बढ़ना के लियें साइन इन क
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
 msgstr "साइन इन / साइन अप"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "कोई नोट्स नहीं पाया गया"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
@@ -121,6 +117,10 @@ msgstr "एक और फाइल संलग्न करें"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "पोस्ट करें"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "कोई नोट्स नहीं पाया गया"
 
 #: /templates/_macros/thread.html:20
 msgid "View older"
@@ -163,26 +163,6 @@ msgstr "सदस्यता रद्द"
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
 msgstr "समीक्षा"
-
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "अरे नहीं!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "एक त्रुटि उत्पन्न हुई."
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "आप जो पृष्ठ देख रहे थे वह नहीं मिला था."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "अधिक लोड करने में त्रुटि"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "पुन: प्रयास करें"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
@@ -232,6 +212,26 @@ msgstr "इस एप्लिकेशन के संस्करण"
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "अरे नहीं!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "आप जो पृष्ठ देख रहे थे वह नहीं मिला था."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "एक त्रुटि उत्पन्न हुई."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "अधिक लोड करने में त्रुटि"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "पुन: प्रयास करें"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

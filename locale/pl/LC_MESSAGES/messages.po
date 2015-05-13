@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-06T15:31:38.350Z\n"
+"POT-Creation-Date: 2015-05-13T15:38:26.551Z\n"
 "PO-Revision-Date: 2015-03-09 13:32+0100\n"
 "Last-Translator: Wojciech Szczęsny\n"
 "Language-Team: Polish <team@aviary.pl>\n"
@@ -13,30 +13,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.4\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Zamknij"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Tak"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Nie"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Panel komunikacyjny"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Wyloguj"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Zaloguj"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -82,6 +58,30 @@ msgstr "Warunki korzystania"
 msgid "Report Trademark Abuse"
 msgstr "Nadużycie znaku towarowego"
 
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Panel komunikacyjny"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Wyloguj"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Zaloguj"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Zamknij"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Tak"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Nie"
+
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
 msgstr "Zaloguj się"
@@ -93,10 +93,6 @@ msgstr "Musisz zalogować się, aby kontynuować."
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
 msgstr "Logowanie / Rejestracja"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Nie znaleziono notatek"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
@@ -121,6 +117,10 @@ msgstr "Załącz kolejny plik"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "Wpis"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Nie znaleziono notatek"
 
 #: /templates/_macros/thread.html:20
 msgid "View older"
@@ -164,26 +164,6 @@ msgstr "Anuluj subskrypcję"
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
 msgstr "Sprawdzenie"
-
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "O nie!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Wystąpił błąd."
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Nie znaleziono poszukiwanej strony."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Nie udało się pobrać więcej"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Spróbuj ponownie"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
@@ -233,6 +213,26 @@ msgstr "Wersje tej aplikacji"
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "O nie!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Nie znaleziono poszukiwanej strony."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Wystąpił błąd."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Nie udało się pobrać więcej"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Spróbuj ponownie"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

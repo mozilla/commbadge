@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AMO Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-06T15:31:38.350Z\n"
+"POT-Creation-Date: 2015-05-13T15:38:26.551Z\n"
 "PO-Revision-Date: 2015-03-23 09:16+0000\n"
 "Last-Translator: Стоян <stoyan@gmx.com>\n"
 "Language-Team: Bulgarian (bg)\n"
@@ -13,30 +13,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1427102190.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Затваряне"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Не"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Да"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Комуникационно табло"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Изход"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Вписване"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -82,6 +58,30 @@ msgstr "Условия за ползване"
 msgid "Report Trademark Abuse"
 msgstr "Докладвай злоупотреба със запазена марка"
 
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Комуникационно табло"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Изход"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Вписване"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Затваряне"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Не"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Да"
+
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
 msgstr "Вписване"
@@ -93,10 +93,6 @@ msgstr "Трябва да се впишете, за да продължите."
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
 msgstr "Вписване / Регистрация"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Няма намерени бележки"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
@@ -121,6 +117,10 @@ msgstr "Прикачане на друг файл"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "Публикуване"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Няма намерени бележки"
 
 #: /templates/_macros/thread.html:20
 msgid "View older"
@@ -163,26 +163,6 @@ msgstr "Отмяна абонамент"
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
 msgstr "Рецензия"
-
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "О, не!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Възникна грешка."
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Страницата, която търсите не бе намерена."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Грешка при зареждането"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Опитай отново"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
@@ -232,6 +212,26 @@ msgstr "Версиите на това приложение"
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "О, не!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Страницата, която търсите не бе намерена."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Възникна грешка."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Грешка при зареждането"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Опитай отново"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

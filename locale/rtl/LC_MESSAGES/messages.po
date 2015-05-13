@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-06T15:31:38.350Z\n"
+"POT-Creation-Date: 2015-05-13T15:38:26.551Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,30 +12,6 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Fireplace L10n Tools 1.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "‮Ↄʅosǝ"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "‮No"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "‮⅄ǝs"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "‮Ↄoɯɯnuıɔɐʇıou ᗡɐsɥqoɐɹp"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "‮Sıƃu Onʇ"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "‮Sıƃu Iu"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -81,6 +57,30 @@ msgstr "‮⊥ǝɹɯs oɟ ∩sǝ"
 msgid "Report Trademark Abuse"
 msgstr "‮ᴚǝdoɹʇ ⊥ɹɐpǝɯɐɹʞ ∀qnsǝ"
 
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "‮Ↄoɯɯnuıɔɐʇıou ᗡɐsɥqoɐɹp"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "‮Sıƃu Onʇ"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "‮Sıƃu Iu"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "‮Ↄʅosǝ"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "‮No"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "‮⅄ǝs"
+
 #: /templates/login.html:2
 #: /media/js/views/login.js:12
 msgid "Sign in"
@@ -93,12 +93,6 @@ msgstr "‮⅄on ɯnsʇ sıƃu ıu ʇo dɹoɔǝǝp˙"
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
 msgstr "‮Sıƃu ıu / Sıƃu nd"
-
-#: /templates/_macros/create_thread.html:10
-#: /templates/_macros/thread.html:15
-#: /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "‮No uoʇǝs ɟonup"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
@@ -123,6 +117,12 @@ msgstr "‮∀ʇʇɐɔɥ ɐuoʇɥǝɹ ɟıʅǝ"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "‮Ԁosʇ"
+
+#: /templates/_macros/create_thread.html:10
+#: /templates/_macros/thread.html:15
+#: /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "‮No uoʇǝs ɟonup"
 
 #: /templates/_macros/thread.html:20
 msgid "View older"
@@ -168,27 +168,6 @@ msgstr "‮∩usnqsɔɹıqǝ"
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
 msgstr "‮ᴚǝʌıǝʍ"
-
-#: /templates/errors/fragment.html:1
-#: /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "‮Oɥ uo¡"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "‮∀u ǝɹɹoɹ oɔɔnɹɹǝp˙"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "‮⊥ɥǝ dɐƃǝ ʎon ʍǝɹǝ ʅooʞıuƃ ɟoɹ ʍɐs uoʇ ɟonup˙"
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "‮Ǝɹɹoɹ ʅoɐpıuƃ ɯoɹǝ"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "‮⊥ɹʎ ∀ƃɐıu"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
@@ -238,6 +217,27 @@ msgstr "‮⊥ɥıs ∀dd,s Ʌǝɹsıous"
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr "‮ʌ˙{ʌǝɹsıou_unɯqǝɹ}"
+
+#: /templates/errors/404.html:2
+#: /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "‮Oɥ uo¡"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "‮⊥ɥǝ dɐƃǝ ʎon ʍǝɹǝ ʅooʞıuƃ ɟoɹ ʍɐs uoʇ ɟonup˙"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "‮∀u ǝɹɹoɹ oɔɔnɹɹǝp˙"
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "‮Ǝɹɹoɹ ʅoɐpıuƃ ɯoɹǝ"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "‮⊥ɹʎ ∀ƃɐıu"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

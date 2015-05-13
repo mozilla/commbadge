@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-06T15:31:38.350Z\n"
+"POT-Creation-Date: 2015-05-13T15:38:26.551Z\n"
 "PO-Revision-Date: 2015-03-11 18:20+0000\n"
 "Last-Translator: yfdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,30 +13,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1426098054.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "关闭"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "否"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "是"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "交流主控台"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "登出"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "登录"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -80,6 +56,30 @@ msgstr "使用条款"
 msgid "Report Trademark Abuse"
 msgstr "回报商标滥用"
 
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "交流主控台"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "登出"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "登录"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "关闭"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "否"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "是"
+
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
 msgstr "登录"
@@ -91,10 +91,6 @@ msgstr "您必须登录才能继续。"
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
 msgstr "登录/注册"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "未找到笔记"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
@@ -119,6 +115,10 @@ msgstr "附加另一个文件"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "发表"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "未找到笔记"
 
 #: /templates/_macros/thread.html:20
 msgid "View older"
@@ -160,26 +160,6 @@ msgstr "取消订阅"
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
 msgstr "评论"
-
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "噢不！"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "发生了错误。"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "找不到您想打开的页面。"
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "载入更多内容时发生错误"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "重试"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
@@ -229,6 +209,26 @@ msgstr "此应用的版本"
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "噢不！"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "找不到您想打开的页面。"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "发生了错误。"
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "载入更多内容时发生错误"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "重试"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-06T15:31:38.350Z\n"
+"POT-Creation-Date: 2015-05-13T15:38:26.551Z\n"
 "PO-Revision-Date: 2015-03-04 22:29+0000\n"
 "Last-Translator: milupo <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,30 +13,6 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1425508183.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Zacyniś"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Ně"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Jo"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Komunikaciski pśeglěd"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Wótzjawiś"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Pśizjawiś"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -82,6 +58,30 @@ msgstr "Wužywańske wuměnjenja"
 msgid "Report Trademark Abuse"
 msgstr "Znjewužywanje wikoweje marki k wěsći daś"
 
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Komunikaciski pśeglěd"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Wótzjawiś"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Pśizjawiś"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Zacyniś"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Ně"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Jo"
+
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
 msgstr "Pśizjawiś"
@@ -93,10 +93,6 @@ msgstr "Musyśo se pśizjawiś, aby pókšacował."
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
 msgstr "Pśizjawiś / Registrěrowaś"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Žedne notice namakane"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
@@ -121,6 +117,10 @@ msgstr "Dalšnu dataju pśipowjesyś"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "Wótpósłaś"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Žedne notice namakane"
 
 #: /templates/_macros/thread.html:20
 msgid "View older"
@@ -165,26 +165,6 @@ msgstr "Wótskazaś"
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
 msgstr "Pśeglědowaś"
-
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "Ow ně!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Zmólka jo nastała."
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Bok, kótaryž pytaśo, njejo se namakał."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Zmólka pśi zacytowanju dalšnych informacijow"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Hyšći raz wopytaś"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
@@ -234,6 +214,26 @@ msgstr "Wersije toś togo nałoženja"
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr "v {version_number}"
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Ow ně!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Bok, kótaryž pytaśo, njejo se namakał."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Zmólka jo nastała."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Zmólka pśi zacytowanju dalšnych informacijow"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Hyšći raz wopytaś"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

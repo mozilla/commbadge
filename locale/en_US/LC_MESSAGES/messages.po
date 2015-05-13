@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-06T15:31:38.350Z\n"
+"POT-Creation-Date: 2015-05-13T15:38:26.551Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -12,30 +12,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Fireplace L10n Tools 1.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Close"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "No"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Yes"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Communication Dashboard"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Sign Out"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Sign In"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -81,6 +57,30 @@ msgstr "Terms of Use"
 msgid "Report Trademark Abuse"
 msgstr "Report Trademark Abuse"
 
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Communication Dashboard"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Sign Out"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Sign In"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Close"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "No"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Yes"
+
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
 msgstr "Sign in"
@@ -92,10 +92,6 @@ msgstr "You must sign in to proceed."
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
 msgstr "Sign in / Sign up"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "No notes found"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
@@ -120,6 +116,10 @@ msgstr "Attach another file"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "Post"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "No notes found"
 
 #: /templates/_macros/thread.html:20
 msgid "View older"
@@ -162,26 +162,6 @@ msgstr "Unsubscribe"
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
 msgstr "Review"
-
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "Oh no!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "An error occurred."
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "The page you were looking for was not found."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Error loading more"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Try Again"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
@@ -231,6 +211,26 @@ msgstr "This App's Versions"
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Oh no!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "The page you were looking for was not found."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "An error occurred."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Error loading more"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Try Again"
 
 #: /media/js/settings_app.js:24
 msgid "Message"
