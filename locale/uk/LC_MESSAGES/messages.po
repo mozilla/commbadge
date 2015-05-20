@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-13T15:38:26.551Z\n"
+"POT-Creation-Date: 2015-05-20T17:14:33.349Z\n"
 "PO-Revision-Date: 2015-03-06 08:24+0000\n"
 "Last-Translator: Artem <a.polivanchuk@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,6 +13,18 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1425630246.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Закрити"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Ні"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Так"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -70,18 +82,6 @@ msgstr "Вийти"
 msgid "Sign In"
 msgstr "Увійти"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Закрити"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Ні"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Так"
-
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
 msgstr "Увійти"
@@ -94,77 +94,6 @@ msgstr "Ви повинні увійти для продовження."
 msgid "Sign in / Sign up"
 msgstr "Вхід / Реєстрація"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Прикріплення"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Опис файлу"
-
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Введіть текст замітки тут"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Прикріпіть знімки екрану і файли журналу:"
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Прикріпити інший файл"
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Розмістити"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Заміток не знайдено"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Показати старіші"
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} (Версія {version_number})"
-
-#: /templates/_macros/thread_header.html:19
-msgid "Deleted App"
-msgstr "Видалена програма"
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "(Застаріле)"
-
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:60
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} замітка"
-msgstr[1] "{n} замітки"
-msgstr[2] "{n} заміток"
-
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
-msgid "Reply"
-msgstr "Відповісти"
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "Нещодавні"
-
-#: /templates/_macros/thread_header.html:43
-msgid "View App"
-msgstr "Дивитись програму"
-
-#: /templates/_macros/thread_header.html:47
-msgid "Unsubscribe"
-msgstr "Відписатись"
-
-#: /templates/_macros/thread_header.html:50
-msgid "Review"
-msgstr "Рецензія"
-
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
 msgstr "Іконка програми"
@@ -176,6 +105,10 @@ msgstr "Перегляд всіх обговорень для {app_name}"
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
 msgstr "Повернутися до сторінки редагування програми"
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr "Заміток не знайдено"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -233,6 +166,73 @@ msgstr "Помилка подальшого завантаження"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Спробувати знову"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Прикріплення"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Опис файлу"
+
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Введіть текст замітки тут"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Прикріпіть знімки екрану і файли журналу:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Прикріпити інший файл"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Розмістити"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Показати старіші"
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} (Версія {version_number})"
+
+#: /templates/_macros/thread_header.html:19
+msgid "Deleted App"
+msgstr "Видалена програма"
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "(Застаріле)"
+
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:60
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} замітка"
+msgstr[1] "{n} замітки"
+msgstr[2] "{n} заміток"
+
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
+msgid "Reply"
+msgstr "Відповісти"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "Нещодавні"
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr "Дивитись програму"
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "Відписатись"
+
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "Рецензія"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

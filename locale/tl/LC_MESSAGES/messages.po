@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-13T15:38:26.551Z\n"
+"POT-Creation-Date: 2015-05-20T17:14:33.349Z\n"
 "PO-Revision-Date: 2015-04-29 10:00+0000\n"
 "Last-Translator: RoseShaneGil <lopez.rsg@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,6 +13,18 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);Content-Type: text/plain; charset=utf-8\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1430301638.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Isara"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Hindi"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Oo"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -68,18 +80,6 @@ msgstr "Sign Out"
 msgid "Sign In"
 msgstr "Sign In"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Isara"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Hindi"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Oo"
-
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
 msgstr "Sign in"
@@ -92,76 +92,6 @@ msgstr "Kailangan mong mag-sign in para magpatuloy."
 msgid "Sign in / Sign up"
 msgstr "Sign in / Sign up"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Attachment"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Deskripsyon ng File"
-
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Itala ang mga salita dito"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "I-attach ang screenshots at log files:"
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Mag-attach ng isa pang file"
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Ipaskil"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Walang talaan na makita"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Tingnan ang mas luma"
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} (Version {version_number})"
-
-#: /templates/_macros/thread_header.html:19
-msgid "Deleted App"
-msgstr "Inalis na App"
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "(Obsolete)"
-
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:60
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} note"
-msgstr[1] "{n} notes"
-
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
-msgid "Reply"
-msgstr "Tugon"
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "Kamakailan lamang"
-
-#: /templates/_macros/thread_header.html:43
-msgid "View App"
-msgstr "Tingnan ang App"
-
-#: /templates/_macros/thread_header.html:47
-msgid "Unsubscribe"
-msgstr "Mag-unsubscribe"
-
-#: /templates/_macros/thread_header.html:50
-msgid "Review"
-msgstr "Suriin"
-
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
 msgstr "App icon"
@@ -173,6 +103,10 @@ msgstr ""
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
 msgstr ""
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr "Walang talaan na makita"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -230,6 +164,72 @@ msgstr ""
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Subukan Muli"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Attachment"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Deskripsyon ng File"
+
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Itala ang mga salita dito"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "I-attach ang screenshots at log files:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Mag-attach ng isa pang file"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Ipaskil"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Tingnan ang mas luma"
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} (Version {version_number})"
+
+#: /templates/_macros/thread_header.html:19
+msgid "Deleted App"
+msgstr "Inalis na App"
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "(Obsolete)"
+
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:60
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} note"
+msgstr[1] "{n} notes"
+
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
+msgid "Reply"
+msgstr "Tugon"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "Kamakailan lamang"
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr "Tingnan ang App"
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "Mag-unsubscribe"
+
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "Suriin"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

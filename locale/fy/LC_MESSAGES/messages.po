@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-13T15:38:26.551Z\n"
+"POT-Creation-Date: 2015-05-20T17:14:33.349Z\n"
 "PO-Revision-Date: 2015-04-01 08:46+0000\n"
 "Last-Translator: Wim <fryskefirefox@gmail.com>\n"
 "Language-Team: FRISIAN <LL@li.org>\n"
@@ -13,6 +13,18 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1427878005.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Slute"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Nee"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Ja"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -70,18 +82,6 @@ msgstr "Ofmelde"
 msgid "Sign In"
 msgstr "Oanmelde"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Slute"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Nee"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Ja"
-
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
 msgstr "Oanmelde"
@@ -94,77 +94,6 @@ msgstr "Jo moatte jo oanmelde om troch te gean."
 msgid "Sign in / Sign up"
 msgstr "Oanmelde / registrearje"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Bylage"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Bestânsbeskriuwing"
-
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Fier hjir de tekst yn"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Foegje skermôfbyldingen en lochbestannen by:"
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Noch in bestân tafoegje"
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Pleatse"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Gjin opmerkingen fûn"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Aldere werjaan"
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} (ferzje {version_number})"
-
-#: /templates/_macros/thread_header.html:19
-msgid "Deleted App"
-msgstr "Fuortsmiten app"
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "(Ferâldere)"
-
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:60
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} opmerking"
-msgstr[1] "{n} opmerkingen"
-
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
-msgid "Reply"
-msgstr "Beantwurdzje"
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "Resint"
-
-#: /templates/_macros/thread_header.html:43
-msgid "View App"
-msgstr "App werjaan"
-
-#: /templates/_macros/thread_header.html:47
-msgid "Unsubscribe"
-msgstr "Utskriuwe"
-
-# verb or noun?
-#: /templates/_macros/thread_header.html:50
-msgid "Review"
-msgstr "Beoardiele"
-
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
 msgstr "App-piktogram"
@@ -176,6 +105,10 @@ msgstr "Alle konversaasjes foar {app_name}"
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
 msgstr "Tebek nei app-bewurkingsside"
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr "Gjin opmerkingen fûn"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -234,6 +167,73 @@ msgstr "Flater by laden fan mear"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Opnij probearje"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Bylage"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Bestânsbeskriuwing"
+
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Fier hjir de tekst yn"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Foegje skermôfbyldingen en lochbestannen by:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Noch in bestân tafoegje"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Pleatse"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Aldere werjaan"
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} (ferzje {version_number})"
+
+#: /templates/_macros/thread_header.html:19
+msgid "Deleted App"
+msgstr "Fuortsmiten app"
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "(Ferâldere)"
+
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:60
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} opmerking"
+msgstr[1] "{n} opmerkingen"
+
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
+msgid "Reply"
+msgstr "Beantwurdzje"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "Resint"
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr "App werjaan"
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "Utskriuwe"
+
+# verb or noun?
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "Beoardiele"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

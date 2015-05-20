@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-13T15:38:26.551Z\n"
+"POT-Creation-Date: 2015-05-20T17:14:33.349Z\n"
 "PO-Revision-Date: 2014-08-15 05:46+0000\n"
 "Last-Translator: Channy <channy@mozilla.or.kr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,6 +13,18 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1408081597.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "닫기"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "아니오"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "예"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -70,18 +82,6 @@ msgstr "로그아웃"
 msgid "Sign In"
 msgstr "로그인"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "닫기"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "아니오"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "예"
-
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
 msgstr "로그인"
@@ -94,75 +94,6 @@ msgstr "진행을 위해서 로그인을 해야 합니다."
 msgid "Sign in / Sign up"
 msgstr "로그인 / 회원 가입"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "첨부 파일"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "파일 설명"
-
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "여기에 메모를 입력"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "스크린샷 및 로그 파일 첨부:"
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "다른 파일 첨부"
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "올리기"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "소개 내용 없음"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "이전 보기"
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} (버전 {version_number})"
-
-#: /templates/_macros/thread_header.html:19
-msgid "Deleted App"
-msgstr ""
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "(중단됨)"
-
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:60
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} 주의"
-
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
-msgid "Reply"
-msgstr "댓글"
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "최근"
-
-#: /templates/_macros/thread_header.html:43
-msgid "View App"
-msgstr "앱 보기"
-
-#: /templates/_macros/thread_header.html:47
-msgid "Unsubscribe"
-msgstr "구독 해지"
-
-#: /templates/_macros/thread_header.html:50
-msgid "Review"
-msgstr "리뷰"
-
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
 msgstr "앱 아이콘"
@@ -174,6 +105,10 @@ msgstr "{app_name}에 대한 글타래 모두 보기"
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
 msgstr "앱 편집 페이지 가기"
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr "소개 내용 없음"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -231,6 +166,71 @@ msgstr "더 불러오는 중 오류 발생"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "다시 시도"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "첨부 파일"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "파일 설명"
+
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "여기에 메모를 입력"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "스크린샷 및 로그 파일 첨부:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "다른 파일 첨부"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "올리기"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "이전 보기"
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} (버전 {version_number})"
+
+#: /templates/_macros/thread_header.html:19
+msgid "Deleted App"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "(중단됨)"
+
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:60
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} 주의"
+
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
+msgid "Reply"
+msgstr "댓글"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "최근"
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr "앱 보기"
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "구독 해지"
+
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "리뷰"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-13T15:38:26.551Z\n"
+"POT-Creation-Date: 2015-05-20T17:14:33.349Z\n"
 "PO-Revision-Date: 2015-04-16 11:25+0000\n"
 "Last-Translator: Pirthi <pirthi.d@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,6 +13,18 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1) ;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1429183506.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "ਬੰਦ"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "ਨਹੀਂ"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "ਹਾਂ"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -70,18 +82,6 @@ msgstr "ਸਾਈਨ ਆਉਟ"
 msgid "Sign In"
 msgstr "ਸਾਈਨ ਇਨ"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "ਬੰਦ"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "ਨਹੀਂ"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "ਹਾਂ"
-
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
 msgstr "ਸਾਈਨ ਇਨ"
@@ -94,76 +94,6 @@ msgstr "ਤੁਹਾਨੂੰ ਅੱਗੇ ਵਧਣ ਲਈ ਸਾਈਨ ਇਨ 
 msgid "Sign in / Sign up"
 msgstr "ਸਾਈਨ ਇਨ / ਸਾਈਨ ਅੱਪ"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "ਨੱਥੀ"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "ਫਾਇਲ ਵੇਰਵਾ"
-
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "ਇੱਥੇ ਨੋਟ ਟੈਕਸਟ ਦਾਖਲ ਕਰੋ"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "ਸਕਰੀਨਸ਼ਾਟ ਅਤੇ ਲਾਗ ਫਾਇਲਾਂ ਨੱਥੀ:"
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "ਹੋਰ ਫਾਇਲ ਨੱਥੀ"
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "ਪੋਸਟ"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "ਨੋਟਿਸ ਨਹੀ ਲੱਭੇ"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "ਪੁਰਾਣਾ ਵੇਖੋ"
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} (ਵਰਜਨ {version_number}"
-
-#: /templates/_macros/thread_header.html:19
-msgid "Deleted App"
-msgstr "ਐਪ ਹਟਾਈ ਗਈ ਹੈ"
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "(ਬਰਤਰਫ਼)"
-
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:60
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} ਨੋਟਿਸ{n} ਨੋਟਿਸ"
-msgstr[1] ""
-
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
-msgid "Reply"
-msgstr "ਉੱਤਰ"
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "ਤਾਜਾ"
-
-#: /templates/_macros/thread_header.html:43
-msgid "View App"
-msgstr "ਐਪ ਵੇਖੋ"
-
-#: /templates/_macros/thread_header.html:47
-msgid "Unsubscribe"
-msgstr "ਮੈਂਬਰੀ ਹਟਾਓ"
-
-#: /templates/_macros/thread_header.html:50
-msgid "Review"
-msgstr "ਮੁਆਇਨਾ"
-
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
 msgstr "ਐਪ ਆਈਕਾਨ"
@@ -175,6 +105,10 @@ msgstr "{app_name} ਲਈ ਸਭ ਥਰੈੱਡ ਵੈਖੋ"
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
 msgstr "ਐਪ ਸੋਧ ਸਫ਼ੇ ਉੱਤੇ ਵਾਪਿਸ ਜਾਓ"
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr "ਨੋਟਿਸ ਨਹੀ ਲੱਭੇ"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -232,6 +166,72 @@ msgstr "ਲੋਡ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ ਹਈ ਹੈ"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "ਨੱਥੀ"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "ਫਾਇਲ ਵੇਰਵਾ"
+
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "ਇੱਥੇ ਨੋਟ ਟੈਕਸਟ ਦਾਖਲ ਕਰੋ"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "ਸਕਰੀਨਸ਼ਾਟ ਅਤੇ ਲਾਗ ਫਾਇਲਾਂ ਨੱਥੀ:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "ਹੋਰ ਫਾਇਲ ਨੱਥੀ"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "ਪੋਸਟ"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "ਪੁਰਾਣਾ ਵੇਖੋ"
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} (ਵਰਜਨ {version_number}"
+
+#: /templates/_macros/thread_header.html:19
+msgid "Deleted App"
+msgstr "ਐਪ ਹਟਾਈ ਗਈ ਹੈ"
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "(ਬਰਤਰਫ਼)"
+
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:60
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} ਨੋਟਿਸ{n} ਨੋਟਿਸ"
+msgstr[1] ""
+
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
+msgid "Reply"
+msgstr "ਉੱਤਰ"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "ਤਾਜਾ"
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr "ਐਪ ਵੇਖੋ"
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "ਮੈਂਬਰੀ ਹਟਾਓ"
+
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "ਮੁਆਇਨਾ"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-13T15:38:26.551Z\n"
+"POT-Creation-Date: 2015-05-20T17:14:33.349Z\n"
 "PO-Revision-Date: 2013-10-23 18:51+0000\n"
 "Last-Translator: Toni <toniher@softcatala.org>\n"
 "Language-Team: Catalan <ca@dodds.net>\n"
@@ -14,6 +14,18 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1382554264.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Tanca"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "No"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Sí"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -71,18 +83,6 @@ msgstr "Finalitza la sessió"
 msgid "Sign In"
 msgstr "Inicia una sessió"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Tanca"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "No"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Sí"
-
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
 msgstr "Inici de sessió"
@@ -95,76 +95,6 @@ msgstr "Heu d'iniciar una sessió per procedir."
 msgid "Sign in / Sign up"
 msgstr "Inicia una sessió / Registre"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr ""
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr ""
-
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Introduïu el text de la nota aquí"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr ""
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr ""
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Publica"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr ""
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Mostra anterior"
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr ""
-
-#: /templates/_macros/thread_header.html:19
-msgid "Deleted App"
-msgstr ""
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr ""
-
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:60
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} nota"
-msgstr[1] "{n} notes"
-
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
-msgid "Reply"
-msgstr "Respon"
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "Recent"
-
-#: /templates/_macros/thread_header.html:43
-msgid "View App"
-msgstr ""
-
-#: /templates/_macros/thread_header.html:47
-msgid "Unsubscribe"
-msgstr ""
-
-#: /templates/_macros/thread_header.html:50
-msgid "Review"
-msgstr ""
-
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
 msgstr ""
@@ -175,6 +105,10 @@ msgstr ""
 
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
+msgstr ""
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
 msgstr ""
 
 #: /templates/comm/main.html:3
@@ -233,6 +167,72 @@ msgstr "Error en carregar més"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Torna-ho a provar"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr ""
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr ""
+
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Introduïu el text de la nota aquí"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr ""
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr ""
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Publica"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Mostra anterior"
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:19
+msgid "Deleted App"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:60
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} nota"
+msgstr[1] "{n} notes"
+
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
+msgid "Reply"
+msgstr "Respon"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "Recent"
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr ""
 
 #: /media/js/settings_app.js:24
 msgid "Message"

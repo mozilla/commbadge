@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-13T15:38:26.551Z\n"
+"POT-Creation-Date: 2015-05-20T17:14:33.349Z\n"
 "PO-Revision-Date: 2015-05-14 15:10+0000\n"
 "Last-Translator: Gábor <kelemeng@ubuntu.com>\n"
 "Language-Team: none\n"
@@ -13,6 +13,18 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n !=1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1431616234.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Bezárás"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Nem"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Igen"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -70,18 +82,6 @@ msgstr "Kijelentkezés"
 msgid "Sign In"
 msgstr "Bejelentkezés"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Bezárás"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Nem"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Igen"
-
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
 msgstr "Bejelentkezés"
@@ -94,76 +94,6 @@ msgstr "Be kell jelentkeznie a folytatáshoz."
 msgid "Sign in / Sign up"
 msgstr "Bejelentkezés/regisztráció"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Melléklet"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Fájl leírása"
-
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Írja ide a jegyzet szövegét"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Mellékletek és naplófájlok csatolása:"
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Másik fájl csatolása"
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Küldés"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Nincsenek jegyzetek"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Régebbi megjelenítése"
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} ({version_number} verzió)"
-
-#: /templates/_macros/thread_header.html:19
-msgid "Deleted App"
-msgstr "Törölt alkalmazás"
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "(elavult)"
-
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:60
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} jegyzet"
-msgstr[1] "{n} jegyzet"
-
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
-msgid "Reply"
-msgstr "Válasz"
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "Legutóbbi"
-
-#: /templates/_macros/thread_header.html:43
-msgid "View App"
-msgstr "App megjelenítése"
-
-#: /templates/_macros/thread_header.html:47
-msgid "Unsubscribe"
-msgstr "Leiratkozás"
-
-#: /templates/_macros/thread_header.html:50
-msgid "Review"
-msgstr "Jóváhagyás"
-
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
 msgstr "App ikon"
@@ -175,6 +105,10 @@ msgstr "{app_name} minden szálának megjelenítése"
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
 msgstr "Vissza az app szerkesztés oldalra"
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr "Nincsenek jegyzetek"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -232,6 +166,72 @@ msgstr "Hiba továbbiak betöltésekor"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Próbálja újra"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Melléklet"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Fájl leírása"
+
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Írja ide a jegyzet szövegét"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Mellékletek és naplófájlok csatolása:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Másik fájl csatolása"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Küldés"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Régebbi megjelenítése"
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} ({version_number} verzió)"
+
+#: /templates/_macros/thread_header.html:19
+msgid "Deleted App"
+msgstr "Törölt alkalmazás"
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "(elavult)"
+
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:60
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} jegyzet"
+msgstr[1] "{n} jegyzet"
+
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
+msgid "Reply"
+msgstr "Válasz"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "Legutóbbi"
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr "App megjelenítése"
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "Leiratkozás"
+
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "Jóváhagyás"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

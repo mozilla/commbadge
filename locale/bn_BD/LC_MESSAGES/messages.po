@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-13T15:38:26.551Z\n"
+"POT-Creation-Date: 2015-05-20T17:14:33.349Z\n"
 "PO-Revision-Date: 2014-08-18 08:00+0000\n"
 "Last-Translator: Arafat <mahmud.arafat.7@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,6 +13,18 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1408348857.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "বন্ধ করুন"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "না"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "হ্যাঁ"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -70,18 +82,6 @@ msgstr "সাইন আউট"
 msgid "Sign In"
 msgstr "সাইন ইন"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "বন্ধ করুন"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "না"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "হ্যাঁ"
-
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
 msgstr "সাইন ইন"
@@ -94,76 +94,6 @@ msgstr "এগিয়ে যেতে আপনাকে সাইন ইন �
 msgid "Sign in / Sign up"
 msgstr "সাইন ইন / সাইন আপ"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "সংযুক্তি"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "ফাইলের বিবরণ"
-
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "এখানে উল্লেখ্য টেক্সট লিখুন"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "স্ক্রিনশট সংযুক্ত করুন এবং লগ ফাইল:"
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "আরেকটি ফাইল সংযুক্ত করুন"
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "পোস্ট"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "কোন নোট পাওয়া যায়নি"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "আগেরগুলো প্রদর্শন"
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{APP_NAME} ({সংস্করণ {VERSION_NUMBER})"
-
-#: /templates/_macros/thread_header.html:19
-msgid "Deleted App"
-msgstr ""
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "(অপ্রচলিত)"
-
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:60
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} নোট"
-msgstr[1] "{n} নোটগুলো"
-
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
-msgid "Reply"
-msgstr "উত্তর"
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "সাম্প্রতিক"
-
-#: /templates/_macros/thread_header.html:43
-msgid "View App"
-msgstr "অ্যাপ দেখাও"
-
-#: /templates/_macros/thread_header.html:47
-msgid "Unsubscribe"
-msgstr "আনসাবস্ক্রাইব"
-
-#: /templates/_macros/thread_header.html:50
-msgid "Review"
-msgstr "রিভিউ"
-
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
 msgstr "এপ আইকন"
@@ -175,6 +105,10 @@ msgstr "{app_name} এর জন্য সকল থ্রেড দেখা �
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
 msgstr "অ্যাপ সম্পাদনা পৃষ্ঠায় ফিরে যান"
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr "কোন নোট পাওয়া যায়নি"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -232,6 +166,72 @@ msgstr "আরও লোড হতে ত্রুটি দেখা দিচ�
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "আবার চেষ্টা করুন"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "সংযুক্তি"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "ফাইলের বিবরণ"
+
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "এখানে উল্লেখ্য টেক্সট লিখুন"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "স্ক্রিনশট সংযুক্ত করুন এবং লগ ফাইল:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "আরেকটি ফাইল সংযুক্ত করুন"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "পোস্ট"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "আগেরগুলো প্রদর্শন"
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{APP_NAME} ({সংস্করণ {VERSION_NUMBER})"
+
+#: /templates/_macros/thread_header.html:19
+msgid "Deleted App"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "(অপ্রচলিত)"
+
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:60
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} নোট"
+msgstr[1] "{n} নোটগুলো"
+
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
+msgid "Reply"
+msgstr "উত্তর"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "সাম্প্রতিক"
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr "অ্যাপ দেখাও"
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "আনসাবস্ক্রাইব"
+
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "রিভিউ"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

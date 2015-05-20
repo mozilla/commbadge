@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox Marketplace Communication Dashboard\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-13T15:38:26.551Z\n"
+"POT-Creation-Date: 2015-05-20T17:14:33.349Z\n"
 "PO-Revision-Date: 2015-03-05 17:15+0000\n"
 "Last-Translator: Andreas <az@kth.se>\n"
 "Language-Team: The Swedish l10n-team <community-sweden@lists.mozilla.org>\n"
@@ -13,6 +13,18 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1425575748.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Stäng"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Nej"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Ja"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -70,18 +82,6 @@ msgstr "Logga ut"
 msgid "Sign In"
 msgstr "Logga in"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Stäng"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Nej"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Ja"
-
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
 msgstr "Logga in"
@@ -94,76 +94,6 @@ msgstr "Du måste logga in för att fortsätta."
 msgid "Sign in / Sign up"
 msgstr "Logga in / Registrera dig"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Bilaga"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Filbeskrivning"
-
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Skriv anteckning här"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Bifoga skärmdumpar och loggfiler:"
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Bifoga en annan fil"
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Skicka"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Inga anteckningar hittades"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Visa äldre"
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} (Version {version_number})"
-
-#: /templates/_macros/thread_header.html:19
-msgid "Deleted App"
-msgstr "Borttagen app"
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "(Föråldrade)"
-
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:60
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} anteckning"
-msgstr[1] "{n} anteckningar"
-
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
-msgid "Reply"
-msgstr "Svara"
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "Senaste"
-
-#: /templates/_macros/thread_header.html:43
-msgid "View App"
-msgstr "Visa app"
-
-#: /templates/_macros/thread_header.html:47
-msgid "Unsubscribe"
-msgstr "Avsluta prenumeration"
-
-#: /templates/_macros/thread_header.html:50
-msgid "Review"
-msgstr "Omdöme"
-
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
 msgstr "App-ikon"
@@ -175,6 +105,10 @@ msgstr "Visa alla trådar för {app_name}"
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
 msgstr "Gå tillbaka till appens redigeringssida"
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr "Inga anteckningar hittades"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -232,6 +166,72 @@ msgstr "Fel uppstod när mer skulle laddas"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Försök igen"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Bilaga"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Filbeskrivning"
+
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Skriv anteckning här"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Bifoga skärmdumpar och loggfiler:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Bifoga en annan fil"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Skicka"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Visa äldre"
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} (Version {version_number})"
+
+#: /templates/_macros/thread_header.html:19
+msgid "Deleted App"
+msgstr "Borttagen app"
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "(Föråldrade)"
+
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:60
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} anteckning"
+msgstr[1] "{n} anteckningar"
+
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
+msgid "Reply"
+msgstr "Svara"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "Senaste"
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr "Visa app"
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "Avsluta prenumeration"
+
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "Omdöme"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

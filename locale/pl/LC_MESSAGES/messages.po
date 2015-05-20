@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-13T15:38:26.551Z\n"
+"POT-Creation-Date: 2015-05-20T17:14:33.349Z\n"
 "PO-Revision-Date: 2015-03-09 13:32+0100\n"
 "Last-Translator: Wojciech Szczęsny\n"
 "Language-Team: Polish <team@aviary.pl>\n"
@@ -13,6 +13,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.4\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Zamknij"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Tak"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Nie"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -70,18 +82,6 @@ msgstr "Wyloguj"
 msgid "Sign In"
 msgstr "Zaloguj"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Zamknij"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Tak"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Nie"
-
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
 msgstr "Zaloguj się"
@@ -94,77 +94,6 @@ msgstr "Musisz zalogować się, aby kontynuować."
 msgid "Sign in / Sign up"
 msgstr "Logowanie / Rejestracja"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Załącznik"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Opis pliku"
-
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Wprowadź tutaj tekst informacji"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Załącz obrazki i pliki dziennika:"
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Załącz kolejny plik"
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Wpis"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Nie znaleziono notatek"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Zobacz starsze"
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} (Wersja {version_number})"
-
-#: /templates/_macros/thread_header.html:19
-msgid "Deleted App"
-msgstr "Usunięta aplikacja"
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "(Nieaktualne)"
-
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:60
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} informacja"
-msgstr[1] "{n} informacje"
-msgstr[2] "{n} informacji"
-
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
-msgid "Reply"
-msgstr "Odpowiedz"
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "Ostatnie"
-
-#: /templates/_macros/thread_header.html:43
-msgid "View App"
-msgstr "Zobacz aplikację"
-
-#: /templates/_macros/thread_header.html:47
-msgid "Unsubscribe"
-msgstr "Anuluj subskrypcję"
-
-#: /templates/_macros/thread_header.html:50
-msgid "Review"
-msgstr "Sprawdzenie"
-
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
 msgstr "Ikona aplikacji"
@@ -176,6 +105,10 @@ msgstr "Przeglądanie wszystkich wątków dla: {app_name}"
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
 msgstr "Wróć do strony edytowania aplikacji"
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr "Nie znaleziono notatek"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -233,6 +166,73 @@ msgstr "Nie udało się pobrać więcej"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Spróbuj ponownie"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Załącznik"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Opis pliku"
+
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Wprowadź tutaj tekst informacji"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Załącz obrazki i pliki dziennika:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Załącz kolejny plik"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Wpis"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Zobacz starsze"
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} (Wersja {version_number})"
+
+#: /templates/_macros/thread_header.html:19
+msgid "Deleted App"
+msgstr "Usunięta aplikacja"
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "(Nieaktualne)"
+
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:60
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} informacja"
+msgstr[1] "{n} informacje"
+msgstr[2] "{n} informacji"
+
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
+msgid "Reply"
+msgstr "Odpowiedz"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "Ostatnie"
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr "Zobacz aplikację"
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "Anuluj subskrypcję"
+
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "Sprawdzenie"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

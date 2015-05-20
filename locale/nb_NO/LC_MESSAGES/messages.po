@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-13T15:38:26.551Z\n"
+"POT-Creation-Date: 2015-05-20T17:14:33.349Z\n"
 "PO-Revision-Date: 2015-01-24 20:36+0000\n"
 "Last-Translator: Håvar <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,6 +13,18 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1422131812.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Lukk"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Nei"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Ja"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -70,18 +82,6 @@ msgstr "Logg ut"
 msgid "Sign In"
 msgstr "Logg inn"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Lukk"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Nei"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Ja"
-
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
 msgstr "Logg inn"
@@ -94,76 +94,6 @@ msgstr "Du må logge inn for å fortsette."
 msgid "Sign in / Sign up"
 msgstr "Logg inn / Bli medlem"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Vedlegg"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Filbeskrivelse"
-
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Skriv inn notatteksten her"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Legg ved skjermbilder og loggfiler:"
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Legg ved en annen fil"
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Send inn"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Ingen notater funnet"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Vis eldre"
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} (Versjon {version_number})"
-
-#: /templates/_macros/thread_header.html:19
-msgid "Deleted App"
-msgstr "Slettet app"
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "(Foreldet)"
-
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:60
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} notat"
-msgstr[1] "{n} notater"
-
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
-msgid "Reply"
-msgstr "Svar"
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "Siste"
-
-#: /templates/_macros/thread_header.html:43
-msgid "View App"
-msgstr "Vis app"
-
-#: /templates/_macros/thread_header.html:47
-msgid "Unsubscribe"
-msgstr "Avslutt abonnement"
-
-#: /templates/_macros/thread_header.html:50
-msgid "Review"
-msgstr "Gjennomgang"
-
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
 msgstr "App-ikon"
@@ -175,6 +105,10 @@ msgstr "Viser alle tråder for {app_name}"
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
 msgstr "Gå tilbake til app-redigeringssiden"
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr "Ingen notater funnet"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -232,6 +166,72 @@ msgstr "Feil ved lasting av flere"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Prøv igjen"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Vedlegg"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Filbeskrivelse"
+
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Skriv inn notatteksten her"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Legg ved skjermbilder og loggfiler:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Legg ved en annen fil"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Send inn"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Vis eldre"
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} (Versjon {version_number})"
+
+#: /templates/_macros/thread_header.html:19
+msgid "Deleted App"
+msgstr "Slettet app"
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "(Foreldet)"
+
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:60
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} notat"
+msgstr[1] "{n} notater"
+
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
+msgid "Reply"
+msgstr "Svar"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "Siste"
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr "Vis app"
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "Avslutt abonnement"
+
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "Gjennomgang"
 
 #: /media/js/settings_app.js:24
 msgid "Message"
