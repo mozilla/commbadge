@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-20T17:14:33.349Z\n"
+"POT-Creation-Date: 2015-05-29T20:27:36.461Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,232 +12,6 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Fireplace L10n Tools 1.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "‮Ↄʅosǝ"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "‮No"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "‮⅄ǝs"
-
-#: /templates/footer.html:2
-msgid "Develop Apps"
-msgstr "‮ᗡǝʌǝʅod ∀dds"
-
-#: /templates/footer.html:5
-msgid "Developer Hub"
-msgstr "‮ᗡǝʌǝʅodǝɹ Hnq"
-
-#: /templates/footer.html:6
-msgid "Support"
-msgstr "‮Snddoɹʇ"
-
-#: /templates/footer.html:10
-msgid "My Submissions"
-msgstr "‮Wʎ Snqɯıssıous"
-
-#: /templates/footer.html:13
-msgid "Reviewer Tools"
-msgstr "‮ᴚǝʌıǝʍǝɹ ⊥ooʅs"
-
-#: /templates/footer.html:16
-msgid "Lookup Tool"
-msgstr "‮⅂ooʞnd ⊥ooʅ"
-
-#: /templates/footer.html:24
-msgid "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> or any later version."
-msgstr ""
-"‮Ǝxɔǝdʇ ʍɥǝɹǝ oʇɥǝɹʍısǝ <a href=\"{legal_url}\" target=\"_blank\""
-">‮uoʇǝp</a>‮´ ɔouʇǝuʇ ou ʇɥıs sıʇǝ ıs ʅıɔǝusǝp nupǝɹ ʇɥǝ <a href=\"{cc_url}\""
-" target=\"_blank\">‮Ↄɹǝɐʇıʌǝ Ↄoɯɯous ∀ʇʇɹıqnʇıou Sɥɐɹǝ-∀ʅıʞǝ ⅂ıɔǝusǝ "
-"ʌ3.0</a>‮ oɹ ɐuʎ ʅɐʇǝɹ ʌǝɹsıou˙"
-
-#: /templates/footer.html:29
-msgid "Privacy Policy"
-msgstr "‮Ԁɹıʌɐɔʎ Ԁoʅıɔʎ"
-
-#: /templates/footer.html:30
-msgid "Terms of Use"
-msgstr "‮⊥ǝɹɯs oɟ ∩sǝ"
-
-#: /templates/footer.html:32
-msgid "Report Trademark Abuse"
-msgstr "‮ᴚǝdoɹʇ ⊥ɹɐpǝɯɐɹʞ ∀qnsǝ"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "‮Ↄoɯɯnuıɔɐʇıou ᗡɐsɥqoɐɹp"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "‮Sıƃu Onʇ"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "‮Sıƃu Iu"
-
-#: /templates/login.html:2
-#: /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "‮Sıƃu ıu"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "‮⅄on ɯnsʇ sıƃu ıu ʇo dɹoɔǝǝp˙"
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "‮Sıƃu ıu / Sıƃu nd"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "‮∀dd ıɔou"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "‮Ʌıǝʍıuƃ ∀ʅʅ ⊥ɥɹǝɐps ɟoɹ {ɐdd_uɐɯǝ}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "‮⅁o qɐɔʞ ʇo ɐdd ǝpıʇ dɐƃǝ"
-
-#: /templates/comm/no_notes.html:1
-#: /templates/_macros/create_thread.html:10
-#: /templates/_macros/thread.html:15
-msgid "No notes found"
-msgstr "‮No uoʇǝs ɟonup"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "‮Wʎ ⊥ɥɹǝɐps"
-
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr "‮⅁o ʇo ᗡǝʌǝʅodǝɹ Hnq"
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr "‮⅄on ɔnɹɹǝuʇʅʎ ɐɹǝ uoʇ ıuʌoʅʌǝp ıu ɐuʎ ɔoɯɯnuıɔɐʇıou ʇɥɹǝɐps˙"
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr "‮Soɹɹʎ´ ɐu ǝɹɹoɹ ɥɐs oɔɔnɹɹǝp˙ ⊥ɹʎ ʅoƃƃıuƃ ıu ɐƃɐıu˙"
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "‮Ǝɯdʇʎ uoʇǝ"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "‮Ʌıǝʍıuƃ ⊥ɥɹǝɐp ɟoɹ {ɐdd_uɐɯǝ}"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "‮Ԑɐɔʞ ʇo ɐʅʅ ʇɥɹǝɐps ɟoɹ {ɐdd_uɐɯǝ}"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "‮⊥ɥıs ∀dd,s Ʌǝɹsıous"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "‮ʌ˙{ʌǝɹsıou_unɯqǝɹ}"
-
-#: /templates/errors/404.html:2
-#: /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "‮Oɥ uo¡"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "‮⊥ɥǝ dɐƃǝ ʎon ʍǝɹǝ ʅooʞıuƃ ɟoɹ ʍɐs uoʇ ɟonup˙"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "‮∀u ǝɹɹoɹ oɔɔnɹɹǝp˙"
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "‮Ǝɹɹoɹ ʅoɐpıuƃ ɯoɹǝ"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "‮⊥ɹʎ ∀ƃɐıu"
-
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "‮∀ʇʇɐɔɥɯǝuʇ"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "‮Ⅎıʅǝ ᗡǝsɔɹıdʇıou"
-
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "‮Ǝuʇǝɹ uoʇǝ ʇǝxʇ ɥǝɹǝ"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "‮∀ʇʇɐɔɥ sɔɹǝǝusɥoʇs ɐup ʅoƃ ɟıʅǝs:"
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "‮∀ʇʇɐɔɥ ɐuoʇɥǝɹ ɟıʅǝ"
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "‮Ԁosʇ"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "‮Ʌıǝʍ oʅpǝɹ"
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "‮{ɐdd_uɐɯǝ} (Ʌǝɹsıou {ʌǝɹsıou_unɯqǝɹ})"
-
-#: /templates/_macros/thread_header.html:19
-msgid "Deleted App"
-msgstr "‮ᗡǝʅǝʇǝp ∀dd"
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "‮(Oqsoʅǝʇǝ)"
-
-#: /templates/_macros/thread_header.html:27
-#: /media/js/views/comm.js:60
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "‮{u} uoʇǝ"
-msgstr[1] "‮{u} uoʇǝs"
-
-#: /templates/_macros/thread_header.html:33
-#: /media/js/views/comm.js:83
-#: /media/js/views/comm.js:155
-msgid "Reply"
-msgstr "‮ᴚǝdʅʎ"
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "‮ᴚǝɔǝuʇ"
-
-#: /templates/_macros/thread_header.html:43
-msgid "View App"
-msgstr "‮Ʌıǝʍ ∀dd"
-
-#: /templates/_macros/thread_header.html:47
-msgid "Unsubscribe"
-msgstr "‮∩usnqsɔɹıqǝ"
-
-#: /templates/_macros/thread_header.html:50
-msgid "Review"
-msgstr "‮ᴚǝʌıǝʍ"
 
 #: /media/js/settings_app.js:24
 msgid "Message"
@@ -359,6 +133,19 @@ msgstr "‮Ԁnqʅıɔ ɹǝʌıǝʍǝɹ ɔoɯɯǝuʇ"
 msgid "Re-review content rating adult"
 msgstr "‮ᴚǝ-ɹǝʌıǝʍ ɔouʇǝuʇ ɹɐʇıuƃ ɐpnʅʇ"
 
+#: /media/js/views/comm.js:60
+#: /templates/_macros/thread_header.html:27
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "‮{u} uoʇǝ"
+msgstr[1] "‮{u} uoʇǝs"
+
+#: /media/js/views/comm.js:83
+#: /media/js/views/comm.js:155
+#: /templates/_macros/thread_header.html:33
+msgid "Reply"
+msgstr "‮ᴚǝdʅʎ"
+
 #: /media/js/views/comm.js:90
 msgid "Message sent."
 msgstr "‮Wǝssɐƃǝ sǝuʇ˙"
@@ -386,3 +173,216 @@ msgid "Successfully unsubscribed. You will no longer receive email notifications
 msgstr ""
 "‮Snɔɔǝssɟnʅʅʎ nusnqsɔɹıqǝp˙ ⅄on ʍıʅʅ uo ʅouƃǝɹ ɹǝɔǝıʌǝ ǝɯɐıʅ uoʇıɟıɔɐʇıous "
 "ɟoɹ ʇɥɐʇ ʇɥɹǝɐp˙"
+
+#: /media/js/views/login.js:12
+#: /templates/login.html:2
+msgid "Sign in"
+msgstr "‮Sıƃu ıu"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "‮Ↄʅosǝ"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "‮No"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "‮⅄ǝs"
+
+#: /templates/footer.html:2
+msgid "Develop Apps"
+msgstr "‮ᗡǝʌǝʅod ∀dds"
+
+#: /templates/footer.html:5
+msgid "Developer Hub"
+msgstr "‮ᗡǝʌǝʅodǝɹ Hnq"
+
+#: /templates/footer.html:6
+msgid "Support"
+msgstr "‮Snddoɹʇ"
+
+#: /templates/footer.html:10
+msgid "My Submissions"
+msgstr "‮Wʎ Snqɯıssıous"
+
+#: /templates/footer.html:13
+msgid "Reviewer Tools"
+msgstr "‮ᴚǝʌıǝʍǝɹ ⊥ooʅs"
+
+#: /templates/footer.html:16
+msgid "Lookup Tool"
+msgstr "‮⅂ooʞnd ⊥ooʅ"
+
+#: /templates/footer.html:24
+msgid "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> or any later version."
+msgstr ""
+"‮Ǝxɔǝdʇ ʍɥǝɹǝ oʇɥǝɹʍısǝ <a href=\"{legal_url}\" target=\"_blank\""
+">‮uoʇǝp</a>‮´ ɔouʇǝuʇ ou ʇɥıs sıʇǝ ıs ʅıɔǝusǝp nupǝɹ ʇɥǝ <a href=\"{cc_url}\""
+" target=\"_blank\">‮Ↄɹǝɐʇıʌǝ Ↄoɯɯous ∀ʇʇɹıqnʇıou Sɥɐɹǝ-∀ʅıʞǝ ⅂ıɔǝusǝ "
+"ʌ3.0</a>‮ oɹ ɐuʎ ʅɐʇǝɹ ʌǝɹsıou˙"
+
+#: /templates/footer.html:29
+msgid "Privacy Policy"
+msgstr "‮Ԁɹıʌɐɔʎ Ԁoʅıɔʎ"
+
+#: /templates/footer.html:30
+msgid "Terms of Use"
+msgstr "‮⊥ǝɹɯs oɟ ∩sǝ"
+
+#: /templates/footer.html:32
+msgid "Report Trademark Abuse"
+msgstr "‮ᴚǝdoɹʇ ⊥ɹɐpǝɯɐɹʞ ∀qnsǝ"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "‮Ↄoɯɯnuıɔɐʇıou ᗡɐsɥqoɐɹp"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "‮Sıƃu Onʇ"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "‮Sıƃu Iu"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "‮⅄on ɯnsʇ sıƃu ıu ʇo dɹoɔǝǝp˙"
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "‮Sıƃu ıu / Sıƃu nd"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "‮∀ʇʇɐɔɥɯǝuʇ"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "‮Ⅎıʅǝ ᗡǝsɔɹıdʇıou"
+
+#: /templates/_macros/create_thread.html:10
+#: /templates/_macros/thread.html:15
+#: /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "‮No uoʇǝs ɟonup"
+
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "‮Ǝuʇǝɹ uoʇǝ ʇǝxʇ ɥǝɹǝ"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "‮∀ʇʇɐɔɥ sɔɹǝǝusɥoʇs ɐup ʅoƃ ɟıʅǝs:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "‮∀ʇʇɐɔɥ ɐuoʇɥǝɹ ɟıʅǝ"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "‮Ԁosʇ"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "‮Ʌıǝʍ oʅpǝɹ"
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "‮{ɐdd_uɐɯǝ} (Ʌǝɹsıou {ʌǝɹsıou_unɯqǝɹ})"
+
+#: /templates/_macros/thread_header.html:19
+msgid "Deleted App"
+msgstr "‮ᗡǝʅǝʇǝp ∀dd"
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "‮(Oqsoʅǝʇǝ)"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "‮ᴚǝɔǝuʇ"
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr "‮Ʌıǝʍ ∀dd"
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "‮∩usnqsɔɹıqǝ"
+
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "‮ᴚǝʌıǝʍ"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "‮∀dd ıɔou"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "‮Ʌıǝʍıuƃ ∀ʅʅ ⊥ɥɹǝɐps ɟoɹ {ɐdd_uɐɯǝ}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "‮⅁o qɐɔʞ ʇo ɐdd ǝpıʇ dɐƃǝ"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "‮Wʎ ⊥ɥɹǝɐps"
+
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr "‮⅁o ʇo ᗡǝʌǝʅodǝɹ Hnq"
+
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr "‮⅄on ɔnɹɹǝuʇʅʎ ɐɹǝ uoʇ ıuʌoʅʌǝp ıu ɐuʎ ɔoɯɯnuıɔɐʇıou ʇɥɹǝɐps˙"
+
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr "‮Soɹɹʎ´ ɐu ǝɹɹoɹ ɥɐs oɔɔnɹɹǝp˙ ⊥ɹʎ ʅoƃƃıuƃ ıu ɐƃɐıu˙"
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "‮Ǝɯdʇʎ uoʇǝ"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "‮Ʌıǝʍıuƃ ⊥ɥɹǝɐp ɟoɹ {ɐdd_uɐɯǝ}"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "‮Ԑɐɔʞ ʇo ɐʅʅ ʇɥɹǝɐps ɟoɹ {ɐdd_uɐɯǝ}"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "‮⊥ɥıs ∀dd,s Ʌǝɹsıous"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "‮ʌ˙{ʌǝɹsıou_unɯqǝɹ}"
+
+#: /templates/errors/404.html:2
+#: /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "‮Oɥ uo¡"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "‮⊥ɥǝ dɐƃǝ ʎon ʍǝɹǝ ʅooʞıuƃ ɟoɹ ʍɐs uoʇ ɟonup˙"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "‮∀u ǝɹɹoɹ oɔɔnɹɹǝp˙"
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "‮Ǝɹɹoɹ ʅoɐpıuƃ ɯoɹǝ"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "‮⊥ɹʎ ∀ƃɐıu"

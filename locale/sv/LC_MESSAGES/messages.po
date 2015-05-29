@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-20T17:14:33.349Z\n"
+"POT-Creation-Date: 2015-05-29T20:27:36.461Z\n"
 "PO-Revision-Date: 2014-08-13 21:14+0000\n"
 "Last-Translator: Andreas <az@kth.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,225 +13,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1407964440.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Stäng"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Nej"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Ja"
-
-#: /templates/footer.html:2
-msgid "Develop Apps"
-msgstr "Utveckla appar"
-
-#: /templates/footer.html:5
-msgid "Developer Hub"
-msgstr "Utvecklarcenter"
-
-#: /templates/footer.html:6
-msgid "Support"
-msgstr "Hjälp"
-
-#: /templates/footer.html:10
-msgid "My Submissions"
-msgstr "Mina bidrag"
-
-#: /templates/footer.html:13
-msgid "Reviewer Tools"
-msgstr "Verktyg för granskare"
-
-#: /templates/footer.html:16
-msgid "Lookup Tool"
-msgstr "Uppslagsverktyg"
-
-#: /templates/footer.html:24
-msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
-msgstr ""
-"Om inget annat <a href=\"{legal_url}\" target=\"_blank\">anges</a>, är innehållet på denna sida licenserat under <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike "
-"License v3.0</a> eller någon senare version."
-
-#: /templates/footer.html:29
-msgid "Privacy Policy"
-msgstr "Sekretesspolicy"
-
-#: /templates/footer.html:30
-msgid "Terms of Use"
-msgstr "Användarvillkor"
-
-#: /templates/footer.html:32
-msgid "Report Trademark Abuse"
-msgstr "Rapportera varumärkesintrång"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Kommunikationsöversikt"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Logga ut"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Logga in"
-
-#: /templates/login.html:2 /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "Logga in"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Du måste logga in för att fortsätta."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Logga in / Registrera dig"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "App-ikon"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Visa alla trådar för {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Gå tillbaka till appens redigeringssida"
-
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
-msgid "No notes found"
-msgstr "Inga anteckningar hittades"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Mina trådar"
-
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr ""
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr ""
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr ""
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Tom anteckning"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Du visar tråd för {app_name}"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Tillbaka till alla trådar för {app_name}"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "Denna App:s versioner"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Åh nej!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Sidan du letade efter kunde inte hittas."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Ett fel uppstod."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Fel uppstod när mer skulle laddas"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Försök igen"
-
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Bilaga"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Filbeskrivning"
-
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Skriv anteckning här"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Bifoga skärmdumpar och loggfiler:"
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Bifoga en annan fil"
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Skicka"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Visa äldre"
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} (Version {version_number})"
-
-#: /templates/_macros/thread_header.html:19
-msgid "Deleted App"
-msgstr ""
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "(Föråldrade)"
-
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:60
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} anteckning"
-msgstr[1] "{n} anteckningar"
-
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
-msgid "Reply"
-msgstr "Svara"
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "Senaste"
-
-#: /templates/_macros/thread_header.html:43
-msgid "View App"
-msgstr "Visa app"
-
-#: /templates/_macros/thread_header.html:47
-msgid "Unsubscribe"
-msgstr "Avsluta prenumeration"
-
-#: /templates/_macros/thread_header.html:50
-msgid "Review"
-msgstr "Omdöme"
 
 #: /media/js/settings_app.js:24
 msgid "Message"
@@ -353,6 +134,16 @@ msgstr ""
 msgid "Re-review content rating adult"
 msgstr ""
 
+#: /media/js/views/comm.js:60 /templates/_macros/thread_header.html:27
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} anteckning"
+msgstr[1] "{n} anteckningar"
+
+#: /media/js/views/comm.js:83 /media/js/views/comm.js:155 /templates/_macros/thread_header.html:33
+msgid "Reply"
+msgstr "Svara"
+
 #: /media/js/views/comm.js:90
 msgid "Message sent."
 msgstr "Meddelande skickat."
@@ -376,3 +167,212 @@ msgstr "Genom att avsluta prenumerationen på tråden, kommer du inte längre f�
 #: /media/js/views/comm.js:210
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
 msgstr "Prenumeration avslutad. Du kommer inte längre få e-postmeddelanden för denna tråd."
+
+#: /media/js/views/login.js:12 /templates/login.html:2
+msgid "Sign in"
+msgstr "Logga in"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Stäng"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Nej"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Ja"
+
+#: /templates/footer.html:2
+msgid "Develop Apps"
+msgstr "Utveckla appar"
+
+#: /templates/footer.html:5
+msgid "Developer Hub"
+msgstr "Utvecklarcenter"
+
+#: /templates/footer.html:6
+msgid "Support"
+msgstr "Hjälp"
+
+#: /templates/footer.html:10
+msgid "My Submissions"
+msgstr "Mina bidrag"
+
+#: /templates/footer.html:13
+msgid "Reviewer Tools"
+msgstr "Verktyg för granskare"
+
+#: /templates/footer.html:16
+msgid "Lookup Tool"
+msgstr "Uppslagsverktyg"
+
+#: /templates/footer.html:24
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
+msgstr ""
+"Om inget annat <a href=\"{legal_url}\" target=\"_blank\">anges</a>, är innehållet på denna sida licenserat under <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike "
+"License v3.0</a> eller någon senare version."
+
+#: /templates/footer.html:29
+msgid "Privacy Policy"
+msgstr "Sekretesspolicy"
+
+#: /templates/footer.html:30
+msgid "Terms of Use"
+msgstr "Användarvillkor"
+
+#: /templates/footer.html:32
+msgid "Report Trademark Abuse"
+msgstr "Rapportera varumärkesintrång"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Kommunikationsöversikt"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Logga ut"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Logga in"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Du måste logga in för att fortsätta."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Logga in / Registrera dig"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Bilaga"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Filbeskrivning"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Inga anteckningar hittades"
+
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Skriv anteckning här"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Bifoga skärmdumpar och loggfiler:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Bifoga en annan fil"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Skicka"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Visa äldre"
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} (Version {version_number})"
+
+#: /templates/_macros/thread_header.html:19
+msgid "Deleted App"
+msgstr ""
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "(Föråldrade)"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "Senaste"
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr "Visa app"
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "Avsluta prenumeration"
+
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "Omdöme"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "App-ikon"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Visa alla trådar för {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Gå tillbaka till appens redigeringssida"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Mina trådar"
+
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr ""
+
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr ""
+
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr ""
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Tom anteckning"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Du visar tråd för {app_name}"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Tillbaka till alla trådar för {app_name}"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "Denna App:s versioner"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Åh nej!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Sidan du letade efter kunde inte hittas."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Ett fel uppstod."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Fel uppstod när mer skulle laddas"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Försök igen"

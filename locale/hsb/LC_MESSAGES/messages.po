@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-20T17:14:33.349Z\n"
+"POT-Creation-Date: 2015-05-29T20:27:36.461Z\n"
 "PO-Revision-Date: 2015-03-04 22:09+0000\n"
 "Last-Translator: milupo <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,227 +13,6 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1425506954.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Začinić"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Ně"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Haj"
-
-#: /templates/footer.html:2
-msgid "Develop Apps"
-msgstr "Nałoženja wuwiwać"
-
-#: /templates/footer.html:5
-msgid "Developer Hub"
-msgstr "Centrum wuwiwarjow"
-
-#: /templates/footer.html:6
-msgid "Support"
-msgstr "Pomoc"
-
-#: /templates/footer.html:10
-msgid "My Submissions"
-msgstr "Moje zapodaća"
-
-#: /templates/footer.html:13
-msgid "Reviewer Tools"
-msgstr "Nastroje za přepruwowarjow"
-
-#: /templates/footer.html:16
-msgid "Lookup Tool"
-msgstr "Nastroj pohladanja"
-
-#: /templates/footer.html:24
-msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
-msgstr ""
-"Jeli nic hinak <a href=\"{legal_url}\" target=\"_blank\">zapisane</a>, je wobsah tutoho sydła pod licencu <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License "
-"v3.0</a> abo pod pozdźišej wersiju."
-
-#: /templates/footer.html:29
-msgid "Privacy Policy"
-msgstr "Prawidła priwatnosće"
-
-#: /templates/footer.html:30
-msgid "Terms of Use"
-msgstr "Wužiwanske wuměnjenja"
-
-#: /templates/footer.html:32
-msgid "Report Trademark Abuse"
-msgstr "Znjewužiwanje wikowanskeho znamjenja zdźělić"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Komunikaciski přehlad"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Wotzjewić"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Přizjewić"
-
-#: /templates/login.html:2 /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "Přizjewić"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Dyrbiće so přizjewić, zo byšće pokročował."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Přizjewić / Registrować"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Nałoženski symbol"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Wšě nitka za {app_name} so zwobraznjeja"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Wróćo k wobdźěłowanskej stronje nałoženja"
-
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
-msgid "No notes found"
-msgstr "Žane noticy namakane"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Moje nitki"
-
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr "K wuwiwarskemu centrumej"
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr "Tuchwilu njejsće na komunikaciskich nitkach wobdźěleny."
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr "Bohužel je zmylk wustupił. Spytajće so hišće raz přizjewić."
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Prózdnja notica"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Nitka za {app_name} so zwobraznja"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Wróćo ke wšěm nitkam za {app_name}"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "Wersije tutoho nałoženja"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v {version_number}"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Ow ně!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Strona, kotruž pytaće, njeje so namakała."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Zmylk je wustupił."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Zmylk při začitowanju dalšich informacijow"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Hišće raz spytać"
-
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Přiwěšk"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Datajowe wopisanje"
-
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Tekst noticy tu zapodać"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Fota wobrazowki a protokolowe dataje připowěsnyć:"
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Dalšu dataju připowěsnyć"
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Wotpósłać"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Starše sej wobhladać"
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} (wersija {version_number})"
-
-#: /templates/_macros/thread_header.html:19
-msgid "Deleted App"
-msgstr "Zhašane nałoženje"
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "(Zestarjeny)"
-
-#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:60
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} notica"
-msgstr[1] "{n} noticy"
-msgstr[2] "{n} noticy"
-msgstr[3] "{n} noticow"
-
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
-msgid "Reply"
-msgstr "Wotmołwić"
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "Najnowši"
-
-#: /templates/_macros/thread_header.html:43
-msgid "View App"
-msgstr "Nałoženje sej wobhladać"
-
-#: /templates/_macros/thread_header.html:47
-msgid "Unsubscribe"
-msgstr "Wotskazać"
-
-#: /templates/_macros/thread_header.html:50
-msgid "Review"
-msgstr "Přepruwować"
 
 #: /media/js/settings_app.js:24
 msgid "Message"
@@ -355,6 +134,18 @@ msgstr "Zjawny přepruwowarski komentar"
 msgid "Re-review content rating adult"
 msgstr "Wobsahowe pohódnoćenje Dorosćeny znowa přepruwować"
 
+#: /media/js/views/comm.js:60 /templates/_macros/thread_header.html:27
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} notica"
+msgstr[1] "{n} noticy"
+msgstr[2] "{n} noticy"
+msgstr[3] "{n} noticow"
+
+#: /media/js/views/comm.js:83 /media/js/views/comm.js:155 /templates/_macros/thread_header.html:33
+msgid "Reply"
+msgstr "Wotmołwić"
+
 #: /media/js/views/comm.js:90
 msgid "Message sent."
 msgstr "Powěsć je so pósłała."
@@ -378,3 +169,212 @@ msgstr "Jeli tutu nitku wotskazaće, njedóstanjeće hižo e-mejlowe zdźělenki
 #: /media/js/views/comm.js:210
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
 msgstr "Nitka je so wuspěšnje wotskazała. Njedóstanjeće hižo žane e-mejlowe zdźělenki za tutu nitku."
+
+#: /media/js/views/login.js:12 /templates/login.html:2
+msgid "Sign in"
+msgstr "Přizjewić"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Začinić"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Ně"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Haj"
+
+#: /templates/footer.html:2
+msgid "Develop Apps"
+msgstr "Nałoženja wuwiwać"
+
+#: /templates/footer.html:5
+msgid "Developer Hub"
+msgstr "Centrum wuwiwarjow"
+
+#: /templates/footer.html:6
+msgid "Support"
+msgstr "Pomoc"
+
+#: /templates/footer.html:10
+msgid "My Submissions"
+msgstr "Moje zapodaća"
+
+#: /templates/footer.html:13
+msgid "Reviewer Tools"
+msgstr "Nastroje za přepruwowarjow"
+
+#: /templates/footer.html:16
+msgid "Lookup Tool"
+msgstr "Nastroj pohladanja"
+
+#: /templates/footer.html:24
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
+msgstr ""
+"Jeli nic hinak <a href=\"{legal_url}\" target=\"_blank\">zapisane</a>, je wobsah tutoho sydła pod licencu <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License "
+"v3.0</a> abo pod pozdźišej wersiju."
+
+#: /templates/footer.html:29
+msgid "Privacy Policy"
+msgstr "Prawidła priwatnosće"
+
+#: /templates/footer.html:30
+msgid "Terms of Use"
+msgstr "Wužiwanske wuměnjenja"
+
+#: /templates/footer.html:32
+msgid "Report Trademark Abuse"
+msgstr "Znjewužiwanje wikowanskeho znamjenja zdźělić"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Komunikaciski přehlad"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Wotzjewić"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Přizjewić"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Dyrbiće so přizjewić, zo byšće pokročował."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Přizjewić / Registrować"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Přiwěšk"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Datajowe wopisanje"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Žane noticy namakane"
+
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Tekst noticy tu zapodać"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Fota wobrazowki a protokolowe dataje připowěsnyć:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Dalšu dataju připowěsnyć"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Wotpósłać"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Starše sej wobhladać"
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} (wersija {version_number})"
+
+#: /templates/_macros/thread_header.html:19
+msgid "Deleted App"
+msgstr "Zhašane nałoženje"
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "(Zestarjeny)"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "Najnowši"
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr "Nałoženje sej wobhladać"
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "Wotskazać"
+
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "Přepruwować"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Nałoženski symbol"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Wšě nitka za {app_name} so zwobraznjeja"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Wróćo k wobdźěłowanskej stronje nałoženja"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Moje nitki"
+
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr "K wuwiwarskemu centrumej"
+
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr "Tuchwilu njejsće na komunikaciskich nitkach wobdźěleny."
+
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr "Bohužel je zmylk wustupił. Spytajće so hišće raz přizjewić."
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Prózdnja notica"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Nitka za {app_name} so zwobraznja"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Wróćo ke wšěm nitkam za {app_name}"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "Wersije tutoho nałoženja"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v {version_number}"
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Ow ně!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Strona, kotruž pytaće, njeje so namakała."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Zmylk je wustupił."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Zmylk při začitowanju dalšich informacijow"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Hišće raz spytać"
