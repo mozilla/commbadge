@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-29T20:27:36.461Z\n"
+"POT-Creation-Date: 2015-06-17T16:39:49.453Z\n"
 "PO-Revision-Date: 2015-03-04 22:38+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: MozTW <petercpg@mail.moztw.org>\n"
@@ -14,6 +14,222 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-POOTLE-MTIME: 1425508686.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "關閉"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "否"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "是"
+
+#: /templates/footer.html:2
+msgid "Develop Apps"
+msgstr "開發應用程式"
+
+#: /templates/footer.html:5
+msgid "Developer Hub"
+msgstr "開發者交流中心"
+
+#: /templates/footer.html:6
+msgid "Support"
+msgstr "支援"
+
+#: /templates/footer.html:10
+msgid "My Submissions"
+msgstr "我送出的內容"
+
+#: /templates/footer.html:13
+msgid "Reviewer Tools"
+msgstr "審核者工具"
+
+#: /templates/footer.html:16
+msgid "Lookup Tool"
+msgstr "尋找工具"
+
+#: /templates/footer.html:24
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
+msgstr "除非另有 <a href=\"{legal_url}\" target=\"_blank\">提及</a>，網站內容皆採用 <a href=\"{cc_url}\" target=\"_blank\">創用 CC 姓名標示-相同方式分享 3.0</a> 或更新版本條款進行授權。"
+
+#: /templates/footer.html:29
+msgid "Privacy Policy"
+msgstr "隱私權保護政策"
+
+#: /templates/footer.html:30
+msgid "Terms of Use"
+msgstr "使用條款"
+
+#: /templates/footer.html:32
+msgid "Report Trademark Abuse"
+msgstr "回報商標濫用"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "傳播主控台"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "登出"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "登入"
+
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "登入"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "您必須登入才能繼續。"
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "登入 / 註冊"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "附件"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "檔案描述"
+
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "喔不！"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "發生錯誤。"
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "載入更多時發生錯誤"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "重試"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "應用程式圖示"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "檢視所有 {app_name} 的討論串"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "回到程式編輯頁面"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "我的討論串"
+
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr "前往 Developer Hub"
+
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr "您目前並未參與任何討論串。"
+
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr "抱歉，發生錯誤，請重新登入看看。"
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "空白筆記"
+
+#: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr "找不到筆記"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "正在檢視 {app_name} 的討論串"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "回到 {app_name} 的所有討論串"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "此應用程式的版本"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
+
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "在此輸入筆記內容"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "附加畫面擷圖與紀錄檔:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "附加另一個檔案"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "張貼"
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} ({version_number} 版)"
+
+#: /templates/_macros/thread_header.html:19
+msgid "Deleted App"
+msgstr "已刪除的程式"
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "（已過時）"
+
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:60
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} 筆筆記"
+
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
+msgid "Reply"
+msgstr "回覆"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "近期"
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr "檢視應用程式"
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "取消訂閱"
+
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "評論"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "檢視更舊項目"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "找不到您想開啟的頁面。"
 
 #: /media/js/settings_app.js:24
 msgid "Message"
@@ -135,15 +351,6 @@ msgstr "審查者公開留言"
 msgid "Re-review content rating adult"
 msgstr "因內容評等為成人重新審查"
 
-#: /media/js/views/comm.js:60 /templates/_macros/thread_header.html:27
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} 筆筆記"
-
-#: /media/js/views/comm.js:83 /media/js/views/comm.js:155 /templates/_macros/thread_header.html:33
-msgid "Reply"
-msgstr "回覆"
-
 #: /media/js/views/comm.js:90
 msgid "Message sent."
 msgstr "訊息已送出。"
@@ -167,210 +374,3 @@ msgstr "取消訂閱此討論串後您將不會在收到此討論串的郵件通
 #: /media/js/views/comm.js:210
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
 msgstr "已成功取消訂閱。您將不會再收到該討論串的通知。"
-
-#: /media/js/views/login.js:12 /templates/login.html:2
-msgid "Sign in"
-msgstr "登入"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "關閉"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "否"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "是"
-
-#: /templates/footer.html:2
-msgid "Develop Apps"
-msgstr "開發應用程式"
-
-#: /templates/footer.html:5
-msgid "Developer Hub"
-msgstr "開發者交流中心"
-
-#: /templates/footer.html:6
-msgid "Support"
-msgstr "支援"
-
-#: /templates/footer.html:10
-msgid "My Submissions"
-msgstr "我送出的內容"
-
-#: /templates/footer.html:13
-msgid "Reviewer Tools"
-msgstr "審核者工具"
-
-#: /templates/footer.html:16
-msgid "Lookup Tool"
-msgstr "尋找工具"
-
-#: /templates/footer.html:24
-msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
-msgstr "除非另有 <a href=\"{legal_url}\" target=\"_blank\">提及</a>，網站內容皆採用 <a href=\"{cc_url}\" target=\"_blank\">創用 CC 姓名標示-相同方式分享 3.0</a> 或更新版本條款進行授權。"
-
-#: /templates/footer.html:29
-msgid "Privacy Policy"
-msgstr "隱私權保護政策"
-
-#: /templates/footer.html:30
-msgid "Terms of Use"
-msgstr "使用條款"
-
-#: /templates/footer.html:32
-msgid "Report Trademark Abuse"
-msgstr "回報商標濫用"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "傳播主控台"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "登出"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "登入"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "您必須登入才能繼續。"
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "登入 / 註冊"
-
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "附件"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "檔案描述"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "找不到筆記"
-
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "在此輸入筆記內容"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "附加畫面擷圖與紀錄檔:"
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "附加另一個檔案"
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "張貼"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "檢視更舊項目"
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} ({version_number} 版)"
-
-#: /templates/_macros/thread_header.html:19
-msgid "Deleted App"
-msgstr "已刪除的程式"
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "（已過時）"
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "近期"
-
-#: /templates/_macros/thread_header.html:43
-msgid "View App"
-msgstr "檢視應用程式"
-
-#: /templates/_macros/thread_header.html:47
-msgid "Unsubscribe"
-msgstr "取消訂閱"
-
-#: /templates/_macros/thread_header.html:50
-msgid "Review"
-msgstr "評論"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "應用程式圖示"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "檢視所有 {app_name} 的討論串"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "回到程式編輯頁面"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "我的討論串"
-
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr "前往 Developer Hub"
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr "您目前並未參與任何討論串。"
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr "抱歉，發生錯誤，請重新登入看看。"
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "空白筆記"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "正在檢視 {app_name} 的討論串"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "回到 {app_name} 的所有討論串"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "此應用程式的版本"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "喔不！"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "找不到您想開啟的頁面。"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "發生錯誤。"
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "載入更多時發生錯誤"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "重試"

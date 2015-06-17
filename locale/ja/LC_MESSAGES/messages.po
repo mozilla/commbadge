@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-29T20:27:36.461Z\n"
+"POT-Creation-Date: 2015-06-17T16:39:49.453Z\n"
 "PO-Revision-Date: 2015-03-04 12:36-0500\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
@@ -12,6 +12,225 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Fireplace L10n Tools 1.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "閉じる"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "いいえ"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "はい"
+
+#: /templates/footer.html:2
+msgid "Develop Apps"
+msgstr "アプリを開発"
+
+#: /templates/footer.html:5
+msgid "Developer Hub"
+msgstr "開発者センター"
+
+#: /templates/footer.html:6
+msgid "Support"
+msgstr "サポート"
+
+#: /templates/footer.html:10
+msgid "My Submissions"
+msgstr "自分の登録アプリ"
+
+#: /templates/footer.html:13
+msgid "Reviewer Tools"
+msgstr "審査担当者用ツール"
+
+#: /templates/footer.html:16
+msgid "Lookup Tool"
+msgstr "検索ツール"
+
+#: /templates/footer.html:24
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
+msgstr ""
+"特に <a href=\"{legal_url}\" target=\"_blank\">記載</a> のない限り、当サイト上のコンテンツは <a href=\"{cc_url}\" target=\"_blank\">Creative Commons 表示 - 継承 ライセンス v3.0</a> もしくはそれ以降"
+"のバージョンで公開されています。"
+
+#: /templates/footer.html:29
+msgid "Privacy Policy"
+msgstr "プライバシーポリシー"
+
+#: /templates/footer.html:30
+msgid "Terms of Use"
+msgstr "利用規約"
+
+#: /templates/footer.html:32
+msgid "Report Trademark Abuse"
+msgstr "商標不正使用報告"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "コミュニケーションダッシュボード"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "ログアウト"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "ログイン"
+
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "ログイン"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "続けるにはログインしてください。"
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "ログイン / ユーザ登録"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "添付ファイル"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "ファイル説明"
+
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "Not Found"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "問題が発生しました。"
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "読み込み中に問題が発生しました"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "再読み込み"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "アプリのアイコン"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "{app_name} のすべてのスレッドを表示しています"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "アプリ編集ページへ戻る"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "自分のスレッド"
+
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr "開発者センターへ"
+
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr "あなたはまだどのコミュニケーションスレッドにも参加していません。"
+
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr "申し訳ありませんが、何か問題が発生しました。再度ログインしてみてください。"
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "空白のノート"
+
+#: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr "ノートがが見つかりませんでした"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "{app_name} のスレッドを表示しています"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "{app_name} のすべてのスレッドへ戻る"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "このアプリのバージョン"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
+
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "投稿内容をここに入力してください"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "スクリーンショットとログファイルを添付:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "他のファイルを添付"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "投稿"
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} (バージョン {version_number})"
+
+#: /templates/_macros/thread_header.html:19
+msgid "Deleted App"
+msgstr "削除されたアプリ"
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "(旧バージョン)"
+
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:60
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} 件の記事"
+msgstr[1] "{n} 件の記事"
+
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
+msgid "Reply"
+msgstr "返信"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "最近"
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr "アプリを見る"
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "購読解除"
+
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "レビュー"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "以前の記事を表示"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "お探しのページは見つかりませんでした。"
 
 #: /media/js/settings_app.js:24
 msgid "Message"
@@ -133,16 +352,6 @@ msgstr "審査担当者の公開コメント"
 msgid "Re-review content rating adult"
 msgstr "成人向けコンテンツレーティングの再審査"
 
-#: /media/js/views/comm.js:60 /templates/_macros/thread_header.html:27
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} 件の記事"
-msgstr[1] "{n} 件の記事"
-
-#: /media/js/views/comm.js:83 /media/js/views/comm.js:155 /templates/_macros/thread_header.html:33
-msgid "Reply"
-msgstr "返信"
-
 #: /media/js/views/comm.js:90
 msgid "Message sent."
 msgstr "メッセージが送信されました。"
@@ -166,212 +375,3 @@ msgstr "購読を解除すると、今後このスレッドが更新されても
 #: /media/js/views/comm.js:210
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
 msgstr "購読を解除しました。今後このスレッドが更新されてもメールによる通知は送られません。"
-
-#: /media/js/views/login.js:12 /templates/login.html:2
-msgid "Sign in"
-msgstr "ログイン"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "閉じる"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "いいえ"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "はい"
-
-#: /templates/footer.html:2
-msgid "Develop Apps"
-msgstr "アプリを開発"
-
-#: /templates/footer.html:5
-msgid "Developer Hub"
-msgstr "開発者センター"
-
-#: /templates/footer.html:6
-msgid "Support"
-msgstr "サポート"
-
-#: /templates/footer.html:10
-msgid "My Submissions"
-msgstr "自分の登録アプリ"
-
-#: /templates/footer.html:13
-msgid "Reviewer Tools"
-msgstr "審査担当者用ツール"
-
-#: /templates/footer.html:16
-msgid "Lookup Tool"
-msgstr "検索ツール"
-
-#: /templates/footer.html:24
-msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
-msgstr ""
-"特に <a href=\"{legal_url}\" target=\"_blank\">記載</a> のない限り、当サイト上のコンテンツは <a href=\"{cc_url}\" target=\"_blank\">Creative Commons 表示 - 継承 ライセンス v3.0</a> もしくはそれ以降"
-"のバージョンで公開されています。"
-
-#: /templates/footer.html:29
-msgid "Privacy Policy"
-msgstr "プライバシーポリシー"
-
-#: /templates/footer.html:30
-msgid "Terms of Use"
-msgstr "利用規約"
-
-#: /templates/footer.html:32
-msgid "Report Trademark Abuse"
-msgstr "商標不正使用報告"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "コミュニケーションダッシュボード"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "ログアウト"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "ログイン"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "続けるにはログインしてください。"
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "ログイン / ユーザ登録"
-
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "添付ファイル"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "ファイル説明"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "ノートがが見つかりませんでした"
-
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "投稿内容をここに入力してください"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "スクリーンショットとログファイルを添付:"
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "他のファイルを添付"
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "投稿"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "以前の記事を表示"
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} (バージョン {version_number})"
-
-#: /templates/_macros/thread_header.html:19
-msgid "Deleted App"
-msgstr "削除されたアプリ"
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "(旧バージョン)"
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "最近"
-
-#: /templates/_macros/thread_header.html:43
-msgid "View App"
-msgstr "アプリを見る"
-
-#: /templates/_macros/thread_header.html:47
-msgid "Unsubscribe"
-msgstr "購読解除"
-
-#: /templates/_macros/thread_header.html:50
-msgid "Review"
-msgstr "レビュー"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "アプリのアイコン"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "{app_name} のすべてのスレッドを表示しています"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "アプリ編集ページへ戻る"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "自分のスレッド"
-
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr "開発者センターへ"
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr "あなたはまだどのコミュニケーションスレッドにも参加していません。"
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr "申し訳ありませんが、何か問題が発生しました。再度ログインしてみてください。"
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "空白のノート"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "{app_name} のスレッドを表示しています"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "{app_name} のすべてのスレッドへ戻る"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "このアプリのバージョン"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Not Found"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "お探しのページは見つかりませんでした。"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "問題が発生しました。"
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "読み込み中に問題が発生しました"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "再読み込み"

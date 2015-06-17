@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-29T20:27:36.461Z\n"
+"POT-Creation-Date: 2015-06-17T16:39:49.453Z\n"
 "PO-Revision-Date: 2015-04-29 10:00+0000\n"
 "Last-Translator: RoseShaneGil <lopez.rsg@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,6 +13,223 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);Content-Type: text/plain; charset=utf-8\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1430301638.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Isara"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Hindi"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Oo"
+
+#: /templates/footer.html:2
+msgid "Develop Apps"
+msgstr "Mag-develop ng mga Apps"
+
+#: /templates/footer.html:5
+msgid "Developer Hub"
+msgstr "Developer Hub"
+
+#: /templates/footer.html:6
+msgid "Support"
+msgstr "Tulong"
+
+#: /templates/footer.html:10
+msgid "My Submissions"
+msgstr "Mga pagsusumite"
+
+#: /templates/footer.html:13
+msgid "Reviewer Tools"
+msgstr "Reviewer Tools"
+
+#: /templates/footer.html:16
+msgid "Lookup Tool"
+msgstr "Lookup Tool"
+
+#: /templates/footer.html:24
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
+msgstr ""
+
+#: /templates/footer.html:29
+msgid "Privacy Policy"
+msgstr "Patakaran sa Privacy"
+
+#: /templates/footer.html:30
+msgid "Terms of Use"
+msgstr "Mga Tuntunin sa Paggamit"
+
+#: /templates/footer.html:32
+msgid "Report Trademark Abuse"
+msgstr "I-report ang Pang-aabuso sa Trademark"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Communication Dashboard"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Sign Out"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Sign In"
+
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "Sign in"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Kailangan mong mag-sign in para magpatuloy."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Sign in / Sign up"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Attachment"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Deskripsyon ng File"
+
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "Naku!"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr ""
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr ""
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Subukan Muli"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "App icon"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr ""
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr ""
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Ang Aking mga Threads"
+
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr "Magtungo sa Developer Hub"
+
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr "Sa kasalukuyan, ikaw ay hindi kasali sa anumang threads na pangkuminikasyon."
+
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr "Ipagpaumanhin, may error na nagganap. Subukang maglogin muli."
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Walang laman na talaan"
+
+#: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1 /templates/_macros/thread.html:15
+msgid "No notes found"
+msgstr "Walang talaan na makita"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr ""
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr ""
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr ""
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr ""
+
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Itala ang mga salita dito"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "I-attach ang screenshots at log files:"
+
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Mag-attach ng isa pang file"
+
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Ipaskil"
+
+#: /templates/_macros/thread_header.html:18
+msgid "{app_name} (Version {version_number})"
+msgstr "{app_name} (Version {version_number})"
+
+#: /templates/_macros/thread_header.html:19
+msgid "Deleted App"
+msgstr "Inalis na App"
+
+#: /templates/_macros/thread_header.html:21
+msgid "(Obsolete)"
+msgstr "(Obsolete)"
+
+#: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:60
+msgid "{n} note"
+msgid_plural "{n} notes"
+msgstr[0] "{n} note"
+msgstr[1] "{n} notes"
+
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
+msgid "Reply"
+msgstr "Tugon"
+
+#: /templates/_macros/thread_header.html:41
+msgid "Recent"
+msgstr "Kamakailan lamang"
+
+#: /templates/_macros/thread_header.html:43
+msgid "View App"
+msgstr "Tingnan ang App"
+
+#: /templates/_macros/thread_header.html:47
+msgid "Unsubscribe"
+msgstr "Mag-unsubscribe"
+
+#: /templates/_macros/thread_header.html:50
+msgid "Review"
+msgstr "Suriin"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Tingnan ang mas luma"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Ang pahina na iyong hinahanap ay hindi makita."
 
 #: /media/js/settings_app.js:24
 msgid "Message"
@@ -134,16 +351,6 @@ msgstr "Kumentaryo ng isang pampublikong tagasuri"
 msgid "Re-review content rating adult"
 msgstr ""
 
-#: /media/js/views/comm.js:60 /templates/_macros/thread_header.html:27
-msgid "{n} note"
-msgid_plural "{n} notes"
-msgstr[0] "{n} note"
-msgstr[1] "{n} notes"
-
-#: /media/js/views/comm.js:83 /media/js/views/comm.js:155 /templates/_macros/thread_header.html:33
-msgid "Reply"
-msgstr "Tugon"
-
 #: /media/js/views/comm.js:90
 msgid "Message sent."
 msgstr "Naipadala na ang mensahe."
@@ -167,210 +374,3 @@ msgstr ""
 #: /media/js/views/comm.js:210
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
 msgstr "Matagumpay na nakapag-unsubscribed. Hindi ka na makatatanggap ng email notifications mula sa thread."
-
-#: /media/js/views/login.js:12 /templates/login.html:2
-msgid "Sign in"
-msgstr "Sign in"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Isara"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Hindi"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Oo"
-
-#: /templates/footer.html:2
-msgid "Develop Apps"
-msgstr "Mag-develop ng mga Apps"
-
-#: /templates/footer.html:5
-msgid "Developer Hub"
-msgstr "Developer Hub"
-
-#: /templates/footer.html:6
-msgid "Support"
-msgstr "Tulong"
-
-#: /templates/footer.html:10
-msgid "My Submissions"
-msgstr "Mga pagsusumite"
-
-#: /templates/footer.html:13
-msgid "Reviewer Tools"
-msgstr "Reviewer Tools"
-
-#: /templates/footer.html:16
-msgid "Lookup Tool"
-msgstr "Lookup Tool"
-
-#: /templates/footer.html:24
-msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
-msgstr ""
-
-#: /templates/footer.html:29
-msgid "Privacy Policy"
-msgstr "Patakaran sa Privacy"
-
-#: /templates/footer.html:30
-msgid "Terms of Use"
-msgstr "Mga Tuntunin sa Paggamit"
-
-#: /templates/footer.html:32
-msgid "Report Trademark Abuse"
-msgstr "I-report ang Pang-aabuso sa Trademark"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Communication Dashboard"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Sign Out"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Sign In"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Kailangan mong mag-sign in para magpatuloy."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Sign in / Sign up"
-
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Attachment"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Deskripsyon ng File"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Walang talaan na makita"
-
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Itala ang mga salita dito"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "I-attach ang screenshots at log files:"
-
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Mag-attach ng isa pang file"
-
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Ipaskil"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Tingnan ang mas luma"
-
-#: /templates/_macros/thread_header.html:18
-msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} (Version {version_number})"
-
-#: /templates/_macros/thread_header.html:19
-msgid "Deleted App"
-msgstr "Inalis na App"
-
-#: /templates/_macros/thread_header.html:21
-msgid "(Obsolete)"
-msgstr "(Obsolete)"
-
-#: /templates/_macros/thread_header.html:41
-msgid "Recent"
-msgstr "Kamakailan lamang"
-
-#: /templates/_macros/thread_header.html:43
-msgid "View App"
-msgstr "Tingnan ang App"
-
-#: /templates/_macros/thread_header.html:47
-msgid "Unsubscribe"
-msgstr "Mag-unsubscribe"
-
-#: /templates/_macros/thread_header.html:50
-msgid "Review"
-msgstr "Suriin"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "App icon"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr ""
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr ""
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Ang Aking mga Threads"
-
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr "Magtungo sa Developer Hub"
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr "Sa kasalukuyan, ikaw ay hindi kasali sa anumang threads na pangkuminikasyon."
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr "Ipagpaumanhin, may error na nagganap. Subukang maglogin muli."
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Walang laman na talaan"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr ""
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr ""
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr ""
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr ""
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Naku!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Ang pahina na iyong hinahanap ay hindi makita."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr ""
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr ""
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Subukan Muli"
