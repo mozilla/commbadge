@@ -1,3 +1,4 @@
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -11,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
-"X-Generator: Pootle 2.5.0\n"
+"X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1432390031.0\n"
 
 #: /templates/confirmation.html:0
@@ -52,11 +53,15 @@ msgstr "Orodja za iskanje"
 
 #: /templates/footer.html:24
 msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, "
+"content on this site is licensed under the <a href=\"{cc_url}\" "
+"target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> "
+"or any later version."
 msgstr ""
-"Vsebina na strani je licencirana pod <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution licenco za deljenje pod istimi pogoji v3.0</a>, razen v primerih, ko je <a href="
-"\"{legal_url}\" target=\"_blank\">navedeno</a> drugače."
+"Vsebina na strani je licencirana pod <a href=\"{cc_url}\" "
+"target=\"_blank\">Creative Commons Attribution licenco za deljenje pod "
+"istimi pogoji v3.0</a>, razen v primerih, ko je <a href=\"{legal_url}\" "
+"target=\"_blank\">navedeno</a> drugače."
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
@@ -150,7 +155,8 @@ msgstr "Oprostite, prišlo je do napake. Poskusite se ponovno vpisati."
 msgid "Empty note"
 msgstr "Prazna beležka"
 
-#: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1 /templates/_macros/thread.html:15
+#: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
+#: /templates/_macros/thread.html:15
 msgid "No notes found"
 msgstr "Ni najdenih beležk"
 
@@ -207,7 +213,8 @@ msgstr[1] "{n} opombi"
 msgstr[2] "{n} opombe"
 msgstr[3] "{n} opomb"
 
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83
+#: /media/js/views/comm.js:155
 msgid "Reply"
 msgstr "Odgovori"
 
@@ -277,7 +284,8 @@ msgstr "Posredovano naprej zaradi velika števila poročil o zlorabi"
 
 #: /media/js/settings_app.js:34
 msgid "Escalated due to high refund requests"
-msgstr "Posredovano naprej zaradi velikega števila prošenj za povračilo kupnine"
+msgstr ""
+"Posredovano naprej zaradi velikega števila prošenj za povračilo kupnine"
 
 #: /media/js/settings_app.js:35
 msgid "Escalation cleared"
@@ -372,9 +380,16 @@ msgid "There are no more older notes."
 msgstr "Ni več starejših beležk."
 
 #: /media/js/views/comm.js:205
-msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr "Če se odjavite s te teme, več ne boste prejemali elektronske pošte z obvestili v povezavi s to temo. Ste prepričani?"
+msgid ""
+"By unsubscribing from this thread, you will no longer receive email "
+"notifications from this thread. Are you sure?"
+msgstr ""
+"Če se odjavite s te teme, več ne boste prejemali elektronske pošte z "
+"obvestili v povezavi s to temo. Ste prepričani?"
 
 #: /media/js/views/comm.js:210
-msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr "Odjava uspešna. Elektronskih sporočil za to temo ne boste več prejemali."
+msgid ""
+"Successfully unsubscribed. You will no longer receive email notifications "
+"for that thread."
+msgstr ""
+"Odjava uspešna. Elektronskih sporočil za to temo ne boste več prejemali."
