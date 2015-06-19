@@ -1,3 +1,4 @@
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -11,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Pootle 2.5.0\n"
+"X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1425513160.0\n"
 
 #: /templates/confirmation.html:0
@@ -52,11 +53,15 @@ msgstr "Ferramenta de Pesquisa"
 
 #: /templates/footer.html:24
 msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, "
+"content on this site is licensed under the <a href=\"{cc_url}\" "
+"target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> "
+"or any later version."
 msgstr ""
-"Exceto quando <a href=\"{legal_url}\" target=\"_blank\">indicado</a>, o conteúdo desde site está licenciado sob a <a href=\"{cc_url}\" target=\"_blank\">Licença Creative Commons Atribuição-"
-"CompartilhaIgual v3.0</a> ou qualquer versão posterior."
+"Exceto quando <a href=\"{legal_url}\" target=\"_blank\">indicado</a>, o "
+"conteúdo desde site está licenciado sob a <a href=\"{cc_url}\" "
+"target=\"_blank\">Licença Creative Commons Atribuição-CompartilhaIgual "
+"v3.0</a> ou qualquer versão posterior."
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
@@ -150,7 +155,8 @@ msgstr "Lamentamos, mas ocorreu um erro. Tente entrar novamente."
 msgid "Empty note"
 msgstr "Nota vazia"
 
-#: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1 /templates/_macros/thread.html:15
+#: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
+#: /templates/_macros/thread.html:15
 msgid "No notes found"
 msgstr "Nenhuma nota foi encontrada"
 
@@ -205,7 +211,8 @@ msgid_plural "{n} notes"
 msgstr[0] "{n} nota"
 msgstr[1] "{n} notas"
 
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83
+#: /media/js/views/comm.js:155
 msgid "Reply"
 msgstr "Responder"
 
@@ -370,9 +377,17 @@ msgid "There are no more older notes."
 msgstr "Não há mais notas anteriores."
 
 #: /media/js/views/comm.js:205
-msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr "Ao cancelar a inscrição neste tópico, não receberá mais notificações por email deste tópico. Tem certeza?"
+msgid ""
+"By unsubscribing from this thread, you will no longer receive email "
+"notifications from this thread. Are you sure?"
+msgstr ""
+"Ao cancelar a inscrição neste tópico, não receberá mais notificações por "
+"email deste tópico. Tem certeza?"
 
 #: /media/js/views/comm.js:210
-msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr "Cancelamento da inscrição concluída com sucesso. Não receberá mais notificações por email deste tópico."
+msgid ""
+"Successfully unsubscribed. You will no longer receive email notifications "
+"for that thread."
+msgstr ""
+"Cancelamento da inscrição concluída com sucesso. Não receberá mais "
+"notificações por email deste tópico."
