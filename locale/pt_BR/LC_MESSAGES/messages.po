@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-17T16:39:49.453Z\n"
+"POT-Creation-Date: 2015-06-27T12:27:09.453Z\n"
 "PO-Revision-Date: 2015-03-04 23:52+0000\n"
-"Last-Translator: Marco Aurélio <ouesten@me.com>\n"
+"Last-Translator: Luan Haddad <luanhaddad@gmail.com\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -145,7 +145,7 @@ msgstr "Ir para a central do desenvolvedor"
 
 #: /templates/comm/main.html:14
 msgid "You currently are not involved in any communication threads."
-msgstr "Atualmente não está participando de qualquer discussão."
+msgstr "No momento você não está participando em nenhum tópico."
 
 #: /templates/comm/main.html:16
 msgid "Sorry, an error has occurred. Try logging in again."
@@ -226,7 +226,7 @@ msgstr "Visualizar aplicativo"
 
 #: /templates/_macros/thread_header.html:47
 msgid "Unsubscribe"
-msgstr "Desinscrever"
+msgstr "Cancelar inscrição"
 
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
@@ -358,7 +358,7 @@ msgstr "Comentário público do revisor"
 
 #: /media/js/settings_app.js:53
 msgid "Re-review content rating adult"
-msgstr "Reavaliação de conteúdo classificada como para adulto"
+msgstr "Reavaliação de conteúdo classificada como conteúdo adulto"
 
 #: /media/js/views/comm.js:90
 msgid "Message sent."
@@ -381,13 +381,13 @@ msgid ""
 "By unsubscribing from this thread, you will no longer receive email "
 "notifications from this thread. Are you sure?"
 msgstr ""
-"Ao cancelar a inscrição neste tópico, não receberá mais notificações por "
-"email deste tópico. Tem certeza?"
+"Ao cancelar a inscrição neste tópico, você não receberá mais notificações por "
+"email deste tópico. Você tem certeza?"
 
 #: /media/js/views/comm.js:210
 msgid ""
 "Successfully unsubscribed. You will no longer receive email notifications "
 "for that thread."
 msgstr ""
-"Cancelamento da inscrição concluída com sucesso. Não receberá mais "
+"Cancelamento da inscrição concluída com sucesso. Você não receberá mais "
 "notificações por email deste tópico."
