@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-17T16:39:49.453Z\n"
+"POT-Creation-Date: 2015-07-01T15:34:22.354Z\n"
 "PO-Revision-Date: 2015-01-24 20:36+0000\n"
 "Last-Translator: Håvar <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,18 +13,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1422131812.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Lukk"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Nei"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Ja"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -70,17 +58,17 @@ msgstr "Vilkår for bruk"
 msgid "Report Trademark Abuse"
 msgstr "Rapporter misbruk av varemerker"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Kommunikasjonsinstrumentbord"
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Lukk"
 
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Logg ut"
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Nei"
 
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Logg inn"
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Ja"
 
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
@@ -94,6 +82,18 @@ msgstr "Du må logge inn for å fortsette."
 msgid "Sign in / Sign up"
 msgstr "Logg inn / Bli medlem"
 
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Kommunikasjonsinstrumentbord"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Logg ut"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Logg inn"
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr "Vedlegg"
@@ -102,74 +102,9 @@ msgstr "Vedlegg"
 msgid "File Description"
 msgstr "Filbeskrivelse"
 
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "Å nei!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "En feil oppstod."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Feil ved lasting av flere"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Prøv igjen"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "App-ikon"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Viser alle tråder for {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Gå tilbake til app-redigeringssiden"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Mine tråder"
-
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr "Gå til utvikler-knutepunkt"
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr "Du er for øyeblikket ikke involvert i noen kommunikasjonstråder."
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr "Det har oppstått en feil. Prøv å logge inn på nytt."
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Tomt notat"
-
-#: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1 /templates/_macros/thread.html:15
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "Ingen notater funnet"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Viser tråd for {app_name}"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Tilbake til alle tråder for {app_name}"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "Denne appens versjoner"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -186,6 +121,10 @@ msgstr "Legg ved en annen fil"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "Send inn"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Vis eldre"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -225,13 +164,74 @@ msgstr "Avslutt abonnement"
 msgid "Review"
 msgstr "Gjennomgang"
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Vis eldre"
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Å nei!"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
 msgstr "Siden du leter etter ble ikke funnet."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "En feil oppstod."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Feil ved lasting av flere"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Prøv igjen"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Mine tråder"
+
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr "Gå til utvikler-knutepunkt"
+
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr "Du er for øyeblikket ikke involvert i noen kommunikasjonstråder."
+
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr "Det har oppstått en feil. Prøv å logge inn på nytt."
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "App-ikon"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Viser alle tråder for {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Gå tilbake til app-redigeringssiden"
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Tomt notat"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Viser tråd for {app_name}"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Tilbake til alle tråder for {app_name}"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "Denne appens versjoner"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

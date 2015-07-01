@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-17T16:39:49.453Z\n"
+"POT-Creation-Date: 2015-07-01T15:34:22.354Z\n"
 "PO-Revision-Date: 2015-05-23 14:07+0000\n"
 "Last-Translator: Goran <goran.kohek@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,18 +14,6 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1432390031.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Zapri"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Ne"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Da"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -53,15 +41,11 @@ msgstr "Orodja za iskanje"
 
 #: /templates/footer.html:24
 msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, "
-"content on this site is licensed under the <a href=\"{cc_url}\" "
-"target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> "
-"or any later version."
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
 msgstr ""
-"Vsebina na strani je licencirana pod <a href=\"{cc_url}\" "
-"target=\"_blank\">Creative Commons Attribution licenco za deljenje pod "
-"istimi pogoji v3.0</a>, razen v primerih, ko je <a href=\"{legal_url}\" "
-"target=\"_blank\">navedeno</a> drugače."
+"Vsebina na strani je licencirana pod <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution licenco za deljenje pod istimi pogoji v3.0</a>, razen v primerih, ko je <a href="
+"\"{legal_url}\" target=\"_blank\">navedeno</a> drugače."
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
@@ -75,17 +59,17 @@ msgstr "Pogoji uporabe"
 msgid "Report Trademark Abuse"
 msgstr "Prijavi zlorabo blagovne znamke"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Komunikacijska nadzorna plošča"
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Zapri"
 
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Izpis"
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Ne"
 
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Vpišite se"
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Da"
 
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
@@ -99,6 +83,18 @@ msgstr "Za nadaljevanje se morate vpisati."
 msgid "Sign in / Sign up"
 msgstr "Vpis / Prijava"
 
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Komunikacijska nadzorna plošča"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Izpis"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Vpišite se"
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr "Priponka"
@@ -107,75 +103,9 @@ msgstr "Priponka"
 msgid "File Description"
 msgstr "Opis datoteke"
 
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "Oh, ne!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Prišlo je do napake."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Napaka pri nalaganju dodatne vsebine"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Poskusite znova"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Ikona aplikacije"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Prikazovanje vseh niti {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Pojdi nazaj na stran za urejanje aplikacije"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Moje teme"
-
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr "Pojdi na razvojno zvezdišče"
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr "Trenutno ne sodelujete v nobeni komunikacijski temi."
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr "Oprostite, prišlo je do napake. Poskusite se ponovno vpisati."
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Prazna beležka"
-
-#: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
-#: /templates/_macros/thread.html:15
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "Ni najdenih beležk"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Ogledujem temo za {naziv_aplikacije}"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Nazaj na vse teme o {naziv_aplikacije}"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "Različica te aplikacije"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{številka_različice}"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -192,6 +122,10 @@ msgstr "Pripni dodatno datoteko"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "Objavi"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Poglej starejše"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -213,8 +147,7 @@ msgstr[1] "{n} opombi"
 msgstr[2] "{n} opombe"
 msgstr[3] "{n} opomb"
 
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83
-#: /media/js/views/comm.js:155
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
 msgid "Reply"
 msgstr "Odgovori"
 
@@ -234,13 +167,74 @@ msgstr "Odjavi se"
 msgid "Review"
 msgstr "Pregled"
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Poglej starejše"
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Oh, ne!"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
 msgstr "Stran, ki ste jo iskali, ni bila najdena."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Prišlo je do napake."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Napaka pri nalaganju dodatne vsebine"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Poskusite znova"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Moje teme"
+
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr "Pojdi na razvojno zvezdišče"
+
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr "Trenutno ne sodelujete v nobeni komunikacijski temi."
+
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr "Oprostite, prišlo je do napake. Poskusite se ponovno vpisati."
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Ikona aplikacije"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Prikazovanje vseh niti {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Pojdi nazaj na stran za urejanje aplikacije"
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Prazna beležka"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Ogledujem temo za {naziv_aplikacije}"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Nazaj na vse teme o {naziv_aplikacije}"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "Različica te aplikacije"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{številka_različice}"
 
 #: /media/js/settings_app.js:24
 msgid "Message"
@@ -284,8 +278,7 @@ msgstr "Posredovano naprej zaradi velika števila poročil o zlorabi"
 
 #: /media/js/settings_app.js:34
 msgid "Escalated due to high refund requests"
-msgstr ""
-"Posredovano naprej zaradi velikega števila prošenj za povračilo kupnine"
+msgstr "Posredovano naprej zaradi velikega števila prošenj za povračilo kupnine"
 
 #: /media/js/settings_app.js:35
 msgid "Escalation cleared"
@@ -380,16 +373,9 @@ msgid "There are no more older notes."
 msgstr "Ni več starejših beležk."
 
 #: /media/js/views/comm.js:205
-msgid ""
-"By unsubscribing from this thread, you will no longer receive email "
-"notifications from this thread. Are you sure?"
-msgstr ""
-"Če se odjavite s te teme, več ne boste prejemali elektronske pošte z "
-"obvestili v povezavi s to temo. Ste prepričani?"
+msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+msgstr "Če se odjavite s te teme, več ne boste prejemali elektronske pošte z obvestili v povezavi s to temo. Ste prepričani?"
 
 #: /media/js/views/comm.js:210
-msgid ""
-"Successfully unsubscribed. You will no longer receive email notifications "
-"for that thread."
-msgstr ""
-"Odjava uspešna. Elektronskih sporočil za to temo ne boste več prejemali."
+msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
+msgstr "Odjava uspešna. Elektronskih sporočil za to temo ne boste več prejemali."

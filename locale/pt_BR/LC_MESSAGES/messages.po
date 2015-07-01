@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-17T16:39:49.453Z\n"
+"POT-Creation-Date: 2015-07-01T15:34:22.354Z\n"
 "PO-Revision-Date: 2015-03-04 23:52+0000\n"
 "Last-Translator: Marco Aurélio <ouesten@me.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,18 +14,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1425513160.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Fechar"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Não"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Sim"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -53,15 +41,11 @@ msgstr "Ferramenta de Pesquisa"
 
 #: /templates/footer.html:24
 msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, "
-"content on this site is licensed under the <a href=\"{cc_url}\" "
-"target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> "
-"or any later version."
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
 msgstr ""
-"Exceto quando <a href=\"{legal_url}\" target=\"_blank\">indicado</a>, o "
-"conteúdo desde site está licenciado sob a <a href=\"{cc_url}\" "
-"target=\"_blank\">Licença Creative Commons Atribuição-CompartilhaIgual "
-"v3.0</a> ou qualquer versão posterior."
+"Exceto quando <a href=\"{legal_url}\" target=\"_blank\">indicado</a>, o conteúdo desde site está licenciado sob a <a href=\"{cc_url}\" target=\"_blank\">Licença Creative Commons Atribuição-"
+"CompartilhaIgual v3.0</a> ou qualquer versão posterior."
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
@@ -75,17 +59,17 @@ msgstr "Termos de uso"
 msgid "Report Trademark Abuse"
 msgstr "Informar o uso indevido da marca"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Painel de comunicação"
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Fechar"
 
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Sair"
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Não"
 
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Entrar"
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Sim"
 
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
@@ -99,6 +83,18 @@ msgstr "Você deve entrar para prosseguir."
 msgid "Sign in / Sign up"
 msgstr "Entrar / Registrar"
 
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Painel de comunicação"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Sair"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Entrar"
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr "Anexo"
@@ -107,75 +103,9 @@ msgstr "Anexo"
 msgid "File Description"
 msgstr "Descrição do arquivo"
 
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "Oh, não!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Ocorreu um erro."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Erro ao carregar mais"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Tente novamente"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Ícone do aplicativo"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Visualizando todos os tópicos sobre {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Voltar à página de edição do aplicativo"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Meus tópicos"
-
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr "Ir para a central do desenvolvedor"
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr "Atualmente não está participando de qualquer discussão."
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr "Lamentamos, mas ocorreu um erro. Tente entrar novamente."
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Nota vazia"
-
-#: /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
-#: /templates/_macros/thread.html:15
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "Nenhuma nota foi encontrada"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Visualizando tópico sobre {app_name}"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Voltar a todos os tópicos sobre {app_name}"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "Versões deste aplicativo"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -192,6 +122,10 @@ msgstr "Anexar outro arquivo"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "Publicar"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Ver anteriores"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -211,8 +145,7 @@ msgid_plural "{n} notes"
 msgstr[0] "{n} nota"
 msgstr[1] "{n} notas"
 
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83
-#: /media/js/views/comm.js:155
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
 msgid "Reply"
 msgstr "Responder"
 
@@ -232,13 +165,74 @@ msgstr "Desinscrever"
 msgid "Review"
 msgstr "Revisar"
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Ver anteriores"
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Oh, não!"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
 msgstr "A página procurada não foi encontrada."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Ocorreu um erro."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Erro ao carregar mais"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Tente novamente"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Meus tópicos"
+
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr "Ir para a central do desenvolvedor"
+
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr "Atualmente não está participando de qualquer discussão."
+
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr "Lamentamos, mas ocorreu um erro. Tente entrar novamente."
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Ícone do aplicativo"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Visualizando todos os tópicos sobre {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Voltar à página de edição do aplicativo"
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Nota vazia"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Visualizando tópico sobre {app_name}"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Voltar a todos os tópicos sobre {app_name}"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "Versões deste aplicativo"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
 
 #: /media/js/settings_app.js:24
 msgid "Message"
@@ -377,17 +371,9 @@ msgid "There are no more older notes."
 msgstr "Não há mais notas anteriores."
 
 #: /media/js/views/comm.js:205
-msgid ""
-"By unsubscribing from this thread, you will no longer receive email "
-"notifications from this thread. Are you sure?"
-msgstr ""
-"Ao cancelar a inscrição neste tópico, não receberá mais notificações por "
-"email deste tópico. Tem certeza?"
+msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+msgstr "Ao cancelar a inscrição neste tópico, não receberá mais notificações por email deste tópico. Tem certeza?"
 
 #: /media/js/views/comm.js:210
-msgid ""
-"Successfully unsubscribed. You will no longer receive email notifications "
-"for that thread."
-msgstr ""
-"Cancelamento da inscrição concluída com sucesso. Não receberá mais "
-"notificações por email deste tópico."
+msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
+msgstr "Cancelamento da inscrição concluída com sucesso. Não receberá mais notificações por email deste tópico."
