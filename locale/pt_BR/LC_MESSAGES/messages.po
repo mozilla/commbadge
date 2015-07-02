@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-01T15:34:22.354Z\n"
-"PO-Revision-Date: 2015-03-04 23:52+0000\n"
+"PO-Revision-Date: 2015-07-02 02:30:46.388935\n"
 "Last-Translator: Marco Aurélio <ouesten@me.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -165,7 +165,7 @@ msgstr "Visualizar aplicativo"
 
 #: /templates/_macros/thread_header.html:47
 msgid "Unsubscribe"
-msgstr "Desinscrever"
+msgstr "Cancelar inscrição"
 
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
