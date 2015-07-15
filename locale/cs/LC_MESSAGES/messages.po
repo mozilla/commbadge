@@ -43,10 +43,8 @@ msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
 "Alike License v3.0</a> or any later version."
 msgstr ""
-"Pokud není <a href=\"{legal_url}\" target=\"_blank\">řečeno</a> jinak, je obsah "
-"této stránky dostupný pod licencí <a href=\"{cc_url}\" "
-"target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> či "
-"kterékoliv pozdější verze."
+"Pokud není <a href=\"{legal_url}\" target=\"_blank\">řečeno</a> jinak, je obsah této stránky dostupný pod licencí <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike "
+"License v3.0</a> či kterékoliv pozdější verze."
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
@@ -374,9 +372,7 @@ msgstr "Neexistují žádné starší poznámky."
 
 #: /media/js/views/comm.js:205
 msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr ""
-"Po odhlášení z tohoto vlákna vám již nebudou zasílány e-maily s upozorněním. "
-"Opravdu se chcete odhlásit?"
+msgstr "Po odhlášení z tohoto vlákna vám již nebudou zasílány e-maily s upozorněním. Opravdu se chcete odhlásit?"
 
 #: /media/js/views/comm.js:210
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
