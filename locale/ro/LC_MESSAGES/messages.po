@@ -3,46 +3,51 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-01T15:34:22.354Z\n"
-"PO-Revision-Date: 2014-03-31 19:52+0000\n"
-"Last-Translator: Raul <raul.malea@gmail.com>\n"
+"PO-Revision-Date: 2015-08-07 08:35+0000\n"
+"Last-Translator: Jobava <jobaval10n@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);;\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1396295544.0\n"
+"X-POOTLE-MTIME: 1438936556.0\n"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
-msgstr "Aplicații de dezvoltare"
+msgstr "Dezvoltă aplicații"
 
 #: /templates/footer.html:5
 msgid "Developer Hub"
-msgstr ""
+msgstr "Centrul dezvoltatorilor"
 
 #: /templates/footer.html:6
 msgid "Support"
-msgstr ""
+msgstr "Asistență"
 
 #: /templates/footer.html:10
 msgid "My Submissions"
-msgstr ""
+msgstr "Aplicațiile mele depuse"
 
 #: /templates/footer.html:13
 msgid "Reviewer Tools"
-msgstr ""
+msgstr "Unelte pentru recenzenți"
 
 #: /templates/footer.html:16
 msgid "Lookup Tool"
-msgstr ""
+msgstr "Unealtă de căutare"
 
 #: /templates/footer.html:24
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
 "Alike License v3.0</a> or any later version."
 msgstr ""
+"Cu excepția cazurilor <a href=\"{legal_url}\" target=\"_blank\">menționate "
+"diferit</a>, conținutul de pe acest sait este disponibil sub licența <a "
+"href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike "
+"License v3.0</a> sau orice versiune ulterioară."
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
@@ -54,7 +59,7 @@ msgstr "Termeni de utilizare"
 
 #: /templates/footer.html:32
 msgid "Report Trademark Abuse"
-msgstr ""
+msgstr "Raportați abuzul mărcilor înregistrate"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -70,308 +75,312 @@ msgstr "Da"
 
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
-msgstr ""
+msgstr "Autentificare"
 
 #: /templates/login.html:3
 msgid "You must sign in to proceed."
-msgstr ""
+msgstr "Trebuie să te autentifici pentru a continua."
 
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
-msgstr ""
+msgstr "Autentificare / Înregistrare"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
-msgstr ""
+msgstr "Tablou de comunicare"
 
 #: /templates/header.html:7
 msgid "Sign Out"
-msgstr ""
+msgstr "Deconectare"
 
 #: /templates/header.html:8
 msgid "Sign In"
-msgstr ""
+msgstr "Autentificare"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
-msgstr ""
+msgstr "Atașament"
 
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
-msgstr ""
+msgstr "Descrierea fișierului"
 
 #: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
-msgstr ""
+msgstr "Nicio notiță găsită"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
-msgstr ""
+msgstr "Introdu textul notiței aici"
 
 #: /templates/_macros/reply_box.html:6
 msgid "Attach screenshots and log files:"
-msgstr ""
+msgstr "Atașați capturi de ecran și fișiere jurnal:"
 
 #: /templates/_macros/reply_box.html:8
 msgid "Attach another file"
-msgstr ""
+msgstr "Atașați un alt fișier"
 
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
-msgstr ""
+msgstr "Postare"
 
 #: /templates/_macros/thread.html:20
 msgid "View older"
-msgstr ""
+msgstr "Vezi mai vechi"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
-msgstr ""
+msgstr "{app_name} (versiunea {version_number})"
 
 #: /templates/_macros/thread_header.html:19
 msgid "Deleted App"
-msgstr ""
+msgstr "Aplicație ștearsă"
 
 #: /templates/_macros/thread_header.html:21
 msgid "(Obsolete)"
-msgstr ""
+msgstr "(Învechit)"
 
 #: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:60
 msgid "{n} note"
 msgid_plural "{n} notes"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "{n} notiță"
+msgstr[1] "{n} notițe"
+msgstr[2] "{n} de notițe"
 
 #: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
 msgid "Reply"
-msgstr ""
+msgstr "Răspunde"
 
 #: /templates/_macros/thread_header.html:41
 msgid "Recent"
-msgstr ""
+msgstr "Recente"
 
 #: /templates/_macros/thread_header.html:43
 msgid "View App"
-msgstr ""
+msgstr "Vezi aplicația"
 
 #: /templates/_macros/thread_header.html:47
 msgid "Unsubscribe"
-msgstr ""
+msgstr "Dezabonare"
 
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
-msgstr ""
+msgstr "Recenzie"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
-msgstr ""
+msgstr "O, nu!"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
-msgstr ""
+msgstr "Pagina pe care ai căutat-o nu a fost găsită."
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
-msgstr ""
+msgstr "A apărut o eroare."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
-msgstr ""
+msgstr "Eroare la încărcare"
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
-msgstr ""
+msgstr "Încearcă din nou."
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
-msgstr ""
+msgstr "Discuțiile mele"
 
 #: /templates/comm/main.html:4
 msgid "Go to Developer Hub"
-msgstr ""
+msgstr "Mergi la Developer Hub"
 
 #: /templates/comm/main.html:14
 msgid "You currently are not involved in any communication threads."
-msgstr ""
+msgstr "Nu sunteți implicați într-o discuție momentan."
 
 #: /templates/comm/main.html:16
 msgid "Sorry, an error has occurred. Try logging in again."
-msgstr ""
+msgstr "S-a produs o eroare. Încercați să vă autentificați din nou."
 
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
-msgstr ""
+msgstr "Iconița aplicației"
 
 #: /templates/comm/app_dashboard.html:7
 msgid "Viewing All Threads for {app_name}"
-msgstr ""
+msgstr "Toate discuțiile pentru {app_name}"
 
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
-msgstr ""
+msgstr "Înapoi la pagina de editare aplicație"
 
 #: /templates/comm/note_detail.html:12
 msgid "Empty note"
-msgstr ""
+msgstr "Notă goală"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
-msgstr ""
+msgstr "Vizualizare discuție pentru {app_name}"
 
 #: /templates/comm/show_thread.html:10
 msgid "Back to all threads for {app_name}"
-msgstr ""
+msgstr "Înapoi la toate discuțiile pentru {app_name}"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
-msgstr ""
+msgstr "Versiunile aplicației curente"
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
-msgstr ""
+msgstr "v.{version_number}"
 
 #: /media/js/settings_app.js:24
 msgid "Message"
-msgstr ""
+msgstr "Mesaj"
 
 #: /media/js/settings_app.js:25
 msgid "App approved"
-msgstr ""
+msgstr "Aplicație aprobată"
 
 #: /media/js/settings_app.js:26
 msgid "App rejected"
-msgstr ""
+msgstr "Aplicație respinsă"
 
 #: /media/js/settings_app.js:27
 msgid "App banned"
-msgstr ""
+msgstr "Aplicație interzisă"
 
 #: /media/js/settings_app.js:28
 msgid "Reviewer comment"
-msgstr ""
+msgstr "Comentariul recenzentului"
 
 #: /media/js/settings_app.js:29
 msgid "Escalated to senior reviewer"
-msgstr ""
+msgstr "Escaladat la recenzentul senior"
 
 #: /media/js/settings_app.js:30
 msgid "Private reviewer comment"
-msgstr ""
+msgstr "Comentariu privat al recenzentului"
 
 #: /media/js/settings_app.js:31
 msgid "App resubmission"
-msgstr ""
+msgstr "Retrimiterea aplicației"
 
 #: /media/js/settings_app.js:32
 msgid "Approved but waiting to be made public"
-msgstr ""
+msgstr "Aprobată, dar așteaptă publicarea"
 
 #: /media/js/settings_app.js:33
 msgid "Escalated due to high abuse reports"
-msgstr ""
+msgstr "Escaladat din cauza numărului rapoartelor de abuz"
 
 #: /media/js/settings_app.js:34
 msgid "Escalated due to high refund requests"
-msgstr ""
+msgstr "Escaladat din cauza numărului cererilor de rambursare"
 
 #: /media/js/settings_app.js:35
 msgid "Escalation cleared"
-msgstr ""
+msgstr "Fără escaladări"
 
 #: /media/js/settings_app.js:36
 msgid "Re-review cleared"
-msgstr ""
+msgstr "Fără re-recenzii"
 
 #: /media/js/settings_app.js:37
 msgid "App submission note"
-msgstr ""
+msgstr "Notă atașată propunerii de aplicație"
 
 #: /media/js/settings_app.js:38
 msgid "Developer comment"
-msgstr ""
+msgstr "Comentariu dezvoltator"
 
 #: /media/js/settings_app.js:39
 msgid "Device(s) changed by reviewer"
-msgstr ""
+msgstr "Dispozitiv(ele) modificate de recenzent"
 
 #: /media/js/settings_app.js:40
 msgid "Feature(s) changed by reviewer"
-msgstr ""
+msgstr "Funcția(ile) schimbate de recenzent"
 
 #: /media/js/settings_app.js:41
 msgid "Review manifest change"
-msgstr ""
+msgstr "Recenzați schimbările în manifest"
 
 #: /media/js/settings_app.js:42
 msgid "Review manifest url change"
-msgstr ""
+msgstr "Recenzați schimbările în url-ul manifestului"
 
 #: /media/js/settings_app.js:43
 msgid "Review manifest premium type upgrade"
-msgstr ""
+msgstr "Recenzați actualizări de tip premium din manifest"
 
 #: /media/js/settings_app.js:44
 msgid "Re-review devices added"
-msgstr ""
+msgstr "Re-recenzați dispozitivele adăugate"
 
 #: /media/js/settings_app.js:45
 msgid "Re-review features changed"
-msgstr ""
+msgstr "Re-recenzați funcțiile schimbate"
 
 #: /media/js/settings_app.js:46
 msgid "Escalation due to VIP App"
-msgstr ""
+msgstr "Escaladări datorate statutului de aplicație VIP"
 
 #: /media/js/settings_app.js:47
 msgid "Escalation due to prerelease App"
-msgstr ""
+msgstr "Escaladări datorate aplicației de tip prerelease"
 
 #: /media/js/settings_app.js:48
 msgid "Priority review requested"
-msgstr ""
+msgstr "Cereri de recenzii prioritare"
 
 #: /media/js/settings_app.js:49
 msgid "Tarako review passed"
-msgstr ""
+msgstr "Recenzie Tarako de succes"
 
 #: /media/js/settings_app.js:50
 msgid "Tarako review failed"
-msgstr ""
+msgstr "Recenzie Tarako eșuată"
 
 #: /media/js/settings_app.js:51
 msgid "Version notes for reviewer"
-msgstr ""
+msgstr "Notele versiunii pentru recenzent"
 
 #: /media/js/settings_app.js:52
 msgid "Public reviewer comment"
-msgstr ""
+msgstr "Comentariu public al recenzentului"
 
 #: /media/js/settings_app.js:53
 msgid "Re-review content rating adult"
-msgstr ""
+msgstr "Re-recenzie rating conținut adult"
 
 #: /media/js/views/comm.js:90
 msgid "Message sent."
-msgstr ""
+msgstr "Mesaj trimis."
 
 #: /media/js/views/comm.js:95
 msgid "Message sending failed."
-msgstr ""
+msgstr "Eșec la trimiterea mesajului."
 
 #: /media/js/views/comm.js:145
 msgid "Cancel reply"
-msgstr ""
+msgstr "Anulează răspunsul"
 
 #: /media/js/views/comm.js:182
 msgid "There are no more older notes."
-msgstr ""
+msgstr "Nu sunt note mai vechi."
 
 #: /media/js/views/comm.js:205
 msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
 msgstr ""
+"Prin dezabonare de la discuție nu vei mai primi notificări prin e-mail "
+"pentru aceasta. Ești sigur(ă)?"
 
 #: /media/js/views/comm.js:210
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
 msgstr ""
+"Dezabonat cu succes. Nu vei mai primi notificări prin e-mail pentru "
+"discuție."
