@@ -3,16 +3,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-01T15:34:22.354Z\n"
-"PO-Revision-Date: 2015-08-11 15:30+0000\n"
-"Last-Translator: CristianSilaghi <cristian.silaghi@mozilla.ro>\n"
+"PO-Revision-Date: 2015-08-14 11:06+0000\n"
+"Last-Translator: Jobava <jobaval10n@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);;\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1439307048.0\n"
+"X-POOTLE-MTIME: 1439550410.0\n"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -171,7 +172,7 @@ msgstr "O, nu!"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
-msgstr "Pagina pe care ai căutat-o nu a fost găsită."
+msgstr "Pagina căutată nu a fost găsită."
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
@@ -264,7 +265,7 @@ msgstr "Comentariu privat al recenzentului"
 
 #: /media/js/settings_app.js:31
 msgid "App resubmission"
-msgstr "Retrimiterea aplicației"
+msgstr "Repropunerea aplicației"
 
 #: /media/js/settings_app.js:32
 msgid "Approved but waiting to be made public"
@@ -296,11 +297,11 @@ msgstr "Comentariu dezvoltator"
 
 #: /media/js/settings_app.js:39
 msgid "Device(s) changed by reviewer"
-msgstr "Dispozitiv(ele) modificate de recenzent"
+msgstr "Dispozitiv(ele) schimbate de recenzent"
 
 #: /media/js/settings_app.js:40
 msgid "Feature(s) changed by reviewer"
-msgstr "Funcția(ile) schimbate de recenzent"
+msgstr "Funcțiile schimbate de recenzent"
 
 #: /media/js/settings_app.js:41
 msgid "Review manifest change"
@@ -332,7 +333,7 @@ msgstr "Escaladări datorate aplicației de tip prerelease"
 
 #: /media/js/settings_app.js:48
 msgid "Priority review requested"
-msgstr "Cereri de recenzii prioritare"
+msgstr "Cereri de recenzie prioritare"
 
 #: /media/js/settings_app.js:49
 msgid "Tarako review passed"
