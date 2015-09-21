@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-01T15:34:22.354Z\n"
+"POT-Creation-Date: 2015-09-21T16:49:59.685Z\n"
 "PO-Revision-Date: 2015-03-11 06:03+0000\n"
 "Last-Translator: Vanja <tumbas93@gmail.com>\n"
 "Language-Team: none\n"
@@ -15,6 +15,18 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1426053837.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Zatvori"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Ne"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Da"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -64,17 +76,17 @@ msgstr "Uslovi korišćenja"
 msgid "Report Trademark Abuse"
 msgstr "Prijavite zloupotrebu robne marke"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Zatvori"
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Komunikaciona kontrolna tabla"
 
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Ne"
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Odjavi se"
 
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Da"
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Prijavi se"
 
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
@@ -88,18 +100,6 @@ msgstr "Morate se prijaviti kako biste nastavili dalje."
 msgid "Sign in / Sign up"
 msgstr "Prijavi se / Registruj se"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Komunikaciona kontrolna tabla"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Odjavi se"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Prijavi se"
-
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr "Prilog"
@@ -108,10 +108,59 @@ msgstr "Prilog"
 msgid "File Description"
 msgstr "Opis datoteke"
 
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
-#: /templates/comm/no_notes.html:1
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Moje teme"
+
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr "Idi na centar za programera"
+
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr "Trenutno ne učestvujete ni u jednoj komunikacionoj temi."
+
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr "Izvinjavamo se, došlo je do greške. Pokušajte ponovo pristupiti."
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Ikonica aplikacije"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Pregled svih tema za {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Vrati se na stranicu za uređivanje"
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Prazna beleška"
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10
+#: /templates/_macros/thread.html:15
 msgid "No notes found"
 msgstr "Nema pronađenih beleški"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Gledate temu za {app_name}"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Povratak na sve teme za {app_name}"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "Verzija ove aplikacije"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -129,9 +178,13 @@ msgstr "Zakačite još jednu datoteku"
 msgid "Post"
 msgstr "Poruka"
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Pogledajte starije"
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Oh ne!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Stranica koju ste tražili nije pronađena."
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -173,13 +226,9 @@ msgstr "Ukini pretplatu"
 msgid "Review"
 msgstr "Oceni"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Oh ne!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Stranica koju ste tražili nije pronađena."
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Pogledajte starije"
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
@@ -192,55 +241,6 @@ msgstr "Greška pri učitavanju"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Pokušaj ponovo"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Moje teme"
-
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr "Idi na centar za programera"
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr "Trenutno ne učestvujete ni u jednoj komunikacionoj temi."
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr "Izvinjavamo se, došlo je do greške. Pokušajte ponovo pristupiti."
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Ikonica aplikacije"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Pregled svih tema za {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Vrati se na stranicu za uređivanje"
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Prazna beleška"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Gledate temu za {app_name}"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Povratak na sve teme za {app_name}"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "Verzija ove aplikacije"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

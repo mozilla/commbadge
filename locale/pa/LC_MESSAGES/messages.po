@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-01T15:34:22.354Z\n"
+"POT-Creation-Date: 2015-09-21T16:49:59.685Z\n"
 "PO-Revision-Date: 2015-04-16 11:25+0000\n"
 "Last-Translator: Pirthi <pirthi.d@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,6 +13,18 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1) ;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1429183506.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "ਬੰਦ"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "ਨਹੀਂ"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "ਹਾਂ"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -58,17 +70,17 @@ msgstr "ਵਰਤੋ ਦੇ ਅਧਾਰ"
 msgid "Report Trademark Abuse"
 msgstr "ਰੀਪੋਰਟ ਟਰੇਡਮਾਰਕ ਦੀ ਦੁਰਵਰਤੋ"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "ਬੰਦ"
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "ਸੰਚਾਰ ਡੈਸ਼ਬੋਰਡ"
 
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "ਨਹੀਂ"
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "ਸਾਈਨ ਆਉਟ"
 
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "ਹਾਂ"
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "ਸਾਈਨ ਇਨ"
 
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
@@ -82,18 +94,6 @@ msgstr "ਤੁਹਾਨੂੰ ਅੱਗੇ ਵਧਣ ਲਈ ਸਾਈਨ ਇਨ 
 msgid "Sign in / Sign up"
 msgstr "ਸਾਈਨ ਇਨ / ਸਾਈਨ ਅੱਪ"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "ਸੰਚਾਰ ਡੈਸ਼ਬੋਰਡ"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "ਸਾਈਨ ਆਉਟ"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "ਸਾਈਨ ਇਨ"
-
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr "ਨੱਥੀ"
@@ -102,9 +102,58 @@ msgstr "ਨੱਥੀ"
 msgid "File Description"
 msgstr "ਫਾਇਲ ਵੇਰਵਾ"
 
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "ਮੇਰੇ ਥਰਿੱਡ"
+
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr "ਵਿਕਸਿਤ ਹੱਬ ਉੱਤੇ ਜਾਓ"
+
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr "ਤੁਸੀਂ ਮੌਜੂਦਾ ਕਿਸੇ ਵੀ ਸੰਚਾਰ ਥਰਿੱਡ ਵਿੱਚ ਸ਼ਾਮਿਲ ਨਹੀਂ।"
+
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr "ਅਫਸੋਸ, ਇੱਕ ਗਲਤੀ ਆਈ ਹੈ। ਦੁਬਾਰਾ ਲਾਗਇਨ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "ਐਪ ਆਈਕਾਨ"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "{app_name} ਲਈ ਸਭ ਥਰੈੱਡ ਵੈਖੋ"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "ਐਪ ਸੋਧ ਸਫ਼ੇ ਉੱਤੇ ਵਾਪਿਸ ਜਾਓ"
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "ਖਾਲੀ ਨੋਟ"
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
 msgid "No notes found"
 msgstr "ਨੋਟਿਸ ਨਹੀ ਲੱਭੇ"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr " {app_name} ਲਈ ਥਰਿੱਡ ਦੇਖੋ"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr " {app_name} ਲਈ ਪਿਛਲੇ ਸਾਰੇ ਥਰਿੱਡਾ ਤੇ ਜਾਓ"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "ਇਹ ਐਪ ਦਾ ਵਰਜਨ"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -122,9 +171,13 @@ msgstr "ਹੋਰ ਫਾਇਲ ਨੱਥੀ"
 msgid "Post"
 msgstr "ਪੋਸਟ"
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "ਪੁਰਾਣਾ ਵੇਖੋ"
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "ਓਹ ਨਹੀਂ!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "ਜੋ ਸਫ਼ਾ ਤਸੀ ਲੱਭ ਰਹੇ ਹੋ ਉਹ ਨਹੀ ਮਿਲਿਆ ਹੈ।"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -164,13 +217,9 @@ msgstr "ਮੈਂਬਰੀ ਹਟਾਓ"
 msgid "Review"
 msgstr "ਮੁਆਇਨਾ"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "ਓਹ ਨਹੀਂ!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "ਜੋ ਸਫ਼ਾ ਤਸੀ ਲੱਭ ਰਹੇ ਹੋ ਉਹ ਨਹੀ ਮਿਲਿਆ ਹੈ।"
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "ਪੁਰਾਣਾ ਵੇਖੋ"
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
@@ -183,55 +232,6 @@ msgstr "ਲੋਡ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ ਹਈ ਹੈ"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "ਮੇਰੇ ਥਰਿੱਡ"
-
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr "ਵਿਕਸਿਤ ਹੱਬ ਉੱਤੇ ਜਾਓ"
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr "ਤੁਸੀਂ ਮੌਜੂਦਾ ਕਿਸੇ ਵੀ ਸੰਚਾਰ ਥਰਿੱਡ ਵਿੱਚ ਸ਼ਾਮਿਲ ਨਹੀਂ।"
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr "ਅਫਸੋਸ, ਇੱਕ ਗਲਤੀ ਆਈ ਹੈ। ਦੁਬਾਰਾ ਲਾਗਇਨ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "ਐਪ ਆਈਕਾਨ"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "{app_name} ਲਈ ਸਭ ਥਰੈੱਡ ਵੈਖੋ"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "ਐਪ ਸੋਧ ਸਫ਼ੇ ਉੱਤੇ ਵਾਪਿਸ ਜਾਓ"
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "ਖਾਲੀ ਨੋਟ"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr " {app_name} ਲਈ ਥਰਿੱਡ ਦੇਖੋ"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr " {app_name} ਲਈ ਪਿਛਲੇ ਸਾਰੇ ਥਰਿੱਡਾ ਤੇ ਜਾਓ"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "ਇਹ ਐਪ ਦਾ ਵਰਜਨ"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
 
 #: /media/js/settings_app.js:24
 msgid "Message"
