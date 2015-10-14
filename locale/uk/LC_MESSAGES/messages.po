@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-21T16:49:59.685Z\n"
+"POT-Creation-Date: 2015-10-14T20:46:53.190Z\n"
 "PO-Revision-Date: 2015-03-06 08:24+0000\n"
 "Last-Translator: Artem <a.polivanchuk@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,6 +26,18 @@ msgstr "Ні"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Так"
+
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "Увійти"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Ви повинні увійти для продовження."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Вхід / Реєстрація"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -53,15 +65,11 @@ msgstr "Інструмент пошуку"
 
 #: /templates/footer.html:24
 msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, "
-"content on this site is licensed under the <a href=\"{cc_url}\" "
-"target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> "
-"or any later version."
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
 msgstr ""
-"За виключенням вмісту з <a href=\"{legal_url}\" target=\"_blank\">явно "
-"вказаною</a> ліцензією, вміст цього сайту ліцензовано на умовах <a "
-"href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution із "
-"збереженням умов версії 3.0</a> або пізнішої."
+"За виключенням вмісту з <a href=\"{legal_url}\" target=\"_blank\">явно вказаною</a> ліцензією, вміст цього сайту ліцензовано на умовах <a href=\"{cc_url}\" target=\"_blank\">Creative Commons "
+"Attribution із збереженням умов версії 3.0</a> або пізнішої."
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
@@ -74,92 +82,6 @@ msgstr "Умови використання"
 #: /templates/footer.html:32
 msgid "Report Trademark Abuse"
 msgstr "Повідомити про зловживання торговою маркою"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Панель спілкування"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Вийти"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Увійти"
-
-#: /templates/login.html:2 /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "Увійти"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Ви повинні увійти для продовження."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Вхід / Реєстрація"
-
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Прикріплення"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Опис файлу"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Мої обговорення"
-
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr "Перейти в центр розробника"
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr "Зараз ви не берете участі в жодних обговореннях."
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr "Шкода, але трапилась помилка. Спробуйте увійти ще раз."
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Іконка програми"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Перегляд всіх обговорень для {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Повернутися до сторінки редагування програми"
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Пуста замітка"
-
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10
-#: /templates/_macros/thread.html:15
-msgid "No notes found"
-msgstr "Заміток не знайдено"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Перегляд обговорення для {app_name}"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Повернутись до всіх обговорень для {app_name}"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "Версії цієї програми"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -177,13 +99,37 @@ msgstr "Прикріпити інший файл"
 msgid "Post"
 msgstr "Розмістити"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "О ні!"
+#: /templates/_macros/thread.html:15 /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Заміток не знайдено"
 
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Сторінка, яку ви шукали не знайдена."
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Показати старіші"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Панель спілкування"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Вийти"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Увійти"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Іконка програми"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Перегляд всіх обговорень для {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Повернутися до сторінки редагування програми"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -204,8 +150,7 @@ msgstr[0] "{n} замітка"
 msgstr[1] "{n} замітки"
 msgstr[2] "{n} заміток"
 
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83
-#: /media/js/views/comm.js:155
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
 msgid "Reply"
 msgstr "Відповісти"
 
@@ -225,13 +170,58 @@ msgstr "Відписатись"
 msgid "Review"
 msgstr "Рецензія"
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Показати старіші"
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Прикріплення"
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Сталася помилка."
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Опис файлу"
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Пуста замітка"
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "О ні!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Сторінка, яку ви шукали не знайдена."
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Мої обговорення"
+
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr "Перейти в центр розробника"
+
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr "Зараз ви не берете участі в жодних обговореннях."
+
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr "Шкода, але трапилась помилка. Спробуйте увійти ще раз."
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Перегляд обговорення для {app_name}"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Повернутись до всіх обговорень для {app_name}"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "Версії цієї програми"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -240,6 +230,10 @@ msgstr "Помилка подальшого завантаження"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Спробувати знову"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Сталася помилка."
 
 #: /media/js/settings_app.js:24
 msgid "Message"
@@ -378,17 +372,9 @@ msgid "There are no more older notes."
 msgstr "Немає ще старіших заміток."
 
 #: /media/js/views/comm.js:205
-msgid ""
-"By unsubscribing from this thread, you will no longer receive email "
-"notifications from this thread. Are you sure?"
-msgstr ""
-"Якщо ви відпишетесь від цього обговорення, то більше не будете отримувати "
-"повідомлення на електронну пошту щодо цього обговорення. Ви впевнені?"
+msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+msgstr "Якщо ви відпишетесь від цього обговорення, то більше не будете отримувати повідомлення на електронну пошту щодо цього обговорення. Ви впевнені?"
 
 #: /media/js/views/comm.js:210
-msgid ""
-"Successfully unsubscribed. You will no longer receive email notifications "
-"for that thread."
-msgstr ""
-"Ви успішно відписані. Надалі ви не будете отримувати повідомлення "
-"електронної пошти для цього обговорення."
+msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
+msgstr "Ви успішно відписані. Надалі ви не будете отримувати повідомлення електронної пошти для цього обговорення."

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-21T16:49:59.685Z\n"
+"POT-Creation-Date: 2015-10-14T20:46:53.190Z\n"
 "PO-Revision-Date: 2015-03-11 18:20+0000\n"
 "Last-Translator: yfdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,6 +25,18 @@ msgstr "否"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "是"
+
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "登录"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "您必须登录才能继续。"
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "登录/注册"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -68,91 +80,6 @@ msgstr "使用条款"
 msgid "Report Trademark Abuse"
 msgstr "回报商标滥用"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "交流主控台"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "登出"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "登录"
-
-#: /templates/login.html:2 /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "登录"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "您必须登录才能继续。"
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "登录/注册"
-
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "附件"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "文件描述"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "我的话题"
-
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr "转至开发者中心"
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr "您当前未参与任何交流主题。"
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr "抱歉，发生错误。请尝试重新登录。"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "应用图标"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "查看所有 {app_name} 的话题"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "返回应用编辑页面"
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "空笔记"
-
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
-msgid "No notes found"
-msgstr "未找到笔记"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "查看 {app_name} 的话题"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "返回 {app_name} 的话题"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "此应用的版本"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
-
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
 msgstr "在此输入笔记内容"
@@ -169,13 +96,37 @@ msgstr "附加另一个文件"
 msgid "Post"
 msgstr "发表"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "噢不！"
+#: /templates/_macros/thread.html:15 /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "未找到笔记"
 
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "找不到您想打开的页面。"
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "查看更旧条目"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "交流主控台"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "登出"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "登录"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "应用图标"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "查看所有 {app_name} 的话题"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "返回应用编辑页面"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -214,13 +165,58 @@ msgstr "取消订阅"
 msgid "Review"
 msgstr "评论"
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "查看更旧条目"
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "附件"
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "发生了错误。"
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "文件描述"
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "空笔记"
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "噢不！"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "找不到您想打开的页面。"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "我的话题"
+
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr "转至开发者中心"
+
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr "您当前未参与任何交流主题。"
+
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr "抱歉，发生错误。请尝试重新登录。"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "查看 {app_name} 的话题"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "返回 {app_name} 的话题"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "此应用的版本"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -229,6 +225,10 @@ msgstr "载入更多内容时发生错误"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "重试"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "发生了错误。"
 
 #: /media/js/settings_app.js:24
 msgid "Message"
