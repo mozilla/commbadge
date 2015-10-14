@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-21T16:49:59.685Z\n"
-"PO-Revision-Date: 2015-07-02 02:30:46.388935\n"
+"PO-Revision-Date: 2015-10-14 16:35+0000\n"
 "Last-Translator: Marco Aurélio <ouesten@me.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -290,7 +290,7 @@ msgstr "Escalação removida"
 
 #: /media/js/settings_app.js:36
 msgid "Re-review cleared"
-msgstr "Reanálise removida"
+msgstr "Reavaliação removida"
 
 #: /media/js/settings_app.js:37
 msgid "App submission note"
