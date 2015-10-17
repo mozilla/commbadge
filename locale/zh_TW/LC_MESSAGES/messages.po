@@ -1,19 +1,20 @@
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-14T20:46:53.190Z\n"
 "PO-Revision-Date: 2015-03-04 22:38+0000\n"
-"Last-Translator: Peter <petercpg@mail.moztw.org>\n"
+"Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: MozTW <petercpg@mail.moztw.org>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Pootle 2.5.0\n"
-"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1425508686.0\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -65,9 +66,13 @@ msgstr "尋找工具"
 
 #: /templates/footer.html:24
 msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
-msgstr "除非另有 <a href=\"{legal_url}\" target=\"_blank\">提及</a>，網站內容皆採用 <a href=\"{cc_url}\" target=\"_blank\">創用 CC 姓名標示-相同方式分享 3.0</a> 或更新版本條款進行授權。"
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, "
+"content on this site is licensed under the <a href=\"{cc_url}\" "
+"target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> "
+"or any later version."
+msgstr ""
+"除非另有 <a href=\"{legal_url}\" target=\"_blank\">提及</a>，網站內容皆採用 <a "
+"href=\"{cc_url}\" target=\"_blank\">創用 CC 姓名標示-相同方式分享 3.0</a> 或更新版本條款進行授權。"
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
@@ -97,7 +102,8 @@ msgstr "附加另一個檔案"
 msgid "Post"
 msgstr "張貼"
 
-#: /templates/_macros/thread.html:15 /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
+#: /templates/_macros/thread.html:15 /templates/_macros/create_thread.html:10
+#: /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "找不到筆記"
 
@@ -146,7 +152,8 @@ msgid "{n} note"
 msgid_plural "{n} notes"
 msgstr[0] "{n} 筆筆記"
 
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83
+#: /media/js/views/comm.js:155
 msgid "Reply"
 msgstr "回覆"
 
@@ -368,9 +375,13 @@ msgid "There are no more older notes."
 msgstr "沒有更舊的筆記了。"
 
 #: /media/js/views/comm.js:205
-msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+msgid ""
+"By unsubscribing from this thread, you will no longer receive email "
+"notifications from this thread. Are you sure?"
 msgstr "取消訂閱此討論串後您將不會在收到此討論串的郵件通知，確定要取消訂閱嗎？"
 
 #: /media/js/views/comm.js:210
-msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
+msgid ""
+"Successfully unsubscribed. You will no longer receive email notifications "
+"for that thread."
 msgstr "已成功取消訂閱。您將不會再收到該討論串的通知。"
