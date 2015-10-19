@@ -1,17 +1,18 @@
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: AMO Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-14T20:46:53.190Z\n"
 "PO-Revision-Date: 2015-03-04 18:19+0000\n"
-"Last-Translator: Michael <michael.koehler1@gmx.de>\n"
+"Last-Translator: Michael Köhler <michael.koehler1@gmx.de>\n"
 "Language-Team: German (de) <coce@nurfuerspam.de>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.5.0\n"
+"X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1425493195.0\n"
 
 #: /templates/confirmation.html:0
@@ -64,11 +65,15 @@ msgstr "Nachschlagewerkzeug"
 
 #: /templates/footer.html:24
 msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, "
+"content on this site is licensed under the <a href=\"{cc_url}\" "
+"target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> "
+"or any later version."
 msgstr ""
-"Sofern nicht anders <a href=\"{legal_url}\" target=\"_blank\">vermerkt</a>, steht der Inhalt dieser Seite unter der <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike "
-"License v3.0</a> oder einer späteren Version."
+"Sofern nicht anders <a href=\"{legal_url}\" target=\"_blank\">vermerkt</a>, "
+"steht der Inhalt dieser Seite unter der <a href=\"{cc_url}\" "
+"target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> "
+"oder einer späteren Version."
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
@@ -98,7 +103,8 @@ msgstr "Eine weitere Datei anhängen"
 msgid "Post"
 msgstr "Absenden"
 
-#: /templates/_macros/thread.html:15 /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
+#: /templates/_macros/thread.html:15 /templates/_macros/create_thread.html:10
+#: /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "Keine Notizen gefunden"
 
@@ -148,7 +154,8 @@ msgid_plural "{n} notes"
 msgstr[0] "{n} Notiz"
 msgstr[1] "{n} Notizen"
 
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83
+#: /media/js/views/comm.js:155
 msgid "Reply"
 msgstr "Antworten"
 
@@ -202,7 +209,9 @@ msgstr "Sie sind derzeit an keinen Kommunikationsthemen beteiligt."
 
 #: /templates/comm/main.html:16
 msgid "Sorry, an error has occurred. Try logging in again."
-msgstr "Es tut uns leid, ein Fehler ist aufgetreten. Versuchen Sie, sich erneut anzumelden."
+msgstr ""
+"Es tut uns leid, ein Fehler ist aufgetreten. Versuchen Sie, sich erneut "
+"anzumelden."
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -271,7 +280,8 @@ msgstr "Freigeschaltet, aber noch nicht veröffentlicht"
 
 #: /media/js/settings_app.js:33
 msgid "Escalated due to high abuse reports"
-msgstr "Wegen vieler Missbrauchsmeldungen an nächsthöhere Stelle weitergegeben"
+msgstr ""
+"Wegen vieler Missbrauchsmeldungen an nächsthöhere Stelle weitergegeben"
 
 #: /media/js/settings_app.js:34
 msgid "Escalated due to high refund requests"
@@ -327,7 +337,8 @@ msgstr "Wegen VIP-App an nächsthöhere Stelle weitergegeben"
 
 #: /media/js/settings_app.js:47
 msgid "Escalation due to prerelease App"
-msgstr "Wegen App für Vorabveröffentlichung an nächsthöhere Stelle weitergegeben"
+msgstr ""
+"Wegen App für Vorabveröffentlichung an nächsthöhere Stelle weitergegeben"
 
 #: /media/js/settings_app.js:48
 msgid "Priority review requested"
@@ -370,9 +381,17 @@ msgid "There are no more older notes."
 msgstr "Es gibt keine älteren Notizen."
 
 #: /media/js/views/comm.js:205
-msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr "Wenn Sie dieses Thema nicht mehr beobachten, erhalten Sie für dieses Thema keine E-Mail-Benachrichtigungen mehr. Sind Sie sicher?"
+msgid ""
+"By unsubscribing from this thread, you will no longer receive email "
+"notifications from this thread. Are you sure?"
+msgstr ""
+"Wenn Sie dieses Thema nicht mehr beobachten, erhalten Sie für dieses Thema "
+"keine E-Mail-Benachrichtigungen mehr. Sind Sie sicher?"
 
 #: /media/js/views/comm.js:210
-msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr "Thema wird nicht mehr beobachtet. Sie erhalten für dieses Thema keine E-Mail-Benachrichtigungen mehr."
+msgid ""
+"Successfully unsubscribed. You will no longer receive email notifications "
+"for that thread."
+msgstr ""
+"Thema wird nicht mehr beobachtet. Sie erhalten für dieses Thema keine E"
+"-Mail-Benachrichtigungen mehr."
