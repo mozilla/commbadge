@@ -12,11 +12,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1446051624.0\n"
+"X-POOTLE-MTIME: 1446051640.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
-msgstr ""
+msgstr "Cerrar"
 
 #: /templates/confirmation.html:3
 msgid "No"
