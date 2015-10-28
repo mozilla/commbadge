@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-14T20:46:53.190Z\n"
-"PO-Revision-Date: 2014-10-02 16:16+0000\n"
-"Last-Translator: Inma <inma.barrios@mozilla-hispano.org>\n"
+"PO-Revision-Date: 2015-10-28 17:00+0000\n"
+"Last-Translator: Matjaž <m@owca.info>\n"
 "Language-Team: Español (España) <nave@elistas.net>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -12,11 +12,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1412266571.0\n"
+"X-POOTLE-MTIME: 1446051624.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
-msgstr "Cerrar"
+msgstr ""
 
 #: /templates/confirmation.html:3
 msgid "No"
@@ -136,7 +136,7 @@ msgstr "{app_name} (versión {version_number})"
 
 #: /templates/_macros/thread_header.html:19
 msgid "Deleted App"
-msgstr ""
+msgstr "Aplicación borrada"
 
 #: /templates/_macros/thread_header.html:21
 msgid "(Obsolete)"
@@ -194,15 +194,15 @@ msgstr "Mis temas"
 
 #: /templates/comm/main.html:4
 msgid "Go to Developer Hub"
-msgstr ""
+msgstr "Ir al Centro de desarrolladores"
 
 #: /templates/comm/main.html:14
 msgid "You currently are not involved in any communication threads."
-msgstr ""
+msgstr "Actualmente no estás involucrado en ningún hilo de comunicación."
 
 #: /templates/comm/main.html:16
 msgid "Sorry, an error has occurred. Try logging in again."
-msgstr ""
+msgstr "Lo sentimos, ocurrió un error. Intenta iniciar sesión de nuevo."
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -251,15 +251,15 @@ msgstr "App prohibida"
 
 #: /media/js/settings_app.js:28
 msgid "Reviewer comment"
-msgstr ""
+msgstr "Comentario de desarrollador"
 
 #: /media/js/settings_app.js:29
 msgid "Escalated to senior reviewer"
-msgstr ""
+msgstr "Escalado a revisor experimentado"
 
 #: /media/js/settings_app.js:30
 msgid "Private reviewer comment"
-msgstr ""
+msgstr "Comentario privado de revisor"
 
 #: /media/js/settings_app.js:31
 msgid "App resubmission"
@@ -271,11 +271,11 @@ msgstr "Aprobada pero en espera de que se haga pública"
 
 #: /media/js/settings_app.js:33
 msgid "Escalated due to high abuse reports"
-msgstr ""
+msgstr "Escalado debido a numerosos reportes de abuso"
 
 #: /media/js/settings_app.js:34
 msgid "Escalated due to high refund requests"
-msgstr ""
+msgstr "Escalado debido a numerosas peticiones de reembolso"
 
 #: /media/js/settings_app.js:35
 msgid "Escalation cleared"
@@ -295,63 +295,63 @@ msgstr "Comentario del programador"
 
 #: /media/js/settings_app.js:39
 msgid "Device(s) changed by reviewer"
-msgstr ""
+msgstr "Dispositivo(s) cambiado(s) por el revisor"
 
 #: /media/js/settings_app.js:40
 msgid "Feature(s) changed by reviewer"
-msgstr ""
+msgstr "Característica(s) cambiada(s) por el revisor"
 
 #: /media/js/settings_app.js:41
 msgid "Review manifest change"
-msgstr ""
+msgstr "Revisar cambio en archivo manifest"
 
 #: /media/js/settings_app.js:42
 msgid "Review manifest url change"
-msgstr ""
+msgstr "Revisar cambio de url de archivo manifest"
 
 #: /media/js/settings_app.js:43
 msgid "Review manifest premium type upgrade"
-msgstr ""
+msgstr "Revisar actualización tipo premium de archivo manifest"
 
 #: /media/js/settings_app.js:44
 msgid "Re-review devices added"
-msgstr ""
+msgstr "Volver a revisar dispositivos añadidos"
 
 #: /media/js/settings_app.js:45
 msgid "Re-review features changed"
-msgstr ""
+msgstr "Volver a revisar características cambiadas"
 
 #: /media/js/settings_app.js:46
 msgid "Escalation due to VIP App"
-msgstr ""
+msgstr "Escalado debido a aplicación VIP"
 
 #: /media/js/settings_app.js:47
 msgid "Escalation due to prerelease App"
-msgstr ""
+msgstr "Escalado debido a aplicación de pre-publicación"
 
 #: /media/js/settings_app.js:48
 msgid "Priority review requested"
-msgstr ""
+msgstr "Revisión prioritaria solicitada"
 
 #: /media/js/settings_app.js:49
 msgid "Tarako review passed"
-msgstr ""
+msgstr "Revisión Tarako superada"
 
 #: /media/js/settings_app.js:50
 msgid "Tarako review failed"
-msgstr ""
+msgstr "Revisión Tarako fallida"
 
 #: /media/js/settings_app.js:51
 msgid "Version notes for reviewer"
-msgstr ""
+msgstr "Notas de la versión para revisores"
 
 #: /media/js/settings_app.js:52
 msgid "Public reviewer comment"
-msgstr ""
+msgstr "Comentario de revisor público"
 
 #: /media/js/settings_app.js:53
 msgid "Re-review content rating adult"
-msgstr ""
+msgstr "Volver a revisar por clasificación de contenido adulto"
 
 #: /media/js/views/comm.js:90
 msgid "Message sent."
