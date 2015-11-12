@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-14T20:46:53.190Z\n"
+"POT-Creation-Date: 2015-11-12T18:29:52.699Z\n"
 "PO-Revision-Date: 2015-05-14 15:10+0000\n"
 "Last-Translator: Gabor Kelemen <kelemeng@ubuntu.com>\n"
 "Language-Team: none\n"
@@ -26,18 +26,6 @@ msgstr "Nem"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Igen"
-
-#: /templates/login.html:2 /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "Bejelentkezés"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Be kell jelentkeznie a folytatáshoz."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Bejelentkezés/regisztráció"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -65,15 +53,11 @@ msgstr "Kikeresési eszköz"
 
 #: /templates/footer.html:24
 msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, "
-"content on this site is licensed under the <a href=\"{cc_url}\" "
-"target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> "
-"or any later version."
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
 msgstr ""
-"Ha másképp nem kerül <a href=\"{legal_url}\" target=\"_blank\">jelzésre</a>,"
-" akkor az oldal tartalma <a href=\"{cc_url}\" target=\"_blank\">Creative "
-"Commons Attribution Share-Alike License v3.0</a> vagy ennek újabb verziója "
-"alatt jelenik meg."
+"Ha másképp nem kerül <a href=\"{legal_url}\" target=\"_blank\">jelzésre</a>, akkor az oldal tartalma <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> "
+"vagy ennek újabb verziója alatt jelenik meg."
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
@@ -86,6 +70,46 @@ msgstr "Felhasználási feltételek"
 #: /templates/footer.html:32
 msgid "Report Trademark Abuse"
 msgstr "Védjeggyel kapcsolatos visszaélés jelentése"
+
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "Bejelentkezés"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Be kell jelentkeznie a folytatáshoz."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Bejelentkezés/regisztráció"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Kommunikációs vezérlőpult"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Kijelentkezés"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Bejelentkezés"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Melléklet"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Fájl leírása"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Nincsenek jegyzetek"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Régebbi megjelenítése"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -102,39 +126,6 @@ msgstr "Másik fájl csatolása"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "Küldés"
-
-#: /templates/_macros/thread.html:15 /templates/_macros/create_thread.html:10
-#: /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Nincsenek jegyzetek"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Régebbi megjelenítése"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Kommunikációs vezérlőpult"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Kijelentkezés"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Bejelentkezés"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "App ikon"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "{app_name} minden szálának megjelenítése"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Vissza az app szerkesztés oldalra"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -154,8 +145,7 @@ msgid_plural "{n} notes"
 msgstr[0] "{n} jegyzet"
 msgstr[1] "{n} jegyzet"
 
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83
-#: /media/js/views/comm.js:155
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
 msgid "Reply"
 msgstr "Válasz"
 
@@ -175,25 +165,17 @@ msgstr "Leiratkozás"
 msgid "Review"
 msgstr "Jóváhagyás"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Melléklet"
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "App ikon"
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Fájl leírása"
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "{app_name} minden szálának megjelenítése"
 
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Üres jegyzet"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Na ne!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "A keresett oldal nem található."
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Vissza az app szerkesztés oldalra"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -210,6 +192,10 @@ msgstr "Jelenleg nem tagja egyetlen kommunikációs szálnak sem."
 #: /templates/comm/main.html:16
 msgid "Sorry, an error has occurred. Try logging in again."
 msgstr "Elnézést, hiba történt. Próbáljon meg bejelentkezni újra."
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Üres jegyzet"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -228,6 +214,18 @@ msgstr "Az app verziói"
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Na ne!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "A keresett oldal nem található."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Hiba történt."
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Hiba továbbiak betöltésekor"
@@ -235,10 +233,6 @@ msgstr "Hiba továbbiak betöltésekor"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Próbálja újra"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Hiba történt."
 
 #: /media/js/settings_app.js:24
 msgid "Message"
@@ -377,16 +371,9 @@ msgid "There are no more older notes."
 msgstr "Nincs több régi jegyzet."
 
 #: /media/js/views/comm.js:205
-msgid ""
-"By unsubscribing from this thread, you will no longer receive email "
-"notifications from this thread. Are you sure?"
-msgstr ""
-"A szálról leiratkozva nem fog több e-mail értesítést kapni a szálból. Biztos"
-" benne?"
+msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+msgstr "A szálról leiratkozva nem fog több e-mail értesítést kapni a szálból. Biztos benne?"
 
 #: /media/js/views/comm.js:210
-msgid ""
-"Successfully unsubscribed. You will no longer receive email notifications "
-"for that thread."
-msgstr ""
-"Sikeresen leiratkozott. Nem fog több e-mail értesítést kapni a szálból."
+msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
+msgstr "Sikeresen leiratkozott. Nem fog több e-mail értesítést kapni a szálból."

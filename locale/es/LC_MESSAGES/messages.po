@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-14T20:46:53.190Z\n"
+"POT-Creation-Date: 2015-11-12T18:29:52.699Z\n"
 "PO-Revision-Date: 2015-10-28 17:00+0000\n"
 "Last-Translator: Matjaž <m@owca.info>\n"
 "Language-Team: Español (España) <nave@elistas.net>\n"
@@ -26,18 +26,6 @@ msgstr "No"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Sí"
-
-#: /templates/login.html:2 /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "Identificarse"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Debes identificarte para continuar."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Identificarse / Registrarse"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -65,15 +53,11 @@ msgstr "Herramienta de búsqueda"
 
 #: /templates/footer.html:24
 msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, "
-"content on this site is licensed under the <a href=\"{cc_url}\" "
-"target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> "
-"or any later version."
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
 msgstr ""
-"Excepto donde se <a href=\"{legal_url}\" target=\"_blank\">indique</a> lo "
-"contrario, el contenido de este sitio se distribuye bajo la licencia <a "
-"href=\"{cc_url}\" target=\"_blank\">Creative Commons Reconocimiento-"
-"Compartir Igual v3.0</a> o una versión posterior."
+"Excepto donde se <a href=\"{legal_url}\" target=\"_blank\">indique</a> lo contrario, el contenido de este sitio se distribuye bajo la licencia <a href=\"{cc_url}\" target=\"_blank\">Creative "
+"Commons Reconocimiento-Compartir Igual v3.0</a> o una versión posterior."
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
@@ -86,6 +70,46 @@ msgstr "Condiciones de uso"
 #: /templates/footer.html:32
 msgid "Report Trademark Abuse"
 msgstr "Informar sobre infracción de marca"
+
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "Identificarse"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Debes identificarte para continuar."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Identificarse / Registrarse"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Tablero de comunicaciones"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Salir"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Identificarse"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Adjunto"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Descripción del archivo"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "No se encontraron notas"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Ver anteriores"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -102,39 +126,6 @@ msgstr "Adjuntar otro archivo"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "Publicar"
-
-#: /templates/_macros/thread.html:15 /templates/_macros/create_thread.html:10
-#: /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "No se encontraron notas"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Ver anteriores"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Tablero de comunicaciones"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Salir"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Identificarse"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Icono de app"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Visualizando todas las conversaciones de {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Volver a página de edición de app"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -154,8 +145,7 @@ msgid_plural "{n} notes"
 msgstr[0] "{n} nota"
 msgstr[1] "{n} notas"
 
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83
-#: /media/js/views/comm.js:155
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
 msgid "Reply"
 msgstr "Responder"
 
@@ -175,25 +165,17 @@ msgstr "Cancelar la suscripción"
 msgid "Review"
 msgstr "Revisar"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Adjunto"
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Icono de app"
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Descripción del archivo"
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Visualizando todas las conversaciones de {app_name}"
 
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Nota vacía"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "¡Oh, no!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "No se encontró la página que buscabas."
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Volver a página de edición de app"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -210,6 +192,10 @@ msgstr "Actualmente no estás involucrado en ningún hilo de comunicación."
 #: /templates/comm/main.html:16
 msgid "Sorry, an error has occurred. Try logging in again."
 msgstr "Lo sentimos, ocurrió un error. Intenta iniciar sesión de nuevo."
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Nota vacía"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -228,6 +214,18 @@ msgstr "Versiones de esta app"
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "¡Oh, no!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "No se encontró la página que buscabas."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Se produjo un error."
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Error al cargar más"
@@ -235,10 +233,6 @@ msgstr "Error al cargar más"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Intentar de nuevo"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Se produjo un error."
 
 #: /media/js/settings_app.js:24
 msgid "Message"
@@ -377,17 +371,9 @@ msgid "There are no more older notes."
 msgstr "No hay más notas anteriores."
 
 #: /media/js/views/comm.js:205
-msgid ""
-"By unsubscribing from this thread, you will no longer receive email "
-"notifications from this thread. Are you sure?"
-msgstr ""
-"Al darte de baja de este hilo, dejaras de recibir notificaciones del mismo "
-"por el correo electrónico. ¿Estás seguro?"
+msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+msgstr "Al darte de baja de este hilo, dejaras de recibir notificaciones del mismo por el correo electrónico. ¿Estás seguro?"
 
 #: /media/js/views/comm.js:210
-msgid ""
-"Successfully unsubscribed. You will no longer receive email notifications "
-"for that thread."
-msgstr ""
-"La suscripción se ha cancelado correctamente. No volverás a recibir "
-"notificaciones de correo electrónico de ese hilo."
+msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
+msgstr "La suscripción se ha cancelado correctamente. No volverás a recibir notificaciones de correo electrónico de ese hilo."

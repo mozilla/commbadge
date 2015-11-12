@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: AMO Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-14T20:46:53.190Z\n"
+"POT-Creation-Date: 2015-11-12T18:29:52.699Z\n"
 "PO-Revision-Date: 2015-03-04 18:19+0000\n"
 "Last-Translator: Michael Köhler <michael.koehler1@gmx.de>\n"
 "Language-Team: German (de) <coce@nurfuerspam.de>\n"
@@ -26,18 +26,6 @@ msgstr "Nein"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Ja"
-
-#: /templates/login.html:2 /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "Anmelden"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Sie müssen sich anmelden, um fortzufahren."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Anmelden / Registrieren"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -65,15 +53,11 @@ msgstr "Nachschlagewerkzeug"
 
 #: /templates/footer.html:24
 msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, "
-"content on this site is licensed under the <a href=\"{cc_url}\" "
-"target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> "
-"or any later version."
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
 msgstr ""
-"Sofern nicht anders <a href=\"{legal_url}\" target=\"_blank\">vermerkt</a>, "
-"steht der Inhalt dieser Seite unter der <a href=\"{cc_url}\" "
-"target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> "
-"oder einer späteren Version."
+"Sofern nicht anders <a href=\"{legal_url}\" target=\"_blank\">vermerkt</a>, steht der Inhalt dieser Seite unter der <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike "
+"License v3.0</a> oder einer späteren Version."
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
@@ -86,6 +70,46 @@ msgstr "Nutzungsbedingungen"
 #: /templates/footer.html:32
 msgid "Report Trademark Abuse"
 msgstr "Markenrechtsverletzung melden"
+
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "Anmelden"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Sie müssen sich anmelden, um fortzufahren."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Anmelden / Registrieren"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Kommunikationsübersicht"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Abmelden"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Anmelden"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Anhang"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Dateibeschreibung"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Keine Notizen gefunden"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Ältere ansehen"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -102,39 +126,6 @@ msgstr "Eine weitere Datei anhängen"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "Absenden"
-
-#: /templates/_macros/thread.html:15 /templates/_macros/create_thread.html:10
-#: /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Keine Notizen gefunden"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Ältere ansehen"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Kommunikationsübersicht"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Abmelden"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Anmelden"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "App-Symbol"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Alle Themen für {app_name} werden angezeigt"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Zurück zur App-bearbeiten-Seite gehen"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -154,8 +145,7 @@ msgid_plural "{n} notes"
 msgstr[0] "{n} Notiz"
 msgstr[1] "{n} Notizen"
 
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83
-#: /media/js/views/comm.js:155
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
 msgid "Reply"
 msgstr "Antworten"
 
@@ -175,25 +165,17 @@ msgstr "Abonnement entfernen"
 msgid "Review"
 msgstr "Überprüfen"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Anhang"
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "App-Symbol"
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Dateibeschreibung"
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Alle Themen für {app_name} werden angezeigt"
 
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Leere Notiz"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Oh nein!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Die Seite, die Sie suchen, wurde nicht gefunden."
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Zurück zur App-bearbeiten-Seite gehen"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -209,9 +191,11 @@ msgstr "Sie sind derzeit an keinen Kommunikationsthemen beteiligt."
 
 #: /templates/comm/main.html:16
 msgid "Sorry, an error has occurred. Try logging in again."
-msgstr ""
-"Es tut uns leid, ein Fehler ist aufgetreten. Versuchen Sie, sich erneut "
-"anzumelden."
+msgstr "Es tut uns leid, ein Fehler ist aufgetreten. Versuchen Sie, sich erneut anzumelden."
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Leere Notiz"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -230,6 +214,18 @@ msgstr "Versionen dieser App"
 msgid "v.{version_number}"
 msgstr "v {version_number}"
 
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Oh nein!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Die Seite, die Sie suchen, wurde nicht gefunden."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Ein Fehler ist aufgetreten."
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Beim Laden weiterer Informationen ist ein Fehler aufgetreten"
@@ -237,10 +233,6 @@ msgstr "Beim Laden weiterer Informationen ist ein Fehler aufgetreten"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Versuchen Sie es erneut"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Ein Fehler ist aufgetreten."
 
 #: /media/js/settings_app.js:24
 msgid "Message"
@@ -280,8 +272,7 @@ msgstr "Freigeschaltet, aber noch nicht veröffentlicht"
 
 #: /media/js/settings_app.js:33
 msgid "Escalated due to high abuse reports"
-msgstr ""
-"Wegen vieler Missbrauchsmeldungen an nächsthöhere Stelle weitergegeben"
+msgstr "Wegen vieler Missbrauchsmeldungen an nächsthöhere Stelle weitergegeben"
 
 #: /media/js/settings_app.js:34
 msgid "Escalated due to high refund requests"
@@ -337,8 +328,7 @@ msgstr "Wegen VIP-App an nächsthöhere Stelle weitergegeben"
 
 #: /media/js/settings_app.js:47
 msgid "Escalation due to prerelease App"
-msgstr ""
-"Wegen App für Vorabveröffentlichung an nächsthöhere Stelle weitergegeben"
+msgstr "Wegen App für Vorabveröffentlichung an nächsthöhere Stelle weitergegeben"
 
 #: /media/js/settings_app.js:48
 msgid "Priority review requested"
@@ -381,17 +371,9 @@ msgid "There are no more older notes."
 msgstr "Es gibt keine älteren Notizen."
 
 #: /media/js/views/comm.js:205
-msgid ""
-"By unsubscribing from this thread, you will no longer receive email "
-"notifications from this thread. Are you sure?"
-msgstr ""
-"Wenn Sie dieses Thema nicht mehr beobachten, erhalten Sie für dieses Thema "
-"keine E-Mail-Benachrichtigungen mehr. Sind Sie sicher?"
+msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+msgstr "Wenn Sie dieses Thema nicht mehr beobachten, erhalten Sie für dieses Thema keine E-Mail-Benachrichtigungen mehr. Sind Sie sicher?"
 
 #: /media/js/views/comm.js:210
-msgid ""
-"Successfully unsubscribed. You will no longer receive email notifications "
-"for that thread."
-msgstr ""
-"Thema wird nicht mehr beobachtet. Sie erhalten für dieses Thema keine E"
-"-Mail-Benachrichtigungen mehr."
+msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
+msgstr "Thema wird nicht mehr beobachtet. Sie erhalten für dieses Thema keine E-Mail-Benachrichtigungen mehr."

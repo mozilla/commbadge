@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AMO Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-14T20:46:53.190Z\n"
+"POT-Creation-Date: 2015-11-12T18:29:52.699Z\n"
 "PO-Revision-Date: 2015-03-23 09:16+0000\n"
 "Last-Translator: Стоян <stoyan@gmx.com>\n"
 "Language-Team: Bulgarian (bg)\n"
@@ -25,18 +25,6 @@ msgstr "Не"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Да"
-
-#: /templates/login.html:2 /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "Вписване"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Трябва да се впишете, за да продължите."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Вписване / Регистрация"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -82,6 +70,46 @@ msgstr "Условия за ползване"
 msgid "Report Trademark Abuse"
 msgstr "Докладвай злоупотреба със запазена марка"
 
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "Вписване"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Трябва да се впишете, за да продължите."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Вписване / Регистрация"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Комуникационно табло"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Изход"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Вписване"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Прикачен файл"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Описание на файла"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Няма намерени бележки"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Преглед на по-стари"
+
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
 msgstr "Въведете текста на бележката тук"
@@ -97,38 +125,6 @@ msgstr "Прикачане на друг файл"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "Публикуване"
-
-#: /templates/_macros/thread.html:15 /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Няма намерени бележки"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Преглед на по-стари"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Комуникационно табло"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Изход"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Вписване"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Икона на приложението"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Разглеждане на всички теми за {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Редактиране на приложение"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -168,25 +164,17 @@ msgstr "Отмяна абонамент"
 msgid "Review"
 msgstr "Рецензия"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Прикачен файл"
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Икона на приложението"
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Описание на файла"
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Разглеждане на всички теми за {app_name}"
 
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Празна бележка"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "О, не!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Страницата, която търсите не бе намерена."
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Редактиране на приложение"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -203,6 +191,10 @@ msgstr "В момента не участвате в разговор."
 #: /templates/comm/main.html:16
 msgid "Sorry, an error has occurred. Try logging in again."
 msgstr "Извинявайте, стана грешка. Впишете се отново."
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Празна бележка"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -221,6 +213,18 @@ msgstr "Версиите на това приложение"
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "О, не!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Страницата, която търсите не бе намерена."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Възникна грешка."
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Грешка при зареждането"
@@ -228,10 +232,6 @@ msgstr "Грешка при зареждането"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Опитай отново"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Възникна грешка."
 
 #: /media/js/settings_app.js:24
 msgid "Message"

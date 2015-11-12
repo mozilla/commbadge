@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Commbadge\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-14T20:46:53.190Z\n"
+"POT-Creation-Date: 2015-11-12T18:29:52.699Z\n"
 "PO-Revision-Date: 2015-03-05 16:11+0000\n"
 "Last-Translator: Sandro Della Giustina <gialloporpora@mozillaitalia.org>\n"
 "Language-Team: gialloporpora <gialloporpora@yahoo.it>\n"
@@ -26,18 +26,6 @@ msgstr "No"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Si"
-
-#: /templates/login.html:2 /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "Accedi"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Per proseguire è necessario eseguire l'accesso."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Accedi o registrati"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -65,14 +53,10 @@ msgstr "Strumenti di ricerca"
 
 #: /templates/footer.html:24
 msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, "
-"content on this site is licensed under the <a href=\"{cc_url}\" "
-"target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> "
-"or any later version."
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
 msgstr ""
-"Eccetto dove diversamente <a href=\"{legal_url}\" "
-"target=\"_blank\">indicato</a>, i contenuti di questo sito sono distribuiti "
-"sotto licenza <a href=\"{cc_url}\" target=\"_blank\">Creative Commons "
+"Eccetto dove diversamente <a href=\"{legal_url}\" target=\"_blank\">indicato</a>, i contenuti di questo sito sono distribuiti sotto licenza <a href=\"{cc_url}\" target=\"_blank\">Creative Commons "
 "Attribuzione – Condividi allo stesso modo versione 3.0</a> o successive."
 
 #: /templates/footer.html:29
@@ -86,6 +70,46 @@ msgstr "Termini d'uso"
 #: /templates/footer.html:32
 msgid "Report Trademark Abuse"
 msgstr "Segnala abusi dei marchi registrati"
+
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "Accedi"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Per proseguire è necessario eseguire l'accesso."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Accedi o registrati"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Pannello comunicazioni"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Esci"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Accedi"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Allegato"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Descrizione del file"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Non è stata trovata alcuna nota"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Visualizza meno recenti"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -102,39 +126,6 @@ msgstr "Allega un altro file"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "Invia"
-
-#: /templates/_macros/thread.html:15 /templates/_macros/create_thread.html:10
-#: /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Non è stata trovata alcuna nota"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Visualizza meno recenti"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Pannello comunicazioni"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Esci"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Accedi"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Icona dell'app"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Mostra tutte le discussioni riguardanti {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Ritorna alla pagina di modifica dell’app"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -154,8 +145,7 @@ msgid_plural "{n} notes"
 msgstr[0] "{n} nota"
 msgstr[1] "{n} note"
 
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83
-#: /media/js/views/comm.js:155
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
 msgid "Reply"
 msgstr "Rispondi"
 
@@ -175,25 +165,17 @@ msgstr "Annulla sottoscrizione"
 msgid "Review"
 msgstr "Recensione"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Allegato"
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Icona dell'app"
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Descrizione del file"
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Mostra tutte le discussioni riguardanti {app_name}"
 
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Nota vuota"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Accidenti!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Non è stato possibile trovare la pagina che stavi cercando."
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Ritorna alla pagina di modifica dell’app"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -209,8 +191,11 @@ msgstr "Attualmente non stai partecipando a nessuna discussione."
 
 #: /templates/comm/main.html:16
 msgid "Sorry, an error has occurred. Try logging in again."
-msgstr ""
-"Siamo spiacenti, si è verificato un errore. Riprova a effettuare l’accesso."
+msgstr "Siamo spiacenti, si è verificato un errore. Riprova a effettuare l’accesso."
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Nota vuota"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -229,6 +214,18 @@ msgstr "La versione corrente dell’app"
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Accidenti!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Non è stato possibile trovare la pagina che stavi cercando."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Si è verificato un errore."
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Errore durante il caricamento di contenuti extra"
@@ -236,10 +233,6 @@ msgstr "Errore durante il caricamento di contenuti extra"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Riprova"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Si è verificato un errore."
 
 #: /media/js/settings_app.js:24
 msgid "Message"
@@ -275,8 +268,7 @@ msgstr "Invia nuovamente l’app"
 
 #: /media/js/settings_app.js:32
 msgid "Approved but waiting to be made public"
-msgstr ""
-"È stata approvata, ma è in attesa di essere resa disponibile al pubblico"
+msgstr "È stata approvata, ma è in attesa di essere resa disponibile al pubblico"
 
 #: /media/js/settings_app.js:33
 msgid "Escalated due to high abuse reports"
@@ -379,18 +371,9 @@ msgid "There are no more older notes."
 msgstr "Non sono state trovate note meno recenti."
 
 #: /media/js/views/comm.js:205
-msgid ""
-"By unsubscribing from this thread, you will no longer receive email "
-"notifications from this thread. Are you sure?"
-msgstr ""
-"Annullando la sottoscrizione a questa discussione non riceverai più "
-"notifiche via email su di essa. Sei sicuro di voler rimuovere questa "
-"sottoscrizione?"
+msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+msgstr "Annullando la sottoscrizione a questa discussione non riceverai più notifiche via email su di essa. Sei sicuro di voler rimuovere questa sottoscrizione?"
 
 #: /media/js/views/comm.js:210
-msgid ""
-"Successfully unsubscribed. You will no longer receive email notifications "
-"for that thread."
-msgstr ""
-"La sottoscrizione è stata annullata correttamente. Non riceverai più "
-"notifiche via email per questa discussione."
+msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
+msgstr "La sottoscrizione è stata annullata correttamente. Non riceverai più notifiche via email per questa discussione."

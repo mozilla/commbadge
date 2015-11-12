@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-14T20:46:53.190Z\n"
+"POT-Creation-Date: 2015-11-12T18:29:52.699Z\n"
 "PO-Revision-Date: 2015-03-11 06:03+0000\n"
 "Last-Translator: Vanja <tumbas93@gmail.com>\n"
 "Language-Team: none\n"
@@ -27,18 +27,6 @@ msgstr "Ne"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Da"
-
-#: /templates/login.html:2 /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "Prijavi se"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Morate se prijaviti kako biste nastavili dalje."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Prijavi se / Registruj se"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -88,6 +76,47 @@ msgstr "Uslovi korišćenja"
 msgid "Report Trademark Abuse"
 msgstr "Prijavite zloupotrebu robne marke"
 
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "Prijavi se"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Morate se prijaviti kako biste nastavili dalje."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Prijavi se / Registruj se"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Komunikaciona kontrolna tabla"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Odjavi se"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Prijavi se"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Prilog"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Opis datoteke"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+#: /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Nema pronađenih beleški"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Pogledajte starije"
+
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
 msgstr "Ovde unesite tekst"
@@ -103,39 +132,6 @@ msgstr "Zakačite još jednu datoteku"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "Poruka"
-
-#: /templates/_macros/thread.html:15 /templates/_macros/create_thread.html:10
-#: /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Nema pronađenih beleški"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Pogledajte starije"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Komunikaciona kontrolna tabla"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Odjavi se"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Prijavi se"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Ikonica aplikacije"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Pregled svih tema za {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Vrati se na stranicu za uređivanje"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -177,25 +173,17 @@ msgstr "Ukini pretplatu"
 msgid "Review"
 msgstr "Oceni"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Prilog"
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Ikonica aplikacije"
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Opis datoteke"
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Pregled svih tema za {app_name}"
 
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Prazna beleška"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Oh ne!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Stranica koju ste tražili nije pronađena."
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Vrati se na stranicu za uređivanje"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -212,6 +200,10 @@ msgstr "Trenutno ne učestvujete ni u jednoj komunikacionoj temi."
 #: /templates/comm/main.html:16
 msgid "Sorry, an error has occurred. Try logging in again."
 msgstr "Izvinjavamo se, došlo je do greške. Pokušajte ponovo pristupiti."
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Prazna beleška"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -230,6 +222,18 @@ msgstr "Verzija ove aplikacije"
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Oh ne!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Stranica koju ste tražili nije pronađena."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Došlo je do greške."
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Greška pri učitavanju"
@@ -237,10 +241,6 @@ msgstr "Greška pri učitavanju"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Pokušaj ponovo"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Došlo je do greške."
 
 #: /media/js/settings_app.js:24
 msgid "Message"

@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-14T20:46:53.190Z\n"
+"POT-Creation-Date: 2015-11-12T18:29:52.699Z\n"
 "PO-Revision-Date: 2015-08-06 16:02:56.718179\n"
 "Last-Translator: Ian Neal <iann_bugzilla@blueyonder.co.uk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,18 +25,6 @@ msgstr "No"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Yes"
-
-#: /templates/login.html:2 /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "Sign in"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "You must sign in to proceed."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Sign in / Sign up"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -64,15 +52,11 @@ msgstr "Lookup Tool"
 
 #: /templates/footer.html:24
 msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, "
-"content on this site is licensed under the <a href=\"{cc_url}\" "
-"target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> "
-"or any later version."
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
 msgstr ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, "
-"content on this site is licensed under the <a href=\"{cc_url}\" "
-"target=\"_blank\">Creative Commons Attribution Share-Alike Licence v3.0</a> "
-"or any later version."
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike Licence v3.0</a> or any later version."
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
@@ -85,6 +69,46 @@ msgstr "Terms of Use"
 #: /templates/footer.html:32
 msgid "Report Trademark Abuse"
 msgstr "Report Trademark Abuse"
+
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "Sign in"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "You must sign in to proceed."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Sign in / Sign up"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Communication Dashboard"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Sign Out"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Sign In"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Attachment"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "File Description"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "No notes found"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "View older"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -101,39 +125,6 @@ msgstr "Attach another file"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "Post"
-
-#: /templates/_macros/thread.html:15 /templates/_macros/create_thread.html:10
-#: /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "No notes found"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "View older"
-
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Communication Dashboard"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Sign Out"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Sign In"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "App icon"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Viewing All Threads for {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Go back to app edit page"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -153,8 +144,7 @@ msgid_plural "{n} notes"
 msgstr[0] "{n} note"
 msgstr[1] "{n} notes"
 
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83
-#: /media/js/views/comm.js:155
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
 msgid "Reply"
 msgstr "Reply"
 
@@ -174,25 +164,17 @@ msgstr "Unsubscribe"
 msgid "Review"
 msgstr "Review"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Attachment"
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "App icon"
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "File Description"
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Viewing All Threads for {app_name}"
 
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Empty note"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Oh no!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "The page you were looking for was not found."
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Go back to app edit page"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -209,6 +191,10 @@ msgstr "You currently are not involved in any communication threads."
 #: /templates/comm/main.html:16
 msgid "Sorry, an error has occurred. Try logging in again."
 msgstr "Sorry, an error has occurred. Try logging in again."
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Empty note"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -227,6 +213,18 @@ msgstr "This App's Versions"
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Oh no!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "The page you were looking for was not found."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "An error occurred."
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Error loading more"
@@ -234,10 +232,6 @@ msgstr "Error loading more"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Try Again"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "An error occurred."
 
 #: /media/js/settings_app.js:24
 msgid "Message"
@@ -376,17 +370,9 @@ msgid "There are no more older notes."
 msgstr "There are no more older notes."
 
 #: /media/js/views/comm.js:205
-msgid ""
-"By unsubscribing from this thread, you will no longer receive email "
-"notifications from this thread. Are you sure?"
-msgstr ""
-"By unsubscribing from this thread, you will no longer receive email "
-"notifications from this thread. Are you sure?"
+msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+msgstr "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
 
 #: /media/js/views/comm.js:210
-msgid ""
-"Successfully unsubscribed. You will no longer receive email notifications "
-"for that thread."
-msgstr ""
-"Successfully unsubscribed. You will no longer receive email notifications "
-"for that thread."
+msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
+msgstr "Successfully unsubscribed. You will no longer receive email notifications for that thread."
