@@ -3,376 +3,378 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-12T18:29:52.699Z\n"
-"PO-Revision-Date: 2015-04-16 11:25+0000\n"
-"Last-Translator: Pirthi <pirthi.d@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: pa\n"
+"PO-Revision-Date: 2015-04-01 08:46+0000\n"
+"Last-Translator: Wim <fryskefirefox@gmail.com>\n"
+"Language-Team: FRISIAN <LL@li.org>\n"
+"Language: fy_NL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1) ;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1429183506.0\n"
+"X-POOTLE-MTIME: 1427878005.0\n"
 
 #: /templates/confirmation.html:0
 msgid "Close"
-msgstr "ਬੰਦ"
+msgstr "Slute"
 
 #: /templates/confirmation.html:3
 msgid "No"
-msgstr "ਨਹੀਂ"
+msgstr "Nee"
 
 #: /templates/confirmation.html:4
 msgid "Yes"
-msgstr "ਹਾਂ"
+msgstr "Ja"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
-msgstr "ਵਿਕਾਸ ਐਪਸ"
+msgstr "Apps ûntwikkelje"
 
 #: /templates/footer.html:5
 msgid "Developer Hub"
-msgstr "ਡਿਵੈਲਪਰ ਹਬ"
+msgstr "Untwikkelershub"
 
 #: /templates/footer.html:6
 msgid "Support"
-msgstr "ਸਹਾਇਕ"
+msgstr "Stipe"
 
 #: /templates/footer.html:10
 msgid "My Submissions"
-msgstr "ਮੇਰੀਆਂ ਬੇਨਤੀਆਂ"
+msgstr "Myn ynstjoeringen"
 
 #: /templates/footer.html:13
 msgid "Reviewer Tools"
-msgstr "ਸਮੀਖਿਅਕ ਸੰਦ"
+msgstr "Helpmiddelen foar beoardielers"
 
 #: /templates/footer.html:16
 msgid "Lookup Tool"
-msgstr "ਖੋਜ ਸੰਦ"
+msgstr "Sykhelpmiddel"
 
 #: /templates/footer.html:24
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
 "Alike License v3.0</a> or any later version."
 msgstr ""
-"ਹੋਰ ਆਖਿਰੀ href=\"{legal_url}\" target=\"_blank\"> </ a> ਨੋਟ, ਜਿੱਥੇ ਛੱਡ ਕੇ, ਇਹ ਸਾਈਟ ਦੀ ਸਮੱਗਰੀ ।  ਤੇ ਆਖਿਰੀ href=\"{cc_url}\" target=\"_blank\"> ਕਰੀਏਟਿਵ ਕਾਮਨਜ਼ ਐਟ੍ਰਬ੍ਯੂਸ਼ਨ ਅਧੀਨ ਜਾਰੀ ਕੀਤਾ ਗਿਆ ਹੈ ਸ਼ੇਅਰ-ਅਲਾਇਕ ਲਾਈਸਿੰਸ "
-"v3.0 </ a> ਜੇ ਕੋਈ ਬਾਅਦ ਵਾਲਾ ਵਰਜਨ ਹੈ।"
+"Utsein oars <a href=\"{legal_url}\" target=\"_blank\">melden</a>, is op de ynhâld fan dizze website de <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</"
+"a> of lettere ferzje fan tapassing."
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
-msgstr "ਨਿੱਜੀ ਨੀਤੀ"
+msgstr "Privacybelied"
 
 #: /templates/footer.html:30
 msgid "Terms of Use"
-msgstr "ਵਰਤੋ ਦੇ ਅਧਾਰ"
+msgstr "Brûkersbetingsten"
 
 #: /templates/footer.html:32
 msgid "Report Trademark Abuse"
-msgstr "ਰੀਪੋਰਟ ਟਰੇਡਮਾਰਕ ਦੀ ਦੁਰਵਰਤੋ"
+msgstr "Misbrûk fan hannelsmerk melde"
 
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
-msgstr "ਸਾਈਨ ਇਨ"
+msgstr "Oanmelde"
 
 #: /templates/login.html:3
 msgid "You must sign in to proceed."
-msgstr "ਤੁਹਾਨੂੰ ਅੱਗੇ ਵਧਣ ਲਈ ਸਾਈਨ ਇਨ ਕਰਨਾ ਲਾਜਮੀ ਹੈ."
+msgstr "Jo moatte jo oanmelde om troch te gean."
 
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
-msgstr "ਸਾਈਨ ਇਨ / ਸਾਈਨ ਅੱਪ"
+msgstr "Oanmelde / registrearje"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
-msgstr "ਸੰਚਾਰ ਡੈਸ਼ਬੋਰਡ"
+msgstr "Dashboerd foar kommunikaasje"
 
 #: /templates/header.html:7
 msgid "Sign Out"
-msgstr "ਸਾਈਨ ਆਉਟ"
+msgstr "Ofmelde"
 
 #: /templates/header.html:8
 msgid "Sign In"
-msgstr "ਸਾਈਨ ਇਨ"
+msgstr "Oanmelde"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
-msgstr "ਨੱਥੀ"
+msgstr "Bylage"
 
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
-msgstr "ਫਾਇਲ ਵੇਰਵਾ"
+msgstr "Bestânsbeskriuwing"
 
 #: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
-msgstr "ਨੋਟਿਸ ਨਹੀ ਲੱਭੇ"
+msgstr "Gjin opmerkingen fûn"
 
 #: /templates/_macros/thread.html:20
 msgid "View older"
-msgstr "ਪੁਰਾਣਾ ਵੇਖੋ"
+msgstr "Aldere werjaan"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
-msgstr "ਇੱਥੇ ਨੋਟ ਟੈਕਸਟ ਦਾਖਲ ਕਰੋ"
+msgstr "Fier hjir de tekst yn"
 
 #: /templates/_macros/reply_box.html:6
 msgid "Attach screenshots and log files:"
-msgstr "ਸਕਰੀਨਸ਼ਾਟ ਅਤੇ ਲਾਗ ਫਾਇਲਾਂ ਨੱਥੀ:"
+msgstr "Foegje skermôfbyldingen en lochbestannen by:"
 
 #: /templates/_macros/reply_box.html:8
 msgid "Attach another file"
-msgstr "ਹੋਰ ਫਾਇਲ ਨੱਥੀ"
+msgstr "Noch in bestân tafoegje"
 
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
-msgstr "ਪੋਸਟ"
+msgstr "Pleatse"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
-msgstr "{app_name} (ਵਰਜਨ {version_number}"
+msgstr "{app_name} (ferzje {version_number})"
 
 #: /templates/_macros/thread_header.html:19
 msgid "Deleted App"
-msgstr "ਐਪ ਹਟਾਈ ਗਈ ਹੈ"
+msgstr "Fuortsmiten app"
 
 #: /templates/_macros/thread_header.html:21
 msgid "(Obsolete)"
-msgstr "(ਬਰਤਰਫ਼)"
+msgstr "(Ferâldere)"
 
 #: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:60
 msgid "{n} note"
 msgid_plural "{n} notes"
-msgstr[0] "{n} ਨੋਟਿਸ{n} ਨੋਟਿਸ"
-msgstr[1] ""
+msgstr[0] "{n} opmerking"
+msgstr[1] "{n} opmerkingen"
 
 #: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
 msgid "Reply"
-msgstr "ਉੱਤਰ"
+msgstr "Beantwurdzje"
 
 #: /templates/_macros/thread_header.html:41
 msgid "Recent"
-msgstr "ਤਾਜਾ"
+msgstr "Resint"
 
 #: /templates/_macros/thread_header.html:43
 msgid "View App"
-msgstr "ਐਪ ਵੇਖੋ"
+msgstr "App werjaan"
 
 #: /templates/_macros/thread_header.html:47
 msgid "Unsubscribe"
-msgstr "ਮੈਂਬਰੀ ਹਟਾਓ"
+msgstr "Utskriuwe"
 
+# verb or noun?
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
-msgstr "ਮੁਆਇਨਾ"
+msgstr "Beoardiele"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
-msgstr "ਐਪ ਆਈਕਾਨ"
+msgstr "App-piktogram"
 
 #: /templates/comm/app_dashboard.html:7
 msgid "Viewing All Threads for {app_name}"
-msgstr "{app_name} ਲਈ ਸਭ ਥਰੈੱਡ ਵੈਖੋ"
+msgstr "Alle konversaasjes foar {app_name}"
 
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
-msgstr "ਐਪ ਸੋਧ ਸਫ਼ੇ ਉੱਤੇ ਵਾਪਿਸ ਜਾਓ"
+msgstr "Tebek nei app-bewurkingsside"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
-msgstr "ਮੇਰੇ ਥਰਿੱਡ"
+msgstr "Myn konversaasjes"
 
 #: /templates/comm/main.html:4
 msgid "Go to Developer Hub"
-msgstr "ਵਿਕਸਿਤ ਹੱਬ ਉੱਤੇ ਜਾਓ"
+msgstr "Nei Untwikkelershub"
 
 #: /templates/comm/main.html:14
 msgid "You currently are not involved in any communication threads."
-msgstr "ਤੁਸੀਂ ਮੌਜੂਦਾ ਕਿਸੇ ਵੀ ਸੰਚਾਰ ਥਰਿੱਡ ਵਿੱਚ ਸ਼ਾਮਿਲ ਨਹੀਂ।"
+msgstr "Jo binne no net by ien konversaasjes belutsen."
 
 #: /templates/comm/main.html:16
 msgid "Sorry, an error has occurred. Try logging in again."
-msgstr "ਅਫਸੋਸ, ਇੱਕ ਗਲਤੀ ਆਈ ਹੈ। ਦੁਬਾਰਾ ਲਾਗਇਨ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
+msgstr "Sorry, der is in flater bard. Probearje jo opnij oan te melden."
 
+# Empty als werkwoord of als bijvoeglijk naamwoord? Vooralsnog gekozen voor het laatste.
 #: /templates/comm/note_detail.html:12
 msgid "Empty note"
-msgstr "ਖਾਲੀ ਨੋਟ"
+msgstr "Lege opmerking"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
-msgstr " {app_name} ਲਈ ਥਰਿੱਡ ਦੇਖੋ"
+msgstr "Konversaasje foar {app_name}"
 
 #: /templates/comm/show_thread.html:10
 msgid "Back to all threads for {app_name}"
-msgstr " {app_name} ਲਈ ਪਿਛਲੇ ਸਾਰੇ ਥਰਿੱਡਾ ਤੇ ਜਾਓ"
+msgstr "Tebek nei alle konversaasjes foar {app_name}"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
-msgstr "ਇਹ ਐਪ ਦਾ ਵਰਜਨ"
+msgstr "Ferzjes fan dizze app"
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
-msgstr "v.{version_number}"
+msgstr "f.{version_number}"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
-msgstr "ਓਹ ਨਹੀਂ!"
+msgstr "Oh nee!"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
-msgstr "ਜੋ ਸਫ਼ਾ ਤਸੀ ਲੱਭ ਰਹੇ ਹੋ ਉਹ ਨਹੀ ਮਿਲਿਆ ਹੈ।"
+msgstr "De troch jo sochte side is net fûn."
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
-msgstr "ਇੱਕ ਗਲਤੀ ਆਈ ਹੈ"
+msgstr "Der is in flater bard."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
-msgstr "ਲੋਡ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ ਹਈ ਹੈ"
+msgstr "Flater by laden fan mear"
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
-msgstr "ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ"
+msgstr "Opnij probearje"
 
 #: /media/js/settings_app.js:24
 msgid "Message"
-msgstr "ਮੈਸਿਜ"
+msgstr "Berjocht"
 
 #: /media/js/settings_app.js:25
 msgid "App approved"
-msgstr "ਐਪ ਨੂੰ ਪ੍ਰਵਾਨਗੀ"
+msgstr "App goedkard"
 
 #: /media/js/settings_app.js:26
 msgid "App rejected"
-msgstr "ਐਪ ਰੱਦ"
+msgstr "App ôfwiisd"
 
 #: /media/js/settings_app.js:27
 msgid "App banned"
-msgstr "ਬੰਦਿਸ਼ ਐਪ"
+msgstr "App ferbannen"
 
 #: /media/js/settings_app.js:28
 msgid "Reviewer comment"
-msgstr "ਸਮੀਖਿਅਕ ਟਿੱਪਣੀ"
+msgstr "Reaksje fan beoardieler"
 
 #: /media/js/settings_app.js:29
 msgid "Escalated to senior reviewer"
-msgstr "ਸੀਨੀਅਰ ਸਮੀਖਿਅਕ ਲਈ ਵਾਧਾ ਕੀਤਾ ਗਿਆ"
+msgstr "Eskalearre nei seniorbeoardieler"
 
 #: /media/js/settings_app.js:30
 msgid "Private reviewer comment"
-msgstr "ਨਿੱਜੀ ਸਮੀਖਿਅਕ ਟਿੱਪਣੀ"
+msgstr "Priveereaksje fan beoardieler"
 
 #: /media/js/settings_app.js:31
 msgid "App resubmission"
-msgstr "ਐਪ ਮੁੜ-ਪੇਸ਼"
+msgstr "App-weryntsjinning"
 
 #: /media/js/settings_app.js:32
 msgid "Approved but waiting to be made public"
-msgstr "ਮਨਜ਼ੂਰ ਹੈ, ਪਰ ਜਨਤਕ ਹੋਣ ਦੀ ਉਡੀਕ ਹੈ"
+msgstr "Goedkard, mar wachtet op publikaasje"
 
 #: /media/js/settings_app.js:33
 msgid "Escalated due to high abuse reports"
-msgstr "ਉੱਚ ਦੁਰਵਰਤੋਂ ਦੇ ਕਾਰਨ ਵਾਧਾ ਕੀਤਾ ਗਿਆ"
+msgstr "Eskalearre fanwege grut oantal misbrûkmeldingen"
 
 #: /media/js/settings_app.js:34
 msgid "Escalated due to high refund requests"
-msgstr "ਉੱਚ ਵਾਪਸੀ ਬੇਨਤੀਆਂ ਦੇ ਲਈ ਵਾਧਾ ਕੀਤਾ ਗਿਆ"
+msgstr "Eskalearre fanwege grut oantal restitúsjefersiken"
 
 #: /media/js/settings_app.js:35
 msgid "Escalation cleared"
-msgstr "ਵਾਧਾ ਸਾਫ਼ ਕੀਤਾ"
+msgstr "Eskalaasje opheven"
 
 #: /media/js/settings_app.js:36
 msgid "Re-review cleared"
-msgstr "ਮੁੜ-ਪੜਤਾਲ ਪੂਰੀ ਹੋਈ"
+msgstr "Werbeoardieling opheven"
 
 #: /media/js/settings_app.js:37
 msgid "App submission note"
-msgstr "ਐਪ ਪੇਸ਼ ਕਰਨ ਸੂਚਨਾ"
+msgstr "App-yntsjinningsopmerking"
 
 #: /media/js/settings_app.js:38
 msgid "Developer comment"
-msgstr "ਡਿਵੈਲਪਰ ਟਿੱਪਣੀ"
+msgstr "Untwikkelersopmerking"
 
 #: /media/js/settings_app.js:39
 msgid "Device(s) changed by reviewer"
-msgstr "ਯੰਤਰ (s) ਸਮੀਖਿਅਕ ਦੁਬਾਰਾ ਬਦਲਿਆ ਗਿਆ"
+msgstr "Apparaten wizige troch beoardieler"
 
 #: /media/js/settings_app.js:40
 msgid "Feature(s) changed by reviewer"
-msgstr ""
+msgstr "Funksje(s) wizige troch beoardieler"
 
 #: /media/js/settings_app.js:41
 msgid "Review manifest change"
-msgstr ""
+msgstr "Manifestwiziging beoardiele"
 
 #: /media/js/settings_app.js:42
 msgid "Review manifest url change"
-msgstr ""
+msgstr "Wiziging fan manifest-URL beoardiele"
 
 #: /media/js/settings_app.js:43
 msgid "Review manifest premium type upgrade"
-msgstr ""
+msgstr "Premium-type-fernijing fan manifest beoardiele"
 
 #: /media/js/settings_app.js:44
 msgid "Re-review devices added"
-msgstr ""
+msgstr "Tafoege apparaten werbeoardiele"
 
 #: /media/js/settings_app.js:45
 msgid "Re-review features changed"
-msgstr ""
+msgstr "Wizige funksjes werbeoardiele"
 
 #: /media/js/settings_app.js:46
 msgid "Escalation due to VIP App"
-msgstr ""
+msgstr "Eskalaasje fanwege VIP-app"
 
 #: /media/js/settings_app.js:47
 msgid "Escalation due to prerelease App"
-msgstr ""
+msgstr "Eskalaasje fanwege prerelease-app"
 
 #: /media/js/settings_app.js:48
 msgid "Priority review requested"
-msgstr ""
+msgstr "Prioriteitsbeoardieling frege"
 
 #: /media/js/settings_app.js:49
 msgid "Tarako review passed"
-msgstr ""
+msgstr "Tarako-beoardieling slagge"
 
 #: /media/js/settings_app.js:50
 msgid "Tarako review failed"
-msgstr ""
+msgstr "Tarako-beoardieling mislearre"
 
 #: /media/js/settings_app.js:51
 msgid "Version notes for reviewer"
-msgstr ""
+msgstr "Ferzjeopmerkingen foar beoardieler"
 
 #: /media/js/settings_app.js:52
 msgid "Public reviewer comment"
-msgstr ""
+msgstr "Iepenbiere reaksje fan beoardieler"
 
 #: /media/js/settings_app.js:53
 msgid "Re-review content rating adult"
-msgstr ""
+msgstr "Ynhâldsbeoardieling folwoeksen werbeoardiele"
 
 #: /media/js/views/comm.js:90
 msgid "Message sent."
-msgstr "<b>{n}</b> ਅੱਖਰ ਬਾਕੀ।"
+msgstr "Berjocht ferstjoere."
 
 #: /media/js/views/comm.js:95
 msgid "Message sending failed."
-msgstr "ਸੁਨੇਹਾ ਭੇਜਣ ਲਈ ਅਸਫਲ"
+msgstr "Berjocht ferstjoeren mislearre."
 
 #: /media/js/views/comm.js:145
 msgid "Cancel reply"
-msgstr "ਜੁਵਾਬ ਰੱਦ"
+msgstr "Antwurd annulearje"
 
 #: /media/js/views/comm.js:182
 msgid "There are no more older notes."
-msgstr "ਹੋਰ ਪੁਰਾਣੇ ਨੋਟਿਸ ਨਹੀਂ"
+msgstr "Der binne gjin âldere opmerkingen."
 
 #: /media/js/views/comm.js:205
 msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr "ਇਹ ਮਾਮਲੇ ਤੋਂ ਮੈਂਬਰੀ ਹਟਾਉਣ ਨਾਲ ਤੁਸੀਂ ਇਸ ਮਾਮਲੇ ਤੋਂ ਈਮੇਲ ਸੂਚਨਾ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕਰੋਗੇ। ਕੀ ਤੁਸੀਂ ਇਹ ਚਾਹੁੰਦੇ ਹੋ?"
+msgstr "Troch ja fan dizze konversaasje út te skriuwen sille jo hjirfan gjin e-mailmeldingen mear ûntfange. Binne jo wis?"
 
 #: /media/js/views/comm.js:210
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr "ਕਾਮਯਾਬੀ ਨਾਲ ਮੈਂਬਰੀ ਹਟਾਈ ਗਈ। ਤੁਹਾਨੂੰ ਉਸ ਮਾਮਲੇ ਤੋਂ ਈਮੇਲ ਸੂਚਨਾ ਪ੍ਰਾਪਤ ਨਹੀਂ ਹੋਵੇਗੀ।"
+msgstr "Mei sukses útskreaun. Jo ûntfange gjin e-mailmeldingen mear foar dizze konversaasje."
