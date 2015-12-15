@@ -27,7 +27,7 @@ msgstr "Tá"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
-msgstr "Forbair Feidhmchláir"
+msgstr "Forbairt Aipeanna"
 
 #: /templates/footer.html:5
 msgid "Developer Hub"
@@ -39,7 +39,7 @@ msgstr "Tacaíocht"
 
 #: /templates/footer.html:10
 msgid "My Submissions"
-msgstr "Feidhmchláir Seolta"
+msgstr "Mo Chuid Aipeanna"
 
 #: /templates/footer.html:13
 msgid "Reviewer Tools"
@@ -59,7 +59,7 @@ msgstr ""
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
-msgstr "Polasaí Príobháideachta"
+msgstr "Polasaí Príobháideachais"
 
 #: /templates/footer.html:30
 msgid "Terms of Use"
@@ -71,7 +71,7 @@ msgstr "Drochúsáid Trádmharcanna"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
-msgstr ""
+msgstr "Painéal Cumarsáide"
 
 #: /templates/header.html:7
 msgid "Sign Out"
@@ -83,11 +83,11 @@ msgstr "Logáil Isteach"
 
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
-msgstr ""
+msgstr "Logáil isteach"
 
 #: /templates/login.html:3
 msgid "You must sign in to proceed."
-msgstr ""
+msgstr "Ní mór duit logáil isteach."
 
 #: /templates/login.html:4
 msgid "Sign in / Sign up"
@@ -95,64 +95,64 @@ msgstr "Logáil Isteach / Cláraigh"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
-msgstr ""
+msgstr "Ceangaltán"
 
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
-msgstr ""
+msgstr "Cur Síos"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
-msgstr ""
+msgstr "Mo Chuid Snáitheanna"
 
 #: /templates/comm/main.html:4
 msgid "Go to Developer Hub"
-msgstr ""
+msgstr "Oscail an Lárionad Forbartha"
 
 #: /templates/comm/main.html:14
 msgid "You currently are not involved in any communication threads."
-msgstr ""
+msgstr "Níl tú ag glacadh páirte in aon snáitheanna cumarsáide faoi láthair."
 
 #: /templates/comm/main.html:16
 msgid "Sorry, an error has occurred. Try logging in again."
-msgstr ""
+msgstr "Ár leithscéal, tharla earráid. Déan iarracht logáil isteach arís."
 
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
-msgstr ""
+msgstr "Deilbhín na haipe"
 
 #: /templates/comm/app_dashboard.html:7
 msgid "Viewing All Threads for {app_name}"
-msgstr ""
+msgstr "Gach Snáithe a bhaineann le {app_name}"
 
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
-msgstr ""
+msgstr "Fill ar eagarthóireacht na haipe"
 
 #: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
 msgid "No notes found"
-msgstr ""
+msgstr "Níor aimsíodh aon nótaí"
 
 #: /templates/comm/note_detail.html:12
 msgid "Empty note"
-msgstr ""
+msgstr "Nóta folamh"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
-msgstr ""
+msgstr "Snáithe a bhaineann le {app_name}"
 
 #: /templates/comm/show_thread.html:10
 msgid "Back to all threads for {app_name}"
-msgstr ""
+msgstr "Fill ar na snáitheanna a bhaineann le {app_name}"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
-msgstr ""
+msgstr "Leaganacha den Aip Seo"
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
-msgstr ""
+msgstr "v.{version_number}"
 
 #: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
@@ -176,205 +176,205 @@ msgstr "Déan Iarracht Eile"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
-msgstr ""
+msgstr "Cuir isteach an nóta"
 
 #: /templates/_macros/reply_box.html:6
 msgid "Attach screenshots and log files:"
-msgstr ""
+msgstr "Ceangail pictiúir den scáileán agus logchomhaid:"
 
 #: /templates/_macros/reply_box.html:8
 msgid "Attach another file"
-msgstr ""
+msgstr "Ceangail comhad eile"
 
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
-msgstr ""
+msgstr "Postáil"
 
 #: /templates/_macros/thread.html:20
 msgid "View older"
-msgstr ""
+msgstr "Níos sine"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
-msgstr ""
+msgstr "{app_name} (Leagan {version_number})"
 
 #: /templates/_macros/thread_header.html:19
 msgid "Deleted App"
-msgstr ""
+msgstr "Aip Scriosta"
 
 #: /templates/_macros/thread_header.html:21
 msgid "(Obsolete)"
-msgstr ""
+msgstr "(As Feidhm)"
 
 #: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:60
 msgid "{n} note"
 msgid_plural "{n} notes"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
+msgstr[0] "{n} nóta"
+msgstr[1] "{n} nóta"
+msgstr[2] "{n} nóta"
+msgstr[3] "{n} nóta"
+msgstr[4] "{n} nóta"
 
 #: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
 msgid "Reply"
-msgstr ""
+msgstr "Freagra"
 
 #: /templates/_macros/thread_header.html:41
 msgid "Recent"
-msgstr ""
+msgstr "Le Déanaí"
 
 #: /templates/_macros/thread_header.html:43
 msgid "View App"
-msgstr ""
+msgstr "Féach ar an Aip"
 
 #: /templates/_macros/thread_header.html:47
 msgid "Unsubscribe"
-msgstr ""
+msgstr "Díliostáil"
 
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
-msgstr ""
+msgstr "Léirmheas"
 
 #: /media/js/settings_app.js:24
 msgid "Message"
-msgstr ""
+msgstr "Teachtaireacht"
 
 #: /media/js/settings_app.js:25
 msgid "App approved"
-msgstr ""
+msgstr "Glacadh leis an aip"
 
 #: /media/js/settings_app.js:26
 msgid "App rejected"
-msgstr ""
+msgstr "Diúltaíodh an aip"
 
 #: /media/js/settings_app.js:27
 msgid "App banned"
-msgstr ""
+msgstr "Cuireadh cosc ar an aip"
 
 #: /media/js/settings_app.js:28
 msgid "Reviewer comment"
-msgstr ""
+msgstr "Nóta ó léirmheastóir"
 
 #: /media/js/settings_app.js:29
 msgid "Escalated to senior reviewer"
-msgstr ""
+msgstr "Curtha faoi bhráid léirmheastóra shinsearaigh"
 
 #: /media/js/settings_app.js:30
 msgid "Private reviewer comment"
-msgstr ""
+msgstr "Nóta príobháideach ó léirmheastóir"
 
 #: /media/js/settings_app.js:31
 msgid "App resubmission"
-msgstr ""
+msgstr "Athsheoladh aipe"
 
 #: /media/js/settings_app.js:32
 msgid "Approved but waiting to be made public"
-msgstr ""
+msgstr "Ceadaithe, agus níl sí poiblí fós"
 
 #: /media/js/settings_app.js:33
 msgid "Escalated due to high abuse reports"
-msgstr ""
+msgstr "Géaraithe mar gheall ar an iomarca tuairiscí ar dhrochúsáid"
 
 #: /media/js/settings_app.js:34
 msgid "Escalated due to high refund requests"
-msgstr ""
+msgstr "Géaraithe mar gheall ar an iomarca iarratas aisíocaíochta"
 
 #: /media/js/settings_app.js:35
 msgid "Escalation cleared"
-msgstr ""
+msgstr "Glanadh an géarú"
 
 #: /media/js/settings_app.js:36
 msgid "Re-review cleared"
-msgstr ""
+msgstr "Glanadh an t-ath-athbhreithniú"
 
 #: /media/js/settings_app.js:37
 msgid "App submission note"
-msgstr ""
+msgstr "Nóta le seoladh na haipe"
 
 #: /media/js/settings_app.js:38
 msgid "Developer comment"
-msgstr ""
+msgstr "Nóta ón fhorbróir"
 
 #: /media/js/settings_app.js:39
 msgid "Device(s) changed by reviewer"
-msgstr ""
+msgstr "Gléas(anna) athraithe ag léirmheastóir"
 
 #: /media/js/settings_app.js:40
 msgid "Feature(s) changed by reviewer"
-msgstr ""
+msgstr "Gné(ithe) athraithe ag léirmheastóir"
 
 #: /media/js/settings_app.js:41
 msgid "Review manifest change"
-msgstr ""
+msgstr "Athbhreithniú ar athrú lastliosta"
 
 #: /media/js/settings_app.js:42
 msgid "Review manifest url change"
-msgstr ""
+msgstr "Athbhreithniú ar athrú URL an lastliosta"
 
 #: /media/js/settings_app.js:43
 msgid "Review manifest premium type upgrade"
-msgstr ""
+msgstr "Athbhreithniú ar nuashonrú bisigh"
 
 #: /media/js/settings_app.js:44
 msgid "Re-review devices added"
-msgstr ""
+msgstr "Ath-athbhreithniú ar ghléasanna"
 
 #: /media/js/settings_app.js:45
 msgid "Re-review features changed"
-msgstr ""
+msgstr "Ath-athbhreithniú ar ghnéithe"
 
 #: /media/js/settings_app.js:46
 msgid "Escalation due to VIP App"
-msgstr ""
+msgstr "Géarú mar gheall ar Aip VIP"
 
 #: /media/js/settings_app.js:47
 msgid "Escalation due to prerelease App"
-msgstr ""
+msgstr "Géarú mar gheall ar réamhleagan den Aip"
 
 #: /media/js/settings_app.js:48
 msgid "Priority review requested"
-msgstr ""
+msgstr "Iarradh léirmheas ardtosaíochta"
 
 #: /media/js/settings_app.js:49
 msgid "Tarako review passed"
-msgstr ""
+msgstr "D'éirigh leis an léirmheas Tarako"
 
 #: /media/js/settings_app.js:50
 msgid "Tarako review failed"
-msgstr ""
+msgstr "Theip ar an léirmheas Tarako"
 
 #: /media/js/settings_app.js:51
 msgid "Version notes for reviewer"
-msgstr ""
+msgstr "Nótaí eisiúna don léirmheastóir"
 
 #: /media/js/settings_app.js:52
 msgid "Public reviewer comment"
-msgstr ""
+msgstr "Nóta poiblí ó léirmheastóir"
 
 #: /media/js/settings_app.js:53
 msgid "Re-review content rating adult"
-msgstr ""
+msgstr "Ath-athbhreithniú: ábhar do dhaoine fásta"
 
 #: /media/js/views/comm.js:90
 msgid "Message sent."
-msgstr ""
+msgstr "Seoladh an teachtaireacht."
 
 #: /media/js/views/comm.js:95
 msgid "Message sending failed."
-msgstr ""
+msgstr "Níorbh fhéidir an teachtaireacht a sheoladh."
 
 #: /media/js/views/comm.js:145
 msgid "Cancel reply"
-msgstr ""
+msgstr "Cealaigh an freagra"
 
 #: /media/js/views/comm.js:182
 msgid "There are no more older notes."
-msgstr ""
+msgstr "Níl aon nótaí níos sine ann."
 
 #: /media/js/views/comm.js:205
 msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
-msgstr ""
+msgstr "Má dhíliostálann tú ón snáithe seo, ní gheobhaidh tú fógraí ríomhphoist ón snáithe seo a thuilleadh. An bhfuil tú cinnte?"
 
 #: /media/js/views/comm.js:210
 msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
-msgstr ""
+msgstr "D'éirigh leis an díliostáil. Ní gheobhaidh tú fógraí ríomhphoist ón snáithe seo a thuilleadh."
