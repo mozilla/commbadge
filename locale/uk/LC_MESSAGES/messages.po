@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-03T19:41:27.432Z\n"
+"POT-Creation-Date: 2016-01-06T22:18:34.598Z\n"
 "PO-Revision-Date: 2015-03-06 08:24+0000\n"
 "Last-Translator: Artem <a.polivanchuk@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,18 +71,6 @@ msgstr "Умови використання"
 msgid "Report Trademark Abuse"
 msgstr "Повідомити про зловживання торговою маркою"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Панель спілкування"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Вийти"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Увійти"
-
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
 msgstr "Увійти"
@@ -95,86 +83,21 @@ msgstr "Ви повинні увійти для продовження."
 msgid "Sign in / Sign up"
 msgstr "Вхід / Реєстрація"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Прикріплення"
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Панель спілкування"
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Опис файлу"
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Вийти"
 
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Мої обговорення"
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Увійти"
 
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr "Перейти в центр розробника"
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr "Зараз ви не берете участі в жодних обговореннях."
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr "Шкода, але трапилась помилка. Спробуйте увійти ще раз."
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Іконка програми"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Перегляд всіх обговорень для {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Повернутися до сторінки редагування програми"
-
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "Заміток не знайдено"
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Пуста замітка"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Перегляд обговорення для {app_name}"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Повернутись до всіх обговорень для {app_name}"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "Версії цієї програми"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
-
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "О ні!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Сталася помилка."
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Сторінка, яку ви шукали не знайдена."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Помилка подальшого завантаження"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Спробувати знову"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -234,6 +157,83 @@ msgstr "Відписатись"
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
 msgstr "Рецензія"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Іконка програми"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Перегляд всіх обговорень для {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Повернутися до сторінки редагування програми"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Мої обговорення"
+
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr "Перейти в центр розробника"
+
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr "Зараз ви не берете участі в жодних обговореннях."
+
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr "Шкода, але трапилась помилка. Спробуйте увійти ще раз."
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Пуста замітка"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Перегляд обговорення для {app_name}"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Повернутись до всіх обговорень для {app_name}"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "Версії цієї програми"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "О ні!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Сторінка, яку ви шукали не знайдена."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Сталася помилка."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Помилка подальшого завантаження"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Спробувати знову"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Прикріплення"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Опис файлу"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-03T19:41:27.432Z\n"
+"POT-Creation-Date: 2016-01-06T22:18:34.598Z\n"
 "PO-Revision-Date: 2015-11-01 10:19+0000\n"
 "Last-Translator: Jobava <jobaval10n@gmail.com>\n"
 "Language-Team: none\n"
@@ -71,18 +71,6 @@ msgstr "Termeni de utilizare"
 msgid "Report Trademark Abuse"
 msgstr "Raportați abuzul mărcilor înregistrate"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Tablou de comunicare"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Deconectare"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Autentificare"
-
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
 msgstr "Autentificare"
@@ -95,86 +83,21 @@ msgstr "Trebuie să te autentifici pentru a continua."
 msgid "Sign in / Sign up"
 msgstr "Autentificare / Înregistrare"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Atașament"
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Tablou de comunicare"
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Descrierea fișierului"
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Deconectare"
 
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Discuțiile mele"
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Autentificare"
 
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr "Mergi la Developer Hub"
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr "Nu sunteți implicați într-o discuție momentan."
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr "S-a produs o eroare. Încercați să vă autentificați din nou."
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Iconița aplicației"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Toate discuțiile pentru {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Înapoi la pagina de editare aplicație"
-
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "Nicio notiță găsită"
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Notă goală"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Vizualizare discuție pentru {app_name}"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Înapoi la toate discuțiile pentru {app_name}"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "Versiunile aplicației curente"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
-
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "O, nu!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "A apărut o eroare."
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Pagina căutată nu a fost găsită."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Eroare la încărcare"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Încearcă din nou"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -234,6 +157,83 @@ msgstr "Dezabonare"
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
 msgstr "Recenzie"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Iconița aplicației"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Toate discuțiile pentru {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Înapoi la pagina de editare aplicație"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Discuțiile mele"
+
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr "Mergi la Developer Hub"
+
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr "Nu sunteți implicați într-o discuție momentan."
+
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr "S-a produs o eroare. Încercați să vă autentificați din nou."
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Notă goală"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Vizualizare discuție pentru {app_name}"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Înapoi la toate discuțiile pentru {app_name}"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "Versiunile aplicației curente"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "O, nu!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Pagina căutată nu a fost găsită."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "A apărut o eroare."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Eroare la încărcare"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Încearcă din nou"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Atașament"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Descrierea fișierului"
 
 #: /media/js/settings_app.js:24
 msgid "Message"
