@@ -1,17 +1,18 @@
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-06T22:18:34.598Z\n"
-"PO-Revision-Date: 2014-08-15 05:46+0000\n"
-"Last-Translator: Channy <channy@mozilla.or.kr>\n"
+"PO-Revision-Date: 2016-01-09 05:30+0000\n"
+"Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Pootle 2.5.0\n"
+"X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1408081597.0\n"
 
 #: /templates/confirmation.html:0
@@ -52,11 +53,14 @@ msgstr "검색 도구"
 
 #: /templates/footer.html:24
 msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, "
+"content on this site is licensed under the <a href=\"{cc_url}\" "
+"target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> "
+"or any later version."
 msgstr ""
-"따로 <a href=\"{legal_url}\" target=\"_blank\">명시</a>된 경우를 제외하고 이 사이트의 내용은 <a href=\"{cc_url}\" target=\"_blank\">크리에이티브 커먼즈 저작자표시-동일 조건 변경 허락 3.0</a>이나 그 "
-"이후 버전 라이센스를 따릅니다."
+"따로 <a href=\"{legal_url}\" target=\"_blank\">명시</a>된 경우를 제외하고 이 사이트의 내용은 <a "
+"href=\"{cc_url}\" target=\"_blank\">크리에이티브 커먼즈 저작자표시-동일 조건 변경 허락 3.0</a>이나 그"
+" 이후 버전 라이센스를 따릅니다."
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
@@ -94,7 +98,8 @@ msgstr "로그아웃"
 msgid "Sign In"
 msgstr "로그인"
 
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+#: /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "소개 내용 없음"
 
@@ -124,7 +129,7 @@ msgstr "{app_name} (버전 {version_number})"
 
 #: /templates/_macros/thread_header.html:19
 msgid "Deleted App"
-msgstr ""
+msgstr "삭제된 앱"
 
 #: /templates/_macros/thread_header.html:21
 msgid "(Obsolete)"
@@ -135,7 +140,8 @@ msgid "{n} note"
 msgid_plural "{n} notes"
 msgstr[0] "{n} 주의"
 
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83
+#: /media/js/views/comm.js:155
 msgid "Reply"
 msgstr "댓글"
 
@@ -173,15 +179,15 @@ msgstr "내 글타래"
 
 #: /templates/comm/main.html:4
 msgid "Go to Developer Hub"
-msgstr ""
+msgstr "개발자 허브로 이동"
 
 #: /templates/comm/main.html:14
 msgid "You currently are not involved in any communication threads."
-msgstr ""
+msgstr "현재 참여하고 있는 대화 글타래가 없습니다."
 
 #: /templates/comm/main.html:16
 msgid "Sorry, an error has occurred. Try logging in again."
-msgstr ""
+msgstr "죄송합니다, 오류가 발생 했습니다. 다시 로그인 해 주세요."
 
 #: /templates/comm/note_detail.html:12
 msgid "Empty note"
@@ -246,19 +252,19 @@ msgstr "거절된 앱"
 
 #: /media/js/settings_app.js:27
 msgid "App banned"
-msgstr ""
+msgstr "앱 차단됨"
 
 #: /media/js/settings_app.js:28
 msgid "Reviewer comment"
-msgstr ""
+msgstr "검토자 댓글"
 
 #: /media/js/settings_app.js:29
 msgid "Escalated to senior reviewer"
-msgstr ""
+msgstr "선임 검토자에게 전달"
 
 #: /media/js/settings_app.js:30
 msgid "Private reviewer comment"
-msgstr ""
+msgstr "비공개 검토자 댓글"
 
 #: /media/js/settings_app.js:31
 msgid "App resubmission"
@@ -294,7 +300,7 @@ msgstr "개발자 코멘트"
 
 #: /media/js/settings_app.js:39
 msgid "Device(s) changed by reviewer"
-msgstr ""
+msgstr "검토자가 장치를 변경함"
 
 #: /media/js/settings_app.js:40
 msgid "Feature(s) changed by reviewer"
@@ -314,7 +320,7 @@ msgstr ""
 
 #: /media/js/settings_app.js:44
 msgid "Re-review devices added"
-msgstr ""
+msgstr "재심사 기기 추가됨"
 
 #: /media/js/settings_app.js:45
 msgid "Re-review features changed"
@@ -330,7 +336,7 @@ msgstr ""
 
 #: /media/js/settings_app.js:48
 msgid "Priority review requested"
-msgstr ""
+msgstr "우선 검토 요청"
 
 #: /media/js/settings_app.js:49
 msgid "Tarako review passed"
@@ -342,15 +348,15 @@ msgstr ""
 
 #: /media/js/settings_app.js:51
 msgid "Version notes for reviewer"
-msgstr ""
+msgstr "검토자를 위한 버전 노트"
 
 #: /media/js/settings_app.js:52
 msgid "Public reviewer comment"
-msgstr ""
+msgstr "공개 검토자 댓글"
 
 #: /media/js/settings_app.js:53
 msgid "Re-review content rating adult"
-msgstr ""
+msgstr "성인 등급 콘텐츠를 다시 검토"
 
 #: /media/js/views/comm.js:90
 msgid "Message sent."
@@ -369,9 +375,13 @@ msgid "There are no more older notes."
 msgstr "이전 메모가 없습니다."
 
 #: /media/js/views/comm.js:205
-msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+msgid ""
+"By unsubscribing from this thread, you will no longer receive email "
+"notifications from this thread. Are you sure?"
 msgstr "현재 메일에 구독 취소하면 더 이상 메일 알림을 받을 수 없습니다. 계속하시겠습니까?"
 
 #: /media/js/views/comm.js:210
-msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
+msgid ""
+"Successfully unsubscribed. You will no longer receive email notifications "
+"for that thread."
 msgstr "구독 취소하였습니다. 더 이상 메일 알림을 받지 않습니다."
