@@ -16,8 +16,8 @@
         <a href="{{ url('app_dashboard', [app.app_slug]) }}">
           <img class="addon-icon" src="{{ icon_url }}">
           <div class="addon-name">
-            {{ _('{app_name|escape} (Version {version_number})',
-                 app_name=app.name or _('Deleted App'), version_number=version_number) }}
+            {{ _('{app_name} (Version {version_number})',
+                 app_name=app.name or _('Deleted App'), version_number=version_number)|escape }}
             {% if thread and thread.version_is_obsolete %}
               {{ _('(Obsolete)') }}
             {% endif %}
