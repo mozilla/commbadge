@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-06T22:18:34.598Z\n"
+"POT-Creation-Date: 2016-01-20T19:46:33.590Z\n"
 "PO-Revision-Date: 2015-12-07 15:03+0000\n"
 "Last-Translator: Marco Aurélio <ouesten@me.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,17 +71,17 @@ msgstr "Termos de uso"
 msgid "Report Trademark Abuse"
 msgstr "Denunciar abuso de marcas registradas"
 
-#: /templates/login.html:2 /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "Entrar"
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Ícone do aplicativo"
 
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Você deve entrar para prosseguir."
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Visualizando todos os tópicos sobre {app_name}"
 
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Entrar / Registrar"
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Voltar à página de edição do aplicativo"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
@@ -95,29 +95,66 @@ msgstr "Sair"
 msgid "Sign In"
 msgstr "Entrar"
 
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "Entrar"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Você deve entrar para prosseguir."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Entrar / Registrar"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Anexo"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Descrição do arquivo"
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
 msgid "No notes found"
 msgstr "Nenhuma nota foi encontrada"
 
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Digite sua nota aqui"
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Meus tópicos"
 
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Anexe capturas de tela e arquivos de log:"
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr "Ir para a central do desenvolvedor"
 
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Anexar outro arquivo"
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr "Atualmente não está participando de qualquer discussão."
 
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Publicar"
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr "Lamentamos, mas ocorreu um erro. Tente entrar novamente."
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Ver anteriores"
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Visualizando tópico sobre {app_name}"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Voltar a todos os tópicos sobre {app_name}"
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Nota vazia"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "Versões deste aplicativo"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -157,54 +194,25 @@ msgstr "Cancelar inscrição"
 msgid "Review"
 msgstr "Revisar"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Ícone do aplicativo"
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Digite sua nota aqui"
 
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Visualizando todos os tópicos sobre {app_name}"
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Anexe capturas de tela e arquivos de log:"
 
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Voltar à página de edição do aplicativo"
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Anexar outro arquivo"
 
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Meus tópicos"
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Publicar"
 
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr "Ir para a central do desenvolvedor"
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr "Atualmente não está participando de qualquer discussão."
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr "Lamentamos, mas ocorreu um erro. Tente entrar novamente."
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Nota vazia"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Visualizando tópico sobre {app_name}"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Voltar a todos os tópicos sobre {app_name}"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "Versões deste aplicativo"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Ver anteriores"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -225,14 +233,6 @@ msgstr "Erro ao carregar mais"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Tente novamente"
-
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Anexo"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Descrição do arquivo"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

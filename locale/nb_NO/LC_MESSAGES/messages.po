@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-06T22:18:34.598Z\n"
+"POT-Creation-Date: 2016-01-20T19:46:33.590Z\n"
 "PO-Revision-Date: 2015-01-24 20:36+0000\n"
 "Last-Translator: Håvar <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -70,17 +70,17 @@ msgstr "Vilkår for bruk"
 msgid "Report Trademark Abuse"
 msgstr "Rapporter misbruk av varemerker"
 
-#: /templates/login.html:2 /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "Logg inn"
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "App-ikon"
 
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Du må logge inn for å fortsette."
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Viser alle tråder for {app_name}"
 
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Logg inn / Bli medlem"
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Gå tilbake til app-redigeringssiden"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
@@ -94,29 +94,66 @@ msgstr "Logg ut"
 msgid "Sign In"
 msgstr "Logg inn"
 
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "Logg inn"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Du må logge inn for å fortsette."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Logg inn / Bli medlem"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Vedlegg"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Filbeskrivelse"
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
 msgid "No notes found"
 msgstr "Ingen notater funnet"
 
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Skriv inn notatteksten her"
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Mine tråder"
 
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Legg ved skjermbilder og loggfiler:"
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr "Gå til utvikler-knutepunkt"
 
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Legg ved en annen fil"
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr "Du er for øyeblikket ikke involvert i noen kommunikasjonstråder."
 
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Send inn"
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr "Det har oppstått en feil. Prøv å logge inn på nytt."
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Vis eldre"
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Viser tråd for {app_name}"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Tilbake til alle tråder for {app_name}"
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Tomt notat"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "Denne appens versjoner"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -156,54 +193,25 @@ msgstr "Avslutt abonnement"
 msgid "Review"
 msgstr "Gjennomgang"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "App-ikon"
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Skriv inn notatteksten her"
 
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Viser alle tråder for {app_name}"
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Legg ved skjermbilder og loggfiler:"
 
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Gå tilbake til app-redigeringssiden"
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Legg ved en annen fil"
 
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Mine tråder"
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Send inn"
 
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr "Gå til utvikler-knutepunkt"
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr "Du er for øyeblikket ikke involvert i noen kommunikasjonstråder."
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr "Det har oppstått en feil. Prøv å logge inn på nytt."
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Tomt notat"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Viser tråd for {app_name}"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Tilbake til alle tråder for {app_name}"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "Denne appens versjoner"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Vis eldre"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -224,14 +232,6 @@ msgstr "Feil ved lasting av flere"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Prøv igjen"
-
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Vedlegg"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Filbeskrivelse"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

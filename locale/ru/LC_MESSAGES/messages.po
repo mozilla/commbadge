@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-06T22:18:34.598Z\n"
+"POT-Creation-Date: 2016-01-20T19:46:33.590Z\n"
 "PO-Revision-Date: 2015-03-07 19:32+0000\n"
 "Last-Translator: Alexander <unghost@mozilla-russia.org>\n"
 "Language-Team: none\n"
@@ -70,17 +70,17 @@ msgstr "Условия использования"
 msgid "Report Trademark Abuse"
 msgstr "Сообщить о злоупотреблении торговой маркой"
 
-#: /templates/login.html:2 /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "Войти"
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Значок приложения"
 
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Вы должны войти для продолжения"
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Просмотр всех обсуждений для {app_name}"
 
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Вход / Регистрация"
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Вернуться к странице редактирования приложения"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
@@ -94,29 +94,66 @@ msgstr "Выйти"
 msgid "Sign In"
 msgstr "Войти"
 
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "Войти"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Вы должны войти для продолжения"
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Вход / Регистрация"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Приложение"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Описание файла"
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
 msgid "No notes found"
 msgstr "Заметок не найдено"
 
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Введите здесь текст заметки"
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Мои обсуждения"
 
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Приложите скриншоты и файлы логов:"
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr "Перейти в Центр разработчика"
 
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Приложите другой файл"
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr "В настоящее время вы не участвуете в каких-либо ветках обсуждений."
 
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Разместить"
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr "К сожалению, произошла ошибка. Попробуйте войти ещё раз."
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Показать старые"
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Просмотр обсуждения для {app_name}"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Вернуться ко всем обсуждениям для {app_name}"
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Пустая заметка"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "Версии этого приложения"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -157,54 +194,25 @@ msgstr "Отписаться"
 msgid "Review"
 msgstr "Рецензировать"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Значок приложения"
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Введите здесь текст заметки"
 
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Просмотр всех обсуждений для {app_name}"
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Приложите скриншоты и файлы логов:"
 
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Вернуться к странице редактирования приложения"
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Приложите другой файл"
 
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Мои обсуждения"
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Разместить"
 
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr "Перейти в Центр разработчика"
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr "В настоящее время вы не участвуете в каких-либо ветках обсуждений."
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr "К сожалению, произошла ошибка. Попробуйте войти ещё раз."
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Пустая заметка"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Просмотр обсуждения для {app_name}"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Вернуться ко всем обсуждениям для {app_name}"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "Версии этого приложения"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Показать старые"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -225,14 +233,6 @@ msgstr "Ошибка загрузки большего"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Попробовать снова"
-
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Приложение"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Описание файла"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

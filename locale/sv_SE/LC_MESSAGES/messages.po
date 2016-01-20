@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox Marketplace Communication Dashboard\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-06T22:18:34.598Z\n"
+"POT-Creation-Date: 2016-01-20T19:46:33.590Z\n"
 "PO-Revision-Date: 2015-03-05 17:15+0000\n"
 "Last-Translator: Andreas <az@kth.se>\n"
 "Language-Team: The Swedish l10n-team <community-sweden@lists.mozilla.org>\n"
@@ -71,17 +71,17 @@ msgstr "Användarvillkor"
 msgid "Report Trademark Abuse"
 msgstr "Rapportera varumärkesintrång"
 
-#: /templates/login.html:2 /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "Logga in"
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "App-ikon"
 
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Du måste logga in för att fortsätta."
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Visa alla trådar för {app_name}"
 
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Logga in / Registrera dig"
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Gå tillbaka till appens redigeringssida"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
@@ -95,29 +95,66 @@ msgstr "Logga ut"
 msgid "Sign In"
 msgstr "Logga in"
 
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "Logga in"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Du måste logga in för att fortsätta."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Logga in / Registrera dig"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Bilaga"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Filbeskrivning"
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
 msgid "No notes found"
 msgstr "Inga anteckningar hittades"
 
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Skriv anteckning här"
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Mina trådar"
 
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Bifoga skärmdumpar och loggfiler:"
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr "Gå till utvecklarcenter"
 
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Bifoga en annan fil"
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr "Du är för närvarande inte inblandat i några kommunikationstrådar."
 
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Skicka"
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr "Tyvärr, har ett fel inträffat. Försök att logga in igen."
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Visa äldre"
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Du visar tråd för {app_name}"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Tillbaka till alla trådar för {app_name}"
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Tom anteckning"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "Denna App:s versioner"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -157,54 +194,25 @@ msgstr "Avsluta prenumeration"
 msgid "Review"
 msgstr "Omdöme"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "App-ikon"
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Skriv anteckning här"
 
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Visa alla trådar för {app_name}"
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Bifoga skärmdumpar och loggfiler:"
 
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Gå tillbaka till appens redigeringssida"
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Bifoga en annan fil"
 
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Mina trådar"
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Skicka"
 
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr "Gå till utvecklarcenter"
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr "Du är för närvarande inte inblandat i några kommunikationstrådar."
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr "Tyvärr, har ett fel inträffat. Försök att logga in igen."
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Tom anteckning"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Du visar tråd för {app_name}"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Tillbaka till alla trådar för {app_name}"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "Denna App:s versioner"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Visa äldre"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -225,14 +233,6 @@ msgstr "Fel uppstod när mer skulle laddas"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Försök igen"
-
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Bilaga"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Filbeskrivning"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

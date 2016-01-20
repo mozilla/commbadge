@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-06T22:18:34.598Z\n"
+"POT-Creation-Date: 2016-01-20T19:46:33.590Z\n"
 "PO-Revision-Date: 2014-02-27 19:59+0000\n"
 "Last-Translator: fredchat <fredchat@frenchmozilla.org>\n"
 "Language-Team: français <>\n"
@@ -72,17 +72,17 @@ msgstr "Conditions d'utilisation"
 msgid "Report Trademark Abuse"
 msgstr "Signaler un abus de marque déposée"
 
-#: /templates/login.html:2 /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "Connexion"
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Icône de l'application"
 
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Vous devez vous identifier pour continuer."
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Affichage de toutes les discussion sur {app_name}"
 
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Connexion / Inscription"
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Retour à la page de modification de l'app"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
@@ -96,29 +96,66 @@ msgstr "Déconnexion"
 msgid "Sign In"
 msgstr "Connexion"
 
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "Connexion"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Vous devez vous identifier pour continuer."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Connexion / Inscription"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Pièce jointe"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Description du fichier"
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
 msgid "No notes found"
 msgstr "Aucune note trouvée"
 
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Saisissez le texte de la note ici"
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Mes discussions"
 
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Joindre des captures d'écran et fichiers log&nbsp;:"
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr "Aller au Pôle Développeur"
 
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Joindre un autre fichier"
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr "Vous n'êtes actuellement impliqué dans aucun sujet de communication."
 
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Envoyer"
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr "Une erreur s'est produite. Veuillez vous connecter à nouveau."
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Afficher plus anciens"
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Affichage de la discussion sur {app_name}"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Revenir aux discussions sur {app_name}"
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Note vide"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "Les versions de cette application"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -158,54 +195,25 @@ msgstr "Désinscription"
 msgid "Review"
 msgstr "Révision"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Icône de l'application"
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Saisissez le texte de la note ici"
 
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Affichage de toutes les discussion sur {app_name}"
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Joindre des captures d'écran et fichiers log&nbsp;:"
 
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Retour à la page de modification de l'app"
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Joindre un autre fichier"
 
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Mes discussions"
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Envoyer"
 
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr "Aller au Pôle Développeur"
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr "Vous n'êtes actuellement impliqué dans aucun sujet de communication."
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr "Une erreur s'est produite. Veuillez vous connecter à nouveau."
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Note vide"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Affichage de la discussion sur {app_name}"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Revenir aux discussions sur {app_name}"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "Les versions de cette application"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Afficher plus anciens"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -226,14 +234,6 @@ msgstr "Erreur pendant le chargement"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Réessayez"
-
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Pièce jointe"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Description du fichier"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

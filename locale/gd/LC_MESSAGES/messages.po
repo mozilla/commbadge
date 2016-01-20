@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-06T22:18:34.598Z\n"
+"POT-Creation-Date: 2016-01-20T19:46:33.590Z\n"
 "PO-Revision-Date: 2015-10-17 11:03+0000\n"
 "Last-Translator: Michael <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,17 +71,17 @@ msgstr "Teirmichean a' chleachdaidh"
 msgid "Report Trademark Abuse"
 msgstr "Dèan aithris air mì-chleachdadh comarra-malairt"
 
-#: /templates/login.html:2 /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "Clàraich a-steach"
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr ""
 
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Feumaidh tu clàradh a-steach mus urrainn dhut leantainn air adhart."
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr ""
 
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Clàraich a-steach/Clàraich leinn"
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr ""
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
@@ -95,29 +95,66 @@ msgstr "Clàraich a-mach"
 msgid "Sign In"
 msgstr "Clàraich a-steach"
 
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "Clàraich a-steach"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Feumaidh tu clàradh a-steach mus urrainn dhut leantainn air adhart."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Clàraich a-steach/Clàraich leinn"
+
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr ""
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr ""
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
 msgid "No notes found"
 msgstr ""
 
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Cuir a-steach teacsa an nòta an-seo"
-
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
+#: /templates/comm/main.html:3
+msgid "My Threads"
 msgstr ""
 
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
 msgstr ""
 
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Cuir"
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr ""
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Seall an fheadhainn nas sine"
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr ""
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr ""
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr ""
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr ""
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr ""
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr ""
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -159,54 +196,25 @@ msgstr ""
 msgid "Review"
 msgstr ""
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Cuir a-steach teacsa an nòta an-seo"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
 msgstr ""
 
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
 msgstr ""
 
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr ""
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Cuir"
 
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr ""
-
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr ""
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr ""
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr ""
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr ""
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr ""
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr ""
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr ""
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr ""
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Seall an fheadhainn nas sine"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -227,14 +235,6 @@ msgstr "Thachair mearachd fhad 's a dh'fheuch sinn ri barrachd fiosrachaidh a lu
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Feuch ris a-rithist"
-
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr ""
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr ""
 
 #: /media/js/settings_app.js:24
 msgid "Message"
