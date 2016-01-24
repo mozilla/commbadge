@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-20T19:46:33.590Z\n"
-"PO-Revision-Date: 2016-01-24 01:08+0000\n"
+"PO-Revision-Date: 2016-01-24 10:43+0000\n"
 "Last-Translator: Timothy Aditya Sutantyo <timisutantyo@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: id\n"
@@ -89,15 +89,15 @@ msgstr ""
 
 #: /templates/header.html:7
 msgid "Sign Out"
-msgstr ""
+msgstr "Keluar"
 
 #: /templates/header.html:8
 msgid "Sign In"
-msgstr ""
+msgstr "Masuk"
 
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
-msgstr ""
+msgstr "Masuk"
 
 #: /templates/login.html:3
 msgid "You must sign in to proceed."
@@ -113,12 +113,12 @@ msgstr ""
 
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
-msgstr ""
+msgstr "Penjelasan Berkas"
 
 #: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10
 #: /templates/_macros/thread.html:15
 msgid "No notes found"
-msgstr ""
+msgstr "Tidak ditemukan catatan"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
@@ -146,24 +146,24 @@ msgstr ""
 
 #: /templates/comm/note_detail.html:12
 msgid "Empty note"
-msgstr ""
+msgstr "Catatan kosong"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
-msgstr ""
+msgstr "Versi-versi Aplikasi Ini"
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
-msgstr ""
+msgstr "v.{version_number}"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
-msgstr ""
+msgstr "{app_name} (Version {version_number})"
 
 #: /templates/_macros/thread_header.html:19
 msgid "Deleted App"
-msgstr ""
+msgstr "Aplikasi yang Dihapus"
 
 #: /templates/_macros/thread_header.html:21
 msgid "(Obsolete)"
