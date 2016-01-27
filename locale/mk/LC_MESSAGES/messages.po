@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-20T19:46:33.590Z\n"
+"POT-Creation-Date: 2016-01-27T20:20:57.495Z\n"
 "PO-Revision-Date: 2014-04-05 13:39+0000\n"
 "Last-Translator: Goce <goce.mitevski@gmail.com>\n"
 "Language-Team: none\n"
@@ -13,18 +13,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1396705161.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Затвори"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Не"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Да"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -70,17 +58,17 @@ msgstr "Услови на употреба"
 msgid "Report Trademark Abuse"
 msgstr "Пријавете злоупотреба на трговска марка"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Иконка"
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Затвори"
 
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Преглед на сите нишки за {app_name}"
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Не"
 
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr ""
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Да"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
@@ -94,6 +82,18 @@ msgstr "Одјава"
 msgid "Sign In"
 msgstr "Најава"
 
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr ""
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr ""
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Нема белешки"
+
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
 msgstr "Најавете се"
@@ -106,54 +106,25 @@ msgstr "Морате да се најавите за да продолжите."
 msgid "Sign in / Sign up"
 msgstr "Најава / Регистрација"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Внесете го текстот на белешката овде"
+
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
 msgstr ""
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
 msgstr ""
 
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
-msgid "No notes found"
-msgstr "Нема белешки"
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Испрати"
 
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Мои нишки"
-
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr ""
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr ""
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr ""
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Преглед на нишка за {app_name}"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Назад кон нишките за {app_name}"
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Празна белешка"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr ""
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "в.{version_number}"
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Подредување"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -193,25 +164,54 @@ msgstr ""
 msgid "Review"
 msgstr "Рецензија"
 
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Внесете го текстот на белешката овде"
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Иконка"
 
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Преглед на сите нишки за {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
 msgstr ""
 
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Мои нишки"
+
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
 msgstr ""
 
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Испрати"
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr ""
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Подредување"
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr ""
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Празна белешка"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Преглед на нишка за {app_name}"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Назад кон нишките за {app_name}"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr ""
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "в.{version_number}"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"

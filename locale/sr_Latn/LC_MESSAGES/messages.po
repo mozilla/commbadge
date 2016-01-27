@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-20T19:46:33.590Z\n"
+"POT-Creation-Date: 2016-01-27T20:20:57.495Z\n"
 "PO-Revision-Date: 2015-03-11 06:03+0000\n"
 "Last-Translator: Vanja <tumbas93@gmail.com>\n"
 "Language-Team: none\n"
@@ -15,18 +15,6 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1426053837.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Zatvori"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Ne"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Da"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -76,17 +64,17 @@ msgstr "Uslovi korišćenja"
 msgid "Report Trademark Abuse"
 msgstr "Prijavite zloupotrebu robne marke"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Ikonica aplikacije"
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Zatvori"
 
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Pregled svih tema za {app_name}"
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Ne"
 
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Vrati se na stranicu za uređivanje"
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Da"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
@@ -100,6 +88,19 @@ msgstr "Odjavi se"
 msgid "Sign In"
 msgstr "Prijavi se"
 
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Prilog"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Opis datoteke"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+#: /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Nema pronađenih beleški"
+
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
 msgstr "Prijavi se"
@@ -112,55 +113,25 @@ msgstr "Morate se prijaviti kako biste nastavili dalje."
 msgid "Sign in / Sign up"
 msgstr "Prijavi se / Registruj se"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Prilog"
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Ovde unesite tekst"
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Opis datoteke"
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Zakačite snimak ekrana i dnevnike:"
 
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10
-#: /templates/_macros/thread.html:15
-msgid "No notes found"
-msgstr "Nema pronađenih beleški"
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Zakačite još jednu datoteku"
 
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Moje teme"
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Poruka"
 
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr "Idi na centar za programera"
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr "Trenutno ne učestvujete ni u jednoj komunikacionoj temi."
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr "Izvinjavamo se, došlo je do greške. Pokušajte ponovo pristupiti."
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Gledate temu za {app_name}"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Povratak na sve teme za {app_name}"
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Prazna beleška"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "Verzija ove aplikacije"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Pogledajte starije"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -202,25 +173,54 @@ msgstr "Ukini pretplatu"
 msgid "Review"
 msgstr "Oceni"
 
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Ovde unesite tekst"
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Ikonica aplikacije"
 
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Zakačite snimak ekrana i dnevnike:"
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Pregled svih tema za {app_name}"
 
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Zakačite još jednu datoteku"
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Vrati se na stranicu za uređivanje"
 
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Poruka"
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Moje teme"
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Pogledajte starije"
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr "Idi na centar za programera"
+
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr "Trenutno ne učestvujete ni u jednoj komunikacionoj temi."
+
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr "Izvinjavamo se, došlo je do greške. Pokušajte ponovo pristupiti."
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Prazna beleška"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Gledate temu za {app_name}"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Povratak na sve teme za {app_name}"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "Verzija ove aplikacije"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"

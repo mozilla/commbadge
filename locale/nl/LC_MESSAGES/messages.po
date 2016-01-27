@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-20T19:46:33.590Z\n"
+"POT-Creation-Date: 2016-01-27T20:20:57.495Z\n"
 "PO-Revision-Date: 2015-03-05 12:14+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: none\n"
@@ -13,18 +13,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1425557668.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Sluiten"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Nee"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Ja"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -70,17 +58,17 @@ msgstr "Gebruiksvoorwaarden"
 msgid "Report Trademark Abuse"
 msgstr "Misbruik van handelsmerk melden"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "App-pictogram"
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Sluiten"
 
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Alle conversaties voor {app_name}"
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Nee"
 
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Terug naar app-bewerkingspagina"
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Ja"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
@@ -94,6 +82,18 @@ msgstr "Afmelden"
 msgid "Sign In"
 msgstr "Aanmelden"
 
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Bijlage"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Bestandsbeschrijving"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Geen opmerkingen gevonden"
+
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
 msgstr "Aanmelden"
@@ -106,55 +106,25 @@ msgstr "U moet zich aanmelden om verder te gaan."
 msgid "Sign in / Sign up"
 msgstr "Aanmelden / registreren"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Bijlage"
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Voer hier de tekst in"
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Bestandsbeschrijving"
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Voeg schermafbeeldingen en logbestanden bij:"
 
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
-msgid "No notes found"
-msgstr "Geen opmerkingen gevonden"
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Nog een bestand toevoegen"
 
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Mijn conversaties"
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Plaatsen"
 
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr "Naar Ontwikkelaarshub"
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr "U bent momenteel niet bij enige conversaties betrokken."
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr "Sorry, er is een fout opgetreden. Probeer u opnieuw aan te melden."
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Conversatie voor {app_name}"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Terug naar alle conversaties voor {app_name}"
-
-# Empty als werkwoord of als bijvoeglijk naamwoord? Vooralsnog gekozen voor het laatste.
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Lege opmerking"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "Versies van deze app"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Oudere weergeven"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -195,25 +165,55 @@ msgstr "Uitschrijven"
 msgid "Review"
 msgstr "Beoordelen"
 
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Voer hier de tekst in"
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "App-pictogram"
 
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Voeg schermafbeeldingen en logbestanden bij:"
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Alle conversaties voor {app_name}"
 
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Nog een bestand toevoegen"
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Terug naar app-bewerkingspagina"
 
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Plaatsen"
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Mijn conversaties"
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Oudere weergeven"
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr "Naar Ontwikkelaarshub"
+
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr "U bent momenteel niet bij enige conversaties betrokken."
+
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr "Sorry, er is een fout opgetreden. Probeer u opnieuw aan te melden."
+
+# Empty als werkwoord of als bijvoeglijk naamwoord? Vooralsnog gekozen voor het laatste.
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Lege opmerking"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Conversatie voor {app_name}"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Terug naar alle conversaties voor {app_name}"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "Versies van deze app"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"

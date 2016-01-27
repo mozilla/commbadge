@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-20T19:46:33.590Z\n"
+"POT-Creation-Date: 2016-01-27T20:20:57.495Z\n"
 "PO-Revision-Date: 2015-03-06 08:24+0000\n"
 "Last-Translator: Artem <a.polivanchuk@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,18 +14,6 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1425630246.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Закрити"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Ні"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Так"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -71,17 +59,17 @@ msgstr "Умови використання"
 msgid "Report Trademark Abuse"
 msgstr "Повідомити про зловживання торговою маркою"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Іконка програми"
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Закрити"
 
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Перегляд всіх обговорень для {app_name}"
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Ні"
 
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Повернутися до сторінки редагування програми"
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Так"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
@@ -95,6 +83,18 @@ msgstr "Вийти"
 msgid "Sign In"
 msgstr "Увійти"
 
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Прикріплення"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Опис файлу"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Заміток не знайдено"
+
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
 msgstr "Увійти"
@@ -107,54 +107,25 @@ msgstr "Ви повинні увійти для продовження."
 msgid "Sign in / Sign up"
 msgstr "Вхід / Реєстрація"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Прикріплення"
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Введіть текст замітки тут"
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Опис файлу"
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Прикріпіть знімки екрану і файли журналу:"
 
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
-msgid "No notes found"
-msgstr "Заміток не знайдено"
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Прикріпити інший файл"
 
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Мої обговорення"
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Розмістити"
 
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr "Перейти в центр розробника"
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr "Зараз ви не берете участі в жодних обговореннях."
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr "Шкода, але трапилась помилка. Спробуйте увійти ще раз."
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Перегляд обговорення для {app_name}"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Повернутись до всіх обговорень для {app_name}"
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Пуста замітка"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "Версії цієї програми"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Показати старіші"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -195,25 +166,54 @@ msgstr "Відписатись"
 msgid "Review"
 msgstr "Рецензія"
 
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Введіть текст замітки тут"
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Іконка програми"
 
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Прикріпіть знімки екрану і файли журналу:"
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Перегляд всіх обговорень для {app_name}"
 
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Прикріпити інший файл"
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Повернутися до сторінки редагування програми"
 
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Розмістити"
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Мої обговорення"
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Показати старіші"
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr "Перейти в центр розробника"
+
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr "Зараз ви не берете участі в жодних обговореннях."
+
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr "Шкода, але трапилась помилка. Спробуйте увійти ще раз."
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Пуста замітка"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Перегляд обговорення для {app_name}"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Повернутись до всіх обговорень для {app_name}"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "Версії цієї програми"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"

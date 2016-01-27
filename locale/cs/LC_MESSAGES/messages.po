@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Commbadge\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-20T19:46:33.590Z\n"
+"POT-Creation-Date: 2016-01-27T20:20:57.495Z\n"
 "PO-Revision-Date: 2015-07-05 12:05+0000\n"
 "Last-Translator: Michal <michal.stanke@mikk.cz>\n"
 "Language-Team: Czech <info@mozilla.cz>\n"
@@ -13,18 +13,6 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1436097945.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Zavřít"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Ne"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Ano"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -70,17 +58,17 @@ msgstr "Podmínky použití"
 msgid "Report Trademark Abuse"
 msgstr "Nahlášení zneužití ochranné známky"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Ikona aplikace"
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Zavřít"
 
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Zobrazení všech vláken pro {app_name}"
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Ne"
 
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Zpět na stránku úpravy aplikace"
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Ano"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
@@ -94,6 +82,18 @@ msgstr "Odhlášení"
 msgid "Sign In"
 msgstr "Přihlášení"
 
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Příloha"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Popis souboru"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Nebyly nalezeny žádné poznámky"
+
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
 msgstr "Přihlášení"
@@ -106,54 +106,25 @@ msgstr "Pro pokračování se musíte přihlásit."
 msgid "Sign in / Sign up"
 msgstr "Přihlášení / Registrace"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Příloha"
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Zde vložte text poznámky"
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Popis souboru"
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Nahrajte snímky obrazovky a soubory s logy:"
 
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
-msgid "No notes found"
-msgstr "Nebyly nalezeny žádné poznámky"
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Přiložit další soubor"
 
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Má vlákna"
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Přidat"
 
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr "Přejít na Pro vývojáře"
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr "Aktuálně nejste zapojeni do žádného komunikačního vlákna."
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr "Omlouváme se, ale nastala chyba. Zkuste se znovu přihlásit."
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Zobrazení vlákna pro {app_name}"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Zpět na všechna vlákna pro {app_name}"
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Prázdná poznámka"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "Tyto verze aplikace"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Zobrazit starší"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -194,25 +165,54 @@ msgstr "Zrušit odběr"
 msgid "Review"
 msgstr "Kontrola"
 
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Zde vložte text poznámky"
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Ikona aplikace"
 
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Nahrajte snímky obrazovky a soubory s logy:"
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Zobrazení všech vláken pro {app_name}"
 
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Přiložit další soubor"
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Zpět na stránku úpravy aplikace"
 
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Přidat"
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Má vlákna"
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Zobrazit starší"
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr "Přejít na Pro vývojáře"
+
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr "Aktuálně nejste zapojeni do žádného komunikačního vlákna."
+
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr "Omlouváme se, ale nastala chyba. Zkuste se znovu přihlásit."
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Prázdná poznámka"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Zobrazení vlákna pro {app_name}"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Zpět na všechna vlákna pro {app_name}"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "Tyto verze aplikace"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"

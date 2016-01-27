@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-20T19:46:33.590Z\n"
+"POT-Creation-Date: 2016-01-27T20:20:57.495Z\n"
 "PO-Revision-Date: 2015-05-16 05:41+0000\n"
 "Last-Translator: Biraj <brnet00@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,18 +13,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1431754873.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "বন্ধ করা"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "না"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "হ্যাঁ"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -70,17 +58,17 @@ msgstr "ব্যবহারের শর্তাবলী"
 msgid "Report Trademark Abuse"
 msgstr "ট্রেডমার্ক অপব্যবহার সম্বন্ধে রিপোর্ট"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "অ্যাপ আইকন"
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "বন্ধ করা"
 
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "{app_name} জন্য সকল টপিক দেখছেন"
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "না"
 
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "অ্যাপ সম্পাদনা পৃষ্ঠায়ে ফিরে যান"
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "হ্যাঁ"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
@@ -94,6 +82,18 @@ msgstr "সাইন আউট"
 msgid "Sign In"
 msgstr "সাইন ইন"
 
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "সংযুক্তি"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "ফাইলর বিবরণ"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "কোন নোটা পাওয়া যায়নি"
+
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
 msgstr "সাইন ইন"
@@ -106,54 +106,25 @@ msgstr "আপনাকে এগিয়ে যেতে সাইন ইন �
 msgid "Sign in / Sign up"
 msgstr "সাইন ইন / সাইন আপ করুন"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "সংযুক্তি"
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "এখানে উল্লেেখ্য টেক্সট লিখুন"
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "ফাইলর বিবরণ"
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "স্ক্রিনশট সংযুক্ত করুন এবং লগ ফাইল:"
 
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
-msgid "No notes found"
-msgstr "কোন নোটা পাওয়া যায়নি"
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "আরেকটি ফাইল সংযুক্ত করুন"
 
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "আমার টপিক"
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "পোষ্ট করুন"
 
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr "ডেভেলপার হাবে যান"
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr "আপনি বর্তমানে কোনো কথোপকথন থ্রেডে সংযুক্ত নন।"
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr "দুঃখিত, একটি ত্রুটি ঘটেছে। পুনরায় লগ-ইন করতে চেষ্টা করুন।"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "{অ্যাপ_নেম} জন্য থ্রেড দেখছেন"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "পিছনে {app_name} জন্য সকল টপিক থেকে"
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "খালি নোট"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "এই অ্যাপ এর সংস্করণ"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "দেখুন পুরোনো"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -193,25 +164,54 @@ msgstr "আনসাবস্ক্রাইব"
 msgid "Review"
 msgstr "পর্যালোচনা"
 
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "এখানে উল্লেেখ্য টেক্সট লিখুন"
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "অ্যাপ আইকন"
 
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "স্ক্রিনশট সংযুক্ত করুন এবং লগ ফাইল:"
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "{app_name} জন্য সকল টপিক দেখছেন"
 
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "আরেকটি ফাইল সংযুক্ত করুন"
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "অ্যাপ সম্পাদনা পৃষ্ঠায়ে ফিরে যান"
 
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "পোষ্ট করুন"
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "আমার টপিক"
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "দেখুন পুরোনো"
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr "ডেভেলপার হাবে যান"
+
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr "আপনি বর্তমানে কোনো কথোপকথন থ্রেডে সংযুক্ত নন।"
+
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr "দুঃখিত, একটি ত্রুটি ঘটেছে। পুনরায় লগ-ইন করতে চেষ্টা করুন।"
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "খালি নোট"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "{অ্যাপ_নেম} জন্য থ্রেড দেখছেন"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "পিছনে {app_name} জন্য সকল টপিক থেকে"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "এই অ্যাপ এর সংস্করণ"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"

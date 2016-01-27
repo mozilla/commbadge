@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-20T19:46:33.590Z\n"
+"POT-Creation-Date: 2016-01-27T20:20:57.495Z\n"
 "PO-Revision-Date: 2015-03-11 06:03+0000\n"
 "Last-Translator: Vanja <tumbas93@gmail.com>\n"
 "Language-Team: none\n"
@@ -14,18 +14,6 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1426053837.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Затвори"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Не"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Да"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -71,17 +59,17 @@ msgstr "Услови коришћења"
 msgid "Report Trademark Abuse"
 msgstr "Пријавите злоупотребу робне марке"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Иконица апликације"
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Затвори"
 
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Преглед свих тема за {app_name}"
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Не"
 
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Врати се на страницу за уређивање"
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Да"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
@@ -95,6 +83,18 @@ msgstr "Одјави се"
 msgid "Sign In"
 msgstr "Пријави се"
 
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Прилог"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Опис датотеке"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Нема пронађених белешки"
+
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
 msgstr "Пријави се"
@@ -107,54 +107,25 @@ msgstr "Морате се пријавити како бисте настави�
 msgid "Sign in / Sign up"
 msgstr "Пријави се / Региструј се"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Прилог"
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Овде унесите текст"
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Опис датотеке"
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Закачите снимак екрана и дневнике:"
 
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
-msgid "No notes found"
-msgstr "Нема пронађених белешки"
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Закачите још једну датотеку"
 
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Моје теме"
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Порука"
 
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr "Иди на центар за програмера"
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr "Тренутно не учествујете ни у једној комуникационој теми."
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr "Извињавамо се, дошло је до грешке. Покушајте поново приступити."
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Гледате тему за {app_name}"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Повратак на све теме за {app_name}"
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Празна белешка"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "Верзија ове апликације"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Погледајте старије"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -195,25 +166,54 @@ msgstr "Укини претплату"
 msgid "Review"
 msgstr "Оцени"
 
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Овде унесите текст"
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Иконица апликације"
 
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Закачите снимак екрана и дневнике:"
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Преглед свих тема за {app_name}"
 
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Закачите још једну датотеку"
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Врати се на страницу за уређивање"
 
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Порука"
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Моје теме"
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Погледајте старије"
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr "Иди на центар за програмера"
+
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr "Тренутно не учествујете ни у једној комуникационој теми."
+
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr "Извињавамо се, дошло је до грешке. Покушајте поново приступити."
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Празна белешка"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Гледате тему за {app_name}"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Повратак на све теме за {app_name}"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "Верзија ове апликације"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"

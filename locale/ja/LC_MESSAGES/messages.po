@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-20T19:46:33.590Z\n"
+"POT-Creation-Date: 2016-01-27T20:20:57.495Z\n"
 "PO-Revision-Date: 2015-03-04 12:36-0500\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
@@ -13,18 +13,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "閉じる"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "いいえ"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "はい"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -70,17 +58,17 @@ msgstr "利用規約"
 msgid "Report Trademark Abuse"
 msgstr "商標不正使用報告"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "アプリのアイコン"
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "閉じる"
 
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "{app_name} のすべてのスレッドを表示しています"
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "いいえ"
 
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "アプリ編集ページへ戻る"
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "はい"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
@@ -94,6 +82,18 @@ msgstr "ログアウト"
 msgid "Sign In"
 msgstr "ログイン"
 
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "添付ファイル"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "ファイル説明"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "ノートがが見つかりませんでした"
+
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
 msgstr "ログイン"
@@ -106,54 +106,25 @@ msgstr "続けるにはログインしてください。"
 msgid "Sign in / Sign up"
 msgstr "ログイン / ユーザ登録"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "添付ファイル"
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "投稿内容をここに入力してください"
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "ファイル説明"
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "スクリーンショットとログファイルを添付:"
 
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
-msgid "No notes found"
-msgstr "ノートがが見つかりませんでした"
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "他のファイルを添付"
 
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "自分のスレッド"
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "投稿"
 
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr "開発者センターへ"
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr "あなたはまだどのコミュニケーションスレッドにも参加していません。"
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr "申し訳ありませんが、何か問題が発生しました。再度ログインしてみてください。"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "{app_name} のスレッドを表示しています"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "{app_name} のすべてのスレッドへ戻る"
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "空白のノート"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "このアプリのバージョン"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "以前の記事を表示"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -192,25 +163,54 @@ msgstr "購読解除"
 msgid "Review"
 msgstr "レビュー"
 
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "投稿内容をここに入力してください"
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "アプリのアイコン"
 
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "スクリーンショットとログファイルを添付:"
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "{app_name} のすべてのスレッドを表示しています"
 
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "他のファイルを添付"
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "アプリ編集ページへ戻る"
 
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "投稿"
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "自分のスレッド"
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "以前の記事を表示"
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr "開発者センターへ"
+
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr "あなたはまだどのコミュニケーションスレッドにも参加していません。"
+
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr "申し訳ありませんが、何か問題が発生しました。再度ログインしてみてください。"
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "空白のノート"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "{app_name} のスレッドを表示しています"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "{app_name} のすべてのスレッドへ戻る"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "このアプリのバージョン"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"

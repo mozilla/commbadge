@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-20T19:46:33.590Z\n"
+"POT-Creation-Date: 2016-01-27T20:20:57.495Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -12,18 +12,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Fireplace L10n Tools 1.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Close"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "No"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Yes"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -69,17 +57,17 @@ msgstr "Terms of Use"
 msgid "Report Trademark Abuse"
 msgstr "Report Trademark Abuse"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "App icon"
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Close"
 
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Viewing All Threads for {app_name}"
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "No"
 
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Go back to app edit page"
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Yes"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
@@ -93,6 +81,18 @@ msgstr "Sign Out"
 msgid "Sign In"
 msgstr "Sign In"
 
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Attachment"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "File Description"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "No notes found"
+
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
 msgstr "Sign in"
@@ -105,54 +105,25 @@ msgstr "You must sign in to proceed."
 msgid "Sign in / Sign up"
 msgstr "Sign in / Sign up"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Attachment"
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Enter note text here"
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "File Description"
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Attach screenshots and log files:"
 
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
-msgid "No notes found"
-msgstr "No notes found"
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Attach another file"
 
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "My Threads"
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Post"
 
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr "Go to Developer Hub"
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr "You currently are not involved in any communication threads."
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr "Sorry, an error has occurred. Try logging in again."
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Viewing Thread for {app_name}"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Back to all threads for {app_name}"
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Empty note"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "This App's Versions"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "View older"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -192,25 +163,54 @@ msgstr "Unsubscribe"
 msgid "Review"
 msgstr "Review"
 
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Enter note text here"
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "App icon"
 
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Attach screenshots and log files:"
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Viewing All Threads for {app_name}"
 
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Attach another file"
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Go back to app edit page"
 
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Post"
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "My Threads"
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "View older"
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr "Go to Developer Hub"
+
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr "You currently are not involved in any communication threads."
+
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr "Sorry, an error has occurred. Try logging in again."
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Empty note"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Viewing Thread for {app_name}"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Back to all threads for {app_name}"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "This App's Versions"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"

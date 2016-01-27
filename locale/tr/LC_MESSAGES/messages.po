@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-20T19:46:33.590Z\n"
+"POT-Creation-Date: 2016-01-27T20:20:57.495Z\n"
 "PO-Revision-Date: 2014-10-04 11:07+0000\n"
 "Last-Translator: Selim <selim@sum.lu>\n"
 "Language-Team: none\n"
@@ -13,18 +13,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1412420837.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Kapat"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Hayır"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Evet"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -70,17 +58,17 @@ msgstr "Kullanım Koşulları"
 msgid "Report Trademark Abuse"
 msgstr "Marka ihlali bildir"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Uygulama simgesi"
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Kapat"
 
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "{app_name} için tüm başlıklar gösteriliyor"
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Hayır"
 
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Uygulama düzenleme sayfasına dön"
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Evet"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
@@ -94,6 +82,18 @@ msgstr "Oturumu kapat"
 msgid "Sign In"
 msgstr "Oturum aç"
 
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Ek"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Dosya açıklaması"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Hiç not bulunamadı"
+
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
 msgstr "Oturum aç"
@@ -106,54 +106,25 @@ msgstr "Devam etmek için oturum açmalısınız."
 msgid "Sign in / Sign up"
 msgstr "Oturum aç / kaydol"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Ek"
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Notunuzu buraya yazın"
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Dosya açıklaması"
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Eran görüntülerini ve log dosyalarını ekleyin:"
 
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
-msgid "No notes found"
-msgstr "Hiç not bulunamadı"
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Başka bir dosya ekle"
 
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Başlıklarım"
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Gönder"
 
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr ""
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr ""
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr ""
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "{app_name} başlığı görüntüleniyor"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Tüm {app_name} başlıklarına dön"
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Boş not"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "Bu uygulamanın sürümleri"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Daha eskileri göster"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -192,25 +163,54 @@ msgstr "Abonelikten çık"
 msgid "Review"
 msgstr "İnceleme"
 
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Notunuzu buraya yazın"
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Uygulama simgesi"
 
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Eran görüntülerini ve log dosyalarını ekleyin:"
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "{app_name} için tüm başlıklar gösteriliyor"
 
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Başka bir dosya ekle"
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Uygulama düzenleme sayfasına dön"
 
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Gönder"
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Başlıklarım"
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Daha eskileri göster"
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr ""
+
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr ""
+
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr ""
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Boş not"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "{app_name} başlığı görüntüleniyor"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Tüm {app_name} başlıklarına dön"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "Bu uygulamanın sürümleri"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-20T19:46:33.590Z\n"
+"POT-Creation-Date: 2016-01-27T20:20:57.495Z\n"
 "PO-Revision-Date: 2015-05-14 15:10+0000\n"
 "Last-Translator: Gabor Kelemen <kelemeng@ubuntu.com>\n"
 "Language-Team: none\n"
@@ -14,18 +14,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1431616234.0\n"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Bezárás"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Nem"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Igen"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -71,17 +59,17 @@ msgstr "Felhasználási feltételek"
 msgid "Report Trademark Abuse"
 msgstr "Védjeggyel kapcsolatos visszaélés jelentése"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "App ikon"
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Bezárás"
 
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "{app_name} minden szálának megjelenítése"
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Nem"
 
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Vissza az app szerkesztés oldalra"
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Igen"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
@@ -95,6 +83,18 @@ msgstr "Kijelentkezés"
 msgid "Sign In"
 msgstr "Bejelentkezés"
 
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Melléklet"
+
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Fájl leírása"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Nincsenek jegyzetek"
+
 #: /templates/login.html:2 /media/js/views/login.js:12
 msgid "Sign in"
 msgstr "Bejelentkezés"
@@ -107,54 +107,25 @@ msgstr "Be kell jelentkeznie a folytatáshoz."
 msgid "Sign in / Sign up"
 msgstr "Bejelentkezés/regisztráció"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Melléklet"
+#: /templates/_macros/reply_box.html:2
+msgid "Enter note text here"
+msgstr "Írja ide a jegyzet szövegét"
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Fájl leírása"
+#: /templates/_macros/reply_box.html:6
+msgid "Attach screenshots and log files:"
+msgstr "Mellékletek és naplófájlok csatolása:"
 
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
-msgid "No notes found"
-msgstr "Nincsenek jegyzetek"
+#: /templates/_macros/reply_box.html:8
+msgid "Attach another file"
+msgstr "Másik fájl csatolása"
 
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Szálaim"
+#: /templates/_macros/reply_box.html:13
+msgid "Post"
+msgstr "Küldés"
 
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr "Tovább a Fejlesztői központba"
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr "Jelenleg nem tagja egyetlen kommunikációs szálnak sem."
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr "Elnézést, hiba történt. Próbáljon meg bejelentkezni újra."
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "{app_name} szálának megjelenítése"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Vissza {app_name} összes szálához"
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Üres jegyzet"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "Az app verziói"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Régebbi megjelenítése"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -194,25 +165,54 @@ msgstr "Leiratkozás"
 msgid "Review"
 msgstr "Jóváhagyás"
 
-#: /templates/_macros/reply_box.html:2
-msgid "Enter note text here"
-msgstr "Írja ide a jegyzet szövegét"
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "App ikon"
 
-#: /templates/_macros/reply_box.html:6
-msgid "Attach screenshots and log files:"
-msgstr "Mellékletek és naplófájlok csatolása:"
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "{app_name} minden szálának megjelenítése"
 
-#: /templates/_macros/reply_box.html:8
-msgid "Attach another file"
-msgstr "Másik fájl csatolása"
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Vissza az app szerkesztés oldalra"
 
-#: /templates/_macros/reply_box.html:13
-msgid "Post"
-msgstr "Küldés"
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Szálaim"
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Régebbi megjelenítése"
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr "Tovább a Fejlesztői központba"
+
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr "Jelenleg nem tagja egyetlen kommunikációs szálnak sem."
+
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr "Elnézést, hiba történt. Próbáljon meg bejelentkezni újra."
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Üres jegyzet"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "{app_name} szálának megjelenítése"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Vissza {app_name} összes szálához"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "Az app verziói"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
