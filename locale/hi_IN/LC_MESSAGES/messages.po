@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-27T20:20:57.495Z\n"
+"POT-Creation-Date: 2016-02-03T23:23:29.378Z\n"
 "PO-Revision-Date: 2015-03-22 15:33+0000\n"
 "Last-Translator: Chandan <cbaba20@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,6 +13,18 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1427038439.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "बंद करे"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "नहीं"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "हाँ"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -58,17 +70,17 @@ msgstr "उपयोग की शर्तों"
 msgid "Report Trademark Abuse"
 msgstr "ट्रेडमार्क दुरुपयोग रिपोर्ट करें"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "बंद करे"
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "साइन इन"
 
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "नहीं"
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "आगे बढ़ना के लियें साइन इन करना होगा."
 
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "हाँ"
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "साइन इन / साइन अप"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
@@ -82,6 +94,22 @@ msgstr "साइन आउट"
 msgid "Sign In"
 msgstr "साइन इन"
 
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "मेरे थ्रेड्स"
+
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr "डेवलपर केंद्र जाएँ"
+
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr "आप अभी किसी संपर्क सूची से नही जुड़ें हैं"
+
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr "त्रुटी के लिए माफ़ कीजिए.दुबारा लॉग इन की कोशिश करें "
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr "अनुलग्नक"
@@ -90,21 +118,33 @@ msgstr "अनुलग्नक"
 msgid "File Description"
 msgstr "फाइल विवरण"
 
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "एप्प्स आइकन"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "{app_name} के लिए सभी थ्रेड देख रहा है"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "एप्लिकेशन संपादित पेज पर वापस जाएँ"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "{app_name} के लिए थ्रेड देख रहा है"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "{app_name} के लिए सभी थ्रेड वापस"
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "खाली नोट"
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
 msgid "No notes found"
 msgstr "कोई नोट्स नहीं पाया गया"
-
-#: /templates/login.html:2 /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "साइन इन"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "आगे बढ़ना के लियें साइन इन करना होगा."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "साइन इन / साइन अप"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -121,6 +161,15 @@ msgstr "एक और फाइल संलग्न करें"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "पोस्ट करें"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "इस एप्लिकेशन के संस्करण"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
 
 #: /templates/_macros/thread.html:20
 msgid "View older"
@@ -164,55 +213,6 @@ msgstr "सदस्यता रद्द"
 msgid "Review"
 msgstr "समीक्षा"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "एप्प्स आइकन"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "{app_name} के लिए सभी थ्रेड देख रहा है"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "एप्लिकेशन संपादित पेज पर वापस जाएँ"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "मेरे थ्रेड्स"
-
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr "डेवलपर केंद्र जाएँ"
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr "आप अभी किसी संपर्क सूची से नही जुड़ें हैं"
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr "त्रुटी के लिए माफ़ कीजिए.दुबारा लॉग इन की कोशिश करें "
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "खाली नोट"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "{app_name} के लिए थ्रेड देख रहा है"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "{app_name} के लिए सभी थ्रेड वापस"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "इस एप्लिकेशन के संस्करण"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
-
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "अरे नहीं!"
@@ -221,10 +221,6 @@ msgstr "अरे नहीं!"
 msgid "The page you were looking for was not found."
 msgstr "आप जो पृष्ठ देख रहे थे वह नहीं मिला था."
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "एक त्रुटि उत्पन्न हुई."
-
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "अधिक लोड करने में त्रुटि"
@@ -232,6 +228,10 @@ msgstr "अधिक लोड करने में त्रुटि"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "पुन: प्रयास करें"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "एक त्रुटि उत्पन्न हुई."
 
 #: /media/js/settings_app.js:24
 msgid "Message"

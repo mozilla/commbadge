@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-27T20:20:57.495Z\n"
+"POT-Creation-Date: 2016-02-03T23:23:29.378Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,6 +14,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != 11) ? 2 : 3;\n"
 "X-Generator: Pontoon\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr ""
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr ""
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr ""
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -57,16 +69,16 @@ msgstr ""
 msgid "Report Trademark Abuse"
 msgstr ""
 
-#: /templates/confirmation.html:0
-msgid "Close"
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
 msgstr ""
 
-#: /templates/confirmation.html:3
-msgid "No"
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
 msgstr ""
 
-#: /templates/confirmation.html:4
-msgid "Yes"
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
 msgstr ""
 
 #: /templates/header.html:2
@@ -81,6 +93,22 @@ msgstr ""
 msgid "Sign In"
 msgstr ""
 
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr ""
+
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr ""
+
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr ""
+
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr ""
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr ""
@@ -89,20 +117,32 @@ msgstr ""
 msgid "File Description"
 msgstr ""
 
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr ""
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr ""
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr ""
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr ""
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr ""
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr ""
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
 msgid "No notes found"
-msgstr ""
-
-#: /templates/login.html:2 /media/js/views/login.js:12
-msgid "Sign in"
-msgstr ""
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr ""
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
 msgstr ""
 
 #: /templates/_macros/reply_box.html:2
@@ -119,6 +159,15 @@ msgstr ""
 
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
+msgstr ""
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr ""
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
 msgstr ""
 
 #: /templates/_macros/thread.html:20
@@ -165,55 +214,6 @@ msgstr ""
 msgid "Review"
 msgstr ""
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr ""
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr ""
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr ""
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr ""
-
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr ""
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr ""
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr ""
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr ""
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr ""
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr ""
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr ""
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr ""
-
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr ""
@@ -222,16 +222,16 @@ msgstr ""
 msgid "The page you were looking for was not found."
 msgstr ""
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr ""
-
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr ""
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
+msgstr ""
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
 msgstr ""
 
 #: /media/js/settings_app.js:24

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-27T20:20:57.495Z\n"
+"POT-Creation-Date: 2016-02-03T23:23:29.378Z\n"
 "PO-Revision-Date: 2015-10-16 19:03+0000\n"
 "Last-Translator: milupo <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,6 +14,18 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1425506954.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Začinić"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Ně"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Haj"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -59,17 +71,17 @@ msgstr "Wužiwanske wuměnjenja"
 msgid "Report Trademark Abuse"
 msgstr "Znjewužiwanje wikowanskeho znamjenja zdźělić"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Začinić"
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "Přizjewić"
 
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Ně"
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Dyrbiće so přizjewić, zo byšće pokročował."
 
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Haj"
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Přizjewić / Registrować"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
@@ -83,6 +95,22 @@ msgstr "Wotzjewić"
 msgid "Sign In"
 msgstr "Přizjewić"
 
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Moje nitki"
+
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr "K wuwiwarskemu centrumej"
+
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr "Tuchwilu njejsće na komunikaciskich nitkach wobdźěleny."
+
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr "Bohužel je zmylk wustupił. Spytajće so hišće raz přizjewić."
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr "Přiwěšk"
@@ -91,21 +119,33 @@ msgstr "Přiwěšk"
 msgid "File Description"
 msgstr "Datajowe wopisanje"
 
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Nałoženski symbol"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Wšě nitka za {app_name} so zwobraznjeja"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Wróćo k wobdźěłowanskej stronje nałoženja"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Nitka za {app_name} so zwobraznja"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Wróćo ke wšěm nitkam za {app_name}"
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Prózdnja notica"
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
 msgid "No notes found"
 msgstr "Žane noticy namakane"
-
-#: /templates/login.html:2 /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "Přizjewić"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Dyrbiće so přizjewić, zo byšće pokročował."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Přizjewić / Registrować"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -122,6 +162,15 @@ msgstr "Dalšu dataju připowěsnyć"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "Wotpósłać"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "Wersije tutoho nałoženja"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v {version_number}"
 
 #: /templates/_macros/thread.html:20
 msgid "View older"
@@ -167,55 +216,6 @@ msgstr "Wotskazać"
 msgid "Review"
 msgstr "Přepruwować"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Nałoženski symbol"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Wšě nitka za {app_name} so zwobraznjeja"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Wróćo k wobdźěłowanskej stronje nałoženja"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Moje nitki"
-
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr "K wuwiwarskemu centrumej"
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr "Tuchwilu njejsće na komunikaciskich nitkach wobdźěleny."
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr "Bohužel je zmylk wustupił. Spytajće so hišće raz přizjewić."
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Prózdnja notica"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Nitka za {app_name} so zwobraznja"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Wróćo ke wšěm nitkam za {app_name}"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "Wersije tutoho nałoženja"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v {version_number}"
-
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "Ow ně!"
@@ -224,10 +224,6 @@ msgstr "Ow ně!"
 msgid "The page you were looking for was not found."
 msgstr "Strona, kotruž pytaće, njeje so namakała."
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Zmylk je wustupił."
-
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Zmylk při začitowanju dalšich informacijow"
@@ -235,6 +231,10 @@ msgstr "Zmylk při začitowanju dalšich informacijow"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Hišće raz spytać"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Zmylk je wustupił."
 
 #: /media/js/settings_app.js:24
 msgid "Message"

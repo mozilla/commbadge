@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-27T20:20:57.495Z\n"
+"POT-Creation-Date: 2016-02-03T23:23:29.378Z\n"
 "PO-Revision-Date: 2015-05-14 15:10+0000\n"
 "Last-Translator: Gabor Kelemen <kelemeng@ubuntu.com>\n"
 "Language-Team: none\n"
@@ -14,6 +14,18 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1431616234.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Bezárás"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Nem"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Igen"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -59,17 +71,17 @@ msgstr "Felhasználási feltételek"
 msgid "Report Trademark Abuse"
 msgstr "Védjeggyel kapcsolatos visszaélés jelentése"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Bezárás"
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "Bejelentkezés"
 
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Nem"
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Be kell jelentkeznie a folytatáshoz."
 
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Igen"
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Bejelentkezés/regisztráció"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
@@ -83,6 +95,22 @@ msgstr "Kijelentkezés"
 msgid "Sign In"
 msgstr "Bejelentkezés"
 
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Szálaim"
+
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr "Tovább a Fejlesztői központba"
+
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr "Jelenleg nem tagja egyetlen kommunikációs szálnak sem."
+
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr "Elnézést, hiba történt. Próbáljon meg bejelentkezni újra."
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr "Melléklet"
@@ -91,21 +119,33 @@ msgstr "Melléklet"
 msgid "File Description"
 msgstr "Fájl leírása"
 
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "App ikon"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "{app_name} minden szálának megjelenítése"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Vissza az app szerkesztés oldalra"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "{app_name} szálának megjelenítése"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Vissza {app_name} összes szálához"
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Üres jegyzet"
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
 msgid "No notes found"
 msgstr "Nincsenek jegyzetek"
-
-#: /templates/login.html:2 /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "Bejelentkezés"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Be kell jelentkeznie a folytatáshoz."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Bejelentkezés/regisztráció"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -122,6 +162,15 @@ msgstr "Másik fájl csatolása"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "Küldés"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "Az app verziói"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
 
 #: /templates/_macros/thread.html:20
 msgid "View older"
@@ -165,55 +214,6 @@ msgstr "Leiratkozás"
 msgid "Review"
 msgstr "Jóváhagyás"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "App ikon"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "{app_name} minden szálának megjelenítése"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Vissza az app szerkesztés oldalra"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Szálaim"
-
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr "Tovább a Fejlesztői központba"
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr "Jelenleg nem tagja egyetlen kommunikációs szálnak sem."
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr "Elnézést, hiba történt. Próbáljon meg bejelentkezni újra."
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Üres jegyzet"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "{app_name} szálának megjelenítése"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Vissza {app_name} összes szálához"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "Az app verziói"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
-
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "Na ne!"
@@ -222,10 +222,6 @@ msgstr "Na ne!"
 msgid "The page you were looking for was not found."
 msgstr "A keresett oldal nem található."
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Hiba történt."
-
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Hiba továbbiak betöltésekor"
@@ -233,6 +229,10 @@ msgstr "Hiba továbbiak betöltésekor"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Próbálja újra"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Hiba történt."
 
 #: /media/js/settings_app.js:24
 msgid "Message"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CommBadge\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-27T20:20:57.495Z\n"
+"POT-Creation-Date: 2016-02-03T23:23:29.378Z\n"
 "PO-Revision-Date: 2015-03-08 04:51+0000\n"
 "Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
 "Language-Team: pt_PT\n"
@@ -14,6 +14,18 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1425790282.0\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Fechar"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Não"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Sim"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -59,17 +71,17 @@ msgstr "Termos de utilização"
 msgid "Report Trademark Abuse"
 msgstr "Denunciar abuso de marca registada"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Fechar"
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "Iniciar sessão"
 
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Não"
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Deve iniciar sessão para continuar."
 
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Sim"
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Iniciar sessão / Criar conta"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
@@ -83,6 +95,22 @@ msgstr "Terminar sessão"
 msgid "Sign In"
 msgstr "Iniciar sessão"
 
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Os meus tópicos"
+
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr "Ir para a central do programador"
+
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr "Não está envolvido em qualquer tópico de comunicação."
+
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr "Lamentamos, mas ocorreu um erro. Tente iniciar sessão novamente."
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr "Anexo"
@@ -91,21 +119,33 @@ msgstr "Anexo"
 msgid "File Description"
 msgstr "Descrição do ficheiro"
 
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Ícone da aplicação"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Ver todos os tópicos para {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Voltar à página de edição da aplicação"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "A ver o tópico para {app_name}"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Voltar a todos os tópicos para {app_name}"
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Nota vazia"
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
 msgid "No notes found"
 msgstr "Não foram encontradas notas"
-
-#: /templates/login.html:2 /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "Iniciar sessão"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Deve iniciar sessão para continuar."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Iniciar sessão / Criar conta"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -122,6 +162,15 @@ msgstr "Anexar outro ficheiro"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "Artigo"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "Versões desta aplicação"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
 
 #: /templates/_macros/thread.html:20
 msgid "View older"
@@ -165,55 +214,6 @@ msgstr "Anular subscrição"
 msgid "Review"
 msgstr "Análise"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Ícone da aplicação"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Ver todos os tópicos para {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Voltar à página de edição da aplicação"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Os meus tópicos"
-
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr "Ir para a central do programador"
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr "Não está envolvido em qualquer tópico de comunicação."
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr "Lamentamos, mas ocorreu um erro. Tente iniciar sessão novamente."
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Nota vazia"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "A ver o tópico para {app_name}"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Voltar a todos os tópicos para {app_name}"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "Versões desta aplicação"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
-
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "Oh não!"
@@ -222,10 +222,6 @@ msgstr "Oh não!"
 msgid "The page you were looking for was not found."
 msgstr "A página que procurava não foi encontrada."
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Ocorreu um erro."
-
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Erro ao carregar mais"
@@ -233,6 +229,10 @@ msgstr "Erro ao carregar mais"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Tentar novamente"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Ocorreu um erro."
 
 #: /media/js/settings_app.js:24
 msgid "Message"

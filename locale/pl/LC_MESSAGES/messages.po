@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-27T20:20:57.495Z\n"
+"POT-Creation-Date: 2016-02-03T23:23:29.378Z\n"
 "PO-Revision-Date: 2015-03-09 13:32+0100\n"
 "Last-Translator: Wojciech Szczęsny\n"
 "Language-Team: Polish <team@aviary.pl>\n"
@@ -13,6 +13,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.4\n"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Zamknij"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Tak"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Nie"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -58,17 +70,17 @@ msgstr "Warunki korzystania"
 msgid "Report Trademark Abuse"
 msgstr "Nadużycie znaku towarowego"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Zamknij"
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "Zaloguj się"
 
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Tak"
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Musisz zalogować się, aby kontynuować."
 
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Nie"
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Logowanie / Rejestracja"
 
 #: /templates/header.html:2
 msgid "Communication Dashboard"
@@ -82,6 +94,22 @@ msgstr "Wyloguj"
 msgid "Sign In"
 msgstr "Zaloguj"
 
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Moje wątki"
+
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr "Przejdź do strefy autora"
+
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr "Obecnie nie bierzesz udziału w żadnych wątkach."
+
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr "Przepraszamy, wystąpił błąd. Spróbuj zalogować się ponownie."
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr "Załącznik"
@@ -90,21 +118,33 @@ msgstr "Załącznik"
 msgid "File Description"
 msgstr "Opis pliku"
 
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Ikona aplikacji"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Przeglądanie wszystkich wątków dla: {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Wróć do strony edytowania aplikacji"
+
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Przeglądanie wątku dla: {app_name}"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Wróć do wszystkich wątków dla: {app_name}"
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Pusta notatka"
+
+#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
 msgid "No notes found"
 msgstr "Nie znaleziono notatek"
-
-#: /templates/login.html:2 /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "Zaloguj się"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Musisz zalogować się, aby kontynuować."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Logowanie / Rejestracja"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -121,6 +161,15 @@ msgstr "Załącz kolejny plik"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "Wpis"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "Wersje tej aplikacji"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
 
 #: /templates/_macros/thread.html:20
 msgid "View older"
@@ -165,55 +214,6 @@ msgstr "Anuluj subskrypcję"
 msgid "Review"
 msgstr "Sprawdzenie"
 
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Ikona aplikacji"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Przeglądanie wszystkich wątków dla: {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Wróć do strony edytowania aplikacji"
-
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Moje wątki"
-
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr "Przejdź do strefy autora"
-
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr "Obecnie nie bierzesz udziału w żadnych wątkach."
-
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr "Przepraszamy, wystąpił błąd. Spróbuj zalogować się ponownie."
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Pusta notatka"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Przeglądanie wątku dla: {app_name}"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Wróć do wszystkich wątków dla: {app_name}"
-
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "Wersje tej aplikacji"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
-
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "O nie!"
@@ -222,10 +222,6 @@ msgstr "O nie!"
 msgid "The page you were looking for was not found."
 msgstr "Nie znaleziono poszukiwanej strony."
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Wystąpił błąd."
-
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Nie udało się pobrać więcej"
@@ -233,6 +229,10 @@ msgstr "Nie udało się pobrać więcej"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Spróbuj ponownie"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Wystąpił błąd."
 
 #: /media/js/settings_app.js:24
 msgid "Message"
