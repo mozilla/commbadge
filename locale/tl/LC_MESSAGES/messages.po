@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-03T23:23:29.378Z\n"
+"POT-Creation-Date: 2016-02-10T17:13:10.671Z\n"
 "PO-Revision-Date: 2015-04-29 10:00+0000\n"
 "Last-Translator: RoseShaneGil <lopez.rsg@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -68,18 +68,6 @@ msgstr "Mga Tuntunin sa Paggamit"
 msgid "Report Trademark Abuse"
 msgstr "I-report ang Pang-aabuso sa Trademark"
 
-#: /templates/login.html:2 /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "Sign in"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Kailangan mong mag-sign in para magpatuloy."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Sign in / Sign up"
-
 #: /templates/header.html:2
 msgid "Communication Dashboard"
 msgstr "Communication Dashboard"
@@ -92,55 +80,19 @@ msgstr "Sign Out"
 msgid "Sign In"
 msgstr "Sign In"
 
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Ang Aking mga Threads"
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "Sign in"
 
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr "Magtungo sa Developer Hub"
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Kailangan mong mag-sign in para magpatuloy."
 
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr "Sa kasalukuyan, ikaw ay hindi kasali sa anumang threads na pangkuminikasyon."
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Sign in / Sign up"
 
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr "Ipagpaumanhin, may error na nagganap. Subukang maglogin muli."
-
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Attachment"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Deskripsyon ng File"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "App icon"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr ""
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr ""
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr ""
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr ""
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Walang laman na talaan"
-
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "Walang talaan na makita"
 
@@ -160,18 +112,13 @@ msgstr "Mag-attach ng isa pang file"
 msgid "Post"
 msgstr "Ipaskil"
 
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr ""
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Attachment"
 
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr ""
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Tingnan ang mas luma"
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Deskripsyon ng File"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -211,6 +158,51 @@ msgstr "Mag-unsubscribe"
 msgid "Review"
 msgstr "Suriin"
 
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Tingnan ang mas luma"
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Walang laman na talaan"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "App icon"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr ""
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr ""
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Ang Aking mga Threads"
+
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr "Magtungo sa Developer Hub"
+
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr "Sa kasalukuyan, ikaw ay hindi kasali sa anumang threads na pangkuminikasyon."
+
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr "Ipagpaumanhin, may error na nagganap. Subukang maglogin muli."
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr ""
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr ""
+
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "Naku!"
@@ -219,6 +211,18 @@ msgstr "Naku!"
 msgid "The page you were looking for was not found."
 msgstr "Ang pahina na iyong hinahanap ay hindi makita."
 
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr ""
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr ""
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr ""
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr ""
@@ -226,10 +230,6 @@ msgstr ""
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Subukan Muli"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr ""
 
 #: /media/js/settings_app.js:24
 msgid "Message"

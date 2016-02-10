@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Fireplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-03T23:23:29.378Z\n"
+"POT-Creation-Date: 2016-02-10T17:13:10.671Z\n"
 "PO-Revision-Date: 2014-02-27 19:59+0000\n"
 "Last-Translator: fredchat <fredchat@frenchmozilla.org>\n"
 "Language-Team: français <>\n"
@@ -72,18 +72,6 @@ msgstr "Conditions d'utilisation"
 msgid "Report Trademark Abuse"
 msgstr "Signaler un abus de marque déposée"
 
-#: /templates/login.html:2 /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "Connexion"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Vous devez vous identifier pour continuer."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Connexion / Inscription"
-
 #: /templates/header.html:2
 msgid "Communication Dashboard"
 msgstr "Tableau de bord de communication"
@@ -96,55 +84,19 @@ msgstr "Déconnexion"
 msgid "Sign In"
 msgstr "Connexion"
 
-#: /templates/comm/main.html:3
-msgid "My Threads"
-msgstr "Mes discussions"
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "Connexion"
 
-#: /templates/comm/main.html:4
-msgid "Go to Developer Hub"
-msgstr "Aller au Pôle Développeur"
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Vous devez vous identifier pour continuer."
 
-#: /templates/comm/main.html:14
-msgid "You currently are not involved in any communication threads."
-msgstr "Vous n'êtes actuellement impliqué dans aucun sujet de communication."
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Connexion / Inscription"
 
-#: /templates/comm/main.html:16
-msgid "Sorry, an error has occurred. Try logging in again."
-msgstr "Une erreur s'est produite. Veuillez vous connecter à nouveau."
-
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Pièce jointe"
-
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Description du fichier"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Icône de l'application"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Affichage de toutes les discussion sur {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Retour à la page de modification de l'app"
-
-#: /templates/comm/show_thread.html:7
-msgid "Viewing Thread for {app_name}"
-msgstr "Affichage de la discussion sur {app_name}"
-
-#: /templates/comm/show_thread.html:10
-msgid "Back to all threads for {app_name}"
-msgstr "Revenir aux discussions sur {app_name}"
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Note vide"
-
-#: /templates/comm/no_notes.html:1 /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "Aucune note trouvée"
 
@@ -164,18 +116,13 @@ msgstr "Joindre un autre fichier"
 msgid "Post"
 msgstr "Envoyer"
 
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "Les versions de cette application"
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Pièce jointe"
 
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Afficher plus anciens"
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Description du fichier"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -215,6 +162,51 @@ msgstr "Désinscription"
 msgid "Review"
 msgstr "Révision"
 
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Afficher plus anciens"
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Note vide"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Icône de l'application"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Affichage de toutes les discussion sur {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Retour à la page de modification de l'app"
+
+#: /templates/comm/main.html:3
+msgid "My Threads"
+msgstr "Mes discussions"
+
+#: /templates/comm/main.html:4
+msgid "Go to Developer Hub"
+msgstr "Aller au Pôle Développeur"
+
+#: /templates/comm/main.html:14
+msgid "You currently are not involved in any communication threads."
+msgstr "Vous n'êtes actuellement impliqué dans aucun sujet de communication."
+
+#: /templates/comm/main.html:16
+msgid "Sorry, an error has occurred. Try logging in again."
+msgstr "Une erreur s'est produite. Veuillez vous connecter à nouveau."
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "Les versions de cette application"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
+
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "Oh non !"
@@ -223,6 +215,18 @@ msgstr "Oh non !"
 msgid "The page you were looking for was not found."
 msgstr "La page que vous avez demandé n'a pas été trouvée."
 
+#: /templates/comm/show_thread.html:7
+msgid "Viewing Thread for {app_name}"
+msgstr "Affichage de la discussion sur {app_name}"
+
+#: /templates/comm/show_thread.html:10
+msgid "Back to all threads for {app_name}"
+msgstr "Revenir aux discussions sur {app_name}"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Une erreur est survenue."
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Erreur pendant le chargement"
@@ -230,10 +234,6 @@ msgstr "Erreur pendant le chargement"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Réessayez"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Une erreur est survenue."
 
 #: /media/js/settings_app.js:24
 msgid "Message"
