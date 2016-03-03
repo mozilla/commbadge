@@ -8,7 +8,7 @@
   </div>
   <div class="note-body">
     {% if note.body %}
-      {{ note.body|nl2br|e }}
+      {{ note.body|e|nl2br }}
     {% else %}
       <span class="empty">{{ _('Empty note') }}</span>
     {% endif %}
