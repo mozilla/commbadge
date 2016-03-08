@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-10T17:13:10.671Z\n"
-"PO-Revision-Date: 2015-10-17 11:03+0000\n"
-"Last-Translator: Michael <fios@akerbeltz.org>\n"
+"PO-Revision-Date: 2016-03-08 18:12+0000\n"
+"Last-Translator: GunChleoc <fios@foramnagaidhlig.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gd\n"
 "MIME-Version: 1.0\n"
@@ -53,11 +53,15 @@ msgstr "An t-inneal luirg"
 
 #: /templates/footer.html:24
 msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, "
+"content on this site is licensed under the <a href=\"{cc_url}\" "
+"target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> "
+"or any later version."
 msgstr ""
-"Mur eil an caochladh 'ga innse <a href=\"{legal_url}\" target=\"_blank\">noted</a>, tha an t-susbaint air an làrach seo fo <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> no tionndadh sam bith nas ùire."
+"Mur eil an caochladh 'ga innse <a href=\"{legal_url}\" "
+"target=\"_blank\">noted</a>, tha an t-susbaint air an làrach seo fo <a "
+"href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike"
+" License v3.0</a> no tionndadh sam bith nas ùire."
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
@@ -95,9 +99,10 @@ msgstr "Feumaidh tu clàradh a-steach mus urrainn dhut leantainn air adhart."
 msgid "Sign in / Sign up"
 msgstr "Clàraich a-steach/Clàraich leinn"
 
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
+#: /templates/comm/no_notes.html:1
 msgid "No notes found"
-msgstr ""
+msgstr "Cha deach nòta a lorg"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -105,11 +110,11 @@ msgstr "Cuir a-steach teacsa an nòta an-seo"
 
 #: /templates/_macros/reply_box.html:6
 msgid "Attach screenshots and log files:"
-msgstr ""
+msgstr "Ceangail glacaidhean-sgrìn is faidhlichean loga ris:"
 
 #: /templates/_macros/reply_box.html:8
 msgid "Attach another file"
-msgstr ""
+msgstr "Ceangail faidhle eile ris"
 
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
@@ -117,23 +122,23 @@ msgstr "Cuir"
 
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
-msgstr ""
+msgstr "Ceanglachan"
 
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
-msgstr ""
+msgstr "Tuairisgeul an fhaidhle"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
-msgstr ""
+msgstr "{app_name} (Tionndadh {version_number})"
 
 #: /templates/_macros/thread_header.html:19
 msgid "Deleted App"
-msgstr ""
+msgstr "Aplacaid air a sguabadh às"
 
 #: /templates/_macros/thread_header.html:21
 msgid "(Obsolete)"
-msgstr ""
+msgstr "(O fheum)"
 
 #: /templates/_macros/thread_header.html:27 /media/js/views/comm.js:60
 msgid "{n} note"
@@ -143,7 +148,8 @@ msgstr[1] "{0} nòta"
 msgstr[2] "{0} nòtaichean"
 msgstr[3] "{0} nòta"
 
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83
+#: /media/js/views/comm.js:155
 msgid "Reply"
 msgstr "Freagair"
 
@@ -153,15 +159,15 @@ msgstr "O chionn goirid"
 
 #: /templates/_macros/thread_header.html:43
 msgid "View App"
-msgstr ""
+msgstr "Seall an aplacaid"
 
 #: /templates/_macros/thread_header.html:47
 msgid "Unsubscribe"
-msgstr ""
+msgstr "Sguir dhen fho-sgrìobhadh"
 
 #: /templates/_macros/thread_header.html:50
 msgid "Review"
-msgstr ""
+msgstr "Lèirmheas"
 
 #: /templates/_macros/thread.html:20
 msgid "View older"
@@ -169,23 +175,23 @@ msgstr "Seall an fheadhainn nas sine"
 
 #: /templates/comm/note_detail.html:12
 msgid "Empty note"
-msgstr ""
+msgstr "Nòta bàn"
 
 #: /templates/comm/app_dashboard.html:6
 msgid "App icon"
-msgstr ""
+msgstr "Ìomhaigheag na h-aplacaid"
 
 #: /templates/comm/app_dashboard.html:7
 msgid "Viewing All Threads for {app_name}"
-msgstr ""
+msgstr "A’ sealltainn gach cuspair airson {app_name}"
 
 #: /templates/comm/app_dashboard.html:10
 msgid "Go back to app edit page"
-msgstr ""
+msgstr "Till dhan aplacaid gus an duilleag a dheasachadh"
 
 #: /templates/comm/main.html:3
 msgid "My Threads"
-msgstr ""
+msgstr "Na cuspairean agam"
 
 #: /templates/comm/main.html:4
 msgid "Go to Developer Hub"
@@ -193,20 +199,21 @@ msgstr ""
 
 #: /templates/comm/main.html:14
 msgid "You currently are not involved in any communication threads."
-msgstr ""
+msgstr "Chan eil thu an sàs ann an cuspair conaltraidh sam bith an-dràsta."
 
 #: /templates/comm/main.html:16
 msgid "Sorry, an error has occurred. Try logging in again."
 msgstr ""
+"Duilich ach thachair mearachd. Feuch an clàraich thu a-steach a-rithist."
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
-msgstr ""
+msgstr "Tionndaidhean dhen aplacaid seo"
 
 #. the `v` commonly denotes 'version.'
 #: /templates/comm/threads_nav.html:7
 msgid "v.{version_number}"
-msgstr ""
+msgstr "t.{version_number}"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -218,11 +225,11 @@ msgstr "Cha b' urrainn dhuinn an duilleag a bha a dhìth ort a lorg."
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
-msgstr ""
+msgstr "A’ sealltainn an cuspair air {app_name}"
 
 #: /templates/comm/show_thread.html:10
 msgid "Back to all threads for {app_name}"
-msgstr ""
+msgstr "Till dhan a h-uile cuspair air {app_name}"
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
@@ -230,7 +237,9 @@ msgstr "Thachair mearachd."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
-msgstr "Thachair mearachd fhad 's a dh'fheuch sinn ri barrachd fiosrachaidh a luchdadh"
+msgstr ""
+"Thachair mearachd fhad 's a dh'fheuch sinn ri barrachd fiosrachaidh a "
+"luchdadh"
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
@@ -238,19 +247,19 @@ msgstr "Feuch ris a-rithist"
 
 #: /media/js/settings_app.js:24
 msgid "Message"
-msgstr ""
+msgstr "Teachdaireachd"
 
 #: /media/js/settings_app.js:25
 msgid "App approved"
-msgstr ""
+msgstr "Ghabhadh ris an aplacaid"
 
 #: /media/js/settings_app.js:26
 msgid "App rejected"
-msgstr ""
+msgstr "Chaidh an aplacaid a dhiùltadh"
 
 #: /media/js/settings_app.js:27
 msgid "App banned"
-msgstr ""
+msgstr "Chaidh an aplacaid a thoirmeasg"
 
 #: /media/js/settings_app.js:28
 msgid "Reviewer comment"
@@ -373,9 +382,13 @@ msgid "There are no more older notes."
 msgstr "Chan eil barrachd nòtaichean nas sine ann."
 
 #: /media/js/views/comm.js:205
-msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
+msgid ""
+"By unsubscribing from this thread, you will no longer receive email "
+"notifications from this thread. Are you sure?"
 msgstr ""
 
 #: /media/js/views/comm.js:210
-msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
+msgid ""
+"Successfully unsubscribed. You will no longer receive email notifications "
+"for that thread."
 msgstr ""
