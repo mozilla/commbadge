@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -53,15 +53,11 @@ msgstr "An t-inneal luirg"
 
 #: /templates/footer.html:24
 msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, "
-"content on this site is licensed under the <a href=\"{cc_url}\" "
-"target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> "
-"or any later version."
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
 msgstr ""
-"Mur eil an caochladh 'ga innse <a href=\"{legal_url}\" "
-"target=\"_blank\">noted</a>, tha an t-susbaint air an làrach seo fo <a "
-"href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike"
-" License v3.0</a> no tionndadh sam bith nas ùire."
+"Mur eil an caochladh 'ga innse <a href=\"{legal_url}\" target=\"_blank\">noted</a>, tha an t-susbaint air an làrach seo fo <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> no tionndadh sam bith nas ùire."
 
 #: /templates/footer.html:29
 msgid "Privacy Policy"
@@ -99,8 +95,7 @@ msgstr "Feumaidh tu clàradh a-steach mus urrainn dhut leantainn air adhart."
 msgid "Sign in / Sign up"
 msgstr "Clàraich a-steach/Clàraich leinn"
 
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15
-#: /templates/comm/no_notes.html:1
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
 msgid "No notes found"
 msgstr "Cha deach nòta a lorg"
 
@@ -148,8 +143,7 @@ msgstr[1] "{0} nòta"
 msgstr[2] "{0} nòtaichean"
 msgstr[3] "{0} nòta"
 
-#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83
-#: /media/js/views/comm.js:155
+#: /templates/_macros/thread_header.html:33 /media/js/views/comm.js:83 /media/js/views/comm.js:155
 msgid "Reply"
 msgstr "Freagair"
 
@@ -203,8 +197,7 @@ msgstr "Chan eil thu an sàs ann an cuspair conaltraidh sam bith an-dràsta."
 
 #: /templates/comm/main.html:16
 msgid "Sorry, an error has occurred. Try logging in again."
-msgstr ""
-"Duilich ach thachair mearachd. Feuch an clàraich thu a-steach a-rithist."
+msgstr "Duilich ach thachair mearachd. Feuch an clàraich thu a-steach a-rithist."
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
@@ -237,9 +230,7 @@ msgstr "Thachair mearachd."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
-msgstr ""
-"Thachair mearachd fhad 's a dh'fheuch sinn ri barrachd fiosrachaidh a "
-"luchdadh"
+msgstr "Thachair mearachd fhad 's a dh'fheuch sinn ri barrachd fiosrachaidh a luchdadh"
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
@@ -382,13 +373,9 @@ msgid "There are no more older notes."
 msgstr "Chan eil barrachd nòtaichean nas sine ann."
 
 #: /media/js/views/comm.js:205
-msgid ""
-"By unsubscribing from this thread, you will no longer receive email "
-"notifications from this thread. Are you sure?"
+msgid "By unsubscribing from this thread, you will no longer receive email notifications from this thread. Are you sure?"
 msgstr ""
 
 #: /media/js/views/comm.js:210
-msgid ""
-"Successfully unsubscribed. You will no longer receive email notifications "
-"for that thread."
+msgid "Successfully unsubscribed. You will no longer receive email notifications for that thread."
 msgstr ""
