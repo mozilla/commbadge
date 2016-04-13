@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-10T17:13:10.671Z\n"
+"POT-Creation-Date: 2016-04-13T16:51:50.784Z\n"
 "PO-Revision-Date: 2015-10-05 07:25+0000\n"
 "Last-Translator: Matjaž Horvat <matjaz.horvat@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,6 +26,30 @@ msgstr "Ne"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Da"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Komunikacijska nadzorna plošča"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Izpis"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Vpišite se"
+
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "Vpišite se"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Za nadaljevanje se morate vpisati."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Vpis / Prijava"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -71,33 +95,13 @@ msgstr "Pogoji uporabe"
 msgid "Report Trademark Abuse"
 msgstr "Prijavi zlorabo blagovne znamke"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Komunikacijska nadzorna plošča"
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Priponka"
 
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Izpis"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Vpišite se"
-
-#: /templates/login.html:2 /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "Vpišite se"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Za nadaljevanje se morate vpisati."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Vpis / Prijava"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Ni najdenih beležk"
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Opis datoteke"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -115,13 +119,25 @@ msgstr "Pripni dodatno datoteko"
 msgid "Post"
 msgstr "Objavi"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Priponka"
+#: /templates/_macros/thread.html:15 /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Ni najdenih beležk"
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Opis datoteke"
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Poglej starejše"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Ikona aplikacije"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Prikazovanje vseh niti {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Pojdi nazaj na stran za urejanje aplikacije"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -163,26 +179,6 @@ msgstr "Odjavi se"
 msgid "Review"
 msgstr "Pregled"
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Poglej starejše"
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Prazna beležka"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Ikona aplikacije"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Prikazovanje vseh niti {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Pojdi nazaj na stran za urejanje aplikacije"
-
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "Moje teme"
@@ -199,22 +195,9 @@ msgstr "Trenutno ne sodelujete v nobeni komunikacijski temi."
 msgid "Sorry, an error has occurred. Try logging in again."
 msgstr "Oprostite, prišlo je do napake. Poskusite se ponovno vpisati."
 
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "Različica te aplikacije"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{številka_različice}"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Oh, ne!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Stran, ki ste jo iskali, ni bila najdena."
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Prazna beležka"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -224,9 +207,26 @@ msgstr "Ogledujem temo za {naziv_aplikacije}"
 msgid "Back to all threads for {app_name}"
 msgstr "Nazaj na vse teme o {naziv_aplikacije}"
 
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "Različica te aplikacije"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{številka_različice}"
+
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "Oh, ne!"
+
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "Prišlo je do napake."
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Stran, ki ste jo iskali, ni bila najdena."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"

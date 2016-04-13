@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-10T17:13:10.671Z\n"
+"POT-Creation-Date: 2016-04-13T16:51:50.784Z\n"
 "PO-Revision-Date: 2016-03-08 18:12+0000\n"
 "Last-Translator: GunChleoc <fios@foramnagaidhlig.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,6 +26,30 @@ msgstr "Chan eil"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Tha"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Deas-bhòrd a' chonaltraidh"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Clàraich a-mach"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Clàraich a-steach"
+
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "Clàraich a-steach"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Feumaidh tu clàradh a-steach mus urrainn dhut leantainn air adhart."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Clàraich a-steach/Clàraich leinn"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -71,33 +95,13 @@ msgstr "Teirmichean a' chleachdaidh"
 msgid "Report Trademark Abuse"
 msgstr "Dèan aithris air mì-chleachdadh comarra-malairt"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Deas-bhòrd a' chonaltraidh"
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Ceanglachan"
 
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Clàraich a-mach"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Clàraich a-steach"
-
-#: /templates/login.html:2 /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "Clàraich a-steach"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Feumaidh tu clàradh a-steach mus urrainn dhut leantainn air adhart."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Clàraich a-steach/Clàraich leinn"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Cha deach nòta a lorg"
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Tuairisgeul an fhaidhle"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -115,13 +119,25 @@ msgstr "Ceangail faidhle eile ris"
 msgid "Post"
 msgstr "Cuir"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Ceanglachan"
+#: /templates/_macros/thread.html:15 /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Cha deach nòta a lorg"
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Tuairisgeul an fhaidhle"
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Seall an fheadhainn nas sine"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Ìomhaigheag na h-aplacaid"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "A’ sealltainn gach cuspair airson {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Till dhan aplacaid gus an duilleag a dheasachadh"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -163,26 +179,6 @@ msgstr "Sguir dhen fho-sgrìobhadh"
 msgid "Review"
 msgstr "Lèirmheas"
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Seall an fheadhainn nas sine"
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Nòta bàn"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Ìomhaigheag na h-aplacaid"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "A’ sealltainn gach cuspair airson {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Till dhan aplacaid gus an duilleag a dheasachadh"
-
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "Na cuspairean agam"
@@ -199,22 +195,9 @@ msgstr "Chan eil thu an sàs ann an cuspair conaltraidh sam bith an-dràsta."
 msgid "Sorry, an error has occurred. Try logging in again."
 msgstr "Duilich ach thachair mearachd. Feuch an clàraich thu a-steach a-rithist."
 
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "Tionndaidhean dhen aplacaid seo"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "t.{version_number}"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Mo chreach!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Cha b' urrainn dhuinn an duilleag a bha a dhìth ort a lorg."
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Nòta bàn"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -224,9 +207,26 @@ msgstr "A’ sealltainn an cuspair air {app_name}"
 msgid "Back to all threads for {app_name}"
 msgstr "Till dhan a h-uile cuspair air {app_name}"
 
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "Tionndaidhean dhen aplacaid seo"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "t.{version_number}"
+
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "Mo chreach!"
+
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "Thachair mearachd."
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Cha b' urrainn dhuinn an duilleag a bha a dhìth ort a lorg."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-10T17:13:10.671Z\n"
+"POT-Creation-Date: 2016-04-13T16:51:50.784Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -24,6 +24,30 @@ msgstr "No"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Yes"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Communication Dashboard"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Sign Out"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Sign In"
+
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "Sign in"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "You must sign in to proceed."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Sign in / Sign up"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -69,33 +93,13 @@ msgstr "Terms of Use"
 msgid "Report Trademark Abuse"
 msgstr "Report Trademark Abuse"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Communication Dashboard"
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Attachment"
 
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Sign Out"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Sign In"
-
-#: /templates/login.html:2 /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "Sign in"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "You must sign in to proceed."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Sign in / Sign up"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "No notes found"
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "File Description"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -113,13 +117,25 @@ msgstr "Attach another file"
 msgid "Post"
 msgstr "Post"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Attachment"
+#: /templates/_macros/thread.html:15 /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "No notes found"
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "File Description"
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "View older"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "App icon"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Viewing All Threads for {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Go back to app edit page"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -159,26 +175,6 @@ msgstr "Unsubscribe"
 msgid "Review"
 msgstr "Review"
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "View older"
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Empty note"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "App icon"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Viewing All Threads for {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Go back to app edit page"
-
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "My Threads"
@@ -195,22 +191,9 @@ msgstr "You currently are not involved in any communication threads."
 msgid "Sorry, an error has occurred. Try logging in again."
 msgstr "Sorry, an error has occurred. Try logging in again."
 
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "This App's Versions"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Oh no!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "The page you were looking for was not found."
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Empty note"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -220,9 +203,26 @@ msgstr "Viewing Thread for {app_name}"
 msgid "Back to all threads for {app_name}"
 msgstr "Back to all threads for {app_name}"
 
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "This App's Versions"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
+
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "Oh no!"
+
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "An error occurred."
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "The page you were looking for was not found."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"

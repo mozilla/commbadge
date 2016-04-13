@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-10T17:13:10.671Z\n"
+"POT-Creation-Date: 2016-04-13T16:51:50.784Z\n"
 "PO-Revision-Date: 2015-03-09 13:32+0100\n"
 "Last-Translator: Wojciech Szczęsny\n"
 "Language-Team: Polish <team@aviary.pl>\n"
@@ -25,6 +25,30 @@ msgstr "Tak"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Nie"
+
+#: /templates/header.html:2
+msgid "Communication Dashboard"
+msgstr "Panel komunikacyjny"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Wyloguj"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Zaloguj"
+
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "Zaloguj się"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Musisz zalogować się, aby kontynuować."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Logowanie / Rejestracja"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -70,33 +94,13 @@ msgstr "Warunki korzystania"
 msgid "Report Trademark Abuse"
 msgstr "Nadużycie znaku towarowego"
 
-#: /templates/header.html:2
-msgid "Communication Dashboard"
-msgstr "Panel komunikacyjny"
+#: /templates/_includes/attachment_field.html:4
+msgid "Attachment"
+msgstr "Załącznik"
 
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Wyloguj"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Zaloguj"
-
-#: /templates/login.html:2 /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "Zaloguj się"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Musisz zalogować się, aby kontynuować."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Logowanie / Rejestracja"
-
-#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Nie znaleziono notatek"
+#: /templates/_includes/attachment_field.html:10
+msgid "File Description"
+msgstr "Opis pliku"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -114,13 +118,25 @@ msgstr "Załącz kolejny plik"
 msgid "Post"
 msgstr "Wpis"
 
-#: /templates/_includes/attachment_field.html:4
-msgid "Attachment"
-msgstr "Załącznik"
+#: /templates/_macros/thread.html:15 /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Nie znaleziono notatek"
 
-#: /templates/_includes/attachment_field.html:10
-msgid "File Description"
-msgstr "Opis pliku"
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Zobacz starsze"
+
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Ikona aplikacji"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Przeglądanie wszystkich wątków dla: {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Wróć do strony edytowania aplikacji"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -161,26 +177,6 @@ msgstr "Anuluj subskrypcję"
 msgid "Review"
 msgstr "Sprawdzenie"
 
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Zobacz starsze"
-
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Pusta notatka"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Ikona aplikacji"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Przeglądanie wszystkich wątków dla: {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Wróć do strony edytowania aplikacji"
-
 #: /templates/comm/main.html:3
 msgid "My Threads"
 msgstr "Moje wątki"
@@ -197,22 +193,9 @@ msgstr "Obecnie nie bierzesz udziału w żadnych wątkach."
 msgid "Sorry, an error has occurred. Try logging in again."
 msgstr "Przepraszamy, wystąpił błąd. Spróbuj zalogować się ponownie."
 
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "Wersje tej aplikacji"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "v.{version_number}"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "O nie!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Nie znaleziono poszukiwanej strony."
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Pusta notatka"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -222,9 +205,26 @@ msgstr "Przeglądanie wątku dla: {app_name}"
 msgid "Back to all threads for {app_name}"
 msgstr "Wróć do wszystkich wątków dla: {app_name}"
 
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "Wersje tej aplikacji"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "v.{version_number}"
+
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "O nie!"
+
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "Wystąpił błąd."
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Nie znaleziono poszukiwanej strony."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
