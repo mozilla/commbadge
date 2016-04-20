@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-13T16:51:50.784Z\n"
+"POT-Creation-Date: 2016-04-20T17:36:41.530Z\n"
 "PO-Revision-Date: 2016-01-24 10:43+0000\n"
 "Last-Translator: Timothy Aditya Sutantyo <timisutantyo@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,18 +38,6 @@ msgstr "Keluar"
 #: /templates/header.html:8
 msgid "Sign In"
 msgstr "Masuk"
-
-#: /templates/login.html:2 /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "Masuk"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Anda harus masuk untuk lanjut."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Masuk / Daftar"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -93,6 +81,18 @@ msgstr ""
 msgid "Report Trademark Abuse"
 msgstr ""
 
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "Masuk"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Anda harus masuk untuk lanjut."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Masuk / Daftar"
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr ""
@@ -100,6 +100,14 @@ msgstr ""
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
 msgstr "Penjelasan Berkas"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Tidak ditemukan catatan"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr ""
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -115,26 +123,6 @@ msgstr ""
 
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
-msgstr ""
-
-#: /templates/_macros/thread.html:15 /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Tidak ditemukan catatan"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr ""
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Ikon aplikasi"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr ""
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
 msgstr ""
 
 #: /templates/_macros/thread_header.html:18
@@ -190,9 +178,17 @@ msgstr ""
 msgid "Sorry, an error has occurred. Try logging in again."
 msgstr "Maaf, kesalahan terjadi. Cobalah masuk lagi."
 
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Catatan kosong"
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Ikon aplikasi"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr ""
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr ""
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -201,6 +197,26 @@ msgstr ""
 #: /templates/comm/show_thread.html:10
 msgid "Back to all threads for {app_name}"
 msgstr ""
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Catatan kosong"
+
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "Tidak!"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Kesalahan terjadi."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr ""
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Coba Lagi"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
@@ -211,25 +227,9 @@ msgstr "Versi-versi Aplikasi Ini"
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "Tidak!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Kesalahan terjadi."
-
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
 msgstr ""
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr ""
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Coba Lagi"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

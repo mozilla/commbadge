@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-13T16:51:50.784Z\n"
+"POT-Creation-Date: 2016-04-20T17:36:41.530Z\n"
 "PO-Revision-Date: 2015-05-16 05:41+0000\n"
 "Last-Translator: Biraj <brnet00@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,18 +37,6 @@ msgstr "সাইন আউট"
 #: /templates/header.html:8
 msgid "Sign In"
 msgstr "সাইন ইন"
-
-#: /templates/login.html:2 /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "সাইন ইন"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "আপনাকে এগিয়ে যেতে সাইন ইন করতে হবে।"
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "সাইন ইন / সাইন আপ করুন"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -94,6 +82,18 @@ msgstr "ব্যবহারের শর্তাবলী"
 msgid "Report Trademark Abuse"
 msgstr "ট্রেডমার্ক অপব্যবহার সম্বন্ধে রিপোর্ট"
 
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "সাইন ইন"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "আপনাকে এগিয়ে যেতে সাইন ইন করতে হবে।"
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "সাইন ইন / সাইন আপ করুন"
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr "সংযুক্তি"
@@ -101,6 +101,14 @@ msgstr "সংযুক্তি"
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
 msgstr "ফাইলর বিবরণ"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "কোন নোটা পাওয়া যায়নি"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "দেখুন পুরোনো"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -117,26 +125,6 @@ msgstr "আরেকটি ফাইল সংযুক্ত করুন"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "পোষ্ট করুন"
-
-#: /templates/_macros/thread.html:15 /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "কোন নোটা পাওয়া যায়নি"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "দেখুন পুরোনো"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "অ্যাপ আইকন"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "{app_name} জন্য সকল টপিক দেখছেন"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "অ্যাপ সম্পাদনা পৃষ্ঠায়ে ফিরে যান"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -192,9 +180,17 @@ msgstr "আপনি বর্তমানে কোনো কথোপকথন
 msgid "Sorry, an error has occurred. Try logging in again."
 msgstr "দুঃখিত, একটি ত্রুটি ঘটেছে। পুনরায় লগ-ইন করতে চেষ্টা করুন।"
 
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "খালি নোট"
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "অ্যাপ আইকন"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "{app_name} জন্য সকল টপিক দেখছেন"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "অ্যাপ সম্পাদনা পৃষ্ঠায়ে ফিরে যান"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -203,6 +199,26 @@ msgstr "{অ্যাপ_নেম} জন্য থ্রেড দেখছে
 #: /templates/comm/show_thread.html:10
 msgid "Back to all threads for {app_name}"
 msgstr "পিছনে {app_name} জন্য সকল টপিক থেকে"
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "খালি নোট"
+
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "ওহ না!"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "সমস্যা দেখা দিয়েছে।"
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "ত্রুটি লোড হচ্ছে আরও"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "পুনরায় চেষ্টা করুন"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
@@ -213,25 +229,9 @@ msgstr "এই অ্যাপ এর সংস্করণ"
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "ওহ না!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "সমস্যা দেখা দিয়েছে।"
-
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
 msgstr "আপনি যেই পাতা খুজছিলেন সেটি পাওয়া জায়েনি।"
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "ত্রুটি লোড হচ্ছে আরও"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "পুনরায় চেষ্টা করুন"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

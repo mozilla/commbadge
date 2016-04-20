@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-13T16:51:50.784Z\n"
+"POT-Creation-Date: 2016-04-20T17:36:41.530Z\n"
 "PO-Revision-Date: 2015-04-01 08:46+0000\n"
 "Last-Translator: Wim <fryskefirefox@gmail.com>\n"
 "Language-Team: FRISIAN <LL@li.org>\n"
@@ -37,18 +37,6 @@ msgstr "Ofmelde"
 #: /templates/header.html:8
 msgid "Sign In"
 msgstr "Oanmelde"
-
-#: /templates/login.html:2 /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "Oanmelde"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Jo moatte jo oanmelde om troch te gean."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Oanmelde / registrearje"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -94,6 +82,18 @@ msgstr "Brûkersbetingsten"
 msgid "Report Trademark Abuse"
 msgstr "Misbrûk fan hannelsmerk melde"
 
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "Oanmelde"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Jo moatte jo oanmelde om troch te gean."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Oanmelde / registrearje"
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr "Bylage"
@@ -101,6 +101,14 @@ msgstr "Bylage"
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
 msgstr "Bestânsbeskriuwing"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Gjin opmerkingen fûn"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Aldere werjaan"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -117,26 +125,6 @@ msgstr "Noch in bestân tafoegje"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "Pleatse"
-
-#: /templates/_macros/thread.html:15 /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Gjin opmerkingen fûn"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Aldere werjaan"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "App-piktogram"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Alle konversaasjes foar {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Tebek nei app-bewurkingsside"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -193,10 +181,17 @@ msgstr "Jo binne no net by ien konversaasjes belutsen."
 msgid "Sorry, an error has occurred. Try logging in again."
 msgstr "Sorry, der is in flater bard. Probearje jo opnij oan te melden."
 
-# Empty als werkwoord of als bijvoeglijk naamwoord? Vooralsnog gekozen voor het laatste.
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Lege opmerking"
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "App-piktogram"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Alle konversaasjes foar {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Tebek nei app-bewurkingsside"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -205,6 +200,27 @@ msgstr "Konversaasje foar {app_name}"
 #: /templates/comm/show_thread.html:10
 msgid "Back to all threads for {app_name}"
 msgstr "Tebek nei alle konversaasjes foar {app_name}"
+
+# Empty als werkwoord of als bijvoeglijk naamwoord? Vooralsnog gekozen voor het laatste.
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Lege opmerking"
+
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "Oh nee!"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Der is in flater bard."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Flater by laden fan mear"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Opnij probearje"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
@@ -215,25 +231,9 @@ msgstr "Ferzjes fan dizze app"
 msgid "v.{version_number}"
 msgstr "f.{version_number}"
 
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "Oh nee!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Der is in flater bard."
-
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
 msgstr "De troch jo sochte side is net fûn."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Flater by laden fan mear"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Opnij probearje"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-13T16:51:50.784Z\n"
+"POT-Creation-Date: 2016-04-20T17:36:41.530Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,19 +36,6 @@ msgstr "‮Sıƃu Onʇ"
 #: /templates/header.html:8
 msgid "Sign In"
 msgstr "‮Sıƃu Iu"
-
-#: /templates/login.html:2
-#: /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "‮Sıƃu ıu"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "‮⅄on ɯnsʇ sıƃu ıu ʇo dɹoɔǝǝp˙"
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "‮Sıƃu ıu / Sıƃu nd"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -94,6 +81,19 @@ msgstr "‮⊥ǝɹɯs oɟ ∩sǝ"
 msgid "Report Trademark Abuse"
 msgstr "‮ᴚǝdoɹʇ ⊥ɹɐpǝɯɐɹʞ ∀qnsǝ"
 
+#: /templates/login.html:2
+#: /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "‮Sıƃu ıu"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "‮⅄on ɯnsʇ sıƃu ıu ʇo dɹoɔǝǝp˙"
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "‮Sıƃu ıu / Sıƃu nd"
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr "‮∀ʇʇɐɔɥɯǝuʇ"
@@ -101,6 +101,16 @@ msgstr "‮∀ʇʇɐɔɥɯǝuʇ"
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
 msgstr "‮Ⅎıʅǝ ᗡǝsɔɹıdʇıou"
+
+#: /templates/_macros/create_thread.html:10
+#: /templates/_macros/thread.html:15
+#: /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "‮No uoʇǝs ɟonup"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "‮Ʌıǝʍ oʅpǝɹ"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -117,28 +127,6 @@ msgstr "‮∀ʇʇɐɔɥ ɐuoʇɥǝɹ ɟıʅǝ"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "‮Ԁosʇ"
-
-#: /templates/_macros/thread.html:15
-#: /templates/_macros/create_thread.html:10
-#: /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "‮No uoʇǝs ɟonup"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "‮Ʌıǝʍ oʅpǝɹ"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "‮∀dd ıɔou"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "‮Ʌıǝʍıuƃ ∀ʅʅ ⊥ɥɹǝɐps ɟoɹ {ɐdd_uɐɯǝ}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "‮⅁o qɐɔʞ ʇo ɐdd ǝpıʇ dɐƃǝ"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -197,9 +185,17 @@ msgstr "‮⅄on ɔnɹɹǝuʇʅʎ ɐɹǝ uoʇ ıuʌoʅʌǝp ıu ɐuʎ ɔoɯɯnu�
 msgid "Sorry, an error has occurred. Try logging in again."
 msgstr "‮Soɹɹʎ´ ɐu ǝɹɹoɹ ɥɐs oɔɔnɹɹǝp˙ ⊥ɹʎ ʅoƃƃıuƃ ıu ɐƃɐıu˙"
 
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "‮Ǝɯdʇʎ uoʇǝ"
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "‮∀dd ıɔou"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "‮Ʌıǝʍıuƃ ∀ʅʅ ⊥ɥɹǝɐps ɟoɹ {ɐdd_uɐɯǝ}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "‮⅁o qɐɔʞ ʇo ɐdd ǝpıʇ dɐƃǝ"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -209,14 +205,9 @@ msgstr "‮Ʌıǝʍıuƃ ⊥ɥɹǝɐp ɟoɹ {ɐdd_uɐɯǝ}"
 msgid "Back to all threads for {app_name}"
 msgstr "‮Ԑɐɔʞ ʇo ɐʅʅ ʇɥɹǝɐps ɟoɹ {ɐdd_uɐɯǝ}"
 
-#: /templates/comm/threads_nav.html:2
-msgid "This App's Versions"
-msgstr "‮⊥ɥıs ∀dd,s Ʌǝɹsıous"
-
-#. the `v` commonly denotes 'version.'
-#: /templates/comm/threads_nav.html:7
-msgid "v.{version_number}"
-msgstr "‮ʌ˙{ʌǝɹsıou_unɯqǝɹ}"
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "‮Ǝɯdʇʎ uoʇǝ"
 
 #: /templates/errors/fragment.html:1
 #: /templates/errors/404.html:2
@@ -227,10 +218,6 @@ msgstr "‮Oɥ uo¡"
 msgid "An error occurred."
 msgstr "‮∀u ǝɹɹoɹ oɔɔnɹɹǝp˙"
 
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "‮⊥ɥǝ dɐƃǝ ʎon ʍǝɹǝ ʅooʞıuƃ ɟoɹ ʍɐs uoʇ ɟonup˙"
-
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "‮Ǝɹɹoɹ ʅoɐpıuƃ ɯoɹǝ"
@@ -238,6 +225,19 @@ msgstr "‮Ǝɹɹoɹ ʅoɐpıuƃ ɯoɹǝ"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "‮⊥ɹʎ ∀ƃɐıu"
+
+#: /templates/comm/threads_nav.html:2
+msgid "This App's Versions"
+msgstr "‮⊥ɥıs ∀dd,s Ʌǝɹsıous"
+
+#. the `v` commonly denotes 'version.'
+#: /templates/comm/threads_nav.html:7
+msgid "v.{version_number}"
+msgstr "‮ʌ˙{ʌǝɹsıou_unɯqǝɹ}"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "‮⊥ɥǝ dɐƃǝ ʎon ʍǝɹǝ ʅooʞıuƃ ɟoɹ ʍɐs uoʇ ɟonup˙"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

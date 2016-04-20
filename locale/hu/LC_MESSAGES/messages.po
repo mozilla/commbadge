@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-13T16:51:50.784Z\n"
+"POT-Creation-Date: 2016-04-20T17:36:41.530Z\n"
 "PO-Revision-Date: 2015-05-14 15:10+0000\n"
 "Last-Translator: Gabor Kelemen <kelemeng@ubuntu.com>\n"
 "Language-Team: none\n"
@@ -38,18 +38,6 @@ msgstr "Kijelentkezés"
 #: /templates/header.html:8
 msgid "Sign In"
 msgstr "Bejelentkezés"
-
-#: /templates/login.html:2 /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "Bejelentkezés"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Be kell jelentkeznie a folytatáshoz."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Bejelentkezés/regisztráció"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -95,6 +83,18 @@ msgstr "Felhasználási feltételek"
 msgid "Report Trademark Abuse"
 msgstr "Védjeggyel kapcsolatos visszaélés jelentése"
 
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "Bejelentkezés"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Be kell jelentkeznie a folytatáshoz."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Bejelentkezés/regisztráció"
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr "Melléklet"
@@ -102,6 +102,14 @@ msgstr "Melléklet"
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
 msgstr "Fájl leírása"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "Nincsenek jegyzetek"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Régebbi megjelenítése"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -118,26 +126,6 @@ msgstr "Másik fájl csatolása"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "Küldés"
-
-#: /templates/_macros/thread.html:15 /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "Nincsenek jegyzetek"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Régebbi megjelenítése"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "App ikon"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "{app_name} minden szálának megjelenítése"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Vissza az app szerkesztés oldalra"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -193,9 +181,17 @@ msgstr "Jelenleg nem tagja egyetlen kommunikációs szálnak sem."
 msgid "Sorry, an error has occurred. Try logging in again."
 msgstr "Elnézést, hiba történt. Próbáljon meg bejelentkezni újra."
 
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Üres jegyzet"
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "App ikon"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "{app_name} minden szálának megjelenítése"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Vissza az app szerkesztés oldalra"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -204,6 +200,26 @@ msgstr "{app_name} szálának megjelenítése"
 #: /templates/comm/show_thread.html:10
 msgid "Back to all threads for {app_name}"
 msgstr "Vissza {app_name} összes szálához"
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Üres jegyzet"
+
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "Na ne!"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Hiba történt."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Hiba továbbiak betöltésekor"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Próbálja újra"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
@@ -214,25 +230,9 @@ msgstr "Az app verziói"
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "Na ne!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Hiba történt."
-
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
 msgstr "A keresett oldal nem található."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Hiba továbbiak betöltésekor"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Próbálja újra"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

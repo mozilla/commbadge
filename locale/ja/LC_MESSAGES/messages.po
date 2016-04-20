@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-13T16:51:50.784Z\n"
+"POT-Creation-Date: 2016-04-20T17:36:41.530Z\n"
 "PO-Revision-Date: 2015-03-04 12:36-0500\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
@@ -37,18 +37,6 @@ msgstr "ログアウト"
 #: /templates/header.html:8
 msgid "Sign In"
 msgstr "ログイン"
-
-#: /templates/login.html:2 /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "ログイン"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "続けるにはログインしてください。"
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "ログイン / ユーザ登録"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -94,6 +82,18 @@ msgstr "利用規約"
 msgid "Report Trademark Abuse"
 msgstr "商標不正使用報告"
 
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "ログイン"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "続けるにはログインしてください。"
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "ログイン / ユーザ登録"
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr "添付ファイル"
@@ -101,6 +101,14 @@ msgstr "添付ファイル"
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
 msgstr "ファイル説明"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "ノートがが見つかりませんでした"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "以前の記事を表示"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -117,26 +125,6 @@ msgstr "他のファイルを添付"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "投稿"
-
-#: /templates/_macros/thread.html:15 /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "ノートがが見つかりませんでした"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "以前の記事を表示"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "アプリのアイコン"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "{app_name} のすべてのスレッドを表示しています"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "アプリ編集ページへ戻る"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -191,9 +179,17 @@ msgstr "あなたはまだどのコミュニケーションスレッドにも参
 msgid "Sorry, an error has occurred. Try logging in again."
 msgstr "申し訳ありませんが、何か問題が発生しました。再度ログインしてみてください。"
 
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "空白のノート"
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "アプリのアイコン"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "{app_name} のすべてのスレッドを表示しています"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "アプリ編集ページへ戻る"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -202,6 +198,26 @@ msgstr "{app_name} のスレッドを表示しています"
 #: /templates/comm/show_thread.html:10
 msgid "Back to all threads for {app_name}"
 msgstr "{app_name} のすべてのスレッドへ戻る"
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "空白のノート"
+
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "Not Found"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "問題が発生しました。"
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "読み込み中に問題が発生しました"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "再読み込み"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
@@ -212,25 +228,9 @@ msgstr "このアプリのバージョン"
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "Not Found"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "問題が発生しました。"
-
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
 msgstr "お探しのページは見つかりませんでした。"
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "読み込み中に問題が発生しました"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "再読み込み"
 
 #: /media/js/settings_app.js:24
 msgid "Message"

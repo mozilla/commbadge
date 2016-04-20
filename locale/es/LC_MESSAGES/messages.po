@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-13T16:51:50.784Z\n"
+"POT-Creation-Date: 2016-04-20T17:36:41.530Z\n"
 "PO-Revision-Date: 2015-10-28 17:00+0000\n"
 "Last-Translator: Matjaž <m@owca.info>\n"
 "Language-Team: Español (España) <nave@elistas.net>\n"
@@ -38,18 +38,6 @@ msgstr "Salir"
 #: /templates/header.html:8
 msgid "Sign In"
 msgstr "Identificarse"
-
-#: /templates/login.html:2 /media/js/views/login.js:12
-msgid "Sign in"
-msgstr "Identificarse"
-
-#: /templates/login.html:3
-msgid "You must sign in to proceed."
-msgstr "Debes identificarte para continuar."
-
-#: /templates/login.html:4
-msgid "Sign in / Sign up"
-msgstr "Identificarse / Registrarse"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -95,6 +83,18 @@ msgstr "Condiciones de uso"
 msgid "Report Trademark Abuse"
 msgstr "Informar sobre infracción de marca"
 
+#: /templates/login.html:2 /media/js/views/login.js:12
+msgid "Sign in"
+msgstr "Identificarse"
+
+#: /templates/login.html:3
+msgid "You must sign in to proceed."
+msgstr "Debes identificarte para continuar."
+
+#: /templates/login.html:4
+msgid "Sign in / Sign up"
+msgstr "Identificarse / Registrarse"
+
 #: /templates/_includes/attachment_field.html:4
 msgid "Attachment"
 msgstr "Adjunto"
@@ -102,6 +102,14 @@ msgstr "Adjunto"
 #: /templates/_includes/attachment_field.html:10
 msgid "File Description"
 msgstr "Descripción del archivo"
+
+#: /templates/_macros/create_thread.html:10 /templates/_macros/thread.html:15 /templates/comm/no_notes.html:1
+msgid "No notes found"
+msgstr "No se encontraron notas"
+
+#: /templates/_macros/thread.html:20
+msgid "View older"
+msgstr "Ver anteriores"
 
 #: /templates/_macros/reply_box.html:2
 msgid "Enter note text here"
@@ -118,26 +126,6 @@ msgstr "Adjuntar otro archivo"
 #: /templates/_macros/reply_box.html:13
 msgid "Post"
 msgstr "Publicar"
-
-#: /templates/_macros/thread.html:15 /templates/_macros/create_thread.html:10 /templates/comm/no_notes.html:1
-msgid "No notes found"
-msgstr "No se encontraron notas"
-
-#: /templates/_macros/thread.html:20
-msgid "View older"
-msgstr "Ver anteriores"
-
-#: /templates/comm/app_dashboard.html:6
-msgid "App icon"
-msgstr "Icono de app"
-
-#: /templates/comm/app_dashboard.html:7
-msgid "Viewing All Threads for {app_name}"
-msgstr "Visualizando todas las conversaciones de {app_name}"
-
-#: /templates/comm/app_dashboard.html:10
-msgid "Go back to app edit page"
-msgstr "Volver a página de edición de app"
 
 #: /templates/_macros/thread_header.html:18
 msgid "{app_name} (Version {version_number})"
@@ -193,9 +181,17 @@ msgstr "Actualmente no estás involucrado en ningún hilo de comunicación."
 msgid "Sorry, an error has occurred. Try logging in again."
 msgstr "Lo sentimos, ocurrió un error. Intenta iniciar sesión de nuevo."
 
-#: /templates/comm/note_detail.html:12
-msgid "Empty note"
-msgstr "Nota vacía"
+#: /templates/comm/app_dashboard.html:6
+msgid "App icon"
+msgstr "Icono de app"
+
+#: /templates/comm/app_dashboard.html:7
+msgid "Viewing All Threads for {app_name}"
+msgstr "Visualizando todas las conversaciones de {app_name}"
+
+#: /templates/comm/app_dashboard.html:10
+msgid "Go back to app edit page"
+msgstr "Volver a página de edición de app"
 
 #: /templates/comm/show_thread.html:7
 msgid "Viewing Thread for {app_name}"
@@ -204,6 +200,26 @@ msgstr "Ver temas de {app_name}"
 #: /templates/comm/show_thread.html:10
 msgid "Back to all threads for {app_name}"
 msgstr "Volver a todos los temas de {app_name}"
+
+#: /templates/comm/note_detail.html:12
+msgid "Empty note"
+msgstr "Nota vacía"
+
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "¡Oh, no!"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Se produjo un error."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Error al cargar más"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Intentar de nuevo"
 
 #: /templates/comm/threads_nav.html:2
 msgid "This App's Versions"
@@ -214,25 +230,9 @@ msgstr "Versiones de esta app"
 msgid "v.{version_number}"
 msgstr "v.{version_number}"
 
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "¡Oh, no!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Se produjo un error."
-
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
 msgstr "No se encontró la página que buscabas."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Error al cargar más"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Intentar de nuevo"
 
 #: /media/js/settings_app.js:24
 msgid "Message"
